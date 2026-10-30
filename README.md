@@ -37,7 +37,8 @@ lang-experimental ではランキング（Daily 等）の取得・送信がゲ�
 | フォント | 11MB の Noto フォントを同梱、4096px アトラス | Windows 標準フォント（BIZ UDゴシック → 游ゴシック → メイリオ → MSゴシック）を起動時に1回登録 |
 | データ翻訳（アイテム・クリーチャー・会話・変異・スキル・書物など） | XML | 同じ XML をそのまま流用（ゲーム本体が読み込むので実行時コストなし） |
 | ツールチップで日本語が透明になる問題 | 表示のたびにツールチップを作り直して修復 | 日本語を含むテキストだけ、描画前に透明度を親に合わせる（[SubMeshAlphaFix.cs](QudJPLite/SubMeshAlphaFix.cs)） |
-| UI・戦闘メッセージ・自動生成文 | Harmony パッチ約530か所＋正規表現で毎回置換（**重さの主因**） | なし（英語のまま） |
+| UI の固定文字列（メニュー・見出し・ボタン等） | Harmony パッチ約530か所＋正規表現で毎回置換（**重さの主因**） | `UITextSkin` の SetText/Apply 入口だけで完全一致の辞書引き（[UITranslation.cs](QudJPLite/UITranslation.cs)、辞書は [tools/build_lite_dict.py](tools/build_lite_dict.py) が QudJP の辞書と自作訳から生成） |
+| 戦闘メッセージ・自動生成文（名前や数が埋め込まれる文） | 同上 | なし（英語のまま） |
 
 ## 使い方
 

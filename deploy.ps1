@@ -32,6 +32,12 @@ foreach ($f in $xmls) {
     Copy-Item $f.FullName $to
 }
 
+# UI 辞書（完全一致の英→日表。QudJP の辞書 + tools/overrides の自作訳）
+$env:PYTHONIOENCODING = 'utf-8'
+New-Item -ItemType Directory -Force $locDest | Out-Null
+python -I (Join-Path $PSScriptRoot 'tools\build_lite_dict.py') $QudJPPath (Join-Path $locDest 'ui-dictionary.tsv')
+if ($LASTEXITCODE -ne 0) { throw "UI辞書の生成に失敗しました" }
+
 # ライセンス表記（QudJP は MIT License）
 Copy-Item (Join-Path $QudJPPath 'LICENSE') (Join-Path $dest 'LICENSE-QudJP.txt')
 
