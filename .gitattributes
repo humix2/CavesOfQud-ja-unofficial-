@@ -1,0 +1,4 @@
+# 翻訳データは UTF-8 / LF のまま扱う（Windows の改行変換で TSV・XML を壊さない）
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary

@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	Core GameEnd Chronology Header	=decor= Chronology for {{W|=player.name=}} =decor=
+2	Strings.example.xml	Core Cannot Flee	You can't find a way to flee from =object.the.name=.
+3	Strings.example.xml	Core MarkOfDeathReveal	You recover the Mark of Death of the late sultanate.
+4	Strings.example.xml	Core GameEnd Summary Title	=decor= Game summary for {{W|=player.name=}} =decor=
+5	Strings.example.xml	Core GameEnd Turns	You survived for {{C|=turns=}} =turns.pluralize:turn=.
+6	Strings.example.xml	Core GameEnd FinalMessages Header	=decor= Final Messages for {{W|=player.name=}} =decor=
+7	Strings.example.xml	Core GameEnd Artifacts	You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.
+8	Strings.example.xml	Core Move To Edge Command DirectionPicker Label	Move to which edge? (=glyph:Up==glyph:Down==glyph:Right==glyph:Left=)
+9	Strings.example.xml	CorpseTethered Effect DisplayName Tag	{{y|[{{Y|tomb-tethered}}]}}
+10	Strings.example.xml	Create new equipment set	Create a new equipment set starting with this equipment
+11	Strings.example.xml	CrematoryMachineRoomTerminal Additional Option	...
+12	Strings.example.xml	CriticalThreshold Description	=bonus.signed=% chance to score critical hits
+13	Strings.example.xml	CrumblesOnHit Message Log	=subject.Does:crumble= to dust!
+14	Strings.example.xml	CryoZone Stop Message	The frigid mist =subject.generalDirectionIfAny= dissipates.
+15	Strings.example.xml	CryoZone Start Message	The air =subject.generalDirectionIfAny= bursts into a field of frigid mist!
+16	Strings.example.xml	Crypt of Warriors - wall description warrior	In tracery around the margins, warriors assemble in hex phalanxes.
+17	Strings.example.xml	Crypt of Warriors - wall description priest	In tracery around the margins, priests burn incense inside of thuribles.
+18	Strings.example.xml	Crypt of Warriors - wall description royal	In tracery around the margins, royals are extolled at sky-kited festivals.
+19	Strings.example.xml	Crypt of Warriors - wall description tutor	In tracery around the margins, tutors instruct pupils in domed amphitheatres.
+20	Strings.example.xml	CrypticParticleText	{{c|'=CRYPTICWORD='}}
+21	Strings.example.xml	Cursed RulesPostfix Default	Cannot be removed once equipped.
+22	Strings.example.xml	Cursed Unequip Fail	You can't remove =object.the.name=.
+23	Strings.example.xml	Customize pronouns popup 'what'	pronoun set
+24	Strings.example.xml	Cybernetics Chargen no cyber line one	{{rules|+1 Toughness}}
+25	Strings.example.xml	Cybernetics Base Item - Short Description Rules	License points: =cost=
+26	Strings.example.xml	Cybernetics RandomCyberImplant	{{implanted|implanted}}
+27	Strings.example.xml	Cybernetics Base Item - Short Description Rules	Destroyed when uninstalled.
+28	Strings.example.xml	Cybernetics Chargen no cyber line two	{{R|-2 License Tier (down to 0)}}
+29	Strings.example.xml	Cybernetics Chargen uninstall warning	{{rules|Destroyed when uninstalled}}
+30	Strings.example.xml	Cybernetics Base Item - Short Description Rules	Target body parts: =slots.commaList=
+31	Strings.example.xml	Cybernetics Base Item - Short Description Rules	Only compatible with True Kin genotypes
+32	Strings.example.xml	Cybernetics Debug Wish 'implant'	No blueprint by the name '=name=' could be found.
+33	Strings.example.xml	Cybernetics Debug Wish 'implant'	No body part by the name '=slot=' could be found.
+34	Strings.example.xml	Cybernetics Cursed	You can't remove =object.the.name:notAsPossessed=.
+35	Strings.example.xml	Cybernetics Debug Wish 'implant'	The blueprint '=blueprint.name=' is not a cybernetic.
+36	Strings.example.xml	Cybernetics Chargen LP cost	{{rules|=blueprint.intpart:CyberneticsBaseItem:Cost=}}
+37	Strings.example.xml	Cybernetics Compute Power Rules Text	Compute power on the local lattice increases this item's effectiveness.
+38	Strings.example.xml	Cybernetics Debug Wish 'implant'	Your =part.ordinalName= =part.isPlural:are:is= implanted with =cybernetic.name=!
+39	Strings.example.xml	CyberneticsCreditWedge DisplayName Base	=credits==glyph.strip:Credits=
+40	Strings.example.xml	CyberneticsCreditWedge RulesPostfix	Credits remaining: {{C|=credits==glyph.strip:Credits=}}
+41	Strings.example.xml	CyberneticsSocialCoprocessor Tech-Scanning Status Name	SocialCoprocessor
+42	Strings.example.xml	CyclopeanPrism AmaranthinePrism DisplayName Ego 0-15 (BaseState, frame=KKKK)	{{K|amaranthine}} prism
+43	Strings.example.xml	CyclopeanPrism AmaranthinePrism DisplayName Ego 16-19 (State1, frame=yKKy)	{{K|amara{{y|n}}thine}} prism
+44	Strings.example.xml	CyclopeanPrism AmaranthinePrism DisplayName Ego 17-23 (State2, frame=yKyY)	{{K|amar{{y|a{{Y|n}}t}}hine}} prism
+45	Strings.example.xml	CyclopeanPrism AmaranthinePrism DisplayName Ego 24-27 (State3, frame=ryYK)	{{K|am{{y|ar{{Y|a{{R|n}}t}}hi}}ne}} prism
+46	Strings.example.xml	CyclopeanPrism AmaranthinePrism DisplayName Ego 28-31 (State4, frame=yYrR)	{{y|am{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}ne}} prism
+47	Strings.example.xml	CyclopeanPrism AmaranthinePrism DisplayName Ego 32+ (State5, frame=yRYr)	{{r|a{{R|m{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}n}}e}} prism
+48	Strings.example.xml	damage penetrations	(x=number.toString=)
+49	Strings.example.xml	DataDisk InventoryActionsEvent Tinker =ingredientList= item name	=subject.name=
+50	Strings.example.xml	DataDisk GetDisplayNameEvent Item	: {{C|=resultingitem=}} <=bitcost=>
+51	Strings.example.xml	DataDisk GetDisplayNameEvent Mod	: [{{W|Item mod}}] - {{C|=modname=}}
+52	Strings.example.xml	DataDisk GetShortDescriptionEvent Mod	Adds item modification: =moddescription=
+53	Strings.example.xml	DataDisk InventoryActionEvent YouLearnItem	You learn to build =subject.pluralName=.
+54	Strings.example.xml	DataDisk InventoryActionEvent MissingSkill	You don't have the required skill: =skill=!
+55	Strings.example.xml	DataDisk InventoryActionEvent YouLearnMod	You learn the item modification {{W|=modname=}}.
+56	Strings.example.xml	DataDisk GetShortDescriptionEvent Batch	{{rules|Creates:}} =subject.displayNameOnlyDirect=
+57	Strings.example.xml	DataDisk GetShortDescriptionEvent Batch	{{rules|Creates:}} =num.cardinal= =subject.pluralName=
+58	Strings.example.xml	DataDisk You tinker up...	=subject.Does:tinker= up =number.a.or.cardinal.names#object=!
+59	Strings.example.xml	DataDisk InventoryActionsEvent MissingIngredientList	You don't have the required ingredient: =ingredientList.orlist=
+60	Strings.example.xml	DataDisk InventoryActionEvent MissingRequiredBits	You don't have the required <=bitcost=> bits! You have:\n\n=bits=
+61	Strings.example.xml	Dazed Effect Apply Particle Text	*dazed*
+62	Strings.example.xml	Dazed Effect Apply	=subject.Does:are= dazed.
+63	Strings.example.xml	DeathReason Self Kill	You =accidental.if:accidentally :=killed =subject.itself=.
+64	Strings.example.xml	DeathReason Killed By	You were =accidental.if:accidentally :=killed by =object.an=.
+65	Strings.example.xml	Decapitate - Decapitated ParticleText	*decapitated!*
+66	Strings.example.xml	Decapitate - Dismembered ParticleText	*dismembered!*
+67	Strings.example.xml	Decapitate By Self	=subject.Does:lop= off =subject.their= own =limb.ordinalName=!
+68	Strings.example.xml	Decapitate By Attacker	=subject.Does:lop= off =object.the.name's= =limb.ordinalName=!
+69	Strings.example.xml	DecoyHologram Emitter Appear Message	An image of =subject.property:HologramOf= appears.
+70	Strings.example.xml	DecoyHologram Emitter Disappear Message	An image of =subject.property:HologramOf= disappears.
+71	Strings.example.xml	DecoyHologramEmitter Target Picker Label	Summon Decoy
+72	Strings.example.xml	DecoyHologramEmitter Hologram HologramOf	=subject.a.name=
+73	Strings.example.xml	DecoyHologramEmitter ActivatedAbilityName Activate	Activate Holographic Decoy
+74	Strings.example.xml	DecoyHologramEmitter ActivatedAbilityName Deactivate	Deactivate Holographic Decoy
+75	Strings.example.xml	DecoyHologramEmitter Unresponsive	=subject.Does:are= unresponsive.
+76	Strings.example.xml	DecoyHologramEmitter Starting Up	=subject.Does:are= still starting up.
+77	Strings.example.xml	DecoyHologramEmitter ActivatedAbilityName Activate With BaseName	Activate =subject.basename|strip|title=
+78	Strings.example.xml	DecoyHologramEmitter ActivatedAbilityName Deactivate With BaseName	Deactivate =subject.basename|strip|title=
+79	Strings.example.xml	DecoyHologramEmitter Out Of Range	That is out of range (=range.things:square=)
+80	Strings.example.xml	DecoyHologramEmitter Not Enough Charge	=subject.Does:do= not have enough charge to sustain the hologram.
+81	Strings.example.xml	Default LairName	lair
+82	Strings.example.xml	default fragment ArableLand	arable land
+83	Strings.example.xml	default fragment ValuedOre	precious metals
+84	Strings.example.xml	default fragment Activity	roaming around idly
+85	Strings.example.xml	default fragment VillageActivity	sleeping in our homes
+86	Strings.example.xml	default fragment SacredThing	the act of procreating
+87	Strings.example.xml	Default adjunctNoun	=item.isPlural:set:one=
+88	Strings.example.xml	default fragment PoeticFeatures	shiny teeth,coarse hair,sunken eyes
+89	Strings.example.xml	Delegate =Int32.all.these=	=number.threshold:3:all ==number.threshold:2:these:this=
+90	Strings.example.xml	Delegates Numbers metric suffix for 1000 e.g. K	K
+91	Strings.example.xml	Delegates Numbers metric suffix for 1000000 e.g. M	M
+92	Strings.example.xml	Delegates Game State Default TinkerAddendum	It's been live for over a year.
+93	Strings.example.xml	DelegatesJournal Ingredients Separator	, 
+94	Strings.example.xml	DelegatesJournal Ingredients Prefix	{{K|Ingredients:}} 
+95	Strings.example.xml	DelegatesJournal Effects Line 2+ Prefix (15 chars wide)	\n             {{K|/}} 
+96	Strings.example.xml	DelegatesJournal Effects Prefix (15 chars wide)	{{K|Effects:}}     {{K|/}} 
+97	Strings.example.xml	DelegatesJournal RevealedText	The location of =secret.text|initLowerIfArticle=
+98	Strings.example.xml	DelegatesMutations this rank =mutation.details= replacer	{{w|This rank}}:\n
+99	Strings.example.xml	DelegatesMutations next rank =mutation.details= replacer	\n\n{{w|Next rank}}:\n
+100	Strings.example.xml	DelegateSpawner - Social Role (Display Name)	delegate for =faction.the.name=
+101	Strings.example.xml	DelegatesTinkering Cost  Ingredients Item	{{R|X}} =tinkereditem=
+102	Strings.example.xml	DelegatesTinkering Cost BitCost	{{K|| Bit Cost |}}\n=coststring=
+103	Strings.example.xml	DeployableInfrastructure Default Noun	tech
+104	Strings.example.xml	DeployableInfrastructure Default Verb	deploy
+105	Strings.example.xml	DeployableInfrastructure TargetPicker Label (no Noun)	=deployVerb|initUpper=
+106	Strings.example.xml	DeployableInfrastructure TargetPicker Multi (with Noun)	=deployNoun|initUpper=
+107	Strings.example.xml	DeployableInfrastructure Rust Fail	=subject.Itis= rusted...
+108	Strings.example.xml	DeployableInfrastructure Broken Fail	=subject.Itis= broken...
+109	Strings.example.xml	DeployableInfrastructure Deploy Message With MessageByCountSuffix	=subject.Does#verb= =count==byCountSuffix=.
+110	Strings.example.xml	DeployableInfraStructure Other Deploy Message	=subject.Does#verb= =object.a.name:single=.
+111	Strings.example.xml	DeployableInfrastructure TargetPicker Label (with Noun)	=deployVerb|initUpper= =deployNoun|initUpper=
+112	Strings.example.xml	DeployableInfrastructure Deploy Message	=subject.Does#verb= =object.the.name:single=.
+113	Strings.example.xml	DeployableInfrastructure No Useful Way	There is no useful way to =verb= =object.the.name:single= there.
+114	Strings.example.xml	Description Physical Feature	=object.name=
+115	Strings.example.xml	Description Feeling Hostile	{{R|Hostile}}
+116	Strings.example.xml	Description Feeling Friend	{{G|Friendly}}
+117	Strings.example.xml	Description Recall Menu Console UI	press {{W|space}}
+118	Strings.example.xml	Description Recall Menu Console UI (hardcoded key of S)	recall {{W|s}}tory
+119	Strings.example.xml	Description Recall Menu	[=buttons.orList=]
+120	Strings.example.xml	Description LongDescription Effects List	=effects.commaList=
+121	Strings.example.xml	Description LongDescription Effect	=effect.description=
+122	Strings.example.xml	Description Weight Text	Weight: =weight= lbs.
+123	Strings.example.xml	Description LongDescription Gender	Gender: =gender.name=
+124	Strings.example.xml	Description Default Text	A really ugly specimen.
+125	Strings.example.xml	Description Equipped Item	=object.name:withTitles=
+126	Strings.example.xml	Description LongDescription Equipped Items	Equipped: =equipItems.commaList=
+127	Strings.example.xml	Description LongDescription Physical Features	Physical Features: =features.commaList=
+128	Strings.example.xml	DescriptionBuilder Single Title Clause With Epithets	, =title.toString=
+129	Strings.example.xml	DescriptionBuilder Epithets Join	=epithets.commaList=
+130	Strings.example.xml	DescriptionBuilder Single Title Clause	and =title.toString=
+131	Strings.example.xml	DescriptionBuilder Multiple With Clause	with =withClauses.andList=
+132	Strings.example.xml	DescriptionBuilder Multiple Titles Clause	, =titles.andList:noSerial=
+133	Strings.example.xml	DestroyOnUnequip Default Message	The mote of light is extinguished.
+134	Strings.example.xml	DetonateOnHit RulesPostfix Always	Melee attacks cause a small explosion
+135	Strings.example.xml	DetonateOnHit RulesPostfix Chance	=chance=% chance melee attacks cause a small explosion
+136	Strings.example.xml	Digging Ability Name	Dig
+137	Strings.example.xml	Digging Movement Capability Description	Dig To Square
+138	Strings.example.xml	Dimension unset	an uncharted dimension
+139	Strings.example.xml	DimensionManager faction.CultForm pre-select	=spice:extradimensional.cultForms.!random=
+140	Strings.example.xml	DimensionManager faction.cultForm	=spice:extradimensional.$mutation.!random=
+141	Strings.example.xml	DimensionManager faction.cultForm no mutation	=spice:extradimensional.cultForms.!random|title=
+142	Strings.example.xml	DimensionManager Journal Observation	There exists a dimension known as {{O|=dimensionName=}}.
+143	Strings.example.xml	DimensionManager faction.dimensionName	the =spice:extradimensional.dimensionNames.!random|title=
+144	Strings.example.xml	DimensionManager dimension.name	the =spice:extradimensional.dimensionNames.!random|title=
+145	Strings.example.xml	direction.description (compass)	to the =dir.direction.expanded=
+146	Strings.example.xml	direction.description.actor (.)	near =subject.them=
+147	Strings.example.xml	direction.description.actor (D)	below =subject.them=
+148	Strings.example.xml	direction.description.actor (U)	above =subject.them=
+149	Strings.example.xml	direction.description.actor (compass)	to =subject.its= =dir.direction.expanded=
+150	Strings.example.xml	direction.description.incoming (D)	from below
+151	Strings.example.xml	direction.description.incoming (U)	from above
+152	Strings.example.xml	direction.description.incoming (.)	from nearby
+153	Strings.example.xml	direction.description.incoming (?)	from somewhere
+154	Strings.example.xml	direction.description.incoming (compass)	from the =dir.direction.expanded=
+155	Strings.example.xml	direction.description.incoming.actor (.)	from near =subject.them=
+156	Strings.example.xml	direction.description.incoming.actor (D)	from below =subject.them=
+157	Strings.example.xml	direction.description.incoming.actor (U)	from above =subject.them=
+158	Strings.example.xml	direction.description.incoming.actor (compass)	from =subject.their= =dir.direction.expanded=
+159	Strings.example.xml	direction.description.incoming.null	=dir.from.the.direction=
+160	Strings.example.xml	direction.description.incoming.player	=dir.from.the.direction=
+161	Strings.example.xml	direction.description.player	=dir.to.the.direction=
+162	Strings.example.xml	direction.expanded (U)	up
+163	Strings.example.xml	direction.expanded (D)	down
+164	Strings.example.xml	direction.short (N)	N
+165	Strings.example.xml	direction.short (S)	S
+166	Strings.example.xml	direction.short (E)	E
+167	Strings.example.xml	direction.short (W)	W
+168	Strings.example.xml	direction.short (U)	U
+169	Strings.example.xml	direction.short (D)	D
+170	Strings.example.xml	direction.short (NW)	NW
+171	Strings.example.xml	direction.short (NE)	NE
+172	Strings.example.xml	direction.short (SW)	SW
+173	Strings.example.xml	direction.short (SE)	SE
+174	Strings.example.xml	direction.toward (U)	upward
+175	Strings.example.xml	direction.toward (E)	eastward
+176	Strings.example.xml	direction.toward (W)	westward
+177	Strings.example.xml	direction.toward (D)	downward
+178	Strings.example.xml	direction.toward (N)	northward
+179	Strings.example.xml	direction.toward (S)	southward
+180	Strings.example.xml	direction.toward (NW)	northwestward
+181	Strings.example.xml	direction.toward (NE)	northeastward
+182	Strings.example.xml	direction.toward (SW)	southwestward
+183	Strings.example.xml	direction.toward (SE)	southeastward
+184	Strings.example.xml	Disarm Message Log	=subject.Does:disarm= =object.the.name= of =object.its.item#weapon=!
+185	Strings.example.xml	Disassembly Message, nothing gained	=itemsMessage=
+186	Strings.example.xml	Disassembly Report ItemsList Items (fragment)	=items.andList=
+187	Strings.example.xml	Disassembly Item (fragment)	=item.the.name:single=
+188	Strings.example.xml	Disassembly Report ItemsList Items Where (fragment)	=items.andList= =where=
+189	Strings.example.xml	Disassembly Item Stack (fragment)	=item= =done.x.multiple=
+190	Strings.example.xml	Disassembly Message, only bits	=itemsMessage= =bitMessage=
+191	Strings.example.xml	Disassembly BitMessage temporary (fragment)	The parts crumble into dust.
+192	Strings.example.xml	Disassembly learn to build ('You may now' fragment)	build =object.pluralize:direct=
+193	Strings.example.xml	Disassembly Message, learned no newline	=itemsMessage= =learnedMessage=
+194	Strings.example.xml	Disassembly Report Items (fragment)	You disassemble =items.andList=.
+195	Strings.example.xml	Disassembly where(fragment)	=subject.to.its.direction#object=
+196	Strings.example.xml	Disassembly Message, learned has newline	=itemsMessage=\n\n=learnedMessage=
+197	Strings.example.xml	Disassembly InterruptBecause	you can no longer move your extremities
+198	Strings.example.xml	Disassembly InterruptBecause	the item you were working on disappeared
+199	Strings.example.xml	Disassembly learned message	Eureka! You may now =fragments.andList=.
+200	Strings.example.xml	Disassembly BitMessage (fragment)	You receive tinkering bits <=bits.bits=>.

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="StunningForce Use Message Player Nearby" ID="=subject.Does:invoke= a concussive blast around =subject.them=!">=subject.T=は周囲に衝撃波を放った！</string>
+  <string Context="StunningForce Use Message Player Away" ID="=subject.Does:invoke= a concussive blast =dir.to.the.direction=!">=subject.T=は=dir.to.the.direction=へ衝撃波を放った！</string>
+  <string Context="StunningForce Use Message Other Away" ID="=subject.Does:feel= a concussive blast =dir.from.the.direction=!">=subject.T=は=dir.from.the.direction=から衝撃波を感じた！</string>
+  <string Context="StyledStatus Format bio override value 'Operational'" ID="Healthy">健康</string>
+  <string Context="StyledStatus Format plain" ID="=name=: =value=">=name=: =value=</string>
+  <string Context="StyledStatus Format tech" ID="{{C|[=name=: =value=]}}">{{C|[=name=: =value=]}}</string>
+  <string Context="StyledStatus Format bio" ID="{{g|[=name=: =value=]}}">{{g|[=name=: =value=]}}</string>
+  <string Context="StyledStatus Format structure" ID="{{Y|[=name=: =value=]}}">{{Y|[=name=: =value=]}}</string>
+  <string Context="StyledStatus Format ooc" ID="{{rules|=name=: =value=}}">{{rules|=name=: =value=}}</string>
+  <string Context="StyledStatus Format angry" ID="=name|angry=: =value|angry=">=name|angry=: =value|angry=</string>
+  <string Context="Submersion Wrong Place" ID="You cannot do that right now">今はそれができない</string>
+  <string Context="Submersion Too Shallow" ID="=pool.Does:is= too shallow for you to submerge in.">=pool.T=は浅すぎて潜れない。</string>
+  <string Context="Sultan Unknown" ID="a sultan">とあるスルタン</string>
+  <string Context="Sultan Unnamed" ID="the =period.ordinal= sultan">=period.ordinal=のスルタン</string>
+  <string Context="Sultan Mural Ruined Display" ID="ruined mural of =sultanName|withCognomen#cognomen=">=sultanName|withCognomen#cognomen=の壊れた壁画</string>
+  <string Context="SultanDungeon - Member Of Social Role Display Name" ID="member of the =cultName=">=cultName=の一員</string>
+  <string Context="SultanDungeon - Member Of Social Role Display Name" ID="{{W|leader of the =cultName=}}">{{W|=cultName=の指導者}}</string>
+  <string Context="SultanMural Default Name" ID="&lt;unknown name&gt;">&lt;名前不明&gt;</string>
+  <string Context="SultanMural Herododicus Completion No Disguise" ID="Herododicus says '{{W|I'm done!}}'">ヘロドディクスが言った、「{{W|終わったぞ！}}」</string>
+  <string Context="SultanMural DisplayName" ID="mural of =sultanName|withCognomen#cognomen=">=sultanName|withCognomen#cognomen=の壁画</string>
+  <string Context="SultanRegion RegionName" ID="=newName|title=">=newName|title=</string>
+  <string Context="SultanRegion TerrainFragment" ID="=spice:history.regions.terrain.$terrain.over.!random=">=spice:history.regions.terrain.$terrain.over.!random=</string>
+  <string Context="SultanRegionSurface Visit Accomplishment" ID="You visited the historic site of =regionName=.">史跡=regionName=を訪れた。</string>
+  <string Context="SultanShrine Known By Joppa" ID=" {{K|-known by =faction.formattedName=}}"> {{K|-=faction.formattedName=が知っている}}</string>
+  <string Context="SummoningCurio TargetPicker Label" ID="Fabricate =creature.displayNameOnlyDirect|strip=">=creature.displayNameOnlyDirect|strip=を生成</string>
+  <string Context="SunderGrenade Detonate Message Log" ID="=subject.Does:detonate=!">=subject.T=は起爆した！</string>
+  <string Context="SunderMind Nosebleed death source" ID="hemorrhage">出血</string>
+  <string Context="SunderMind Nosebleed death source" ID="psychic attack">サイキック攻撃</string>
+  <string Context="SunderMind Nosebleed death source (for robot)" ID="processor leak">プロセッサ漏出</string>
+  <string Context="SunderMind damage message" ID="from =source|article=.">=source|article=によって。</string>
+  <string Context="SunderMind Nosebleed death reason" ID="You died from =source|article=.">=source|article=で死んだ。</string>
+  <string Context="SunderMind head explode witnessed" ID="=subject.The.name's:withTitles= head explodes!">=subject.The.name's:withTitles=頭が破裂した！</string>
+  <string Context="SunderMind Nosebleed start (robot)" ID="=subject.The.name's:withTitles= core begins to leak.">=subject.The.name's:withTitles=コアから漏出が始まった。</string>
+  <string Context="SunderMind DeathReason" ID="Your head was exploded by =object.a.name:withTitles=.">=object.a.name:withTitles=に頭を破裂させられた。</string>
+  <string Context="SunderMind Nosebleed start" ID="=subject.The.name's:withTitles= nose begins to bleed.">=subject.The.name's:withTitles=鼻から血が流れ始めた。</string>
+  <string Context="SunderMind Nosebleed start (brain)" ID="=subject.The.name's:withTitles= brain begins to hemorrhage.">=subject.The.name's:withTitles=脳が出血し始めた。</string>
+  <string Context="SunderMind ThirdPerson DeathReason" ID="=subject.Its= head was exploded by =object.a.name:withTitles=.">=object.a.name:withTitles=に頭を破裂させられた。</string>
+  <string Context="SunderMind PenetrationFailure" ID="Your attack fails to penetrate =object.the.name's:withTitles= mental defenses.">あなたの攻撃は=object.the.name's:withTitles=精神防御を貫けなかった。</string>
+  <string Context="Survival Skill Terrain Name" ID="plains">平原</string>
+  <string Context="Survival Skill Terrain Name" ID="salt desert">塩の砂漠</string>
+  <string Context="Survival Skill Terrain Name" ID="rivers and lakes">河川と湖</string>
+  <string Context="Survival Skill Terrain Name" ID="hills and mountains">丘陵と山岳</string>
+  <string Context="SwapOnHit AnnounceSwapMessage" ID="=subject.Does:swap= positions with =object.the.name=.">=subject.T=は=object.the.name=と位置を入れ替えた。</string>
+  <string Context="Sweep PerformSweep Not Equipped" ID="You do not have a heavy missile weapon equipped.">重射撃武器を装備していない。</string>
+  <string Context="TargetSelfConfirm" ID="Are you sure you want to target =subject.itself=?">本当に=subject.itself=を対象にしますか？</string>
+  <string Context="Tattooed Apply Text" ID="=markovTattoo|initLower=">=markovTattoo|initLower=</string>
+  <string Context="TattooGun Picker Label" ID="Tattoo">刺青</string>
+  <string Context="TattooGun Not Working" ID="=subject.Does:aren't= working.">=subject.T=は動いていない。</string>
+  <string Context="TattooGun Not Working" ID="=subject.Does:aren't= working!">=subject.T=は動いていない！</string>
+  <string Context="TattooGun No Body" ID="You cannot tattoo =object.the.name=.">=object.the.name=には刺青を入れられない。</string>
+  <string Context="TattooGun No Valid Parts" ID="You cannot tattoo =object.the.name=.">=object.the.name=には刺青を入れられない。</string>
+  <string Context="TattooGun No One To Tattoo" ID="There is nobody there you can tattoo.">そこには刺青を入れられる相手がいない。</string>
+  <string Context="TattooGun Hostiles Fail" ID="You can't tattoo with hostiles nearby.">敵が近くにいる状態では刺青を入れられない。</string>
+  <string Context="TattooGun Unpowered" ID="=subject.The.name= merely =subject.verb:click=.">=subject.The.name=はカチッと鳴っただけだった。</string>
+  <string Context="TattooGun Out Of Liquid" ID="=subject.Does:are= out of =liquid.name|colorSafe=.">=subject.T=は=liquid.name|colorSafe=が切れている。</string>
+  <string Context="TattooGun Can't Apply" ID="You can't tattoo =object.the.name's= =part.ordinalName=.">=object.the.name's==part.ordinalName=には刺青を入れられない。</string>
+  <string Context="TattooGun Can't Tattoo Strangers" ID="You can only tattoo =subject.itself= and your companions.">刺青を入れられるのは=subject.itself=と仲間だけだ。</string>
+  <string Context="TattooGun Unsuccessful Message" ID="Something went wrong and you fail to complete the tattoo.">何かがおかしく、刺青を完成させられなかった。</string>
+  <string Context="TattooGun Contaminated" ID="The =liquid.name|colorSafe= in =subject.the.name= is contaminated!">=subject.the.name=の中の=liquid.name|colorSafe=が汚染されている！</string>
+  <string Context="TattooGun Success Popup" ID="You tattoo =description= on =object.the.name's:withTitles= =part.ordinalName=.">=object.the.name's:withTitles==part.ordinalName=に=description=の刺青を入れた。</string>
+  <string Context="Teleportation Fail Message" ID="The teleportation fails!">テレポートに失敗した！</string>
+  <string Context="TeleporterPair AttemptTeleport Cooldown" ID="You must wait =turns.things:turn= before using =object.this= again.">=object.this=を再び使うには=turns.things:turn=待つ必要がある。</string>
+  <string Context="TeleportOther Success Message" ID="=subject.Does:teleport= =object.the.name= away.">=subject.T=は=object.the.name=をテレポートで飛ばした。</string>
+  <string Context="TeleportOther Fail Self Popup" ID="You may not teleport =object.the.name= with Teleport Other!">他者テレポートで=object.the.name=をテレポートさせることはできない！</string>
+  <string Context="Teleprojector Pick Direction Label" ID="Activate Teleprojector">テレプロジェクターを起動</string>
+  <string Context="Teleprojector Activate CopyRelationshipFail" ID="You can't dominate =subject.itself=!">=subject.itself=を支配することはできない！</string>
+  <string Context="Teleprojector AbilityName" ID="Activate =object.basename|strip|title=">=object.basename|strip|title=を起動</string>
+  <string Context="Teleprojector Activate CoolingDown" ID="=subject.Does:are= still cooling down.">=subject.T=はまだ冷却中だ。</string>
+  <string Context="Teleprojector RobotDom YouTakeControl" ID="You take control of =object.the.name=!">=object.the.name=を支配した！</string>
+  <string Context="Teleprojector Activate NoCharge" ID="=subject.Does:don't= have enough charge to function.">=subject.T=には動作に必要なチャージが足りない。</string>
+  <string Context="Teleprojector RoboDom Resisted" ID="=subject.Does:resist= =object.the.name's= domination!">=subject.T=は=object.the.name's=支配に抵抗した！</string>
+  <string Context="Teleprojector PowerLoad Bonus Ability Description" ID="Attack roll increased by =bonus= due to high power load.">高い電力負荷により攻撃ロールが=bonus=上昇する。</string>
+  <string Context="Teleprojector BootSequenceDonePlayer" ID="=subject.Does:attune= to =object.possessive= physiology.">=subject.T=は=object.possessive=生理機能に同調した。</string>
+  <string Context="Teleprojector PowerLoad Penalty Ability Description" ID="Attack roll reduced by =bonus.abs= due to low power load.">低い電力負荷により攻撃ロールが=bonus.abs=低下する。</string>
+  <string Context="Teleprojector Activate UplinkFail" ID="There is nothing there that =object.the.name= can uplink with.">そこには=object.the.name=が接続できるものがない。</string>
+  <string Context="Teleprojector Activate NoBrain" ID="There seems to be no digital mind in =object.the.name= to dominate.">=object.the.name=には支配できるデジタルな精神がないようだ。</string>
+  <string Context="Teleprojector Activate CannotApplyRoboDomination" ID="=subject.Does:do= not have a digital mind you can make electronic contact with.">=subject.T=には電子的に接触できるデジタルな精神がない。</string>
+  <string Context="TemperatureAdjuster - Status Failure (world map)" ID="Inactive">停止中</string>
+  <string Context="TemperatureController LocallyDefinedFailureDescription" ID="Inactive">停止中</string>
+  <string Context="TemperatureController Configure AnnounceNewSetting" ID="You set a target temperature of =target=.">目標温度を=target=に設定した。</string>
+  <string Context="TemperatureController EquippedTargetReachedMessage DefaultTemplate" ID="=object.Does:have= reached the target temperature.">=object.T=は目標温度に達した。</string>
+  <string Context="TemplarPhylactery Spawn Appears" ID="=subject.Does:appear=.">=subject.T=が現れた。</string>
+  <string Context="TemplarPhylactery CreateObject DisplayName" ID="phylactery of =wraith.refname=">=wraith.refname=の聖遺物箱</string>
+  <string Context="TemplarPhylactery Spawn Activates" ID="=subject.Does:activate= =object.the.name=.">=subject.T=は=object.the.name=を起動した。</string>
+  <string Context="TemporalFugue multiply message" ID="=subject.Does:multiply=.">=subject.T=は増殖した。</string>
+  <string Context="TemporalFugue blur message" ID="=subject.Does:blur= through spacetime.">=subject.T=は時空をにじむように移動した。</string>
+  <string Context="TemporalFugue Fail Not Replicatable" ID="It is impossible to duplicate =object.the.name=.">=object.the.name=を複製することはできない。</string>
+  <string Context="TemporalFugue Copy Prefixed DisplayName" ID="=prefix|spaceAfter==subject.displayNameOnlyDirect=">=prefix|spaceAfter==subject.displayNameOnlyDirect=</string>
+  <string Context="TemporalFugue Player Copy Description" ID="one of =player.possessiveAdjective= =context= clones">=player.possessiveAdjective==context=クローンの一体</string>
+  <string Context="Temporary - Death Reason" ID="Faded from existence.">存在から消え去った。</string>
+  <string Context="Terrain Notes Phrase" ID="Notes:">メモ:</string>
+  <string Context="TerrainTravel Strange Ruins Message" ID="You notice some strange ruins nearby. Do you want to investigate?">近くに奇妙な遺跡があるのに気づいた。調べてみる？</string>
+  <string Context="Text Replacer listDirectionsTo separate giver (last, and previous had no direction)" ID=" or "> または</string>
+  <string Context="Text Replacer listDirectionsTo separate givers (last, and previous had direction)" ID=", or ">、または</string>
+  <string Context="ThermalAmp Rulespostfix HeatDamage" ID="{{=color=|=value.signed=% heat damage dealt}} =part.statusSummary|addParens=">{{=color=|与える熱ダメージ =value.signed=%}} =part.statusSummary|addParens=</string>
+  <string Context="ThermalAmp Rulespostfix ColdDamage" ID="{{=color=|=value.signed=% cold damage dealt}} =part.statusSummary|addParens=">{{=color=|与える冷気ダメージ =value.signed=%}} =part.statusSummary|addParens=</string>
+  <string Context="ThickFur Extra Physical Feature" ID="thick fur">厚い毛皮</string>
+  <string Context="Thinker Recharge not recharge" ID="=object.The.name= can't be recharged that way.">=object.The.name=はその方法では再充電できない。</string>
+  <string Context="ThinWorld ZoneFactory DisplayName" ID="Garden at the Gate to Brightsheol">ブライトシオルの門の庭</string>
+  <string Context="Thurible SmokeThurible Announce" ID="=subject.Does:incense= =object.the.name=.">=subject.T=は=object.the.name=に香を焚きしめた。</string>
+  <string Context="TimeDilation Start Message" ID="Time begins to distort around =subject.the.name=.">=subject.the.name=の周りで時間が歪み始めた。</string>
+  <string Context="TimeDilationGrenade Detonate Message Log" ID="=subject.Does:discorporate=!">=subject.T=は実体を失った！</string>
+  <string Context="Tinker Recharge" ID="You have =partial.if:partially =recharged =object.the.name:single=.">=object.the.name:single=を=partial.if:部分的に =再充電した。</string>
+  <string Context="Tinker Recharge" ID="You don't have any =bits.bitString= bits, which are required for recharging.">再充電に必要な=bits.bitString=ビットを持っていない。</string>
+  <string Context="TinkerData InvalidBlueprint" ID="&lt;invalid blueprint&gt;">&lt;無効な設計図&gt;</string>
+  <string Context="TinkerData MakesABatchOf" ID="Makes a batch of =nummade.cardinal=.">一度に=nummade.cardinal=個作る。</string>
+  <string Context="Tinkering ConsoleUI Bit Locker" ID="Bit Locker">ビット保管庫</string>
+  <string Context="Tinkering ConsoleUI Mod and Cost" ID="=modname= &lt;=cost=&gt;">=modname= &lt;=cost=&gt;</string>
+  <string Context="Tinkering ConsoleUI Header" ID="[ {{W|Tinkering}} ]">[ {{W|ティンカリング}} ]</string>
+  <string Context="Tinkering ConsoleUI Bitcost" ID="=bit= =description=">=bit= =description=</string>
+  <string Context="Tinkering ChooseSchematic" ID="Choose a schematic.">設計図を選んでください。</string>
+  <string Context="Tinkering ConsoleUI HostilesNearby" ID="{{R|hostiles nearby}}">{{R|敵が近くにいる}}</string>
+  <string Context="Tinkering Snapshot =oldname=" ID="=item.the.name|strip=">=item.the.name|strip=</string>
+  <string Context="Tinkering ConsoleUI Build/Mod picker ModSelected" ID="{{w|Build}}  {{Y|&gt;}} {{W|Mod}}">{{w|作成}}  {{Y|&gt;}} {{W|改造}}</string>
+  <string Context="Tinkering ConsoleUI Build/Mod picker BuildSelected" ID="{{Y|&gt;}} {{W|Build}}    {{w|Mod}}">{{Y|&gt;}} {{W|作成}}    {{w|改造}}</string>
+  <string Context="Tinkering ConsoleUI NoModdableItems" ID="You don't have any moddable items.">改造できるアイテムを持っていない。</string>
+  <string Context="Tinkering ConsoleUI DontHaveSkill" ID="You don't have the Tinkering skill.">ティンカリングのスキルを持っていない。</string>
+  <string Context="Tinkering ConsoleUI NoItemSchematics" ID="You don't have any item schematics.">アイテムの設計図を持っていない。</string>
+  <string Context="Tinkering FakeIngredient" ID="You can't craft with that =object=.">その=object=では作れない。</string>
+  <string Context="Tinkering Can'tUnequip" ID="You can't unequip =object.the.name=.">=object.the.name=を外せない。</string>
+  <string Context="Tinkering YouTinkerUp" ID="You tinker up =num.a.or.x.things#object=!">=num.a.or.x.things#object=を組み立てた！</string>
+  <string Context="Tinkering YouModXToBeY" ID="You mod =oldname= to be =modtype|color:C=.">=oldname=を=modtype|color:C=に改造した。</string>
+  <string Context="Tinkering ConsoleUI NoModSchematics" ID="You don't have any modification schematics.">改造の設計図を持っていない。</string>
+  <string Context="Tinkering Don'tHaveRequiredSkill" ID="You don't have the required skill: =skill=!">必要なスキルがない: =skill=！</string>
+  <string Context="Tinkering TookOnNewQualities" ID="=subject.Does:seem= to have taken on new qualities.">=subject.T=は新たな性質を帯びたようだ。</string>
+  <string Context="Tinkering Learn FlashOfInsight" ID="You have a flash of insight and scribe =object.a.name:long=.">閃きを得て=object.a.name:long=を書き記した。</string>
+  <string Context="Tinkering MissingIngredient" ID="You don't have the required ingredient: =ingredients.orList=!">必要な材料がない: =ingredients.orList=！</string>
+  <string Context="TinkeringDetails ModCostRules" ID="{{rules|=description=}}">{{rules|=description=}}</string>
+  <string Context="TinkeringDetailsLine Cost" ID="=tinkerable.cost=">=tinkerable.cost=</string>
+  <string Context="TinkeringLine BuildDisplayNameAndCost" ID="=name= [=coststring=]">=name= [=coststring=]</string>
+  <string Context="TinkeringLine Category and Expander" ID="=expand.expanded= =category= [=count=]">=expand.expanded= =category= [=count=]</string>
+  <string Context="TinkeringStatusScreen SwitchToBuild" ID="{{hotkey||[=commandKey:Toggle|strip=]}} switch to build">{{hotkey||[=commandKey:Toggle|strip=]}} 作成に切り替え</string>
+  <string Context="TinkeringStatusScreen SwitchToMods" ID="{{hotkey||[=commandKey:Toggle|strip=]}} switch to modifications">{{hotkey||[=commandKey:Toggle|strip=]}} 改造に切り替え</string>
+  <string Context="Tombstone (part2)" ID="=name=">=name=</string>
+  <string Context="Tombstone Box" ID="=engraving|tombstone=">=engraving|tombstone=</string>
+  <string Context="Tombstone (part3)" ID="=inscription|colorSafe=">=inscription|colorSafe=</string>
+  <string Context="Tombstone Engraving" ID="=part1=&#10;&#10;=part2=&#10;&#10;=part3=">=part1=
+
+=part2=
+
+=part3=</string>
+  <string Context="Tombstone (part1)" ID="=spice:tombstones.intro.!random=">=spice:tombstones.intro.!random=</string>
+  <string Context="Tombstone (part3) gas death" ID="=spice:tombstones.gasDeath.!random=">=spice:tombstones.gasDeath.!random=</string>
+  <string Context="Tombstone (part3) ape death" ID="=spice:tombstones.apeDeath.!random=">=spice:tombstones.apeDeath.!random=</string>
+  <string Context="Tombstone (part3) food death" ID="=spice:tombstones.foodDeath.!random=">=spice:tombstones.foodDeath.!random=</string>
+  <string Context="Tombstone Error Popup" ID="There was an error saving: =filename=">保存中にエラーが発生した: =filename=</string>
+  <string Context="Tombstone (part3) item death 1" ID="=spice:tombstones.itemDeath1.!random=">=spice:tombstones.itemDeath1.!random=</string>
+  <string Context="Tombstone (part3) item death 2" ID="=spice:tombstones.itemDeath2.!random=">=spice:tombstones.itemDeath2.!random=</string>
+  <string Context="Tombstone (part3) book death 1" ID="=spice:tombstones.bookDeath1.!random=">=spice:tombstones.bookDeath1.!random=</string>
+  <string Context="Tombstone (part3) book death 2" ID="=spice:tombstones.bookDeath2.!random=">=spice:tombstones.bookDeath2.!random=</string>
+  <string Context="Tombstone (part3) light source death" ID="=spice:tombstones.lightDeath.!random=">=spice:tombstones.lightDeath.!random=</string>
+  <string Context="Tombstone (part3) tonic death 1" ID="=spice:tombstones.tonicDeath1.!random=">=spice:tombstones.tonicDeath1.!random=</string>
+  <string Context="Tombstone (part3) tonic death 2" ID="=spice:tombstones.tonicDeath2.!random=">=spice:tombstones.tonicDeath2.!random=</string>
+  <string Context="Tombstone (part3) liquid death" ID="=spice:tombstones.liquidDeath.!random=">=spice:tombstones.liquidDeath.!random=</string>
+  <string Context="Tombstone (part3) faction death" ID="=spice:tombstones.factionDeath.!random=">=spice:tombstones.factionDeath.!random=</string>
+  <string Context="Tombstone (part3) grenade death" ID="=spice:tombstones.grenadeDeath.!random=">=spice:tombstones.grenadeDeath.!random=</string>
+  <string Context="Tombstone (part3) natural death" ID="=spice:tombstones.naturalDeath.!random=">=spice:tombstones.naturalDeath.!random=</string>
+  <string Context="Tombstone (part3) generic death" ID="=spice:tombstones.genericDeath.!random=">=spice:tombstones.genericDeath.!random=</string>
+  <string Context="Tombstone Save Popup" ID="Your tombstone file was saved:&#10;&#10;=filename=">墓碑ファイルを保存した:
+
+=filename=</string>
+  <string Context="Tombstone (part3) murdered by dude" ID="=spice:tombstones.generallyMurdered.!random=">=spice:tombstones.generallyMurdered.!random=</string>
+  <string Context="Torch Display Name - Tag (unlit)" ID="(unburnt)">（未使用）</string>
+  <string Context="Torch Display Name - Tag (lit)" ID="({{w|dim}})">（{{w|ほの暗い}}）</string>
+  <string Context="Torch Display Name - Tag (unlit)" ID="(half-burnt)">（半分燃えた）</string>
+  <string Context="Torch Display Name - Tag (lit)" ID="({{W|bright}})">（{{W|明るい}}）</string>
+  <string Context="Torch Display Name - Tag (unlit)" ID="(mostly burnt)">（ほぼ燃え尽きた）</string>
+  <string Context="Torch Display Name - Tag (lit)" ID="({{Y|blazing}})">（{{Y|燃え盛る}}）</string>
+  <string Context="Torch Display Name - Tag (lit)" ID="({{r|smouldering}})">（{{r|くすぶる}}）</string>
+  <string Context="Torch Display Name - Tag (unlit)" ID="(nearly extinguished)">（消えかけ）</string>
+  <string Context="Total weight panel" ID="=current= / =max= lbs.">=current= / =max=ポンド</string>
+  <string Context="TradeScreen sort name a-z" ID="A-Z">A-Z</string>
+  <string Context="TradeScreen trader free drams" ID="{{W|$=drams=}}">{{W|$=drams=}}</string>
+  <string Context="TradeScreen left side total actively trading drams" ID="{{=price|color:B= drams →}}">{{=price|color:B=ドラム →}}</string>
+  <string Context="TradeScreen right side total actively trading drams" ID="← {{=price|color:B= drams}}">← {{=price|color:B=ドラム}}</string>
+  <string Context="TradeScreen sort mode setting" ID="Sort Mode: =modes.textSelector:w#selected=">並び順: =modes.textSelector:w#selected=</string>
+  <string Context="TradeScreen left side companion weight totals" ID="{{=color=| =currentweight=/=maxweight= lbs.}}">{{=color=| =currentweight=/=maxweight=ポンド}}</string>
+  <string Context="TradeScreen player free drams and weight" ID="{{W|$=drams=}} | {{=weightcolor=|=weight=/=maxweight= lbs.}}">{{W|$=drams=}} | {{=weightcolor=|=weight=/=maxweight=ポンド}}</string>
+  <string Context="TradeScreenLine - right side text" ID="=subject.weightEach|color:K={{K|#}}">=subject.weightEach|color:K={{K|#}}</string>
+  <string Context="TradeUI ConsoleUI number selected (gets a color code added to it)" ID="=number=">=number=</string>
+  <string Context="TradeUI ConsoleUI WeightOnly" ID="=weight=#">=weight=#</string>
+  <string Context="TradeUI ConsoleUI 0-9 Pick" ID="[{{W|0-9}} Pick]">[{{W|0-9}} 選択]</string>
+  <string Context="TradeUI ConsoleUI CategoryName" ID="[{{y|=category=}}]">[{{y|=category=}}]</string>
+  <string Context="TradeUI ConsoleUI SelectedItemInfo LeftPrice" ID="{{=color=|$}}{{C|=price=}}">{{=color=|$}}{{C|=price=}}</string>
+  <string Context="TradeUI ConsoleUI SelectedItemInfo RightPrice" ID="{{=color=|$}}{{c|=price=}}">{{=color=|$}}{{c|=price=}}</string>
+  <string Context="TradeUI ConsoleUI SelectedItemInfo RightPrice" ID="{{=color=|$}}{{C|=price=}}">{{=color=|$}}{{C|=price=}}</string>
+  <string Context="TradeUI Name of target inventory - non-living container etc" ID="[ =subject.shortname|color:W= ]">[ =subject.shortname|color:W= ]</string>
+  <string Context="TradeUI ConsoleUI SelectedItemInfo Weight and Price" ID="{{K|=weight=#}} {{=color=|$}}{{C|=price=}}">{{K|=weight=#}} {{=color=|$}}{{C|=price=}}</string>
+  <string Context="TradeUI Name of target inventory - Trader's Inventory" ID="[ =subject.the.name's:withTitles|color:W= inventory ]">[ =subject.the.name's:withTitles|color:W=持ち物 ]</string>
+  <string Context="TradeWindow left column item" ID="=item.long=">=item.long=</string>
+  <string Context="TradeWindow right column weight" ID="[{{K|=weight= lbs.}}]">[{{K|=weight=ポンド}}]</string>
+  <string Context="TradeWindow right column value" ID="[=value:0.00|tradeColor#item=]">[=value:0.00|tradeColor#item=]</string>
+  <string Context="Translator Base - Mutate Zone Name, Biome nouns" ID="=base= and =noun=">=base=と=noun=</string>
+  <string Context="Triple-Jointed Triggered Combat Text" ID="No cooldown!">クールダウンなし！</string>
+  <string Context="Troll Hero Naming.xml Context" ID="bestial">獣じみた</string>
+</strings>

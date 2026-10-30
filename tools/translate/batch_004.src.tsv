@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	Cookbook ChefName for Recipe	Chef =chefName=
+2	Strings.example.xml	Cookbook Finalize Name	{{g|=name|title=}}
+3	Strings.example.xml	Cookbook Chef Name	=subject.a.name|strip=
+4	Strings.example.xml	Cookbook Accomplishment	You read =object.refname=.
+5	Strings.example.xml	Cookbook Focus Name	=spice:cooking.cookbooks.focalName.!random=
+6	Strings.example.xml	Cookbook Focus Name, not preserve or liquid	=spice:cooking.cookbooks.focalName.!random|plural=
+7	Strings.example.xml	Cookbook DisplayName	Chef =chefName|'s= =spice:cooking.cookbooks.genericName.!random=
+8	Strings.example.xml	Cooking .cookingIngredientName - liquid	a dram of =item.liquid.name=
+9	Strings.example.xml	Cooking a.cookingIngredientName - liquid	a dram of =item.liquid.name=
+10	Strings.example.xml	CookingDomainAcid_UnitResist Description - Amount known	=bonus.signed= Acid Resistance
+11	Strings.example.xml	CookingDomainAgility_LargeAgilityBuff_ProceduralCookingTriggeredAction Notification	=subject.does:assume= a limber pose.
+12	Strings.example.xml	CookingDomainAgility_LargeAgilityBuff_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= +8 Agility for 50 turns.
+13	Strings.example.xml	CookingDomainAgility_OnPerformCriticalHit Description	whenever =subject.thisCreature= =subject.verb:perform= a critical hit,
+14	Strings.example.xml	CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Description	=subject.it.does:shank= =subject.their= opponent.
+15	Strings.example.xml	CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Notification	=subject.does:perform= an act of nimble violence.
+16	Strings.example.xml	CookingDomainArmor_LargeAVBuff_ProceduralCookingTriggeredAction Notification	=subject.does:stiffen=.
+17	Strings.example.xml	CookingDomainArmor_LargeAVBuff_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= +6 AV for 50 turns.
+18	Strings.example.xml	CookingDomainArmor_UnitAV Description	+2 AV
+19	Strings.example.xml	CookingDomainArtifact_IdentifyAllInZone_ProceduralCookingTriggeredAction Description	=subject.it.does:identify= all artifacts on the local map.
+20	Strings.example.xml	CookingDomainArtifact_IdentifyAllInZone_ProceduralCookingTriggeredAction Message log	=subject.Does:flush= with understanding of =object.a.name=.
+21	Strings.example.xml	CookingDomainArtifact_OnIdentify Description	whenever =subject.thisCreature= =subject.verb:identify= an artifact,
+22	Strings.example.xml	CookingDomainAttributes_UnitPermanentAllStats_25Percent Description	=bonus.signed= to all six attributes permanently
+23	Strings.example.xml	CookingDomainAttributes_UnitPermanentAllStats_25Percent Journal muralText	=name= the Eater supped on royal nectar and metamorphosed into Godhead.
+24	Strings.example.xml	CookingDomainCloning_UnitMultipleClones	Causes =subject.thisCreature= to multiply 1 to 3 times.
+25	Strings.example.xml	CookingDomainCold_ColdResist_ProceduralCookingTriggeredAction Notification	=subject.does:become= fortified against the cold.
+26	Strings.example.xml	CookingDomainCold_ColdResist_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= 40-50 Cold Resist for 6 hours.
+27	Strings.example.xml	CookingDomainCold_CryokinesisCharge_ProceduralCookingTriggeredAction Notification	=subject.does:freeze= an area with cryokinesis.
+28	Strings.example.xml	CookingDomainCold_CryokinesisCharge_ProceduralCookingTriggeredAction Description	=subject.it.does:freeze= an area per Cryokinesis at rank 5-6.
+29	Strings.example.xml	CookingDomainCold_FreezingHandsCharge_ProceduralCookingTriggeredAction Notification	=subject.does:emit= a powerful ray of frost.
+30	Strings.example.xml	CookingDomainCold_FreezingHandsCharge_ProceduralCookingTriggeredAction Description	=subject.it.does:emit= a ray of frost per Freezing Ray at rank 5-6.
+31	Strings.example.xml	CookingDomainCold_LargeColdResist_ProceduralCookingTriggeredAction Notification	=subject.does:become= impervious to cold.
+32	Strings.example.xml	CookingDomainCold_LargeColdResist_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= 125-175 Cold Resist for 6 hours.
+33	Strings.example.xml	CookingDomainCold_OnSlowedByCold Description	whenever =subject.thisCreature= =subject.verb:are= slowed by cold,
+34	Strings.example.xml	CookingDomainCold_UnitResist Description - Values known	=bonus.signed= Cold Resistance
+35	Strings.example.xml	CookingDomainDarkness_UnitDV Description	+4 DV
+36	Strings.example.xml	CookingDomainDensity_UnitPermanentAV Description	+1 AV permanently
+37	Strings.example.xml	CookingDomainDissociation_UnitOtherBodyBonus Description	As long as your body isn't your own, you gain =bonus.signed= Quickness.
+38	Strings.example.xml	CookingDomainElectric_Discharge_ProceduralCookingTriggeredAction Notification	=subject.does:release= a powerful electrical discharge.
+39	Strings.example.xml	CookingDomainElectric_EMP_ProceduralCookingTriggeredAction Notification	=subject.does:release= a powerful electromagnetic pulse.
+40	Strings.example.xml	CookingDomainElectric_EMP_ProceduralCookingTriggeredAction Description - unknown roll	=subject.it.does:release= an electromagnetic pulse at rank 8-9.
+41	Strings.example.xml	CookingDomainElectric_EMP_ProceduralCookingTriggeredAction Description	=subject.it.does:release= an electromagnetic pulse at rank =tier=.
+42	Strings.example.xml	CookingDomainElectric_ExtraResistUnit Description	=bonus.signed= Electric Resistance
+43	Strings.example.xml	CookingDomainElectric_LargeElectricResist_ProceduralCookingTriggeredAction Notification	=subject.does:become= impervious to electrical damage.
+44	Strings.example.xml	CookingDomainElectric_LargeElectricResist_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= 125-175 Electric Resist for 50 turns.
+45	Strings.example.xml	CookingDomainElectric_ResistUnit Description	=bonus.signed= Electric Resistance
+46	Strings.example.xml	CookingDomainElectric_SmallElectricResist_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= 40-50 Electric Resist for 6 hours.
+47	Strings.example.xml	CookingDomainElectric_SmallElectricResist_ProceduralCookingTriggeredAction Notification	=subject.does:become= fortified against electrical damage.
+48	Strings.example.xml	CookingDomainFear_FearImmunity_ProceduralCookingTriggeredAction Notification	=subject.does:become= immune to fear.
+49	Strings.example.xml	CookingDomainFear_FearImmunity_ProceduralCookingTriggeredAction Description	=subject.it.does:become= immune to fear for 6 hours.
+50	Strings.example.xml	CookingDomainFear_Intimidate_ProceduralCookingTriggeredAction Notification	=subject.does:intimidate= everyone around =subject.them=.
+51	Strings.example.xml	CookingDomainFear_Intimidate_ProceduralCookingTriggeredAction Description	=subject.it.does:intimidate= creatures around =subject.them=.
+52	Strings.example.xml	CookingDomainFear_OnFeared Description	whenever =subject.thisCreature= =subject.verb:become= afraid,
+53	Strings.example.xml	CookingDomainFear_UnitBonusMA Description	+2 MA
+54	Strings.example.xml	CookingDomainFear_UnitIntimidate Description	Can use =skillName=.
+55	Strings.example.xml	CookingDomainFear_UnitIntimidate Description - Roll unknown	Can use =skillName=.
+56	Strings.example.xml	CookingDomainFear_UnitIntimidate Description - Bonus	=bonus.signed= bonus on Ego roll when using Intimidate.
+57	Strings.example.xml	CookingDomainFungus_OnItchy Description	whenever =subject.thisCreature= =subject.verb:get= itchy skin,
+58	Strings.example.xml	CookingDomainFungus_OnItchy Description	whenever =subject.thisCreature= =subject.verb:eat= a mushroom,
+59	Strings.example.xml	CookingDomainFungus_SporeImmunity_ProceduralCookingTriggeredAction Notification	=subject.does:become= impervious to fungal spores.
+60	Strings.example.xml	CookingDomainFungus_SporeImmunity_ProceduralCookingTriggeredAction Description	=subject.it.does:are= immune to fungal spores for 6 hours.
+61	Strings.example.xml	CookingDomainHeat_FlamingHandsCharge_ProceduralCookingTriggeredAction Notification	=subject.does:emit= a powerful ray of flame.
+62	Strings.example.xml	CookingDomainHeat_FlamingHandsCharge_ProceduralCookingTriggeredAction Description	=subject.it.does:emit= a ray of flame per Flaming Ray at rank 5-6.
+63	Strings.example.xml	CookingDomainHeat_HeatResist_ProceduralCookingTriggeredAction Notification	=subject.does:become= fortified against the heat.
+64	Strings.example.xml	CookingDomainHeat_HeatResist_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= 40-50 Heat Resist for 6 hours.
+65	Strings.example.xml	CookingDomainHeat_LargeHeatResist_ProceduralCookingTriggeredAction Notification	=subject.does:become= impervious to the heat.
+66	Strings.example.xml	CookingDomainHeat_LargeHeatResist_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= 125-175 Heat Resist for 50 turns.
+67	Strings.example.xml	CookingDomainHeat_OnEnflamed Description	whenever =subject.thisCreature= =subject.verb:are= set on fire,
+68	Strings.example.xml	CookingDomainHeat_PyrokinesisCharge_ProceduralCookingTriggeredAction Notification	=subject.does:toast= an area with pyrokinesis.
+69	Strings.example.xml	CookingDomainHeat_PyrokinesisCharge_ProceduralCookingTriggeredAction Description	=subject.it.does:toast= an area per Pyrokinesis at rank 5-6.
+70	Strings.example.xml	CookingDomainHeat_UnitResist Description	=bonus.signed= Heat Resistance
+71	Strings.example.xml	CookingDomainHightierRegen_Heal40to50_ProceduralCookingTriggeredAction Description	=subject.it.does:heal= 40-50 HP.
+72	Strings.example.xml	CookingDomainHightierRegen_Heal40to50_ProceduralCookingTriggeredAction Notification	=subject.the.name's= wounds heal significantly.
+73	Strings.example.xml	CookingDomainHightierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification	=subject.does:feel= less afflicted.
+74	Strings.example.xml	CookingDomainHP_HealToFull_ProceduralCookingTriggeredAction Notification	=subject.does:heal= to full.
+75	Strings.example.xml	CookingDomainHP_HealToFull_ProceduralCookingTriggeredAction Description	=subject.it.does:heal= to full 15% of the time.
+76	Strings.example.xml	CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Notification	=subject.does:become= heartier.
+77	Strings.example.xml	CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Description - unknown rolls	=subject.it.does:get= +30-40% max HP for 1 hour.
+78	Strings.example.xml	CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Description	=subject.it.does:get= =bonus.signed=% max HP for 1 hour.
+79	Strings.example.xml	CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredActionEffect Details	=bonus.signed=% max HP
+80	Strings.example.xml	CookingDomainHP_OnLowHealth Description	whenever =subject.thisCreature= =subject.verb:drop= below 20% HP,
+81	Strings.example.xml	CookingDomainHP_OnLowHealthMidTier Description	whenever =subject.thisCreature= =subject.verb:drop= below 30% HP,
+82	Strings.example.xml	CookingDomainHP_UnitHP Description	=tier.signed=% max HP
+83	Strings.example.xml	CookingDomainLove_BeguilingCharge_ProceduralCookingTriggeredAction Notification	=subject.does:feel= the swell of love inside.
+84	Strings.example.xml	CookingDomainLove_OnGainFollower Description	whenever =subject.thisCreature= =subject.verb:gain= a new follower,
+85	Strings.example.xml	CookingDomainLowtierRegen_HealToFull_ProceduralCookingTriggeredAction Description	=subject.it.does:heal= 15-20 HP.
+86	Strings.example.xml	CookingDomainLowtierRegen_HealToFull_ProceduralCookingTriggeredAction Notification	=subject.the.name's= wounds heal a bit.
+87	Strings.example.xml	CookingDomainLowtierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification	=subject.does:feel= less afflicted.
+88	Strings.example.xml	CookingDomainLowtierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Description	one of =subject.their= minor negative status effects is removed at random.
+89	Strings.example.xml	CookingDomainLowtierRegen_StopBleeding_ProceduralCookingTriggeredAction Description	=subject.it.does:stop= bleeding.
+90	Strings.example.xml	CookingDomainMedicinal_DiseaseImmunity_ProceduralCookingTriggeredAction Notification	=subject.does:become= impervious to disease.
+91	Strings.example.xml	CookingDomainMedicinal_DiseaseImmunity_ProceduralCookingTriggeredAction Description	=subject.they= can't acquire new diseases for 6 hours.
+92	Strings.example.xml	CookingDomainMedicinal_OnDrinkHoney Description	whenever =subject.thisCreature= =subject.verb:drink= honey,
+93	Strings.example.xml	CookingDomainMedicinal_RemoveDiseaseOnset_ProceduralCookingTriggeredAction Description	=subject.it.does:are= cured of an incubating disease with a 25% chance.
+94	Strings.example.xml	CookingDomainMedicinal_RemoveIll_ProceduralCookingTriggeredAction Notification	=subject.does:feel= better.
+95	Strings.example.xml	CookingDomainMedicinal_RemoveIll_ProceduralCookingTriggeredAction Description	=subject.it.does:are= cured of the Ill status effect.
+96	Strings.example.xml	CookingDomainPhase_OnPhaseIn Description	whenever =subject.thisCreature= =subject.verb:phase= in,
+97	Strings.example.xml	CookingDomainPhase_OnPhaseOut Description	whenever =subject.thisCreature= =subject.verb:phase= out,
+98	Strings.example.xml	CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification	=subject.does:phase= out.
+99	Strings.example.xml	CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification	=subject.does:become= phase-anchored.
+100	Strings.example.xml	CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Description	=subject.it.does:phase= out for 20 turns.
+101	Strings.example.xml	CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Description	=subject.they= can't be phased for 2 hours.
+102	Strings.example.xml	CookingDomainPhotosyntheticSkin_RegenerationUnit Description	=bonus.signed=% to natural healing rate
+103	Strings.example.xml	CookingDomainPhotosyntheticSkin_RegenerationUnit Description - Tier unknown	+20% + (Photosynthetic Skin rank * 10)% to natural healing rate
+104	Strings.example.xml	CookingDomainPhotosyntheticSkin_UnitQuickness Description	=bonus.signed= Quickness
+105	Strings.example.xml	CookingDomainPhotosyntheticSkin_UnitQuickness Description - Unknown tier	+13 + (Photosynthetic Skin rank * 2) Quickness
+106	Strings.example.xml	CookingDomainPlant_BurgeoningHighTier_ProceduralCookingTriggeredAction Notification	Plants burgeon around =subject.the.name=!
+107	Strings.example.xml	CookingDomainPlant_BurgeoningHighTier_ProceduralCookingTriggeredAction Description	=subject.it.does:cause= plants to spontaneously grow in a random nearby area.
+108	Strings.example.xml	CookingDomainPlant_OnDamageByPlant Description	whenever =subject.thisCreature= =subject.verb:take= damage from a plant,
+109	Strings.example.xml	CookingDomainQuickness_UnitQuickness Description	=bonus.signed= Quickness
+110	Strings.example.xml	CookingDomainReflect_QuillBurst_ProceduralCookingTriggeredAction Notification	=subject.does:expel= a blast of quills.
+111	Strings.example.xml	CookingDomainReflect_QuillBurst_ProceduralCookingTriggeredAction Description - Unknown rolls	=subject.it.does:expel= quills per the Quills mutation at rank 8-9.
+112	Strings.example.xml	CookingDomainReflect_QuillBurst_ProceduralCookingTriggeredAction Description	=subject.it.does:expel= quills per the Quills mutation at rank =tier=.
+113	Strings.example.xml	CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction Notification	=subject.does:grow= tiny spines all over =subject.their= body.
+114	Strings.example.xml	CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Details	Reflect 100% damage the next time =subject.it.does:take= damage.
+115	Strings.example.xml	CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Message	=subject.Does:reflect= =amount= damage back at =object.the.name=
+116	Strings.example.xml	CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Details - more than one left	Reflect 100% damage the next =times= times =subject.it.does:take= damage.
+117	Strings.example.xml	CookingDomainReflect_Reflect100HighTier_ProceduralCookingTriggeredAction Notification	=subject.does:grow= spines all over =subject.their= body.
+118	Strings.example.xml	CookingDomainReflect_UnitReflectDamage Description - unknown rolls	Reflect 3-4% damage back at =subject.their= attackers, rounded up.
+119	Strings.example.xml	CookingDomainReflect_UnitReflectDamage Description	Reflect =tier=% damage back at =subject.their= attackers, rounded up.
+120	Strings.example.xml	CookingDomainReflect_UnitReflectDamageHighTier Description - unknown rolls	Reflect 15-18% damage back at =subject.their= attackers, rounded up.
+121	Strings.example.xml	CookingDomainRegenLowtier_BleedResistUnit	=tier.signed= to saves vs. bleeding
+122	Strings.example.xml	CookingDomainRegenLowtier_RegenerationUnit Description	=tier.signed=% to natural healing rate
+123	Strings.example.xml	CookingDomainRubber_ExtraReducedFallDamage Description	Falling damage =subject.thisCreature= =subject.verb:take= is reduced by 90%.
+124	Strings.example.xml	CookingDomainRubber_JumpThrice_ProceduralCookingTriggeredAction Notification	=subject.does:feel= a overwhelming springiness inside.
+125	Strings.example.xml	CookingDomainRubber_JumpThrice_ProceduralCookingTriggeredAction Description	=subject.it.does:jump= three times in a row, each time at +2 range.
+126	Strings.example.xml	CookingDomainRubber_JumpTwice_ProceduralCookingTriggeredAction Notification	=subject.does:feel= a springiness inside.
+127	Strings.example.xml	CookingDomainRubber_JumpTwice_ProceduralCookingTriggeredAction Description	=subject.it.does:jump= twice in a row, each time at +1 range.
+128	Strings.example.xml	CookingDomainRubber_OnJump Description	whenever =subject.thisCreature= =subject.verb:jump=,
+129	Strings.example.xml	CookingDomainRubber_OnProne Description	whenever =subject.thisCreature= =subject.verb:go= prone,
+130	Strings.example.xml	CookingDomainRubber_ReducedFallDamage Description	Falling damage =subject.thisCreature= =subject.verb:take= is reduced by 50%.
+131	Strings.example.xml	CookingDomainSecrets_RevealSecrets Description	Reveals a secret to =subject.thisCreature=.
+132	Strings.example.xml	CookingDomainSelfHarm_UnitSelfGlotrot Description	Causes =subject.their= tongue to rot away.
+133	Strings.example.xml	CookingDomainSelfHarm_UnitSelfPoison Description	Poisons =subject.thisCreature=.
+134	Strings.example.xml	CookingDomainSpecial_UnitCrystalTransform Popups	...
+135	Strings.example.xml	CookingDomainSpecial_UnitCrystalTransform Description - Unknow rolls	?????
+136	Strings.example.xml	CookingDomainSpecial_UnitCrystalTransform Description	=subject.they= became a crystal being permanently.
+137	Strings.example.xml	CookingDomainSpecial_UnitCrystalTransform Failure	Your genome has already undergone this transformation.
+138	Strings.example.xml	CookingDomainSpecial_UnitSlogTransform Popups	...
+139	Strings.example.xml	CookingDomainSpecial_UnitSlogTransform Description - Unknown rolls	?????
+140	Strings.example.xml	CookingDomainSpecial_UnitSlogTransform Description	=subject.they= became a slug permanently.
+141	Strings.example.xml	CookingDomainSpecial_UnitSlogTransform Popups	You gained the mutation {{w|Bilge Sphincter}}!
+142	Strings.example.xml	CookingDomainSpecial_UnitSlogTransform - Failure	Your genome has already undergone this transformation.
+143	Strings.example.xml	CookingDomainStrength_DismemberOrSlam_ProceduralCookingTriggeredAction Notification	=subject.does:perform= an act of brutal violence.
+144	Strings.example.xml	CookingDomainStrength_LargeStrengthBuff_ProceduralCookingTriggeredAction Notification	=subject.the.name's= muscles bulge.
+145	Strings.example.xml	CookingDomainStrength_LargeStrengthBuff_ProceduralCookingTriggeredAction Description	=subject.it.does:gain= +8 Strength for 50 turns.
+146	Strings.example.xml	CookingDomainTeleport_MassTeleportOther_ProceduralCookingTriggeredAction Description	=subject.it.does:teleport= all creatures surrounding =subject.them=.
+147	Strings.example.xml	CookingDomainTeleport_OnTeleport Description	whenever =subject.thisCreature= =subject.verb:teleport=,
+148	Strings.example.xml	CookingDomainTeleport_Teleport_ProceduralCookingTriggeredAction Description	=subject.it.does:teleport=.
+149	Strings.example.xml	CookingDomainTeleport_UnitBlink Message - Player attacking	Fate intervenes and you deal no damage to =object.the.name=.
+150	Strings.example.xml	CookingDomainTongue_OnStuck Description	whenever =subject.thisCreature= =subject.verb:get= stuck, there's a 50% chance
+151	Strings.example.xml	CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Notification	=subject.does:shoot= out a trio of sticky tongues.
+152	Strings.example.xml	CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Message	A trio of tongues vegetate from =subject.the.name's= =bodypart:Face=!
+153	Strings.example.xml	CookingRecipe - multi-ingredient join string	, 
+154	Strings.example.xml	CookingRecipe Naming Ingredient	=liquid=
+155	Strings.example.xml	CookingRecipe GetDisplayName no ChefName	=displayName=
+156	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName (component fragment)	=component.name=
+157	Strings.example.xml	CookingRecipe Naming Ingredient	=item.short|strip=
+158	Strings.example.xml	CookingRecipe GetDisplayName	=chefName|'s= =displayName=
+159	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName has ingredients, multi-line	=displayName=\n=components.commaList=
+160	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName has ingredients, single-line	=displayName= [=components.commaList=]
+161	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName (component fragment, show quantity)	=component.name={{K|(=component.quantity=)}}
+162	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName missing ingredients, multi-line	{{K|=displayName|strip=}}\n=components.commaList=
+163	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName missing ingredients, single-line	{{K|=displayName|strip=}} [=components.commaList=]
+164	Strings.example.xml	CookingRecipe Name Generator	=spice:cooking.recipeNames.$ingredientCount.!random|title=
+165	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName has ingredients, multi-line, favorite	=glyph:Favorite= {{W|=displayName=}}\n=components.commaList=
+166	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName has ingredients, single-line, favorite	=glyph:Favorite= {{W|=displayName=}} [=components.commaList=]
+167	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName missing ingredients, multi-line, favorite	=glyph:Favorite= {{W|{{K|=displayName|strip=}}}}\n=components.commaList=
+168	Strings.example.xml	CookingRecipe GetAnnotatedDisplayName missing ingredients, single-line, favorite	=glyph:Favorite= {{W|{{K|=displayName|strip=}}}} [=components.commaList=]
+169	Strings.example.xml	CookingRecipeComponent UnusualBlueprint ingredient display name	=amount|color#amountColor= =ingredientDisplayName.pluralize#amount=
+170	Strings.example.xml	CookingRecipeComponents Liquid player tries to cook but doesn't have enough	You don't have enough =liquid.name=.
+171	Strings.example.xml	CookingRecipeComponents Liquid ingredient display name	=liquid.drams.of.liquid#amount#color=
+172	Strings.example.xml	CookingRecipeComponents Domain player tries to cook but doesn't have enough	You don't have enough =ingredientType=.
+173	Strings.example.xml	CookingRecipeComponents Blueprint player tries to cook but doesn't have enough	You don't have enough servings of =ingredientDisplayName=.
+174	Strings.example.xml	CookingRecipeComponents UnusualBlueprint player tries to cook but doesn't have enough	You don't have enough servings of =ingredientDisplayName=.
+175	Strings.example.xml	CookingRecipeComponents Domain ingredientType display name	=amount|color#amountColor= =amount.pluralize:serving= of =ingredientType=
+176	Strings.example.xml	CookingRecipeComponents Blueprint ingredient display name	=amount|color#amountColor= =amount.pluralize:serving= of =ingredientDisplayName=
+177	Strings.example.xml	CooldownAmmoLoader CooldownDisplay NoReadout	[cooldown]
+178	Strings.example.xml	CooldownAmmoLoader CooldownDisplay WithReadout	[=left= sec]
+179	Strings.example.xml	CooldownAmmoLoader GetCoolingdownMessage NoReadout	=subject.Does:are= unresponsive as =subject.it.does:cool= down.
+180	Strings.example.xml	Core Abandon Prompt	ABANDON
+181	Strings.example.xml	Core Hotload Books	Hot Loading Books...
+182	Strings.example.xml	Core SavedGame Index	Indexing saved games...
+183	Strings.example.xml	Core Hotload Config	Configuration hotloaded...
+184	Strings.example.xml	Core GameEnd Level	You were level {{C|=level=}}.
+185	Strings.example.xml	Core Companions Which	Interact with which companion?
+186	Strings.example.xml	Core Wait Turns - Bottom Status Bar	Waiting for =turns.things:turn=...
+187	Strings.example.xml	Core LostSightOf	You have lost sight of =object.the.name=.
+188	Strings.example.xml	Core GameEnd Mode	This game was played in =game.mode= mode.
+189	Strings.example.xml	Core Game EndType =decor=	{{C|=isAnEnding.if.glyph:PhiUpper:Omega=}}
+190	Strings.example.xml	Core Invalid Object	Invalid inventory object: =object.toString=
+191	Strings.example.xml	Core Need To Reload	You need to reload! (=commandKey:CmdReload=)
+192	Strings.example.xml	Core GameEnd DateTime	This game ended on =longDate= at =longTime=.
+193	Strings.example.xml	Core Rest until morning - Bottom bar	Resting until morning... (=turns.things:turn=)
+194	Strings.example.xml	Core Wait Turns - Invalid Number (negative)	=turns= is not a valid number of turns to wait.
+195	Strings.example.xml	Core GameEnd Lairs	You found {{C|=lairs=}} =lairs.pluralize:lair=.
+196	Strings.example.xml	Core GameEnd Named Items	You named {{C|=items=}} =items.pluralize:item=.
+197	Strings.example.xml	Core Cannot Reach	You can't find a way to reach =object.the.name=.
+198	Strings.example.xml	Core AbandonHope Accomplishment	On the =day= of =month=, you abandoned all hope.
+199	Strings.example.xml	Core HP Threshold Warning	Your health has dropped below {{C|=threshold=%}}!
+200	Strings.example.xml	Core GameEnd Score	You scored {{C|=score=}} =score.pluralize:point=.

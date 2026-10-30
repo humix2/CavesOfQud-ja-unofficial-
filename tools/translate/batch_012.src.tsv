@@ -1,0 +1,201 @@
+No	file	Context	ID
+2	Strings.example.xml	Nearby object prefix text (unused for now)	{{K|<autogot>}}
+3	Strings.example.xml	Nearby objects right text	{{K|=item.weight= lbs.}}
+4	Strings.example.xml	NorthSheva - Failure message, can't leave world map on this square	You can't land here.
+5	Strings.example.xml	NorthSheva - Failure message, only Movers on world map	You can't travel in this environment.
+6	Strings.example.xml	NorthSheva - Failure message, can't leave world map on this square - Ruined Stop	That stop is too ruined for the mover to land.
+7	Strings.example.xml	NoteImprovedAccuracy RulesPostfix	=subject.This.category= =subject.verb:have= improved accuracy.
+8	Strings.example.xml	NoteImprovedRateOfFire RulesPostfix Bonus AmmoCapacityAmount	=amount.signed= to =subject.its= ammo capacity
+9	Strings.example.xml	NoteImprovedRateOfFire RulesPostfix Bonus AmmoPerAction	=amount.signed= to =subject.its= ammo per action
+10	Strings.example.xml	NoteImprovedRateOfFire RulesPostfix Bonus ShotsPerAction	=amount.signed= to =subject.its= shots per action
+11	Strings.example.xml	NoteImprovedRateOfFire RulesPostfix	=subject.This.category= =subject.verb:have= =bonusList.andList=.
+12	Strings.example.xml	Notes	Notes: =note=
+13	Strings.example.xml	NoThirst_ProceduralCookingTriggeredAction Description	=subject.it.does:don't= thirst for the next 12 hours.
+14	Strings.example.xml	NoThirst_ProceduralCookingTriggeredAction_Effect Details	=subject.it.does:don't= thirst.
+15	Strings.example.xml	numberbox (value)	[=num=]
+16	Strings.example.xml	numberbox color	[=num|color#shade=]
+17	Strings.example.xml	OpeningStory Accomplishment	On the =day= of =month=, you arrived at =villageName=.
+18	Strings.example.xml	Options Path Delegate Arrow	 -> 
+19	Strings.example.xml	Options Menu - Restart notice	This option requires a game restart to take effect.
+20	Strings.example.xml	OptionsCategoryControl category title	=title|upper=
+21	Strings.example.xml	OptionsCategoryControl category expander	=expand.expanded=
+22	Strings.example.xml	OptionsCheckboxControl checkbox control wasSelectedFalse	=checked.checkbox.basic= =title=
+23	Strings.example.xml	OptionsCheckboxControl checkbox control wasSelectedTrue	{{=checkcolor=|=checked.checkbox.basic=}} {{W|=title=}}
+24	Strings.example.xml	OptionsScreen PopupTitle	Option: =selectedoptiontitlefield=
+25	Strings.example.xml	OriginalItemType Description Prefix	This item is a named =originalItem=.\n
+26	Strings.example.xml	OriginalItemType Snapshot =originalItem=	=subject.name:asIfKnown:noConfusion:includeAdjunctNoun=
+27	Strings.example.xml	PartsGas NameForStatus Techscanning	GasDispersal
+28	Strings.example.xml	PartsGas RulesPostfix Always Nearby	Repels gases near =part.operationalScope=. =part.statusSummary|addParens=
+29	Strings.example.xml	PaxInfection FireEvent ActivatePaxInfection	=subject.Does:spew= a cloud of spores =subject.to.the.direction:noHere=.
+30	Strings.example.xml	PetPhylactery Spawn Appear	=subject.Does:appear=.
+31	Strings.example.xml	PetPhylactery DisplayName	phylactery of =subject.name=
+32	Strings.example.xml	PetPhylactery Spawn Activate	=subject.Does:activate= =object.the.name=.
+33	Strings.example.xml	PetPhylactery Despawn Announce	=subject.Does:disappear= =subject.to.the.direction=.
+34	Strings.example.xml	Phasing phase out	=subject.Does:phase= out.
+35	Strings.example.xml	Phasing Damage message fragment	from being forced into phase.
+36	Strings.example.xml	Phasing phase in	=subject.Does:phase= back in.
+37	Strings.example.xml	Phasing Into Walls Die Reason	You violated the Pauli exclusion principle.
+38	Strings.example.xml	Phasing phase in countdown (player only)	You will phase back in in =duration.things:round=.
+39	Strings.example.xml	Phasing Into Walls Die ThirdPersonReason	=subject.They= violated the Pauli exclusion principle.
+40	Strings.example.xml	Photosynthetic Skin DV Bonus Description	camouflage
+41	Strings.example.xml	Photosynthetic Skin Bask NoSunlight	You need sunlight to bask in.
+42	Strings.example.xml	Photosynthetic Skin Bask HostilesNearby	You can't bask with hostiles nearby.
+43	Strings.example.xml	Physics (Inventory) Category	Nest
+44	Strings.example.xml	Physics (Inventory) Category	Liquids
+45	Strings.example.xml	Physics (Inventory) Category	Terrain
+46	Strings.example.xml	Physics (Inventory) Category	Invertebrates
+47	Strings.example.xml	Physics (Inventory) Category	Fungal Infection
+48	Strings.example.xml	Physics Passing By Object With Article	=object.a.name:withTitles=
+49	Strings.example.xml	Physics PassingBy	You pass by =passed.andList=.
+50	Strings.example.xml	Physics AccelerateInternal my damage message	from colliding with =object.a.name=.
+51	Strings.example.xml	Physics ApplyDischarge Avoided UnknownSource NoReason	The arc avoided =alternate.the.name=.
+52	Strings.example.xml	Physics ObjectEnteringCellEvent PlayerBlocked	The way is blocked by =object.a.name=.
+53	Strings.example.xml	Physics ObjectEnteringCellEvent PlayerCollides	OUCH! You collide with =object.a.name=.
+54	Strings.example.xml	Physics InventoryActionEvent AddNotes PopupPrompt	Enter notes for =object.the.name|strip=.
+55	Strings.example.xml	Physics ApplyDischarge PassesThrough	The arc passes through =target.the.name=!
+56	Strings.example.xml	Physics AccelerateInternal collide message	=subject.Does:collide= with =object.a.name=.
+57	Strings.example.xml	Physics ProcessTargetedMove ReallyAttack	Do you really want to attack =object.the.name=?
+58	Strings.example.xml	Physics AccelerateInternal my damage message w/ pens	=pens.pens= from colliding with =object.a.name=.
+59	Strings.example.xml	Physics Hurt Follower Visible AutoAct Interrupt 'because' (clause)	you see =object.the.name:baseOnly= being injured
+60	Strings.example.xml	Physics AccelerateInternal knocked message	=subject.Does:are= knocked =dir.to.the.direction=.
+61	Strings.example.xml	Physics AccelerateInternal my damage message	from =subject.a.name= colliding with =object.them=.
+62	Strings.example.xml	Physics FightFire ReallyAttack	Do you really want to attack =object.the.name|strip=?
+63	Strings.example.xml	Physics InventoryActionEvent CleanItem WhereToGetLiquid Popup InBaseGameAlwaysWater ModsCouldHaveOrList	[ {{W|Choose where to use a dram of =cleaningLiquid= from}} ]
+64	Strings.example.xml	Physics AccelerateInternal my damage message w/ pens	=pens.pens= from =subject.a.name= colliding with =object.them=.
+65	Strings.example.xml	Physics ApplyDischarge ValidSource FirstLeap TargetVisible TargetIsPlayer	An {{electrical|electrical arc}} leaps toward =target.the.name=!
+66	Strings.example.xml	Physics ApplyDischarge UnknownSource TargetVisible FirstLeap	An {{electrical|electrical arc}} leaps toward =target.the.name=!
+67	Strings.example.xml	Physics ApplyDischarge UnknownSource TargetVisible SubsequentLeap	The {{electrical|electrical arc}} leaps toward =target.the.name=!
+68	Strings.example.xml	Physics ApplyDischarge Avoided UnknownSource AlternateReason	The arc avoided =alternate.the.name= because of =alternateReason=.
+69	Strings.example.xml	Physics InventoryActionEvent CleanItem PlayerDoesn'tHaveLiquid InBaseGameAlwaysWater ModsCouldHaveOrList	You don't have any =cleaningLiquid= to clean =object.them|strip= with.
+70	Strings.example.xml	Physics ApplyDischarge Avoided UnknownSource AlternateToDirection BecauseOfOtherObject	The arc avoided =alternate.the.name= because of =becauseObject.a.name=.
+71	Strings.example.xml	Physics ApplyDischarge Avoided SourceValid NoReason	The arc avoided =alternate.the.name= =source.to.its.direction#alternate=.
+72	Strings.example.xml	Physics Hurt Follower Audible AutoAct Interrupt 'because' (clause)	you hear =object.the.name:baseOnly= being injured =object.to.the.direction=
+73	Strings.example.xml	PickGameObjectLine OwnedByYou	{{G|[owned by you]}}
+74	Strings.example.xml	PickGameObjectLine CategoryExpanderAndName	=expand.expanded= =category|color:K=
+75	Strings.example.xml	PickGameObjectScreen SortMode az	A-Z
+76	Strings.example.xml	PickGameObjectScreen sort mode setting	Sort Mode: =modes.textSelector:w#selected=
+77	Strings.example.xml	PickItem StartMarker	{{Y|>}}
+78	Strings.example.xml	PickItem OwnedByYou	{{G|[owned by you]}}
+79	Strings.example.xml	PickItem scroll up	<{{W|8}} to scroll up>
+80	Strings.example.xml	PickItem ScrollDown	<{{W|2}} to scroll down>
+81	Strings.example.xml	PickItem Take All	=commandKey:Take All= {{Y|Take all}}
+82	Strings.example.xml	PickItem Store Items	=commandKey:Store Items= {{Y|Store an item}}
+83	Strings.example.xml	PickItem Category Name and Expander	=start==keychar=) =expand.expanded= {{K|[{{|=category=}}]}}
+84	Strings.example.xml	PickTarget ShowPicker Control Bar SelectButton	=commandKey:Accept=-Select
+85	Strings.example.xml	PickTarget ConsoleUI Select	=commandKeyConsole:Accept=-Select
+86	Strings.example.xml	PickTarget ShowPicker Control Bar UnlockButton	Unlock (=commandKey:CmdLockUnlock=)
+87	Strings.example.xml	PickTarget ConsoleUI Lock	=locked.if:Unlock:Lock= (=commandKeyConsole:CmdLockUnlock=)
+88	Strings.example.xml	PlayerStatus HP Bar	{{Y|HP: {{=healthColor=|=hitpoints=}} / =baseHitpoints=}}
+89	Strings.example.xml	PlayerStatusBar HP	HP: =hp=
+90	Strings.example.xml	PlayerStatusBar Date And Time	=time= =day= of =month=
+91	Strings.example.xml	PlayerStatusBar Temperature	T:=temperature==glyph.strip:Degree=
+92	Strings.example.xml	PlayerStatusBar XPBar Text	LVL: =level= Exp: =xp= / =xpForNextLevel=
+93	Strings.example.xml	PlayerStatusBar Weight and Water	=totalWeight=/=weightLimit=# {{blue|=water=$}}
+94	Strings.example.xml	PluckablePolyp Display With Clause	coral growth
+95	Strings.example.xml	PluckablePolyp Reveal Message	=subject.Does:reveal= =object.a.name=.
+96	Strings.example.xml	PointDefense NameForStatus TechScanning	PointDefenseTracking
+97	Strings.example.xml	PointDefense Intercept Success	=subject.Does:intercept= =object.the.name=!
+98	Strings.example.xml	PointedAsteriskBuilder AsteriskWish DisplayName	{{paisley|The 10-Pointed Asterisk of the Ensemble}}
+99	Strings.example.xml	PointedAsteriskBuilder BuildAsteriskName	=points=-pointed asterisk of =useArticle.if:the= {{=color=|=factionName=}}
+100	Strings.example.xml	Popup ConsoleUI ShowYesNo NoFormatting	[Yes] [No]
+101	Strings.example.xml	Popup ConsoleUI PressSpaceNoFormat	[press space]
+102	Strings.example.xml	Popup DisplayLoadError MissingMods	Missing mods: 
+103	Strings.example.xml	Popup ConsoleUI PickOption More	{{W|<More...>}}
+104	Strings.example.xml	Popup ConsoleUI UpForMore	<up for more...>
+105	Strings.example.xml	Popup PickSeveral HowMany	Select how many?
+106	Strings.example.xml	Popup ConsoleUI DownForMore	<down for more...>
+107	Strings.example.xml	Popup ConsoleUI AskString EnterToConfirm NoFormatting	[Enter to confirm]
+108	Strings.example.xml	Popup ConsoleUI PressSpaceWithFormat	[press {{W|space}}]
+109	Strings.example.xml	Popup ConsoleUI ShowYesNo WithFormatting	[{{W|Y}}es] [{{W|N}}o]
+110	Strings.example.xml	Popup SetupColorPickers NoColoringWithPreviewText	=preview= (no coloring)
+111	Strings.example.xml	Popup ConsoleUI ShowYesNoCancel NoFormatting	[Yes] [No] [ESC-Cancel]
+112	Strings.example.xml	Popup ConsoleUI AskString EnterToConfirm WithFormatting	[{{W|Enter}} to confirm]
+113	Strings.example.xml	Popup SetupColorPickers ShaderNoPreviewText	{{=shader=|=shadername=}}
+114	Strings.example.xml	Popup SetupColorPickers Preview	=preview= ^k{{y| (=colorname=)}}
+115	Strings.example.xml	Popup SetupColorPickers ShaderWithPreviewText	{{=shader=|=preview=}} (=shadername=)
+116	Strings.example.xml	Popup AskNumber ConsoleUI BottomLineNoFormatting	[↑↓→← adjust,Enter or space to confirm]
+117	Strings.example.xml	Popup ConsoleUI ShowYesNoCancel WithFormatting	[{{W|Y}}es] [{{W|N}}o] [{{W|ESC}}-Cancel]
+118	Strings.example.xml	Popup PickSeveral Accept	{{y|[=commandKeyConsole:CmdDelete=] Accept}}
+119	Strings.example.xml	Popup PickSeveral SelectAll	{{y|=commandKeyConsole:Take All= Select All}}
+120	Strings.example.xml	Popup PickSeveral DeselectAll	{{y|=commandKeyConsole:Take All= Deselect All}}
+121	Strings.example.xml	Popup AskNumber ConsoleUI BottomLineWithFormatting	[{{W|↑↓→←}} adjust, {{W|Enter}} or space to confirm]
+122	Strings.example.xml	Popup PickSeveral - Too Many	You cannot select more than =amount.cardinal= options!
+123	Strings.example.xml	Popup DisplayLoadError DoYouWantToExamineErrors	Do you want to examine these errors in the Player.log?
+124	Strings.example.xml	PopupMessage UI Copy Button Text (gamepad)	{{y|Copy}}
+125	Strings.example.xml	PopupMessage Button Text (without hotkey)	{{y|Cancel}}
+126	Strings.example.xml	PopupMessage UI Single Button Text (gamepad)	{{W|press =commandKey:Accept=}}
+127	Strings.example.xml	PopupMessage UI Accept Button Text	[{{W|=commandKey:Accept=}}] Accept
+128	Strings.example.xml	PopupMessage UI Yes Button Text (gamepad)	{{W|[=commandKey:Accept=]}} {{y|Yes}}
+129	Strings.example.xml	PopupMessage UI Cancel Button Text	{{W|[=commandKey:Cancel=]}} {{y|Cancel}}
+130	Strings.example.xml	PopupMessage UI No Button Text (gamepad)	{{W|[=commandKey:V Negative=]}} {{y|No}}
+131	Strings.example.xml	PopupMessage UI Color Button Text	{{W|[=commandKey:CmdHelp=]}} {{y|Color}}
+132	Strings.example.xml	PopupMessage UI Submit Button Text (gamepad)	{{W|[=commandKey:Submit=]}} {{y|Submit}}
+133	Strings.example.xml	PopupMessage UI Single Button Text (kbm)	{{W|[=commandKey:Accept=]}} {{y|Continue}}
+134	Strings.example.xml	PopupMessage UI Trade Button Text	[{{W|=commandKey:CmdStartTrade=}}] {{y|Trade}}
+135	Strings.example.xml	PopupMessage UI Hold Button Text	{{W|[=commandKey:CmdOptions=]}} {{y|Hold to Accept}}
+136	Strings.example.xml	PortableWall default DeployingWhat (used in title bar when picking tiles)	Wall
+137	Strings.example.xml	PoweredFloating NameForStatus TechScanning	HoverSystems
+138	Strings.example.xml	PoweredFloating CheckFloating Fall Announce	=subject.Does:fall= to the ground.
+139	Strings.example.xml	PoweredFloating CheckFloating Cease Announce	=subject.Does:cease= floating near you.
+140	Strings.example.xml	PoweredFloating FailureMessage	=subject.Does:do= not seem to be able to float at this time.
+141	Strings.example.xml	PoweredFloating CheckFloating FallScoop Announce	=subject.Does:fall= to the ground; you scoop =subject.them= up.
+142	Strings.example.xml	PoweredMissilePerformance Techscanning NameForStatus	PerformanceEnhancementSystems
+143	Strings.example.xml	Precognition stats postfix for Tomorrowful	Duration increased by =duration= due to the Tomorrowful skill.
+144	Strings.example.xml	PreparedCookingIngredient Description Postfix	Adds =ingredientTypes.orList= effects to cooked meals.
+145	Strings.example.xml	PreparedCookingIngredient DisplayName Tag Serving Count	[=charges|color:C= cooking =charges.pluralize:serving=]
+146	Strings.example.xml	PreparedCookingIngredient Stacker Display	[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple=
+147	Strings.example.xml	ProceduralCookingEffectUnit_LessThirst Description	=subject.thisCreature= =subject.verb:thirst= at half rate.
+148	Strings.example.xml	ProceduralCookingEffectUnitMutation Snapshot =mutationName=	=mutation.name=
+149	Strings.example.xml	ProceduralCookingEffectUnitMutation Description - Mutation added	Can use =mutationName= at rank =tier=.
+150	Strings.example.xml	ProceduralCookingEffectUnitMutation Description - Unknown rolls, no bonus tier	Can use =mutationName= at rank =addedTier=.
+151	Strings.example.xml	ProceduralCookingEffectUnitMutation Description - Mutation bonus levels	=tier.signed= =tier.pluralize:rank= to =mutationName=.
+152	Strings.example.xml	ProceduralCookingEffectWithTrigger Combine Trigger Description (baseEffects will end with a newline)	=baseEffects==trigger= =triggeredActions.andList=
+153	Strings.example.xml	ProgrammableRecoiler Location-Based Name Fragment	=zoneID.recoiler.name=
+154	Strings.example.xml	ProgrammableRecoiler GetDisplayName	=locationNameCache= recoiler
+155	Strings.example.xml	Projectile Default PassByVerb	whiz
+156	Strings.example.xml	ProjectileReflectionShield Details	Reflects incoming projectiles and thrown objects at a =chance=% chance.
+157	Strings.example.xml	ProneOnHit Projectile	Causes enemies to be knocked prone
+158	Strings.example.xml	ProneOnHit Melee	Melee attacks cause enemies to be knocked prone
+159	Strings.example.xml	ProperAndList replacer - join proper and regular names	 and 
+160	Strings.example.xml	ProperAndList replacer - pluralize name	=name|pluralize=
+161	Strings.example.xml	ProperAndList replacer - collect names	=subject.shortname=
+162	Strings.example.xml	ProperAndList replacer - proper names	=properNames.andList=
+163	Strings.example.xml	ProperAndList replacer - item name	=subject.shortsingle=
+164	Strings.example.xml	ProperAndList replacer - item name (proper)	=subject.the.name:asIfKnown=
+165	Strings.example.xml	ProperAndList replacer - item name (asIfKnown)	=subject.shortsingle:asIfKnown=
+166	Strings.example.xml	ProperAndList replacer - regular names	=owner.its= =regularNames.andList=
+167	Strings.example.xml	ProperAndList replacer - proper names and regular names	=properNames.andList= and =owner.its= =regularNames.andList=
+168	Strings.example.xml	Proselytize Fail Target Self	You can't proselytize =subject.itself=!
+169	Strings.example.xml	Proselytize Fail Glotrot	You cannot proselytize without a tongue.
+170	Strings.example.xml	Proselytize Fail Message	=object.Does:are= unconvinced by your pleas.
+171	Strings.example.xml	Proselytize Fail Frozen	Frozen solid, you cannot proselytize =object.t=.
+172	Strings.example.xml	Proselytize Fail no tongue	Without a tongue, you cannot proselytize =object.t=.
+173	Strings.example.xml	PsychicHunterSystem Extradimensional Naming Title	=title=
+174	Strings.example.xml	PsychicHunterSystem Extradimensional Deviant Naming Title	=title=
+175	Strings.example.xml	PsychicHunterSystem Extradimensional Cult Naming Title	=title=
+176	Strings.example.xml	PsychicHunterSystem GlimmerDescription	=fragments.join:\n\n=
+177	Strings.example.xml	PsychicHunterSystem Extradimensional Deviant Naming Title	=subject.creatureType=
+178	Strings.example.xml	PsychicHunterSystem Extradimensional Cult Naming Title	esper from the =cultName=
+179	Strings.example.xml	PsychicHunterSystem Hunter Naming Position	Ptoh's =spice:seekers.title.!random=
+180	Strings.example.xml	PsychicHunterSystem Extradimensional Naming Title	extradimensional =subject.creatureType=
+181	Strings.example.xml	PsychicHunterSystem Extradimensional Cult Naming Title	extradimensional =subject.creatureType=
+182	Strings.example.xml	PsychicHunterSystem Extradimensional Naming Title	esper =spice:commonPhrases.hunter.!random=
+183	Strings.example.xml	PsychicHunterSystem Extradimensional Deviant Naming Title	transdimensional =spice:commonPhrases.entropist.!random=
+184	Strings.example.xml	PsychicHunterSystem GlimmerDescription (fragment)	You are also visible to psychic beings from other dimensions.
+185	Strings.example.xml	Psychometry InitiateRealityDistortionTransit Purpose	use psychometry on =object.the.name:single=
+186	Strings.example.xml	PyroZone Start Message	The air =subject.generalDirectionIfAny= starts to shimmer with heat!
+187	Strings.example.xml	PyroZone Stop Message	The air =subject.generalDirectionIfAny= ceases shimmering with heat.
+188	Strings.example.xml	Qas Qon Lair Maker - CradleDisplayName	The chuppah of Qas and Qon
+189	Strings.example.xml	QudAPISaves DirectoryError Directory	Directory: =path=
+190	Strings.example.xml	QudAPISaves InfoTotalSize	Total size: =size=mb
+191	Strings.example.xml	QudAPISaves CorrupteInfoFile	{{R|Corrupt info file}}
+192	Strings.example.xml	QudAPISaves FatalSaveError Title	Error reading save location.
+193	Strings.example.xml	QudAPISaves InfoDescription	Level =level= =subtype= =gamemode=
+194	Strings.example.xml	QudAPISaves InfoInfo	=location=, =ingametime= turn =turn=
+195	Strings.example.xml	QudAPISaves InfoOlderVersion	{{R|Older Version (=version=)}} =savename=
+196	Strings.example.xml	QudAPISaves DirectoryError	There was an error while trying to access your save directory.
+197	Strings.example.xml	QudAPISaves PermissionError	There was a permission error while trying to access your save directory.
+198	Strings.example.xml	QudHistoryFactory article chance	the
+199	Strings.example.xml	QudHistoryFactory Name Sanitize	=name|trim|slim|title=
+200	Strings.example.xml	QudHistoryFactory cultName chance	Cult of =spice.entity:name=
+201	Strings.example.xml	QudHistoryFactory Name Chance	=article|spaceAfter==spice:entity@siteTopology2.!random= =nameRoot=

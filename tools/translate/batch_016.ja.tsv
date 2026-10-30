@@ -1,0 +1,177 @@
+2	狂乱の
+3	洞窟王
+4	人食い
+5	ゴム皮の
+6	双頭の
+7	不滅の
+8	心臓喰らい
+9	狩りの名手
+10	血に飢えた
+11	頭蓋収集家
+12	上る。\n\n=commandKey:CmdMoveU=を押す。
+13	下りる。\n\n=commandKey:CmdMoveD=を押す。
+14	バトルアックスだ。拾おう。\n\n=commandKey:CmdUse=を押す
+15	バトルアックスだ。拾おう。\n\n=commandKey:CmdGet=を押す
+16	=commandKey:LookDirection=で熊を調べよう。
+17	=commandKey:LookDirection=でスナップジョーを調べよう。
+18	上る。\n\nこのボタンをクリックするか=commandKey:CmdMoveU=を押す。
+19	無礼はやめよう。甲虫と話そう。\n\n=commandKey:CmdUse=を押す。
+20	下りる。\n\nこのボタンをクリックするか=commandKey:CmdMoveD=を押す。
+21	=commandKey:CmdLook=を押すか熊を=commandKey:AdventureMouseInteract=する。
+22	装備画面を見てみよう。\n\n=commandKey:CmdCharacter=を押す
+23	装備画面を見てみよう。\n\n=commandKey:CmdEquipment=を押す
+24	=commandKey:GamepadAlt= + =commandKey:Take A Step=でツールチップを表示する。
+25	装備画面を見てみよう。\n\n=commandKey:CmdCharacter=を押す
+26	装備画面を見てみよう。\n\n=commandKey:CmdEquipment=を押す
+27	=commandKey:CmdLook=を押すかスナップジョーを=commandKey:AdventureMouseInteract=する。
+28	ローカルマップと同じように、ここでも周りを調べられる。\n\n=commandKey:CmdLook=を押す
+29	次はワールドマップへ行こう。もう一度上ってみよう。\n\n=commandKey:CmdMoveU=を押す。
+30	チュートリアルガイド
+31	[=commandKey:Accept=] 続ける
+32	=subject.T=はあなたの念動の範囲外だ。
+33	ここはワールドマップのないポケット次元だ。
+34	=range.things:tile=以内の場所を選ぶ必要がある！
+35	[ {{Y|=title=}} ]
+36	[ {{Y|=title=}} ]
+37	[ {{C|=page=}} / {{C|=pagecount=}}ページ ]
+38	[ {{C|=page=}} / {{C|=pagecount=}}ページ ]
+39	 [=navLeft=]-前のページ [=navRight=]-次のページ [=commandKey:Cancel=]-閉じる
+40	=label|addPipe= [方向を選択]
+41	=label|addPipe= [方向を選択]
+42	追加の=part.name=スロット
+43	経験値 =amount.signed=
+44	サイバネティックインプラントを埋め込んだ
+45	レベル =amount.signed=
+46	与えたダメージの=percent=%回復する
+47	与えたダメージの=percent=%回復する（-=reduction=）
+48	与えたダメージの=percent=%回復する（最大=maximum=）
+49	有機クリーチャーに与えたダメージの=percent=%回復する
+50	与えたダメージの=percent=%回復する（-=reduction=、最大=maximum=）
+51	有機クリーチャーに与えたダメージの=percent=%回復する（-=reduction=）
+52	有機クリーチャーに与えたダメージの=percent=%回復する（最大=maximum=）
+54	従者を選択
+55	=object.the.name=に乗れる従者がいない。
+56	=subject.The.name=は既に=object.the.name=が使用している。
+58	=subject.T=は=object.the.name=に潜入した！
+59	ゴーレムと組んでいるとき=stat.title= =paired.signed=
+60	ゴーレムと組んでいないとき=stat.title= =unpaired.signed=
+61	=vehicle.name=
+62	=subject.T=は塞がれている。
+63	呼び戻す=vehicleTerm=を選択
+64	呼び戻せる=vehicleTerm=がない。
+65	=liquid.name=を1ドラム持っていない。
+66	=subject.The.name=はカチッと鳴っただけだった。
+67	=subject.T=は=object.the.name=で作り直された！
+68	=subject.T=は=object.the.name=へ転送された！
+69	=vehicleTerm=を呼び戻せる場所がない。
+70	{{R|破壊された}}=vehicle.name=\n    {{C|作り直すには=liquid.name=が1ドラム必要}}
+71	乗り物
+72	=object.T=は修理の必要がない。
+73	=liquid.name=を1ドラム持っていない。
+74	=object.the.name=には=vehicleTerm=がない。
+75	=object.the.name=の亀裂と傷跡に粘土質が刷り直された。
+76	=subject.T=は動作していない。
+77	=subject.T=はあなたに結び付けられていない。
+78	=object.The.name=はカチッと鳴っただけだった。
+79	=object.T=には動作に必要なチャージが足りない。
+80	=spice:villages.mayor.introDialog.!random=
+81	=villageName=の村を発見した。
+82	=spice:villages.warden.introDialog.!random=
+83	=spice:villages.pet.originStorySingle.!random=
+84	=spice:villages.pet.originStoryMultiple.!random=
+85	=villageName=の廃村を発見した。
+86	なんと香ばしい匂いだ！ =villageName=の名物料理の作り方を教えてくれ。\n
+87	=villageName=の歴史
+88	=description|strip|capitalize=
+89	=spice.entity:name=の村人
+90	=primaryPlant.refname|strip|makeHedge=
+91	=primaryPlant.refname|strip|makeHedge=
+92	{{=mainColor=|=snippet=}}について教えてくれ…
+93	{{=mainColor=|=snippet=}}について教えてくれ…
+94	=villageName=の歴史 第=num.roman=巻
+95	押し固められた=primaryAnimal.bone.of.name|strip=
+96	=primaryAnimal.species=の=primaryAnimal.fragment:Skin:skin=のテント
+97	{{M|=villageName=}}の村の歴史の一場面{{C|: =story=}}
+100	=spice:quests.questContext.itemNameMutation.!random=
+101	=immigrant.basename|strip=
+102	なぜここには=pet.plural=がいるんだ？
+103	なぜここには=pet.a.name=がいるんだ？
+104	よそ者よ、なぜこの村に来た？
+105	=spice:villages.$immigrantRole.reasonIBecame.!random=
+106	=spice:villages.immigrants.immigrantPopReason.!random=
+107	=immigrant.basename|strip=は自分の商売の店を開いた
+108	=immigrant.basename|strip=は村人たちの間に落ち着いた
+109	なぜこの村には=faction.formattedName=が住んでいるんだ？
+110	=immigrant.FormalAddressTerm=、なぜこの村に来たんだ？
+112	=villageName=の村を訪れた。
+113	<傷ついて判読できない>
+114	=name|title=
+115	=terrainFragment=と=terrainFragment2=
+116	=spice:villages.description.!random|capitalize=.
+117	=spice:history.regions.terrain.$terrain.over.!random=
+118	白昼夢の中
+119	夢が崩れ去った。
+120	=subject.name's=夢が崩れ去った
+121	アイテムの購入
+122	スキルの習得
+123	秘密の共有
+124	突然変異の獲得
+125	クリーチャーの勧誘
+126	料理レシピの習得
+127	ティンカリング設計図の習得
+128	水の儀式での=types.andList=の評判コスト =percent.signed=%
+130	=subject.Poss#wingsBlueprint|strip=が動かない！
+131	(=count=')
+133	=amount|color:C= XPを獲得した！
+135	 {{G|[あなたの所有物]}}
+136	[ {{W|あなたの持ち物}} ]
+137	 {{C|=total:0.???=}}ドラム
+138	{{R|[ 他人の所有物 ]}}
+139	[{{W|=commandKey:Cancel=}} 閉じる]
+140	[{{W|=commandKey:CmdTradeOffer=}} 提案]
+141	=subject.T=には取引できるものがない。
+142	[{{W|=commandKey:CmdTradeOffer=}} 移動]
+143	=object.T=は完全に充電されている！
+144	=trader.The.name|strip=は物を運べない。
+145	[{{W|=commandKey:CmdVendorActions=}} アクション]
+146	 {{=color=|=effectiveWeight=/=maxWeight=ポンド}}
+147	=multiple.if:それらのアイテム:そのアイテム=は壊れていない！
+148	=trader.the.name's|strip=説明が理解できない。
+149	=trader.T=にはアイテムを修理する技術がない。
+150	=trader.T=にはアーティファクトを鑑定する技術がない。
+151	=trader.T=にはアイテムを再充電する技術がない。
+152	このアイテムは複雑すぎて=trader.the.name|strip=には鑑定できない。
+153	=trader.t=に真水=owe=ドラムの借りができた。
+154	真水=cost=ドラムでこれを鑑定できる。
+155	=trader.T=は燃えていて、取引どころではない。
+156	[{{W|=commandKey:CmdTradeAdd=}}/{{W|=commandKey:CmdTradeRemove=}} 追加/削除]
+157	=multiple.if:これらのアイテム:このアイテム=は複雑すぎて=trader.t=には修理できない。
+158	迷彩
+159	草木と同じマスにいる間 DV =bonus.signed=
+160	やや強い風
+161	疾強風
+162	軟風
+163	強風
+164	暴風
+165	和風
+166	強風（強）
+167	ハリケーン
+168	微風
+169	大強風
+170	猛烈な暴風
+171	風が=newWindDesc=に弱まった。
+172	風が=newWindDesc=に強まった。
+173	=newWindDesc=が吹き始めた。
+174	=new.direction.expanded=から=newWindDesc=が吹き始めた。
+175	風が=newWindDesc=に弱まり、=new.direction.expanded=から吹いている。
+178	=context=
+179	=zone.Name=
+180	=name=、=context=
+181	=zone.Name=、=time=
+182	地底深く
+183	=context.stripArticle=
+184	=terrain.the.name|strip=
+185	メモ: =notes.commaList=
+186	=name=、=context.stripArticle=
+189	=name=、=underground.if:地下:上空==level.things:stratum=
+190	このゾーンの生成中に問題が発生した。自動で報告しますか？

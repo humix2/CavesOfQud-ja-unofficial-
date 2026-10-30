@@ -1,0 +1,8 @@
+{
+  "Id": "QudJPLite",
+  "Title": "QudJP Lite (軽量日本語化)",
+  "Description": "Windows の日本語フォントを登録し、XML データ（アイテム・会話・変異など）を日本語化する軽量版。Harmony パッチは使わない。翻訳データは QudJP (MIT License) から流用。",
+  "Author": "FUMI",
+  "Version": "0.1.0",
+  "Tags": ["Localization", "Japanese"]
+}

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Troll Hero Naming.xml Context" ID="frenetic">狂乱の</string>
+  <string Context="Troll Hero Naming.xml Context" ID="Caveking">洞窟王</string>
+  <string Context="Troll Hero Naming.xml Context" ID="Man-eater">人食い</string>
+  <string Context="Troll Hero Naming.xml Context" ID="rubberhide">ゴム皮の</string>
+  <string Context="Troll Hero Naming.xml Context" ID="two-headed">双頭の</string>
+  <string Context="Troll Hero Naming.xml Context" ID="everlasting">不滅の</string>
+  <string Context="Troll Hero Naming.xml Context" ID="Heart-eater">心臓喰らい</string>
+  <string Context="Troll Hero Naming.xml Context" ID="Hunt-master">狩りの名手</string>
+  <string Context="Troll Hero Naming.xml Context" ID="bloodthirsty">血に飢えた</string>
+  <string Context="Troll Hero Naming.xml Context" ID="Skull-collector">頭蓋収集家</string>
+  <string Context="Tutorial ExploreStairs instruction (gamepad)" ID="Ascend.&#10;&#10;Press =commandKey:CmdMoveU=.">上る。
+
+=commandKey:CmdMoveU=を押す。</string>
+  <string Context="Tutorial ExploreWorldMap instruction (gamepad)" ID="Descend.&#10;&#10;Press =commandKey:CmdMoveD=.">下りる。
+
+=commandKey:CmdMoveD=を押す。</string>
+  <string Context="Tutorial BattleRemains instruction (gamepad)" ID="A battle axe. Get it.&#10;&#10;Hit =commandKey:CmdUse=">バトルアックスだ。拾おう。
+
+=commandKey:CmdUse=を押す</string>
+  <string Context="Tutorial BattleRemains instruction (kbm)" ID="A battle axe. Get it.&#10;&#10;Hit =commandKey:CmdGet=">バトルアックスだ。拾おう。
+
+=commandKey:CmdGet=を押す</string>
+  <string Context="Tutorial FightBear instruction (gamepad)" ID="Use =commandKey:LookDirection= to look at the bear.">=commandKey:LookDirection=で熊を調べよう。</string>
+  <string Context="Tutorial FightSnapjaw instruction (gamepad)" ID="Use =commandKey:LookDirection= to look at the snapjaw.">=commandKey:LookDirection=でスナップジョーを調べよう。</string>
+  <string Context="Tutorial ExploreStairs instruction (kbm)" ID="Ascend.&#10;&#10;You can click this button or press =commandKey:CmdMoveU=.">上る。
+
+このボタンをクリックするか=commandKey:CmdMoveU=を押す。</string>
+  <string Context="Tutorial MakeCamp nudge (gamepad)" ID="Let's not be rude. Talk to the beetle.&#10;&#10;Press =commandKey:CmdUse=.">無礼はやめよう。甲虫と話そう。
+
+=commandKey:CmdUse=を押す。</string>
+  <string Context="Tutorial ExploreWorldMap instruction (kbm)" ID="Descend.&#10;&#10;You can click this button or press =commandKey:CmdMoveD=.">下りる。
+
+このボタンをクリックするか=commandKey:CmdMoveD=を押す。</string>
+  <string Context="Tutorial FightBear instruction (kbm)" ID="Press =commandKey:CmdLook= or =commandKey:AdventureMouseInteract= the bear.">=commandKey:CmdLook=を押すか熊を=commandKey:AdventureMouseInteract=する。</string>
+  <string Context="Tutorial BattleRemains instruction (gamepad)" ID="Let's take a look at the Equipment screen.&#10;&#10;Press =commandKey:CmdCharacter=">装備画面を見てみよう。
+
+=commandKey:CmdCharacter=を押す</string>
+  <string Context="Tutorial BattleRemains instruction (kbm)" ID="Let's take a look at the Equipment screen.&#10;&#10;Press =commandKey:CmdEquipment=">装備画面を見てみよう。
+
+=commandKey:CmdEquipment=を押す</string>
+  <string Context="Tutorial BattleRemains instruction (gamepad)" ID="Press =commandKey:GamepadAlt= + =commandKey:Take A Step= to view the tooltip.">=commandKey:GamepadAlt= + =commandKey:Take A Step=でツールチップを表示する。</string>
+  <string Context="Tutorial FightSnapjaw instruction (gamepad)" ID="Let's take a look at the Equipment screen.&#10;&#10;Press =commandKey:CmdCharacter=">装備画面を見てみよう。
+
+=commandKey:CmdCharacter=を押す</string>
+  <string Context="Tutorial FightSnapjaw instruction (kbm)" ID="Let's take a look at the Equipment screen.&#10;&#10;Press =commandKey:CmdEquipment=">装備画面を見てみよう。
+
+=commandKey:CmdEquipment=を押す</string>
+  <string Context="Tutorial FightSnapjaw instruction (kbm)" ID="Press =commandKey:CmdLook= or =commandKey:AdventureMouseInteract= the snapjaw.">=commandKey:CmdLook=を押すかスナップジョーを=commandKey:AdventureMouseInteract=する。</string>
+  <string Context="Tutorial ExploreWorldMap instruction (kbm)" ID="You can look around here just like on a local map.&#10;&#10;Press =commandKey:CmdLook=">ローカルマップと同じように、ここでも周りを調べられる。
+
+=commandKey:CmdLook=を押す</string>
+  <string Context="Tutorial MakeCamp instruction (gamepad)" ID="Now to go to the world map. Try ascending again.&#10;&#10;Press =commandKey:CmdMoveU=.">次はワールドマップへ行こう。もう一度上ってみよう。
+
+=commandKey:CmdMoveU=を押す。</string>
+  <string Context="TutorialManager popup title" ID="TUTORIAL GUIDE">チュートリアルガイド</string>
+  <string Context="TutorialManager popup Continue button" ID="[=commandKey:Accept=] Continue">[=commandKey:Accept=] 続ける</string>
+  <string Context="TwiddleObject - Error out of range (telekinetic)" ID="=subject.does:are= out of your telekinetic range.">=subject.T=はあなたの念動の範囲外だ。</string>
+  <string Context="Tzimtzlum WorldZoneFactory SpecialUpMessage" ID="You're in a pocket dimension with no worldmap.">ここはワールドマップのないポケット次元だ。</string>
+  <string Context="UI PickTarget Fail Out Of Range" ID="You must select a location within =range.things:tile=!">=range.things:tile=以内の場所を選ぶ必要がある！</string>
+  <string Context="UI.Books static book title" ID="[ {{Y|=title=}} ]">[ {{Y|=title=}} ]</string>
+  <string Context="UI.Books dynamic book title" ID="[ {{Y|=title=}} ]">[ {{Y|=title=}} ]</string>
+  <string Context="UI.Books static book page" ID="[ Page {{C|=page=}} of {{C|=pagecount=}} ]">[ {{C|=page=}} / {{C|=pagecount=}}ページ ]</string>
+  <string Context="UI.Books dynamic book page" ID="[ Page {{C|=page=}} of {{C|=pagecount=}} ]">[ {{C|=page=}} / {{C|=pagecount=}}ページ ]</string>
+  <string Context="UI.Books nav shortcuts" ID=" [=navLeft=]-Previous Page [=navRight=]-Next Page [=commandKey:Cancel=]-Exit "> [=navLeft=]-前のページ [=navRight=]-次のページ [=commandKey:Cancel=]-閉じる</string>
+  <string Context="UI.PickDirection modern title" ID="=label|addPipe= [Select a direction]">=label|addPipe= [方向を選択]</string>
+  <string Context="UI.PickDirection classic title" ID="=label|addPipe= [Select a direction]">=label|addPipe= [方向を選択]</string>
+  <string Context="Unit Add Body Part" ID="Extra =part.name= slot">追加の=part.name=スロット</string>
+  <string Context="Unit Gain Experience" ID="=amount.signed= experience">経験値 =amount.signed=</string>
+  <string Context="Unit Cybernetic Install" ID="Cybernetic implant installed">サイバネティックインプラントを埋め込んだ</string>
+  <string Context="Unit Gain Level" ID="=amount.signed= =amount.pluralize:level=">レベル =amount.signed=</string>
+  <string Context="VampiricWeapon AppendEffect" ID="Heal for =percent=% of damage dealt">与えたダメージの=percent=%回復する</string>
+  <string Context="VampiricWeapon AppendEffect w/Reduction" ID="Heal for =percent=% of damage dealt, -=reduction=">与えたダメージの=percent=%回復する（-=reduction=）</string>
+  <string Context="VampiricWeapon AppendEffect w/Maximum" ID="Heal for =percent=% of damage dealt, max =maximum=">与えたダメージの=percent=%回復する（最大=maximum=）</string>
+  <string Context="VampiricWeapon AppendEffect RequiresLiving" ID="Heal for =percent=% of damage dealt vs. organic creatures">有機クリーチャーに与えたダメージの=percent=%回復する</string>
+  <string Context="VampiricWeapon AppendEffect w/Reduction w/Maximum" ID="Heal for =percent=% of damage dealt, -=reduction=, max =maximum=">与えたダメージの=percent=%回復する（-=reduction=、最大=maximum=）</string>
+  <string Context="VampiricWeapon AppendEffect RequiresLiving w/Reduction" ID="Heal for =percent=% of damage dealt vs. organic creatures, -=reduction=">有機クリーチャーに与えたダメージの=percent=%回復する（-=reduction=）</string>
+  <string Context="VampiricWeapon AppendEffect RequiresLiving w/Maximum" ID="Heal for =percent=% of damage dealt vs. organic creatures, max =maximum=">有機クリーチャーに与えたダメージの=percent=%回復する（最大=maximum=）</string>
+  <string Context="Vehicle Choose Passenger Popup" ID="Choose a follower">従者を選択</string>
+  <string Context="Vehicle No Follower Fail" ID="You have no followers that can enter =object.the.name=.">=object.the.name=に乗れる従者がいない。</string>
+  <string Context="VehicleControl Already In Use" ID="=subject.The.name= is already in use by =object.the.name=.">=subject.The.name=は既に=object.the.name=が使用している。</string>
+  <string Context="VehicleMeleeInfiltration Success Message" ID="=subject.Does:infiltrate= =object.the.name=!">=subject.T=は=object.the.name=に潜入した！</string>
+  <string Context="VehiclePairBonus Paired Default" ID="=paired.signed= =stat.title= when you are paired with the golem">ゴーレムと組んでいるとき=stat.title= =paired.signed=</string>
+  <string Context="VehiclePairBonus Unpaired Default" ID="=unpaired.signed= =stat.title= when you are unpaired with the golem">ゴーレムと組んでいないとき=stat.title= =unpaired.signed=</string>
+  <string Context="VehicleRecall Option" ID="=vehicle.name=">=vehicle.name=</string>
+  <string Context="VehicleRecall Obstruction" ID="=subject.Does:are= obstructed.">=subject.T=は塞がれている。</string>
+  <string Context="VehicleRecall PickOption" ID="Choose a =vehicleTerm= to recall">呼び戻す=vehicleTerm=を選択</string>
+  <string Context="VehicleRecall No Vehicle" ID="You have no =vehicleTerm= to recall.">呼び戻せる=vehicleTerm=がない。</string>
+  <string Context="VehicleRecall Insufficient Liquid" ID="You do not have 1 dram of =liquid.name=.">=liquid.name=を1ドラム持っていない。</string>
+  <string Context="VehicleRecall Status Default Message" ID="=subject.The.name= merely =subject.verb:click=.">=subject.The.name=はカチッと鳴っただけだった。</string>
+  <string Context="VehicleRecall Success Message Dead" ID="=subject.Does:are= reshaped at =object.the.name=!">=subject.T=は=object.the.name=で作り直された！</string>
+  <string Context="VehicleRecall Success Message Not Dead" ID="=subject.Does:are= transported to =object.the.name=!">=subject.T=は=object.the.name=へ転送された！</string>
+  <string Context="VehicleRecall No Place" ID="There is nowhere for the =vehicleTerm= to be recalled to.">=vehicleTerm=を呼び戻せる場所がない。</string>
+  <string Context="VehicleRecall Destroyed Option" ID="{{R|destroyed}} =vehicle.name=&#10;    {{C|1 dram of =liquid.name= to reshape}}">{{R|破壊された}}=vehicle.name=
+    {{C|作り直すには=liquid.name=が1ドラム必要}}</string>
+  <string Context="VehicleRepair Default Vehicle Term" ID="vehicle">乗り物</string>
+  <string Context="VehicleRepair No Need" ID="=object.Does:are= in no need of repairs.">=object.T=は修理の必要がない。</string>
+  <string Context="VehicleRepair Insufficient Liquid" ID="You do not have 1 dram of =liquid.name=.">=liquid.name=を1ドラム持っていない。</string>
+  <string Context="VehicleRepair No Vehicle" ID="There is no =vehicleTerm= on =object.the.name=.">=object.the.name=には=vehicleTerm=がない。</string>
+  <string Context="VehicleRepair Success Message" ID="Claystuff is reprinted across the fissures and scars on =object.the.name=.">=object.the.name=の亀裂と傷跡に粘土質が刷り直された。</string>
+  <string Context="VehicleSeat Not Operational" ID="=subject.Does:are= not operational.">=subject.T=は動作していない。</string>
+  <string Context="VehicleSeat Not Bound" ID="=subject.Does:are= not bound to you.">=subject.T=はあなたに結び付けられていない。</string>
+  <string Context="VehicleTerm Default Fail" ID="=object.The.name= merely =object.verb:click=.">=object.The.name=はカチッと鳴っただけだった。</string>
+  <string Context="VehicleTerm Not Enough Charge" ID="=object.Does:do= not have enough charge to operate.">=object.T=には動作に必要なチャージが足りない。</string>
+  <string Context="Village mayor conversation welcome message" ID="=spice:villages.mayor.introDialog.!random=">=spice:villages.mayor.introDialog.!random=</string>
+  <string Context="Village reveal string" ID="You discover the village of =villageName=.">=villageName=の村を発見した。</string>
+  <string Context="Village Warden Conversation dialog" ID="=spice:villages.warden.introDialog.!random=">=spice:villages.warden.introDialog.!random=</string>
+  <string Context="Village pet question answer for single pet" ID="=spice:villages.pet.originStorySingle.!random=">=spice:villages.pet.originStorySingle.!random=</string>
+  <string Context="Village pet question answer for single pet" ID="=spice:villages.pet.originStoryMultiple.!random=">=spice:villages.pet.originStoryMultiple.!random=</string>
+  <string Context="Village reveal string" ID="You discover the abandoned village of =villageName=.">=villageName=の廃村を発見した。</string>
+  <string Context="Village mayor teaches dish conversation prompt" ID="What a savory smell! Teach me to cook the favorite dish of =villageName=.&#10;">なんと香ばしい匂いだ！ =villageName=の名物料理の作り方を教えてくれ。
+</string>
+  <string Context="VillageBase generatePreacherBooks title" ID="History of =villageName=">=villageName=の歴史</string>
+  <string Context="VillageBase getAVillageWall description finalizer" ID="=description|strip|capitalize=">=description|strip|capitalize=</string>
+  <string Context="VillageBase CreateVillageFaction faction display name" ID="villagers of =spice.entity:name=">=spice.entity:name=の村人</string>
+  <string Context="VillageBase getAVillageWall planks display name" ID="=primaryPlant.refname|strip|makeHedge=">=primaryPlant.refname|strip|makeHedge=</string>
+  <string Context="VillageBase getAVillageWall planks sinew display name" ID="=primaryPlant.refname|strip|makeHedge=">=primaryPlant.refname|strip|makeHedge=</string>
+  <string Context="VillageBase placeStories crier conversation prompt" ID="Tell me about {{=mainColor=|=snippet=}}...">{{=mainColor=|=snippet=}}について教えてくれ…</string>
+  <string Context="VillageBase placeStories robot conversation prompt" ID="Tell me about {{=mainColor=|=snippet=}}...">{{=mainColor=|=snippet=}}について教えてくれ…</string>
+  <string Context="VillageBase generateHistoryBooks book title" ID="History of =villageName=, Vol. =num.roman=">=villageName=の歴史 第=num.roman=巻</string>
+  <string Context="VillageBase getAVillageWall bone display name animal" ID="compacted =primaryAnimal.bone.of.name|strip=">押し固められた=primaryAnimal.bone.of.name|strip=</string>
+  <string Context="VillageBase getAVillageCanvas display name" ID="=primaryAnimal.species= =primaryAnimal.fragment:Skin:skin= tent">=primaryAnimal.species=の=primaryAnimal.fragment:Skin:skin=のテント</string>
+  <string Context="VillageBase placeStories tattoo" ID="a scene from the history of the village {{M|=villageName=}}{{C|: =story=}}">{{M|=villageName=}}の村の歴史の一場面{{C|: =story=}}</string>
+  <string Context="VillageDynamicQuestContext item name mutation" ID="=spice:quests.questContext.itemNameMutation.!random=">=spice:quests.questContext.itemNameMutation.!random=</string>
+  <string Context="VillageHistory PopulationInflux Immigrant name" ID="=immigrant.basename|strip=">=immigrant.basename|strip=</string>
+  <string Context="VillageHistory PopulationInflux Pets question" ID="Why are there =pet.plural= here?">なぜここには=pet.plural=がいるんだ？</string>
+  <string Context="VillageHistory PopulationInflux Pet question" ID="Why =pet.is= there =pet.a.name= here?">なぜここには=pet.a.name=がいるんだ？</string>
+  <string Context="VillageHistory PopulationInflux Immigrant question" ID="Stranger, why did you come to this village?">よそ者よ、なぜこの村に来た？</string>
+  <string Context="VillageHistory PopulationInflux Immigrant reasonForComing" ID="=spice:villages.$immigrantRole.reasonIBecame.!random=">=spice:villages.$immigrantRole.reasonIBecame.!random=</string>
+  <string Context="VillageHistory PopulationInflux Faction reason" ID="=spice:villages.immigrants.immigrantPopReason.!random=">=spice:villages.immigrants.immigrantPopReason.!random=</string>
+  <string Context="VillageHistory PopulationInflux Immigrant villageActivity (trades)" ID="=immigrant.basename|strip= set up a shop for their trade">=immigrant.basename|strip=は自分の商売の店を開いた</string>
+  <string Context="VillageHistory PopulationInflux Immigrant villageActivity (villager)" ID="=immigrant.basename|strip= settled down among the villagers">=immigrant.basename|strip=は村人たちの間に落ち着いた</string>
+  <string Context="VillageHistory PopulationInflux Faction question" ID="Why is this village populated with =faction.formattedName=?">なぜこの村には=faction.formattedName=が住んでいるんだ？</string>
+  <string Context="VillageHistory PopulationInflux Immigrant question" ID="=immigrant.FormalAddressTerm=, why did you come to this village?">=immigrant.FormalAddressTerm=、なぜこの村に来たんだ？</string>
+  <string Context="VillageRegionSurface Visit Text" ID="You visited the village of =villageName=.">=villageName=の村を訪れた。</string>
+  <string Context="VillageStoryReveal Unreadable" ID="&lt;marred and unreadable&gt;">&lt;傷ついて判読できない&gt;</string>
+  <string Context="VillageTerrain ProperName" ID="=name|title=">=name|title=</string>
+  <string Context="VillageTerrain text terrainFragment double" ID="=terrainFragment= and =terrainFragment2=">=terrainFragment=と=terrainFragment2=</string>
+  <string Context="VillageTerrain Description" ID="=spice:villages.description.!random|capitalize=.">=spice:villages.description.!random|capitalize=.</string>
+  <string Context="VillageTerrain text fragment" ID="=spice:history.regions.terrain.$terrain.over.!random=">=spice:history.regions.terrain.$terrain.over.!random=</string>
+  <string Context="Waking Dream state description" ID="in a waking dream">白昼夢の中</string>
+  <string Context="WakingDream death by collapse (second person)" ID="Your dream collapsed.">夢が崩れ去った。</string>
+  <string Context="WakingDream death by collapse (third person)" ID="=subject.name's= dream collapsed">=subject.name's=夢が崩れ去った</string>
+  <string Context="WaterRitualDiscount Types Item" ID="buying items">アイテムの購入</string>
+  <string Context="WaterRitualDiscount Types Skill" ID="learning skills">スキルの習得</string>
+  <string Context="WaterRitualDiscount Types Secret" ID="sharing secrets">秘密の共有</string>
+  <string Context="WaterRitualDiscount Types Mutation" ID="gaining mutations">突然変異の獲得</string>
+  <string Context="WaterRitualDiscount Types Join" ID="recruiting creatures">クリーチャーの勧誘</string>
+  <string Context="WaterRitualDiscount Types CookingRecipe" ID="learning cooking recipes">料理レシピの習得</string>
+  <string Context="WaterRitualDiscount Types TinkerRecipe" ID="learning tinker blueprints">ティンカリング設計図の習得</string>
+  <string Context="WaterRitualDiscount Rulespostfix" ID="=percent.signed=% reputation cost for =types.andList= via the water ritual">水の儀式での=types.andList=の評判コスト =percent.signed=%</string>
+  <string Context="Wings Failure (EMPed robot wings)" ID="=subject.Poss#wingsBlueprint|strip= will not move!">=subject.Poss#wingsBlueprint|strip=が動かない！</string>
+  <string Context="Wire DisplayName Clause" ID="(=count=')">(=count=')</string>
+  <string Context="XP Gain Message" ID="You gain =amount|color:C= XP!">=amount|color:C= XPを獲得した！</string>
+  <string Context="XRLUITradeUI Owned" ID=" {{G|[owned by you]}}"> {{G|[あなたの所有物]}}</string>
+  <string Context="XRLUITradeUI Inventory" ID="[ {{W|Your inventory}} ]">[ {{W|あなたの持ち物}} ]</string>
+  <string Context="XRLUITradeUI Left Drams Value" ID=" {{C|=total:0.???=}} drams "> {{C|=total:0.???=}}ドラム</string>
+  <string Context="XRLUITradeUI Owned By Someone" ID="{{R|[ owned by someone else ]}}">{{R|[ 他人の所有物 ]}}</string>
+  <string Context="XRLUITradeUI Exit" ID="[{{W|=commandKey:Cancel=}} Exit]">[{{W|=commandKey:Cancel=}} 閉じる]</string>
+  <string Context="XRLUITradeUI Offer" ID="[{{W|=commandKey:CmdTradeOffer=}} Offer]">[{{W|=commandKey:CmdTradeOffer=}} 提案]</string>
+  <string Context="XRLUITradeUI nothing to trade popup" ID="=subject.Does:have|strip= nothing to trade.">=subject.T=には取引できるものがない。</string>
+  <string Context="XRLUITradeUI Transfer" ID="[{{W|=commandKey:CmdTradeOffer=}} Transfer]">[{{W|=commandKey:CmdTradeOffer=}} 移動]</string>
+  <string Context="XRLUITradeUI Fully Charged" ID="=object.T= =object.verb:are= fully charged!">=object.T=は完全に充電されている！</string>
+  <string Context="XRLUITradeUI No Inventory" ID="=trader.The.name|strip= cannot carry things.">=trader.The.name|strip=は物を運べない。</string>
+  <string Context="XRLUITradeUI Actions" ID="[{{W|=commandKey:CmdVendorActions=}} Actions]">[{{W|=commandKey:CmdVendorActions=}} アクション]</string>
+  <string Context="XRLUITradeUI Lbs" ID=" {{=color=|=effectiveWeight=/=maxWeight= lbs.}} "> {{=color=|=effectiveWeight=/=maxWeight=ポンド}}</string>
+  <string Context="XRLUITradeUI NotBroken" ID="=multiple.if:Those items aren't:That item isn't= broken!">=multiple.if:それらのアイテム:そのアイテム=は壊れていない！</string>
+  <string Context="XRLUITradeUI TraderIdentify Fail Dystechnia" ID="You can't understand =trader.the.name's|strip= explanation.">=trader.the.name's|strip=説明が理解できない。</string>
+  <string Context="XRLUITradeUI Cant Repair" ID="=trader.T= =trader.verb:do= not have the skill to repair items.">=trader.T=にはアイテムを修理する技術がない。</string>
+  <string Context="XRLUITradeUI Trader Cant Identify" ID="=trader.Does:don't|strip= have the skill to identify artifacts.">=trader.T=にはアーティファクトを鑑定する技術がない。</string>
+  <string Context="XRLUITradeUI Cant Recharge" ID="=trader.T= =trader.verb:do= not have the skill to recharge items.">=trader.T=にはアイテムを再充電する技術がない。</string>
+  <string Context="XRLUITradeUI TraderIdentify Fail Too Complex" ID="This item is too complex for =trader.the.name|strip= to identify.">このアイテムは複雑すぎて=trader.the.name|strip=には鑑定できない。</string>
+  <string Context="XRLUITradeUI Owe" ID="You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.">=trader.t=に真水=owe=ドラムの借りができた。</string>
+  <string Context="XRLUITradeUI TraderIdentify Confirm Cost" ID="You may identify this for =cost= =cost.pluralize:dram= of fresh water.">真水=cost=ドラムでこれを鑑定できる。</string>
+  <string Context="XRLUITradeUI IsAflame" ID="=trader.T= =trader.is= on fire and =trader.is= too busy to trade with you.">=trader.T=は燃えていて、取引どころではない。</string>
+  <string Context="XRLUITradeUI AddRemove" ID="[{{W|=commandKey:CmdTradeAdd=}}/{{W|=commandKey:CmdTradeRemove=}} Add/Remove]">[{{W|=commandKey:CmdTradeAdd=}}/{{W|=commandKey:CmdTradeRemove=}} 追加/削除]</string>
+  <string Context="XRLUITradeUI RepairTooComplex" ID="=multiple.if:These items are:This item is= too complex for =trader.t= to repair.">=multiple.if:これらのアイテム:このアイテム=は複雑すぎて=trader.t=には修理できない。</string>
+  <string Context="Yurtmat StatShifter DisplayName" ID="camouflage">迷彩</string>
+  <string Context="Yurtmat RulesPostfix" ID="=bonus.signed= DV while occupying the same tile as foliage">草木と同じマスにいる間 DV =bonus.signed=</string>
+  <string Context="Zone WindSpeedDescription 40 or less" ID="a fresh breeze">やや強い風</string>
+  <string Context="Zone WindSpeedDescription 70 or less" ID="gale intensity">疾強風</string>
+  <string Context="Zone WindSpeedDescription 20 or less" ID="a gentle breeze">軟風</string>
+  <string Context="Zone WindSpeedDescription 50 or less" ID="a strong breeze">強風</string>
+  <string Context="Zone WindSpeedDescription 100 or less" ID="storm intensity">暴風</string>
+  <string Context="Zone WindSpeedDescription 30 or less" ID="a moderate breeze">和風</string>
+  <string Context="Zone WindSpeedDescription 60 or less" ID="near gale intensity">強風（強）</string>
+  <string Context="Zone WindSpeedDescription over 120" ID="hurricane intensity">ハリケーン</string>
+  <string Context="Zone WindSpeedDescription 10 or less" ID="a very gentle breeze">微風</string>
+  <string Context="Zone WindSpeedDescription 90 or less" ID="strong gale intensity">大強風</string>
+  <string Context="Zone WindSpeedDescription 120 or less" ID="violent storm intensity">猛烈な暴風</string>
+  <string Context="Zone WindChange decreases" ID="The wind calms to =newWindDesc=.">風が=newWindDesc=に弱まった。</string>
+  <string Context="Zone WindChange increases" ID="The wind intensifies to =newWindDesc=.">風が=newWindDesc=に強まった。</string>
+  <string Context="Zone WindChange starts" ID="The wind begins blowing at =newWindDesc=.">=newWindDesc=が吹き始めた。</string>
+  <string Context="Zone WindChange starts with Mind's Compass" ID="The wind begins blowing at =newWindDesc= from the =new.direction.expanded=.">=new.direction.expanded=から=newWindDesc=が吹き始めた。</string>
+  <string Context="Zone WindChange decreases with Mind's Compass" ID="The wind calms to =newWindDesc=, blowing from the =new.direction.expanded=.">風が=newWindDesc=に弱まり、=new.direction.expanded=から吹いている。</string>
+  <string Context="ZoneManager Zone Name, context only" ID="=context=">=context=</string>
+  <string Context="ZoneManager MessageLog Entering Zone (not Joppa)" ID="=zone.Name=">=zone.Name=</string>
+  <string Context="ZoneManager Zone Name, append context" ID="=name=, =context=">=name=、=context=</string>
+  <string Context="ZoneManager MessageLog Entering Zone (Joppa)" ID="=zone.Name=, =time=">=zone.Name=、=time=</string>
+  <string Context="ZoneManager - Terrain DisplayName Z&gt;10" ID="the deep underground">地底深く</string>
+  <string Context="ZoneManager Zone Name, context only without articles" ID="=context.stripArticle=">=context.stripArticle=</string>
+  <string Context="ZoneManager - Terrain Display Name" ID="=terrain.the.name|strip=">=terrain.the.name|strip=</string>
+  <string Context="ZoneManager MessageLog Entering Zone - Zone has notes" ID="Notes: =notes.commaList=">メモ: =notes.commaList=</string>
+  <string Context="ZoneManager Zone Name, append context without articles" ID="=name=, =context.stripArticle=">=name=、=context.stripArticle=</string>
+  <string Context="ZoneManager Zone Name, append strata level" ID="=name=, =level.things:stratum= =underground.if:deep:high=">=name=、=underground.if:地下:上空==level.things:stratum=</string>
+  <string Context="ZoneManager zone build error popup" ID="There was an issue building this zone. Automatically report it to us?">このゾーンの生成中に問題が発生した。自動で報告しますか？</string>
+</strings>

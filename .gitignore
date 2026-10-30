@@ -1,0 +1,6 @@
+# build_ja.py の出力（いつでも再生成できる。保存用の版は snapshots/ に置く）
+dist/
+
+# Python
+__pycache__/
+*.pyc

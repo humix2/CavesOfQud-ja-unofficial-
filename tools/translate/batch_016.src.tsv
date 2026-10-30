@@ -1,0 +1,190 @@
+No	file	Context	ID
+2	Strings.example.xml	Troll Hero Naming.xml Context	frenetic
+3	Strings.example.xml	Troll Hero Naming.xml Context	Caveking
+4	Strings.example.xml	Troll Hero Naming.xml Context	Man-eater
+5	Strings.example.xml	Troll Hero Naming.xml Context	rubberhide
+6	Strings.example.xml	Troll Hero Naming.xml Context	two-headed
+7	Strings.example.xml	Troll Hero Naming.xml Context	everlasting
+8	Strings.example.xml	Troll Hero Naming.xml Context	Heart-eater
+9	Strings.example.xml	Troll Hero Naming.xml Context	Hunt-master
+10	Strings.example.xml	Troll Hero Naming.xml Context	bloodthirsty
+11	Strings.example.xml	Troll Hero Naming.xml Context	Skull-collector
+12	Strings.example.xml	Tutorial ExploreStairs instruction (gamepad)	Ascend.\n\nPress =commandKey:CmdMoveU=.
+13	Strings.example.xml	Tutorial ExploreWorldMap instruction (gamepad)	Descend.\n\nPress =commandKey:CmdMoveD=.
+14	Strings.example.xml	Tutorial BattleRemains instruction (gamepad)	A battle axe. Get it.\n\nHit =commandKey:CmdUse=
+15	Strings.example.xml	Tutorial BattleRemains instruction (kbm)	A battle axe. Get it.\n\nHit =commandKey:CmdGet=
+16	Strings.example.xml	Tutorial FightBear instruction (gamepad)	Use =commandKey:LookDirection= to look at the bear.
+17	Strings.example.xml	Tutorial FightSnapjaw instruction (gamepad)	Use =commandKey:LookDirection= to look at the snapjaw.
+18	Strings.example.xml	Tutorial ExploreStairs instruction (kbm)	Ascend.\n\nYou can click this button or press =commandKey:CmdMoveU=.
+19	Strings.example.xml	Tutorial MakeCamp nudge (gamepad)	Let's not be rude. Talk to the beetle.\n\nPress =commandKey:CmdUse=.
+20	Strings.example.xml	Tutorial ExploreWorldMap instruction (kbm)	Descend.\n\nYou can click this button or press =commandKey:CmdMoveD=.
+21	Strings.example.xml	Tutorial FightBear instruction (kbm)	Press =commandKey:CmdLook= or =commandKey:AdventureMouseInteract= the bear.
+22	Strings.example.xml	Tutorial BattleRemains instruction (gamepad)	Let's take a look at the Equipment screen.\n\nPress =commandKey:CmdCharacter=
+23	Strings.example.xml	Tutorial BattleRemains instruction (kbm)	Let's take a look at the Equipment screen.\n\nPress =commandKey:CmdEquipment=
+24	Strings.example.xml	Tutorial BattleRemains instruction (gamepad)	Press =commandKey:GamepadAlt= + =commandKey:Take A Step= to view the tooltip.
+25	Strings.example.xml	Tutorial FightSnapjaw instruction (gamepad)	Let's take a look at the Equipment screen.\n\nPress =commandKey:CmdCharacter=
+26	Strings.example.xml	Tutorial FightSnapjaw instruction (kbm)	Let's take a look at the Equipment screen.\n\nPress =commandKey:CmdEquipment=
+27	Strings.example.xml	Tutorial FightSnapjaw instruction (kbm)	Press =commandKey:CmdLook= or =commandKey:AdventureMouseInteract= the snapjaw.
+28	Strings.example.xml	Tutorial ExploreWorldMap instruction (kbm)	You can look around here just like on a local map.\n\nPress =commandKey:CmdLook=
+29	Strings.example.xml	Tutorial MakeCamp instruction (gamepad)	Now to go to the world map. Try ascending again.\n\nPress =commandKey:CmdMoveU=.
+30	Strings.example.xml	TutorialManager popup title	TUTORIAL GUIDE
+31	Strings.example.xml	TutorialManager popup Continue button	[=commandKey:Accept=] Continue
+32	Strings.example.xml	TwiddleObject - Error out of range (telekinetic)	=subject.does:are= out of your telekinetic range.
+33	Strings.example.xml	Tzimtzlum WorldZoneFactory SpecialUpMessage	You're in a pocket dimension with no worldmap.
+34	Strings.example.xml	UI PickTarget Fail Out Of Range	You must select a location within =range.things:tile=!
+35	Strings.example.xml	UI.Books static book title	[ {{Y|=title=}} ]
+36	Strings.example.xml	UI.Books dynamic book title	[ {{Y|=title=}} ]
+37	Strings.example.xml	UI.Books static book page	[ Page {{C|=page=}} of {{C|=pagecount=}} ]
+38	Strings.example.xml	UI.Books dynamic book page	[ Page {{C|=page=}} of {{C|=pagecount=}} ]
+39	Strings.example.xml	UI.Books nav shortcuts	 [=navLeft=]-Previous Page [=navRight=]-Next Page [=commandKey:Cancel=]-Exit 
+40	Strings.example.xml	UI.PickDirection modern title	=label|addPipe= [Select a direction]
+41	Strings.example.xml	UI.PickDirection classic title	=label|addPipe= [Select a direction]
+42	Strings.example.xml	Unit Add Body Part	Extra =part.name= slot
+43	Strings.example.xml	Unit Gain Experience	=amount.signed= experience
+44	Strings.example.xml	Unit Cybernetic Install	Cybernetic implant installed
+45	Strings.example.xml	Unit Gain Level	=amount.signed= =amount.pluralize:level=
+46	Strings.example.xml	VampiricWeapon AppendEffect	Heal for =percent=% of damage dealt
+47	Strings.example.xml	VampiricWeapon AppendEffect w/Reduction	Heal for =percent=% of damage dealt, -=reduction=
+48	Strings.example.xml	VampiricWeapon AppendEffect w/Maximum	Heal for =percent=% of damage dealt, max =maximum=
+49	Strings.example.xml	VampiricWeapon AppendEffect RequiresLiving	Heal for =percent=% of damage dealt vs. organic creatures
+50	Strings.example.xml	VampiricWeapon AppendEffect w/Reduction w/Maximum	Heal for =percent=% of damage dealt, -=reduction=, max =maximum=
+51	Strings.example.xml	VampiricWeapon AppendEffect RequiresLiving w/Reduction	Heal for =percent=% of damage dealt vs. organic creatures, -=reduction=
+52	Strings.example.xml	VampiricWeapon AppendEffect RequiresLiving w/Maximum	Heal for =percent=% of damage dealt vs. organic creatures, max =maximum=
+53	Strings.example.xml	Vehicle NameForStatus	PrimeMover
+54	Strings.example.xml	Vehicle Choose Passenger Popup	Choose a follower
+55	Strings.example.xml	Vehicle No Follower Fail	You have no followers that can enter =object.the.name=.
+56	Strings.example.xml	VehicleControl Already In Use	=subject.The.name= is already in use by =object.the.name=.
+57	Strings.example.xml	VehicleIntercom NameForStatus	Intercom
+58	Strings.example.xml	VehicleMeleeInfiltration Success Message	=subject.Does:infiltrate= =object.the.name=!
+59	Strings.example.xml	VehiclePairBonus Paired Default	=paired.signed= =stat.title= when you are paired with the golem
+60	Strings.example.xml	VehiclePairBonus Unpaired Default	=unpaired.signed= =stat.title= when you are unpaired with the golem
+61	Strings.example.xml	VehicleRecall Option	=vehicle.name=
+62	Strings.example.xml	VehicleRecall Obstruction	=subject.Does:are= obstructed.
+63	Strings.example.xml	VehicleRecall PickOption	Choose a =vehicleTerm= to recall
+64	Strings.example.xml	VehicleRecall No Vehicle	You have no =vehicleTerm= to recall.
+65	Strings.example.xml	VehicleRecall Insufficient Liquid	You do not have 1 dram of =liquid.name=.
+66	Strings.example.xml	VehicleRecall Status Default Message	=subject.The.name= merely =subject.verb:click=.
+67	Strings.example.xml	VehicleRecall Success Message Dead	=subject.Does:are= reshaped at =object.the.name=!
+68	Strings.example.xml	VehicleRecall Success Message Not Dead	=subject.Does:are= transported to =object.the.name=!
+69	Strings.example.xml	VehicleRecall No Place	There is nowhere for the =vehicleTerm= to be recalled to.
+70	Strings.example.xml	VehicleRecall Destroyed Option	{{R|destroyed}} =vehicle.name=\n    {{C|1 dram of =liquid.name= to reshape}}
+71	Strings.example.xml	VehicleRepair Default Vehicle Term	vehicle
+72	Strings.example.xml	VehicleRepair No Need	=object.Does:are= in no need of repairs.
+73	Strings.example.xml	VehicleRepair Insufficient Liquid	You do not have 1 dram of =liquid.name=.
+74	Strings.example.xml	VehicleRepair No Vehicle	There is no =vehicleTerm= on =object.the.name=.
+75	Strings.example.xml	VehicleRepair Success Message	Claystuff is reprinted across the fissures and scars on =object.the.name=.
+76	Strings.example.xml	VehicleSeat Not Operational	=subject.Does:are= not operational.
+77	Strings.example.xml	VehicleSeat Not Bound	=subject.Does:are= not bound to you.
+78	Strings.example.xml	VehicleTerm Default Fail	=object.The.name= merely =object.verb:click=.
+79	Strings.example.xml	VehicleTerm Not Enough Charge	=object.Does:do= not have enough charge to operate.
+80	Strings.example.xml	Village mayor conversation welcome message	=spice:villages.mayor.introDialog.!random=
+81	Strings.example.xml	Village reveal string	You discover the village of =villageName=.
+82	Strings.example.xml	Village Warden Conversation dialog	=spice:villages.warden.introDialog.!random=
+83	Strings.example.xml	Village pet question answer for single pet	=spice:villages.pet.originStorySingle.!random=
+84	Strings.example.xml	Village pet question answer for single pet	=spice:villages.pet.originStoryMultiple.!random=
+85	Strings.example.xml	Village reveal string	You discover the abandoned village of =villageName=.
+86	Strings.example.xml	Village mayor teaches dish conversation prompt	What a savory smell! Teach me to cook the favorite dish of =villageName=.\n
+87	Strings.example.xml	VillageBase generatePreacherBooks title	History of =villageName=
+88	Strings.example.xml	VillageBase getAVillageWall description finalizer	=description|strip|capitalize=
+89	Strings.example.xml	VillageBase CreateVillageFaction faction display name	villagers of =spice.entity:name=
+90	Strings.example.xml	VillageBase getAVillageWall planks display name	=primaryPlant.refname|strip|makeHedge=
+91	Strings.example.xml	VillageBase getAVillageWall planks sinew display name	=primaryPlant.refname|strip|makeHedge=
+92	Strings.example.xml	VillageBase placeStories crier conversation prompt	Tell me about {{=mainColor=|=snippet=}}...
+93	Strings.example.xml	VillageBase placeStories robot conversation prompt	Tell me about {{=mainColor=|=snippet=}}...
+94	Strings.example.xml	VillageBase generateHistoryBooks book title	History of =villageName=, Vol. =num.roman=
+95	Strings.example.xml	VillageBase getAVillageWall bone display name animal	compacted =primaryAnimal.bone.of.name|strip=
+96	Strings.example.xml	VillageBase getAVillageCanvas display name	=primaryAnimal.species= =primaryAnimal.fragment:Skin:skin= tent
+97	Strings.example.xml	VillageBase placeStories tattoo	a scene from the history of the village {{M|=villageName=}}{{C|: =story=}}
+98	Strings.example.xml	VillageDynamicQuestContext QuestVerb	pray at
+99	Strings.example.xml	VillageDynamicQuestContext item name mutation - adjectify itemAdjectiveRoot	=root.adjectify=
+100	Strings.example.xml	VillageDynamicQuestContext item name mutation	=spice:quests.questContext.itemNameMutation.!random=
+101	Strings.example.xml	VillageHistory PopulationInflux Immigrant name	=immigrant.basename|strip=
+102	Strings.example.xml	VillageHistory PopulationInflux Pets question	Why are there =pet.plural= here?
+103	Strings.example.xml	VillageHistory PopulationInflux Pet question	Why =pet.is= there =pet.a.name= here?
+104	Strings.example.xml	VillageHistory PopulationInflux Immigrant question	Stranger, why did you come to this village?
+105	Strings.example.xml	VillageHistory PopulationInflux Immigrant reasonForComing	=spice:villages.$immigrantRole.reasonIBecame.!random=
+106	Strings.example.xml	VillageHistory PopulationInflux Faction reason	=spice:villages.immigrants.immigrantPopReason.!random=
+107	Strings.example.xml	VillageHistory PopulationInflux Immigrant villageActivity (trades)	=immigrant.basename|strip= set up a shop for their trade
+108	Strings.example.xml	VillageHistory PopulationInflux Immigrant villageActivity (villager)	=immigrant.basename|strip= settled down among the villagers
+109	Strings.example.xml	VillageHistory PopulationInflux Faction question	Why is this village populated with =faction.formattedName=?
+110	Strings.example.xml	VillageHistory PopulationInflux Immigrant question	=immigrant.FormalAddressTerm=, why did you come to this village?
+111	Strings.example.xml	VillageHistory PopulationInflux Immigrant profaneThing	those who would =spice:commonPhrases.harm.!random= =immigrant.basename|strip=
+112	Strings.example.xml	VillageRegionSurface Visit Text	You visited the village of =villageName=.
+113	Strings.example.xml	VillageStoryReveal Unreadable	<marred and unreadable>
+114	Strings.example.xml	VillageTerrain ProperName	=name|title=
+115	Strings.example.xml	VillageTerrain text terrainFragment double	=terrainFragment= and =terrainFragment2=
+116	Strings.example.xml	VillageTerrain Description	=spice:villages.description.!random|capitalize=.
+117	Strings.example.xml	VillageTerrain text fragment	=spice:history.regions.terrain.$terrain.over.!random=
+118	Strings.example.xml	Waking Dream state description	in a waking dream
+119	Strings.example.xml	WakingDream death by collapse (second person)	Your dream collapsed.
+120	Strings.example.xml	WakingDream death by collapse (third person)	=subject.name's= dream collapsed
+121	Strings.example.xml	WaterRitualDiscount Types Item	buying items
+122	Strings.example.xml	WaterRitualDiscount Types Skill	learning skills
+123	Strings.example.xml	WaterRitualDiscount Types Secret	sharing secrets
+124	Strings.example.xml	WaterRitualDiscount Types Mutation	gaining mutations
+125	Strings.example.xml	WaterRitualDiscount Types Join	recruiting creatures
+126	Strings.example.xml	WaterRitualDiscount Types CookingRecipe	learning cooking recipes
+127	Strings.example.xml	WaterRitualDiscount Types TinkerRecipe	learning tinker blueprints
+128	Strings.example.xml	WaterRitualDiscount Rulespostfix	=percent.signed=% reputation cost for =types.andList= via the water ritual
+129	Strings.example.xml	Wings body part description default	Worn around Wings
+130	Strings.example.xml	Wings Failure (EMPed robot wings)	=subject.Poss#wingsBlueprint|strip= will not move!
+131	Strings.example.xml	Wire DisplayName Clause	(=count=')
+132	Strings.example.xml	XML stat / statline node - Unit pluralization template	=unit|value.pluralize=
+133	Strings.example.xml	XP Gain Message	You gain =amount|color:C= XP!
+134	Strings.example.xml	XRLUITradeUI Transfer	transfer
+135	Strings.example.xml	XRLUITradeUI Owned	 {{G|[owned by you]}}
+136	Strings.example.xml	XRLUITradeUI Inventory	[ {{W|Your inventory}} ]
+137	Strings.example.xml	XRLUITradeUI Left Drams Value	 {{C|=total:0.???=}} drams 
+138	Strings.example.xml	XRLUITradeUI Owned By Someone	{{R|[ owned by someone else ]}}
+139	Strings.example.xml	XRLUITradeUI Exit	[{{W|=commandKey:Cancel=}} Exit]
+140	Strings.example.xml	XRLUITradeUI Offer	[{{W|=commandKey:CmdTradeOffer=}} Offer]
+141	Strings.example.xml	XRLUITradeUI nothing to trade popup	=subject.Does:have|strip= nothing to trade.
+142	Strings.example.xml	XRLUITradeUI Transfer	[{{W|=commandKey:CmdTradeOffer=}} Transfer]
+143	Strings.example.xml	XRLUITradeUI Fully Charged	=object.T= =object.verb:are= fully charged!
+144	Strings.example.xml	XRLUITradeUI No Inventory	=trader.The.name|strip= cannot carry things.
+145	Strings.example.xml	XRLUITradeUI Actions	[{{W|=commandKey:CmdVendorActions=}} Actions]
+146	Strings.example.xml	XRLUITradeUI Lbs	 {{=color=|=effectiveWeight=/=maxWeight= lbs.}} 
+147	Strings.example.xml	XRLUITradeUI NotBroken	=multiple.if:Those items aren't:That item isn't= broken!
+148	Strings.example.xml	XRLUITradeUI TraderIdentify Fail Dystechnia	You can't understand =trader.the.name's|strip= explanation.
+149	Strings.example.xml	XRLUITradeUI Cant Repair	=trader.T= =trader.verb:do= not have the skill to repair items.
+150	Strings.example.xml	XRLUITradeUI Trader Cant Identify	=trader.Does:don't|strip= have the skill to identify artifacts.
+151	Strings.example.xml	XRLUITradeUI Cant Recharge	=trader.T= =trader.verb:do= not have the skill to recharge items.
+152	Strings.example.xml	XRLUITradeUI TraderIdentify Fail Too Complex	This item is too complex for =trader.the.name|strip= to identify.
+153	Strings.example.xml	XRLUITradeUI Owe	You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.
+154	Strings.example.xml	XRLUITradeUI TraderIdentify Confirm Cost	You may identify this for =cost= =cost.pluralize:dram= of fresh water.
+155	Strings.example.xml	XRLUITradeUI IsAflame	=trader.T= =trader.is= on fire and =trader.is= too busy to trade with you.
+156	Strings.example.xml	XRLUITradeUI AddRemove	[{{W|=commandKey:CmdTradeAdd=}}/{{W|=commandKey:CmdTradeRemove=}} Add/Remove]
+157	Strings.example.xml	XRLUITradeUI RepairTooComplex	=multiple.if:These items are:This item is= too complex for =trader.t= to repair.
+158	Strings.example.xml	Yurtmat StatShifter DisplayName	camouflage
+159	Strings.example.xml	Yurtmat RulesPostfix	=bonus.signed= DV while occupying the same tile as foliage
+160	Strings.example.xml	Zone WindSpeedDescription 40 or less	a fresh breeze
+161	Strings.example.xml	Zone WindSpeedDescription 70 or less	gale intensity
+162	Strings.example.xml	Zone WindSpeedDescription 20 or less	a gentle breeze
+163	Strings.example.xml	Zone WindSpeedDescription 50 or less	a strong breeze
+164	Strings.example.xml	Zone WindSpeedDescription 100 or less	storm intensity
+165	Strings.example.xml	Zone WindSpeedDescription 30 or less	a moderate breeze
+166	Strings.example.xml	Zone WindSpeedDescription 60 or less	near gale intensity
+167	Strings.example.xml	Zone WindSpeedDescription over 120	hurricane intensity
+168	Strings.example.xml	Zone WindSpeedDescription 10 or less	a very gentle breeze
+169	Strings.example.xml	Zone WindSpeedDescription 90 or less	strong gale intensity
+170	Strings.example.xml	Zone WindSpeedDescription 120 or less	violent storm intensity
+171	Strings.example.xml	Zone WindChange decreases	The wind calms to =newWindDesc=.
+172	Strings.example.xml	Zone WindChange increases	The wind intensifies to =newWindDesc=.
+173	Strings.example.xml	Zone WindChange starts	The wind begins blowing at =newWindDesc=.
+174	Strings.example.xml	Zone WindChange starts with Mind's Compass	The wind begins blowing at =newWindDesc= from the =new.direction.expanded=.
+175	Strings.example.xml	Zone WindChange decreases with Mind's Compass	The wind calms to =newWindDesc=, blowing from the =new.direction.expanded=.
+176	Strings.example.xml	ZoneManager default zone indefinite article	a
+177	Strings.example.xml	ZoneManager default zone definite article	the
+178	Strings.example.xml	ZoneManager Zone Name, context only	=context=
+179	Strings.example.xml	ZoneManager MessageLog Entering Zone (not Joppa)	=zone.Name=
+180	Strings.example.xml	ZoneManager Zone Name, append context	=name=, =context=
+181	Strings.example.xml	ZoneManager MessageLog Entering Zone (Joppa)	=zone.Name=, =time=
+182	Strings.example.xml	ZoneManager - Terrain DisplayName Z>10	the deep underground
+183	Strings.example.xml	ZoneManager Zone Name, context only without articles	=context.stripArticle=
+184	Strings.example.xml	ZoneManager - Terrain Display Name	=terrain.the.name|strip=
+185	Strings.example.xml	ZoneManager MessageLog Entering Zone - Zone has notes	Notes: =notes.commaList=
+186	Strings.example.xml	ZoneManager Zone Name, append context without articles	=name=, =context.stripArticle=
+187	Strings.example.xml	ZoneManager Zone Name, append surface level	=name=, surface=inside.if: level=
+188	Strings.example.xml	ZoneManager StrataText	=level.things:stratum= =underground.if:deep:high=
+189	Strings.example.xml	ZoneManager Zone Name, append strata level	=name=, =level.things:stratum= =underground.if:deep:high=
+190	Strings.example.xml	ZoneManager zone build error popup	There was an issue building this zone. Automatically report it to us?

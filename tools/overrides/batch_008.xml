@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="GameObject.GetDisplayName prepend article-like (definite)" ID="=article|spaceAfter==name=">=article|spaceAfter==name=</string>
+  <string Context="GasTumbler RulesPostfix Denser" ID="Gases you release are =density=% denser.">放出するガスの濃度が=density=%上がる。</string>
+  <string Context="GasTumbler RulesPostfix Disperse Faster" ID="Gases you release disperse =dispersal=% faster.">放出するガスの拡散が=dispersal=%速くなる。</string>
+  <string Context="GasTumbler RulesPostfix Less Dense" ID="Gases you release are =density.abs=% less dense.">放出するガスの濃度が=density.abs=%下がる。</string>
+  <string Context="GasTumbler RulesPostfix Disperse Slower" ID="Gases you release disperse =dispersal.abs=% slower.">放出するガスの拡散が=dispersal.abs=%遅くなる。</string>
+  <string Context="GenerateFriendOrFoe" ID="=spice:friendOrFoe.$spiceKey.hateReasons.!random=">=spice:friendOrFoe.$spiceKey.hateReasons.!random=</string>
+  <string Context="GenerateFriendOrFoe" ID="=spice:friendOrFoe.$spiceKey.likeReasons.!random=">=spice:friendOrFoe.$spiceKey.likeReasons.!random=</string>
+  <string Context="GenerateFriendOrFoe HEB" ID="=spice:friendOrFoe.$spiceKey.hateReasons.!random=">=spice:friendOrFoe.$spiceKey.hateReasons.!random=</string>
+  <string Context="GenerateFriendOrFoe HEB" ID="=spice:friendOrFoe.$spiceKey.likeReasons.!random=">=spice:friendOrFoe.$spiceKey.likeReasons.!random=</string>
+  <string Context="Generic out of range error popup message" ID="That is out of range! (=range.things:square=)">射程外だ！（=range.things:square=）</string>
+  <string Context="GenericCheckbox UI element box" ID="=checked.checkbox.basic=">=checked.checkbox.basic=</string>
+  <string Context="GenocideCurio Activation Message" ID="You activate =object.the.name= and toss it into the air.">=object.the.name=を起動して宙に放り投げた。</string>
+  <string Context="Genotype Chargen Info" ID="=glyph:ChargenBullet= =extraInfo=">=glyph:ChargenBullet= =extraInfo=</string>
+  <string Context="GeomagneticDisc DoThrow PassThrough" ID="=subject.Does:pass= through =object.the.name=!">=subject.T=は=object.the.name=をすり抜けた！</string>
+  <string Context="GeomagneticDisc BeforeThrown Collides With Other Disc" ID="=subject.The.name= and =object.the.name= collide and fall to the ground.">=subject.The.name=と=object.the.name=はぶつかって地面に落ちた。</string>
+  <string Context="GeomagneticDisc DoThrow Target Flinches" ID="=subject.Does:flinch= out of the way of =attacker.the.name's.item#object=!">=subject.T=は身をすくめて=attacker.the.name's.item#object=をかわした！</string>
+  <string Context="GetCompanionStatusEvent - Join multiple status" ID="=status.commaList=">=status.commaList=</string>
+  <string Context="GetCooldownEvent Willpower Adjustment Reason" ID="=isHigh.if:high:low= =willpower.Name=">=willpower.Name=が=isHigh.if:高い:低い=</string>
+  <string Context="GirshLairMaker - Member Of Social Role Display Name" ID="member of the =cultName=">=cultName=の一員</string>
+  <string Context="GivesRep Description Suffix Loved List" ID="Loved by =list.andList=.">=list.andList=に愛されている。</string>
+  <string Context="GivesRep Description Suffix Loved List (fragment)" ID="{{C|=faction.factionName=}}">{{C|=faction.factionName=}}</string>
+  <string Context="GivesRep Death Accomplishment" ID="You slew =object.a.name:withTitles=.">=object.a.name:withTitles=を倒した。</string>
+  <string Context="GivesRep Description Suffix Loved List (fragment) (shows current rep debug option)" ID="{{C|=faction.factionName=}}{{K|(=rep=)}}">{{C|=faction.factionName=}}{{K|(=rep=)}}</string>
+  <string Context="GivesRep Water-sib Description Postfix" ID="You are water-bonded with =object.objective=.">あなたは=object.objective=と水の絆を結んでいる。</string>
+  <string Context="GivesRep Description Suffix" ID="Loved by {{C|=faction.factionName=}}=repDebugOption= for =reason=">{{C|=faction.factionName=}}=repDebugOption=に愛されている（理由: =reason=）</string>
+  <string Context="GivesRep Description Suffix" ID="Hated by {{C|=faction.factionName=}}=repDebugOption= for =reason=">{{C|=faction.factionName=}}=repDebugOption=に憎まれている（理由: =reason=）</string>
+  <string Context="GivesRep Description Suffix" ID="Admired by {{C|=faction.factionName=}}=repDebugOption= for =reason=">{{C|=faction.factionName=}}=repDebugOption=に敬われている（理由: =reason=）</string>
+  <string Context="GivesRep Description Suffix" ID="Disliked by {{C|=faction.factionName=}}=repDebugOption= for =reason=">{{C|=faction.factionName=}}=repDebugOption=に嫌われている（理由: =reason=）</string>
+  <string Context="GlimmerAlteration Decreases" ID="Reduces psychic glimmer by =amount=.">サイキックの微光を=amount=減らす。</string>
+  <string Context="GlimmerAlteration Increases" ID="Increases psychic glimmer by =amount=.">サイキックの微光を=amount=増やす。</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Yr">イル氏族</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Sol">ソル氏族</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Ibex">アイベックス氏族</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Mnim">ムニム氏族</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Heartbiter">心臓噛み</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Clovenhorn">割れ角</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Hotur">ホトゥル氏族</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Twicetalker">二枚舌</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Souldrinker">魂を啜る者</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Whitefinger">白指</string>
+  <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Whitetongue">白舌氏族</string>
+  <string Context="Golem Quest Hamsa" ID="hamsa">ハムサ</string>
+  <string Context="Golem Quest Atzmus" ID="atzmus">アツムス</string>
+  <string Context="Golem Quest Armament" ID="armament">武装</string>
+  <string Context="Golem Quest Catalyst" ID="catalyst">触媒</string>
+  <string Context="Golem Quest Incantation" ID="incantation">呪文</string>
+  <string Context="Golem Incantation Unit Resist" ID="+75 to all resists">全耐性 +75</string>
+  <string Context="Golem Quest Selection Empty" ID="&lt;make a selection&gt;">&lt;選択してください&gt;</string>
+  <string Context="Golem Incantation Unit Body Parts" ID="3 random body parts">ランダムな部位3つ</string>
+  <string Context="Golem Quest Power Source" ID="ascension power source">昇華の動力源</string>
+  <string Context="Golem Quest Shaping Duration Soon" ID="It will be finished soon.">もうすぐ完成する。</string>
+  <string Context="Golem Quest Selection Title" ID="Choose =selection|article=">=selection|article=を選択</string>
+  <string Context="Golem Quest Shaping Prefix" ID="The creature is being shaped.">クリーチャーが形作られている。</string>
+  <string Context="Golem Incantation Unit Sultan" ID="Share effects of worn sultan mask">着用しているスルタンの仮面の効果を共有する</string>
+  <string Context="Golem Quest Mound Hostiles" ID="You can't do that with hostile creatures nearby.">敵対的なクリーチャーが近くにいる状態ではできない。</string>
+  <string Context="Golem Quest Catalyst Liquid" ID="=volume|rules= =volume.pluralize:dram= of =liquid.name=">=liquid.name= =volume|rules=ドラム</string>
+  <string Context="Golem Quest Power Liquid" ID="=volume|rules= =volume.pluralize:dram= of =liquid.name=">=liquid.name= =volume|rules=ドラム</string>
+  <string Context="Golem Quest Selection No Match" ID="You have nothing that meets the requirement of the =selection=.">=selection=の条件を満たすものを持っていない。</string>
+  <string Context="Golem Incantation Unit Motivating Aura" ID="+5 quickness, +20% HP, and +3 to all attributes for nearby followers">近くの従者にクイックネス+5、HP+20%、全能力値+3</string>
+  <string Context="Golem Quest Shaping Duration Days" ID="It will be finished in =duration.cardinal= =duration.pluralize:day=.">あと=duration.cardinal=日で完成する。</string>
+  <string Context="GrabberArm Holds You" ID="=subject.Does:grab= =object.the.name= and holds you in place.">=subject.T=は=object.the.name=を掴み、あなたをその場に押さえつけた。</string>
+  <string Context="Graffiti Text" ID="=markovShort:18|obfuscate=">=markovShort:18|obfuscate=</string>
+  <string Context="GraveMoss Message" ID="=subject.Does:start= to fizz hungrily.">=subject.T=はシュワシュワと貪欲に泡立ち始めた。</string>
+  <string Context="GravityGrenade Detonate Message Log" ID="=subject.Does:implode=!">=subject.T=は内破した！</string>
+  <string Context="GreaseBoots Behavior Description" ID="You may walk freely over webs.">蜘蛛の巣の上を自由に歩ける。</string>
+  <string Context="GripChange TryChooseGrip PopupOption" ID="=entry.name=">=entry.name=</string>
+  <string Context="Hangable DisplayName Tag" ID="{{y|[hanging]}}">{{y|[吊り下げ]}}</string>
+  <string Context="Hangable DisplayName Tag" ID="{{y|[on ground]}}">{{y|[地面]}}</string>
+  <string Context="Healing Effect Apply Message" ID="=subject.Does:begin= healing.">=subject.T=は回復し始めた。</string>
+  <string Context="HealMedication Default Message" ID="The tube hisses against your skin, and a warm feeling washes over your body.">チューブが肌に当たってシュッと鳴り、温かい感覚が全身を包んだ。</string>
+  <string Context="HeatAbsorption heal message (player only)" ID="You are healed for =amount= by the heat.">熱によってHPが=amount=回復した。</string>
+  <string Context="HEGrenade Detonate Message Log" ID="=subject.Does:explode=!">=subject.T=は爆発した！</string>
+  <string Context="HexCrystal Twin Prefix Fragment" ID="anti-">反</string>
+  <string Context="HiddenRender RevealedSomewhere" ID="=subject.A.name= =subject.verb:are= revealed =subject.to.the.direction=!">=subject.to.the.direction=で=subject.A.name=の姿が露わになった！</string>
+  <string Context="HighScoreScreen FetchLoaderboard ErrorWithStacktrace" ID="{{R|Error: &#10;=stacktrace=}}">{{R|エラー: 
+=stacktrace=}}</string>
+  <string Context="HighScoresRow - Top Line" ID="=score.name= :: Level =score.level= :: =score.gameMode=">=score.name= :: レベル=score.level= :: =score.gameMode=</string>
+  <string Context="HighScoresScreen MenuOption Global(Daily)" ID="Daily (global)">デイリー（全体）</string>
+  <string Context="HighScoresScreen FetchLeaderboard ErrorOccurred" ID="{{R|An error has occurred.}}">{{R|エラーが発生した。}}</string>
+  <string Context="HighScoresScreen FetchLeaderboard GameRunningOffline" ID="{{R|The game is currently running offline.}}">{{R|ゲームは現在オフラインで動作している。}}</string>
+  <string Context="HighScoresScreen FetchLeaderboard ErrorRetry" ID="An error has occurred, would you like to try again?">エラーが発生しました。もう一度試しますか？</string>
+  <string Context="HighScoresScreen FetchLoaderboard ErrorTryAgain" ID="An error has occurred, would you like to try again?">エラーが発生しました。もう一度試しますか？</string>
+  <string Context="HighScoresScreen HandleDelete AreYouSure" ID="Are you sure you want to delete this?&#10;&#10;=highscore=">本当にこれを削除しますか？
+
+=highscore=</string>
+  <string Context="HistoricEntity SharedMutation snippet" ID="automatons">自動人形</string>
+  <string Context="HistoricEntity SharedMutation snippet" ID="those afflicted with glotrot">グロットロットに冒された者たち</string>
+  <string Context="HistoricEntity SharedMutation snippet" ID="those afflicted with ironshank">アイアンシャンクに冒された者たち</string>
+  <string Context="HistoricEvent InitializeRegion orgPrincipleStash" ID="sultans">スルタンたち</string>
+  <string Context="HistoricEvent NewGovernment sacredThing" ID="anarchy">無政府</string>
+  <string Context="HistoricEvent NewGovernment sacredThing" ID="the king">王</string>
+  <string Context="HistoricEvent InitializeVillage governor" ID="the mayor">村長</string>
+  <string Context="HistoricEvent NewGovernment sacredThing" ID="the queen">女王</string>
+  <string Context="HistoricEvent NewGovernment sacredThing" ID="democracy">民主制</string>
+  <string Context="HistoricEvent NewGovernment profaneThing" ID="hierarchy">階級制</string>
+  <string Context="HistoricEvent NewGovernment sacredThing" ID="the people">民衆</string>
+  <string Context="HistoricEvent NewGovernment governor" ID="the people">民衆</string>
+  <string Context="HistoricEvent AddQuestsForRegion Quest Name" ID="Visit =region=">=region=を訪れる</string>
+  <string Context="HistoricEvent AddQuestsForRelic Step 1 Name" ID="Locate =region=">=region=を見つける</string>
+  <string Context="HistoricEvent AddQuestsForRelic Step 2 Name" ID="Recover =relic|strip=">=relic|strip=を取り戻す</string>
+  <string Context="HistoricEvent AddQuestsForRelic Quest Name" ID="Recover =relic|strip=">=relic|strip=を取り戻す</string>
+  <string Context="HistoricEvent NewGovernment founderName" ID="King =founder.name= I">=founder.name=一世王</string>
+  <string Context="HistoricEvent NewGovernment founderName" ID="Queen =founder.name= I">=founder.name=一世女王</string>
+  <string Context="HistoricEvent Marry tombInscription faction friend =group=" ID="=faction.formattedName=">=faction.formattedName=</string>
+  <string Context="HistoricEvent Despises profaneThing" ID="=faction.formattedName=">=faction.formattedName=</string>
+  <string Context="HistoricEvent InitializeSultan JoinNumeral" ID="=basename= =suffix.roman=">=basename= =suffix.roman=</string>
+  <string Context="HistoricEvent NewGovernment sacredThing" ID="the abolition of hierarchy">階級制の廃止</string>
+  <string Context="HistoricEvent AddQuestsForRelic Step 2 Text" ID="Recover =relic|strip= at =location=.">=location=で=relic|strip=を取り戻す。</string>
+  <string Context="HistoricEvent AddQuestsForRegion Step Name" ID="Travel to the historical site of =region=">史跡=region=へ向かう</string>
+  <string Context="HistoricEvent AddQuestsForRelic Step 1 Text" ID="Travel to the historical site of =region=.">史跡=region=へ向かう。</string>
+</strings>

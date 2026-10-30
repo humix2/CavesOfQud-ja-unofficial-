@@ -1,0 +1,199 @@
+1	シェフ・=chefName=
+2	{{g|=name|title=}}
+3	=subject.a.name|strip=
+4	=object.refname=を読んだ。
+5	=spice:cooking.cookbooks.focalName.!random=
+6	=spice:cooking.cookbooks.focalName.!random|plural=
+7	シェフ・=chefName=の=spice:cooking.cookbooks.genericName.!random=
+8	=item.liquid.name=1ドラム
+9	=item.liquid.name=1ドラム
+10	酸耐性 =bonus.signed=
+11	=subject.T=はしなやかな構えを取った。
+12	50ターンの間、敏捷+8を得る。
+13	=subject.thisCreature=がクリティカルヒットを出すたび、
+14	相手を刺す。
+15	=subject.T=は軽やかな暴力を振るった。
+16	=subject.T=の体が硬くなった。
+17	50ターンの間、AV+6を得る。
+18	AV +2
+19	ローカルマップ上のアーティファクトをすべて鑑定する。
+20	=subject.T=は=object.a.name=を理解して紅潮した。
+21	=subject.thisCreature=がアーティファクトを鑑定するたび、
+22	6つの能力値すべてに永続的に=bonus.signed=
+23	食らう者=name=は王の蜜をすすり、神性へと変態した。
+24	=subject.thisCreature=を1～3回増殖させる。
+25	=subject.T=は寒さへの備えを得た。
+26	6時間の間、冷気耐性40～50を得る。
+27	=subject.T=は冷却念動で一帯を凍らせた。
+28	ランク5～6の冷却念動と同様に一帯を凍らせる。
+29	=subject.T=は強力な冷気の光線を放った。
+30	ランク5～6の凍結線と同様に冷気の光線を放つ。
+31	=subject.T=は寒さを受け付けなくなった。
+32	6時間の間、冷気耐性125～175を得る。
+33	=subject.thisCreature=が冷気で鈍化するたび、
+34	冷気耐性 =bonus.signed=
+35	DV +4
+36	永続的にAV +1
+37	体が自分のものでない間、クイックネス=bonus.signed=を得る。
+38	=subject.T=は強力な放電を放った。
+39	=subject.T=は強力な電磁パルスを放った。
+40	ランク8～9の電磁パルスを放つ。
+41	ランク=tier=の電磁パルスを放つ。
+42	電気耐性 =bonus.signed=
+43	=subject.T=は電撃を受け付けなくなった。
+44	50ターンの間、電気耐性125～175を得る。
+45	電気耐性 =bonus.signed=
+46	6時間の間、電気耐性40～50を得る。
+47	=subject.T=は電撃への備えを得た。
+48	=subject.T=は恐怖を受け付けなくなった。
+49	6時間の間、恐怖を受け付けなくなる。
+50	=subject.T=は周囲の全員を威圧した。
+51	周囲のクリーチャーを威圧する。
+52	=subject.thisCreature=が恐怖を感じるたび、
+53	MA +2
+54	=skillName=が使える。
+55	=skillName=が使える。
+56	威圧を使うときの自我判定に=bonus.signed=のボーナス。
+57	=subject.thisCreature=が肌のかゆみに襲われるたび、
+58	=subject.thisCreature=がキノコを食べるたび、
+59	=subject.T=は菌類の胞子を受け付けなくなった。
+60	6時間の間、菌類の胞子に免疫を持つ。
+61	=subject.T=は強力な炎の光線を放った。
+62	ランク5～6の炎線と同様に炎の光線を放つ。
+63	=subject.T=は暑さへの備えを得た。
+64	6時間の間、熱耐性40～50を得る。
+65	=subject.T=は暑さを受け付けなくなった。
+66	50ターンの間、熱耐性125～175を得る。
+67	=subject.thisCreature=が火をつけられるたび、
+68	=subject.T=は発火念動で一帯を焼いた。
+69	ランク5～6の発火念動と同様に一帯を焼く。
+70	熱耐性 =bonus.signed=
+71	HPを40～50回復する。
+72	=subject.the.name's=傷が大きく癒えた。
+73	=subject.T=は苦痛が和らいだ。
+74	=subject.T=は全快した。
+75	15%の確率で全快する。
+76	=subject.T=はたくましくなった。
+77	1時間の間、最大HP+30～40%。
+78	1時間の間、最大HP=bonus.signed=%。
+79	最大HP =bonus.signed=%
+80	=subject.thisCreature=のHPが20%を下回るたび、
+81	=subject.thisCreature=のHPが30%を下回るたび、
+82	最大HP =tier.signed=%
+83	=subject.T=は内に愛が膨らむのを感じた。
+84	=subject.thisCreature=が新たな従者を得るたび、
+85	HPを15～20回復する。
+86	=subject.the.name's=傷が少し癒えた。
+87	=subject.T=は苦痛が和らいだ。
+88	軽い悪い状態異常の1つがランダムに解除される。
+89	出血が止まる。
+90	=subject.T=は病を受け付けなくなった。
+91	6時間の間、新たな病気にかからない。
+92	=subject.thisCreature=が蜂蜜を飲むたび、
+93	25%の確率で潜伏中の病気が治る。
+94	=subject.T=は気分が良くなった。
+95	状態異常「病気」が治る。
+96	=subject.thisCreature=が位相を戻すたび、
+97	=subject.thisCreature=が位相をずらすたび、
+98	=subject.T=は位相をずらした。
+99	=subject.T=は位相が固定された。
+100	20ターンの間、位相をずらす。
+101	2時間の間、位相をずらされない。
+102	自然回復速度 =bonus.signed=%
+103	自然回復速度 +20% +（光合成皮膚のランク×10）%
+104	クイックネス =bonus.signed=
+105	クイックネス +13 +（光合成皮膚のランク×2）
+106	=subject.the.name=の周りに植物が芽吹いた！
+107	近くのランダムな場所に植物を自然発生させる。
+108	=subject.thisCreature=が植物からダメージを受けるたび、
+109	クイックネス =bonus.signed=
+110	=subject.T=は棘を一斉に放った。
+111	ランク8～9の棘の突然変異と同様に棘を放つ。
+112	ランク=tier=の棘の突然変異と同様に棘を放つ。
+113	=subject.T=の全身に小さな棘が生えた。
+114	次にダメージを受けたとき、ダメージを100%反射する。
+115	=subject.T=は=object.the.name=に=amount=ダメージを反射した
+116	次の=times=回ダメージを受けたとき、ダメージを100%反射する。
+117	=subject.T=の全身に棘が生えた。
+118	攻撃者にダメージの3～4%（切り上げ）を反射する。
+119	攻撃者にダメージの=tier=%（切り上げ）を反射する。
+120	攻撃者にダメージの15～18%（切り上げ）を反射する。
+121	出血へのセーヴ =tier.signed=
+122	自然回復速度 =tier.signed=%
+123	=subject.thisCreature=が受ける落下ダメージを90%軽減する。
+124	=subject.T=は体の内に圧倒的な弾力を感じた。
+125	射程+2で3回連続ジャンプする。
+126	=subject.T=は体の内に弾力を感じた。
+127	射程+1で2回連続ジャンプする。
+128	=subject.thisCreature=がジャンプするたび、
+129	=subject.thisCreature=が伏せるたび、
+130	=subject.thisCreature=が受ける落下ダメージを50%軽減する。
+131	=subject.thisCreature=に秘密を1つ明かす。
+132	舌が腐り落ちる。
+133	=subject.thisCreature=を毒に冒す。
+134	…
+135	？？？？？
+136	永続的に結晶の存在となった。
+137	あなたのゲノムは既にこの変化を経ている。
+138	…
+139	？？？？？
+140	永続的にナメクジとなった。
+141	突然変異{{w|ビルジ括約筋}}を得た！
+142	あなたのゲノムは既にこの変化を経ている。
+143	=subject.T=は残虐な暴力を振るった。
+144	=subject.the.name's=筋肉が膨れ上がった。
+145	50ターンの間、筋力+8を得る。
+146	周囲のクリーチャーをすべてテレポートさせる。
+147	=subject.thisCreature=がテレポートするたび、
+148	テレポートする。
+149	運命が介入し、=object.the.name=にダメージを与えられなかった。
+150	=subject.thisCreature=が動けなくなるたび、50%の確率で
+151	=subject.T=は粘つく舌を3本吐き出した。
+152	=subject.the.name's==bodypart:Face=から3本の舌が生えてきた！
+153	、
+154	=liquid=
+155	=displayName=
+156	=component.name=
+157	=item.short|strip=
+158	=chefName|'s==displayName=
+159	=displayName=\n=components.commaList=
+160	=displayName= [=components.commaList=]
+161	=component.name={{K|(=component.quantity=)}}
+162	{{K|=displayName|strip=}}\n=components.commaList=
+163	{{K|=displayName|strip=}} [=components.commaList=]
+164	=spice:cooking.recipeNames.$ingredientCount.!random|title=
+165	=glyph:Favorite= {{W|=displayName=}}\n=components.commaList=
+166	=glyph:Favorite= {{W|=displayName=}} [=components.commaList=]
+167	=glyph:Favorite= {{W|{{K|=displayName|strip=}}}}\n=components.commaList=
+168	=glyph:Favorite= {{W|{{K|=displayName|strip=}}}} [=components.commaList=]
+169	=ingredientDisplayName.pluralize#amount= =amount|color#amountColor=
+170	=liquid.name=が足りない。
+171	=liquid.drams.of.liquid#amount#color=
+172	=ingredientType=が足りない。
+173	=ingredientDisplayName=の量が足りない。
+174	=ingredientDisplayName=の量が足りない。
+175	=ingredientType= =amount|color#amountColor=人前
+176	=ingredientDisplayName= =amount|color#amountColor=人前
+177	[クールダウン]
+178	[残り=left=秒]
+179	=subject.T=は冷却中で反応しない。
+181	本を再読み込み中…
+182	セーブデータを索引中…
+183	設定を再読み込みした…
+184	あなたはレベル{{C|=level=}}だった。
+185	どの仲間と話す？
+186	=turns.things:turn=待機中…
+187	=object.the.name=を見失った。
+188	このゲームは=game.mode=モードでプレイされた。
+189	{{C|=isAnEnding.if.glyph:PhiUpper:Omega=}}
+190	無効なインベントリオブジェクト: =object.toString=
+191	リロードが必要だ！（=commandKey:CmdReload=）
+192	このゲームは=longDate= =longTime=に終わった。
+193	朝まで休息中…（=turns.things:turn=）
+194	=turns=は待機ターン数として無効だ。
+195	{{C|=lairs=}}個の巣穴を見つけた。
+196	{{C|=items=}}個のアイテムに名前を付けた。
+197	=object.the.name=に辿り着く方法が見つからない。
+198	=month=の=day=、あなたはすべての希望を捨てた。
+199	体力が{{C|=threshold=%}}を下回った！
+200	スコアは{{C|=score=}}点だった。

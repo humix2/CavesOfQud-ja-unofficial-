@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Nearby object prefix text (unused for now)" ID="{{K|&lt;autogot&gt;}}">{{K|&lt;自動取得&gt;}}</string>
+  <string Context="Nearby objects right text" ID="{{K|=item.weight= lbs.}}">{{K|=item.weight=ポンド}}</string>
+  <string Context="NorthSheva - Failure message, can't leave world map on this square" ID="You can't land here.">ここには着陸できない。</string>
+  <string Context="NorthSheva - Failure message, only Movers on world map" ID="You can't travel in this environment.">この環境では移動できない。</string>
+  <string Context="NorthSheva - Failure message, can't leave world map on this square - Ruined Stop" ID="That stop is too ruined for the mover to land.">その停留所は荒れすぎていて、ムーバーが着陸できない。</string>
+  <string Context="NoteImprovedAccuracy RulesPostfix" ID="=subject.This.category= =subject.verb:have= improved accuracy.">=subject.This.category=は命中精度が向上している。</string>
+  <string Context="NoteImprovedRateOfFire RulesPostfix Bonus AmmoCapacityAmount" ID="=amount.signed= to =subject.its= ammo capacity">装弾数 =amount.signed=</string>
+  <string Context="NoteImprovedRateOfFire RulesPostfix Bonus AmmoPerAction" ID="=amount.signed= to =subject.its= ammo per action">1回あたりの弾薬消費 =amount.signed=</string>
+  <string Context="NoteImprovedRateOfFire RulesPostfix Bonus ShotsPerAction" ID="=amount.signed= to =subject.its= shots per action">1回あたりの射撃数 =amount.signed=</string>
+  <string Context="NoteImprovedRateOfFire RulesPostfix" ID="=subject.This.category= =subject.verb:have= =bonusList.andList=.">=subject.This.category=: =bonusList.andList=。</string>
+  <string Context="Notes" ID="Notes: =note=">メモ: =note=</string>
+  <string Context="NoThirst_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:don't= thirst for the next 12 hours.">今後12時間、喉が渇かない。</string>
+  <string Context="NoThirst_ProceduralCookingTriggeredAction_Effect Details" ID="=subject.it.does:don't= thirst.">喉が渇かない。</string>
+  <string Context="numberbox (value)" ID="[=num=]">[=num=]</string>
+  <string Context="numberbox color" ID="[=num|color#shade=]">[=num|color#shade=]</string>
+  <string Context="OpeningStory Accomplishment" ID="On the =day= of =month=, you arrived at =villageName=.">=month=の=day=、あなたは=villageName=に辿り着いた。</string>
+  <string Context="Options Path Delegate Arrow" ID=" -&gt; "> -&gt;</string>
+  <string Context="Options Menu - Restart notice" ID="This option requires a game restart to take effect.">このオプションはゲームの再起動後に反映される。</string>
+  <string Context="OptionsCategoryControl category title" ID="=title|upper=">=title|upper=</string>
+  <string Context="OptionsCategoryControl category expander" ID="=expand.expanded=">=expand.expanded=</string>
+  <string Context="OptionsCheckboxControl checkbox control wasSelectedFalse" ID="=checked.checkbox.basic= =title=">=checked.checkbox.basic= =title=</string>
+  <string Context="OptionsCheckboxControl checkbox control wasSelectedTrue" ID="{{=checkcolor=|=checked.checkbox.basic=}} {{W|=title=}}">{{=checkcolor=|=checked.checkbox.basic=}} {{W|=title=}}</string>
+  <string Context="OptionsScreen PopupTitle" ID="Option: =selectedoptiontitlefield=">オプション: =selectedoptiontitlefield=</string>
+  <string Context="OriginalItemType Description Prefix" ID="This item is a named =originalItem=.&#10;">このアイテムは名付けられた=originalItem=だ。
+</string>
+  <string Context="OriginalItemType Snapshot =originalItem=" ID="=subject.name:asIfKnown:noConfusion:includeAdjunctNoun=">=subject.name:asIfKnown:noConfusion:includeAdjunctNoun=</string>
+  <string Context="PartsGas RulesPostfix Always Nearby" ID="Repels gases near =part.operationalScope=. =part.statusSummary|addParens=">=part.operationalScope=付近のガスを払いのける。=part.statusSummary|addParens=</string>
+  <string Context="PaxInfection FireEvent ActivatePaxInfection" ID="=subject.Does:spew= a cloud of spores =subject.to.the.direction:noHere=.">=subject.T=は=subject.to.the.direction:noHere=へ胞子の雲を吐き出した。</string>
+  <string Context="PetPhylactery Spawn Appear" ID="=subject.Does:appear=.">=subject.T=が現れた。</string>
+  <string Context="PetPhylactery DisplayName" ID="phylactery of =subject.name=">=subject.name=の聖遺物箱</string>
+  <string Context="PetPhylactery Spawn Activate" ID="=subject.Does:activate= =object.the.name=.">=subject.T=は=object.the.name=を起動した。</string>
+  <string Context="PetPhylactery Despawn Announce" ID="=subject.Does:disappear= =subject.to.the.direction=.">=subject.T=は=subject.to.the.direction=で消えた。</string>
+  <string Context="Phasing phase out" ID="=subject.Does:phase= out.">=subject.T=は位相をずらした。</string>
+  <string Context="Phasing Damage message fragment" ID="from being forced into phase.">無理やり位相を戻されたことで。</string>
+  <string Context="Phasing phase in" ID="=subject.Does:phase= back in.">=subject.T=は位相を戻した。</string>
+  <string Context="Phasing Into Walls Die Reason" ID="You violated the Pauli exclusion principle.">パウリの排他原理に違反した。</string>
+  <string Context="Phasing phase in countdown (player only)" ID="You will phase back in in =duration.things:round=.">あと=duration.things:round=で位相が戻る。</string>
+  <string Context="Phasing Into Walls Die ThirdPersonReason" ID="=subject.They= violated the Pauli exclusion principle.">パウリの排他原理に違反した。</string>
+  <string Context="Photosynthetic Skin DV Bonus Description" ID="camouflage">迷彩</string>
+  <string Context="Photosynthetic Skin Bask NoSunlight" ID="You need sunlight to bask in.">日光浴をするには日光が必要だ。</string>
+  <string Context="Photosynthetic Skin Bask HostilesNearby" ID="You can't bask with hostiles nearby.">敵が近くにいる状態では日光浴できない。</string>
+  <string Context="Physics (Inventory) Category" ID="Nest">巣</string>
+  <string Context="Physics (Inventory) Category" ID="Liquids">液体</string>
+  <string Context="Physics (Inventory) Category" ID="Terrain">地形</string>
+  <string Context="Physics (Inventory) Category" ID="Invertebrates">無脊椎動物</string>
+  <string Context="Physics (Inventory) Category" ID="Fungal Infection">菌類感染</string>
+  <string Context="Physics Passing By Object With Article" ID="=object.a.name:withTitles=">=object.a.name:withTitles=</string>
+  <string Context="Physics PassingBy" ID="You pass by =passed.andList=.">=passed.andList=のそばを通り過ぎた。</string>
+  <string Context="Physics AccelerateInternal my damage message" ID="from colliding with =object.a.name=.">=object.a.name=との衝突で。</string>
+  <string Context="Physics ApplyDischarge Avoided UnknownSource NoReason" ID="The arc avoided =alternate.the.name=.">電弧は=alternate.the.name=を避けた。</string>
+  <string Context="Physics ObjectEnteringCellEvent PlayerBlocked" ID="The way is blocked by =object.a.name=.">=object.a.name=が道をふさいでいる。</string>
+  <string Context="Physics ObjectEnteringCellEvent PlayerCollides" ID="OUCH! You collide with =object.a.name=.">痛っ！ =object.a.name=にぶつかった。</string>
+  <string Context="Physics InventoryActionEvent AddNotes PopupPrompt" ID="Enter notes for =object.the.name|strip=.">=object.the.name|strip=のメモを入力してください。</string>
+  <string Context="Physics ApplyDischarge PassesThrough" ID="The arc passes through =target.the.name=!">電弧は=target.the.name=を通り抜けた！</string>
+  <string Context="Physics AccelerateInternal collide message" ID="=subject.Does:collide= with =object.a.name=.">=subject.T=は=object.a.name=に衝突した。</string>
+  <string Context="Physics ProcessTargetedMove ReallyAttack" ID="Do you really want to attack =object.the.name=?">本当に=object.the.name=を攻撃しますか？</string>
+  <string Context="Physics AccelerateInternal my damage message w/ pens" ID="=pens.pens= from colliding with =object.a.name=.">=object.a.name=との衝突で=pens.pens=。</string>
+  <string Context="Physics Hurt Follower Visible AutoAct Interrupt 'because' (clause)" ID="you see =object.the.name:baseOnly= being injured">=object.the.name:baseOnly=が傷つくのが見えた</string>
+  <string Context="Physics AccelerateInternal knocked message" ID="=subject.Does:are= knocked =dir.to.the.direction=.">=subject.T=は=dir.to.the.direction=へ吹き飛ばされた。</string>
+  <string Context="Physics AccelerateInternal my damage message" ID="from =subject.a.name= colliding with =object.them=.">=subject.a.name=が=object.them=に衝突したことで。</string>
+  <string Context="Physics FightFire ReallyAttack" ID="Do you really want to attack =object.the.name|strip=?">本当に=object.the.name|strip=を攻撃しますか？</string>
+  <string Context="Physics InventoryActionEvent CleanItem WhereToGetLiquid Popup InBaseGameAlwaysWater ModsCouldHaveOrList" ID="[ {{W|Choose where to use a dram of =cleaningLiquid= from}} ]">[ {{W|=cleaningLiquid=を1ドラム使う場所を選択}} ]</string>
+  <string Context="Physics AccelerateInternal my damage message w/ pens" ID="=pens.pens= from =subject.a.name= colliding with =object.them=.">=subject.a.name=が=object.them=に衝突したことで=pens.pens=。</string>
+  <string Context="Physics ApplyDischarge ValidSource FirstLeap TargetVisible TargetIsPlayer" ID="An {{electrical|electrical arc}} leaps toward =target.the.name=!">{{electrical|電弧}}が=target.the.name=へ飛んだ！</string>
+  <string Context="Physics ApplyDischarge UnknownSource TargetVisible FirstLeap" ID="An {{electrical|electrical arc}} leaps toward =target.the.name=!">{{electrical|電弧}}が=target.the.name=へ飛んだ！</string>
+  <string Context="Physics ApplyDischarge UnknownSource TargetVisible SubsequentLeap" ID="The {{electrical|electrical arc}} leaps toward =target.the.name=!">{{electrical|電弧}}が=target.the.name=へ跳んだ！</string>
+  <string Context="Physics ApplyDischarge Avoided UnknownSource AlternateReason" ID="The arc avoided =alternate.the.name= because of =alternateReason=.">電弧は=alternateReason=のため=alternate.the.name=を避けた。</string>
+  <string Context="Physics InventoryActionEvent CleanItem PlayerDoesn'tHaveLiquid InBaseGameAlwaysWater ModsCouldHaveOrList" ID="You don't have any =cleaningLiquid= to clean =object.them|strip= with.">=object.them|strip=を洗う=cleaningLiquid=を持っていない。</string>
+  <string Context="Physics ApplyDischarge Avoided UnknownSource AlternateToDirection BecauseOfOtherObject" ID="The arc avoided =alternate.the.name= because of =becauseObject.a.name=.">電弧は=becauseObject.a.name=のため=alternate.the.name=を避けた。</string>
+  <string Context="Physics ApplyDischarge Avoided SourceValid NoReason" ID="The arc avoided =alternate.the.name= =source.to.its.direction#alternate=.">電弧は=source.to.its.direction#alternate=の=alternate.the.name=を避けた。</string>
+  <string Context="Physics Hurt Follower Audible AutoAct Interrupt 'because' (clause)" ID="you hear =object.the.name:baseOnly= being injured =object.to.the.direction=">=object.to.the.direction=で=object.the.name:baseOnly=が傷つく音がした</string>
+  <string Context="PickGameObjectLine OwnedByYou" ID="{{G|[owned by you]}}">{{G|[あなたの所有物]}}</string>
+  <string Context="PickGameObjectLine CategoryExpanderAndName" ID="=expand.expanded= =category|color:K=">=expand.expanded= =category|color:K=</string>
+  <string Context="PickGameObjectScreen SortMode az" ID="A-Z">A-Z</string>
+  <string Context="PickGameObjectScreen sort mode setting" ID="Sort Mode: =modes.textSelector:w#selected=">並び順: =modes.textSelector:w#selected=</string>
+  <string Context="PickItem StartMarker" ID="{{Y|&gt;}}">{{Y|&gt;}}</string>
+  <string Context="PickItem OwnedByYou" ID="{{G|[owned by you]}}">{{G|[あなたの所有物]}}</string>
+  <string Context="PickItem scroll up" ID="&lt;{{W|8}} to scroll up&gt;">&lt;{{W|8}}で上へスクロール&gt;</string>
+  <string Context="PickItem ScrollDown" ID="&lt;{{W|2}} to scroll down&gt;">&lt;{{W|2}}で下へスクロール&gt;</string>
+  <string Context="PickItem Take All" ID="=commandKey:Take All= {{Y|Take all}}">=commandKey:Take All= {{Y|すべて取る}}</string>
+  <string Context="PickItem Store Items" ID="=commandKey:Store Items= {{Y|Store an item}}">=commandKey:Store Items= {{Y|アイテムを収納}}</string>
+  <string Context="PickItem Category Name and Expander" ID="=start==keychar=) =expand.expanded= {{K|[{{|=category=}}]}}">=start==keychar=) =expand.expanded= {{K|[{{|=category=}}]}}</string>
+  <string Context="PickTarget ShowPicker Control Bar SelectButton" ID="=commandKey:Accept=-Select">=commandKey:Accept=-選択</string>
+  <string Context="PickTarget ConsoleUI Select" ID="=commandKeyConsole:Accept=-Select">=commandKeyConsole:Accept=-選択</string>
+  <string Context="PickTarget ShowPicker Control Bar UnlockButton" ID="Unlock (=commandKey:CmdLockUnlock=)">ロック解除（=commandKey:CmdLockUnlock=）</string>
+  <string Context="PickTarget ConsoleUI Lock" ID="=locked.if:Unlock:Lock= (=commandKeyConsole:CmdLockUnlock=)">=locked.if:ロック解除:ロック=（=commandKeyConsole:CmdLockUnlock=）</string>
+  <string Context="PlayerStatus HP Bar" ID="{{Y|HP: {{=healthColor=|=hitpoints=}} / =baseHitpoints=}}">{{Y|HP: {{=healthColor=|=hitpoints=}} / =baseHitpoints=}}</string>
+  <string Context="PlayerStatusBar HP" ID="HP: =hp=">HP: =hp=</string>
+  <string Context="PlayerStatusBar Date And Time" ID="=time= =day= of =month=">=month=の=day= =time=</string>
+  <string Context="PlayerStatusBar Temperature" ID="T:=temperature==glyph.strip:Degree=">T:=temperature==glyph.strip:Degree=</string>
+  <string Context="PlayerStatusBar XPBar Text" ID="LVL: =level= Exp: =xp= / =xpForNextLevel=">LVL: =level= Exp: =xp= / =xpForNextLevel=</string>
+  <string Context="PlayerStatusBar Weight and Water" ID="=totalWeight=/=weightLimit=# {{blue|=water=$}}">=totalWeight=/=weightLimit=# {{blue|=water=$}}</string>
+  <string Context="PluckablePolyp Display With Clause" ID="coral growth">サンゴの生長</string>
+  <string Context="PluckablePolyp Reveal Message" ID="=subject.Does:reveal= =object.a.name=.">=subject.T=は=object.a.name=を露わにした。</string>
+  <string Context="PointDefense Intercept Success" ID="=subject.Does:intercept= =object.the.name=!">=subject.T=は=object.the.name=を迎撃した！</string>
+  <string Context="PointedAsteriskBuilder AsteriskWish DisplayName" ID="{{paisley|The 10-Pointed Asterisk of the Ensemble}}">{{paisley|合奏の十芒星}}</string>
+  <string Context="PointedAsteriskBuilder BuildAsteriskName" ID="=points=-pointed asterisk of =useArticle.if:the= {{=color=|=factionName=}}">{{=color=|=factionName=}}の=points=芒星</string>
+  <string Context="Popup ConsoleUI PressSpaceNoFormat" ID="[press space]">[スペースキーを押す]</string>
+  <string Context="Popup DisplayLoadError MissingMods" ID="Missing mods: ">不足しているMOD:</string>
+  <string Context="Popup ConsoleUI PickOption More" ID="{{W|&lt;More...&gt;}}">{{W|&lt;さらに表示…&gt;}}</string>
+  <string Context="Popup ConsoleUI UpForMore" ID="&lt;up for more...&gt;">&lt;上でさらに表示…&gt;</string>
+  <string Context="Popup PickSeveral HowMany" ID="Select how many?">いくつ選ぶ？</string>
+  <string Context="Popup ConsoleUI DownForMore" ID="&lt;down for more...&gt;">&lt;下でさらに表示…&gt;</string>
+  <string Context="Popup ConsoleUI AskString EnterToConfirm NoFormatting" ID="[Enter to confirm]">[Enterで確定]</string>
+  <string Context="Popup ConsoleUI PressSpaceWithFormat" ID="[press {{W|space}}]">[{{W|スペース}}キーを押す]</string>
+  <string Context="Popup SetupColorPickers NoColoringWithPreviewText" ID="=preview= (no coloring)">=preview=（色なし）</string>
+  <string Context="Popup ConsoleUI AskString EnterToConfirm WithFormatting" ID="[{{W|Enter}} to confirm]">[{{W|Enter}}で確定]</string>
+  <string Context="Popup SetupColorPickers ShaderNoPreviewText" ID="{{=shader=|=shadername=}}">{{=shader=|=shadername=}}</string>
+  <string Context="Popup SetupColorPickers Preview" ID="=preview= ^k{{y| (=colorname=)}}">=preview= ^k{{y| (=colorname=)}}</string>
+  <string Context="Popup SetupColorPickers ShaderWithPreviewText" ID="{{=shader=|=preview=}} (=shadername=)">{{=shader=|=preview=}} (=shadername=)</string>
+  <string Context="Popup AskNumber ConsoleUI BottomLineNoFormatting" ID="[↑↓→← adjust,Enter or space to confirm]">[↑↓→←で調整、Enterかスペースで確定]</string>
+  <string Context="Popup PickSeveral Accept" ID="{{y|[=commandKeyConsole:CmdDelete=] Accept}}">{{y|[=commandKeyConsole:CmdDelete=] 決定}}</string>
+  <string Context="Popup PickSeveral SelectAll" ID="{{y|=commandKeyConsole:Take All= Select All}}">{{y|=commandKeyConsole:Take All= すべて選択}}</string>
+  <string Context="Popup PickSeveral DeselectAll" ID="{{y|=commandKeyConsole:Take All= Deselect All}}">{{y|=commandKeyConsole:Take All= すべて解除}}</string>
+  <string Context="Popup AskNumber ConsoleUI BottomLineWithFormatting" ID="[{{W|↑↓→←}} adjust, {{W|Enter}} or space to confirm]">[{{W|↑↓→←}}で調整、{{W|Enter}}かスペースで確定]</string>
+  <string Context="Popup PickSeveral - Too Many" ID="You cannot select more than =amount.cardinal= options!">選べるのは=amount.cardinal=個までだ！</string>
+  <string Context="Popup DisplayLoadError DoYouWantToExamineErrors" ID="Do you want to examine these errors in the Player.log?">これらのエラーをPlayer.logで確認しますか？</string>
+  <string Context="PopupMessage UI Copy Button Text (gamepad)" ID="{{y|Copy}}">{{y|コピー}}</string>
+  <string Context="PopupMessage Button Text (without hotkey)" ID="{{y|Cancel}}">{{y|キャンセル}}</string>
+  <string Context="PopupMessage UI Single Button Text (gamepad)" ID="{{W|press =commandKey:Accept=}}">{{W|=commandKey:Accept=を押す}}</string>
+  <string Context="PopupMessage UI Accept Button Text" ID="[{{W|=commandKey:Accept=}}] Accept">[{{W|=commandKey:Accept=}}] 決定</string>
+  <string Context="PopupMessage UI Yes Button Text (gamepad)" ID="{{W|[=commandKey:Accept=]}} {{y|Yes}}">{{W|[=commandKey:Accept=]}} {{y|はい}}</string>
+  <string Context="PopupMessage UI Cancel Button Text" ID="{{W|[=commandKey:Cancel=]}} {{y|Cancel}}">{{W|[=commandKey:Cancel=]}} {{y|キャンセル}}</string>
+  <string Context="PopupMessage UI No Button Text (gamepad)" ID="{{W|[=commandKey:V Negative=]}} {{y|No}}">{{W|[=commandKey:V Negative=]}} {{y|いいえ}}</string>
+  <string Context="PopupMessage UI Color Button Text" ID="{{W|[=commandKey:CmdHelp=]}} {{y|Color}}">{{W|[=commandKey:CmdHelp=]}} {{y|色}}</string>
+  <string Context="PopupMessage UI Submit Button Text (gamepad)" ID="{{W|[=commandKey:Submit=]}} {{y|Submit}}">{{W|[=commandKey:Submit=]}} {{y|送信}}</string>
+  <string Context="PopupMessage UI Single Button Text (kbm)" ID="{{W|[=commandKey:Accept=]}} {{y|Continue}}">{{W|[=commandKey:Accept=]}} {{y|続ける}}</string>
+  <string Context="PopupMessage UI Trade Button Text" ID="[{{W|=commandKey:CmdStartTrade=}}] {{y|Trade}}">[{{W|=commandKey:CmdStartTrade=}}] {{y|取引}}</string>
+  <string Context="PopupMessage UI Hold Button Text" ID="{{W|[=commandKey:CmdOptions=]}} {{y|Hold to Accept}}">{{W|[=commandKey:CmdOptions=]}} {{y|長押しで決定}}</string>
+  <string Context="PortableWall default DeployingWhat (used in title bar when picking tiles)" ID="Wall">壁</string>
+  <string Context="PoweredFloating CheckFloating Fall Announce" ID="=subject.Does:fall= to the ground.">=subject.T=は地面に落ちた。</string>
+  <string Context="PoweredFloating CheckFloating Cease Announce" ID="=subject.Does:cease= floating near you.">=subject.T=はあなたのそばで浮かぶのをやめた。</string>
+  <string Context="PoweredFloating FailureMessage" ID="=subject.Does:do= not seem to be able to float at this time.">=subject.T=は今は浮かべないようだ。</string>
+  <string Context="PoweredFloating CheckFloating FallScoop Announce" ID="=subject.Does:fall= to the ground; you scoop =subject.them= up.">=subject.T=は地面に落ちた。あなたはそれをすくい上げた。</string>
+  <string Context="Precognition stats postfix for Tomorrowful" ID="Duration increased by =duration= due to the Tomorrowful skill.">明日を知る者スキルにより持続時間が=duration=延びる。</string>
+  <string Context="PreparedCookingIngredient Description Postfix" ID="Adds =ingredientTypes.orList= effects to cooked meals.">料理に=ingredientTypes.orList=の効果を加える。</string>
+  <string Context="PreparedCookingIngredient DisplayName Tag Serving Count" ID="[=charges|color:C= cooking =charges.pluralize:serving=]">[料理=charges|color:C=人前]</string>
+  <string Context="PreparedCookingIngredient Stacker Display" ID="[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple=">[=servings|color:C=人前] =times.x.multiple=</string>
+  <string Context="ProceduralCookingEffectUnit_LessThirst Description" ID="=subject.thisCreature= =subject.verb:thirst= at half rate.">=subject.thisCreature=の喉の渇きが半分の速さになる。</string>
+  <string Context="ProceduralCookingEffectUnitMutation Snapshot =mutationName=" ID="=mutation.name=">=mutation.name=</string>
+  <string Context="ProceduralCookingEffectUnitMutation Description - Mutation added" ID="Can use =mutationName= at rank =tier=.">ランク=tier=の=mutationName=が使える。</string>
+  <string Context="ProceduralCookingEffectUnitMutation Description - Unknown rolls, no bonus tier" ID="Can use =mutationName= at rank =addedTier=.">ランク=addedTier=の=mutationName=が使える。</string>
+  <string Context="ProceduralCookingEffectUnitMutation Description - Mutation bonus levels" ID="=tier.signed= =tier.pluralize:rank= to =mutationName=.">=mutationName=のランク=tier.signed=</string>
+  <string Context="ProceduralCookingEffectWithTrigger Combine Trigger Description (baseEffects will end with a newline)" ID="=baseEffects==trigger= =triggeredActions.andList=">=baseEffects==trigger==triggeredActions.andList=</string>
+  <string Context="ProgrammableRecoiler Location-Based Name Fragment" ID="=zoneID.recoiler.name=">=zoneID.recoiler.name=</string>
+  <string Context="ProgrammableRecoiler GetDisplayName" ID="=locationNameCache= recoiler">=locationNameCache=のリコイラー</string>
+  <string Context="ProjectileReflectionShield Details" ID="Reflects incoming projectiles and thrown objects at a =chance=% chance.">飛来する投射物や投擲物を=chance=%の確率で反射する。</string>
+  <string Context="ProneOnHit Projectile" ID="Causes enemies to be knocked prone">敵を転倒させる</string>
+  <string Context="ProneOnHit Melee" ID="Melee attacks cause enemies to be knocked prone">近接攻撃で敵を転倒させる</string>
+  <string Context="ProperAndList replacer - join proper and regular names" ID=" and ">と</string>
+  <string Context="ProperAndList replacer - pluralize name" ID="=name|pluralize=">=name|pluralize=</string>
+  <string Context="ProperAndList replacer - collect names" ID="=subject.shortname=">=subject.shortname=</string>
+  <string Context="ProperAndList replacer - proper names" ID="=properNames.andList=">=properNames.andList=</string>
+  <string Context="ProperAndList replacer - item name" ID="=subject.shortsingle=">=subject.shortsingle=</string>
+  <string Context="ProperAndList replacer - item name (proper)" ID="=subject.the.name:asIfKnown=">=subject.the.name:asIfKnown=</string>
+  <string Context="ProperAndList replacer - item name (asIfKnown)" ID="=subject.shortsingle:asIfKnown=">=subject.shortsingle:asIfKnown=</string>
+  <string Context="ProperAndList replacer - regular names" ID="=owner.its= =regularNames.andList=">=owner.its==regularNames.andList=</string>
+  <string Context="ProperAndList replacer - proper names and regular names" ID="=properNames.andList= and =owner.its= =regularNames.andList=">=properNames.andList=と=owner.its==regularNames.andList=</string>
+  <string Context="Proselytize Fail Target Self" ID="You can't proselytize =subject.itself=!">=subject.itself=を改宗させることはできない！</string>
+  <string Context="Proselytize Fail Glotrot" ID="You cannot proselytize without a tongue.">舌がなくては改宗させられない。</string>
+  <string Context="Proselytize Fail Message" ID="=object.Does:are= unconvinced by your pleas.">=object.T=はあなたの説得に納得しなかった。</string>
+  <string Context="Proselytize Fail Frozen" ID="Frozen solid, you cannot proselytize =object.t=.">凍りついていて=object.t=を改宗させられない。</string>
+  <string Context="Proselytize Fail no tongue" ID="Without a tongue, you cannot proselytize =object.t=.">舌がなくては=object.t=を改宗させられない。</string>
+  <string Context="PsychicHunterSystem Extradimensional Naming Title" ID="=title=">=title=</string>
+  <string Context="PsychicHunterSystem Extradimensional Deviant Naming Title" ID="=title=">=title=</string>
+  <string Context="PsychicHunterSystem Extradimensional Cult Naming Title" ID="=title=">=title=</string>
+  <string Context="PsychicHunterSystem GlimmerDescription" ID="=fragments.join:&#10;&#10;=">=fragments.join:
+
+=</string>
+  <string Context="PsychicHunterSystem Extradimensional Deviant Naming Title" ID="=subject.creatureType=">=subject.creatureType=</string>
+  <string Context="PsychicHunterSystem Extradimensional Cult Naming Title" ID="esper from the =cultName=">=cultName=のエスパー</string>
+  <string Context="PsychicHunterSystem Hunter Naming Position" ID="Ptoh's =spice:seekers.title.!random=">プトーの=spice:seekers.title.!random=</string>
+  <string Context="PsychicHunterSystem Extradimensional Naming Title" ID="extradimensional =subject.creatureType=">異次元の=subject.creatureType=</string>
+  <string Context="PsychicHunterSystem Extradimensional Cult Naming Title" ID="extradimensional =subject.creatureType=">異次元の=subject.creatureType=</string>
+  <string Context="PsychicHunterSystem Extradimensional Naming Title" ID="esper =spice:commonPhrases.hunter.!random=">エスパーの=spice:commonPhrases.hunter.!random=</string>
+  <string Context="PsychicHunterSystem Extradimensional Deviant Naming Title" ID="transdimensional =spice:commonPhrases.entropist.!random=">超次元の=spice:commonPhrases.entropist.!random=</string>
+  <string Context="PsychicHunterSystem GlimmerDescription (fragment)" ID="You are also visible to psychic beings from other dimensions.">あなたは他の次元のサイキック存在からも見えている。</string>
+  <string Context="Psychometry InitiateRealityDistortionTransit Purpose" ID="use psychometry on =object.the.name:single=">=object.the.name:single=にサイコメトリーを使う</string>
+  <string Context="PyroZone Start Message" ID="The air =subject.generalDirectionIfAny= starts to shimmer with heat!">=subject.generalDirectionIfAny=の空気が熱でゆらめき始めた！</string>
+  <string Context="PyroZone Stop Message" ID="The air =subject.generalDirectionIfAny= ceases shimmering with heat.">=subject.generalDirectionIfAny=の空気の熱のゆらめきが収まった。</string>
+  <string Context="Qas Qon Lair Maker - CradleDisplayName" ID="The chuppah of Qas and Qon">カスとコンの婚礼の天蓋</string>
+  <string Context="QudAPISaves DirectoryError Directory" ID="Directory: =path=">ディレクトリ: =path=</string>
+  <string Context="QudAPISaves InfoTotalSize" ID="Total size: =size=mb">合計サイズ: =size=MB</string>
+  <string Context="QudAPISaves CorrupteInfoFile" ID="{{R|Corrupt info file}}">{{R|情報ファイルが破損している}}</string>
+  <string Context="QudAPISaves FatalSaveError Title" ID="Error reading save location.">セーブ場所の読み込みエラー。</string>
+  <string Context="QudAPISaves InfoDescription" ID="Level =level= =subtype= =gamemode=">レベル=level= =subtype= =gamemode=</string>
+  <string Context="QudAPISaves InfoInfo" ID="=location=, =ingametime= turn =turn=">=location=、=ingametime= ターン=turn=</string>
+  <string Context="QudAPISaves InfoOlderVersion" ID="{{R|Older Version (=version=)}} =savename=">{{R|旧バージョン (=version=)}} =savename=</string>
+  <string Context="QudAPISaves DirectoryError" ID="There was an error while trying to access your save directory.">セーブフォルダへのアクセス中にエラーが発生した。</string>
+  <string Context="QudAPISaves PermissionError" ID="There was a permission error while trying to access your save directory.">セーブフォルダへのアクセス中に権限エラーが発生した。</string>
+  <string Context="QudHistoryFactory Name Sanitize" ID="=name|trim|slim|title=">=name|trim|slim|title=</string>
+  <string Context="QudHistoryFactory cultName chance" ID="Cult of =spice.entity:name=">=spice.entity:name=の教団</string>
+</strings>

@@ -1,0 +1,189 @@
+2	=subject.T=は周囲に衝撃波を放った！
+3	=subject.T=は=dir.to.the.direction=へ衝撃波を放った！
+4	=subject.T=は=dir.from.the.direction=から衝撃波を感じた！
+6	健康
+7	=name=: =value=
+8	{{C|[=name=: =value=]}}
+9	{{g|[=name=: =value=]}}
+10	{{Y|[=name=: =value=]}}
+11	{{rules|=name=: =value=}}
+12	=name|angry=: =value|angry=
+13	今はそれができない
+14	=pool.T=は浅すぎて潜れない。
+15	とあるスルタン
+16	=period.ordinal=のスルタン
+17	=sultanName|withCognomen#cognomen=の壊れた壁画
+18	=cultName=の一員
+19	{{W|=cultName=の指導者}}
+20	<名前不明>
+21	ヘロドディクスが言った、「{{W|終わったぞ！}}」
+22	=sultanName|withCognomen#cognomen=の壁画
+23	=newName|title=
+24	=spice:history.regions.terrain.$terrain.over.!random=
+25	史跡=regionName=を訪れた。
+26	 {{K|-=faction.formattedName=が知っている}}
+27	=creature.displayNameOnlyDirect|strip=を生成
+28	=subject.T=は起爆した！
+29	出血
+30	サイキック攻撃
+31	プロセッサ漏出
+32	=source|article=によって。
+33	=source|article=で死んだ。
+34	=subject.The.name's:withTitles=頭が破裂した！
+35	=subject.The.name's:withTitles=コアから漏出が始まった。
+36	=object.a.name:withTitles=に頭を破裂させられた。
+37	=subject.The.name's:withTitles=鼻から血が流れ始めた。
+38	=subject.The.name's:withTitles=脳が出血し始めた。
+39	=object.a.name:withTitles=に頭を破裂させられた。
+40	あなたの攻撃は=object.the.name's:withTitles=精神防御を貫けなかった。
+41	平原
+42	塩の砂漠
+43	河川と湖
+44	丘陵と山岳
+45	=subject.T=は=object.the.name=と位置を入れ替えた。
+46	重射撃武器を装備していない。
+47	本当に=subject.itself=を対象にしますか？
+48	=markovTattoo|initLower=
+49	刺青
+51	=subject.T=は動いていない。
+52	=subject.T=は動いていない！
+53	=object.the.name=には刺青を入れられない。
+54	=object.the.name=には刺青を入れられない。
+55	そこには刺青を入れられる相手がいない。
+56	敵が近くにいる状態では刺青を入れられない。
+57	=subject.The.name=はカチッと鳴っただけだった。
+58	=subject.T=は=liquid.name|colorSafe=が切れている。
+59	=object.the.name's==part.ordinalName=には刺青を入れられない。
+60	刺青を入れられるのは=subject.itself=と仲間だけだ。
+61	何かがおかしく、刺青を完成させられなかった。
+62	=subject.the.name=の中の=liquid.name|colorSafe=が汚染されている！
+63	=object.the.name's:withTitles==part.ordinalName=に=description=の刺青を入れた。
+64	テレポートに失敗した！
+65	=object.this=を再び使うには=turns.things:turn=待つ必要がある。
+68	=subject.T=は=object.the.name=をテレポートで飛ばした。
+69	他者テレポートで=object.the.name=をテレポートさせることはできない！
+72	テレプロジェクターを起動
+73	=subject.itself=を支配することはできない！
+74	=object.basename|strip|title=を起動
+75	=subject.T=はまだ冷却中だ。
+76	=object.the.name=を支配した！
+77	=subject.T=には動作に必要なチャージが足りない。
+78	=subject.T=は=object.the.name's=支配に抵抗した！
+79	高い電力負荷により攻撃ロールが=bonus=上昇する。
+80	=subject.T=は=object.possessive=生理機能に同調した。
+81	低い電力負荷により攻撃ロールが=bonus.abs=低下する。
+82	そこには=object.the.name=が接続できるものがない。
+83	=object.the.name=には支配できるデジタルな精神がないようだ。
+84	=subject.T=には電子的に接触できるデジタルな精神がない。
+85	停止中
+86	停止中
+87	目標温度を=target=に設定した。
+88	=object.T=は目標温度に達した。
+90	=subject.T=が現れた。
+91	=wraith.refname=の聖遺物箱
+92	=subject.T=は=object.the.name=を起動した。
+93	=subject.T=は増殖した。
+94	=subject.T=は時空をにじむように移動した。
+95	=object.the.name=を複製することはできない。
+96	=prefix|spaceAfter==subject.displayNameOnlyDirect=
+97	=player.possessiveAdjective==context=クローンの一体
+98	存在から消え去った。
+99	メモ:
+100	近くに奇妙な遺跡があるのに気づいた。調べてみる？
+101	 または
+102	、または
+106	{{=color=|与える熱ダメージ =value.signed=%}} =part.statusSummary|addParens=
+107	{{=color=|与える冷気ダメージ =value.signed=%}} =part.statusSummary|addParens=
+108	厚い毛皮
+109	=object.The.name=はその方法では再充電できない。
+110	ブライトシオルの門の庭
+111	=subject.T=は=object.the.name=に香を焚きしめた。
+112	=subject.the.name=の周りで時間が歪み始めた。
+113	=subject.T=は実体を失った！
+114	=object.the.name:single=を=partial.if:部分的に =再充電した。
+115	再充電に必要な=bits.bitString=ビットを持っていない。
+116	<無効な設計図>
+117	一度に=nummade.cardinal=個作る。
+118	ビット保管庫
+119	=modname= <=cost=>
+120	[ {{W|ティンカリング}} ]
+121	=bit= =description=
+122	設計図を選んでください。
+123	{{R|敵が近くにいる}}
+124	=item.the.name|strip=
+125	{{w|作成}}  {{Y|>}} {{W|改造}}
+126	{{Y|>}} {{W|作成}}    {{w|改造}}
+127	改造できるアイテムを持っていない。
+128	ティンカリングのスキルを持っていない。
+129	アイテムの設計図を持っていない。
+130	その=object=では作れない。
+131	=object.the.name=を外せない。
+132	=num.a.or.x.things#object=を組み立てた！
+133	=oldname=を=modtype|color:C=に改造した。
+134	改造の設計図を持っていない。
+135	必要なスキルがない: =skill=！
+136	=subject.T=は新たな性質を帯びたようだ。
+137	閃きを得て=object.a.name:long=を書き記した。
+138	必要な材料がない: =ingredients.orList=！
+139	{{rules|=description=}}
+140	=tinkerable.cost=
+141	=name= [=coststring=]
+142	=expand.expanded= =category= [=count=]
+143	{{hotkey||[=commandKey:Toggle|strip=]}} 作成に切り替え
+144	{{hotkey||[=commandKey:Toggle|strip=]}} 改造に切り替え
+145	=name=
+146	=engraving|tombstone=
+147	=inscription|colorSafe=
+148	=part1=\n\n=part2=\n\n=part3=
+149	=spice:tombstones.intro.!random=
+150	=spice:tombstones.gasDeath.!random=
+151	=spice:tombstones.apeDeath.!random=
+152	=spice:tombstones.foodDeath.!random=
+153	保存中にエラーが発生した: =filename=
+154	=spice:tombstones.itemDeath1.!random=
+155	=spice:tombstones.itemDeath2.!random=
+156	=spice:tombstones.bookDeath1.!random=
+157	=spice:tombstones.bookDeath2.!random=
+158	=spice:tombstones.lightDeath.!random=
+159	=spice:tombstones.tonicDeath1.!random=
+160	=spice:tombstones.tonicDeath2.!random=
+161	=spice:tombstones.liquidDeath.!random=
+162	=spice:tombstones.factionDeath.!random=
+163	=spice:tombstones.grenadeDeath.!random=
+164	=spice:tombstones.naturalDeath.!random=
+165	=spice:tombstones.genericDeath.!random=
+166	墓碑ファイルを保存した:\n\n=filename=
+167	=spice:tombstones.generallyMurdered.!random=
+169	（未使用）
+170	（{{w|ほの暗い}}）
+171	（半分燃えた）
+172	（{{W|明るい}}）
+173	（ほぼ燃え尽きた）
+174	（{{Y|燃え盛る}}）
+175	（{{r|くすぶる}}）
+176	（消えかけ）
+177	=current= / =max=ポンド
+178	A-Z
+179	{{W|$=drams=}}
+180	{{=price|color:B=ドラム →}}
+181	← {{=price|color:B=ドラム}}
+182	並び順: =modes.textSelector:w#selected=
+183	{{=color=| =currentweight=/=maxweight=ポンド}}
+184	{{W|$=drams=}} | {{=weightcolor=|=weight=/=maxweight=ポンド}}
+185	=subject.weightEach|color:K={{K|#}}
+186	=number=
+187	=weight=#
+188	[{{W|0-9}} 選択]
+189	[{{y|=category=}}]
+190	{{=color=|$}}{{C|=price=}}
+191	{{=color=|$}}{{c|=price=}}
+192	{{=color=|$}}{{C|=price=}}
+193	[ =subject.shortname|color:W= ]
+194	{{K|=weight=#}} {{=color=|$}}{{C|=price=}}
+195	[ =subject.the.name's:withTitles|color:W=持ち物 ]
+196	=item.long=
+197	[{{K|=weight=ポンド}}]
+198	[=value:0.00|tradeColor#item=]
+199	=base=と=noun=
+200	クールダウンなし！
+201	獣じみた

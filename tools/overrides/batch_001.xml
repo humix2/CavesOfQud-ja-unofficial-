@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string ID="Gyl">ギル</string>
+  <string ID="lair">巣穴</string>
+  <string ID="the Hydropon">ハイドロポン</string>
+  <string ID="a snapjaw fort">スナップジョーの砦</string>
+  <string ID="Fencing pigs...">豚を囲い込み中…</string>
+  <string ID="=have.magnitude=">=have.magnitude=</string>
+  <string ID="Hamilcrab's shop">ハミルクラブの店</string>
+  <string ID="Recoming nook at Gyl">ギルの再誕の小部屋</string>
+  <string ID="You unlock =object.t=.">=object.t=の鍵を開けた。</string>
+  <string ID="some flattened remains">押し潰された残骸</string>
+  <string ID="a {{w|dromad}} caravan">{{w|ドロマド}}の隊商</string>
+  <string ID="the Ruin of House Isner">イスナー家の廃墟</string>
+  <string ID="=subject.Does:dissipate=.">=subject.T=は消散した。</string>
+  <string ID="=squareSize=x=squareSize=">=squareSize=×=squareSize=</string>
+  <string ID="You discover =regionName=.">=regionName=を発見した。</string>
+  <string ID="You cannot reach =object.t=.">=object.t=に手が届かない。</string>
+  <string ID="You can't unlock =object.t=.">=object.t=の鍵を開けられない。</string>
+  <string ID="=subject.T= cannot be closed.">=subject.T=は閉じられない。</string>
+  <string ID="=subject.Does:flip= polarity.">=subject.T=は極性を反転させた。</string>
+  <string ID="=villagename=, goatfolk haunt">=villagename=、ゴートフォークの棲み処</string>
+  <string ID="the lair of Oboroqoru, Ape God">類人猿の神オボロコルの巣穴</string>
+  <string ID="=subject.Does:dig= a passage up.">=subject.T=は上へ通路を掘った。</string>
+  <string ID="the cradle of {{M|Girsh Agolgot}}">{{M|ギルシュ・アゴルゴット}}の揺籃</string>
+  <string ID="=subject.Does:dig= a passage down.">=subject.T=は下へ通路を掘った。</string>
+  <string ID=" {{K|-learned from =factionname=}}"> {{K|-=factionname=から習得}}</string>
+  <string ID=" {{K|-known by =faction.t:Joppa=}}"> {{K|-=faction.t:Joppa=が知っている}}</string>
+  <string ID="the cradle of {{M|Girsh Rermadon}}">{{M|ギルシュ・レルマドン}}の揺籃</string>
+  <string ID="You cannot budge =object.the.name=.">=object.the.name=はびくともしない。</string>
+  <string ID="the cradle of {{M|Girsh Bethsaida}}">{{M|ギルシュ・ベスサイダ}}の揺籃</string>
+  <string ID="You cannot close =object.t==reason=.">=object.t=を閉じられない=reason=。</string>
+  <string ID="the lair of {{M|Oboroqoru, Ape God}}">{{M|類人猿の神オボロコル}}の巣穴</string>
+  <string ID="Add how many =subject.name= to trade.">取引に加える=subject.name=の数は？</string>
+  <string ID="You are out of phase with =object.t=.">=object.t=とは位相がずれている。</string>
+  <string ID="=subject.Does:swim= before your eyes!">=subject.T=が目の前で泳ぐように揺らぐ！</string>
+  <string ID="=goatfolkvillagename=, goatfolk village">=goatfolkvillagename=、ゴートフォークの村</string>
+  <string ID="=subject.Does:begin= =effect.name|strip=!">=subject.T=は=effect.name|strip=し始めた！</string>
+  <string ID="You now have =total= feet of copper wire.">銅線は全部で=total=フィートになった。</string>
+  <string ID="There are no valid targets in that square.">そのマスには有効な対象がいない。</string>
+  <string ID="the mouth of {{M|Shug'ruith the Burrower}}">{{M|穴掘りのシュグルイス}}の口</string>
+  <string ID="the cradle of {{M|Shug'ruith the Burrower}}">{{M|穴掘りのシュグルイス}}の揺籃</string>
+  <string ID="the village lair of {{M|Mamon Souldrinker}}">{{M|魂を啜るマモン}}の村の巣穴</string>
+  <string ID="You can't unlock =object.t= from a distance.">離れた場所から=object.t=の鍵は開けられない。</string>
+  <string ID="=subject.Does:swim= through =object.a.name=.">=subject.T=は=object.a.name=の中を泳いでいる。</string>
+  <string ID="=subject.Does:wade= through =object.a.name=.">=subject.T=は=object.a.name=の中を歩いて渡っている。</string>
+  <string ID="the chuppah of {{M|Girsh Qas and Girsh Qon}}">{{M|ギルシュ・カスとギルシュ・コン}}の婚礼の天蓋</string>
+  <string ID="=subject.Does:stop= releasing =gasdisplayname=.">=subject.T=は=gasdisplayname=の放出を止めた。</string>
+  <string ID="Kindrish, the ancestral bracelet of the hindren">キンドリッシュ、ヒンドレンに伝わる祖先の腕輪</string>
+  <string ID="=subject.Does:start= releasing =gasdisplayname=.">=subject.T=は=gasdisplayname=を放出し始めた。</string>
+  <string ID="a secluded merchant from the Consortium of Phyta">フィタ連合から来た人目を避ける商人</string>
+  <string ID="=leaderboard|upper= =friendsOnly.if:(friends only)=">=leaderboard|upper= =friendsOnly.if:（フレンドのみ）=</string>
+  <string ID="You discover a lair. Would you like to investigate?">巣穴を発見した。調べてみる？</string>
+  <string ID="=subject.Does:revert= to =subject.its= original form.">=subject.T=は元の姿に戻った。</string>
+  <string ID="You discover a village. Would you like to investigate?">村を発見した。調べてみる？</string>
+  <string ID="You interface with =object.t= and unlock =object.them=.">=object.t=に接続し、ロックを解除した。</string>
+  <string ID="=subject.T= cannot be closed with =object.t= in the way.">=object.t=が邪魔で=subject.t=を閉じられない。</string>
+  <string ID="the snapjaw who wields {{R-r-K-y-Y sequence|Stopsvalinn}}">{{R-r-K-y-Y sequence|ストップスヴァリン}}を振るうスナップジョー</string>
+  <string ID="You need at least =amount= charge to generate a discharge.">放電を起こすには最低=amount=のチャージが必要だ。</string>
+  <string ID="You come upon a yawning pit. Would you like to investigate?">ぽっかりと口を開けた穴に行き当たった。調べてみる？</string>
+  <string ID="=subject.Does:begin= =effect.name|strip= from another wound!">=subject.T=は別の傷からも=effect.name|strip=し始めた！</string>
+  <string ID="Fate intervenes and you deal no damage to =object.the.name=.">運命が介入し、=object.the.name=にダメージを与えられなかった。</string>
+  <string ID="You notice some ruins nearby. Would you like to investigate?">近くに遺跡があるのに気づいた。調べてみる？</string>
+  <string ID="the =lairname= of =subject.refname:long:withTitles:LairName=">=subject.refname:long:withTitles:LairName=の=lairname=</string>
+  <string ID="the lair of =subject.refname:long:withTitles:LairName|strip=">=subject.refname:long:withTitles:LairName|strip=の巣穴</string>
+  <string ID="=subject.Does:are= shamed by =subject.possessive= reflection!">=subject.T=は自分の姿を映して恥じ入った！</string>
+  <string ID="You smell roasted boar nearby. Would you like to investigate?">近くで猪の丸焼きの匂いがする。調べてみる？</string>
+  <string ID="You are too confused to remember what =item.a.name= =item.is=.">混乱していて、=item.a.name=が何だったか思い出せない。</string>
+  <string ID="You discover some historic ruins. Would you like to investigate?">歴史ある遺跡を発見した。調べてみる？</string>
+  <string ID="You discover an abandoned village. Would you like to investigate?">廃村を発見した。調べてみる？</string>
+  <string ID="=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.">=subject.An=が=subject.to.the.direction==subject.verb#ArriveVerb=。</string>
+  <string ID="=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.">=subject.T=は=effect.name|strip=であるかのように振る舞い始めた。</string>
+  <string Context="=object.startedBy= player" ID="you started">自分で起こした</string>
+  <string Context="=object.startedBy= itself" ID="started by =object.itself=">自然発生</string>
+  <string Context="=object.startedBy=" ID="started by =object.the.name:includeAdjunctNoun=">=object.the.name:includeAdjunctNoun=が起こした</string>
+  <string Context="Ability Bar no target message" ID="{{K|TARGET: [none]}}">{{K|対象: [なし]}}</string>
+  <string Context="Ability bar, skill cooldown update" ID=" [=turns.things:turn=]"> [=turns.things:turn=]</string>
+  <string Context="Ability Bar target descriptors" ID="=descriptors.commaList=">=descriptors.commaList=</string>
+  <string Context="Ability Bar target details" ID="{{C|{{B|TARGET:}} =target.name=}}">{{C|{{B|対象:}} =target.name=}}</string>
+  <string Context="Ability Bar multi page" ID="ABILITIES&#10;page =current= of =total=">アビリティ
+=current=/=total=ページ</string>
+  <string Context="Ability Bar effects line" ID="{{W|ACTIVE EFFECTS:}} =effects.commaList=">{{W|効果中:}} =effects.commaList=</string>
+  <string Context="Ability Bar paging keys" ID="=commandKey:Ability Page Up= =commandKey:Ability Page Down=">=commandKey:Ability Page Up= =commandKey:Ability Page Down=</string>
+  <string Context="AbilityBar disabled tag" ID="{{K|[disabled]}}">{{K|[無効]}}</string>
+  <string Context="AbilityBar ToggleState tag on" ID="{{K|[{{g|on}}]}}">{{K|[{{g|on}}]}}</string>
+  <string Context="AbilityBar ToggleState tag off" ID="{{K|[{{y|off}}]}}">{{K|[{{y|off}}]}}</string>
+  <string Context="AbilityBar hotkeydescription" ID="&lt;=description|color:w=&gt;">&lt;=description|color:w=&gt;</string>
+  <string Context="AbilityBar AbilityName" ID="{{=color=|=ability.name=}}">{{=color=|=ability.name=}}</string>
+  <string Context="AbilityBar cooldownrounds tag" ID="{{C|[=ability.cooldown=]}}">{{C|[=ability.cooldown=]}}</string>
+  <string Context="AbilityManagerLine HotkeyDescription" ID="&lt;{{w|=desc=}}&gt;">&lt;{{w|=desc=}}&gt;</string>
+  <string Context="AbilityManagerLine Ready NotAttack" ID="=key=) =ability.name=">=key=) =ability.name=</string>
+  <string Context="AbilityManagerLine ToggleState On" ID="{{K|[{{g|Toggled on}}]}}">{{K|[{{g|オン}}]}}</string>
+  <string Context="AbilityManagerLine ToggleState Off" ID="{{K|[{{y|Toggled off}}]}}">{{K|[{{y|オフ}}]}}</string>
+  <string Context="AbilityManagerLine Category and Collapse" ID="=collapsed.collapsed= =category=">=collapsed.collapsed= =category=</string>
+  <string Context="AbilityManagerLine NotEnabled NotAttack" ID="=key=) =ability.name= [disabled]">=key=) =ability.name= [無効]</string>
+  <string Context="AbilityManagerLine Ready IsAttack" ID="=key=) =ability.name= [{{W|attack}}]">=key=) =ability.name= [{{W|攻撃}}]</string>
+  <string Context="AbilityManagerLine NotEnabled IsAttack" ID="=key=) =ability.name= [attack] [disabled]">=key=) =ability.name= [攻撃] [無効]</string>
+  <string Context="AbilityManagerLine RealityDistortion NotAttack" ID="=key=) =ability.name= [astrally tethered]">=key=) =ability.name= [アストラル拘束中]</string>
+  <string Context="AbilityManagerLine RealityDistortion IsAttack" ID="=key=) =ability.name= [attack] [astrally tethered]">=key=) =ability.name= [攻撃] [アストラル拘束中]</string>
+  <string Context="AbilityManagerLine CoolingDown" ID="{{K|=key=}}) =ability.name= [{{C|=ability.cooldown=}} round cooldown]">{{K|=key=}}) =ability.name= [クールダウン残り{{C|=ability.cooldown=}}ラウンド]</string>
+  <string Context="AbilityManagerScreen SearchText Prompt" ID="Search text:">検索テキスト:</string>
+  <string Context="AbilityManagerScreen choose sort mode" ID="Choose Sort Mode">並び順を選択</string>
+  <string Context="AbilityManagerScreen Type: ClassDisplayName" ID="{{y|Type:}} =ability.class=">{{y|種別:}} =ability.class=</string>
+  <string Context="AbilityManagerScreen MenuOption Search w/ Text" ID="Search: =searchtext|color:w=">検索: =searchtext|color:w=</string>
+  <string Context="AbilityManagerScreen sort mode setting" ID="Sort: =modes.textSelector:w#selected=">並び順: =modes.textSelector:w#selected=</string>
+  <string Context="AbilityManagerScreen Search No Match" ID="No activated abilities found for '=searchtext='.">「=searchtext=」に一致するアビリティはない。</string>
+  <string Context="AbilityManagerScreen HandleRebind AlreadySystemMenu" ID="=bindingKey= is already bound to the system menu.">=bindingKey=は既にシステムメニューに割り当てられている。</string>
+  <string Context="AbilityManagerScreen Cooldown Remaining" ID="{{C|Cooldown Remaining Rounds:}} =ability.cooldown=">{{C|クールダウン残りラウンド:}} =ability.cooldown=</string>
+  <string Context="AbilityManagerScreen HandleRebind AlreadyAbilityPicker" ID="=bindingKey= is already bound to the ability picker.">=bindingKey=は既にアビリティ選択に割り当てられている。</string>
+  <string Context="AbilityManagerScreen HandleRebind PressTheKeyToBind" ID="Press the keyboard key to bind to =ability.name|color:w=">=ability.name|color:w=に割り当てるキーを押してください</string>
+  <string Context="AbilityManagerScreen HandleRemoveBindAsync AreYouSure" ID="Are you sure you wish to remove the binding for =ability.name=?">=ability.name=のキー割り当てを解除しますか？</string>
+  <string Context="Achievement View - Unlocked date" ID="Unlocked =time.fullDate=">解除日時 =time.fullDate=</string>
+  <string Context="Achievement View - hidden remaining" ID="=num= hidden achievements remaining">未解除の隠し実績が残り=num=個</string>
+  <string Context="activated ability classes" ID="Vehicle">乗り物</string>
+  <string Context="activated ability classes" ID="Onboard Systems">搭載システム</string>
+  <string Context="ActivatedAbilities - Gained new ability" ID="You have gained the activated ability {{Y|=abilityName=}}.">アクティブアビリティ{{Y|=abilityName=}}を習得した。</string>
+  <string Context="ActivatedAbilities - Gained new ability - Hasn't used ability menu much appendix" ID="(press =commandKey:CmdAbilities= to use activated abilities)">（=commandKey:CmdAbilities=でアクティブアビリティを使用）</string>
+  <string Context="ActivatedAbilityEntry cant be used" ID="{{C|=ability.name=}} can't be used at this time.">{{C|=ability.name=}}は今は使えない。</string>
+  <string Context="ActivatedAbilityEntry cant be used - cooldown" ID="You must wait {{C|=ability.cooldown.rounds=}} before using {{C|=ability.name=}}.">{{C|=ability.name=}}を使うには{{C|=ability.cooldown.rounds=}}待つ必要がある。</string>
+  <string Context="ActiveLightSource Condition Use" ID="in use">使用中</string>
+  <string Context="ActiveLightSource Condition Power" ID="powered">給電中</string>
+  <string Context="ActiveLightSource Condition Equipped" ID="equipped">装備中</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnEquipper or WorksOnImplantee)" ID="user">使用者</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnWearer)" ID="wearer">着用者</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnHolder)" ID="wielder">所持者</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnCarrier)" ID="carrier">携行者</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnInventory)" ID="contents">中身</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnCellContents and WorksOnAdjacentCellContents)" ID="vicinity">周囲</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnAdjacentCellContents)" ID="nearby vicinity">隣接する周囲</string>
+  <string Context="ActivePart OperationalScope - relationalItem (WorksOnCellContents)" ID="immediate vicinity">すぐそば</string>
+  <string Context="ActivePart OperationalScope - overallItem (WorksOnSelf)" ID="=subject.reflexive=">=subject.reflexive=</string>
+  <string Context="ActivePart OperationalScope" ID="=overallItems.orList=">=overallItems.orList=</string>
+  <string Context="ActivePart OperationalScope (default)" ID="=subject.its= operating area">=subject.its=作動範囲</string>
+  <string Context="ActivePart AddStatusSummary (composer)" ID="=existing= =statusSummary|addParens=">=existing= =statusSummary|addParens=</string>
+  <string Context="ActivePart OperationalScope - overallItem (relationals)" ID="=subject.its= =relationalItems.orList=">=subject.its==relationalItems.orList=</string>
+  <string Context="ActivePart OperationalScope - overallItem (WorksOnEnclosed)" ID="someone enclosed within =subject.them=">=subject.them=の中に閉じ込められた者</string>
+  <string Context="ActivePartStatus StatusSummary" ID="{{W|EMP}}">{{W|EMP}}</string>
+  <string Context="ActivePartStatus StatusSummary" ID="{{K|unfueled}}">{{K|燃料切れ}}</string>
+  <string Context="ActivePartStatus StatusPhrase" ID="{{K|unfueled}}">{{K|燃料切れ}}</string>
+  <string Context="ActivePartStatus StatusSummary" ID="{{b|warming up}}">{{b|起動中}}</string>
+  <string Context="ActivePartStatus StatusSummary" ID="{{K|switched off}}">{{K|電源オフ}}</string>
+  <string Context="ActivePartStatus StatusPhrase" ID="{{K|switched off}}">{{K|電源オフ}}</string>
+  <string Context="ActivePartStatus StatusSummary" ID="{{r|nonfunctional}}">{{r|故障}}</string>
+  <string Context="ActivePartStatus StatusPhrase" ID="{{r|nonfunctional}}">{{r|故障}}</string>
+  <string Context="ActivePartStatus StatusPhrase" ID="{{b|still warming up}}">{{b|まだ起動中}}</string>
+  <string Context="ActivePartStatus StatusSummary" ID="{{g|fuel contaminated}}">{{g|燃料汚染}}</string>
+  <string Context="ActivePartStatus StatusPhrase" ID="{{g|disabled by fuel contamination}}">{{g|燃料汚染で停止}}</string>
+  <string Context="ActivePartStatus StatusPhrase" ID="{{W|disabled by electromagnetic pulse}}">{{W|電磁パルスで停止}}</string>
+  <string Context="Add body part to current equipment set" ID="Add body part to current equipment set">現在の装備セットに部位を追加</string>
+  <string Context="AddsMutationOnEquip Part =mutationName" ID="=mutation.Name=">=mutation.Name=</string>
+  <string Context="AddsMutationOnEquip Short Description" ID="Grants you =mutationName=.">=mutationName=を付与する。</string>
+  <string Context="AddsMutationOnEquip Short Description (with rank)" ID="Grants you =mutationName= at rank =tier=.">ランク=tier=の=mutationName=を付与する。</string>
+  <string Context="AddsRep Description Faction =affected= All" ID="every faction">すべての勢力</string>
+  <string Context="AddsRep Description Postfix Line" ID="=reputationDetails= =statusSummary|addParens=">=reputationDetails= =statusSummary|addParens=</string>
+  <string Context="AddsRep Description for Faction (signed)" ID="=reputation.signed= reputation with =affected=">=affected=の評判 =reputation.signed=</string>
+  <string Context="AddsRep Description for Faction (signed, color)" ID="=reputation.signed.color= reputation with =affected=">=affected=の評判 =reputation.signed.color=</string>
+  <string Context="AddsRep Faction =affected= Old" ID="every faction that existed during the time of the sultanate">スルタン朝の時代に存在したすべての勢力</string>
+  <string Context="AddsRep Description Postfix Line (when activated)" ID="When activated, =reputationDetails= =statusSummary|addParens=">起動時: =reputationDetails= =statusSummary|addParens=</string>
+  <string Context="Adjusting Aura Description" ID="=details.andList= to all your followers">すべての従者に=details.andList=</string>
+  <string Context="Adjusting Aura Description Self" ID="=details.andList= to you and all your followers">自分とすべての従者に=details.andList=</string>
+  <string Context="Adjusting Aura Description With Radius" ID="=details.andList= to all your followers within a radius of =radius=">半径=radius=以内のすべての従者に=details.andList=</string>
+  <string Context="Adjusting Aura Description Self, With Radius" ID="=details.andList= to you and all your followers within a radius of =radius=">半径=radius=以内の自分とすべての従者に=details.andList=</string>
+  <string Context="AfferentWeapon Effect Description" ID="This weapon uses its victim's =stat.name= modifier for penetration bonus.">この武器は貫通ボーナスに犠牲者の=stat.name=修正値を用いる。</string>
+  <string Context="AggregatedAndList replacer - aggregate key" ID="=subject.shortname:withTitles=">=subject.shortname:withTitles=</string>
+  <string Context="AggregatedAndList replacer - =aggregate= list item" ID="=count.a.or.cardinal.names:withTitles#item=">=count.a.or.cardinal.names:withTitles#item=</string>
+  <string Context="Agolgot Lair Maker - CradleDisplayName" ID="The cradle of Agolgot">アゴルゴットの揺籃</string>
+  <string Context="AIBarathrumShuttle" ID="=subject.Does:start= interfacing with =object.the.name=.">=subject.T=は=object.the.name=との接続を開始した。</string>
+  <string Context="AilingQuickness Description" ID="=statistics[Speed].adjust#speedBonus= per negative status effect">悪い状態異常1つにつき=statistics[Speed].adjust#speedBonus=</string>
+  <string Context="AIUrnDuster Dusting Message Log" ID="=subject.Does:dust= =object.a.name=.">=subject.T=は=object.a.name=の埃を払った。</string>
+  <string Context="AIWiring - Ignore Conversation Message" ID="=subject.Does:ignore= =object.the.name=.">=subject.T=は=object.the.name=を無視した。</string>
+  <string Context="AjiConch Blow Message" ID="=subject.Does:blow= into the conch of the Aji =subject.to.the.direction:noHere=.">=subject.T=は=subject.to.the.direction:noHere=へ向けてアジのほら貝を吹いた。</string>
+  <string Context="AmbientRealityStabilized Effect StateDescription" ID="{{Y|subject to astral friction}}">{{Y|アストラル摩擦を受けている}}</string>
+  <string Context="AmmoArrow DisplayName PenetrationAndDamageTag" ID="(=penetration=/=damage=)">(=penetration=/=damage=)</string>
+  <string Context="AmputateLimb Fail No Limbs" ID="=subject.Does:have= no limbs.">=subject.T=には四肢がない。</string>
+  <string Context="AmputateLimb Fail No Permission" ID="=subject.Does:won't= let you do that.">=subject.T=はそれを許さない。</string>
+  <string Context="AmputateLimb Popup Limb Description" ID="=limb.ordinalName==limb.equipped.name|wrap: (:)=">=limb.ordinalName==limb.equipped.name|wrap: (:)=</string>
+  <string Context="AmputateLimb Fail No Limbs Amputatable" ID="=subject.Does:have= no limbs that can be amputated.">=subject.T=には切断できる四肢がない。</string>
+  <string Context="AmputateLimb Fail No Target" ID="There is no one there for you to amputate their limb.">そこには四肢を切断できる相手がいない。</string>
+  <string Context="AmputateLimb Fail Hostiles Nearby" ID="You can't perform field amputations with hostiles nearby!">敵が近くにいる状態で野戦切断はできない！</string>
+  <string Context="AmputateLimb Fail Cannot Move" ID="You cannot amputate =object.the.name's:withTitles= limbs.">=object.the.name's:withTitles=四肢は切断できない。</string>
+  <string Context="AmputateLimb Fail Cannot Bring Self" ID="You cannot bring yourself to amputate your =limb.ordinalName=.">自分の=limb.ordinalName=を切断する踏ん切りがつかない。</string>
+  <string Context="AmputateLimb Fail Cannot Reach Target" ID="You cannot reach =object.the.name= to amputate =object.its= limb.">=object.the.name=に手が届かず、四肢を切断できない。</string>
+  <string Context="AnchorRoomTile Particle Text" ID="Tomb-tethered!">墓に繋ぎ止められた！</string>
+  <string Context="AnimateObject TargetPicker Label" ID="Animate">生命付与</string>
+  <string Context="AnimateObject Unresponsive Fail" ID="=subject.Does:are= unresponsive.">=subject.T=は反応しない。</string>
+  <string Context="AnimateObject Success Popup" ID="You imbue =object.the.name= with life.">=object.the.name=に生命を吹き込んだ。</string>
+  <string Context="AnimateObject Accomplishment" ID="You imbued =object.a.name= with life. Why?">=object.a.name=に生命を吹き込んだ。なぜ？</string>
+  <string Context="ArkCore Prompt" ID="OPEN ARK">アークを開く</string>
+  <string Context="Arms On Equip Description" ID="Grants =count= =arm.name|pluralize=">=arm.name|pluralize=を=count=本付与する</string>
+  <string Context="Arms On Equip Description With Hands" ID="Grants =count= =arm.name|pluralize= with =hand.pluralize=">=hand.pluralize=付きの=arm.name|pluralize=を=count=本付与する</string>
+</strings>

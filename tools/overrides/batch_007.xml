@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Examiner Identify Message - Snapshot Matched" ID="You commit the distinguishing characteristics of =snapshot= to memory.">=snapshot=を見分ける特徴を記憶に刻んだ。</string>
+  <string Context="Exhausted Effect Apply Particle Text" ID="*exhausted*">*疲労困憊*</string>
+  <string Context="Exhausted Effect StateDescription" ID="{{K|exhausted}}">{{K|疲労困憊}}</string>
+  <string Context="Exhausted Effect Apply Player Message" ID="You are {{K|exhausted}}!">{{K|疲労困憊}}になった！</string>
+  <string Context="Exhausted Effect Conversation" ID="=subject.Does:stare= at you dully.">=subject.T=はぼんやりとあなたを見つめている。</string>
+  <string Context="ExistenceSupport - Unsupported message log" ID="=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=.">=subject.The.name=が=subject.directionIfAny=で消え去った。</string>
+  <string Context="ExplodeAfterTurns Message Log" ID="=subject.Does:explode=!">=subject.T=は爆発した！</string>
+  <string Context="ExplodeOnHit Message Log" ID="=subject.Does:explode=!">=subject.T=は爆発した！</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="Lord">卿</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="massive">巨大な</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="echoing">反響する</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="Ancient">古の</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="Goliath">ゴリアテ</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="frenetic">狂乱の</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="Skuttler">スカトラー</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="Patriarch">家長</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="one-clawed">片鋏の</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="many-legged">多脚の</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="Deepcrawler">ディープクローラー</string>
+  <string Context="Eyeless King Crab Naming.xml Context" ID="shell-cracked">殻の割れた</string>
+  <string Context="FabricateFromSelf Default FabricateSource (short)" ID="=subject.their= body">自分の体</string>
+  <string Context="FabricateFromSelf Default FabricateSource" ID="the substance of =subject.their= body">自分の体そのもの</string>
+  <string Context="FabricateFromSelf TakeDamage Message (TODO:TakeDamage rewrite)" ID="from using =sourceShort= as raw materials.">=sourceShort=を原料に使ったことで。</string>
+  <string Context="FabricateFromSelf Ability DisplayName" ID="Fabricate =sample.name:asIfKnown:short|pluralize=">=sample.name:asIfKnown:short|pluralize=を生成</string>
+  <string Context="Faction GetFormattedName *" ID="everyone">すべての者</string>
+  <string Context="Faction Secret Description (extras)" ID="=fragments.join: =">=fragments.join: =</string>
+  <string Context="Faction Secret Description (pre-extra)" ID="=fragments.join:&#10;&#10;=">=fragments.join:
+
+=</string>
+  <string Context="Faction Worshippable Name" ID="=subject.worshippedAs=">=subject.worshippedAs=</string>
+  <string Context="Faction Secret Description (fragment)" ID="the =sultanTerm= they worship">彼らが崇める=sultanTerm=</string>
+  <string Context="Faction Gossip Two Faction" ID="=spice:gossip.twoFaction.!random=">=spice:gossip.twoFaction.!random=</string>
+  <string Context="Faction Feeling Description" ID="=feelingText=&#10;&#10;=fragments.join: =">=feelingText=
+
+=fragments.join: =</string>
+  <string Context="Faction Heirloom Name" ID="=spice:history.relics.names.!random=">=spice:history.relics.names.!random=</string>
+  <string Context="Faction Memorial Name" ID="=subject.refname:Memorial:long|strip=">=subject.refname:Memorial:long|strip=</string>
+  <string Context="Faction Gossip Second Faction (fragment)" ID="=spice:commonPhrases.someone.!random=">=spice:commonPhrases.someone.!random=</string>
+  <string Context="Faction Gossip Second Faction (fragment)" ID="some =spice:commonPhrases.group.!random=">とある=spice:commonPhrases.group.!random=</string>
+  <string Context="Faction Secret Description (fragment)" ID="=sultanTerm|plural= they admire or despise">彼らが敬う、あるいは蔑む=sultanTerm|plural=</string>
+  <string Context="Faction Secret Description (fragment)" ID="=faction.FormattedName|rules= =interestsBlurb=.">=faction.FormattedName|rules=は=interestsBlurb=。</string>
+  <string Context="Faction Rank Text" ID="You hold the =faction.rankTerm= of =rank= among them.">あなたは彼らの間で=rank=の=faction.rankTerm=にある。</string>
+  <string Context="Faction Pet Text" ID="{{C|=faction.formattedName|capitalize=}} will usually let you pet them.">{{C|=faction.formattedName|capitalize=}}はたいてい撫でさせてくれる。</string>
+  <string Context="Faction Pet Text" ID="{{C|=faction.formattedName|capitalize=}} won't usually let you pet them.">{{C|=faction.formattedName|capitalize=}}はたいてい撫でさせてくれない。</string>
+  <string Context="FactionDeed Pick Faction Option" ID="=faction.name=">=faction.name=</string>
+  <string Context="FactionDeed Description Tag" ID="[=faction.name= chapter]">[=faction.name=の章]</string>
+  <string Context="FactionInterest" ID="cooking recipes">料理のレシピ</string>
+  <string Context="FactionInterest" ID="the darkling star">闇の星</string>
+  <string Context="FactionInterest" ID="all weep locations">すべての泉の場所</string>
+  <string Context="FactionInterest" ID="the locations of ruins">遺跡の場所</string>
+  <string Context="FactionInterest" ID="locations in the jungle">ジャングルの中の場所</string>
+  <string Context="FactionInterest" ID="all underground locations">すべての地下の場所</string>
+  <string Context="FactionInterest" ID="the locations of oddities">珍奇なものの場所</string>
+  <string Context="FactionInterest" ID="locations in the mountains">山岳地帯の場所</string>
+  <string Context="FactionInterest" ID="the locations of merchants">商人の居場所</string>
+  <string Context="FactionInterest" ID="the locations of rust bogs">錆の沼地の場所</string>
+  <string Context="FactionInterest" ID="the locations of cat lairs">猫の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of ape lairs">類人猿の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of pig farms">養豚場の場所</string>
+  <string Context="FactionInterest" ID="locations in the salt dunes">塩の砂丘の場所</string>
+  <string Context="FactionInterest" ID="locations in the salt marsh">塩性湿地の場所</string>
+  <string Context="FactionInterest" ID="locations in the Moon Stair">月の階段の場所</string>
+  <string Context="FactionInterest" ID="the locations of slime bogs">粘菌の沼地の場所</string>
+  <string Context="FactionInterest" ID="the location of Stopsvalinn">ストップスヴァリンの在り処</string>
+  <string Context="FactionInterest" ID="the locations of bird lairs">鳥の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of fish lairs">魚の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of frog lairs">カエルの巣穴の場所</string>
+  <string Context="FactionInterest" ID="locations around Lake Hinnom">ヒノム湖周辺の場所</string>
+  <string Context="FactionInterest" ID="the locations of Girsh lairs">ギルシュの巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of robot lairs">ロボットの巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of their forts">彼らの砦の場所</string>
+  <string Context="FactionInterest" ID="the locations of apple farms">リンゴ園の場所</string>
+  <string Context="FactionInterest" ID="locations in the banana grove">バナナ林の中の場所</string>
+  <string Context="FactionInterest" ID="gossip that's about =faction=">=faction=に関する噂話</string>
+  <string Context="FactionInterest" ID="the locations of insect lairs">昆虫の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of baboon lairs">ヒヒの巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of flower lairs">花の巣穴の場所</string>
+  <string Context="FactionInterest" ID="locations in the flower fields">花畑の中の場所</string>
+  <string Context="FactionInterest" ID="the locations of storied items">由緒ある品の在り処</string>
+  <string Context="FactionInterest" ID="the location of girsh nephilim">ギルシュ・ネフィリムの居場所</string>
+  <string Context="FactionInterest" ID="the locations of snapjaw forts">スナップジョーの砦の場所</string>
+  <string Context="FactionInterest" ID="the locations of becoming nooks">再誕の小部屋の場所</string>
+  <string Context="FactionInterest" ID="locations in the desert canyons">砂漠の峡谷の場所</string>
+  <string Context="FactionInterest" ID="the locations of fungus forests">菌類の森の場所</string>
+  <string Context="FactionInterest" ID="locations in the Palladium Reef">パラジウム礁の場所</string>
+  <string Context="FactionInterest" ID="the locations of historic sites">史跡の場所</string>
+  <string Context="FactionInterest" ID="the location of ichor merchants">イコル商人の居場所</string>
+  <string Context="FactionInterest" ID="the locations of humanoid lairs">人型種族の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of all settlements">すべての集落の場所</string>
+  <string Context="FactionInterest" ID="the locations of other merchants">ほかの商人の居場所</string>
+  <string Context="FactionInterest" ID="locations along mountain streams">山あいの渓流沿いの場所</string>
+  <string Context="FactionInterest" ID="the locations of other ape lairs">ほかの類人猿の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of dromad merchants">ドロマド商人の居場所</string>
+  <string Context="FactionInterest" ID="the locations of other baboon lairs">ほかのヒヒの巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of humanoid merchants">人型種族の商人の居場所</string>
+  <string Context="FactionInterest" ID="the locations of winged mammal lairs">翼ある哺乳類の巣穴の場所</string>
+  <string Context="FactionInterest" ID="the locations of Consortium merchants">フィタ連合の商人の居場所</string>
+  <string Context="FactionInterest" ID="the locations of humanoid settlements">人型種族の集落の場所</string>
+  <string Context="FactionInterest" ID="the locations of goatfolk settlements">ゴートフォークの集落の場所</string>
+  <string Context="FactionInterest" ID="the locations of other dromad merchants">ほかのドロマド商人の居場所</string>
+  <string Context="FactionInterest" ID="the locations of Putus Templar enclaves">プトゥス騎士団の居留地の場所</string>
+  <string Context="FactionInterest" ID="the locations of =liquid.name|strip= weeps">=liquid.name|strip=の泉の場所</string>
+  <string Context="FactionInterest" ID="gossip that's about =faction.formattedName=">=faction.formattedName=に関する噂話</string>
+  <string Context="FactionInterest" ID="the location of the ancestral bracelet Kindrish">祖先の腕輪キンドリッシュの在り処</string>
+  <string Context="FactionInterest" ID="the locations of =subject.name|plural|possessive= =subject.lair|plural=">=subject.name|plural|possessive==subject.lair|plural=の場所</string>
+  <string Context="FactionsLine reputation" ID="Reputation: =reputation=">評判: =reputation=</string>
+  <string Context="FactionsLine expander" ID="=expand.expanded|color:C=">=expand.expanded|color:C=</string>
+  <string Context="FactionsLine middle box text" ID="=rank|spaceAfter==pet|spaceAfter==holy=">=rank|spaceAfter==pet|spaceAfter==holy=</string>
+  <string Context="Fan Blown Away" ID="=subject.Does:are= blown back by =object.the.name=.">=subject.T=は=object.the.name=に吹き飛ばされた。</string>
+  <string Context="Fan Blown Away Most" ID="=subject.Does:are= blown into the air by =object.the.name=!">=subject.T=は=object.the.name=に宙へ吹き上げられた！</string>
+  <string Context="Fan Resistance Message" ID="=subject.Does:resist= being blown back by =object.the.name=.">=subject.T=は=object.the.name=に吹き飛ばされまいと耐えた。</string>
+  <string Context="Fan Blown Away More" ID="=subject.Does:are= blown forcefully back by =object.the.name=.">=subject.T=は=object.the.name=に激しく吹き飛ばされた。</string>
+  <string Context="FindASiteDynamicQuestTemplate site name default" ID="a site">とある場所</string>
+  <string Context="FindASiteDynamicQuestTemplate Reject Choice" ID="No, I will not.">いや、断る。</string>
+  <string Context="FindASiteDynamicQuestTemplate Completion Accomplishment" ID="You located =sitename=.">=sitename=を見つけた。</string>
+  <string Context="FindASiteDynamicQuestTemplate siteName" ID="=journalNote.the.location.of=">=journalNote.the.location.of=</string>
+  <string Context="FindASiteDynamicQuestTemplate quest name" ID="=targetLocation.text|strip|title=">=targetLocation.text|strip|title=</string>
+  <string Context="FindASiteDynamicQuestTemplate located choice" ID="I've located =targetLocation.text|colorSafe=.">=targetLocation.text|colorSafe=を見つけた。</string>
+  <string Context="FindASiteDynamicQuestTemplate return step name" ID="Return to =quest.originZone|titleCaseWithArticle=">=quest.originZone|titleCaseWithArticle=に戻る</string>
+  <string Context="FindASiteDynamicQuestTemplate quest name" ID="Find =targetLocation.text|strip|titleCaseWithArticle=">=targetLocation.text|strip|titleCaseWithArticle=を探す</string>
+  <string Context="FindASiteDynamicQuestTemplate located choice" ID="I haven't located =targetLocation.text|colorSafe= yet.">=targetLocation.text|colorSafe=はまだ見つけていない。</string>
+  <string Context="FindASiteDynamicQuestTemplate quest intro dialog" ID="ERROR: Failed to generate quest text, unknown story type">エラー: クエスト文の生成に失敗した（不明な物語の種類）</string>
+  <string Context="FindASiteDynamicQuestTemplate sequence break choice" ID="I already know where =targetLocation.text|colorSafe= is.">=targetLocation.text|colorSafe=の場所はもう知っている。</string>
+  <string Context="FindASiteDynamicQuestTemplate Accept Choice" ID="Yes. I will locate =targetLocation.text|colorSafe= as you ask.">ああ。頼みどおり=targetLocation.text|colorSafe=を見つけてこよう。</string>
+  <string Context="FindASiteDynamicQuestTemplate return step text" ID="Return to =quest.originZone= and speak to =giver.displayNameOnlyDirect|strip=.">=quest.originZone=に戻り、=giver.displayNameOnlyDirect|strip=と話す。</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate reject choice" ID="No, I will not.">いや、断る。</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate found choice" ID="I've found =item.the.name=.">=item.the.name=を見つけた。</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate found choice" ID="I don't have =item.the.name= yet.">=item.the.name=はまだ持っていない。</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate quest name sacred item" ID="The =sanctityOfSacredThing|title=">=sanctityOfSacredThing|title=</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate accept choice" ID="Yes. I will find =item.the.name= as you ask.">ああ。頼みどおり=item.the.name=を見つけてこよう。</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate quest name sacred item" ID="=item.the.name:includeAdjunctNoun|strip|title=">=item.the.name:includeAdjunctNoun|strip|title=</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate quest name personal favor" ID="=item.the.name:includeAdjunctNoun|strip|title=">=item.the.name:includeAdjunctNoun|strip|title=</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate quest name default" ID="=item.the.name:includeAdjunctNoun|strip|title=">=item.the.name:includeAdjunctNoun|strip|title=</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate Accomplishment" ID="You recovered =item.refname:withDefiniteArticle=.">=item.refname:withDefiniteArticle=を取り戻した。</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate sanctityOfSacredThing" ID="=spice:commonPhrases.sanctity.!random= of =quest.sacredThing=">=quest.sacredThing=の=spice:commonPhrases.sanctity.!random=</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate locate step name" ID="Find =item.the.name:includeAdjunctNoun|strip|titleCaseWithArticle=">=item.the.name:includeAdjunctNoun|strip|titleCaseWithArticle=を探す</string>
+  <string Context="FindASpecificItemDynamicQuestTemplate locate step text" ID="Locate =item.the.name:includeAdjunctNoun|strip= at =deliveryTarget=.">=deliveryTarget=で=item.the.name:includeAdjunctNoun|strip=を見つける。</string>
+  <string Context="Firefighting On Self" ID="=subject.Does:beat= at the flames with =subject.its= =hands.name=!">=subject.T=は=hands.name=で炎を叩いた！</string>
+  <string Context="Flagging Effect Take Action Player Message" ID="You're going to collapse from exhaustion in =duration.things:round=.">あと=duration.things:round=で疲労のあまり倒れてしまう。</string>
+  <string Context="Flaming Ray Missing Limb Message" ID="Missing =part.name=">=part.name=がない</string>
+  <string Context="FlamingRay Chargen Variant" ID="=mutation.name= (=bodyPartType=)">=mutation.name=（=bodyPartType=）</string>
+  <string Context="FlamingRay emit no part" ID="=subject.Does:emit= a flaming ray!">=subject.T=は炎の光線を放った！</string>
+  <string Context="FlamingRay emit" ID="=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!">=subject.T=は=part.ordinalName=から炎の光線を放った！</string>
+  <string Context="FlashbangGrenade explode message log" ID="=subject.Does:explode= with a flash!">=subject.T=は閃光とともに爆発した！</string>
+  <string Context="Flying Effect DisplayName Tag" ID="[{{B|flying}}]">[{{B|飛行中}}]</string>
+  <string Context="FollowersGetTeleport TeleportEffect DisplayName" ID="{{C|spurred to teleport}}">{{C|テレポートを促された}}</string>
+  <string Context="FollowersGetTeleport GetDetails MutationWasAdded" ID="Can use =mutation= at level =tier=.">レベル=tier=の=mutation=が使える。</string>
+  <string Context="FollowersGetTeleport GetDetails MutationImproved" ID="=tier.signed= =tier.pluralize:level= to =mutation=.">=mutation=のレベル=tier.signed=</string>
+  <string Context="ForceBubble Off MessageLog" ID="The {{B|force bubble}} around =subject.the.name= snaps off.">=subject.the.name=の周りの{{B|力場の泡}}がパチンと消えた。</string>
+  <string Context="ForceBubble On MessageLog" ID="A {{B|force bubble}} pops into being around =subject.the.name=.">=subject.the.name=の周りに{{B|力場の泡}}がポンと現れた。</string>
+  <string Context="ForceEmitter AbilityName Activate Fallback" ID="Activate Force Emitter">力場発生器を起動</string>
+  <string Context="ForceEmitter AbilityName Deactivate Fallback" ID="Deactivate Force Emitter">力場発生器を停止</string>
+  <string Context="ForceEmitter Deactivate Suspended" ID="=subject.Does:vibrate= slightly.">=subject.T=はわずかに振動した。</string>
+  <string Context="ForceEmitter AbilityName Activate" ID="Activate =object.basename|strip|title=">=object.basename|strip|title=を起動</string>
+  <string Context="ForceEmitter AbilityName Deactivate" ID="Deactivate =object.basename|strip|title=">=object.basename|strip|title=を停止</string>
+  <string Context="ForceEmitter Deactivate NonPlayer" ID="The {{B|force bubble}} around =object.the.name= snaps off.">=object.the.name=の周りの{{B|力場の泡}}がパチンと消えた。</string>
+  <string Context="ForceEmitter Activate Unpowered" ID="=subject.Does:don't= have enough charge to sustain the field!">=subject.T=には力場を維持するチャージが足りない！</string>
+  <string Context="ForceEmitter Activate" ID="A {{B|force bubble}} pops into being around =object.the.name=.">=object.the.name=の周りに{{B|力場の泡}}がポンと現れた。</string>
+  <string Context="Forcefield CollapseUnderPressureOfNormality" ID="=subject.Does:collapse= under the pressure of normality.">=subject.T=は正常性の圧力に押し潰された。</string>
+  <string Context="ForceWall On MessageLog" ID="=subject.Does:conjure= a {{B|wall of force}}!">=subject.T=は{{B|力の壁}}を作り出した！</string>
+  <string Context="Freezing Ray Missing Limb Message" ID="Missing =part.name=">=part.name=がない</string>
+  <string Context="FreezingRay Chargen Variant" ID="=mutation.name= (=bodyPartType=)">=mutation.name=（=bodyPartType=）</string>
+  <string Context="FreezingRay emit no part" ID="=subject.Does:emit= a freezing ray!">=subject.T=は凍結の光線を放った！</string>
+  <string Context="FreezingRay emit" ID="=subject.Does:emit= a freezing ray from =subject.its= =part.ordinalName=!">=subject.T=は=part.ordinalName=から凍結の光線を放った！</string>
+  <string Context="Frenzied Effect Berserk Trigger" ID="=subject.Does:enter= a berserk fury!">=subject.T=は狂乱の激怒に陥った！</string>
+  <string Context="FungalCureQueasy Effect DisplayName" ID="{{W|queasy}}">{{W|吐き気}}</string>
+  <string Context="FungalCureQueasy Effect Apply Message" ID="=subject.Does:feel|strip= a little queasy.">=subject.T=は少し吐き気を覚えた。</string>
+  <string Context="FungalCureQueasy Effect Remove Message" ID="=subject.The.name's:withTitles= queasiness passes.">=subject.The.name's:withTitles=吐き気が治まった。</string>
+  <string Context="FungalFortitude AVBonus" ID="=bonus.signed= AV per fungal infection">菌類感染1つにつきAV =bonus.signed=</string>
+  <string Context="FungalFortitude AVBonus" ID="=bonus.signed= to all resists per fungal infection">菌類感染1つにつき全耐性 =bonus.signed=</string>
+  <string Context="FungalInfection AppliedLiquid NotCurable" ID="=subject.Does:are= immune to conventional treatments.">=subject.T=には普通の治療が効かない。</string>
+  <string Context="FungalInfection AppliedLiquid Not FungalCureQueasy itches (fail)" ID="=subject.The.name's:withTitles= skin itches furiously.">=subject.The.name's:withTitles=肌が猛烈にかゆい。</string>
+  <string Context="FungalSporeInfection Effect Choose Limb Prompt" ID="Choose a limb to infect with =fungus=.">=fungus=に感染させる四肢を選んでください。</string>
+  <string Context="FungalSporeInfection Effect Player Popup" ID="You've contracted =object.name= on your =part.ordinalName=.">=part.ordinalName=に=object.name=が感染した。</string>
+  <string Context="GameMain default death reason" ID="You quit.">ゲームを終了した。</string>
+  <string Context="GameMain NoSavedGame" ID="No saved game exists.">セーブデータがない。</string>
+  <string Context="GameMain quest step error" ID="Error finishing quest step ">クエストの段階を完了できなかった</string>
+  <string Context="GameManager - Restart status bar" ID="Restarting application...">アプリケーションを再起動中…</string>
+  <string Context="GameObject adjunct noun default" ID="set">一式</string>
+  <string Context="GameObject GetDescriptiveCategory - has MissileWeapon or ThrownWeapon" ID="weapon">武器</string>
+  <string Context="GameObject GetDescriptiveCategory - has MeleeWeapon and is not Improvised Weapon" ID="weapon">武器</string>
+  <string Context="GameObject GetDescriptiveCategory - cybernetic base item" ID="implant">インプラント</string>
+  <string Context="GameObject GetDescriptiveCategory - not understood" ID="artifact">アーティファクト</string>
+  <string Context="GameObject GetDescriptiveCategory - creature" ID="creature">クリーチャー</string>
+  <string Context="GameObject GetDescriptiveCategory - techscannable" ID="artifact">アーティファクト</string>
+  <string Context="GameObject GetDescriptiveCategory - bioscannable" ID="organism">生物</string>
+  <string Context="GameObject toString Player" ID="The Player">プレイヤー</string>
+  <string Context="GameObject Delegate AOrStack Multiple" ID="=object.name=">=object.name=</string>
+  <string Context="GameObject Delegate AOrStack Single" ID="=object.a.name:single=">=object.a.name:single=</string>
+  <string Context="GameObject.GetDisplayName Indicate hidden" ID="hidden =name=">隠れた=name=</string>
+  <string Context="GameObject.GetDisplayName adjunct noun post" ID="=name= =adjunctNoun=">=name==adjunctNoun=</string>
+  <string Context="GameObject.GetDisplayName adjunct noun pre" ID="=adjunctNoun= of =name=">=adjunctNoun=の=name=</string>
+  <string Context="GameObject.GetDisplayName prepend article-like (indefinite)" ID="=article|spaceAfter==name=">=article|spaceAfter==name=</string>
+</strings>

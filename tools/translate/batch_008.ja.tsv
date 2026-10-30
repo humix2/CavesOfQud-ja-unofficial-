@@ -1,0 +1,107 @@
+1	=article|spaceAfter==name=
+3	放出するガスの濃度が=density=%上がる。
+4	放出するガスの拡散が=dispersal=%速くなる。
+5	放出するガスの濃度が=density.abs=%下がる。
+6	放出するガスの拡散が=dispersal.abs=%遅くなる。
+7	=spice:friendOrFoe.$spiceKey.hateReasons.!random=
+8	=spice:friendOrFoe.$spiceKey.likeReasons.!random=
+9	=spice:friendOrFoe.$spiceKey.hateReasons.!random=
+10	=spice:friendOrFoe.$spiceKey.likeReasons.!random=
+11	射程外だ！（=range.things:square=）
+12	=checked.checkbox.basic=
+13	=object.the.name=を起動して宙に放り投げた。
+14	=glyph:ChargenBullet= =extraInfo=
+15	=subject.T=は=object.the.name=をすり抜けた！
+16	=subject.The.name=と=object.the.name=はぶつかって地面に落ちた。
+17	=subject.T=は身をすくめて=attacker.the.name's.item#object=をかわした！
+18	=status.commaList=
+19	=willpower.Name=が=isHigh.if:高い:低い=
+20	=cultName=の一員
+21	=list.andList=に愛されている。
+22	{{C|=faction.factionName=}}
+23	=object.a.name:withTitles=を倒した。
+24	{{C|=faction.factionName=}}{{K|(=rep=)}}
+25	あなたは=object.objective=と水の絆を結んでいる。
+26	{{C|=faction.factionName=}}=repDebugOption=に愛されている（理由: =reason=）
+27	{{C|=faction.factionName=}}=repDebugOption=に憎まれている（理由: =reason=）
+28	{{C|=faction.factionName=}}=repDebugOption=に敬われている（理由: =reason=）
+29	{{C|=faction.factionName=}}=repDebugOption=に嫌われている（理由: =reason=）
+30	サイキックの微光を=amount=減らす。
+31	サイキックの微光を=amount=増やす。
+32	イル氏族
+33	ソル氏族
+34	アイベックス氏族
+35	ムニム氏族
+36	心臓噛み
+37	割れ角
+38	ホトゥル氏族
+39	二枚舌
+40	魂を啜る者
+41	白指
+42	白舌氏族
+43	ハムサ
+44	アツムス
+45	武装
+46	触媒
+48	呪文
+49	全耐性 +75
+50	<選択してください>
+51	ランダムな部位3つ
+52	昇華の動力源
+53	もうすぐ完成する。
+54	=selection|article=を選択
+55	クリーチャーが形作られている。
+56	着用しているスルタンの仮面の効果を共有する
+57	敵対的なクリーチャーが近くにいる状態ではできない。
+58	=liquid.name= =volume|rules=ドラム
+59	=liquid.name= =volume|rules=ドラム
+60	=selection=の条件を満たすものを持っていない。
+61	近くの従者にクイックネス+5、HP+20%、全能力値+3
+62	あと=duration.cardinal=日で完成する。
+65	=subject.T=は=object.the.name=を掴み、あなたをその場に押さえつけた。
+66	=markovShort:18|obfuscate=
+68	=subject.T=はシュワシュワと貪欲に泡立ち始めた。
+69	=subject.T=は内破した！
+70	蜘蛛の巣の上を自由に歩ける。
+71	=entry.name=
+72	{{y|[吊り下げ]}}
+73	{{y|[地面]}}
+75	=subject.T=は回復し始めた。
+76	チューブが肌に当たってシュッと鳴り、温かい感覚が全身を包んだ。
+77	熱によってHPが=amount=回復した。
+78	=subject.T=は爆発した！
+81	反
+82	=subject.to.the.direction=で=subject.A.name=の姿が露わになった！
+83	{{R|エラー: \n=stacktrace=}}
+84	=score.name= :: レベル=score.level= :: =score.gameMode=
+85	デイリー（全体）
+86	{{R|エラーが発生した。}}
+87	{{R|ゲームは現在オフラインで動作している。}}
+88	エラーが発生しました。もう一度試しますか？
+89	エラーが発生しました。もう一度試しますか？
+90	本当にこれを削除しますか？\n\n=highscore=
+91	自動人形
+95	グロットロットに冒された者たち
+97	アイアンシャンクに冒された者たち
+109	スルタンたち
+111	無政府
+112	王
+113	村長
+114	女王
+115	民主制
+116	階級制
+117	民衆
+118	民衆
+120	=region=を訪れる
+121	=region=を見つける
+128	=relic|strip=を取り戻す
+129	=relic|strip=を取り戻す
+131	=founder.name=一世王
+133	=founder.name=一世女王
+134	=faction.formattedName=
+135	=faction.formattedName=
+136	=basename= =suffix.roman=
+137	階級制の廃止
+151	=location=で=relic|strip=を取り戻す。
+159	史跡=region=へ向かう
+162	史跡=region=へ向かう。

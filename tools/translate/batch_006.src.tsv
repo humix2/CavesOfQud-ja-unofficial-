@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	Disassembly InterruptBecause	the item you were working on was destroyed
+2	Strings.example.xml	Disassembly	You start disassembling =object.the.name=.
+3	Strings.example.xml	Disassembly InterruptBecause	you no longer know how to disassemble things
+4	Strings.example.xml	Disassembly Message, has both, learned no newline	=itemsMessage= =learnedMessage= =bitMessage=
+5	Strings.example.xml	Disassembly InterruptBecause	=object.does:are= no longer within your reach
+6	Strings.example.xml	Disassembly Loading Status Bar	Disassembled =done.things:item= of =wanted=...
+7	Strings.example.xml	Disassembly InterruptBecause	=object.the.name= can no longer be disassembled
+8	Strings.example.xml	Disassembly InterruptBecause	you can no longer interact with =object.the.name=
+9	Strings.example.xml	Disassembly Message, has both, learned has newline	=itemsMessage=\n\n=learnedMessage=\n\n=bitMessage=
+10	Strings.example.xml	Disassembly learn to mod ('You may now' fragment)	mod items with the =mods.andList= =mods.pluralize:mod=
+11	Strings.example.xml	Disguise Blueprint Default Display	creature of some kind
+12	Strings.example.xml	Disintegrate Take Damage Message (TODO)	from %t disintegration!
+13	Strings.example.xml	Disintegration Area Stat	7x7 around self
+14	Strings.example.xml	Disintegration Activate MessageLog	The air vibrates destructively around =subject.a.name=!
+15	Strings.example.xml	Dismember ParticleText	*dismembered!*
+16	Strings.example.xml	Dismember Confirm Self	Are you sure you want to dismember =subject.itself=?
+17	Strings.example.xml	Dismember By Self	=subject.Does:chop= off =subject.their= own =limb.ordinalName=!
+18	Strings.example.xml	Dismember By Attacker	=subject.Does:chop= off =object.the.name's= =limb.ordinalName=!
+19	Strings.example.xml	Dismember Fail No Primary Axe	You must have an axe equipped in your primary hand to dismember.
+20	Strings.example.xml	DismemberAdjacentHostiles Techscanning NameForStatus	AntipersonnelSystems
+21	Strings.example.xml	Displacer Techscanning NameForStatus	SpatialTransposer
+22	Strings.example.xml	DiThermoBeam Player Message	=subject.Does:flip= the thermal polarity on =object.the.name=.
+23	Strings.example.xml	Dominate Failure	You can't dominate =object.itself=!
+24	Strings.example.xml	Dominate Dominate	=subject.Does:take= control of =object.the.name=!
+25	Strings.example.xml	Dominate Fail	=subject.Does:resist= =object.name's= domination!
+26	Strings.example.xml	Dominate Fail Immune	Something prevents you from dominating =object.the.name=.
+27	Strings.example.xml	Dominate Failure	There seems to be no mind in =object.the.name= to dominate.
+28	Strings.example.xml	Dominate Failure	=object.Does:do= not have a consciousness you can make psychic contact with.
+29	Strings.example.xml	Dominated Effect Description	dominated (=duration.things:turn= remaining)
+30	Strings.example.xml	Dominating Effect Conversation Message	=subject.Does:are= utterly unresponsive.
+31	Strings.example.xml	Dominating Effect Telepathy Conversation Message	=subject.The.name's:withTitles= mind seems to be elsewhere.
+32	Strings.example.xml	Domination Target Picker Label	Dominate
+33	Strings.example.xml	door	You cannot open =object.t=.
+34	Strings.example.xml	door open reason	 because you cannot figure out how
+35	Strings.example.xml	DoubleContainer BeforeDeath	You broke apart.
+36	Strings.example.xml	DoubleEdge Description Only Dealt	Deal =dealt.abs=% =dealt.threshold:0:more:less= damage
+37	Strings.example.xml	DoubleEdge Description Only Received	Take =received.abs=% =received.threshold:0:more:less= damage
+38	Strings.example.xml	DrawABead Confuse Fail	You cannot mark a target while you are confused.
+39	Strings.example.xml	Drill Description	=usesCharge.if:When powered, ==pen.signed= penetration vs. walls.
+40	Strings.example.xml	DrinkMagnifier Description	=chance=% chance for liquid-drinking effects to apply twice
+41	Strings.example.xml	DynamicQuest award item formatting one	=rewardName=
+42	Strings.example.xml	DynamicQuest entry list	=entries.commaList=
+43	Strings.example.xml	DynamicQuest village context village recoiler name	=villageName= recoiler
+44	Strings.example.xml	DynamicQuest you recive an item	You receive =item.a.name=.
+45	Strings.example.xml	DynamicQuest village zero quest reward random	Accept Quest - reward: random
+46	Strings.example.xml	DynamicQuest award item formatting many	=rewardName= {{W|x=entry.count=}}
+47	Strings.example.xml	DynamicQuest village zero quest reward recoiler	Accept Quest - reward: recoiler and disk
+48	Strings.example.xml	DynamicQuestConversationHelper village zero main quest choice	Who are these Barathrumites?
+49	Strings.example.xml	DynamicQuestConversationHelper village zero main quest dialog	=spice:quests.intro.!random|capitalize=
+50	Strings.example.xml	DynamicQuestConversationHelper village zero main quest choice	My thanks, =pronouns.formalAddressTerm=.
+51	Strings.example.xml	DynamicQuestConversationHelper village zero main quest choice deny	I must pass on this offer, for now. Live and drink.
+52	Strings.example.xml	DynamicQuestConversationHelper village zero main quest choice	I will take the disk to Grit Gate and speak with the Barathrumites.
+53	Strings.example.xml	DynamicQuestSignpostConversation	=spice:quests.intro.!random=
+54	Strings.example.xml	DynamicQuestSignpostConversation choice	Thank you. I have more to ask.
+55	Strings.example.xml	Dystechnia Thing Explodes	=subject.Does:explode=!
+56	Strings.example.xml	EaterCryptPlaque finalize (empty)	=emptyText|caste.eaterPlaque=
+57	Strings.example.xml	EaterCryptPlaque engraving	=part1=\n\n=part2=\n\n=part3=
+58	Strings.example.xml	EaterCryptPlaque finalize	=engraving|caste.eaterPlaque=
+59	Strings.example.xml	EaterCryptPlaque EmptyText	<The plaque has no inscription.>
+60	Strings.example.xml	EaterCryptPlaque part1	=spice:tombstones.$cryptIntro.!random|title=
+61	Strings.example.xml	EaterCryptPlaque part2	=spice:tombstones.cryptPlaque.$familyTitle.!random|title=
+62	Strings.example.xml	EaterCryptPlaque familyCognomen	=spice:tombstones.cryptPlaque.$caste.familyCognomen.!random=
+63	Strings.example.xml	EaterCryptPlaque part3	"=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper="
+64	Strings.example.xml	EaterUrn inscription finalize	=engraving|urn=
+65	Strings.example.xml	EaterUrn engraving	=spice:tombstones.urnIntroByFaction.$faction=\n\n\n=name=\n\n\n"=shortMarkov="\n
+66	Strings.example.xml	EatMemoriesOnHit TriedToEatButStarves	=subject.Does:try= to eat your memories, but =subject.it.does:starve=.
+67	Strings.example.xml	EelSpawn Successful You	A sewage eel wraps itself around you!
+68	Strings.example.xml	EelSpawn Successful Your Part	A sewage eel wraps itself around your =part.ordinalName=!
+69	Strings.example.xml	EelSpawn Spotted Eel	=subject.Does:spot= a sewage eel =object.to.the.direction=!
+70	Strings.example.xml	EelSpawn Revealed	=subject.Does:spot= a sewage eel =object.to.the.direction=!
+71	Strings.example.xml	EelSpawn Can't Reach You	A sewage eel tries to wrap itself around you, but cannot reach!
+72	Strings.example.xml	EelSpawn Different Phase You	A sewage eel tries to wrap itself around you, but passes through you!
+73	Strings.example.xml	EjectionSeat Unable	Your seat is unable to eject.
+74	Strings.example.xml	EjectionSeat Success From Self, Including Player	=subject.Does:eject= with =object.the.name=!
+75	Strings.example.xml	EjectionSeat Success Including Player	=subject.Does:eject= from =object.the.name=!
+76	Strings.example.xml	EjectionSeat Success From Self	=subject.Does:eject= with =object.the.name= =subject.to.the.direction=!
+77	Strings.example.xml	EjectionSeat Success	=subject.Does:eject= from =object.the.name= =subject.to.the.direction=!
+78	Strings.example.xml	EjectionSlot Lockin Message	=subject.Does:lock= in place.
+79	Strings.example.xml	Elec Gen AbilityDisplay Discharge	Discharge [=charge= charge]
+80	Strings.example.xml	Elec Gen DrinkCharge None	=subject.Does:touch= =object.a.name=.
+81	Strings.example.xml	Elec Gen DrinkCharge Unknown Amount	=subject.Does:touch= =object.the.name=.
+82	Strings.example.xml	Elec Gen Discharge Target Confirm Self	Are you sure you want to target yourself?
+83	Strings.example.xml	Elec Gen Discharge Message	=subject.Does:discharge= an electrical arc!
+84	Strings.example.xml	Elec Gen DrinkCharge None Player	You can't seem to drink any of the juice from =object.the.name=.
+85	Strings.example.xml	Elec Gen Discharge Message	=subject.Does:discharge= =amount.things:unit= of electrical charge!
+86	Strings.example.xml	Elec Gen Damage Recharge Unknown	=subject.Does:seem= to have absorbed some of the electrical charge.
+87	Strings.example.xml	Elec Gen Discharge Fail No Target	There is nothing there that your electrical discharge can ground into.
+88	Strings.example.xml	ElectricalDischargeLoader MissileWeaponStatusEvent NotUnderstood	[?]
+89	Strings.example.xml	ElectricalDischargeLoader MissileWeaponStatusEvent NoEnergyCell	[{{K|empty}}]
+90	Strings.example.xml	ElectricalDischargeLoader MissileWeaponStatusEvent CellChargeStatus	[=chargeStatus=]
+91	Strings.example.xml	ElectricalDischargeLoader NameForStatus TechScanning	ElectricalDischargeSystem
+92	Strings.example.xml	ElectricalDischargeLoader GetStatusMessage Unpowered	=subject.Doesly:merely:click=.
+93	Strings.example.xml	ElectricalDischargeLoader GetStatusMessage	=subject.Does:are= =statusphrase=.
+94	Strings.example.xml	ElectricalDischargeLoader DamageDisplayName	=glyph.strip:Damage|color:W==damageroll=
+95	Strings.example.xml	ElectricalDischargeLoader SupplyWithCell CannotTake	=subject.The.name= cannot take =cell.the.name=.
+96	Strings.example.xml	ElectricalDischargeLoader SupplyWithCell Success	=subject.Does:transfer= =cell.a.name= to =host.aForNPCSubject.name=.
+97	Strings.example.xml	ElectromagneticPulse Emit Message	=subject.Does:emit= an electromagnetic pulse.
+98	Strings.example.xml	ElectromagneticPulsed Effect Tag	[{{W|EMP}}]
+99	Strings.example.xml	EmbarkBuilder CodeCompressor - Missing Mod Decoding	Error decoding build code - Required Mod '=requiredMod=' not found.
+100	Strings.example.xml	Emboldened Effect DisplayName	Boosted =stat.name|title=
+101	Strings.example.xml	Emboldened Effect Apply Message	Your =stat.name= =stat.ifplural:increase:increases=!
+102	Strings.example.xml	Emboldened Effect Remove Message	Your =stat.name= =stat.ifplural:return:returns= to normal.
+103	Strings.example.xml	EMPGrenade Detonate Message Log	=subject.Does:explode=!
+104	Strings.example.xml	EMPGrenade Detonate Message Log	=subject.Does:detonate=!
+105	Strings.example.xml	EmptyTheClips Effect Remove Message	=subject.Does:loosen= =subject.their= pistol grip.
+106	Strings.example.xml	EmptyTheClips Effect Apply Message Multiple Pistols	=subject.Does:clasp= =subject.their= pistols eagerly.
+107	Strings.example.xml	EnergyAmmoLoader MissileWeaponStatusEvent NotUnderstood	[?]
+108	Strings.example.xml	EnergyAmmoLoader MissileWeaponStatusEvent NoEnergyCell	[{{K|empty}}]
+109	Strings.example.xml	EnergyAmmoLoader MissileWeaponStatusEvent CellChargeStatus	[=chargeStatus=]
+110	Strings.example.xml	EnergyAmmoLoader NameForStatus TechScanning	EnergyWeaponSystem
+111	Strings.example.xml	EnergyAmmoLoader GetStatusMessage Unpowered	=subject.Doesly:merely:click=.
+112	Strings.example.xml	EnergyAmmoLoader GetStatusMessage	=subject.Does:are= =statusphrase=.
+113	Strings.example.xml	EnergyAmmoLoader SupplyWithCell CannotTake	=subject.The.name= cannot take =cell.the.name=.
+114	Strings.example.xml	EnergyAmmoLoader SupplyWithCell Success	=subject.Does:transfer= =cell.a.name= to =host.aForNPCSubject.name=.
+115	Strings.example.xml	EnergyCellSocket Does Not Fit	That won't fit!
+116	Strings.example.xml	EnergyCellSocket DisplayName Tag	{{y|[=cell.long=]}}
+117	Strings.example.xml	EnergyCellSocket No Cell DisplayName Tag	{{y|[{{K|no cell}}]}}
+118	Strings.example.xml	EnergyCellSocket No Fitting Cells	You have no cells that fit.
+119	Strings.example.xml	EnergyCellSocket Remove Cell Option	remove cell: =cell.long.name=
+120	Strings.example.xml	EnergyCellSocket Can't Remove	You can't remove the old cell!
+121	Strings.example.xml	EnergyCellSocket Remove Failure	You can't remove =cell.the.name=!
+122	Strings.example.xml	EnergyCellSocket Cell Selection Popup	Choose a cell for =object.the.name=
+123	Strings.example.xml	EnergyCellSocket Cell Short Description	\n{{rules|=cell.name|strip=: =chargeStatus=}}
+124	Strings.example.xml	EnergyCellSocket Cell Stuck At Inventory	You can't take the new cell out of your inventory!
+125	Strings.example.xml	EnergyCellSocket Insert Cell Into Device	=subject.Does:slot= =object.a.name= into =device.the.name:itsSubjectPossessor=.
+126	Strings.example.xml	Engraver Picker Label	Engrave
+127	Strings.example.xml	Engraver NameForStatus	PrecisionEngraver
+128	Strings.example.xml	Engraver Unpowered	=subject.Doesly:merely:click=.
+129	Strings.example.xml	Engraver No Body	You cannot engrave =object.the.name=.
+130	Strings.example.xml	Engraver No Valid Parts	You cannot engrave =object.the.name=.
+131	Strings.example.xml	Engraver No One To Engrave	There is nobody there you can engrave.
+132	Strings.example.xml	Engraver Status Not Operational	=subject.Does:are= =engraver.statusPhrase=.
+133	Strings.example.xml	Engraver Can't Apply	You can't engrave =object.the.name's= =part.ordinalName=.
+134	Strings.example.xml	Engraver Can't Engrave Strangers	You can only engrave =subject.itself= and your companions.
+135	Strings.example.xml	Engraver Unsuccessful Message	Something went wrong and you fail to complete the engraving.
+136	Strings.example.xml	Engraver Success Popup	You engrave =description= on =object.the.name's:withTitles= =part.ordinalName=.
+137	Strings.example.xml	EquipmentLine primary hand glyph	{{G|*}}
+138	Strings.example.xml	EquipmentLoadoutManager no equipment set default name	No Equipment Set
+139	Strings.example.xml	EquipmentLoadoutManager new equipment set default name	New Equipment Set
+140	Strings.example.xml	EquipmentLoadoutManager Save Loadout	Save Equipment Set
+141	Strings.example.xml	EquipmentLoadoutManager Equipment Display Name	=subject.shortsingle|strip=
+142	Strings.example.xml	EquipmentLoadoutManager Update a loadout	{{G|Update{{y|: =loadoutname=}}}}
+143	Strings.example.xml	EquipmentLoadoutManager Popup loadout deleted	=loadoutname= equipment set deleted.
+144	Strings.example.xml	EquipmentLoadoutManager Equipment Set Delete Confirmation	Are you sure you want to delete =loadoutname=?
+145	Strings.example.xml	EquipmentLoadoutSystem create a new loadout edit	Edit
+146	Strings.example.xml	EquipmentLoadoutSystem create a new loadout equip	Equip
+147	Strings.example.xml	EquipmentLoadoutSystem choice to switch to using no loadout at all	No Equipment Set
+148	Strings.example.xml	EquipmentLoadoutSystem LoadoutPart missing body part	{{Y|NO =partName=}}
+149	Strings.example.xml	EquipmentLoadoutSystem choice to manage loadouts	Manage Equipment Sets
+150	Strings.example.xml	EquipmentLoadoutSystem choice to create a new equipment set	Create new Equipment Set
+151	Strings.example.xml	EquipmentLoadoutSystem create a new loadout create	Create a new loadout set
+152	Strings.example.xml	EquipmentLoadoutSystem header	{{P|Manage Equipment Sets}}
+153	Strings.example.xml	EquipmentLoadoutSystem LoadoutPart missing equipment	{{R|MISSING =equipmentName=}}
+154	Strings.example.xml	EquipmentLoadoutSystem pick a loadout to activate	Switch to which equipment set
+155	Strings.example.xml	EquipmentLoadoutSystem LoadoutPart unintentionally empty	{{W|=bodypart.cardinal=: Empty}}
+156	Strings.example.xml	EquipmentLoadoutSystem equipment choice for body part is explicitly not to have any equipment	{{K|=bodypart.cardinal=: Empty}}
+157	Strings.example.xml	EquipmentLoadoutSystem UpdateLoadout Popup enter name for loadout	Enter a name for your equipment set:
+158	Strings.example.xml	EquipmentLoadoutSystem LoadoutPart intentionally empty	{{G|=bodypart.cardinal=: {{y|Empty}}}}
+159	Strings.example.xml	EquipmentLoadoutSystem loadout name and description	{{=color=|=name=}} - (=listequipment=)
+160	Strings.example.xml	EquipmentLoadoutSystem EditLoadout slot selection line	=selected.checkbox.color= =choiceforpart=
+161	Strings.example.xml	EquipmentLoadoutSystem LoadoutPart has incorrect equipment	{{W|=bodypart.cardinal=: =equipmentName=}}
+162	Strings.example.xml	EquipmentLoadoutSystem edit loadout intro	Currently saved =number= parts\n=listofparts=
+163	Strings.example.xml	EquipmentLoadoutSystem LoadoutPart has correct equipment	{{G|=bodypart.cardinal=: {{y|=equipmentName=}}}}
+164	Strings.example.xml	EquipmentLoadoutSystem equipment choice for body part	=bodypart.cardinal=: =equipped.shortsingle|strip=
+165	Strings.example.xml	EquipmentLoadoutSystem EquipLoadout Message missing body part	{{R|[Equipment Set] Missing Body Part: {{y|=partName=}}}}
+166	Strings.example.xml	EquipmentLoadoutSystem UpdateLoadout Message created new loadout	{{c|==== Created new equipment set: {{C|=loadoutname=}} ====}}
+167	Strings.example.xml	EquipmentLoadoutSystem UpdateLoadout Message updated loadout - feel free to localize w/o the possessive	{{c|==== Updated your {{C|=loadoutname=}} equipment set ====}}
+168	Strings.example.xml	EquipmentLoadoutSystem TooConfused	You are too confused to remember what was what among your equipment.
+169	Strings.example.xml	EquipmentLoadoutSystem EquipLoadout Message switch to specific loadout	{{c|==== You switch to your {{C|=loadoutname=}} equipment set. ====}}
+170	Strings.example.xml	EquipmentLoadoutSystem EquipLoadout Message missing equipment for bodypart	{{R|[Equipment Set] Missing Equipment for {{W|=bodypart.cardinal=}}}}
+171	Strings.example.xml	EquipmentLoadoutSystem edit loadout - header	Edit Equipment Set: pick which body parts to equip when this set is chosen.
+172	Strings.example.xml	ErosTeleportation Shout	I'm coming, =partyLeader.basename=!
+173	Strings.example.xml	ErosTeleportation Shout MessageLog	=subject.Basename|strip= =subject.verb:yell=, {{W|'=shoutMessage='}}
+174	Strings.example.xml	EskhindSonnetBook Verse 4 Line 1	=g1=
+175	Strings.example.xml	EskhindSonnetBook Verse 4 Line 2	=g2=
+176	Strings.example.xml	EskhindSonnetBook Verse 1 Line 2	and =b1=
+177	Strings.example.xml	EskhindSonnetBook Verse 1 Line 4	and =b2=
+178	Strings.example.xml	EskhindSonnetBook Verse 1 Line 1	When =a1=
+179	Strings.example.xml	EskhindSonnetBook Verse 1 Line 3	When =a2=
+180	Strings.example.xml	EskhindSonnetBook Verse 2 Line 3	So as =c2=
+181	Strings.example.xml	EskhindSonnetBook Verse 2 Line 2	and so =d1=
+182	Strings.example.xml	EskhindSonnetBook Verse 2 Line 1	But then =c1=
+183	Strings.example.xml	EskhindSonnetBook Verse 2 Line 4	That's when =d2=
+184	Strings.example.xml	EskhindSonnetBook Verse 3 Line 2	Our parents will not =f1=
+185	Strings.example.xml	EskhindSonnetBook Verse 3 Line 3	What do we gain from =e2=
+186	Strings.example.xml	EskhindSonnetBook Verse 3 Line 1	What need have we for =e1=
+187	Strings.example.xml	EskhindSonnetBook Verse 3 Line 4	Our village shall not =f2=
+188	Strings.example.xml	EvilTwin Name Modifier	Evil
+189	Strings.example.xml	EvilTwin Evil DisplayName	=modifier|spaceAfter==subject.displayNameOnlyDirect=
+190	Strings.example.xml	Examiner Partial Success snapshotDoesSeem	=item.It.does:seem=
+191	Strings.example.xml	Examiner Identify Snapshot Name	=item.the.name:single=
+192	Strings.example.xml	Examiner FakeConfusionFailure	You think you broke =object.them=...
+193	Strings.example.xml	Examiner CriticalFail	You think you broke =object.them=...
+194	Strings.example.xml	Examiner ResultSuccess	You now understand =object.the.name:long=.
+195	Strings.example.xml	Examiner Failure	You are puzzled by =object.the.name:long=.
+196	Strings.example.xml	Examiner CriticalFail puzzled	You are puzzled by =object.the.name:long=.
+197	Strings.example.xml	Examiner ResultPartialSuccess Snapshot Match	You make some progress understanding =snapshot=.
+198	Strings.example.xml	Examiner Identify Message	You identify =snapshot= as =object.a.name:single=.
+199	Strings.example.xml	Examiner ResultExceptionalSuccess	You discover something about =snapshot= that was hidden!
+200	Strings.example.xml	Examiner already broken	Whatever =object.they= =object.is=, =object.it.is= broken...

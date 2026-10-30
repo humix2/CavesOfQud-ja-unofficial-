@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	Examiner Identify Message - Snapshot Matched	You commit the distinguishing characteristics of =snapshot= to memory.
+2	Strings.example.xml	Exhausted Effect Apply Particle Text	*exhausted*
+3	Strings.example.xml	Exhausted Effect StateDescription	{{K|exhausted}}
+4	Strings.example.xml	Exhausted Effect Apply Player Message	You are {{K|exhausted}}!
+5	Strings.example.xml	Exhausted Effect Conversation	=subject.Does:stare= at you dully.
+6	Strings.example.xml	ExistenceSupport - Unsupported message log	=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=.
+7	Strings.example.xml	ExplodeAfterTurns Message Log	=subject.Does:explode=!
+8	Strings.example.xml	ExplodeOnHit Message Log	=subject.Does:explode=!
+9	Strings.example.xml	Eyeless King Crab Naming.xml Context	Lord
+10	Strings.example.xml	Eyeless King Crab Naming.xml Context	massive
+11	Strings.example.xml	Eyeless King Crab Naming.xml Context	echoing
+12	Strings.example.xml	Eyeless King Crab Naming.xml Context	Ancient
+13	Strings.example.xml	Eyeless King Crab Naming.xml Context	Goliath
+14	Strings.example.xml	Eyeless King Crab Naming.xml Context	frenetic
+15	Strings.example.xml	Eyeless King Crab Naming.xml Context	Skuttler
+16	Strings.example.xml	Eyeless King Crab Naming.xml Context	Patriarch
+17	Strings.example.xml	Eyeless King Crab Naming.xml Context	one-clawed
+18	Strings.example.xml	Eyeless King Crab Naming.xml Context	many-legged
+19	Strings.example.xml	Eyeless King Crab Naming.xml Context	Deepcrawler
+20	Strings.example.xml	Eyeless King Crab Naming.xml Context	shell-cracked
+21	Strings.example.xml	FabricateFromSelf Default FabricateVerb	fabricate
+22	Strings.example.xml	FabricateFromSelf Default FabricateSource (short)	=subject.their= body
+23	Strings.example.xml	FabricateFromSelf Default FabricateSource	the substance of =subject.their= body
+24	Strings.example.xml	FabricateFromSelf TakeDamage Message (TODO:TakeDamage rewrite)	from using =sourceShort= as raw materials.
+25	Strings.example.xml	FabricateFromSelf Ability DisplayName	Fabricate =sample.name:asIfKnown:short|pluralize=
+26	Strings.example.xml	FabricateFromSelf MessageLog	=subject.Does#fabricateVerb= =number.a.or.cardinal.names#sample= from =source=.
+27	Strings.example.xml	Faction Heirloom Article	the
+28	Strings.example.xml	Faction GetFormattedName *	everyone
+29	Strings.example.xml	Faction Secret Description (extras)	=fragments.join: =
+30	Strings.example.xml	Faction Secret Description (pre-extra)	=fragments.join:\n\n=
+31	Strings.example.xml	Faction Worshippable Name	=subject.worshippedAs=
+32	Strings.example.xml	Faction Secret Description (fragment)	the =sultanTerm= they worship
+33	Strings.example.xml	Faction Gossip Two Faction	=spice:gossip.twoFaction.!random=
+34	Strings.example.xml	Faction FormattedName	=withArticle.if:the ==displayName=
+35	Strings.example.xml	Faction Feeling Description	=feelingText=\n\n=fragments.join: =
+36	Strings.example.xml	Faction Heirloom Name	=spice:history.relics.names.!random=
+37	Strings.example.xml	Faction Memorial Name	=subject.refname:Memorial:long|strip=
+38	Strings.example.xml	Faction Gossip Second Faction (fragment)	=spice:commonPhrases.someone.!random=
+39	Strings.example.xml	Faction Gossip Second Faction (fragment)	some =spice:commonPhrases.group.!random=
+40	Strings.example.xml	Faction Secret Description (fragment)	=sultanTerm|plural= they admire or despise
+41	Strings.example.xml	Faction Delegate faction.the.name#color	=withArticle.if:the= =displayName|color#color=
+42	Strings.example.xml	Faction Secret Description (fragment)	=faction.FormattedName|rules= =interestsBlurb=.
+43	Strings.example.xml	Faction Rank Text	You hold the =faction.rankTerm= of =rank= among them.
+44	Strings.example.xml	Faction Pet Text	{{C|=faction.formattedName|capitalize=}} will usually let you pet them.
+45	Strings.example.xml	Faction Pet Text	{{C|=faction.formattedName|capitalize=}} won't usually let you pet them.
+46	Strings.example.xml	FactionDeed Pick Faction Option	=faction.name=
+47	Strings.example.xml	FactionDeed Description Tag	[=faction.name= chapter]
+48	Strings.example.xml	FactionInterest	cooking recipes
+49	Strings.example.xml	FactionInterest	the darkling star
+50	Strings.example.xml	FactionInterest	all weep locations
+51	Strings.example.xml	FactionInterest	the locations of ruins
+52	Strings.example.xml	FactionInterest	locations in the jungle
+53	Strings.example.xml	FactionInterest	all underground locations
+54	Strings.example.xml	FactionInterest	the locations of oddities
+55	Strings.example.xml	FactionInterest	locations in the mountains
+56	Strings.example.xml	FactionInterest	the locations of merchants
+57	Strings.example.xml	FactionInterest	the locations of rust bogs
+58	Strings.example.xml	FactionInterest	the locations of cat lairs
+59	Strings.example.xml	FactionInterest	the locations of ape lairs
+60	Strings.example.xml	FactionInterest	the locations of pig farms
+61	Strings.example.xml	FactionInterest	locations in the salt dunes
+62	Strings.example.xml	FactionInterest	locations in the salt marsh
+63	Strings.example.xml	FactionInterest	locations in the Moon Stair
+64	Strings.example.xml	FactionInterest	the locations of slime bogs
+65	Strings.example.xml	FactionInterest	the location of Stopsvalinn
+66	Strings.example.xml	FactionInterest	the locations of bird lairs
+67	Strings.example.xml	FactionInterest	the locations of fish lairs
+68	Strings.example.xml	FactionInterest	the locations of frog lairs
+69	Strings.example.xml	FactionInterest	locations around Lake Hinnom
+70	Strings.example.xml	FactionInterest	the locations of Girsh lairs
+71	Strings.example.xml	FactionInterest	the locations of robot lairs
+72	Strings.example.xml	FactionInterest	the locations of their forts
+73	Strings.example.xml	FactionInterest	the locations of apple farms
+74	Strings.example.xml	FactionInterest	locations in the banana grove
+75	Strings.example.xml	FactionInterest	gossip that's about =faction=
+76	Strings.example.xml	FactionInterest	the locations of insect lairs
+77	Strings.example.xml	FactionInterest	the locations of baboon lairs
+78	Strings.example.xml	FactionInterest	the locations of flower lairs
+79	Strings.example.xml	FactionInterest	locations in the flower fields
+80	Strings.example.xml	FactionInterest	the locations of storied items
+81	Strings.example.xml	FactionInterest	the location of girsh nephilim
+82	Strings.example.xml	FactionInterest	the locations of snapjaw forts
+83	Strings.example.xml	FactionInterest	the locations of becoming nooks
+84	Strings.example.xml	FactionInterest	locations in the desert canyons
+85	Strings.example.xml	FactionInterest	the locations of fungus forests
+86	Strings.example.xml	FactionInterest	locations in the Palladium Reef
+87	Strings.example.xml	FactionInterest	the locations of historic sites
+88	Strings.example.xml	FactionInterest	the location of ichor merchants
+89	Strings.example.xml	FactionInterest	the locations of humanoid lairs
+90	Strings.example.xml	FactionInterest	the locations of all settlements
+91	Strings.example.xml	FactionInterest	the locations of other merchants
+92	Strings.example.xml	FactionInterest	locations along mountain streams
+93	Strings.example.xml	FactionInterest	the locations of other ape lairs
+94	Strings.example.xml	FactionInterest	the locations of dromad merchants
+95	Strings.example.xml	FactionInterest	the locations of other baboon lairs
+96	Strings.example.xml	FactionInterest	the locations of humanoid merchants
+97	Strings.example.xml	FactionInterest	the locations of winged mammal lairs
+98	Strings.example.xml	FactionInterest	the locations of Consortium merchants
+99	Strings.example.xml	FactionInterest	the locations of humanoid settlements
+100	Strings.example.xml	FactionInterest	the locations of goatfolk settlements
+101	Strings.example.xml	FactionInterest	the locations of other dromad merchants
+102	Strings.example.xml	FactionInterest	the locations of Putus Templar enclaves
+103	Strings.example.xml	FactionInterest	the locations of =liquid.name|strip= weeps
+104	Strings.example.xml	FactionInterest	gossip that's about =faction.formattedName=
+105	Strings.example.xml	FactionInterest (should never be used except mods, and tagList is untranslated)	the locations of =@tagList.join: |pluralize=
+106	Strings.example.xml	FactionInterest (should never be used except mods, and river is untranslated)	locations along the River =@river|capitalize=
+107	Strings.example.xml	FactionInterest	the location of the ancestral bracelet Kindrish
+108	Strings.example.xml	FactionInterest (should never be used except mods, and tagList is untranslated)	the locations of other =@tagList.join: |pluralize=
+109	Strings.example.xml	FactionInterest (should never be used except mods, and river is untranslated)	locations in the River =@river|capitalize='s duskwaters
+110	Strings.example.xml	FactionInterest	the locations of =subject.name|plural|possessive= =subject.lair|plural=
+111	Strings.example.xml	FactionsLine reputation	Reputation: =reputation=
+112	Strings.example.xml	FactionsLine expander	=expand.expanded|color:C=
+113	Strings.example.xml	FactionsLine middle box text	=rank|spaceAfter==pet|spaceAfter==holy=
+114	Strings.example.xml	Fan Blown Away	=subject.Does:are= blown back by =object.the.name=.
+115	Strings.example.xml	Fan Blown Away Most	=subject.Does:are= blown into the air by =object.the.name=!
+116	Strings.example.xml	Fan Resistance Message	=subject.Does:resist= being blown back by =object.the.name=.
+117	Strings.example.xml	Fan Blown Away More	=subject.Does:are= blown forcefully back by =object.the.name=.
+118	Strings.example.xml	FindASiteDynamicQuestTemplate site name default	a site
+119	Strings.example.xml	FindASiteDynamicQuestTemplate Reject Choice	No, I will not.
+120	Strings.example.xml	FindASiteDynamicQuestTemplate Completion Accomplishment	You located =sitename=.
+121	Strings.example.xml	FindASiteDynamicQuestTemplate siteName	=journalNote.the.location.of=
+122	Strings.example.xml	FindASiteDynamicQuestTemplate quest name	=targetLocation.text|strip|title=
+123	Strings.example.xml	FindASiteDynamicQuestTemplate located choice	I've located =targetLocation.text|colorSafe=.
+124	Strings.example.xml	FindASiteDynamicQuestTemplate return step name	Return to =quest.originZone|titleCaseWithArticle=
+125	Strings.example.xml	FindASiteDynamicQuestTemplate quest name	Find =targetLocation.text|strip|titleCaseWithArticle=
+126	Strings.example.xml	FindASiteDynamicQuestTemplate located choice	I haven't located =targetLocation.text|colorSafe= yet.
+127	Strings.example.xml	FindASiteDynamicQuestTemplate quest intro dialog	ERROR: Failed to generate quest text, unknown story type
+128	Strings.example.xml	FindASiteDynamicQuestTemplate sequence break choice	I already know where =targetLocation.text|colorSafe= is.
+129	Strings.example.xml	FindASiteDynamicQuestTemplate Accept Choice	Yes. I will locate =targetLocation.text|colorSafe= as you ask.
+130	Strings.example.xml	FindASiteDynamicQuestTemplate return step text	Return to =quest.originZone= and speak to =giver.displayNameOnlyDirect|strip=.
+131	Strings.example.xml	FindASpecificItemDynamicQuestTemplate reject choice	No, I will not.
+132	Strings.example.xml	FindASpecificItemDynamicQuestTemplate found choice	I've found =item.the.name=.
+133	Strings.example.xml	FindASpecificItemDynamicQuestTemplate found choice	I don't have =item.the.name= yet.
+134	Strings.example.xml	FindASpecificItemDynamicQuestTemplate quest name sacred item	The =sanctityOfSacredThing|title=
+135	Strings.example.xml	FindASpecificItemDynamicQuestTemplate accept choice	Yes. I will find =item.the.name= as you ask.
+136	Strings.example.xml	FindASpecificItemDynamicQuestTemplate quest name sacred item	=item.the.name:includeAdjunctNoun|strip|title=
+137	Strings.example.xml	FindASpecificItemDynamicQuestTemplate quest name personal favor	=item.the.name:includeAdjunctNoun|strip|title=
+138	Strings.example.xml	FindASpecificItemDynamicQuestTemplate quest name default	=item.the.name:includeAdjunctNoun|strip|title=
+139	Strings.example.xml	FindASpecificItemDynamicQuestTemplate Accomplishment	You recovered =item.refname:withDefiniteArticle=.
+140	Strings.example.xml	FindASpecificItemDynamicQuestTemplate sanctityOfSacredThing	=spice:commonPhrases.sanctity.!random= of =quest.sacredThing=
+141	Strings.example.xml	FindASpecificItemDynamicQuestTemplate locate step name	Find =item.the.name:includeAdjunctNoun|strip|titleCaseWithArticle=
+142	Strings.example.xml	FindASpecificItemDynamicQuestTemplate locate step text	Locate =item.the.name:includeAdjunctNoun|strip= at =deliveryTarget=.
+143	Strings.example.xml	Firefighting On Self	=subject.Does:beat= at the flames with =subject.its= =hands.name=!
+144	Strings.example.xml	Flagging Effect Take Action Player Message	You're going to collapse from exhaustion in =duration.things:round=.
+145	Strings.example.xml	Flaming Ray Missing Limb Message	Missing =part.name=
+146	Strings.example.xml	FlamingRay Chargen Variant	=mutation.name= (=bodyPartType=)
+147	Strings.example.xml	FlamingRay emit no part	=subject.Does:emit= a flaming ray!
+148	Strings.example.xml	FlamingRay emit	=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!
+149	Strings.example.xml	FlashbangGrenade explode message log	=subject.Does:explode= with a flash!
+150	Strings.example.xml	Flying Effect DisplayName Tag	[{{B|flying}}]
+151	Strings.example.xml	FollowersGetTeleport TeleportEffect DisplayName	{{C|spurred to teleport}}
+152	Strings.example.xml	FollowersGetTeleport GetDetails MutationWasAdded	Can use =mutation= at level =tier=.
+153	Strings.example.xml	FollowersGetTeleport GetDetails MutationImproved	=tier.signed= =tier.pluralize:level= to =mutation=.
+154	Strings.example.xml	ForceBubble Off MessageLog	The {{B|force bubble}} around =subject.the.name= snaps off.
+155	Strings.example.xml	ForceBubble On MessageLog	A {{B|force bubble}} pops into being around =subject.the.name=.
+156	Strings.example.xml	ForceEmitter AbilityName Activate Fallback	Activate Force Emitter
+157	Strings.example.xml	ForceEmitter AbilityName Deactivate Fallback	Deactivate Force Emitter
+158	Strings.example.xml	ForceEmitter Deactivate Suspended	=subject.Does:vibrate= slightly.
+159	Strings.example.xml	ForceEmitter AbilityName Activate	Activate =object.basename|strip|title=
+160	Strings.example.xml	ForceEmitter AbilityName Deactivate	Deactivate =object.basename|strip|title=
+161	Strings.example.xml	ForceEmitter Deactivate NonPlayer	The {{B|force bubble}} around =object.the.name= snaps off.
+162	Strings.example.xml	ForceEmitter Activate Unpowered	=subject.Does:don't= have enough charge to sustain the field!
+163	Strings.example.xml	ForceEmitter Activate	A {{B|force bubble}} pops into being around =object.the.name=.
+164	Strings.example.xml	Forcefield CollapseUnderPressureOfNormality	=subject.Does:collapse= under the pressure of normality.
+165	Strings.example.xml	ForceWall On MessageLog	=subject.Does:conjure= a {{B|wall of force}}!
+166	Strings.example.xml	Freezing Ray Missing Limb Message	Missing =part.name=
+167	Strings.example.xml	FreezingRay Chargen Variant	=mutation.name= (=bodyPartType=)
+168	Strings.example.xml	FreezingRay emit no part	=subject.Does:emit= a freezing ray!
+169	Strings.example.xml	FreezingRay emit	=subject.Does:emit= a freezing ray from =subject.its= =part.ordinalName=!
+170	Strings.example.xml	Frenzied Effect Berserk Trigger	=subject.Does:enter= a berserk fury!
+171	Strings.example.xml	FungalCureQueasy Effect DisplayName	{{W|queasy}}
+172	Strings.example.xml	FungalCureQueasy Effect Apply Message	=subject.Does:feel|strip= a little queasy.
+173	Strings.example.xml	FungalCureQueasy Effect Remove Message	=subject.The.name's:withTitles= queasiness passes.
+174	Strings.example.xml	FungalFortitude AVBonus	=bonus.signed= AV per fungal infection
+175	Strings.example.xml	FungalFortitude AVBonus	=bonus.signed= to all resists per fungal infection
+176	Strings.example.xml	FungalInfection AppliedLiquid NotCurable	=subject.Does:are= immune to conventional treatments.
+177	Strings.example.xml	FungalInfection AppliedLiquid Not FungalCureQueasy itches (fail)	=subject.The.name's:withTitles= skin itches furiously.
+178	Strings.example.xml	FungalSporeInfection Effect Choose Limb Prompt	Choose a limb to infect with =fungus=.
+179	Strings.example.xml	FungalSporeInfection Effect Player Popup	You've contracted =object.name= on your =part.ordinalName=.
+180	Strings.example.xml	GameMain default death reason	You quit.
+181	Strings.example.xml	GameMain NoSavedGame	No saved game exists.
+182	Strings.example.xml	GameMain quest step error	Error finishing quest step 
+183	Strings.example.xml	GameManager - Restart status bar	Restarting application...
+184	Strings.example.xml	GameObject ConfirmUseImportant DefaultVerb	use
+185	Strings.example.xml	GameObject adjunct noun default	set
+186	Strings.example.xml	GameObject GetDescriptiveCategory - has MissileWeapon or ThrownWeapon	weapon
+187	Strings.example.xml	GameObject GetDescriptiveCategory - has MeleeWeapon and is not Improvised Weapon	weapon
+188	Strings.example.xml	GameObject GetDescriptiveCategory - cybernetic base item	implant
+189	Strings.example.xml	GameObject toString Invalid	Invalid
+190	Strings.example.xml	GameObject GetDescriptiveCategory - not understood	artifact
+191	Strings.example.xml	GameObject GetDescriptiveCategory - creature	creature
+192	Strings.example.xml	GameObject GetDescriptiveCategory - techscannable	artifact
+193	Strings.example.xml	GameObject GetDescriptiveCategory - bioscannable	organism
+194	Strings.example.xml	GameObject toString Player	The Player
+195	Strings.example.xml	GameObject Delegate AOrStack Multiple	=object.name=
+196	Strings.example.xml	GameObject Delegate AOrStack Single	=object.a.name:single=
+197	Strings.example.xml	GameObject.GetDisplayName Indicate hidden	hidden =name=
+198	Strings.example.xml	GameObject.GetDisplayName adjunct noun post	=name= =adjunctNoun=
+199	Strings.example.xml	GameObject.GetDisplayName adjunct noun pre	=adjunctNoun= of =name=
+200	Strings.example.xml	GameObject.GetDisplayName prepend article-like (indefinite)	=article|spaceAfter==name=

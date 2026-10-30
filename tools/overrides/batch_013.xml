@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="QudHistoryHelpers GetMaskName" ID="Nil Face">虚無の面</string>
+  <string Context="QudHistoryHelpers Sultanate Era (Before Resheph)" ID="=year= BR">=year= BR</string>
+  <string Context="QudHistoryHelpers GetMaskName" ID="Kesil Face">ケシルの面</string>
+  <string Context="QudHistoryHelpers GetMaskName" ID="Earth Face">大地の面</string>
+  <string Context="QudHistoryHelpers GetMaskName" ID="Olive Face">オリーブの面</string>
+  <string Context="QudHistoryHelpers ListAllCognomen single" ID=" =cognomen="> =cognomen=</string>
+  <string Context="QudHistoryHelpers GetMaskName" ID="Levant Face">レヴァントの面</string>
+  <string Context="QudHistoryHelpers default Cognomen" ID="the Untitled">無称の者</string>
+  <string Context="QudHistoryHelpers GetMaskName" ID="Shemesh Face">シェメシュの面</string>
+  <string Context="QudHistoryHelpers ListAllCognomen" ID=", =cognomen.commaList=,">、=cognomen.commaList=、</string>
+  <string Context="Quest UI QuestsLine Quest Giver Label" ID="Quest Giver:">依頼主:</string>
+  <string Context="Quest UI Questsline Title" ID="=expand.expanded= =name|strip=">=expand.expanded= =name|strip=</string>
+  <string Context="Quest UI Quest Cancel Line" ID=" =commandKeyConsole:Cancel= to exit "> =commandKeyConsole:Cancel=で閉じる</string>
+  <string Context="Quest UI QuestsLine Quest Giver Text" ID="=questGiverName= / =questGiverLocationName=">=questGiverName= / =questGiverLocationName=</string>
+  <string Context="Quest UI Quest Bonus Reward Line" ID="Bonus reward for completing this quest by level &amp;C=level=&amp;y.">レベル&amp;C=level=&amp;yまでにこのクエストを達成するとボーナス報酬がある。</string>
+  <string Context="Quests UI Map Pin Quest Label" ID="{{B|quest:}} =quest.name|strip=">{{B|クエスト:}} =quest.name|strip=</string>
+  <string Context="QuickenMind Not Operational Fail" ID="=subject.Does:are= dead still.">=subject.T=は完全に静止している。</string>
+  <string Context="QuickenMind Booting Fail" ID="=subject.Does:are= still attuning.">=subject.T=はまだ同調中だ。</string>
+  <string Context="QuickenMind NothingToDo Fail" ID="None of your abilities need refreshing.">回復が必要なアビリティはない。</string>
+  <string Context="QuickenMind AllCooldowns Success" ID="You are quickened with creative energy! All cooldowns are refreshed.">創造のエネルギーが満ちあふれた！ すべてのクールダウンが回復した。</string>
+  <string Context="Quills ObjectName" ID="=blueprint.name=">=blueprint.name=</string>
+  <string Context="Quills AbilityName" ID="=blueprint.tag:AbilityName:Quill Fling=">=blueprint.tag:AbilityName:Quill Fling=</string>
+  <string Context="Quills ObjectNameSingular" ID="=blueprint.tag:DisplayNameSingular:quill=">=blueprint.tag:DisplayNameSingular:quill=</string>
+  <string Context="Quills fling (while engulfed)" ID="=subject.Does:fling= =subject.its= =quillsName=!">=subject.T=は=quillsName=を放った！</string>
+  <string Context="Quills fling" ID="=subject.Does:fling= =subject.its= =quillsName= everywhere!">=subject.T=は=quillsName=を四方八方に放った！</string>
+  <string Context="Quills ActivatedAbility Name" ID="=abilityName= [=quillsAmount.things#quillsSingular#quillsName= left]">=abilityName= [残り=quillsAmount.things#quillsSingular#quillsName=]</string>
+  <string Context="Quills DefenderHit Quills Broke" ID="The attack breaks =quillsAmount.cardinal.things#quillsSingular#quillsName=!">攻撃で=quillsAmount.cardinal.things#quillsSingular#quillsName=が折れた！</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=list.andList=">=list.andList=</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=item.a.name:long=">=item.a.name:long=</string>
+  <string Context="RandomAltarBaetyl Bestowal Item Name Finalizer" ID="=name|title|ansify=">=name|title|ansify=</string>
+  <string Context="RandomAltarBaetyl Bestowal Item Name (creature/person)" ID="=spice:history.relics.names.!random=">=spice:history.relics.names.!random=</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=points= skill =points.pluralize:point=">スキルポイント=points=</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=points= mutation =points.pluralize:point=">突然変異ポイント=points=</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=points= attribute =points.pluralize:point=">能力値ポイント=points=</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=points= experience =points.pluralize:point=">経験値=points=</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=points= reputation with =faction.factionName=">=faction.factionName=の評判=points=</string>
+  <string Context="RandomAltarBaetyl Object Demand (only 1)" ID="=object.countable.name:onlyDirect:stripped|article=">=object.countable.name:onlyDirect:stripped|article=</string>
+  <string Context="RandomAltarBaetyl Mod Demand Prefix Name" ID="=number.cardinal= =mod.name= =number.pluralize:item=">=mod.name=のアイテム=number.cardinal=個</string>
+  <string Context="RandomAltarBaetyl Mod Demand Suffix Name" ID="=number.cardinal= =number.pluralize:item= =mod.name=">=mod.name=のアイテム=number.cardinal=個</string>
+  <string Context="RandomAltarBaetyl Reward List" ID="=points= cybernetics license =points.pluralize:point=">サイバネティクスライセンスポイント=points=</string>
+  <string Context="RandomAltarBaetyl Journal Entry" ID="A baetyl demanding &quot;=demand=&quot; and promising &quot;=reward=&quot;.">「=demand=」を要求し「=reward=」を約束するベテル。</string>
+  <string Context="RandomAltarBaetyl Offer Message" ID="Offer =subject.the.name= =inventory.andList:asPossessed=?">=inventory.andList:asPossessed=を=subject.the.name=に捧げますか？</string>
+  <string Context="RandomAltarBaetyl Offer Message" ID="Offer =subject.the.name= =nearby.andList:definiteArticles= nearby?">近くの=nearby.andList:definiteArticles=を=subject.the.name=に捧げますか？</string>
+  <string Context="RandomAltarBaetyl" ID="I ACCEPT YOUR OFFERING!&#10;&#10;The sparking baetyl gives you =reward=!">汝の捧げ物を受け取ろう！
+
+火花散るベテルは=reward=を授けた！</string>
+  <string Context="RandomAltarBaetyl Object Demand (more than 1)" ID="=number.cardinal= =object.countable.name:onlyDirect:stripped:plural=">=object.countable.name:onlyDirect:stripped:plural==number.cardinal=個</string>
+  <string Context="RandomAltarBaetyl Journal Accomplishment" ID="You appeased a baetyl with =demand= and in return received =reward=.">=demand=でベテルを鎮め、見返りに=reward=を受け取った。</string>
+  <string Context="RandomAltarBaetyl Offer Message" ID="Offer =subject.the.name= =needed= out of =inventory.andList:asPossessed=?">=inventory.andList:asPossessed=のうち=needed=を=subject.the.name=に捧げますか？</string>
+  <string Context="RandomFigurine Material DisplayName" ID="topaz">トパーズ</string>
+  <string Context="RandomlyMutation gain mutation spentPointsReport fragment" ID="You gain =mutation.name=!">=mutation.name=を得た！</string>
+  <string Context="RandomRuinRecoiler Location-Based Name Fragment" ID="=zoneID.recoiler.name=">=zoneID.recoiler.name=</string>
+  <string Context="RandomRuinRecoiler GetDisplayName" ID="=locationNameCache= recoiler">=locationNameCache=のリコイラー</string>
+  <string Context="RealityStabilized FailedToContest Third Person" ID="=subject.Does:wince=.">=subject.T=は顔をしかめた。</string>
+  <string Context="RealityStabilized Interdict Message, one region, no purpose" ID="You cannot alter spacetime through the normality lattice in the local region.">この地域では正常性格子を通して時空を変えることができない。</string>
+  <string Context="Rebekahs tombstone name" ID="Rebekah">レベッカ</string>
+  <string Context="Rebekahs tombstone finalize" ID="=engraving|tombstoneRebekah=">=engraving|tombstoneRebekah=</string>
+  <string Context="RebornOnDeathInThinWorld Message Log" ID="=subject.Does:continue= being.">=subject.T=は存在し続けている。</string>
+  <string Context="Rebuke Robot Target Title" ID="Rebuke what robot?">どのロボットを叱責する？</string>
+  <string Context="Rebuke Removed" ID="=subject.Does:wander= away disinterestedly.">=subject.T=は興味をなくしてふらふらと去っていった。</string>
+  <string Context="Rebuke Robot neutralize" ID="=subject.Does:wander= away disinterestedly.">=subject.T=は興味をなくしてふらふらと去っていった。</string>
+  <string Context="Rebuked Applied" ID="=subject.Does:rebuke= =object.the.name= into submission.">=subject.T=は=object.the.name=を叱責して服従させた。</string>
+  <string Context="Rebuked Dismiss" ID="=subject.Does:dismiss= =object.the.name= from =subject.its= service.">=subject.T=は=object.the.name=を任から解いた。</string>
+  <string Context="Recipe UI Name" ID="=recipe.name=">=recipe.name=</string>
+  <string Context="Recipe UI Name Favorite" ID="=glyph:FavHeart= =recipe.name=">=glyph:FavHeart= =recipe.name=</string>
+  <string Context="Reclamation Quest, failed attempt rename" ID="=questName=, attempt #=number=">=questName=、第=number=回の挑戦</string>
+  <string Context="RecoilOnDeath Activation Message" ID="=subject.Does:dematerialize= out of the local region of spacetime.">=subject.T=はこの領域の時空から非物質化した。</string>
+  <string Context="RecomingPlaque Inscribed" ID="=text|recomingPlaque=">=text|recomingPlaque=</string>
+  <string Context="RecomingPlaque Text" ID="&quot;Unwrap thyself of thy grave clothes, and go.&quot;">「死装束を解き、行け。」</string>
+  <string Context="Redeem Code" ID="Redeeming code...">コードを引き換え中…</string>
+  <string Context="Redeem Code" ID="Installing pet...">ペットをインストール中…</string>
+  <string Context="Redeem Code" ID="Downloading pet...">ペットをダウンロード中…</string>
+  <string Context="Redeem Code" ID="Reloading configuration...">設定を再読み込み中…</string>
+  <string Context="Redeem Code" ID="The pet finished downloading!">ペットのダウンロードが完了した！</string>
+  <string Context="Redeem Code - Error" ID="Error downloading pet: =exception=">ペットのダウンロードエラー: =exception=</string>
+  <string Context="ReduceCooldowns RulesPostfix PercentagePenalty All" ID="Causes =min.range#max=% increase in the cooldowns of activated abilities.">アクティブアビリティのクールダウンが=min.range#max=%増加する。</string>
+  <string Context="ReduceCooldowns RulesPostfix PercentageReduction All" ID="Provides =min.range#max=% reduction in the cooldowns of activated abilities.">アクティブアビリティのクールダウンが=min.range#max=%短縮される。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix PercentageIncrease All" ID="Causes =min.range#max=% increase in action costs.">行動コストが=min.range#max=%増加する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix PercentageReduction All" ID="Provides =min.range#max=% reduction in action costs.">行動コストが=min.range#max=%減少する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix PercentageIncrease ExplicitScope" ID="Causes =min.range#max=% increase =scopedescription=.">=scopedescription=が=min.range#max=%増加する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix PercentageReduction ExplicitScope" ID="Provides =min.range#max=% reduction =scopedescription=.">=scopedescription=が=min.range#max=%減少する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix PercentageRandom All" ID="Confers =min.range#max=% reduction/increase in action costs.">行動コストが=min.range#max=%増減する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix Powered PercentageIncrease All" ID="When powered, causes =min.range#max=% increase in action costs.">給電時、行動コストが=min.range#max=%増加する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix PercentageRandom ExplicitScope" ID="Confers =min.range#max=% reduction/increase =scopedescription=.">=scopedescription=が=min.range#max=%増減する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix Powered PercentageReduction All" ID="When powered, provides =min.range#max=% reduction in action costs.">給電時、行動コストが=min.range#max=%減少する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix Powered PercentageIncrease ExplicitScope" ID="When powered, causes =min.range#max=% increase =scopedescription=.">給電時、=scopedescription=が=min.range#max=%増加する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix Powered PercentageReduction ExplicitScope" ID="When powered, provides =min.range#max=% reduction =scopedescription=.">給電時、=scopedescription=が=min.range#max=%減少する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix Powered PercentageRandom All" ID="When powered, confers =min.range#max=% reduction/increase in action costs.">給電時、行動コストが=min.range#max=%増減する。</string>
+  <string Context="ReduceEnergyCosts RulesPostfix Powered PercentageRandom ExplicitScope" ID="When powered, confers =min.range#max=% reduction/increase =scopedescription=.">給電時、=scopedescription=が=min.range#max=%増減する。</string>
+  <string Context="ReflectDamage Message Log" ID="=subject.Does:reflect= =amount= damage back at =object.the.name=.">=subject.T=は=object.the.name=に=amount=ダメージを反射した。</string>
+  <string Context="ReflectProjectiles Check activates" ID="=subject.Does:activate= =subject.its= reflective shield.">=subject.T=は反射シールドを起動した。</string>
+  <string Context="ReflectProjectiles Check deactivated" ID="=subject.Does:have= =subject.its= reflective shield deactivated.">=subject.T=の反射シールドが停止した。</string>
+  <string Context="RegenMedication Default Message" ID="The tube hisses against your skin, and a hot tingling infuses your whole body.">チューブが肌に当たってシュッと鳴り、熱いうずきが全身に染みわたった。</string>
+  <string Context="Region Discovery Popup" ID="You discover the location of =region=.">=region=の場所を発見した。</string>
+  <string Context="Region Discovery Accomplishment" ID="You discovered the location of =region=.">=region=の場所を発見した。</string>
+  <string Context="Rejoinder Particle Text" ID="*rejoinder*">*反撃*</string>
+  <string Context="Rejoinder Message" ID="=subject.Does:rejoinder:withTitles= with =subject.poss#object=.">=subject.T=は=subject.poss#object=で反撃した。</string>
+  <string Context="RelicGenerator personNounPossessive" ID="=spice:personNouns.!random|possessive=">=spice:personNouns.!random|possessive=</string>
+  <string Context="RelicGenerator Name" ID="=spice:history.relics.names.!random|title=">=spice:history.relics.names.!random|title=</string>
+  <string Context="RelicGenerator Element Bestowal" ID=" =subject.It.is= =spice:instancesOf.stamped_VAR.!random=."> =subject.It.is= =spice:instancesOf.stamped_VAR.!random=.</string>
+  <string Context="Remove body part from current equipment set" ID="Remove body part from current equipment set">現在の装備セットから部位を外す</string>
+  <string Context="Repair Success" ID="You repair =object.the.name:single=.">=object.the.name:single=を修理した。</string>
+  <string Context="Repair CriticalFailure Broke" ID="You think you broke =object.them=...">=object.them=を壊してしまった気がする…</string>
+  <string Context="Repair ExceptionalSuccess" ID="You receive tinkering bits &lt;=bittype.bits=&gt;">ティンカリング用のビット&lt;=bittype.bits=&gt;を手に入れた</string>
+  <string Context="Repair CriticalFailure Destroy" ID="=subject.Doesly:accidentally:destroy= =object.the.name=!">=subject.T=はうっかり=object.the.name=を壊してしまった！</string>
+  <string Context="Repair Failure" ID="You can't figure out how to fix =object.the.name:single=.">=object.the.name:single=の直し方が分からない。</string>
+  <string Context="Repair Success" ID="You make some progress repairing =object.the.name:single=.">=object.the.name:single=の修理が少し進んだ。</string>
+  <string Context="Repair IncompatibleFlyingState" ID="You cannot reach =object.the.name= to repair =object.them=.">=object.the.name=に手が届かず修理できない。</string>
+  <string Context="Repair OutofPhase" ID="You are out of phase with =object.the.name= and cannot repair =object.them=.">=object.the.name=と位相がずれていて修理できない。</string>
+  <string Context="Replacer =mound.complete.days= less than a day" ID="soon">まもなく</string>
+  <string Context="Replacer =number.bytes= kilobytes" ID="=kb:0= KB">=kb:0= KB</string>
+  <string Context="Replacer =number.bytes= bytes" ID="=num= bytes">=num= バイト</string>
+  <string Context="Replacer =number.bytes= megabytes" ID="=mb:0.00= MB">=mb:0.00= MB</string>
+  <string Context="Replacer WithCognomen" ID=", =cognomen=">、=cognomen=</string>
+  <string Context="Replacer =ActivatedAbilityEntry.cooldown.rounds=" ID="=cooldown.things:round=">=cooldown.things:round=</string>
+  <string Context="Replacer =mound.complete.days=" ID="=days.cardinal= =days.pluralize:day=">=days.cardinal=日</string>
+  <string Context="Replacer =GameObject.skin.of.name= Not Proper Name" ID="=subject.refname= =subject.fragment:Skin:skin=">=subject.refname=の=subject.fragment:Skin:skin=</string>
+  <string Context="Replacer =GameObject.thisCreature= - Other" ID="=subject.this= =subject.pluralize.word:creature=">=subject.this= =subject.pluralize.word:creature=</string>
+  <string Context="Replacer =GameObject.skin.of.name= Proper Name" ID="=subject.fragment:Skin:skin= of =subject.refname=">=subject.refname=の=subject.fragment:Skin:skin=</string>
+  <string Context="Replacer =GameObject.bone.of.name= Not Proper Name" ID="=subject.refname= =subject.semantic:HardMaterial:bone=">=subject.refname=の=subject.semantic:HardMaterial:bone=</string>
+  <string Context="Replacer =GameObject.bone.of.name= Proper Name" ID="=subject.semantic:HardMaterial:bone= of =subject.refname=">=subject.refname=の=subject.semantic:HardMaterial:bone=</string>
+  <string Context="Replacer =GameObject.this.category=" ID="=subject.this= =subject.descriptiveCategory:matchPlurality=">=subject.this= =subject.descriptiveCategory:matchPlurality=</string>
+  <string Context="Rermadon Lair Maker - CradleDisplayName" ID="The cradle of Rermadon">レルマドンの揺籃</string>
+  <string Context="Resheph Cognomen" ID="the Above">天上の者</string>
+  <string Context="Resheph Cognomen" ID="Ghost-in-Cerulean">セルリアンの幽霊</string>
+  <string Context="Resheph Cognomen" ID="the Coiled Lamb of Baetyls">ベテルたちのとぐろ巻く子羊</string>
+  <string Context="RestoreOnDeath OtherRestored" ID="=subject.Does:shimmer= before your eyes!">=subject.T=が目の前でゆらめいた！</string>
+  <string Context="RestoreOnDeath PlayerRestored" ID="You uncannily avoid your demise, and your life is restored.">不気味にも死を免れ、命が回復した。</string>
+  <string Context="RestoreOnDeath, AppendEffect" ID="Respawns =amount.multiplicative:zeroEmpty= at =health=% health">HP=health=%で復活する（=amount.multiplicative:zeroEmpty=）</string>
+  <string Context="Robot Mutation Term" ID="module">モジュール</string>
+  <string Context="Roboticized ObjectBuilder - Postfix Description default" ID="There is a low, persistent hum emanating outward.">低く絶え間ないうなりが外へと響いている。</string>
+  <string Context="RocketSkates GetRunningBehavior MessageName" ID="power skating">パワースケート</string>
+  <string Context="RocketSkates RulesPostfix 3 (Jump)" ID="Replaces Jump with Rocket Jump.">ジャンプがロケットジャンプに置き換わる。</string>
+  <string Context="RocketSkates EmitFlamePlume" ID="=subject.Does:emit= a {{fiery|plume of flame}}!">=subject.T=は{{fiery|炎の噴流}}を噴き出した！</string>
+  <string Context="RocketSkates GetRunningBehavior DisplayName" ID="{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|power skating}}">{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|パワースケート}}</string>
+  <string Context="RocketSkates RulesPostfix 1 (Sprint)" ID="Replaces Sprint with Power Skate (unlimited duration).">スプリントがパワースケート（時間無制限）に置き換わる。</string>
+  <string Context="RocketSkates RulesPostfix 2 (Fire)" ID="Emits plumes of fire when the wearer moves while power skating.">パワースケート中に移動すると炎を噴き出す。</string>
+  <string Context="Rules Strings WoundLevel no hp stat" ID="Undamaged">無傷</string>
+  <string Context="Rules Strings WoundLevel creature" ID="{{G|Fine}}">{{G|良好}}</string>
+  <string Context="Rules Strings WoundLevel nonorganic" ID="{{G|Fine}}">{{G|良好}}</string>
+  <string Context="Rules Strings WoundLevel creature" ID="{{R|Wounded}}">{{R|負傷}}</string>
+  <string Context="Rules Strings WoundLevel creature" ID="{{W|Injured}}">{{W|軽傷}}</string>
+  <string Context="Rules Strings WoundLevel creature" ID="{{Y|Perfect}}">{{Y|完全}}</string>
+  <string Context="Rules Strings WoundLevel nonorganic" ID="{{R|Damaged}}">{{R|損傷}}</string>
+  <string Context="Rules Strings WoundLevel nonorganic" ID="{{Y|Perfect}}">{{Y|完全}}</string>
+  <string Context="Rules Strings WoundLevel creature" ID="{{r|Badly Wounded}}">{{r|重傷}}</string>
+  <string Context="Rules Strings WoundLevel nonorganic" ID="{{r|Badly Damaged}}">{{r|大破}}</string>
+  <string Context="Rules Strings WoundLevel nonorganic" ID="{{W|Lightly Damaged}}">{{W|軽度の損傷}}</string>
+  <string Context="Run Indefinite Duration" ID="Indefinite duration.">持続時間無制限。</string>
+  <string Context="Run Reduced Hit" ID="-10 to hit in melee combat.">近接戦闘で命中 -10。</string>
+  <string Context="Run Reduced Accuracy" ID="Reduced accuracy with missile weapons.">射撃武器の命中精度が下がる。</string>
+  <string Context="Run Duration Left" ID="=duration= =duration.pluralize:round= left.">残り=duration=ラウンド。</string>
+  <string Context="Run Sling And Run Reduced Accuracy" ID="Reduced accuracy with missile weapons, except pistols.">拳銃以外の射撃武器の命中精度が下がる。</string>
+  <string Context="Run Skill Description Postfix (Pistol)" ID="&#10;Pistol accuracy penalty removed due to Sling and Run skill.">
+スリング＆ランのスキルにより拳銃の命中ペナルティがなくなる。</string>
+  <string Context="Run Bonus Description" ID="Moves at =multiplier=X the normal speed. (+=speedBonus= move speed)">通常の=multiplier=倍の速さで移動する。（移動速度 +=speedBonus=）</string>
+  <string Context="Rusty Biome - Creature Role" ID="{{r|qudzu}} symbiote">{{r|クッズ}}の共生体</string>
+  <string Context="SaveManagement Screen Title" ID="{{W|LOAD GAME}}">{{W|ゲームをロード}}</string>
+  <string Context="SaveManagementRow - Line 4" ID="{{K|=size= =gameID=}}">{{K|=size= =gameID=}}</string>
+  <string Context="SaveManagementRow - Line 2" ID="{{C|Location:}} =location=">{{C|場所:}} =location=</string>
+  <string Context="SaveManagementRow - Line 1" ID="=gameName= :: =description=">=gameName= :: =description=</string>
+  <string Context="SaveManagementRow - Line 3" ID="{{C|Last saved:}} =saveTime=">{{C|最終セーブ:}} =saveTime=</string>
+  <string Context="SaveManagment - Delete Game Popup Title" ID="{{R|Delete =gameName=}}">{{R|=gameName=を削除}}</string>
+  <string Context="SaveManagment - Delete Game Popup Message" ID="Are you sure you want to delete the save game for =gameName=?">=gameName=のセーブデータを本当に削除しますか？</string>
+  <string Context="Saving Throw Vs Gas" ID="gases">ガス</string>
+  <string Context="Saving Throw Vs Web" ID="webbing">蜘蛛の巣</string>
+  <string Context="Saving Throw Vs Slip" ID="slipping">滑り</string>
+  <string Context="Saving Throw Vs Taunt" ID="taunting">挑発</string>
+  <string Context="Saving Throw Vs Knockdown" ID="knockdown">転倒</string>
+  <string Context="Saving Throw Vs Axe" ID="Axe skills">斧スキル</string>
+  <string Context="Saving Throw Vs Disarm" ID="disarmament">武装解除</string>
+  <string Context="Saving Throw Vs Beam" ID="energy beams">エネルギー光線</string>
+  <string Context="Saving Throw Vs Gaze" ID="gaze effects">凝視効果</string>
+  <string Context="Saving Throw Vs Sleep" ID="forced sleep">強制睡眠</string>
+  <string Context="Saving Throw Vs Cudgel" ID="Cudgel skills">棍棒スキル</string>
+  <string Context="Saving Throw Vs Disease Onset" ID="disease onset">病気の発症</string>
+  <string Context="Saving Throw Vs Drag" ID="being dragged">引きずり</string>
+  <string Context="Saving Throw Vs Grab" ID="being grabbed">掴み</string>
+</strings>

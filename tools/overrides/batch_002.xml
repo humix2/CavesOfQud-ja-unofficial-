@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Artifact Detection Description" ID="You detect all unidentified artifacts on the local map.">ローカルマップ上の未鑑定のアーティファクトをすべて探知する。</string>
+  <string Context="Artifact Detection Description (limited)" ID="You detect unidentified artifacts within a radius of =radius=.">半径=radius=以内の未鑑定のアーティファクトを探知する。</string>
+  <string Context="AshPoison Effect StateDescription" ID="{{K|choked by ash}}">{{K|灰で窒息}}</string>
+  <string Context="AshPoison Effect Recuperating" ID="=subject.Does:are= no longer choking!">=subject.T=はもう咳き込んでいない！</string>
+  <string Context="Asleep Effect Remove Message Log" ID="=subject.Does:wake= up.">=subject.T=は目を覚ました。</string>
+  <string Context="Asleep Effect GetSleepMessage" ID="=subject.Does:snore= loudly.">=subject.T=は大きないびきをかいている。</string>
+  <string Context="Asleep Effect Remove SleepMode Message Log" ID="=subject.Does:exit= sleep mode.">=subject.T=はスリープモードを解除した。</string>
+  <string Context="Asleep Effect Apply Message Log" ID="=subject.Does:fall= {{C|asleep}}.">=subject.T=は{{C|眠りに落ちた}}。</string>
+  <string Context="Asleep Effect Woken Message Log" ID="=subject.Does:wake= up in a daze.">=subject.T=はぼんやりと目を覚ました。</string>
+  <string Context="Asleep Effect Apply SleepMode Message Log" ID="=subject.Does:enter= {{C|sleep mode}}.">=subject.T=は{{C|スリープモード}}に入った。</string>
+  <string Context="Asleep Effect GetSleepMessage Telepathy Common outcome" ID="=MARKOVSENTENCE|trim|subject.dreamspeak=">=MARKOVSENTENCE|trim|subject.dreamspeak=</string>
+  <string Context="Asleep Effect GetSleepMessage SleepMode" ID="=subject.Does:are= utterly unresponsive.">=subject.T=はまったく反応しない。</string>
+  <string Context="Asleep Effect GetSleepMessage Telepathy Rare outcome" ID="=MARKOVPARAGRAPH|trim|subject.dreamspeak=">=MARKOVPARAGRAPH|trim|subject.dreamspeak=</string>
+  <string Context="Asleep Effect WakeSleeper Fail Message Log" ID="You can't figure out how to wake =object.the.name=.">=object.the.name=の起こし方が分からない。</string>
+  <string Context="Asleep Effect WakeSleeper SleepMode Message Log" ID="=subject.Does:press= =object.poss:activation panel=.">=subject.T=は=object.poss:activation panel=を押した。</string>
+  <string Context="Asleep Effect WakeSleeper Message Log" ID="=subject.Doesly:gently:shake= =object.the.name= awake.">=subject.T=は=object.the.name=をそっと揺すって起こした。</string>
+  <string Context="Asleep Effect Woken SleepMode Message Log" ID="=subject.Does:exit= sleep mode by emergency interrupt.">=subject.T=は緊急割り込みでスリープモードを解除した。</string>
+  <string Context="AttackerElementalDamage Amplification of DamageDealt" ID="=percent.signed=% =elementaltype|lower= damage dealt">与える=elementaltype|lower=ダメージ =percent.signed=%</string>
+  <string Context="Attribute Multiplier Description" ID="=percent.signed=% =stat.statDisplayName=">=stat.statDisplayName= =percent.signed=%</string>
+  <string Context="AutoAct Wait Status Bar Done Resting" ID="Done resting.">休息を終えた。</string>
+  <string Context="AutoAct Wait Loading Status Complete" ID="Done waiting.">待機を終えた。</string>
+  <string Context="AutoAct Interrupt 'because' (clause)" ID="you can go no further">これ以上進めない</string>
+  <string Context="AutoAct climb methods 'stairways'" ID="stairways leading upward">上へ続く階段</string>
+  <string Context="AutoAct climb methods 'stairways'" ID="stairways leading downward">下へ続く階段</string>
+  <string Context="AutoAct interrupt 'because' (clause)" ID="=subject.does:are= in the way">=subject.t=が邪魔だ</string>
+  <string Context="AutoAct climb interrupt popup" ID="There are no =stairways= nearby.">近くに=stairways=はない。</string>
+  <string Context="AutoAct Wait Loading Status Bar" ID="Waiting for =num.things:turn=...">=num.things:turn=待機中…</string>
+  <string Context="AutoAct interrupt 'because' (clause)" ID="you cannot open =object.the.name=">=object.the.name=を開けられない</string>
+  <string Context="AutoAct Rest Loading Status Bar" ID="Resting until healed... Turn: =num=">回復するまで休息中… ターン: =num=</string>
+  <string Context="AutoAct Interrupt 'because' (clause)" ID="your spacetime context is incoherent">あなたの時空の文脈が支離滅裂だ</string>
+  <string Context="AutoAct interrupt 'because' clause" ID="you cannot seem to make any progress">まったく先に進めないようだ</string>
+  <string Context="AutoAct interrupt 'because' (clause)" ID="you cannot keep =object.the.name= open">=object.the.name=を開けたままにできない</string>
+  <string Context="AutoAct Wait Loading Status Bar" ID="Waiting for =remaining.things:round=...">=remaining.things:round=待機中…</string>
+  <string Context="AutoAct Rest Loading Status Bar" ID="Resting until party healed... Turn: =num=">仲間が回復するまで休息中… ターン: =num=</string>
+  <string Context="AutoAct attack interrupt message" ID="You are unable to attack =target.the.name=.">=target.the.name=を攻撃できない。</string>
+  <string Context="AutoAct Pathfind Error" ID="You cannot find a path to =object.the.name=.">=object.the.name=への経路が見つからない。</string>
+  <string Context="AutoAct Wait Resting until morning..." ID="Resting until morning... (=num.things:turn=)">朝まで休息中…（=num.things:turn=）</string>
+  <string Context="AutoAct interrupt 'because' clause" ID="you tried to move but stayed in the same place">移動しようとしたが同じ場所に留まった</string>
+  <string Context="AutoAct Interrupt Message" ID="You stop =autoActDescription= because =because=.">=because=ため、=autoActDescription=のをやめた。</string>
+  <string Context="AutoAct attack interrupt message" ID="You can't find a way to navigate to =target.the.name=.">=target.the.name=へ移動する方法が見つからない。</string>
+  <string Context="AutoAct interrupt 'because' (clause)" ID="of =object.the.name= =subject.to.its.direction#object=">=subject.to.its.direction#object=の=object.the.name=</string>
+  <string Context="AutoAct attack interrupt message" ID="You can't seem to find a way to reach =target.the.name=.">=target.the.name=に辿り着く方法が見つからないようだ。</string>
+  <string Context="AutoAct interrupt 'because' (clause)" ID="the direction you seem to be trying to go makes no sense">進もうとしている方向が意味をなさない</string>
+  <string Context="AutoAct Pathfind Error" ID="You cannot find a path toward the =direction.expandedDirection=.">=direction.expandedDirection=への経路が見つからない。</string>
+  <string Context="AutoAct Interrupt 'because' (clause)" ID="something is wrong with the spacetime connectivity of your environment">周囲の時空のつながりがおかしい</string>
+  <string Context="AutogetBlacklist ResumeAutogettingItem Announcement" ID="You will now autoget =object.pluralName= again.">=object.pluralName=を再び自動で拾うようになった。</string>
+  <string Context="AutogetBlacklist StopAutogettingItem Announcement" ID="You will no longer autoget any type of =object.name=.">=object.name=はどの種類も自動で拾わなくなった。</string>
+  <string Context="Baboon Hero Naming.xml Context" ID="King">王</string>
+  <string Context="Baboon Hero Naming.xml Context" ID="Queen">女王</string>
+  <string Context="Baboon Hero Naming.xml Context" ID="Hermit">隠者</string>
+  <string Context="Baboon Hero Naming.xml Context" ID="Riddler">謎かけ師</string>
+  <string Context="Baboon Hero Naming.xml Context" ID="Philanderer">色男</string>
+  <string Context="Baboon Hero Naming.xml Context" ID="Sophisticate">洒落者</string>
+  <string Context="Baboon Hero Naming.xml Context" ID="=rings.toString=-ringed">=rings.toString=の輪の</string>
+  <string Context="Baetyl Leaving - Explode" ID="=subject.The.name= =subject.directionIfAny= =subject.verb:explode=.">=subject.The.name=が=subject.directionIfAny=で爆発した。</string>
+  <string Context="Baetyl Leaving - Disappear" ID="=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=.">=subject.The.name=が=subject.directionIfAny=で消え去った。</string>
+  <string Context="BandageMedication PerformBandaging FailNobodyThere" ID="There's no one there.">そこには誰もいない。</string>
+  <string Context="BandageMedication PerformBandaging NotBleeding" ID="=object.Does:are= not bleeding.">=object.T=は出血していない。</string>
+  <string Context="BandageMedication PerformBandaging Already" ID="=object.The.name's= wounds have been bandaged.">=object.The.name's=傷は既に包帯が巻かれている。</string>
+  <string Context="BandageMedication PerformBandaging hostile entity fail" ID="=object.Does:won't= let you bandage =object.them=.">=object.T=は包帯を巻かせてくれない。</string>
+  <string Context="BandageMedication PerformBandaging MessageAsBandage Standard" ID="=subject.Does:bandage= =object.the.name's= wounds.">=subject.T=は=object.the.name's=傷に包帯を巻いた。</string>
+  <string Context="BandageMedication PerformBandaging Untreatable" ID="=object.The.name's= wounds are too deep to bandage.">=object.The.name's=傷は深すぎて包帯では処置できない。</string>
+  <string Context="BandageMedication PerformBandaging FailCantReach" ID="You cannot reach =object.the.name= to bandage =object.its= wounds.">=object.the.name=に手が届かず、傷に包帯を巻けない。</string>
+  <string Context="BandageMedication PerformBandaging Staunch Standard" ID="=subject.Does:staunch= =object.the.name's= wounds with =item.a.name=.">=subject.T=は=item.a.name=で=object.the.name's=傷の出血を止めた。</string>
+  <string Context="BandageMedication PerformBandaging AlreadyPlusUntreatable" ID="All of =object.the.name's= wounds that can be staunched have been already.">=object.the.name's=止血できる傷はすべて処置済みだ。</string>
+  <string Context="Banner Display Adjective Raised" ID="{{y|[{{g|raised}}]}}">{{y|[{{g|掲揚中}}]}}</string>
+  <string Context="Banner Display Adjective" ID="{{y|[{{K|furled}}]}}">{{y|[{{K|巻かれている}}]}}</string>
+  <string Context="Banner Raise Message" ID="=subject.Does:raise= =object.the.name=.">=subject.T=は=object.the.name=を掲げた。</string>
+  <string Context="Base Liquid - drams of liquid template no color" ID="=amount= =amount.pluralize:dram= of =liquid.name=">=liquid.name= =amount=ドラム</string>
+  <string Context="Base Liquid - cardinal drams of liquid template no color" ID="=amount.cardinal= =amount.pluralize:dram= of =liquid.name=">=liquid.name= =amount.cardinal=ドラム</string>
+  <string Context="Base Liquid - drams of liquid template with color" ID="=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name=">=liquid.name= =amount|color#amountColor=ドラム</string>
+  <string Context="Base Liquid - cardinal drams of liquid template with color" ID="=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name=">=liquid.name= =amount.cardinal|color#amountColor=ドラム</string>
+  <string Context="BaseMutation DefectMarker" ID="({{r|D}})">({{r|欠}})</string>
+  <string Context="BaseScreen GetScreenName" ID="Character">キャラクター</string>
+  <string Context="BaseSkill Add Skill Popup (Book)" ID="You learn {{W|=skill.name=}}!">{{W|=skill.name=}}を習得した！</string>
+  <string Context="BaseSkill Add Skill Popup (WaterRitual)" ID="=subject.Does:teach|strip= you {{W|=skill.name=}}!">=subject.T=は{{W|=skill.name=}}を教えてくれた！</string>
+  <string Context="BasicCookingEffect_Hitpoints Details" ID="+10% hit points">HP +10%</string>
+  <string Context="BasicCookingEffect_Hitpoints Details Amount Known" ID="=amount.signed= =amount.pluralize:hit point=">HP =amount.signed=</string>
+  <string Context="BasicCookingEffect_Hitpoints Popup" ID="=message=&#10;&#10;{{W|+1 MA for the rest of the day}}">=message=
+
+{{W|今日一日 MA+1}}</string>
+  <string Context="BasicCookingEffect_MA Details" ID="+1 MA">MA +1</string>
+  <string Context="BasicCookingEffect_MS Details" ID="+6% Move Speed">移動速度 +6%</string>
+  <string Context="BasicCookingEffect_MS Details - Amount known" ID="=amount.signed= Move Speed">移動速度 =amount.signed=</string>
+  <string Context="BasicCookingEffect_MS Popup" ID="=message=&#10;&#10;{{W|=amount.signed= move speed for the rest of the day}}">=message=
+
+{{W|今日一日 移動速度=amount.signed=}}</string>
+  <string Context="BasicCookingEffect_Quickness Details" ID="+3% Quickness">クイックネス +3%</string>
+  <string Context="BasicCookingEffect_Quickness Details - Amount known" ID="=amount.signed= Quickness">クイックネス =amount.signed=</string>
+  <string Context="BasicCookingEffect_Quickness Popup" ID="=message=&#10;&#10;{{W|=amount.signed= quickness for the rest of the day}}">=message=
+
+{{W|今日一日 クイックネス=amount.signed=}}</string>
+  <string Context="BasicCookingEffect_RandomStat Details" ID="=amount.signed= =stat.Name=">=stat.Name= =amount.signed=</string>
+  <string Context="BasicCookingEffect_RandomStat Popup" ID="=message=&#10;&#10;{{W|=amount.signed= =stat.Name= for the rest of the day}}">=message=
+
+{{W|今日一日 =stat.Name==amount.signed=}}</string>
+  <string Context="BasicCookingEffect_Regeneration Popup" ID="=message=&#10;&#10;{{W|+10% to natural healing rate for the rest of the day}}">=message=
+
+{{W|今日一日 自然回復速度+10%}}</string>
+  <string Context="BasicCookingEffect_ToHit Details" ID="+1 to hit">命中 +1</string>
+  <string Context="BasicCookingEffect_ToHit Popup" ID="=message=&#10;&#10;{{W|+1 to hit for the rest of the day}}">=message=
+
+{{W|今日一日 命中+1}}</string>
+  <string Context="BasicTriggeredCookingStatEffect Details" ID="=amount.signed= =stat.Name=">=stat.Name= =amount.signed=</string>
+  <string Context="BasiliskPoison Effect Recuperating" ID="=subject.Does:feel= less stiff.">=subject.T=の体のこわばりが和らいだ。</string>
+  <string Context="BeginBeingUnequippedEvent - Append FailureMessage" ID="=failureMessage= =message=">=failureMessage= =message=</string>
+  <string Context="Beguiled Effect Apply Message Log" ID="=subject.Does:ogle= =object.the.name= lovingly.">=subject.T=はうっとりと=object.the.name=を見つめた。</string>
+  <string Context="Beguiled Effect Remove Message Log" ID="=subject.Does:lose= interest in =object.the.name=.">=subject.T=は=object.the.name=への興味を失った。</string>
+  <string Context="Beguiled Effect Journal Accomplishment" ID="=beguiled.A.name= ogled you lovingly after you employed your charm.">あなたが魅力を振りまくと、=beguiled.A.name=はうっとりとあなたを見つめた。</string>
+  <string Context="Beguiling Pick Creature" ID="Who would you like to beguile?">誰を魅了する？</string>
+  <string Context="Beguiling Fail Self-Target" ID="You can't beguile =player.itself=!">=player.itself=を魅了することはできない！</string>
+  <string Context="Beguiling Pick Direction Title" ID="[Select a direction to beguile a creature]">[魅了するクリーチャーの方向を選択]</string>
+  <string Context="Beguiling failure" ID="Your coquetry infuriates =object.the.name=.">あなたの媚態は=object.the.name=を激怒させた。</string>
+  <string Context="Beguiling failure already beguiled" ID="You have already beguiled =object.the.name=.">=object.the.name=は既に魅了している。</string>
+  <string Context="Beguiling failure immune" ID="=object.Does:seem= utterly impervious to your charms.">=object.T=にはあなたの魅力がまったく通じないようだ。</string>
+  <string Context="Beguiling failure lost contest" ID="You fail to outshine the current object of =object.the.name's= affection.">=object.the.name's=今の意中の相手を上回ることはできなかった。</string>
+  <string Context="Berserker Effect Duration Player Message Log" ID="=duration.things:turn remains:turns remain= until your berserker rage ends.">狂戦士の激昂が終わるまで残り=duration.things:turn remains:turns remain=。</string>
+  <string Context="Bethsaida Lair Maker - CradleDisplayName" ID="The cradle of Bethsaida">ベスサイダの揺籃</string>
+  <string Context="Bethsaida Lair Maker - SplitOnDeath Message" ID="=subject.T= =verb:split= in two!">=subject.T=は二つに分裂した！</string>
+  <string Context="BeyLahSurface Discovery Text" ID="You discovered the hidden village of Bey Lah.">隠れ里ベイ・ラーを発見した。</string>
+  <string Context="BioAmmoLoader WeaponStatus AvailableRounds" ID="[=avail=]">[=avail=]</string>
+  <string Context="BioAmmoLoader DisplayName Tag AvailableRounds" ID="[=avail=]">[=avail=]</string>
+  <string Context="BioAmmoLoader WeaponStatus Empty" ID="[{{K|empty}}]">[{{K|空}}]</string>
+  <string Context="BioAmmoLoader DisplayName Tag Empty" ID="[{{K|empty}}]">[{{K|空}}]</string>
+  <string Context="BioAmmoLoader ExhaustedMessage" ID="=subject.Does:are= exhausted!">=subject.T=は尽きた！</string>
+  <string Context="BioAmmoLoader Reload AlreadyFull" ID="=subject.Does:are= already full.">=subject.T=は既に満タンだ。</string>
+  <string Context="BioAmmoLoader Reload NoLiquid" ID="You have no =liquid.name|strip= for =object.the.name=.">=object.the.name=に入れる=liquid.name|strip=を持っていない。</string>
+  <string Context="BioAmmoLoader SupplyHostWithLiquid NoRoom" ID="=subject.Does:have= no room for more =liquid.name|strip=.">=subject.T=にはこれ以上=liquid.name|strip=を入れる余地がない。</string>
+  <string Context="BioAmmoLoader Reload DumpWrongLiquid" ID="You dump the =volume.liquid.name= out of =object.the.name=.">=object.the.name=から=volume.liquid.name=を捨てた。</string>
+  <string Context="BioAmmoLoader SupplyHostWithLiquid NoLiquid" ID="You have no =liquid.name|strip= to supply =object.the.name= with.">=object.the.name=に補給する=liquid.name|strip=を持っていない。</string>
+  <string Context="BioAmmoLoader Reload Success" ID="You =partial.if:partially= fill =object.the.name= with =volume.liquid.name=.">=object.the.name=を=volume.liquid.name=で=partial.if:部分的に=満たした。</string>
+  <string Context="BitType Missing Data.xml entry DisplayName" ID="[{{=color=|Missing Bit =level=}}]">[{{=color=|欠落ビット =level=}}]</string>
+  <string Context="BlastOnHit Message Log" ID="=subject.Does:explode=!">=subject.T=は爆発した！</string>
+  <string Context="Blaze_Tonic Effect Remove Player Message Log" ID="The =tonic.description= burns out of your system.">=tonic.description=の効果があなたの体から抜けた。</string>
+  <string Context="BlinkOnDamage Message Log" ID="=subject.Does:blink= away from the danger.">=subject.T=は危険から瞬間移動で逃れた。</string>
+  <string Context="Body MissingParts summary list item (single)" ID="=part.a.name=">=part.a.name=</string>
+  <string Context="Body MissingParts summary list item (single, unfound by name)" ID="=subject.their= =part.name=">=subject.their==part.name=</string>
+  <string Context="Body MissingParts summary list item (multiple)" ID="=num.cardinal= =part.countable.name#num=">=part.countable.name#num==num.cardinal=つ</string>
+  <string Context="Body MissingParts Description (simple)" ID="=subject.It.is= missing =mainSummary.andList=.">=subject.T=は=mainSummary.andList=を欠いている。</string>
+  <string Context="Body Lost Use Of Part" ID="You have lost the use of your =part.ordinalName=.">=part.ordinalName=が使えなくなった。</string>
+  <string Context="Body Recover Use Of Part" ID="You have recovered the use of your =part.ordinalName=.">=part.ordinalName=が再び使えるようになった。</string>
+  <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!">=limb.ordinalName=が切断された！</string>
+  <string Context="Body Limb Dismember Accomplishment" ID="Your =limb.ordinalName= =limb.ifPlural:were:was= dismembered.">=limb.ordinalName=が切断された。</string>
+  <string Context="Body Regenerate Limb" ID="=subject.Does:regenerate= =subject.their= =limb.ordinalName=!">=subject.T=は=limb.ordinalName=を再生した！</string>
+  <string Context="BodyPart Equip Fail Too Large" ID="This item is too large for you to equip.">このアイテムは大きすぎて装備できない。</string>
+  <string Context="BodyPart Equip Fail Too Small" ID="This item is too small for you to equip.">このアイテムは小さすぎて装備できない。</string>
+  <string Context="BodyPart Equip Need Slot" ID="You need another free =bodyPartType.type= slot to equip that!">それを装備するには空いている=bodyPartType.type=スロットがもう1つ必要だ！</string>
+  <string Context="BodyPart Equip Need Another Slot" ID="You need =hasAny.if:another:a= free =slotType= slot to equip that!">それを装備するには空いている=slotType=スロットが=hasAny.if:もう:=1つ必要だ！</string>
+  <string Context="BodyPart Drop Held Item" ID="=subject.The.name's= =object.name= =object.verb:fall= to the ground.">=subject.The.name's==object.name=が地面に落ちた。</string>
+  <string Context="BodyPart Equip Need Slots" ID="You need another =shortBy.cardinal= free =slotType= slots to equip that!">それを装備するには空いている=slotType=スロットがあと=shortBy.cardinal=つ必要だ！</string>
+  <string Context="BodyPart Cybernetics Install Mural" ID="Gaze upon the sublime body of =name=! See the glistening =cybernetic.basename=!">=name=の崇高なる肉体を見よ！ 輝く=cybernetic.basename=を見よ！</string>
+  <string Context="BookScreen - Prev Page Button" ID="Prev Page">前のページ</string>
+  <string Context="BoostStatistic Effect DisplayName" ID="boosted =stat.name=">=stat.name=強化</string>
+  <string Context="BoostStatistic Effect Apply Player Message Log Increase" ID="Your =stat.title= increases.">=stat.title=が上昇した。</string>
+  <string Context="BoostStatistic Effect Apply Player Message Log Decrease" ID="Your =stat.title= decreases.">=stat.title=が低下した。</string>
+  <string Context="BoostStatistic Effect Remove Player Message Log" ID="Your =stat.title= returns to normal.">=stat.title=が元に戻った。</string>
+  <string Context="BootSequence Display Adjective" ID="[{{K|=timeLeft= sec}}]">[{{K|残り=timeLeft=秒}}]</string>
+  <string Context="BrainBrineCurse Effect Gain Skill Player Popup" ID="You learn the skill =skill.name|color:C=!">スキル=skill.name|color:C=を習得した！</string>
+  <string Context="BrainBrineCurse Effect Gain Defect Player Popup" ID="You gained the defect =mutation.name|color:R=!">欠陥=mutation.name|color:R=を得た！</string>
+  <string Context="BrainBrineCurse Effect Gain Mutation Player Popup" ID="You gained the mutation =mutation.name|color:G=!">突然変異=mutation.name|color:G=を得た！</string>
+  <string Context="BreakableInMelee Break Message" ID="=subject.Does:break=.">=subject.T=は壊れた。</string>
+  <string Context="Broken Effect DisplayName Tag" ID="[{{r|broken}}]">[{{r|破損}}]</string>
+  <string Context="Broken Effect Particle Text" ID="*=subject.name:withTitles|strip= broken*">*=subject.name:withTitles|strip=破損*</string>
+  <string Context="Broken Effect Equip Fail Player Message" ID="You can't equip =object.the.name=, =object.itis= broken!">=object.the.name=は壊れているので装備できない！</string>
+  <string Context="BubbleLevel Sound Message" ID="=subject.Does:plop=.">=subject.T=はポチャンと音を立てた。</string>
+  <string Context="BubbleLevel No Sound Message" ID="=subject.Does:make= no sound.">=subject.T=は何の音も立てない。</string>
+  <string Context="Budding Effect StateDescription" ID="{{r|about to bud}}">{{r|発芽寸前}}</string>
+  <string Context="Budding Effect Remove No Back Message Log" ID="=subject.Poss:grotesque protuberance= subsides.">=subject.Poss:grotesque protuberance=が引いていった。</string>
+  <string Context="Budding Effect Remove Has Back Message Log" ID="The grotesque protuberance on =subject.poss#back= subsides.">=subject.poss#back=のグロテスクな突起が引いていった。</string>
+  <string Context="Burgeoning summon message log" ID="=subject.Does:impel= plants to burgeon from the ground!">=subject.T=は地面から植物を芽吹かせた！</string>
+  <string Context="Burning Effect Companion Status" ID="on fire">燃えている</string>
+  <string Context="Burning Effect StateDescription" ID="{{R|on fire}}">{{R|燃えている}}</string>
+  <string Context="Burning Effect Player AutoAct Interrupt 'because' (clause)" ID="you caught fire">体に火がついた</string>
+  <string Context="Burning Effect Follower Visible AutoAct Interrupt 'because' (clause)" ID="you see =object.the.name:baseOnly= catch fire">=object.the.name:baseOnly=に火がつくのが見えた</string>
+  <string Context="Burning Effect Follower Audible AutoAct Interrupt 'because' (clause)" ID="you hear =object.the.name:baseOnly= catch fire =object.to.the.direction=">=object.to.the.direction=で=object.the.name:baseOnly=に火がつく音がした</string>
+  <string Context="BurnOffGas Message Log" ID="=subject.Does:burn= off =object.a.name=.">=subject.T=は=object.a.name=を燃やし尽くした。</string>
+  <string Context="Burrowed Effect Apply" ID="=subject.Does:burrow= into the ground.">=subject.T=は地中に潜った。</string>
+  <string Context="Burrowed Effect Emerge" ID="=subject.Does:emerge= from the ground.">=subject.T=は地中から現れた。</string>
+  <string Context="Burrowed Effect Remove Damaged" ID="=subject.Does:are= forced to the surface.">=subject.T=は地上に押し出された。</string>
+  <string Context="BuyRandomMutation - Not enough points" ID="You don't have =cost= mutation points!">突然変異ポイントが=cost=足りない！</string>
+  <string Context="BuyRandomMutation - Not a mutatant" ID="Your type of creature may not buy =subject.mutationTerm|pluralize=.">あなたの種族は=subject.mutationTerm|pluralize=を購入できない。</string>
+  <string Context="BuyRandomMutation IrritableGenome picked for you" ID="=subject.The.name's= irritable genome acts up. =spentPointsReport.join: =">=subject.The.name's=過敏なゲノムが暴れ出した。=spentPointsReport.join: =</string>
+  <string Context="Calendar Day 15" ID="Ides">イデスの日</string>
+  <string Context="Calendar Year noera" ID="=year=">=year=</string>
+  <string Context="Calendar Year" ID="=year= AR">=year= AR</string>
+  <string Context="Calendar Day" ID="=time.day=">=time.day=</string>
+  <string Context="Calendar MarginaliaTime" ID="On the =time.day= of =time.month=">=time.month=の=time.day=</string>
+  <string Context="Camp Fail Blocked" ID="Something is in the way!">何かが邪魔をしている！</string>
+  <string Context="Camp Success" ID="=subject.Does:make= camp.">=subject.T=は野営した。</string>
+  <string Context="Camp Fail Hostiles" ID="You can't cook with hostiles nearby.">敵が近くにいる状態では料理できない。</string>
+  <string Context="Camp Fail In Pool" ID="You cannot start a campfire in =pool.the.name=.">=pool.the.name=の中では焚き火を起こせない。</string>
+  <string Context="Camp Fail Already Here" ID="There =campfire.is= already =campfire.a.name= here.">ここには既に=campfire.a.name=がある。</string>
+  <string Context="Camp Fail NoPlace" ID="There is nothing there you can build a campfire on.">そこには焚き火を起こせる場所がない。</string>
+  <string Context="Camp Fail Other Zone" ID="You can only build a campfire in the same zone you are in.">焚き火は今いるゾーンでしか起こせない。</string>
+  <string Context="Campfire CookFromRecipe Menu Action Menu" ID="Forget">忘れる</string>
+  <string Context="Campfire GetPointsOfInterest" ID="nearest">最寄り</string>
+  <string Context="Campfire PreserveExotic item name" ID="=item.name=">=item.name=</string>
+  <string Context="Campfire RollIngredients Failure" ID="a pinch of salt">ひとつまみの塩</string>
+  <string Context="Campfire NostrumsTreatPoison" ID="Treat whom next?">次は誰を治療する？</string>
+  <string Context="Campfire NostrumsTreatIllness" ID="Treat whom next?">次は誰を治療する？</string>
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Treat whom next?">次は誰を治療する？</string>
+  <string Context="Campfire NostrumsTreatPoison" ID="Treat whom first?">まず誰を治療する？</string>
+  <string Context="Campfire NostrumsTreatIllness" ID="Treat whom first?">まず誰を治療する？</string>
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Treat whom first?">まず誰を治療する？</string>
+  <string Context="Campfire CookFromIngredients remaining, selected = max" ID="&#10;{{y|[0 remaining]}}">
+{{y|[残り0]}}</string>
+  <string Context="Campfire CookFromRecipe Menu Action Menu" ID="Add to favorite recipes">お気に入りレシピに追加</string>
+</strings>

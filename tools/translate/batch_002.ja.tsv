@@ -1,0 +1,194 @@
+1	ローカルマップ上の未鑑定のアーティファクトをすべて探知する。
+2	半径=radius=以内の未鑑定のアーティファクトを探知する。
+3	{{K|灰で窒息}}
+4	=subject.T=はもう咳き込んでいない！
+5	=subject.T=は目を覚ました。
+6	=subject.T=は大きないびきをかいている。
+7	=subject.T=はスリープモードを解除した。
+8	=subject.T=は{{C|眠りに落ちた}}。
+9	=subject.T=はぼんやりと目を覚ました。
+10	=subject.T=は{{C|スリープモード}}に入った。
+11	=MARKOVSENTENCE|trim|subject.dreamspeak=
+12	=subject.T=はまったく反応しない。
+13	=MARKOVPARAGRAPH|trim|subject.dreamspeak=
+14	=object.the.name=の起こし方が分からない。
+15	=subject.T=は=object.poss:activation panel=を押した。
+16	=subject.T=は=object.the.name=をそっと揺すって起こした。
+17	=subject.T=は緊急割り込みでスリープモードを解除した。
+18	与える=elementaltype|lower=ダメージ =percent.signed=%
+19	=stat.statDisplayName= =percent.signed=%
+20	休息を終えた。
+21	待機を終えた。
+22	これ以上進めない
+23	上へ続く階段
+24	下へ続く階段
+25	=subject.t=が邪魔だ
+26	近くに=stairways=はない。
+27	=num.things:turn=待機中…
+28	=object.the.name=を開けられない
+29	回復するまで休息中… ターン: =num=
+30	あなたの時空の文脈が支離滅裂だ
+31	まったく先に進めないようだ
+32	=object.the.name=を開けたままにできない
+33	=remaining.things:round=待機中…
+34	仲間が回復するまで休息中… ターン: =num=
+35	=target.the.name=を攻撃できない。
+36	=object.the.name=への経路が見つからない。
+37	朝まで休息中…（=num.things:turn=）
+38	移動しようとしたが同じ場所に留まった
+39	=because=ため、=autoActDescription=のをやめた。
+40	=target.the.name=へ移動する方法が見つからない。
+41	=subject.to.its.direction#object=の=object.the.name=
+42	=target.the.name=に辿り着く方法が見つからないようだ。
+43	進もうとしている方向が意味をなさない
+44	=direction.expandedDirection=への経路が見つからない。
+45	周囲の時空のつながりがおかしい
+46	=object.pluralName=を再び自動で拾うようになった。
+47	=object.name=はどの種類も自動で拾わなくなった。
+48	王
+49	女王
+50	隠者
+51	謎かけ師
+52	色男
+53	洒落者
+54	=rings.toString=の輪の
+55	=subject.The.name=が=subject.directionIfAny=で爆発した。
+56	=subject.The.name=が=subject.directionIfAny=で消え去った。
+57	そこには誰もいない。
+58	=object.T=は出血していない。
+59	=object.The.name's=傷は既に包帯が巻かれている。
+60	=object.T=は包帯を巻かせてくれない。
+61	=subject.T=は=object.the.name's=傷に包帯を巻いた。
+62	=object.The.name's=傷は深すぎて包帯では処置できない。
+63	=object.the.name=に手が届かず、傷に包帯を巻けない。
+64	=subject.T=は=item.a.name=で=object.the.name's=傷の出血を止めた。
+65	=object.the.name's=止血できる傷はすべて処置済みだ。
+66	{{y|[{{g|掲揚中}}]}}
+67	{{y|[{{K|巻かれている}}]}}
+68	=subject.T=は=object.the.name=を掲げた。
+69	=liquid.name= =amount=ドラム
+70	=liquid.name= =amount.cardinal=ドラム
+71	=liquid.name= =amount|color#amountColor=ドラム
+72	=liquid.name= =amount.cardinal|color#amountColor=ドラム
+73	({{r|欠}})
+74	キャラクター
+75	{{W|=skill.name=}}を習得した！
+76	=subject.T=は{{W|=skill.name=}}を教えてくれた！
+77	HP +10%
+78	HP =amount.signed=
+79	=message=\n\n{{W|今日一日 MA+1}}
+80	MA +1
+81	移動速度 +6%
+82	移動速度 =amount.signed=
+83	=message=\n\n{{W|今日一日 移動速度=amount.signed=}}
+84	クイックネス +3%
+85	クイックネス =amount.signed=
+86	=message=\n\n{{W|今日一日 クイックネス=amount.signed=}}
+87	=stat.Name= =amount.signed=
+88	=message=\n\n{{W|今日一日 =stat.Name==amount.signed=}}
+89	=message=\n\n{{W|今日一日 自然回復速度+10%}}
+90	命中 +1
+91	=message=\n\n{{W|今日一日 命中+1}}
+92	=stat.Name= =amount.signed=
+93	=subject.T=の体のこわばりが和らいだ。
+94	=failureMessage= =message=
+95	=subject.T=はうっとりと=object.the.name=を見つめた。
+96	=subject.T=は=object.the.name=への興味を失った。
+97	あなたが魅力を振りまくと、=beguiled.A.name=はうっとりとあなたを見つめた。
+98	誰を魅了する？
+99	=player.itself=を魅了することはできない！
+100	[魅了するクリーチャーの方向を選択]
+101	あなたの媚態は=object.the.name=を激怒させた。
+102	=object.the.name=は既に魅了している。
+103	=object.T=にはあなたの魅力がまったく通じないようだ。
+104	=object.the.name's=今の意中の相手を上回ることはできなかった。
+105	狂戦士の激昂が終わるまで残り=duration.things:turn remains:turns remain=。
+106	ベスサイダの揺籃
+107	=subject.T=は二つに分裂した！
+108	隠れ里ベイ・ラーを発見した。
+109	[=avail=]
+110	[=avail=]
+111	[{{K|空}}]
+112	[{{K|空}}]
+113	=subject.T=は尽きた！
+114	=subject.T=は既に満タンだ。
+115	=object.the.name=に入れる=liquid.name|strip=を持っていない。
+116	=subject.T=にはこれ以上=liquid.name|strip=を入れる余地がない。
+117	=object.the.name=から=volume.liquid.name=を捨てた。
+118	=object.the.name=に補給する=liquid.name|strip=を持っていない。
+119	=object.the.name=を=volume.liquid.name=で=partial.if:部分的に=満たした。
+120	[{{=color=|欠落ビット =level=}}]
+121	=subject.T=は爆発した！
+122	=tonic.description=の効果があなたの体から抜けた。
+123	=subject.T=は危険から瞬間移動で逃れた。
+124	=part.a.name=
+125	=subject.their==part.name=
+126	=part.countable.name#num==num.cardinal=つ
+127	=subject.T=は=mainSummary.andList=を欠いている。
+128	=part.ordinalName=が使えなくなった。
+129	=part.ordinalName=が再び使えるようになった。
+130	=limb.ordinalName=が切断された！
+131	=limb.ordinalName=が切断された。
+132	=subject.T=は=limb.ordinalName=を再生した！
+133	このアイテムは大きすぎて装備できない。
+134	このアイテムは小さすぎて装備できない。
+135	それを装備するには空いている=bodyPartType.type=スロットがもう1つ必要だ！
+136	それを装備するには空いている=slotType=スロットが=hasAny.if:もう:=1つ必要だ！
+137	=subject.The.name's==object.name=が地面に落ちた。
+138	それを装備するには空いている=slotType=スロットがあと=shortBy.cardinal=つ必要だ！
+139	=name=の崇高なる肉体を見よ！ 輝く=cybernetic.basename=を見よ！
+140	前のページ
+141	=stat.name=強化
+142	=stat.title=が上昇した。
+143	=stat.title=が低下した。
+144	=stat.title=が元に戻った。
+149	[{{K|残り=timeLeft=秒}}]
+150	スキル=skill.name|color:C=を習得した！
+151	欠陥=mutation.name|color:R=を得た！
+152	突然変異=mutation.name|color:G=を得た！
+153	=subject.T=は壊れた。
+154	[{{r|破損}}]
+155	*=subject.name:withTitles|strip=破損*
+156	=object.the.name=は壊れているので装備できない！
+157	=subject.T=はポチャンと音を立てた。
+158	=subject.T=は何の音も立てない。
+159	{{r|発芽寸前}}
+160	=subject.Poss:grotesque protuberance=が引いていった。
+161	=subject.poss#back=のグロテスクな突起が引いていった。
+162	=subject.T=は地面から植物を芽吹かせた！
+163	燃えている
+164	{{R|燃えている}}
+165	体に火がついた
+166	=object.the.name:baseOnly=に火がつくのが見えた
+167	=object.to.the.direction=で=object.the.name:baseOnly=に火がつく音がした
+168	=subject.T=は=object.a.name=を燃やし尽くした。
+169	=subject.T=は地中に潜った。
+170	=subject.T=は地中から現れた。
+171	=subject.T=は地上に押し出された。
+173	突然変異ポイントが=cost=足りない！
+174	あなたの種族は=subject.mutationTerm|pluralize=を購入できない。
+175	=subject.The.name's=過敏なゲノムが暴れ出した。=spentPointsReport.join: =
+176	イデスの日
+177	=year=
+178	=year= AR
+179	=time.day=
+180	=time.month=の=time.day=
+181	何かが邪魔をしている！
+182	=subject.T=は野営した。
+183	敵が近くにいる状態では料理できない。
+184	=pool.the.name=の中では焚き火を起こせない。
+185	ここには既に=campfire.a.name=がある。
+186	そこには焚き火を起こせる場所がない。
+187	焚き火は今いるゾーンでしか起こせない。
+188	忘れる
+189	最寄り
+191	=item.name=
+192	ひとつまみの塩
+193	次は誰を治療する？
+194	次は誰を治療する？
+195	次は誰を治療する？
+196	まず誰を治療する？
+197	まず誰を治療する？
+198	まず誰を治療する？
+199	\n{{y|[残り0]}}
+200	お気に入りレシピに追加

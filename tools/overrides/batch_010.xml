@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="KeybindsScreen HandleMenuOption RemoveBind Confirm" ID="Are you sure you want to clear the binding for =description|color:C=?">本当に=description|color:C=の割り当てを解除しますか？</string>
+  <string Context="Kindle On MessageLog" ID="=subject.A.name= appears =subject.to.the.direction=.">=subject.to.the.direction=に=subject.A.name=が現れた。</string>
+  <string Context="KindrishProperties AnnounceAward" ID="You receive =object.a.name=.">=object.a.name=を受け取った。</string>
+  <string Context="Kith and Kin, Imporant NPC died popup" ID="The death of =subject.the.name= means that the investigation can go no further.">=subject.the.name=が死んだため、これ以上調査を進められない。</string>
+  <string Context="KithAndKinGameState MotiveEvidence Esk LookText 1" ID="Eskhind is favoring a leg.">エスキンドは片脚をかばっている。</string>
+  <string Context="KithAndKinGameState ItemClueReveal 5" ID="Now that's a huge footprint.  ">これは巨大な足跡だ。</string>
+  <string Context="KithAndKinGameState MotiveEvidence Keh ItemClueReveal 0" ID="Hmm. This injector has been used. ">うーん。この注射器は使用済みだ。</string>
+  <string Context="KithAndKinGameState MotiveEvidence Keh ItemClueReveal 1" ID="Why, this arrow is covered with blood!  ">なんと、この矢は血まみれだ！</string>
+  <string Context="KithAndKinGameState ItemClueReveal 10" ID="Someone has left a small hammer on the path.  ">誰かが小さな槌を道に置いていった。</string>
+  <string Context="KithAndKinGameState ItemClueReveal 3" ID="Hmm, this waterskin is still sealed with wax.  ">うーん、この水袋はまだ蝋で封がされている。</string>
+  <string Context="KithAndKinGameState ItemClueReveal 6" ID="Oh gross, there's a rotten tongue on the ground!  ">うわ、腐った舌が地面に落ちている！</string>
+  <string Context="KithAndKinGameState ItemClueReveal 1" ID="How odd, this watervine is stained red with blood.  ">妙だな、このウォーターヴァインは血で赤く染まっている。</string>
+  <string Context="KithAndKinGameState ItemClueReveal 7" ID="How odd, some discarded chaff from a yuckwheat plant.  ">妙だな、ヤックウィートの籾殻が捨てられている。</string>
+  <string Context="KithAndKinGameState ItemClueReveal 0" ID="Is that a patch of hindren fur? There's blood on it...  ">これはヒンドレンの毛の塊か？ 血が付いている…</string>
+  <string Context="KithAndKinGameState ItemClueReveal 8" ID="How odd, someone dropped some scraps of cut leather here.  ">妙だな、誰かが切った革の切れ端をここに落としている。</string>
+  <string Context="KithAndKinGameState MotiveEvidence Kese LookText 1" ID="Kesehind's armor has bloodstains that he failed to remove. ">ケセヒンドの鎧には、拭き取りきれなかった血痕がある。</string>
+  <string Context="KithAndKinGameState MotiveEvidence Kendren ItemClueReveal 0" ID="This set of leatherworking tools is shockingly well-made.  ">この革細工道具一式は驚くほど出来がいい。</string>
+  <string Context="KithAndKinGameState ItemClueReveal 4" ID="How odd, there's a copper nugget just lying on the ground.  ">妙だな、銅の塊が地面に転がっている。</string>
+  <string Context="KithAndKinGameState ItemClueReveal 9" ID="This leather bracer has seen some use. Why is it out here?  ">この革の腕当ては使い込まれている。なぜこんなところに？</string>
+  <string Context="KithAndKinGameState ItemClueReveal 2" ID="How odd, the broken haft of a weapon, a sign of recent violence.  ">妙だな、折れた武器の柄だ。最近暴力があった印だ。</string>
+  <string Context="KithAndKinGameState MotiveEvidence Kese ItemClueReveal 0" ID="That's strange. This bracer is heavily worn, but surprisingly clean.  ">おかしいな。この腕当てはひどく擦り切れているのに、妙に綺麗だ。</string>
+  <string Context="KlanxGoals PaxKlanqMadness ParticleText" ID="KLANQ!">クランク！</string>
+  <string Context="KlanxGoals PaxKlanqMadness TakeAction Style2 shout" ID="=subject.Does:shout|strip= {{O|KLANQ}}!">=subject.T=は{{O|クランク}}と叫んだ！</string>
+  <string Context="KlanxGoals PaxKlanqMadness TakeAction" ID="=subject.Does:toss= =object.a.name= aside.">=subject.T=は=object.a.name=を脇に放り投げた。</string>
+  <string Context="lair noun" ID="lair">巣穴</string>
+  <string Context="LatchesOn Movement Failure" ID="=subject.Does:stand= =subject.its= ground!">=subject.T=は踏みとどまった！</string>
+  <string Context="LatchesOn WeaponHit Grab" ID="=subject.Does:latch= onto =object.the.name=!">=subject.T=は=object.the.name=に食らいついた！</string>
+  <string Context="LeakWhenBroken AnnounceLeakAmount" ID="=subject.Does:leak= =volume.drams.of.liquid:noRules=.">=subject.T=から=volume.drams.of.liquid:noRules=が漏れた。</string>
+  <string Context="LevelGain" ID="=subject.Does:gain= a level!">=subject.T=はレベルアップした！</string>
+  <string Context="LifeDrain Fail Invalid Target or Self" ID="You cannot syphon vim from =object.the.name=.">=object.the.name=からは活力を吸い取れない。</string>
+  <string Context="LightManip Lase Fail too weak" ID="Your capacity is too weak.">あなたの能力では弱すぎる。</string>
+  <string Context="LightManip Lase ActivatedAbility Button" ID="Lase (=radius.things:charge=)">レーザー照射（=radius.things:charge=）</string>
+  <string Context="line expander (expanded)" ID="[-]">[-]</string>
+  <string Context="line expander (collapsed)" ID="[+]">[+]</string>
+  <string Context="Lionheart particle text" ID="*shook off fear*">*恐怖を振り払った*</string>
+  <string Context="Liquid Stained - stain type for cleaning message" ID="stains">染み</string>
+  <string Context="Liquid Volume - Base name replace, less than wading depth" ID="puddle">水たまり</string>
+  <string Context="Liquid Volume - Cleaning liquids default" ID="liquid">液体</string>
+  <string Context="Liquid Covered - stains name" ID="liquids">液体</string>
+  <string Context="Liquid Volume - Description clause (sealed, with preposition, hide liquid, no amount, show seal)" ID="{{c|sealed}}">{{c|密封}}</string>
+  <string Context="Liquid Volume - Cleaning liquids" ID="=names.orList=">=names.orList=</string>
+  <string Context="Liquid Volume - pour menu option" ID="Pour it nearby.">近くに注ぐ。</string>
+  <string Context="Liquid Volume - Description Tag (empty)" ID="{{y|[{{K|empty}}]}}">{{y|[{{K|空}}]}}</string>
+  <string Context="Liquid Volume - Description Tag (sealed)" ID="{{y|[{{c|sealed}}]}}">{{y|[{{c|密封}}]}}</string>
+  <string Context="Liquid Volume - Description tag (sealed, hide liquid, hide amount, show seal)" ID="{{y|[{{c|sealed}}]}}">{{y|[{{c|密封}}]}}</string>
+  <string Context="Liquid Volume - empty error" ID="=object.Does:are= empty.">=object.T=は空だ。</string>
+  <string Context="Liquid Volume - sealed error" ID="=object.Does:are= sealed.">=object.T=は密封されている。</string>
+  <string Context="Liquid Volume - Description tag (unsealed, hide amount)" ID="{{y|[=volume.liquid.name=]}}">{{y|[=volume.liquid.name=]}}</string>
+  <string Context="Liquid Volume - Description tag (sealed, visible liquid, hide amount, hide seal)" ID="{{y|[=volume.liquid.name=]}}">{{y|[=volume.liquid.name=]}}</string>
+  <string Context="Liquid Volume - has no drain error" ID="=object.Does:have= no drain.">=object.T=には排出口がない。</string>
+  <string Context="Liquid Volume - pour menu option (on yourself)" ID="Pour it on =subject.itself=.">=subject.itself=に注ぐ。</string>
+  <string Context="Liquid Volume - container to fill menu title" ID="[Select a container to fill]">[満たす容器を選択]</string>
+  <string Context="Liquid Volume - Auto collecting description tag (liquid matches)" ID="{{y|[{{c|auto-collecting}}]}}">{{y|[{{c|自動収集中}}]}}</string>
+  <string Context="Liquid Volume - drinking message, update on stomach" ID="You are now =updates.andList=.">あなたは今=updates.andList=。</string>
+  <string Context="Liquid Volume - pour menu option" ID="Pour it into another container.">別の容器に注ぐ。</string>
+  <string Context="Liquid Volume - no containers to fill" ID="You have no containers to fill.">満たせる容器を持っていない。</string>
+  <string Context="Liquid Volume - Description Tag (empty, sealed)" ID="{{y|[{{K|empty, {{c|sealed}}}}]}}">{{y|[{{K|空、{{c|密封}}}}]}}</string>
+  <string Context="Liquid Volume - Description clause (unsealed, with preposition, no amount)" ID="=preposition= =volume.liquid.name=">=preposition= =volume.liquid.name=</string>
+  <string Context="Liquid Volume - Description clause (sealed, with preposition, show liquid, no amount, hide seal)" ID="=preposition= =volume.liquid.name=">=preposition= =volume.liquid.name=</string>
+  <string Context="Liquid Volume - seal message" ID="=subject.Does:seal= =object.the.name=.">=subject.T=は=object.the.name=を密封した。</string>
+  <string Context="Liquid Volume - Description tag (unsealed, show amount)" ID="{{y|[=volume.drams.of.liquid#forSort=]}}">{{y|[=volume.drams.of.liquid#forSort=]}}</string>
+  <string Context="Liquid Volume - Description tag (sealed, show amount, hide seal)" ID="{{y|[=volume.drams.of.liquid#forSort=]}}">{{y|[=volume.drams.of.liquid#forSort=]}}</string>
+  <string Context="Liquid Volume - unseal message" ID="=subject.Does:unseal= =object.the.name=.">=subject.T=は=object.the.name=の封を開けた。</string>
+  <string Context="Liquid Volume - Cleaning message, cleaned item" ID="=object.a.name:asPossessed:secondPerson=">=object.a.name:asPossessed:secondPerson=</string>
+  <string Context="Liquid Volume - Stain with liquid" ID="=volume.liquid.stain.name#primary=-stained">=volume.liquid.stain.name#primary=まみれの</string>
+  <string Context="Liquid Volume - Description tag (sealed, visible liquid, hide amount, show seal)" ID="{{y|[=volume.liquid.name=, {{c|sealed}}]}}">{{y|[=volume.liquid.name=、{{c|密封}}]}}</string>
+  <string Context="Liquid Volume - Collect error" ID="You have nowhere available to collect that.">それを収集できる場所がない。</string>
+  <string Context="Liquid Volume - Get compound name" ID="=adjectives.join: |spaceAfter==primaryNoun=">=adjectives.join: |spaceAfter==primaryNoun=</string>
+  <string Context="Liquid Volume - Auto collecting description tag (nocolor)" ID="[auto-collecting =volume.liquid.name|strip=]">[=volume.liquid.name|strip=を自動収集中]</string>
+  <string Context="Liquid Volume - Cooking effects description appendix" ID="Adds =types.orList= effects to cooked meals.">料理に=types.orList=の効果を加える。</string>
+  <string Context="Liquid Volume - pour menu title" ID="Where do you want to pour =object.the.name=?">=object.the.name=をどこに注ぐ？</string>
+  <string Context="Liquid Volume - ask empty target container" ID="Do you want to empty =object.the.name= first?">先に=object.the.name=を空にしますか？</string>
+  <string Context="Liquid Volume - pour popup dialog title" ID="How many drams? (max=equals==pourableVolume=)">何ドラム注ぐ？（最大=equals==pourableVolume=）</string>
+  <string Context="Liquid Volume - pour but empty error" ID="There's nothing in =object.the.name= to pour.">=object.the.name=には注げるものが入っていない。</string>
+  <string Context="Liquid Volume - Description clause (unsealed, with preposition, amount)" ID="=preposition= =volume.drams.of.liquid#forSort=">=preposition= =volume.drams.of.liquid#forSort=</string>
+  <string Context="Liquid Volume - Description clause (sealed, with preposition, amount, hide seal)" ID="=preposition= =volume.drams.of.liquid#forSort=">=preposition= =volume.drams.of.liquid#forSort=</string>
+  <string Context="Liquid Volume - Description clause (sealed, with preposition, show liquid, no amount, show seal)" ID="=preposition= =volume.liquid.name=, {{c|sealed}}">=preposition= =volume.liquid.name=、{{c|密封}}</string>
+  <string Context="Liquid Volume - Auto collecting description tag" ID="{{y|[{{c|auto-collecting =volume.liquid.name=}}]}}">{{y|[{{c|=volume.liquid.name=を自動収集中}}]}}</string>
+  <string Context="Liquid Volume - Warn drain" ID="Are you sure you want to drain =subject.the.name=?">本当に=subject.the.name=の中身を抜きますか？</string>
+  <string Context="Liquid Volume - pour error" ID="You can't pour from a container into =object.itself=.">容器からその容器自体には注げない。</string>
+  <string Context="Liquid Volume - can't pour on itself error" ID="You can't pour from a container into =object.itself=.">容器からその容器自体には注げない。</string>
+  <string Context="Liquid Volume - Description tag (sealed, show amount, show seal)" ID="{{y|[=volume.drams.of.liquid#forSort=, {{c|sealed}}]}}">{{y|[=volume.drams.of.liquid#forSort=、{{c|密封}}]}}</string>
+  <string Context="Liquid Volume - drams of liquid template (no rules)" ID="=amount= =amount.pluralize:dram= of =container.liquid.name=">=container.liquid.name= =amount=ドラム</string>
+  <string Context="Liquid Volume - Description clause (sealed, with preposition, amount, show seal)" ID="=preposition= =volume.drams.of.liquid#forSort=, {{c|sealed}}">=preposition= =volume.drams.of.liquid#forSort=、{{c|密封}}</string>
+  <string Context="Liquid Volume - drink failure message" ID="You cannot seem to interact with =object.the.name= in any way.">=object.the.name=とはどうやっても関われないようだ。</string>
+  <string Context="Liquid Volume - statis error" ID="You cannot seem to interact with =object.the.name= in any way.">=object.the.name=とはどうやっても関われないようだ。</string>
+  <string Context="Liquid Volume - drams of liquid template (for sorting)" ID="=amount:D6= =amount.pluralize:dram= of =container.liquid.name=">=container.liquid.name= =amount:D6=ドラム</string>
+  <string Context="Liquid Volume - drams of liquid template" ID="=amount|rules= =amount.pluralize:dram= of =container.liquid.name=">=container.liquid.name= =amount|rules=ドラム</string>
+  <string Context="Liquid Volume - clean message no known source" ID="=subject.Does:clean= the =messTerms.andList= from =items.andList=.">=subject.T=は=items.andList=から=messTerms.andList=を拭き取った。</string>
+  <string Context="Liquid Volume - pour on self message" ID="=amount.things:dram= of =volume.liquid.name= pours out all over you!">=volume.liquid.name=が=amount.things:dram=、あなたの全身に降りかかった！</string>
+  <string Context="Liquid Volume - poured out message" ID="=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out.">=subject.T=は=volume.liquid.name=を=amount.things:dram=注ぎ出した。</string>
+  <string Context="Liquid Glitching - Glitch Skills" ID="=subject.The.name's= mind starts to fluctuate in and out of coherence.">=subject.The.name's=心が正気と狂気の間を揺れ動き始めた。</string>
+  <string Context="LiquidAmmoLoader ImpureLiquid NoColor" ID="[?]">[?]</string>
+  <string Context="LiquidAmmoLoader ImpureLiquid Color" ID="[{{=color=|?}}]">[{{=color=|?}}]</string>
+  <string Context="LiquidAmmoLoader OutOfLiquid Color" ID="[{{=color=|empty}}]">[{{=color=|空}}]</string>
+  <string Context="LiquidAmmoLoader GetStatusMessage Empty" ID="=subject.Does:are= empty.">=subject.T=は空だ。</string>
+  <string Context="LiquidAmmoLoader PureLiquid" ID="[=amount|color#amountColor=]">[=amount|color#amountColor=]</string>
+  <string Context="LiquidAmmoLoader GetStatusMessage" ID="=subject.Does:are= =statusphrase=.">=subject.T=は=statusphrase=。</string>
+  <string Context="LiquidAmmoLoader Reload NoLiquidAvailable" ID="You have no =liquid.name= for =object.the.name=.">=object.the.name=に入れる=liquid.name=を持っていない。</string>
+  <string Context="LiquidAmmoLoader GetStatusMessage WrongLiquid" ID="=subject.Does:are= not loaded with the correct liquid.">=subject.T=には正しい液体が装填されていない。</string>
+  <string Context="LiquidAmmoLoader Reload AlreadyFull" ID="=subject.Does:are= already full of =volume.liquid.name=.">=subject.T=は既に=volume.liquid.name=で満タンだ。</string>
+  <string Context="LiquidAmmoLoader SupplyHostWithLiquid NoRoom" ID="=subject.Does:have= no room for more =liquid.name|strip=.">=subject.T=にはこれ以上=liquid.name|strip=を入れる余地がない。</string>
+  <string Context="LiquidAmmoLoader Reload DumpWrongLiquidFirst" ID="You dump the =volume.liquid.name= out of =object.the.name=.">=object.the.name=から=volume.liquid.name=を捨てた。</string>
+  <string Context="LiquidAmmoLoader SupplyHostWithLiquid NoLiquid" ID="You have no =liquid.name|strip= to supply =object.the.name= with.">=object.the.name=に補給する=liquid.name|strip=を持っていない。</string>
+  <string Context="LiquidAmmoLoader Reload Success" ID="You =partial.if:partially= fill =object.the.name= with =volume.liquid.name=.">=object.the.name=を=volume.liquid.name=で=partial.if:部分的に=満たした。</string>
+  <string Context="LiquidVolume Collect - =snapshotLiquidName= - before collection" ID="=volume.liquid.name=">=volume.liquid.name=</string>
+  <string Context="LiquidVolume - Cleaning failure" ID="You cannot do that for some reason.">なぜかそれはできない。</string>
+  <string Context="LiquidVolume - autocollect failure" ID="Auto collection only works on unsealed containers with pure liquids.">自動収集は純粋な液体の入った密封されていない容器でのみ機能する。</string>
+  <string Context="LocationFinder Discovery Popup" ID="You discover =locName=!">=locName=を発見した！</string>
+  <string Context="LocationFinder ForgottenRuins =locName=" ID="=location.text|initLower=">=location.text|initLower=</string>
+  <string Context="LocationFinder Lair =locName=" ID="=location.text|initLower=">=location.text|initLower=</string>
+  <string Context="LocationFinder Discovery Text" ID="You discovered =locName=.">=locName=を発見した。</string>
+  <string Context="LocationFinder Travel Popup" ID="You traveled to =locName=!">=locName=に辿り着いた！</string>
+  <string Context="LocationFinder Travel Popup" ID="You traveled to =locName=.">=locName=に辿り着いた。</string>
+  <string Context="LocationFinder Settlement =locName=" ID="=location.text|initLowerIfArticle=">=location.text|initLowerIfArticle=</string>
+  <string Context="LocationFinder Location =locName=" ID="=location.text|titleCaseWithArticle=">=location.text|titleCaseWithArticle=</string>
+  <string Context="LongBlades Weapon Critical Description" ID="Long Blades (increased penetration on critical hit)">長剣（クリティカル時に貫通力上昇）</string>
+  <string Context="Look ShowLooker Look1" ID="Look |">調べる |</string>
+  <string Context="Look Window Recall Story Button" ID="Recall {{W|S}}tory">物語を思い出す（{{W|S}}）</string>
+  <string Context="Look ShowLooker Walk" ID="| =commandKey:CmdWalk= Walk">| =commandKey:CmdWalk= 歩く</string>
+  <string Context="Look ShowLooker ShowNavWeight(Debug)" ID="| {{hotkey|n}} Show NavWeight">| {{hotkey|n}} NavWeightを表示</string>
+  <string Context="Look ShowLooker Interact" ID="| =commandKey:Accept= Interact">| =commandKey:Accept= 調べる</string>
+  <string Context="Look ShowLooker LookNum" ID="Look [{{C|=num=}}/{{C|=count=}}] |">調べる [{{C|=num=}}/{{C|=count=}}] |</string>
+  <string Context="Look ShowLooker ConsoleUI MoreScrollUp" ID="&lt;MORE - use {{W|PgUp}} to scroll up&gt;">&lt;続きあり - {{W|PgUp}}で上へスクロール&gt;</string>
+  <string Context="Look ShowLooker ConsoleUI MoreScrollDown" ID="&lt;MORE - use {{W|PgDown}} to scroll down&gt;">&lt;続きあり - {{W|PgDown}}で下へスクロール&gt;</string>
+  <string Context="Look ShowLooker Lock" ID="=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|L}}ock">=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|ロ}}ック</string>
+  <string Context="Look ShowLooker Unlock" ID="=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|U}}nlock">=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|ロ}}ック解除</string>
+  <string Context="Look ShowLooker ChangeSelection" ID="| =commandKey:V Positive=/=commandKey:V Negative= Change Selection">| =commandKey:V Positive=/=commandKey:V Negative= 選択を変更</string>
+  <string Context="LookerPointsOfInterest prompt text" ID="=commandKey:CmdLook= points of interest">=commandKey:CmdLook= 注目地点</string>
+  <string Context="Lovesick Effect Accomplishment" ID="Your heart sang at the sight of =object.a.name=.">=object.a.name=を目にして、あなたの心は歌った。</string>
+  <string Context="Lovesick message log" ID="=subject.Does:fall= in love with =object.the.name=!">=subject.T=は=object.the.name=に恋をした！</string>
+  <string Context="LuminousInfection Sprout message" ID="You sprout a {{C|luminous hoarshroom}}.">{{C|光るホアシュルーム}}が生えてきた。</string>
+  <string Context="MagazineAmmoLoader GetMissileWeaponStatusEvent NoAmmo" ID="[{{K|empty}}]">[{{K|空}}]</string>
+  <string Context="MagazineAmmoLoader DisplayName Tag NoAmmo" ID="[{{K|empty}}]">[{{K|空}}]</string>
+  <string Context="MagazineAmmoLoader DisplayName Tag WithAmmo" ID="[=object.name=]">[=object.name=]</string>
+  <string Context="MagazineAmmoLoader CheckLoadAmmoEvent Jammed" ID="=subject.Does:are= jammed!">=subject.T=は弾詰まりした！</string>
+  <string Context="MagazineAmmoLoader LoadAmmoEvent Jammed" ID="=subject.Does:are= jammed!">=subject.T=は弾詰まりした！</string>
+  <string Context="MagazineAmmoLoader GetMissileWeaponStatusEvent AmmoAmount" ID="[=amount|color#amountColor=]">[=amount|color#amountColor=]</string>
+  <string Context="MagazineAmmoLoader CheckLoadAmmoEvent NoMoreAmmo" ID="=subject.Does:have= no more ammo!">=subject.T=には弾薬がもうない！</string>
+  <string Context="MagazineAmmoLoader LoadAmmoEvent NoMoreAmmo" ID="=subject.Does:have= no more ammo!">=subject.T=には弾薬がもうない！</string>
+  <string Context="MagazineAmmoLoader ReloadEvent AlreadyFull" ID="=subject.Does:are= already fully loaded.">=subject.T=は既に装填済みだ。</string>
+  <string Context="MagazineAmmoLoader ReloadEvent NoMoreAmmo" ID="You have no more ammo for =object.the.name=.">=object.the.name=用の弾薬がもうない。</string>
+  <string Context="MagazineAmmoLoader Load Success" ID="You reload =object.the.name= with =ammo.a.or.stack.name=.">=object.the.name=に=ammo.a.or.stack.name=を装填した。</string>
+  <string Context="MagazineAmmoLoader SupplyWithAmmo Success (ProperName Ammo)" ID="=subject.Does:transfer= =ammo.name:single= to =host.aForNPCSubject.name=.">=subject.T=は=ammo.name:single=を=host.aForNPCSubject.name=に移した。</string>
+  <string Context="MagazineAmmoLoader SupplyWithAmmo AskNumber" ID="Supply =host.the.name= with how many =ammo.pluralName=? (max=equals==amount=)">=host.the.name=に=ammo.pluralName=をいくつ補給する？（最大=equals==amount=）</string>
+  <string Context="MainMenu Main" ID="Mods">MOD</string>
+  <string Context="MainMenu Language Select Popup" ID="Select Language">言語を選択 / Select Language</string>
+  <string Context="MainMenu Language" ID="Language (=currentLanguage=)">言語 / Language（=currentLanguage=）</string>
+  <string Context="MakeFussOnTaken MakeFuss Popup" ID="You have =action= =object.the.name=!">=object.the.name=を=action=！</string>
+  <string Context="MakersMark - Get Crafter Name" ID="=subject.refname:MakersMark:long:withTitles|strip=">=subject.refname:MakersMark:long:withTitles|strip=</string>
+  <string Context="MakersMark: Unknown CrafterName" ID="a crafter">とある職人</string>
+  <string Context="Manage Equipment Set Header" ID="{{P|Manage =set=}}">{{P|=set=の管理}}</string>
+  <string Context="MapReveal Success Message" ID="=subject.itis= a map of your surroundings!">=subject.itis=周辺の地図だ！</string>
+  <string Context="MarkOfDeathSecret" ID="The lost Mark of Death from the late sultanate was =MarkOfDeath=.">亡きスルタン朝の失われた死の刻印は=MarkOfDeath=だった。</string>
+  <string Context="MarkovBook Accomplishment text" ID="You read =title=.">=title=を読んだ。</string>
+  <string Context="MarkovBook Decorate Title - (Unabridged)" ID="=title=: Unabridged">=title=：完全版</string>
+  <string Context="MarkovBook Decorate Title - (Volume #Roman)" ID="=title=, Vol. =volume.roman=">=title=、第=volume.roman=巻</string>
+  <string Context="MarkovBook Long Book, Prefix Editor's Note" ID="{{C|Editor's note:}} =note=&#10;&#10;">{{C|編者注:}} =note=
+
+</string>
+  <string Context="MarkovBook Long Book, Prefix Author's Note" ID="{{C|Author's note:}} =note=&#10;&#10;">{{C|著者注:}} =note=
+
+</string>
+  <string Context="MarkovBook Decorate Title - (n'th edition)" ID="=title=, =edition.ordinal.digits= Edition">=title=、第=edition=版</string>
+  <string Context="MarkovBook Popup Legible Excerpt" ID="You read one of the few legible excerpts from =title|color:Y=:&#10;&#10;&quot;=sentence=&quot;">=title|color:Y=の数少ない判読できる一節を読んだ:
+
+「=sentence=」</string>
+  <string Context="MarkovBook Accomplishment mural text" ID="In the month of =month= of =year=, =name= penned the influential book, =title=.">=year=年=month=の月、=name=は影響力ある書物『=title=』を著した。</string>
+  <string Context="MassMind Passive Exhaust" ID="{{R|Someone reaches through the aggregate mind and exhausts your power!}}">{{R|何者かが集合精神を通じて手を伸ばし、あなたの力を消耗させた！}}</string>
+  <string Context="MechanicalWings FlightSourceDescription" ID="Mechanical Wings">機械の翼</string>
+  <string Context="MechanicalWings TryStartupFail BootupNonObvious" ID="=subject.The.name= =subject.is= unresponsive.">=subject.The.name=は反応しない。</string>
+  <string Context="MechanicalWings TryStartupFail Bootup" ID="=subject.The.name= =subject.is= still starting up.">=subject.The.name=はまだ起動中だ。</string>
+  <string Context="MeleeWeapon Simplified Last Part" ID=" =glyph:Damage==damage="> =glyph:Damage==damage=</string>
+  <string Context="MeleeWeapon DetailedStats Critical" ID="Weapon Class: =critDesc=">武器種別: =critDesc=</string>
+  <string Context="MeleeWeapon OffhandChance Primary" ID="Attack Chance: =chance=%">攻撃確率: =chance=%</string>
+  <string Context="MeleeWeapon Simplified" ID="=glyph:PV==prefixNumber=">=glyph:PV==prefixNumber=</string>
+  <string Context="MeleeWeapon Description Detailed" ID="{{rules|=detailedStats=}}">{{rules|=detailedStats=}}</string>
+  <string Context="MeleeWeapon DetailedStats With Max" ID="=stat.Name= Bonus Cap: =max=">=stat.Name=ボーナス上限: =max=</string>
+  <string Context="MeleeWeapon DetailedStats No Limit" ID="=stat.Name= Bonus Cap: no limit">=stat.Name=ボーナス上限: なし</string>
+  <string Context="MeleeWeapon OffhandChance Offhand" ID="Offhand Attack Chance: =chance=%">副手攻撃確率: =chance=%</string>
+  <string Context="MeleeWeapon Simplified" ID="=glyph:PV==prefixNumber={{K|/=penetration=}}">=glyph:PV==prefixNumber={{K|/=penetration=}}</string>
+  <string Context="MeleeWeapon Description With Ego, Detailed" ID="{{rules|=ego.signed= Ego}}&#10;{{rules|=detailedStats=}}">{{rules|自我 =ego.signed=}}
+{{rules|=detailedStats=}}</string>
+  <string Context="MeleeWeapon Simplified Adaptive Penetration" ID="=glyph:PV==glyph.strip:Vibro==penBonus.signed|when#nonZero=">=glyph:PV==glyph.strip:Vibro==penBonus.signed|when#nonZero=</string>
+  <string Context="MeleeWeapon Description With HitBonus, Detailed" ID="{{rules|=hitBonus.signed= To-Hit}}&#10;{{rules|=detailedStats=}}">{{rules|命中 =hitBonus.signed=}}
+{{rules|=detailedStats=}}</string>
+  <string Context="MentalMirror Shatter Message" ID="=subject.The.name's:withTitles= mental mirror shatters!">=subject.The.name's:withTitles=精神の鏡が砕けた！</string>
+  <string Context="MentalMirror Reflect Message" ID="=subject.The.name's:withTitles= mental mirror reflects the attack!">=subject.The.name's:withTitles=精神の鏡が攻撃を跳ね返した！</string>
+  <string Context="MerchantRevealer bookText" ID="=spice:advertisements.merchants.!random=">=spice:advertisements.merchants.!random=</string>
+</strings>

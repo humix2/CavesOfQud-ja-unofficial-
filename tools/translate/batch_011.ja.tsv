@@ -1,0 +1,149 @@
+2	「=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper=」
+3	=mapnote.text|initLower=の広告
+4	[--ターン開始--]
+5	=subject.T=は=newBody.a.shortname:withTitles=の姿になった。
+6	{{W|[=commandKey:CmdFire=]}} 射撃
+7	{{W|[=commandKey:CmdReload=]}} リロード
+8	{{K|射撃武器を装備していない。}}
+9	{{R-R-r-r-g-g-G-G-B-B-b-b sequence|ビームスプリッター}}
+14	スパイク付き: =saveVs.saveBonus#amount=
+16	{{brainbrine|コプロセッサ}}
+18	カウンターウェイト付き(=level=)
+19	カウンターウェイト付き: 命中に=bonus.signed=。
+21	OK
+22	無効
+23	見つからない
+24	バージョン不一致
+25	{{W|=== 必須 ===}}
+26	{{W|=== 任意 ===}}
+27	{{=color=|=id= (=version=): =status=}}
+28	=modtitle=には不足している依存MODがある。
+29	と変装
+30	=blueprint.disguise.name#parentObject=
+31	変装=appearance.if:（:==appearance=
+32	=faction.formattedName=の評判 =level.signed=
+33	と=blueprint.part:Render:DisplayName:creature=の変装
+34	変装: このアイテムは着用者を=appearance=に見せかける。
+36	=subject.T=は=object.the.name=にぶつかった。
+38	<傷ついて判読できない>
+41	命中時=chance=%の確率で=faction.formattedName=の首を刎ねる。
+43	=chance=%の確率で運命が思いのままに振る舞う。
+44	羽飾り: このアイテムは着用者に鳥類からの評判=amount.signed=を与える。
+45	{{Y|フィルター付き}}
+47	フレキシウィーブ(=modLevel=)
+48	フレキシウィーブ: このアイテムのDVペナルティが軽減される。
+49	フレキシウィーブ: このアイテムのDVペナルティが=modLevel=軽減される。
+56	巨大: =subject.modGiganticDescription=
+67	=target.T=はガラスの鎧から=amount=のダメージを受けた。
+68	攻撃者にダメージの=tier=%（切り上げ）を反射する。
+69	=target.T=は=origin.its=ガラスの鎧から=amount=のダメージを受けた。
+70	=subject.T=は=object.the.name=に=amount=ダメージを反射した。
+71	命中時=chance=%の確率で四肢を切断する。
+73	{{mercurial|電磁}}シールド
+76	=mutation.name=
+77	== 警告 ==
+78	=errors.join:\n=
+79	{{W|依存MOD}}
+80	{{W|[R]}} {{y|再試行}}
+81	{{W|更新あり}}
+82	{{W|[W]}} {{y|ワークショップ}}
+83	=modname= - {{R|エラー}}
+84	（…ほか{{R|=number=}}件）
+85	=== =modtitle= のエラー ===
+86	=== =modtitle= =version= のエラー ===
+87	=author=に送れるよう、自動でクリップボードにコピーした。
+88	MOD作者に送れるよう、自動でクリップボードにコピーした。
+89	 [?]
+90	 [=amount=]
+92	 [{{=color=|?}}]
+93	=subject.the.name=
+94	 [{{=color=|空}}]
+95	 [{{=color=|=amount=}}]
+96	{{=liquid.color=|液冷式}}
+97	=subject.T=は=statusPhrase=。
+98	=subject.T=はギリギリと異音を立てた。
+99	=host.T=にはこれ以上=liquid.name|strip=を入れる余地がない。
+100	=subject.T=は既に=volume.liquid.name=で満タンだ。
+101	=host.the.name=に補給する=liquid.name|strip=を持っていない。
+102	=snapshotName=を=volume.liquid.name=で=partial.if:部分的に:=満たした。
+103	=subject.T=は地面に落ちた。
+104	=subject.T=は地面に落ちた。あなたはそれを拾い上げた。
+106	=subject.T=は今は浮かべない。
+107	作者: =author=
+108	{{W|[Esc]}} {{y|=text=}}
+109	{{W|[space]}} {{y|ボタンを押す}}
+110	{{W|[=commandKey:Cancel=]}} {{y|=text=}}
+111	{{W|[=commandKey:Accept=]}} {{y|MODを有効化}}
+112	{{W|[=commandKey:Accept=]}} {{y|MODを無効化}}
+113	{{W|[=commandKey:Accept=]}} {{y|ボタンを押す}}
+114	{{W|[=commandKey:Accept=]}} {{y|MODを再コンパイル}}
+115	{{W|[=commandKey:Accept=]}} {{y|依存MODを表示}}
+116	傑作: この武器のクリティカル率は5%ではなく=bonus=%になる。
+117	作者: =author=
+118	=bytes.bytes=
+119	{{w|# スクリプト}}
+120	{{W|# HARMONYパッチ}}
+121	{{yellow|依存MOD不足}}
+123	水銀式: ダメージを受けると使用者を安全な場所へテレポートさせる。
+124	水銀式: ダメージを受けると使用者を安全な場所へテレポートさせる（確率=chance=%）。
+127	=analgesic.if::痛みを伴う=奇妙な衝撃があなたの体に響き渡った。
+128	ナノン: 貫通時=high=%の確率で四肢を切断する
+129	ナノン: 貫通時=chance=%の確率で四肢を切断する
+130	ナノン: 貫通時=low=～=high=%の確率で四肢を切断する
+131	=modtitle=に新しいバージョンがある: =version=。
+134	スタンに抵抗！
+135	朦朧に抵抗！
+136	=subject.The.name's=パッドが衝撃を和らげた。
+137	<傷ついて判読できない>
+139	ほのかに輝く
+140	かすかな
+141	確かな
+142	実体のない
+143	(=remainingDesc=)
+144	=subject.T=は消えた。
+146	=subject.a.name=のホログラム
+147	{{quantumreverb|量子残響}}
+148	=subject.A.name=が現れた。
+149	リサイクル: このアイテムは着用者の排水を集めて浄化する。
+150	屈折: このアイテムは光線系の攻撃を屈折させることがある。
+153	{{Y|穏やかな}}面相
+154	鋸刃: この武器は=chance.a.number=%の確率で敵の四肢を切断する。
+156	六本指: 敏捷 =amount.signed=
+157	+出血
+161	{{watery|サスペンサー}}
+163	{{K|恐ろしい}}面相
+164	マップエディタ
+165	MODマネージャー
+166	MOD Wikiサイト
+167	セーブフォルダを開く
+168	メインメニューに戻る
+169	ワークショップアップローダー
+170	ブループリントブラウザ
+171	ヒストグラフィクノミコン
+172	Mods.csprojファイルを書き出す
+173	波動関数崩壊マップジェネレーター
+174	=subject.T=は=object.a.name=に変えられた。
+175	命中時、低確率で敵を=descriptionTerm=に変える。
+176	命中時、=chance=%の確率で敵を=descriptionTerm=に変える。
+179	{{K|かすかな}}
+180	{{W|明るい}}
+181	{{Y|燃え盛る}}
+182	=statistics[MoveSpeed].name= =amount.signed=
+184	そこには攻撃できるものがない。
+185	=subject.T=は怒涛の連続攻撃を繰り出した！
+186	=object.the.name=に手が届かず攻撃できない。
+187	ガス生成
+188	=gas.Name=生成
+189	=description=が増加
+190	=description=が減少
+191	=mutationName= ({{r|欠}})
+192	=bodyPartType|lower=の損傷がひどくてそれはできない！
+193	=part.ordinalName=の損傷がひどくてそれはできない！
+194	むしゃむしゃ！ =mutation.name:withAnnotations=は消え去った！ {{w|*げっぷ*}}
+195	=mutation.name=を付与する。
+196	レベル=level=の=mutation.name=を付与する。
+197	=name|nameStyle#format=
+198	=spice#query|title=
+199	=subject.T=は眠りに落ちた！
+200	=object.the.name=は外せない。
+201	周囲の物

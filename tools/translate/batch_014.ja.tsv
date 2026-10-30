@@ -1,0 +1,182 @@
+2	位相効果
+3	拳銃スキル
+4	石化
+5	スタン
+6	刃物武器
+7	接触性物質
+8	捕獲
+9	吸入毒
+10	身動きを封じられること
+11	言葉の効果
+12	=list.andList=
+13	注入毒
+14	強制移動
+15	リソフェクスの攻撃
+16	拘束
+17	ティンカリングの効果
+18	菌類の寄生
+19	食らいつき
+20	長剣スキル
+21	ホログラム効果
+22	敵対的な標識
+23	短剣スキル
+24	ビルジ括約筋
+25	脱炭素器の攻撃
+26	弓とライフルのスキル
+27	電磁パルス
+28	セーヴ =bonus.signed=
+29	=vs.saveThrowVersusDefault=
+30	病気の初期発症
+31	=liquid.name|strip=の効果
+32	セーヴ {{rules|=bonus.signed=}}
+33	=type.saveBonusTypeDescription=に免疫
+34	=type.saveBonusTypeDescription=へのセーヴ =bonus.signed=
+35	=type.saveBonusTypeDescription=へのセーヴ {{rules|=bonus.signed=}}
+36	 利用可能な電力: =available=アンペア
+37	[{{W|!!! 警告: 電力不足 !!!}}]
+38	オトーが叫んだ、「{{W|=name=！ 戻ってこい！}}」
+39	[{{R|!!! エラー: 電源システムが故障した !!!}}]
+40	=name=、攻撃で受けた損害を見積もってみた。
+50	=liquid.name|strip=
+51	=wormCorpse.name|strip=
+52	*スタンを振り払った*
+53	*朦朧を振り払った*
+54	*朦朧を振り払った*
+55	*スタンを振り払った*
+56	=subject.T=はスタンを振り払った。
+57	=subject.T=はスタンを振り払った。
+58	=subject.T=は朦朧を振り払った。
+59	=subject.T=は朦朧を振り払った。
+60	本当に=subject.reflexive=を刺しますか？
+61	=subject.T=は粉々に砕けた。
+62	発射まで=timer=…
+63	エクソダス発射まで=timer=…
+64	宇宙船を発射してゲームを終了しますか？
+65	宇宙船を発射してゲームを終了しますか？（確認のため=prompt=と入力）
+66	=glyph:AV==av= =glyph:DV==dv=
+67	構える盾がない。
+69	=liquid.name=
+70	=subject.T=は=object.the.name=を冒涜した。
+71	祠を冒涜するには=liquids.either.or=が1ドラム必要だ。
+72	=subject.T=は=object.the.name=の下で短く祈りを捧げた。
+73	シュグルイスの揺籃
+74	 または
+75	[-]
+76	[+]
+77	 または
+78	{{Y|>}}
+79	長剣
+80	短剣
+81	{{G|=name=}}
+82	{{R|=name=}}
+83	{{W|<さらに表示…>}}
+84	=elements.join=
+85	排他: {{g|=name=}}
+86	排他: {{R|=name=}}
+87	排他: {{G|=name=}}
+88	排他: {{R|=name=}}
+89	排他: {{g|=name=}}
+90	排他: {{R|=name=}}
+91	=expand.expanded=
+92	[必要なスキル]
+93	 - =elements.join=
+94	{{G|:=power.name=}}
+95	{{K|:}}=elements.join=
+96	{{G|[=requisite.name=]}}
+97	{{R|[=requisite.name=]}}
+98	:: {{C|=skill.cost=}} SP ::
+99	:: {{R|=skill.cost=}} SP ::
+100	:: {{C|=power.cost=}} SP ::
+101	:: {{R|=power.cost=}} SP ::
+102	排他: {{g|[=exclusion.name=]}}
+103	排他: {{R|[=exclusion.name=]}}
+104	その=thing=は既に持っている。
+105	スキルポイント(SP): {{C|=go.sp=}}
+106	{{g|習得済み}} [=learned=/=total=]
+107	=classname=の実装がない
+108	初期コスト {{g|[=skill.cost= sp]}}
+109	初期コスト {{r|[=skill.cost= sp]}}
+110	{{W|=skill.name=}} [{{C|=skill.cost=}}sp]
+111	{{W|=skill.name=}} [{{R|=skill.cost=}}sp]
+112	{{w|=skill.name=}} [{{C|=skill.cost=}}sp]
+113	{{w|=skill.name=}} [{{R|=skill.cost=}}sp]
+114	{{g|=power.name=}} [{{C|=power.cost=}}sp]
+115	{{g|=power.name=}} [{{R|=power.cost=}}sp]
+116	{{K|=power.name=}} [{{K|=power.cost=}}sp]
+117	{{=color=|=stat_title=}} {{C|=minimums=}}
+118	 {{W|=commandKeyConsole:Cancel=}}で閉じる
+119	[ {{W|スキル購入}} - 残り{{C|=sp=}}sp ]
+120	その=thing=を買うにはスキルポイントが足りない！
+121	本当に=name=を{{C|=cost=}} spで購入しますか？
+122	=skillname=を習得するまでこのスキルは覚えられない。
+123	初期コスト {{g|[=skill.cost= sp]}} [=learned=/=total=]
+124	初期コスト {{r|[=skill.cost= sp]}} [=learned=/=total=]
+125	=mutation.name=を持っているとこのスキルは覚えられない。
+126	=mutation.name=を得るまでこのスキルは覚えられない。
+127	既に=skill.name=を持っているとこのスキルは覚えられない。
+128	=attribute.statCapDisplayName=が足りず=powerEntry.name=を購入できない！
+129	{{G|[習得済み]}}
+130	{{R|[未習得]}}
+131	{{W|[未習得]}}
+132	=subject.T=は炎と煙を噴き上げて突進し始めた！
+133	=subject.T=は粘液だまりを吐き出した！
+134	=chance.signed=%の確率で生身の近接攻撃をすり抜ける
+135	=subject.T=は=object.the.name's==weapon.name:withTitles=をすり抜けた！
+136	=subject.T=は再び冬眠に落ちた。
+138	=subject.T=はフルクリートの塊で床を打ち破った！
+139	身軽な
+140	屈強な
+141	幼子喰らい
+142	はらわた撒き
+143	火吹き
+144	熊いじめ
+145	俊足の
+146	頭蓋割り
+147	=subject.T=は遠吠えした！
+148	=subject.T=は不安定化した！
+149	その対象は射程外だ！（5マス）
+150	=subject.T=は正常性の圧力に押し潰された。
+151	2つの=subject.pluralize=が接触し、両方とも爆発した！
+152	=subject.to.the.direction=に=subject.A.name=が現れた！
+153	=subject.T=は=object.the.name=と接触し、両方とも爆発した！
+154	屋内ではできない。
+155	=subject.T=はシューッと音を立てた。
+156	=subject.T=は炎に包まれた！
+158	持続時間
+159	x=number=
+160	=commandKey:CmdMoveD=で下りる。
+161	=subject.A.name=が上から落ちてきた。
+162	=subject.T=は施錠されていて、鍵を持っていない。
+163	=commandKey:CmdMoveU=で上る。
+164	=object.T=は施錠されていて、鍵を持っていない。
+166	貫通 ロール:=roll= 最終:=result=
+167	非貫通 ロール:=roll= 最終:=result=
+168	チューブが肌に当たってシュッと鳴り、血が燃え上がった！
+169	=stat.title= =adjust.signed==percent.if:%=
+170	起動時、=stat.title= =adjust.signed==percent.if:%=
+171	{{K|%%}}
+172	=node.displayName=: =node.statNode#stats=
+173	{{K|%%}}
+174	近接攻撃で敵を=duration=ターン動けなくする
+175	=subject.T=は=object.the.name=に絡め取られた！
+178	捧げるアーティファクトを持っていない。
+179	 [評判=repAmount.signed|color:C=]
+180	捧げられる重要でないアーティファクトを持っていない。
+181	=subject.T=は=items.andList:noSecondPerson=を=object.the.name=に投げ入れた。
+183	毒針を持っていない。
+184	=subject.T=は=object.the.name's:withTitles=毒に抵抗した！
+185	飲みすぎた！
+186	=subject.T=はそこらじゅうに吐いた！
+187	=subject.T=は真水をひと口飲んだ。
+188	飢えすぎていて長距離の移動ができない。
+189	=subject.T=は真水を=subject.itself=に浴びせた。
+190	=subject.T=は=object.the.name:itsPossessor=から真水をひと口飲んだ。
+193	ストップスヴァリンを起動
+194	{{R|力場}}がパチンと消えた。
+195	=subject.T=はわずかに振動した。
+196	目の前に{{R|力場}}がポンと現れた！
+197	=subject.T=には力場を維持するチャージが足りない！
+198	=subject.the.name=の前の{{R|力場}}がパチンと消えた。
+199	=subject.the.name=の前に{{R|力場}}がポンと現れた。
+200	=subject.T=は=object.a.name=を押し出した！
+201	=subject.T=は周囲に衝撃波を感じた！

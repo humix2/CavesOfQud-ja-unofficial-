@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	Campfire CookFromRecipe Menu Action Menu	Remove from favorite recipes
+2	Strings.example.xml	Campfire NostrumsTreatPoison	Select an ingredient to use.
+3	Strings.example.xml	Campfire NostrumsTreatIllness	Select an ingredient to use.
+4	Strings.example.xml	Campfire NostrumsTreatDiseaseOnset	Select an ingredient to use.
+5	Strings.example.xml	Campfire CookFromIngredients remaining, selected < max	\n{{y|[up to =n= remaining]}}
+6	Strings.example.xml	Campfire PreserveItems default ServingName	=sample.displayNameOnlyDirect=
+7	Strings.example.xml	Campfire Cook Error	=subject.Does:are= turned off.
+8	Strings.example.xml	Campfire CookFromIngredients ingredient name	=subject.cookingIngredientName=
+9	Strings.example.xml	Campfire PreserveExotic Final Message	You preserved:\n\n=preserveItem=.
+10	Strings.example.xml	Campfire PresetMeal CookingActions	Eat =cookingRecipe.name.recolor:Y=
+11	Strings.example.xml	Campfire RollIngredients random ingredient	=spice:cooking.ingredient.!random=
+12	Strings.example.xml	Campfire Preserve final message	You preserved:\n\n=items.join:.\n=.
+13	Strings.example.xml	Campfire RollIngredients ingredient name	=ingredient.a.cookingIngredientName=
+14	Strings.example.xml	Campfire DescribeMeal	=spice:cooking.cookTemplate.!random=
+15	Strings.example.xml	Campfire CookFromRecipe Rename Success	You rename the recipe to '=newname='.
+16	Strings.example.xml	Campfire Cook Error	=subject.Does:need= to be hung up first.
+17	Strings.example.xml	Campfire Cook Error	=subject.Does:do= not seem to be working.
+18	Strings.example.xml	Campfire CookFromRecipe Rename Unrename	You rename the recipe to '=originalname='.
+19	Strings.example.xml	Campfire NostrumsTreatIllness	Neither you nor =object.the.name= are ill.
+20	Strings.example.xml	Campfire NostrumsStopBleeding	You staunch the wounds of =object.the.name=.
+21	Strings.example.xml	Campfire Extinguish	=subject.Does:extinguish= =object.the.name=.
+22	Strings.example.xml	Campfire NostrumsStopBleeding	=object.name's= wounds are too deep to treat.
+23	Strings.example.xml	Campfire CookFromIngredients Inspired Recipe	You create a new recipe for {{|=recipe.name=}}!
+24	Strings.example.xml	Campfire CookFromIngredients Inspired Recipe AskFavorite	You create a new recipe for {{|=recipe.name=}}!
+25	Strings.example.xml	Campfire NostrumsStopBleeding	Neither you nor =object.the.name= are bleeding.
+26	Strings.example.xml	Campfire NostrumsTreatPoison	Neither you nor =object.the.name= are poisoned.
+27	Strings.example.xml	Campfire CookFromIngredients ingredient selector menu	=selected.checkbox.color=  =name= {{K|x=count=}}
+28	Strings.example.xml	Campfire Cook CookingActions Menu Title	{{W|The fire breathes its warmth on your bones.}}
+29	Strings.example.xml	Campfire CookFromRecipe Rename	You can't rename a recipe that someone else created.
+30	Strings.example.xml	Campfire AskFavorite	Would you like to add this recipe to your favorites?
+31	Strings.example.xml	Campfire Cook Error	=subject.Does:do= not have enough charge to operate.
+32	Strings.example.xml	Campfire Extinguish (no actor)	=subject.Does:are= extinguished by =object.the.name=.
+33	Strings.example.xml	Campfire CookFromRecipe Menu - Show hidden option	Show =countMissing= hidden recipes missing ingredients
+34	Strings.example.xml	Campfire CookFromRecipe Menu - hidden display	{{K|< =countMissing= hidden for missing ingredients >}}
+35	Strings.example.xml	Campfire RollTasty	You gorge on the succulent meat. It's tastier than usual.
+36	Strings.example.xml	Campfire CookFromIngredients Inspired Recipe Accomplishment	You invented a mouthwatering dish called {{|=recipe.name=}}!
+37	Strings.example.xml	Campfire NostrumsTreatDiseaseOnest	=object.Doesly:already:have= boosted immunity from a nostrum.
+38	Strings.example.xml	Campfire CookFromIngredients - select ingredients cook action	{{W|Cook with the {{=color=|=n=}} selected ingredients.}}=remaining=
+39	Strings.example.xml	Campfire CookFromRecipe Rename	Enter a new recipe name, or leave blank to return to its original name.
+40	Strings.example.xml	Campfire NostrumsTreatIllness	You try to cure =object.name's= illness, but cannot affect =object.them=.
+41	Strings.example.xml	Campfire NostrumsTreatIllness	You cure =object.name's= illness with a balm made from =cure.a.name:single=.
+42	Strings.example.xml	Campfire NostrumsTreatDiseaseOnset	Neither you nor =object.the.name= are suffering from the onset of a disease.
+43	Strings.example.xml	Campfire NostrumsTreatIllness	You have no medicinal ingredients with which to treat =object.name's= illness.
+44	Strings.example.xml	Campfire NostrumsTreatDiseaseOnset	You boost =object.name's= immunity with a balm made from =cure.a.name:single=.
+45	Strings.example.xml	Campfire NostrumsStopBleeding	You staunch the wounds of =object.the.name=, though some are too deep to treat.
+46	Strings.example.xml	Campfire NostrumsTreatPoison	The poison affecting =list.andList= is too strong to be cured by your nostrums.
+47	Strings.example.xml	Campfire NostrumsTreatDiseaseOnset	You try to cure =object.name's= disease onset, but cannot affect =object.them=.
+48	Strings.example.xml	CampfireRemains AttemptLight AnnounceSuccess	=subject.Does:light= =object.the.name=.
+49	Strings.example.xml	CampfireRemains AttemptLight FailInPool	You cannot light =object.the.name= while =object.itis= in =pool.the.name=.
+50	Strings.example.xml	Carapace noun default	carapace
+51	Strings.example.xml	Carapace Ability Name	Tighten =carapace.name=
+52	Strings.example.xml	Carapace Tighten Other	=subject.Does:tighten= =subject.possessive= =carapace.name=.
+53	Strings.example.xml	Carapace Loosen Other	=subject.The.name's= =carapace.name= =carapace.verb:loosen=.
+54	Strings.example.xml	Carapace Tighten Fail	=subject.Does:fail= to tighten =subject.possessive= =carapace.name=.
+55	Strings.example.xml	Carapace Tighten Player	You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor=}}.
+56	Strings.example.xml	CarbideChef Inspired applied	You swell with inspiration to cook a mouthwatering meal.
+57	Strings.example.xml	CarryBonus Percent	=bonus.signed=% carry capacity
+58	Strings.example.xml	CarryBonus Flat	=bonus.signed= lbs. carry capacity
+59	Strings.example.xml	CellTeleport default arriveVerb	appear
+60	Strings.example.xml	CellTeleport default LeaveVerb	disappear
+61	Strings.example.xml	CharacterAttributeLine modifiertext	{{=color=|[=value.signed=]}}
+62	Strings.example.xml	CharacterMutationLine mutation no level	{{y|=mutation.name:withAnnotations=}}
+63	Strings.example.xml	CharacterMutationLine mutation with level	{{y|=mutation.name:withAnnotations= ({{=levelcolor=|=mutation.level=}})}}
+64	Strings.example.xml	CharacterStatusScreen mutationTermCapital	=term|title=
+65	Strings.example.xml	CharacterStatusScreen mutationTermText (header, from mutationsTerm)	=term|upper=
+66	Strings.example.xml	CharacterStatusScreen Attributes Long	MAIN ATTRIBUTES
+67	Strings.example.xml	CharacterStatusScreen MutationDetails	=mutation.details=
+68	Strings.example.xml	CharacterStatusScreen mutation points short	MP: {{=color=|=mp=}}
+69	Strings.example.xml	CharacterStatusScreen MutationRankText	{{G|RANK =level=/10}}
+70	Strings.example.xml	CharacterStatusScreen MutationType Mental Defect	{{r|[Mental Defect]}}
+71	Strings.example.xml	CharacterStatusScreen mutationsTerm	=term|pluralize|title=
+72	Strings.example.xml	CharacterStatusScreen MutationType Physical Defect	{{R|[Physical Defect]}}
+73	Strings.example.xml	CharacterStatusScreen MutationDetailsShort	=mutation.details:short=
+74	Strings.example.xml	CharacterStatusScreen Buy Mutation description	Buy =subject.MutationTerm=
+75	Strings.example.xml	CharacterStatusScreen attribute points	Attribute Points: {{=color=|=ap=}}
+76	Strings.example.xml	CharacterStatusScreen Statistic HelpText BaseValue	Your base =statName= is =statValue=.
+77	Strings.example.xml	CharacterStatusScreen MutationType Mental	{{c|[Mental =subject.MutationTerm=]}}
+78	Strings.example.xml	CharacterStatusScreen MutationType Physical	{{c|[Physical =subject.MutationTerm=]}}
+79	Strings.example.xml	CharacterStatusScreen classtext line	=subject.genotype.name= =subject.subtype.name=
+80	Strings.example.xml	CharacterStatusScreen mutation points long	=subject.mutationTerm|initUpper= Points: {{=color=|=mp=}}
+81	Strings.example.xml	CharacterStatusScreen stats line level hp xp weight	Level: =level= » HP: =hp=/=hpfull= » XP: =xp=/=xpnextlevel= » Weight: =weight=#
+82	Strings.example.xml	Chargen EmbarkBuilder MenuOption Next	Next
+83	Strings.example.xml	Chargen Subtype SingularTitle Default	subtype
+84	Strings.example.xml	Chargen Gamemode Quickstart Title	Quickstart
+85	Strings.example.xml	Chargen CustomizeCharacter Option Gender nonspecific	nonspecific
+86	Strings.example.xml	Chargen CustomizeCharacter PrefixMenuOption	World Seed: 
+87	Strings.example.xml	Chargen Attribute Selection Modifier Text	[=modifier=]
+88	Strings.example.xml	Chargen Subtype Title	:=subtypetitle=:
+89	Strings.example.xml	Chargen Attribute Selection Title	[=apToRaise=pts]
+90	Strings.example.xml	Chargen Popup Input Seed Title	Enter world seed:
+91	Strings.example.xml	Chargen Gamemode MenuOption Quickstart	[Debug] Quickstart
+92	Strings.example.xml	Chargen Worldgen Title	{{W|Creating World}}
+93	Strings.example.xml	Chargen Mutations Prefix Numberbox	=selected.numberbox=
+94	Strings.example.xml	Chargen Attributes SummaryBlockData Statline	=stat.title=: =value=
+95	Strings.example.xml	Chargen Attributes Points Remaining	Points Remaining: =ap=
+96	Strings.example.xml	Chargen Gamemode DataError Unselected	No game mode selected.
+97	Strings.example.xml	Chargen Mutations Points Remaining	Points Remaining: =mp=
+98	Strings.example.xml	Chargen Cybernetics DataError Invalid	Invalid choice selected
+99	Strings.example.xml	Chargen EmbarkBuilder BigHeader	{{W|character creation}}
+100	Strings.example.xml	Chargen BuildLibrary Build Popup manage build	Manage Build: =buildname=
+101	Strings.example.xml	Chargen Cybernetics PrefixMenuOption checkbox	=selected.checkbox.basic=
+102	Strings.example.xml	Chargen Mutations Prefix Checkbox (max 1)	=selected.checkbox.basic=
+103	Strings.example.xml	Chargen Attributes Stat Bonus Line	=bonus.signed= from =source=
+104	Strings.example.xml	Chargen Subtype Generic Info	=glyph:ChargenBullet= =info=
+105	Strings.example.xml	Chargen Mutations SummaryBlockData Row	=mutation= =count.x.multiple=
+106	Strings.example.xml	Chargen EmbarkBuilder Warnings Popup Message	=warnings=\n\nContinue anyway?
+107	Strings.example.xml	Chargen Mutations Prefix Finalizer	=box==nodecost.numberbox.color=
+108	Strings.example.xml	Chargen Cybernetics Description	=blueprint.displayName= (=slot=)
+109	Strings.example.xml	Chargen Gamemode Quickstart Description	Start a new game with one button.
+110	Strings.example.xml	Chargen Genotype Stat Bonus Source Description	{{important|=genotype=}} genotype
+111	Strings.example.xml	Chargen Subtype Breadcrumb	=subtypeSingularTitle|capitalize=
+112	Strings.example.xml	Chargen Attributes DataWarning Unspent	You have unspent attribute points.
+113	Strings.example.xml	Chargen Subtype Skill Info Item	=glyph:ChargenBullet= =skill.name=
+114	Strings.example.xml	Chargen Cybernetics Long Description Default	{{C|-2 License Tier\n+1 Toughness}}
+115	Strings.example.xml	Chargen Subtype Builder Info Item	=glyph:ChargenBullet= =builderInfo=
+116	Strings.example.xml	Chargen Subtype Attached Power Info Item	  =glyph:ChargenBullet= =power.name=
+117	Strings.example.xml	Chargen Subtype Stat Bonus Source Description	{{important|=subtype=}} =singularname=
+118	Strings.example.xml	Chargen Subtype Save Bonus Info Item	=glyph:ChargenBullet= =saveDescription=
+119	Strings.example.xml	Chargen Attributes DataError Overspent	You have spent too many attribute points!
+120	Strings.example.xml	Chargen Subtype Attached Power Info Item	=glyph:ChargenBullet= =power.disambiguated=
+121	Strings.example.xml	Chargen Subtype Stat Minimum Info	=glyph:ChargenBullet= minimum =min= =stat.statDisplayName=
+122	Strings.example.xml	Chargen Subtype Stat Maximum Info	=glyph:ChargenBullet= maximum =max= =stat.statDisplayName=
+123	Strings.example.xml	Chargen Subtype Stat Bonus Info	=glyph:ChargenBullet= =bonus.signed= =stat.statDisplayName=
+124	Strings.example.xml	Chargen BuildLibrary Popup code exists	That code is already in your library. It's named =buildname=.
+125	Strings.example.xml	Chargen Mutations Format variant available	=displayName= [=commandKey:CmdChargenMutationVariant|color:W=]
+126	Strings.example.xml	ChavvahSystem - Reveal Popup	You discover =note.text|initLowerIfArticle=!
+127	Strings.example.xml	ChavvahSystem - Reveal Popup - attuned	You touch the chiming rock. White noise carries on a distant wind.
+128	Strings.example.xml	checkbox basic (checked)	[■]
+129	Strings.example.xml	checkbox basic (unchecked)	[ ]
+130	Strings.example.xml	checkbox with color (unchecked)	{{y|[ ]}}
+131	Strings.example.xml	checkbox with color (checked)	{{y|[{{G|■}}]}}
+132	Strings.example.xml	CheckpointingSystem RETIRE	RETIRE
+133	Strings.example.xml	CheckpointingSystem TypeRetire	Type 'RETIRE' to confirm.
+134	Strings.example.xml	ChevronWall Twin Prefix Fragment	anti-
+135	Strings.example.xml	Choose equipment	Choose equipment
+136	Strings.example.xml	Clairvoyance VisionRadius stat, whole map	whole map
+137	Strings.example.xml	Clairvoyance activated message log	=subject.Does:peer= into another space.
+138	Strings.example.xml	Cleave Skill =cleaveTarget= MA	mental armor
+139	Strings.example.xml	Cleave PerformCleave	=subject.Does:cleave= through =object.the.name's:withTitles= =cleaveTarget=.
+140	Strings.example.xml	CleaveOnHit RulesPostfix Always	Cleaves armor
+141	Strings.example.xml	CleaveOnHit RulesPostfix AlwaysCritical	Cleaves armor on critical hit
+142	Strings.example.xml	CleaveOnHit RulesPostfix Chance	=chance=% chance to cleave armor
+143	Strings.example.xml	CleaveOnHit RulesPostfix AlwaysMentalCritical	Cleaves mental armor on critical hit
+144	Strings.example.xml	CleaveOnHit RulesPostfix ChanceCritical	=chance=% chance to cleave armor on critical hit
+145	Strings.example.xml	CleaveOnHit RulesPostfix ChanceMentalCritical	=chance=% chance to cleave mental armor on critical hit
+146	Strings.example.xml	CloneOnHit AttackerHit Destabilizes	=subject.Does:destabilize=.
+147	Strings.example.xml	Cloning Accomplishment	On the =day= of =month=, you multiplied.
+148	Strings.example.xml	Cloning - Renaming a proper name	clone of =subject.refname:withIndefiniteArticle=
+149	Strings.example.xml	Cloning detach message log	=subject.A.name= =subject.verb:detach= from =object.the.name=!
+150	Strings.example.xml	CodaSystem - Prompt to leave village - Required Response	END GAME
+151	Strings.example.xml	CodaSystem - Prompt to leave village	Leaving the village will end the game.\n\nType =prompt= to confirm.
+152	Strings.example.xml	Combat Attacker Miss Message (terse)	=subject.Does:miss= you!
+153	Strings.example.xml	Combat Player Miss Message (no weapon)	{{r|You miss!}} [=hitResult= vs. =dv=]
+154	Strings.example.xml	Combat Attacker Miss Message (no weapon)	=subject.Does:miss= you! [=hitResult= vs. =dv=]
+155	Strings.example.xml	Combat Attacker Miss Message (with weapon)	=subject.Does:miss= you with =subject.its.item#weapon=! [=hitResult= vs. =dv=]
+156	Strings.example.xml	Combat Player Miss Message (with weapon)	{{r|=subject.Does:miss= with =subject.its.item#weapon=!}} [=hitResult= vs. =dv=]
+157	Strings.example.xml	CommonUIStrings MenuOption Bind	Bind
+158	Strings.example.xml	CommonUIStrings MenuOption Unbind	Unbind
+159	Strings.example.xml	CommonUIStrings MenuOption UnbindKey	Unbind Key
+160	Strings.example.xml	CompanionCapacity RulesPostfix Beguiled Fewer	You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.
+161	Strings.example.xml	CompanionCapacity RulesPostfix Proselytized Fewer	You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.
+162	Strings.example.xml	CompanionCapacity RulesPostfix Beguiled Additional	You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.
+163	Strings.example.xml	CompanionCapacity RulesPostfix Proselytized Additional	You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.
+164	Strings.example.xml	ComputePower Rules Line - Increases	Compute power on the local lattice increases this item's effectiveness.
+165	Strings.example.xml	ComputePower Rules Line - Decreases	Compute power on the local lattice decreases this item's effectiveness.
+166	Strings.example.xml	Conatus - Sprint Duration Bonus Source	=displayName= skill
+167	Strings.example.xml	Confused Effect Apply	=subject.Does:become= confused!
+168	Strings.example.xml	Confused Effect Conversation	=subject.Does:don't= seem to understand you.
+169	Strings.example.xml	Confused Effect Conversation Telepathy	=subject.The.name's:withTitles= mind is in disarray.
+170	Strings.example.xml	Confusion Resist MessageLog	=subject.Does:resist= being confused.
+171	Strings.example.xml	Confusion Unaffected MessageLog	Your attack does not affect =object.the.name=.
+172	Strings.example.xml	Console UI WorldCreationProgress Step Complete	{{G|Complete!}}
+173	Strings.example.xml	Console Trade UI Free Drams	 {{W|$=freeDrams=}} 
+174	Strings.example.xml	Console Trade UI Total	 {{C|=total:0.???=}} drams
+175	Strings.example.xml	ContainedStaticGlitching Effect DisplayName	{{entropic|glitching}}
+176	Strings.example.xml	Container Fail Cannot Trade	You cannot trade with =object.the.name=.
+177	Strings.example.xml	Container Opening Picker Title	=isIn.if:Opening:Examining= =object.a.name|strip=
+178	Strings.example.xml	Container Has Nothing, Confirm Store	There's nothing =preposition= that. Would you like to store an item?
+179	Strings.example.xml	Converation GiveReshephSecret XP popup	You gain {{C|=xp=}} XP.
+180	Strings.example.xml	Conversation Choice - End tag	{{K|[End]}}
+181	Strings.example.xml	Conversation GlotrotFilter	=GlotrotWord=.
+182	Strings.example.xml	Conversation BuildGolem Tag	{{W|[Build Golem]}}
+183	Strings.example.xml	Conversation Globals - begin trade option	{{g|[begin trade]}}
+184	Strings.example.xml	Conversation GiveArtifact Tag	{{g|[give artifact]}}
+185	Strings.example.xml	Conversation CrossIntoBrightsheol Tag	{{M|[lesser victory]}}
+186	Strings.example.xml	Conversation GiveReshephSecret Tag	{{g|[Share secrets from Resheph's life]}}
+187	Strings.example.xml	Conversation Water Ritual - Failure Popup	You don't have a high enough reputation with =faction.the.name=.
+188	Strings.example.xml	Conversation AddSlynthCandidate Popup	=sanctuary|capitalize= =plural.if:are:is= now a sanctuary option for the slynth.
+189	Strings.example.xml	ConversationDelegate gain XP message log popup	=subject.Does:gain= =xp|rules= XP!
+190	Strings.example.xml	ConversationScript PronounExchange Text Prepend	[=pronounExchange=]\n\n
+191	Strings.example.xml	ConversationScript Fail Nothing To Say	=subject.Does:have= nothing to say.
+192	Strings.example.xml	ConversationScript Fail Cant Telepathically	You can sense nothing from =subject.the.name=.
+193	Strings.example.xml	ConversationScript Fail Mentally Hostile	You sense only hostility from =subject.the.name=.
+194	Strings.example.xml	ConversationScript Fail Unresponsive	=subject.the.name= =subject.is= utterly unresponsive.
+195	Strings.example.xml	ConversationScript Fail Cant Mentally Contact	You cannot seem to make contact with =subject.the.name=
+196	Strings.example.xml	ConversationScript Fail Hostile	=subject.The.name= =subject.verb:refuse= to speak to you.
+197	Strings.example.xml	ConversationScript PronounExchange (yours only)	You give =subject.the.name= your =isNew.if:new :=pronouns.
+198	Strings.example.xml	ConversationScript Fail CantStart	You cannot seem to engage =subject.the.name= in conversation.
+199	Strings.example.xml	ConversationScript Fail You Are Confused	You can't seem to make out what =subject.the.name= =subject.is= saying.
+200	Strings.example.xml	Converstaion AddSlynthCandidate Tag	{{W|[confirm =sanctuary= as a sanctuary option]}}

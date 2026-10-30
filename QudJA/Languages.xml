@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ゲーム同梱の Source Han Mono（日本語字形）を使う -->
+<languages Encoding="utf-8">
+  <lang Code="ja" DisplayName="日本語" FontFamily="Source Han Mono" />
+</languages>

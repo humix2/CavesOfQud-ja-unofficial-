@@ -1,0 +1,201 @@
+No	file	Context	ID
+2	Strings.example.xml	QudHistoryFactory Name Chance	=article|spaceAfter==nameRoot|spaceAfter==spice:entity@siteTopology1.!random=
+3	Strings.example.xml	QudHistoryHelpers GetMaskName	Nil Face
+4	Strings.example.xml	QudHistoryHelpers Sultanate Era (Before Resheph)	=year= BR
+5	Strings.example.xml	QudHistoryHelpers GetMaskName	Kesil Face
+6	Strings.example.xml	QudHistoryHelpers GetMaskName	Earth Face
+7	Strings.example.xml	QudHistoryHelpers GetMaskName	Olive Face
+8	Strings.example.xml	QudHistoryHelpers ListAllCognomen single	 =cognomen=
+9	Strings.example.xml	QudHistoryHelpers GetMaskName	Levant Face
+10	Strings.example.xml	QudHistoryHelpers default Cognomen	the Untitled
+11	Strings.example.xml	QudHistoryHelpers GetMaskName	Shemesh Face
+12	Strings.example.xml	QudHistoryHelpers ListAllCognomen	, =cognomen.commaList=,
+13	Strings.example.xml	QudHistoryHelpers GenerateLocationName	=seed|wordRoot|capitalize=abad
+14	Strings.example.xml	QudHistoryHelpers GenerateLocationName	=seed|wordRoot|capitalize=grad
+15	Strings.example.xml	QudHistoryHelpers GenerateLocationName	=seed|wordRoot|capitalize=platz
+16	Strings.example.xml	QudHistoryHelpers GenerateLocationName	=seed|randomMeaningfulWord|capitalize= City
+17	Strings.example.xml	QudHistoryHelpers NameItemAdjRoot	=object|wordRoot==spice:items.suffixes.!random=
+18	Strings.example.xml	QudHistoryHelpers NameItem	=object|wordRoot|initCap==spice:items.suffixes.!random=
+19	Strings.example.xml	QudHistoryHelpers NameItem	=object|wordRoot|capitalize==spice:items.suffixes.!random=
+20	Strings.example.xml	QudHistoryHelpers NameItemNounRoot	=object|randomMeaningfulWord|'s= =spice:items.blessing.!random=
+21	Strings.example.xml	QudHistoryHelpers NameItemAdjRoot	=coinflip.if:the ==object|randomMeaningfulWord= =spice:items.blessing.!random=
+22	Strings.example.xml	Quest UI QuestsLine Quest Giver Label	Quest Giver:
+23	Strings.example.xml	Quest UI Questsline Title	=expand.expanded= =name|strip=
+24	Strings.example.xml	Quest UI Quest Cancel Line	 =commandKeyConsole:Cancel= to exit 
+25	Strings.example.xml	Quest UI QuestsLine Quest Giver Text	=questGiverName= / =questGiverLocationName=
+26	Strings.example.xml	Quest UI Quest Bonus Reward Line	Bonus reward for completing this quest by level &C=level=&y.
+27	Strings.example.xml	Quests UI Map Pin Quest Label	{{B|quest:}} =quest.name|strip=
+28	Strings.example.xml	QuickenMind Not Operational Fail	=subject.Does:are= dead still.
+29	Strings.example.xml	QuickenMind Booting Fail	=subject.Does:are= still attuning.
+30	Strings.example.xml	QuickenMind NothingToDo Fail	None of your abilities need refreshing.
+31	Strings.example.xml	QuickenMind AllCooldowns Success	You are quickened with creative energy! All cooldowns are refreshed.
+32	Strings.example.xml	Quills ObjectName	=blueprint.name=
+33	Strings.example.xml	Quills TakeDamage Message Fragment	from %t =quillsName=!
+34	Strings.example.xml	Quills AbilityName	=blueprint.tag:AbilityName:Quill Fling=
+35	Strings.example.xml	Quills ObjectNameSingular	=blueprint.tag:DisplayNameSingular:quill=
+36	Strings.example.xml	Quills fling (while engulfed)	=subject.Does:fling= =subject.its= =quillsName=!
+37	Strings.example.xml	Quills fling	=subject.Does:fling= =subject.its= =quillsName= everywhere!
+38	Strings.example.xml	Quills ActivatedAbility Name	=abilityName= [=quillsAmount.things#quillsSingular#quillsName= left]
+39	Strings.example.xml	Quills DefenderHit Quills Broke	The attack breaks =quillsAmount.cardinal.things#quillsSingular#quillsName=!
+40	Strings.example.xml	RandomAltarBaetyl Reward List	=list.andList=
+41	Strings.example.xml	RandomAltarBaetyl Reward List	=item.a.name:long=
+42	Strings.example.xml	RandomAltarBaetyl Bestowal Item Name Finalizer	=name|title|ansify=
+43	Strings.example.xml	RandomAltarBaetyl Bestowal Item Name (creature/person)	=spice:history.relics.names.!random=
+44	Strings.example.xml	RandomAltarBaetyl Reward List	=points= skill =points.pluralize:point=
+45	Strings.example.xml	RandomAltarBaetyl Reward List	=points= mutation =points.pluralize:point=
+46	Strings.example.xml	RandomAltarBaetyl Reward List	=points= attribute =points.pluralize:point=
+47	Strings.example.xml	RandomAltarBaetyl Reward List	=points= experience =points.pluralize:point=
+48	Strings.example.xml	RandomAltarBaetyl Reward List	=points= reputation with =faction.factionName=
+49	Strings.example.xml	RandomAltarBaetyl Object Demand (only 1)	=object.countable.name:onlyDirect:stripped|article=
+50	Strings.example.xml	RandomAltarBaetyl Mod Demand Prefix Name	=number.cardinal= =mod.name= =number.pluralize:item=
+51	Strings.example.xml	RandomAltarBaetyl Mod Demand Suffix Name	=number.cardinal= =number.pluralize:item= =mod.name=
+52	Strings.example.xml	RandomAltarBaetyl Reward List	=points= cybernetics license =points.pluralize:point=
+53	Strings.example.xml	RandomAltarBaetyl Journal Entry	A baetyl demanding "=demand=" and promising "=reward=".
+54	Strings.example.xml	RandomAltarBaetyl Offer Message	Offer =subject.the.name= =inventory.andList:asPossessed=?
+55	Strings.example.xml	RandomAltarBaetyl Offer Message	Offer =subject.the.name= =nearby.andList:definiteArticles= nearby?
+56	Strings.example.xml	RandomAltarBaetyl	I ACCEPT YOUR OFFERING!\n\nThe sparking baetyl gives you =reward=!
+57	Strings.example.xml	RandomAltarBaetyl Object Demand (more than 1)	=number.cardinal= =object.countable.name:onlyDirect:stripped:plural=
+58	Strings.example.xml	RandomAltarBaetyl Journal Accomplishment	You appeased a baetyl with =demand= and in return received =reward=.
+59	Strings.example.xml	RandomAltarBaetyl Offer Message	Offer =subject.the.name= =needed= out of =inventory.andList:asPossessed=?
+60	Strings.example.xml	RandomFigurine Material DisplayName	topaz
+61	Strings.example.xml	RandomlyMutation gain mutation spentPointsReport fragment	You gain =mutation.name=!
+62	Strings.example.xml	RandomRuinRecoiler Location-Based Name Fragment	=zoneID.recoiler.name=
+63	Strings.example.xml	RandomRuinRecoiler GetDisplayName	=locationNameCache= recoiler
+64	Strings.example.xml	RealityStabilized FailedToContest Third Person	=subject.Does:wince=.
+65	Strings.example.xml	RealityStabilized Interdict Message, one region, no purpose	You cannot alter spacetime through the normality lattice in the local region.
+66	Strings.example.xml	Rebekahs tombstone name	Rebekah
+67	Strings.example.xml	Rebekahs tombstone finalize	=engraving|tombstoneRebekah=
+68	Strings.example.xml	RebornOnDeathInThinWorld Message Log	=subject.Does:continue= being.
+69	Strings.example.xml	Rebuke Robot Target Title	Rebuke what robot?
+70	Strings.example.xml	Rebuke Removed	=subject.Does:wander= away disinterestedly.
+71	Strings.example.xml	Rebuke Robot neutralize	=subject.Does:wander= away disinterestedly.
+72	Strings.example.xml	Rebuked Applied	=subject.Does:rebuke= =object.the.name= into submission.
+73	Strings.example.xml	Rebuked Dismiss	=subject.Does:dismiss= =object.the.name= from =subject.its= service.
+74	Strings.example.xml	Recipe UI Name	=recipe.name=
+75	Strings.example.xml	Recipe UI Name Favorite	=glyph:FavHeart= =recipe.name=
+76	Strings.example.xml	Reclamation Quest, failed attempt rename	=questName=, attempt #=number=
+77	Strings.example.xml	RecoilOnDeath NameForStatus TechScanning	EmergencyMedEvac
+78	Strings.example.xml	RecoilOnDeath Activation Message	=subject.Does:dematerialize= out of the local region of spacetime.
+79	Strings.example.xml	RecomingPlaque Inscribed	=text|recomingPlaque=
+80	Strings.example.xml	RecomingPlaque Text	"Unwrap thyself of thy grave clothes, and go."
+81	Strings.example.xml	Redeem Code	Redeeming code...
+82	Strings.example.xml	Redeem Code	Installing pet...
+83	Strings.example.xml	Redeem Code	Downloading pet...
+84	Strings.example.xml	Redeem Code	Reloading configuration...
+85	Strings.example.xml	Redeem Code	The pet finished downloading!
+86	Strings.example.xml	Redeem Code - Error	Error downloading pet: =exception=
+87	Strings.example.xml	ReduceCooldowns RulesPostfix PercentagePenalty All	Causes =min.range#max=% increase in the cooldowns of activated abilities.
+88	Strings.example.xml	ReduceCooldowns RulesPostfix PercentageReduction All	Provides =min.range#max=% reduction in the cooldowns of activated abilities.
+89	Strings.example.xml	ReduceEnergyCosts RulesPostfix PercentageIncrease All	Causes =min.range#max=% increase in action costs.
+90	Strings.example.xml	ReduceEnergyCosts RulesPostfix PercentageReduction All	Provides =min.range#max=% reduction in action costs.
+91	Strings.example.xml	ReduceEnergyCosts RulesPostfix PercentageIncrease ExplicitScope	Causes =min.range#max=% increase =scopedescription=.
+92	Strings.example.xml	ReduceEnergyCosts RulesPostfix PercentageReduction ExplicitScope	Provides =min.range#max=% reduction =scopedescription=.
+93	Strings.example.xml	ReduceEnergyCosts RulesPostfix PercentageRandom All	Confers =min.range#max=% reduction/increase in action costs.
+94	Strings.example.xml	ReduceEnergyCosts RulesPostfix Powered PercentageIncrease All	When powered, causes =min.range#max=% increase in action costs.
+95	Strings.example.xml	ReduceEnergyCosts RulesPostfix PercentageRandom ExplicitScope	Confers =min.range#max=% reduction/increase =scopedescription=.
+96	Strings.example.xml	ReduceEnergyCosts RulesPostfix Powered PercentageReduction All	When powered, provides =min.range#max=% reduction in action costs.
+97	Strings.example.xml	ReduceEnergyCosts RulesPostfix Powered PercentageIncrease ExplicitScope	When powered, causes =min.range#max=% increase =scopedescription=.
+98	Strings.example.xml	ReduceEnergyCosts RulesPostfix Powered PercentageReduction ExplicitScope	When powered, provides =min.range#max=% reduction =scopedescription=.
+99	Strings.example.xml	ReduceEnergyCosts RulesPostfix Powered PercentageRandom All	When powered, confers =min.range#max=% reduction/increase in action costs.
+100	Strings.example.xml	ReduceEnergyCosts RulesPostfix Powered PercentageRandom ExplicitScope	When powered, confers =min.range#max=% reduction/increase =scopedescription=.
+101	Strings.example.xml	ReflectDamage Message Log	=subject.Does:reflect= =amount= damage back at =object.the.name=.
+102	Strings.example.xml	ReflectProjectiles DefaultVerb	reflect
+103	Strings.example.xml	ReflectProjectiles Check activates	=subject.Does:activate= =subject.its= reflective shield.
+104	Strings.example.xml	ReflectProjectiles Check deactivated	=subject.Does:have= =subject.its= reflective shield deactivated.
+105	Strings.example.xml	RefractLight default verb	refract
+106	Strings.example.xml	RefractLight Always	=verb.ThirdPerson= light-based attacks.
+107	Strings.example.xml	RefractLight Sometimes	Has =chance.a.number=% chance to =verb= light-based attacks.
+108	Strings.example.xml	RegenMedication Default Message	The tube hisses against your skin, and a hot tingling infuses your whole body.
+109	Strings.example.xml	Region Discovery Popup	You discover the location of =region=.
+110	Strings.example.xml	Region Discovery Accomplishment	You discovered the location of =region=.
+111	Strings.example.xml	Rejoinder Particle Text	*rejoinder*
+112	Strings.example.xml	Rejoinder Message	=subject.Does:rejoinder:withTitles= with =subject.poss#object=.
+113	Strings.example.xml	RelicGenerator personNounPossessive	=spice:personNouns.!random|possessive=
+114	Strings.example.xml	RelicGenerator Name	=spice:history.relics.names.!random|title=
+115	Strings.example.xml	RelicGenerator Element Bestowal	 =subject.It.is= =spice:instancesOf.stamped_VAR.!random=.
+116	Strings.example.xml	Remove body part from current equipment set	Remove body part from current equipment set
+117	Strings.example.xml	Repair Success	You repair =object.the.name:single=.
+118	Strings.example.xml	Repair CriticalFailure Broke	You think you broke =object.them=...
+119	Strings.example.xml	Repair ExceptionalSuccess	You receive tinkering bits <=bittype.bits=>
+120	Strings.example.xml	Repair CriticalFailure Destroy	=subject.Doesly:accidentally:destroy= =object.the.name=!
+121	Strings.example.xml	Repair Failure	You can't figure out how to fix =object.the.name:single=.
+122	Strings.example.xml	Repair Success	You make some progress repairing =object.the.name:single=.
+123	Strings.example.xml	Repair IncompatibleFlyingState	You cannot reach =object.the.name= to repair =object.them=.
+124	Strings.example.xml	Repair OutofPhase	You are out of phase with =object.the.name= and cannot repair =object.them=.
+125	Strings.example.xml	Replacer =mound.complete.days= less than a day	soon
+126	Strings.example.xml	Replacer =number.bytes= kilobytes	=kb:0= KB
+127	Strings.example.xml	Replacer =number.bytes= bytes	=num= bytes
+128	Strings.example.xml	Replacer =number.bytes= megabytes	=mb:0.00= MB
+129	Strings.example.xml	Replacer WithCognomen	, =cognomen=
+130	Strings.example.xml	Replacer =ActivatedAbilityEntry.cooldown.rounds=	=cooldown.things:round=
+131	Strings.example.xml	Replacer =mound.complete.days=	=days.cardinal= =days.pluralize:day=
+132	Strings.example.xml	Replacer =GameObject.skin.of.name= Not Proper Name	=subject.refname= =subject.fragment:Skin:skin=
+133	Strings.example.xml	Replacer =GameObject.thisCreature= - Other	=subject.this= =subject.pluralize.word:creature=
+134	Strings.example.xml	Replacer =GameObject.skin.of.name= Proper Name	=subject.fragment:Skin:skin= of =subject.refname=
+135	Strings.example.xml	Replacer =GameObject.bone.of.name= Not Proper Name	=subject.refname= =subject.semantic:HardMaterial:bone=
+136	Strings.example.xml	Replacer =GameObject.bone.of.name= Proper Name	=subject.semantic:HardMaterial:bone= of =subject.refname=
+137	Strings.example.xml	Replacer =GameObject.this.category=	=subject.this= =subject.descriptiveCategory:matchPlurality=
+138	Strings.example.xml	Rermadon Lair Maker - CradleDisplayName	The cradle of Rermadon
+139	Strings.example.xml	Resheph Cognomen	the Above
+140	Strings.example.xml	Resheph Cognomen	Ghost-in-Cerulean
+141	Strings.example.xml	Resheph Cognomen	the Coiled Lamb of Baetyls
+142	Strings.example.xml	RestoreOnDeath OtherRestored	=subject.Does:shimmer= before your eyes!
+143	Strings.example.xml	RestoreOnDeath PlayerRestored	You uncannily avoid your demise, and your life is restored.
+144	Strings.example.xml	RestoreOnDeath, AppendEffect	Respawns =amount.multiplicative:zeroEmpty= at =health=% health
+145	Strings.example.xml	RingGateBuilder GateName PrefixRoot 4+	He-
+146	Strings.example.xml	RingGateBuilder GateName PrefixRoot 1	Bet-
+147	Strings.example.xml	RingGateBuilder GateName OrderWord 2	fool
+148	Strings.example.xml	RingGateBuilder GateName OrderWord 3+	milk
+149	Strings.example.xml	RingGateBuilder GateName PrefixRoot 0	Aleph-
+150	Strings.example.xml	RingGateBuilder GateName PrefixRoot 2	Gimel-
+151	Strings.example.xml	RingGateBuilder GateName PrefixRoot 3	Daled-
+152	Strings.example.xml	RingGateBuilder TeleportGateNameRoot	=prefixRoot==root=
+153	Strings.example.xml	RingGateBuilder TeleportGateName	=prefixRoot==root= =orderWord= gate
+154	Strings.example.xml	Robot Mutation Term	module
+155	Strings.example.xml	Roboticized ObjectBuilder - Postfix Description default	There is a low, persistent hum emanating outward.
+156	Strings.example.xml	RocketSkates GetRunningBehavior MessageName	power skating
+157	Strings.example.xml	RocketSkates RulesPostfix 3 (Jump)	Replaces Jump with Rocket Jump.
+158	Strings.example.xml	RocketSkates EmitFlamePlume	=subject.Does:emit= a {{fiery|plume of flame}}!
+159	Strings.example.xml	RocketSkates GetRunningBehavior DisplayName	{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|power skating}}
+160	Strings.example.xml	RocketSkates RulesPostfix 1 (Sprint)	Replaces Sprint with Power Skate (unlimited duration).
+161	Strings.example.xml	RocketSkates RulesPostfix 2 (Fire)	Emits plumes of fire when the wearer moves while power skating.
+162	Strings.example.xml	Rules Strings WoundLevel no hp stat	Undamaged
+163	Strings.example.xml	Rules Strings WoundLevel creature	{{G|Fine}}
+164	Strings.example.xml	Rules Strings WoundLevel nonorganic	{{G|Fine}}
+165	Strings.example.xml	Rules Strings WoundLevel creature	{{R|Wounded}}
+166	Strings.example.xml	Rules Strings WoundLevel creature	{{W|Injured}}
+167	Strings.example.xml	Rules Strings WoundLevel creature	{{Y|Perfect}}
+168	Strings.example.xml	Rules Strings WoundLevel nonorganic	{{R|Damaged}}
+169	Strings.example.xml	Rules Strings WoundLevel nonorganic	{{Y|Perfect}}
+170	Strings.example.xml	Rules Strings WoundLevel creature	{{r|Badly Wounded}}
+171	Strings.example.xml	Rules Strings WoundLevel nonorganic	{{r|Badly Damaged}}
+172	Strings.example.xml	Rules Strings WoundLevel nonorganic	{{W|Lightly Damaged}}
+173	Strings.example.xml	Run Indefinite Duration	Indefinite duration.
+174	Strings.example.xml	Run Reduced Hit	-10 to hit in melee combat.
+175	Strings.example.xml	Run Reduced Accuracy	Reduced accuracy with missile weapons.
+176	Strings.example.xml	Run Duration Left	=duration= =duration.pluralize:round= left.
+177	Strings.example.xml	Run Sling And Run Reduced Accuracy	Reduced accuracy with missile weapons, except pistols.
+178	Strings.example.xml	Run Skill Description Postfix (Pistol)	\nPistol accuracy penalty removed due to Sling and Run skill.
+179	Strings.example.xml	Run Bonus Description	Moves at =multiplier=X the normal speed. (+=speedBonus= move speed)
+180	Strings.example.xml	Rusty Biome - Creature Role	{{r|qudzu}} symbiote
+181	Strings.example.xml	SaveManagement Screen Title	{{W|LOAD GAME}}
+182	Strings.example.xml	SaveManagementRow - Line 4	{{K|=size= =gameID=}}
+183	Strings.example.xml	SaveManagementRow - Line 2	{{C|Location:}} =location=
+184	Strings.example.xml	SaveManagementRow - Line 1	=gameName= :: =description=
+185	Strings.example.xml	SaveManagementRow - Line 3	{{C|Last saved:}} =saveTime=
+186	Strings.example.xml	SaveManagment - Delete Game Popup Title	{{R|Delete =gameName=}}
+187	Strings.example.xml	SaveManagment - Delete Game Popup Message	Are you sure you want to delete the save game for =gameName=?
+188	Strings.example.xml	Saving Throw Vs Gas	gases
+189	Strings.example.xml	Saving Throw Vs Web	webbing
+190	Strings.example.xml	Saving Throw Vs Slip	slipping
+191	Strings.example.xml	Saving Throw Vs Taunt	taunting
+192	Strings.example.xml	Saving Throw Vs Knockdown	knockdown
+193	Strings.example.xml	Saving Throw Vs Axe	Axe skills
+194	Strings.example.xml	Saving Throw Vs Disarm	disarmament
+195	Strings.example.xml	Saving Throw Vs Beam	energy beams
+196	Strings.example.xml	Saving Throw Vs Gaze	gaze effects
+197	Strings.example.xml	Saving Throw Vs Sleep	forced sleep
+198	Strings.example.xml	Saving Throw Vs Cudgel	Cudgel skills
+199	Strings.example.xml	Saving Throw Vs Disease Onset	disease onset
+200	Strings.example.xml	Saving Throw Vs Drag	being dragged
+201	Strings.example.xml	Saving Throw Vs Grab	being grabbed

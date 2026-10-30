@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Cookbook ChefName for Recipe" ID="Chef =chefName=">シェフ・=chefName=</string>
+  <string Context="Cookbook Finalize Name" ID="{{g|=name|title=}}">{{g|=name|title=}}</string>
+  <string Context="Cookbook Chef Name" ID="=subject.a.name|strip=">=subject.a.name|strip=</string>
+  <string Context="Cookbook Accomplishment" ID="You read =object.refname=.">=object.refname=を読んだ。</string>
+  <string Context="Cookbook Focus Name" ID="=spice:cooking.cookbooks.focalName.!random=">=spice:cooking.cookbooks.focalName.!random=</string>
+  <string Context="Cookbook Focus Name, not preserve or liquid" ID="=spice:cooking.cookbooks.focalName.!random|plural=">=spice:cooking.cookbooks.focalName.!random|plural=</string>
+  <string Context="Cookbook DisplayName" ID="Chef =chefName|'s= =spice:cooking.cookbooks.genericName.!random=">シェフ・=chefName=の=spice:cooking.cookbooks.genericName.!random=</string>
+  <string Context="Cooking .cookingIngredientName - liquid" ID="a dram of =item.liquid.name=">=item.liquid.name=1ドラム</string>
+  <string Context="Cooking a.cookingIngredientName - liquid" ID="a dram of =item.liquid.name=">=item.liquid.name=1ドラム</string>
+  <string Context="CookingDomainAcid_UnitResist Description - Amount known" ID="=bonus.signed= Acid Resistance">酸耐性 =bonus.signed=</string>
+  <string Context="CookingDomainAgility_LargeAgilityBuff_ProceduralCookingTriggeredAction Notification" ID="=subject.does:assume= a limber pose.">=subject.T=はしなやかな構えを取った。</string>
+  <string Context="CookingDomainAgility_LargeAgilityBuff_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= +8 Agility for 50 turns.">50ターンの間、敏捷+8を得る。</string>
+  <string Context="CookingDomainAgility_OnPerformCriticalHit Description" ID="whenever =subject.thisCreature= =subject.verb:perform= a critical hit,">=subject.thisCreature=がクリティカルヒットを出すたび、</string>
+  <string Context="CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:shank= =subject.their= opponent.">相手を刺す。</string>
+  <string Context="CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Notification" ID="=subject.does:perform= an act of nimble violence.">=subject.T=は軽やかな暴力を振るった。</string>
+  <string Context="CookingDomainArmor_LargeAVBuff_ProceduralCookingTriggeredAction Notification" ID="=subject.does:stiffen=.">=subject.T=の体が硬くなった。</string>
+  <string Context="CookingDomainArmor_LargeAVBuff_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= +6 AV for 50 turns.">50ターンの間、AV+6を得る。</string>
+  <string Context="CookingDomainArmor_UnitAV Description" ID="+2 AV">AV +2</string>
+  <string Context="CookingDomainArtifact_IdentifyAllInZone_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:identify= all artifacts on the local map.">ローカルマップ上のアーティファクトをすべて鑑定する。</string>
+  <string Context="CookingDomainArtifact_IdentifyAllInZone_ProceduralCookingTriggeredAction Message log" ID="=subject.Does:flush= with understanding of =object.a.name=.">=subject.T=は=object.a.name=を理解して紅潮した。</string>
+  <string Context="CookingDomainArtifact_OnIdentify Description" ID="whenever =subject.thisCreature= =subject.verb:identify= an artifact,">=subject.thisCreature=がアーティファクトを鑑定するたび、</string>
+  <string Context="CookingDomainAttributes_UnitPermanentAllStats_25Percent Description" ID="=bonus.signed= to all six attributes permanently">6つの能力値すべてに永続的に=bonus.signed=</string>
+  <string Context="CookingDomainAttributes_UnitPermanentAllStats_25Percent Journal muralText" ID="=name= the Eater supped on royal nectar and metamorphosed into Godhead.">食らう者=name=は王の蜜をすすり、神性へと変態した。</string>
+  <string Context="CookingDomainCloning_UnitMultipleClones" ID="Causes =subject.thisCreature= to multiply 1 to 3 times.">=subject.thisCreature=を1～3回増殖させる。</string>
+  <string Context="CookingDomainCold_ColdResist_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= fortified against the cold.">=subject.T=は寒さへの備えを得た。</string>
+  <string Context="CookingDomainCold_ColdResist_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= 40-50 Cold Resist for 6 hours.">6時間の間、冷気耐性40～50を得る。</string>
+  <string Context="CookingDomainCold_CryokinesisCharge_ProceduralCookingTriggeredAction Notification" ID="=subject.does:freeze= an area with cryokinesis.">=subject.T=は冷却念動で一帯を凍らせた。</string>
+  <string Context="CookingDomainCold_CryokinesisCharge_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:freeze= an area per Cryokinesis at rank 5-6.">ランク5～6の冷却念動と同様に一帯を凍らせる。</string>
+  <string Context="CookingDomainCold_FreezingHandsCharge_ProceduralCookingTriggeredAction Notification" ID="=subject.does:emit= a powerful ray of frost.">=subject.T=は強力な冷気の光線を放った。</string>
+  <string Context="CookingDomainCold_FreezingHandsCharge_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:emit= a ray of frost per Freezing Ray at rank 5-6.">ランク5～6の凍結線と同様に冷気の光線を放つ。</string>
+  <string Context="CookingDomainCold_LargeColdResist_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= impervious to cold.">=subject.T=は寒さを受け付けなくなった。</string>
+  <string Context="CookingDomainCold_LargeColdResist_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= 125-175 Cold Resist for 6 hours.">6時間の間、冷気耐性125～175を得る。</string>
+  <string Context="CookingDomainCold_OnSlowedByCold Description" ID="whenever =subject.thisCreature= =subject.verb:are= slowed by cold,">=subject.thisCreature=が冷気で鈍化するたび、</string>
+  <string Context="CookingDomainCold_UnitResist Description - Values known" ID="=bonus.signed= Cold Resistance">冷気耐性 =bonus.signed=</string>
+  <string Context="CookingDomainDarkness_UnitDV Description" ID="+4 DV">DV +4</string>
+  <string Context="CookingDomainDensity_UnitPermanentAV Description" ID="+1 AV permanently">永続的にAV +1</string>
+  <string Context="CookingDomainDissociation_UnitOtherBodyBonus Description" ID="As long as your body isn't your own, you gain =bonus.signed= Quickness.">体が自分のものでない間、クイックネス=bonus.signed=を得る。</string>
+  <string Context="CookingDomainElectric_Discharge_ProceduralCookingTriggeredAction Notification" ID="=subject.does:release= a powerful electrical discharge.">=subject.T=は強力な放電を放った。</string>
+  <string Context="CookingDomainElectric_EMP_ProceduralCookingTriggeredAction Notification" ID="=subject.does:release= a powerful electromagnetic pulse.">=subject.T=は強力な電磁パルスを放った。</string>
+  <string Context="CookingDomainElectric_EMP_ProceduralCookingTriggeredAction Description - unknown roll" ID="=subject.it.does:release= an electromagnetic pulse at rank 8-9.">ランク8～9の電磁パルスを放つ。</string>
+  <string Context="CookingDomainElectric_EMP_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:release= an electromagnetic pulse at rank =tier=.">ランク=tier=の電磁パルスを放つ。</string>
+  <string Context="CookingDomainElectric_ExtraResistUnit Description" ID="=bonus.signed= Electric Resistance">電気耐性 =bonus.signed=</string>
+  <string Context="CookingDomainElectric_LargeElectricResist_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= impervious to electrical damage.">=subject.T=は電撃を受け付けなくなった。</string>
+  <string Context="CookingDomainElectric_LargeElectricResist_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= 125-175 Electric Resist for 50 turns.">50ターンの間、電気耐性125～175を得る。</string>
+  <string Context="CookingDomainElectric_ResistUnit Description" ID="=bonus.signed= Electric Resistance">電気耐性 =bonus.signed=</string>
+  <string Context="CookingDomainElectric_SmallElectricResist_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= 40-50 Electric Resist for 6 hours.">6時間の間、電気耐性40～50を得る。</string>
+  <string Context="CookingDomainElectric_SmallElectricResist_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= fortified against electrical damage.">=subject.T=は電撃への備えを得た。</string>
+  <string Context="CookingDomainFear_FearImmunity_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= immune to fear.">=subject.T=は恐怖を受け付けなくなった。</string>
+  <string Context="CookingDomainFear_FearImmunity_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:become= immune to fear for 6 hours.">6時間の間、恐怖を受け付けなくなる。</string>
+  <string Context="CookingDomainFear_Intimidate_ProceduralCookingTriggeredAction Notification" ID="=subject.does:intimidate= everyone around =subject.them=.">=subject.T=は周囲の全員を威圧した。</string>
+  <string Context="CookingDomainFear_Intimidate_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:intimidate= creatures around =subject.them=.">周囲のクリーチャーを威圧する。</string>
+  <string Context="CookingDomainFear_OnFeared Description" ID="whenever =subject.thisCreature= =subject.verb:become= afraid,">=subject.thisCreature=が恐怖を感じるたび、</string>
+  <string Context="CookingDomainFear_UnitBonusMA Description" ID="+2 MA">MA +2</string>
+  <string Context="CookingDomainFear_UnitIntimidate Description" ID="Can use =skillName=.">=skillName=が使える。</string>
+  <string Context="CookingDomainFear_UnitIntimidate Description - Roll unknown" ID="Can use =skillName=.">=skillName=が使える。</string>
+  <string Context="CookingDomainFear_UnitIntimidate Description - Bonus" ID="=bonus.signed= bonus on Ego roll when using Intimidate.">威圧を使うときの自我判定に=bonus.signed=のボーナス。</string>
+  <string Context="CookingDomainFungus_OnItchy Description" ID="whenever =subject.thisCreature= =subject.verb:get= itchy skin,">=subject.thisCreature=が肌のかゆみに襲われるたび、</string>
+  <string Context="CookingDomainFungus_OnItchy Description" ID="whenever =subject.thisCreature= =subject.verb:eat= a mushroom,">=subject.thisCreature=がキノコを食べるたび、</string>
+  <string Context="CookingDomainFungus_SporeImmunity_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= impervious to fungal spores.">=subject.T=は菌類の胞子を受け付けなくなった。</string>
+  <string Context="CookingDomainFungus_SporeImmunity_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:are= immune to fungal spores for 6 hours.">6時間の間、菌類の胞子に免疫を持つ。</string>
+  <string Context="CookingDomainHeat_FlamingHandsCharge_ProceduralCookingTriggeredAction Notification" ID="=subject.does:emit= a powerful ray of flame.">=subject.T=は強力な炎の光線を放った。</string>
+  <string Context="CookingDomainHeat_FlamingHandsCharge_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:emit= a ray of flame per Flaming Ray at rank 5-6.">ランク5～6の炎線と同様に炎の光線を放つ。</string>
+  <string Context="CookingDomainHeat_HeatResist_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= fortified against the heat.">=subject.T=は暑さへの備えを得た。</string>
+  <string Context="CookingDomainHeat_HeatResist_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= 40-50 Heat Resist for 6 hours.">6時間の間、熱耐性40～50を得る。</string>
+  <string Context="CookingDomainHeat_LargeHeatResist_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= impervious to the heat.">=subject.T=は暑さを受け付けなくなった。</string>
+  <string Context="CookingDomainHeat_LargeHeatResist_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= 125-175 Heat Resist for 50 turns.">50ターンの間、熱耐性125～175を得る。</string>
+  <string Context="CookingDomainHeat_OnEnflamed Description" ID="whenever =subject.thisCreature= =subject.verb:are= set on fire,">=subject.thisCreature=が火をつけられるたび、</string>
+  <string Context="CookingDomainHeat_PyrokinesisCharge_ProceduralCookingTriggeredAction Notification" ID="=subject.does:toast= an area with pyrokinesis.">=subject.T=は発火念動で一帯を焼いた。</string>
+  <string Context="CookingDomainHeat_PyrokinesisCharge_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:toast= an area per Pyrokinesis at rank 5-6.">ランク5～6の発火念動と同様に一帯を焼く。</string>
+  <string Context="CookingDomainHeat_UnitResist Description" ID="=bonus.signed= Heat Resistance">熱耐性 =bonus.signed=</string>
+  <string Context="CookingDomainHightierRegen_Heal40to50_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:heal= 40-50 HP.">HPを40～50回復する。</string>
+  <string Context="CookingDomainHightierRegen_Heal40to50_ProceduralCookingTriggeredAction Notification" ID="=subject.the.name's= wounds heal significantly.">=subject.the.name's=傷が大きく癒えた。</string>
+  <string Context="CookingDomainHightierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification" ID="=subject.does:feel= less afflicted.">=subject.T=は苦痛が和らいだ。</string>
+  <string Context="CookingDomainHP_HealToFull_ProceduralCookingTriggeredAction Notification" ID="=subject.does:heal= to full.">=subject.T=は全快した。</string>
+  <string Context="CookingDomainHP_HealToFull_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:heal= to full 15% of the time.">15%の確率で全快する。</string>
+  <string Context="CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= heartier.">=subject.T=はたくましくなった。</string>
+  <string Context="CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Description - unknown rolls" ID="=subject.it.does:get= +30-40% max HP for 1 hour.">1時間の間、最大HP+30～40%。</string>
+  <string Context="CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:get= =bonus.signed=% max HP for 1 hour.">1時間の間、最大HP=bonus.signed=%。</string>
+  <string Context="CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredActionEffect Details" ID="=bonus.signed=% max HP">最大HP =bonus.signed=%</string>
+  <string Context="CookingDomainHP_OnLowHealth Description" ID="whenever =subject.thisCreature= =subject.verb:drop= below 20% HP,">=subject.thisCreature=のHPが20%を下回るたび、</string>
+  <string Context="CookingDomainHP_OnLowHealthMidTier Description" ID="whenever =subject.thisCreature= =subject.verb:drop= below 30% HP,">=subject.thisCreature=のHPが30%を下回るたび、</string>
+  <string Context="CookingDomainHP_UnitHP Description" ID="=tier.signed=% max HP">最大HP =tier.signed=%</string>
+  <string Context="CookingDomainLove_BeguilingCharge_ProceduralCookingTriggeredAction Notification" ID="=subject.does:feel= the swell of love inside.">=subject.T=は内に愛が膨らむのを感じた。</string>
+  <string Context="CookingDomainLove_OnGainFollower Description" ID="whenever =subject.thisCreature= =subject.verb:gain= a new follower,">=subject.thisCreature=が新たな従者を得るたび、</string>
+  <string Context="CookingDomainLowtierRegen_HealToFull_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:heal= 15-20 HP.">HPを15～20回復する。</string>
+  <string Context="CookingDomainLowtierRegen_HealToFull_ProceduralCookingTriggeredAction Notification" ID="=subject.the.name's= wounds heal a bit.">=subject.the.name's=傷が少し癒えた。</string>
+  <string Context="CookingDomainLowtierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification" ID="=subject.does:feel= less afflicted.">=subject.T=は苦痛が和らいだ。</string>
+  <string Context="CookingDomainLowtierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Description" ID="one of =subject.their= minor negative status effects is removed at random.">軽い悪い状態異常の1つがランダムに解除される。</string>
+  <string Context="CookingDomainLowtierRegen_StopBleeding_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:stop= bleeding.">出血が止まる。</string>
+  <string Context="CookingDomainMedicinal_DiseaseImmunity_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= impervious to disease.">=subject.T=は病を受け付けなくなった。</string>
+  <string Context="CookingDomainMedicinal_DiseaseImmunity_ProceduralCookingTriggeredAction Description" ID="=subject.they= can't acquire new diseases for 6 hours.">6時間の間、新たな病気にかからない。</string>
+  <string Context="CookingDomainMedicinal_OnDrinkHoney Description" ID="whenever =subject.thisCreature= =subject.verb:drink= honey,">=subject.thisCreature=が蜂蜜を飲むたび、</string>
+  <string Context="CookingDomainMedicinal_RemoveDiseaseOnset_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:are= cured of an incubating disease with a 25% chance.">25%の確率で潜伏中の病気が治る。</string>
+  <string Context="CookingDomainMedicinal_RemoveIll_ProceduralCookingTriggeredAction Notification" ID="=subject.does:feel= better.">=subject.T=は気分が良くなった。</string>
+  <string Context="CookingDomainMedicinal_RemoveIll_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:are= cured of the Ill status effect.">状態異常「病気」が治る。</string>
+  <string Context="CookingDomainPhase_OnPhaseIn Description" ID="whenever =subject.thisCreature= =subject.verb:phase= in,">=subject.thisCreature=が位相を戻すたび、</string>
+  <string Context="CookingDomainPhase_OnPhaseOut Description" ID="whenever =subject.thisCreature= =subject.verb:phase= out,">=subject.thisCreature=が位相をずらすたび、</string>
+  <string Context="CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification" ID="=subject.does:phase= out.">=subject.T=は位相をずらした。</string>
+  <string Context="CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification" ID="=subject.does:become= phase-anchored.">=subject.T=は位相が固定された。</string>
+  <string Context="CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:phase= out for 20 turns.">20ターンの間、位相をずらす。</string>
+  <string Context="CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Description" ID="=subject.they= can't be phased for 2 hours.">2時間の間、位相をずらされない。</string>
+  <string Context="CookingDomainPhotosyntheticSkin_RegenerationUnit Description" ID="=bonus.signed=% to natural healing rate">自然回復速度 =bonus.signed=%</string>
+  <string Context="CookingDomainPhotosyntheticSkin_RegenerationUnit Description - Tier unknown" ID="+20% + (Photosynthetic Skin rank * 10)% to natural healing rate">自然回復速度 +20% +（光合成皮膚のランク×10）%</string>
+  <string Context="CookingDomainPhotosyntheticSkin_UnitQuickness Description" ID="=bonus.signed= Quickness">クイックネス =bonus.signed=</string>
+  <string Context="CookingDomainPhotosyntheticSkin_UnitQuickness Description - Unknown tier" ID="+13 + (Photosynthetic Skin rank * 2) Quickness">クイックネス +13 +（光合成皮膚のランク×2）</string>
+  <string Context="CookingDomainPlant_BurgeoningHighTier_ProceduralCookingTriggeredAction Notification" ID="Plants burgeon around =subject.the.name=!">=subject.the.name=の周りに植物が芽吹いた！</string>
+  <string Context="CookingDomainPlant_BurgeoningHighTier_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:cause= plants to spontaneously grow in a random nearby area.">近くのランダムな場所に植物を自然発生させる。</string>
+  <string Context="CookingDomainPlant_OnDamageByPlant Description" ID="whenever =subject.thisCreature= =subject.verb:take= damage from a plant,">=subject.thisCreature=が植物からダメージを受けるたび、</string>
+  <string Context="CookingDomainQuickness_UnitQuickness Description" ID="=bonus.signed= Quickness">クイックネス =bonus.signed=</string>
+  <string Context="CookingDomainReflect_QuillBurst_ProceduralCookingTriggeredAction Notification" ID="=subject.does:expel= a blast of quills.">=subject.T=は棘を一斉に放った。</string>
+  <string Context="CookingDomainReflect_QuillBurst_ProceduralCookingTriggeredAction Description - Unknown rolls" ID="=subject.it.does:expel= quills per the Quills mutation at rank 8-9.">ランク8～9の棘の突然変異と同様に棘を放つ。</string>
+  <string Context="CookingDomainReflect_QuillBurst_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:expel= quills per the Quills mutation at rank =tier=.">ランク=tier=の棘の突然変異と同様に棘を放つ。</string>
+  <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction Notification" ID="=subject.does:grow= tiny spines all over =subject.their= body.">=subject.T=の全身に小さな棘が生えた。</string>
+  <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Details" ID="Reflect 100% damage the next time =subject.it.does:take= damage.">次にダメージを受けたとき、ダメージを100%反射する。</string>
+  <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Message" ID="=subject.Does:reflect= =amount= damage back at =object.the.name=">=subject.T=は=object.the.name=に=amount=ダメージを反射した</string>
+  <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Details - more than one left" ID="Reflect 100% damage the next =times= times =subject.it.does:take= damage.">次の=times=回ダメージを受けたとき、ダメージを100%反射する。</string>
+  <string Context="CookingDomainReflect_Reflect100HighTier_ProceduralCookingTriggeredAction Notification" ID="=subject.does:grow= spines all over =subject.their= body.">=subject.T=の全身に棘が生えた。</string>
+  <string Context="CookingDomainReflect_UnitReflectDamage Description - unknown rolls" ID="Reflect 3-4% damage back at =subject.their= attackers, rounded up.">攻撃者にダメージの3～4%（切り上げ）を反射する。</string>
+  <string Context="CookingDomainReflect_UnitReflectDamage Description" ID="Reflect =tier=% damage back at =subject.their= attackers, rounded up.">攻撃者にダメージの=tier=%（切り上げ）を反射する。</string>
+  <string Context="CookingDomainReflect_UnitReflectDamageHighTier Description - unknown rolls" ID="Reflect 15-18% damage back at =subject.their= attackers, rounded up.">攻撃者にダメージの15～18%（切り上げ）を反射する。</string>
+  <string Context="CookingDomainRegenLowtier_BleedResistUnit" ID="=tier.signed= to saves vs. bleeding">出血へのセーヴ =tier.signed=</string>
+  <string Context="CookingDomainRegenLowtier_RegenerationUnit Description" ID="=tier.signed=% to natural healing rate">自然回復速度 =tier.signed=%</string>
+  <string Context="CookingDomainRubber_ExtraReducedFallDamage Description" ID="Falling damage =subject.thisCreature= =subject.verb:take= is reduced by 90%.">=subject.thisCreature=が受ける落下ダメージを90%軽減する。</string>
+  <string Context="CookingDomainRubber_JumpThrice_ProceduralCookingTriggeredAction Notification" ID="=subject.does:feel= a overwhelming springiness inside.">=subject.T=は体の内に圧倒的な弾力を感じた。</string>
+  <string Context="CookingDomainRubber_JumpThrice_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:jump= three times in a row, each time at +2 range.">射程+2で3回連続ジャンプする。</string>
+  <string Context="CookingDomainRubber_JumpTwice_ProceduralCookingTriggeredAction Notification" ID="=subject.does:feel= a springiness inside.">=subject.T=は体の内に弾力を感じた。</string>
+  <string Context="CookingDomainRubber_JumpTwice_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:jump= twice in a row, each time at +1 range.">射程+1で2回連続ジャンプする。</string>
+  <string Context="CookingDomainRubber_OnJump Description" ID="whenever =subject.thisCreature= =subject.verb:jump=,">=subject.thisCreature=がジャンプするたび、</string>
+  <string Context="CookingDomainRubber_OnProne Description" ID="whenever =subject.thisCreature= =subject.verb:go= prone,">=subject.thisCreature=が伏せるたび、</string>
+  <string Context="CookingDomainRubber_ReducedFallDamage Description" ID="Falling damage =subject.thisCreature= =subject.verb:take= is reduced by 50%.">=subject.thisCreature=が受ける落下ダメージを50%軽減する。</string>
+  <string Context="CookingDomainSecrets_RevealSecrets Description" ID="Reveals a secret to =subject.thisCreature=.">=subject.thisCreature=に秘密を1つ明かす。</string>
+  <string Context="CookingDomainSelfHarm_UnitSelfGlotrot Description" ID="Causes =subject.their= tongue to rot away.">舌が腐り落ちる。</string>
+  <string Context="CookingDomainSelfHarm_UnitSelfPoison Description" ID="Poisons =subject.thisCreature=.">=subject.thisCreature=を毒に冒す。</string>
+  <string Context="CookingDomainSpecial_UnitCrystalTransform Popups" ID="...">…</string>
+  <string Context="CookingDomainSpecial_UnitCrystalTransform Description - Unknow rolls" ID="?????">？？？？？</string>
+  <string Context="CookingDomainSpecial_UnitCrystalTransform Description" ID="=subject.they= became a crystal being permanently.">永続的に結晶の存在となった。</string>
+  <string Context="CookingDomainSpecial_UnitCrystalTransform Failure" ID="Your genome has already undergone this transformation.">あなたのゲノムは既にこの変化を経ている。</string>
+  <string Context="CookingDomainSpecial_UnitSlogTransform Popups" ID="...">…</string>
+  <string Context="CookingDomainSpecial_UnitSlogTransform Description - Unknown rolls" ID="?????">？？？？？</string>
+  <string Context="CookingDomainSpecial_UnitSlogTransform Description" ID="=subject.they= became a slug permanently.">永続的にナメクジとなった。</string>
+  <string Context="CookingDomainSpecial_UnitSlogTransform Popups" ID="You gained the mutation {{w|Bilge Sphincter}}!">突然変異{{w|ビルジ括約筋}}を得た！</string>
+  <string Context="CookingDomainSpecial_UnitSlogTransform - Failure" ID="Your genome has already undergone this transformation.">あなたのゲノムは既にこの変化を経ている。</string>
+  <string Context="CookingDomainStrength_DismemberOrSlam_ProceduralCookingTriggeredAction Notification" ID="=subject.does:perform= an act of brutal violence.">=subject.T=は残虐な暴力を振るった。</string>
+  <string Context="CookingDomainStrength_LargeStrengthBuff_ProceduralCookingTriggeredAction Notification" ID="=subject.the.name's= muscles bulge.">=subject.the.name's=筋肉が膨れ上がった。</string>
+  <string Context="CookingDomainStrength_LargeStrengthBuff_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= +8 Strength for 50 turns.">50ターンの間、筋力+8を得る。</string>
+  <string Context="CookingDomainTeleport_MassTeleportOther_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:teleport= all creatures surrounding =subject.them=.">周囲のクリーチャーをすべてテレポートさせる。</string>
+  <string Context="CookingDomainTeleport_OnTeleport Description" ID="whenever =subject.thisCreature= =subject.verb:teleport=,">=subject.thisCreature=がテレポートするたび、</string>
+  <string Context="CookingDomainTeleport_Teleport_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:teleport=.">テレポートする。</string>
+  <string Context="CookingDomainTeleport_UnitBlink Message - Player attacking" ID="Fate intervenes and you deal no damage to =object.the.name=.">運命が介入し、=object.the.name=にダメージを与えられなかった。</string>
+  <string Context="CookingDomainTongue_OnStuck Description" ID="whenever =subject.thisCreature= =subject.verb:get= stuck, there's a 50% chance">=subject.thisCreature=が動けなくなるたび、50%の確率で</string>
+  <string Context="CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Notification" ID="=subject.does:shoot= out a trio of sticky tongues.">=subject.T=は粘つく舌を3本吐き出した。</string>
+  <string Context="CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Message" ID="A trio of tongues vegetate from =subject.the.name's= =bodypart:Face=!">=subject.the.name's==bodypart:Face=から3本の舌が生えてきた！</string>
+  <string Context="CookingRecipe - multi-ingredient join string" ID=", ">、</string>
+  <string Context="CookingRecipe Naming Ingredient" ID="=liquid=">=liquid=</string>
+  <string Context="CookingRecipe GetDisplayName no ChefName" ID="=displayName=">=displayName=</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName (component fragment)" ID="=component.name=">=component.name=</string>
+  <string Context="CookingRecipe Naming Ingredient" ID="=item.short|strip=">=item.short|strip=</string>
+  <string Context="CookingRecipe GetDisplayName" ID="=chefName|'s= =displayName=">=chefName|'s==displayName=</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName has ingredients, multi-line" ID="=displayName=&#10;=components.commaList=">=displayName=
+=components.commaList=</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName has ingredients, single-line" ID="=displayName= [=components.commaList=]">=displayName= [=components.commaList=]</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName (component fragment, show quantity)" ID="=component.name={{K|(=component.quantity=)}}">=component.name={{K|(=component.quantity=)}}</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName missing ingredients, multi-line" ID="{{K|=displayName|strip=}}&#10;=components.commaList=">{{K|=displayName|strip=}}
+=components.commaList=</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName missing ingredients, single-line" ID="{{K|=displayName|strip=}} [=components.commaList=]">{{K|=displayName|strip=}} [=components.commaList=]</string>
+  <string Context="CookingRecipe Name Generator" ID="=spice:cooking.recipeNames.$ingredientCount.!random|title=">=spice:cooking.recipeNames.$ingredientCount.!random|title=</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName has ingredients, multi-line, favorite" ID="=glyph:Favorite= {{W|=displayName=}}&#10;=components.commaList=">=glyph:Favorite= {{W|=displayName=}}
+=components.commaList=</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName has ingredients, single-line, favorite" ID="=glyph:Favorite= {{W|=displayName=}} [=components.commaList=]">=glyph:Favorite= {{W|=displayName=}} [=components.commaList=]</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName missing ingredients, multi-line, favorite" ID="=glyph:Favorite= {{W|{{K|=displayName|strip=}}}}&#10;=components.commaList=">=glyph:Favorite= {{W|{{K|=displayName|strip=}}}}
+=components.commaList=</string>
+  <string Context="CookingRecipe GetAnnotatedDisplayName missing ingredients, single-line, favorite" ID="=glyph:Favorite= {{W|{{K|=displayName|strip=}}}} [=components.commaList=]">=glyph:Favorite= {{W|{{K|=displayName|strip=}}}} [=components.commaList=]</string>
+  <string Context="CookingRecipeComponent UnusualBlueprint ingredient display name" ID="=amount|color#amountColor= =ingredientDisplayName.pluralize#amount=">=ingredientDisplayName.pluralize#amount= =amount|color#amountColor=</string>
+  <string Context="CookingRecipeComponents Liquid player tries to cook but doesn't have enough" ID="You don't have enough =liquid.name=.">=liquid.name=が足りない。</string>
+  <string Context="CookingRecipeComponents Liquid ingredient display name" ID="=liquid.drams.of.liquid#amount#color=">=liquid.drams.of.liquid#amount#color=</string>
+  <string Context="CookingRecipeComponents Domain player tries to cook but doesn't have enough" ID="You don't have enough =ingredientType=.">=ingredientType=が足りない。</string>
+  <string Context="CookingRecipeComponents Blueprint player tries to cook but doesn't have enough" ID="You don't have enough servings of =ingredientDisplayName=.">=ingredientDisplayName=の量が足りない。</string>
+  <string Context="CookingRecipeComponents UnusualBlueprint player tries to cook but doesn't have enough" ID="You don't have enough servings of =ingredientDisplayName=.">=ingredientDisplayName=の量が足りない。</string>
+  <string Context="CookingRecipeComponents Domain ingredientType display name" ID="=amount|color#amountColor= =amount.pluralize:serving= of =ingredientType=">=ingredientType= =amount|color#amountColor=人前</string>
+  <string Context="CookingRecipeComponents Blueprint ingredient display name" ID="=amount|color#amountColor= =amount.pluralize:serving= of =ingredientDisplayName=">=ingredientDisplayName= =amount|color#amountColor=人前</string>
+  <string Context="CooldownAmmoLoader CooldownDisplay NoReadout" ID="[cooldown]">[クールダウン]</string>
+  <string Context="CooldownAmmoLoader CooldownDisplay WithReadout" ID="[=left= sec]">[残り=left=秒]</string>
+  <string Context="CooldownAmmoLoader GetCoolingdownMessage NoReadout" ID="=subject.Does:are= unresponsive as =subject.it.does:cool= down.">=subject.T=は冷却中で反応しない。</string>
+  <string Context="Core Hotload Books" ID="Hot Loading Books...">本を再読み込み中…</string>
+  <string Context="Core SavedGame Index" ID="Indexing saved games...">セーブデータを索引中…</string>
+  <string Context="Core Hotload Config" ID="Configuration hotloaded...">設定を再読み込みした…</string>
+  <string Context="Core GameEnd Level" ID="You were level {{C|=level=}}.">あなたはレベル{{C|=level=}}だった。</string>
+  <string Context="Core Companions Which" ID="Interact with which companion?">どの仲間と話す？</string>
+  <string Context="Core Wait Turns - Bottom Status Bar" ID="Waiting for =turns.things:turn=...">=turns.things:turn=待機中…</string>
+  <string Context="Core LostSightOf" ID="You have lost sight of =object.the.name=.">=object.the.name=を見失った。</string>
+  <string Context="Core GameEnd Mode" ID="This game was played in =game.mode= mode.">このゲームは=game.mode=モードでプレイされた。</string>
+  <string Context="Core Game EndType =decor=" ID="{{C|=isAnEnding.if.glyph:PhiUpper:Omega=}}">{{C|=isAnEnding.if.glyph:PhiUpper:Omega=}}</string>
+  <string Context="Core Invalid Object" ID="Invalid inventory object: =object.toString=">無効なインベントリオブジェクト: =object.toString=</string>
+  <string Context="Core Need To Reload" ID="You need to reload! (=commandKey:CmdReload=)">リロードが必要だ！（=commandKey:CmdReload=）</string>
+  <string Context="Core GameEnd DateTime" ID="This game ended on =longDate= at =longTime=.">このゲームは=longDate= =longTime=に終わった。</string>
+  <string Context="Core Rest until morning - Bottom bar" ID="Resting until morning... (=turns.things:turn=)">朝まで休息中…（=turns.things:turn=）</string>
+  <string Context="Core Wait Turns - Invalid Number (negative)" ID="=turns= is not a valid number of turns to wait.">=turns=は待機ターン数として無効だ。</string>
+  <string Context="Core GameEnd Lairs" ID="You found {{C|=lairs=}} =lairs.pluralize:lair=.">{{C|=lairs=}}個の巣穴を見つけた。</string>
+  <string Context="Core GameEnd Named Items" ID="You named {{C|=items=}} =items.pluralize:item=.">{{C|=items=}}個のアイテムに名前を付けた。</string>
+  <string Context="Core Cannot Reach" ID="You can't find a way to reach =object.the.name=.">=object.the.name=に辿り着く方法が見つからない。</string>
+  <string Context="Core AbandonHope Accomplishment" ID="On the =day= of =month=, you abandoned all hope.">=month=の=day=、あなたはすべての希望を捨てた。</string>
+  <string Context="Core HP Threshold Warning" ID="Your health has dropped below {{C|=threshold=%}}!">体力が{{C|=threshold=%}}を下回った！</string>
+  <string Context="Core GameEnd Score" ID="You scored {{C|=score=}} =score.pluralize:point=.">スコアは{{C|=score=}}点だった。</string>
+</strings>

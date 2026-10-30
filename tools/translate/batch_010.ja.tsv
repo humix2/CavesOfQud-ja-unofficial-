@@ -1,0 +1,181 @@
+1	本当に=description|color:C=の割り当てを解除しますか？
+2	=subject.to.the.direction=に=subject.A.name=が現れた。
+3	=object.a.name=を受け取った。
+4	=subject.the.name=が死んだため、これ以上調査を進められない。
+5	エスキンドは片脚をかばっている。
+6	これは巨大な足跡だ。
+7	うーん。この注射器は使用済みだ。
+8	なんと、この矢は血まみれだ！
+9	誰かが小さな槌を道に置いていった。
+10	うーん、この水袋はまだ蝋で封がされている。
+11	うわ、腐った舌が地面に落ちている！
+12	妙だな、このウォーターヴァインは血で赤く染まっている。
+13	妙だな、ヤックウィートの籾殻が捨てられている。
+14	これはヒンドレンの毛の塊か？ 血が付いている…
+15	妙だな、誰かが切った革の切れ端をここに落としている。
+16	ケセヒンドの鎧には、拭き取りきれなかった血痕がある。
+17	この革細工道具一式は驚くほど出来がいい。
+18	妙だな、銅の塊が地面に転がっている。
+19	この革の腕当ては使い込まれている。なぜこんなところに？
+20	妙だな、折れた武器の柄だ。最近暴力があった印だ。
+21	おかしいな。この腕当てはひどく擦り切れているのに、妙に綺麗だ。
+22	クランク！
+23	=subject.T=は{{O|クランク}}と叫んだ！
+24	=subject.T=は=object.a.name=を脇に放り投げた。
+25	巣穴
+26	=subject.T=は踏みとどまった！
+27	=subject.T=は=object.the.name=に食らいついた！
+29	=subject.T=から=volume.drams.of.liquid:noRules=が漏れた。
+30	=subject.T=はレベルアップした！
+31	=object.the.name=からは活力を吸い取れない。
+32	あなたの能力では弱すぎる。
+33	レーザー照射（=radius.things:charge=）
+35	[-]
+36	[+]
+37	*恐怖を振り払った*
+38	染み
+39	水たまり
+40	液体
+41	液体
+42	{{c|密封}}
+43	=names.orList=
+44	近くに注ぐ。
+45	{{y|[{{K|空}}]}}
+46	{{y|[{{c|密封}}]}}
+47	{{y|[{{c|密封}}]}}
+48	=object.T=は空だ。
+49	=object.T=は密封されている。
+50	{{y|[=volume.liquid.name=]}}
+51	{{y|[=volume.liquid.name=]}}
+52	=object.T=には排出口がない。
+53	=subject.itself=に注ぐ。
+54	[満たす容器を選択]
+55	{{y|[{{c|自動収集中}}]}}
+56	あなたは今=updates.andList=。
+57	別の容器に注ぐ。
+58	満たせる容器を持っていない。
+59	{{y|[{{K|空、{{c|密封}}}}]}}
+60	=preposition= =volume.liquid.name=
+61	=preposition= =volume.liquid.name=
+62	=subject.T=は=object.the.name=を密封した。
+63	{{y|[=volume.drams.of.liquid#forSort=]}}
+64	{{y|[=volume.drams.of.liquid#forSort=]}}
+65	=subject.T=は=object.the.name=の封を開けた。
+66	=object.a.name:asPossessed:secondPerson=
+67	=volume.liquid.stain.name#primary=まみれの
+68	{{y|[=volume.liquid.name=、{{c|密封}}]}}
+69	それを収集できる場所がない。
+70	=adjectives.join: |spaceAfter==primaryNoun=
+71	[=volume.liquid.name|strip=を自動収集中]
+72	料理に=types.orList=の効果を加える。
+73	=object.the.name=をどこに注ぐ？
+74	先に=object.the.name=を空にしますか？
+75	何ドラム注ぐ？（最大=equals==pourableVolume=）
+76	=object.the.name=には注げるものが入っていない。
+77	=preposition= =volume.drams.of.liquid#forSort=
+78	=preposition= =volume.drams.of.liquid#forSort=
+79	=preposition= =volume.liquid.name=、{{c|密封}}
+80	{{y|[{{c|=volume.liquid.name=を自動収集中}}]}}
+81	本当に=subject.the.name=の中身を抜きますか？
+82	容器からその容器自体には注げない。
+83	容器からその容器自体には注げない。
+84	{{y|[=volume.drams.of.liquid#forSort=、{{c|密封}}]}}
+85	=container.liquid.name= =amount=ドラム
+86	=preposition= =volume.drams.of.liquid#forSort=、{{c|密封}}
+87	=object.the.name=とはどうやっても関われないようだ。
+88	=object.the.name=とはどうやっても関われないようだ。
+89	=container.liquid.name= =amount:D6=ドラム
+90	=container.liquid.name= =amount|rules=ドラム
+91	=subject.T=は=items.andList=から=messTerms.andList=を拭き取った。
+92	=volume.liquid.name=が=amount.things:dram=、あなたの全身に降りかかった！
+93	=subject.T=は=volume.liquid.name=を=amount.things:dram=注ぎ出した。
+94	=subject.The.name's=心が正気と狂気の間を揺れ動き始めた。
+95	[?]
+97	[{{=color=|?}}]
+98	[{{=color=|空}}]
+99	=subject.T=は空だ。
+100	[=amount|color#amountColor=]
+101	=subject.T=は=statusphrase=。
+102	=object.the.name=に入れる=liquid.name=を持っていない。
+103	=subject.T=には正しい液体が装填されていない。
+104	=subject.T=は既に=volume.liquid.name=で満タンだ。
+105	=subject.T=にはこれ以上=liquid.name|strip=を入れる余地がない。
+106	=object.the.name=から=volume.liquid.name=を捨てた。
+107	=object.the.name=に補給する=liquid.name|strip=を持っていない。
+108	=object.the.name=を=volume.liquid.name=で=partial.if:部分的に=満たした。
+109	=volume.liquid.name=
+110	なぜかそれはできない。
+111	自動収集は純粋な液体の入った密封されていない容器でのみ機能する。
+112	=locName=を発見した！
+113	=location.text|initLower=
+114	=location.text|initLower=
+115	=locName=を発見した。
+116	=locName=に辿り着いた！
+117	=locName=に辿り着いた。
+118	=location.text|initLowerIfArticle=
+119	=location.text|titleCaseWithArticle=
+120	長剣（クリティカル時に貫通力上昇）
+121	調べる |
+122	物語を思い出す（{{W|S}}）
+123	| =commandKey:CmdWalk= 歩く
+124	| {{hotkey|n}} NavWeightを表示
+125	| =commandKey:Accept= 調べる
+126	調べる [{{C|=num=}}/{{C|=count=}}] |
+127	<続きあり - {{W|PgUp}}で上へスクロール>
+128	<続きあり - {{W|PgDown}}で下へスクロール>
+129	=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|ロ}}ック
+130	=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|ロ}}ック解除
+131	| =commandKey:V Positive=/=commandKey:V Negative= 選択を変更
+132	=commandKey:CmdLook= 注目地点
+133	=object.a.name=を目にして、あなたの心は歌った。
+134	=subject.T=は=object.the.name=に恋をした！
+135	{{C|光るホアシュルーム}}が生えてきた。
+136	[{{K|空}}]
+137	[{{K|空}}]
+139	[=object.name=]
+140	=subject.T=は弾詰まりした！
+141	=subject.T=は弾詰まりした！
+142	[=amount|color#amountColor=]
+143	=subject.T=には弾薬がもうない！
+144	=subject.T=には弾薬がもうない！
+145	=subject.T=は既に装填済みだ。
+146	=object.the.name=用の弾薬がもうない。
+147	=object.the.name=に=ammo.a.or.stack.name=を装填した。
+148	=subject.T=は=ammo.name:single=を=host.aForNPCSubject.name=に移した。
+149	=host.the.name=に=ammo.pluralName=をいくつ補給する？（最大=equals==amount=）
+150	MOD
+151	言語を選択 / Select Language
+152	言語 / Language（=currentLanguage=）
+160	=object.the.name=を=action=！
+166	=subject.refname:MakersMark:long:withTitles|strip=
+167	とある職人
+168	{{P|=set=の管理}}
+169	=subject.itis=周辺の地図だ！
+170	亡きスルタン朝の失われた死の刻印は=MarkOfDeath=だった。
+171	=title=を読んだ。
+172	=title=：完全版
+173	=title=、第=volume.roman=巻
+174	{{C|編者注:}} =note=\n\n
+175	{{C|著者注:}} =note=\n\n
+176	=title=、第=edition=版
+177	=title|color:Y=の数少ない判読できる一節を読んだ:\n\n「=sentence=」
+178	=year=年=month=の月、=name=は影響力ある書物『=title=』を著した。
+179	{{R|何者かが集合精神を通じて手を伸ばし、あなたの力を消耗させた！}}
+183	機械の翼
+184	=subject.The.name=は反応しない。
+185	=subject.The.name=はまだ起動中だ。
+186	 =glyph:Damage==damage=
+187	武器種別: =critDesc=
+188	攻撃確率: =chance=%
+189	=glyph:PV==prefixNumber=
+190	{{rules|=detailedStats=}}
+191	=stat.Name=ボーナス上限: =max=
+192	=stat.Name=ボーナス上限: なし
+193	副手攻撃確率: =chance=%
+194	=glyph:PV==prefixNumber={{K|/=penetration=}}
+195	{{rules|自我 =ego.signed=}}\n{{rules|=detailedStats=}}
+196	=glyph:PV==glyph.strip:Vibro==penBonus.signed|when#nonZero=
+197	{{rules|命中 =hitBonus.signed=}}\n{{rules|=detailedStats=}}
+198	=subject.The.name's:withTitles=精神の鏡が砕けた！
+199	=subject.The.name's:withTitles=精神の鏡が攻撃を跳ね返した！
+200	=spice:advertisements.merchants.!random=

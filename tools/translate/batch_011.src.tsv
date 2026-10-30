@@ -1,0 +1,201 @@
+No	file	Context	ID
+2	Strings.example.xml	EaterCryptPlaque part3	"=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper="
+3	Strings.example.xml	MerchantRevealer DisplayName	advertisement for =mapnote.text|initLower=
+4	Strings.example.xml	Message Log Turn Separator	[--turn start--]
+5	Strings.example.xml	Metamorphosis assume form	=subject.Does:assume= the form of =newBody.a.shortname:withTitles=.
+6	Strings.example.xml	Missile Weapon Area fire	{{W|[=commandKey:CmdFire=]}} fire
+7	Strings.example.xml	Missile Weapon Area reload	{{W|[=commandKey:CmdReload=]}} reload
+8	Strings.example.xml	Missile Weapon Area no weapon equipped	{{K|You have no missile weapons equipped.}}
+9	Strings.example.xml	ModBeamSplitter Display Adjective	{{R-R-r-r-g-g-G-G-B-B-b-b sequence|beamsplitter}}
+10	Strings.example.xml	ModBeetlehost Techscanning NameForStatus	AutomataFab
+11	Strings.example.xml	ModBiomech Techscanning NameForStatus	Biomachinery
+12	Strings.example.xml	ModBlinkEscape Techscanning NameForStatus	EmergencyTeleporter
+13	Strings.example.xml	ModCleated Techscanning NameForStatus	StabilityAssist
+14	Strings.example.xml	ModCleated Description	Fitted with cleats: =saveVs.saveBonus#amount=
+15	Strings.example.xml	ModCoProcessor Techscanning NameForStatus	CoProcessor
+16	Strings.example.xml	ModCoProcessor Clause	{{brainbrine|co-processor}}
+17	Strings.example.xml	ModCounterweighted Techscanning NameForStatus	BalanceSystems
+18	Strings.example.xml	ModCounterWeighted DisplayName Adjective Level>1	counterweighted(=level=)
+19	Strings.example.xml	ModCounterweighted Description	Counterweighted: Adds =bonus.signed= to hit.
+20	Strings.example.xml	ModCybrid Techscanning NameForStatus	BiomechanicalAdapter
+21	Strings.example.xml	ModDependencies DependencyIsOK	OK
+22	Strings.example.xml	ModDependencies DependencyIsInvalid	Invalid
+23	Strings.example.xml	ModDependencies DependencyMissing	Missing
+24	Strings.example.xml	ModDependencies DependencyVersionMismatch	Version mismatch
+25	Strings.example.xml	ModDependencies RequiredHeader	{{W|=== Required ===}}
+26	Strings.example.xml	ModDependencies OptionalHeader	{{W|=== Optional ===}}
+27	Strings.example.xml	ModDependencies Dependency Status	{{=color=|=id= (=version=): =status=}}
+28	Strings.example.xml	ModDependencies DependenciesMissing	=modtitle= is missing one or more dependencies.
+29	Strings.example.xml	ModDisguise DisplayName Clause No Blueprint	and disguise
+30	Strings.example.xml	ModDisguise Disguise Appearance Description	=blueprint.disguise.name#parentObject=
+31	Strings.example.xml	ModDisguise Mod DisplayName	a disguise=appearance.if: of :==appearance=
+32	Strings.example.xml	ModDisguise Instance Description Reputation Lines	=level.signed= reputation with =faction.formattedName=
+33	Strings.example.xml	ModDisguise DisplayName Clause	and =blueprint.part:Render:DisplayName:creature= disguise
+34	Strings.example.xml	ModDisguise Instance Description Part1	Disguise: This item makes its wearer appear to be =appearance=.
+35	Strings.example.xml	ModDisplacer Techscanning NameForStatus	SpatialTransposer
+36	Strings.example.xml	ModDisplacer Examine Failure	=subject.Does:bump= into =object.the.name=.
+37	Strings.example.xml	ModElectrified Techscanning NameForStatus	ArcDischarger
+38	Strings.example.xml	ModEngraved Story Marred	<marred and unreadable>
+39	Strings.example.xml	ModExtradimensional Techscanning NameForStatus	***ERROR***
+40	Strings.example.xml	ModFactionSlayer Techscanning NameForStatus	ProfilingEngine
+41	Strings.example.xml	ModFactionSlayer Short Description	=chance=% chance to behead =faction.formattedName= on hit.
+42	Strings.example.xml	ModFateCaller Techscanning NameForStatus	ProbabilityEngine
+43	Strings.example.xml	ModFateCaller Short Description	=chance=% of the time, the Fates have their way.
+44	Strings.example.xml	ModFeathered Short Description	Feathered: This item grants the wearer =amount.signed= reputation with birds.
+45	Strings.example.xml	ModFilters Display Adjective	{{Y|filters}}
+46	Strings.example.xml	ModFlaming Techscanning NameForStatus	HeatingElement
+47	Strings.example.xml	ModFlexiweaved Display Adjective	flexiweaved(=modLevel=)
+48	Strings.example.xml	ModFlexiweaved Description Tier Zero	Flexiweaved: This item's DV penalty is reduced.
+49	Strings.example.xml	ModFlexiweaved Description Tier>0	Flexiweaved: This item's DV penalty is reduced by =modLevel=.
+50	Strings.example.xml	ModFreezing Techscanning NameForStatus	HeatPump
+51	Strings.example.xml	ModGigantic Description Replacer - =what=	weapon
+52	Strings.example.xml	ModGigantic Techscanning NameForStatus	MassEnhancement
+53	Strings.example.xml	ModGigantic Description Replacer - =optionalIt=	=subject.They= 
+54	Strings.example.xml	ModGigantic Description Replacer - Weight (immediately following Value only)	much heavier than usual
+55	Strings.example.xml	ModGigantic Description Replacer - Damage	=optionalIt==subject.verb:have= +3 damage
+56	Strings.example.xml	ModGigantic GetDescription	Gigantic: =subject.modGiganticDescription=
+57	Strings.example.xml	ModGigantic Description Replacer - Axe	=optionalIt==subject.verb:cleave= for -3 AV
+58	Strings.example.xml	ModGigantic Description Replacer - Dig	=optionalIt==subject.verb:dig= twice as fast
+59	Strings.example.xml	ModGigantic Description Replacer - Value	=optionalIt==subject.verb:are= much more valuable
+60	Strings.example.xml	ModGigantic Description Replacer - Liquid Volume	=optionalIt==subject.verb:hold= twice as much liquid
+61	Strings.example.xml	ModGigantic Description Replacer - Weight	=optionalIt==subject.verb:are= much heavier than usual
+62	Strings.example.xml	ModGigantic Description Replacer - Cant Be Wielded By Others	=optionalIt=can only be equipped by gigantic creatures
+63	Strings.example.xml	ModGigantic Description Replacer - Cell Capacity	=optionalIt==subject.verb:have= twice the energy capacity
+64	Strings.example.xml	ModGigantic Description Replacer - Tonic	=optionalIt==subject.verb:contain= double the tonic dosage
+65	Strings.example.xml	ModGigantic Description Replacer - Effect Radius	=optionalIt==subject.verb:have= twice as large a radius of effect
+66	Strings.example.xml	ModGigantic Description Replacer - Finalize No Weapon Properties	=subject.isPlural:These:This= =subject.pluralize#what= =otherProps.andList=.
+67	Strings.example.xml	ModGlassArmor Damage MessageTemplate	=target.Does:take= =amount= damage from the glass armor.
+68	Strings.example.xml	ModGlassArmor Short Description	Reflects =tier=% damage back at your attackers, rounded up.
+69	Strings.example.xml	ModGlassArmor Damage MessageTemplate	=target.Does:take= =amount= damage from =origin.its= glass armor.
+70	Strings.example.xml	ModGlassArmor Reflect	=subject.Does:reflect= =amount= damage back at =object.the.name=.
+71	Strings.example.xml	ModGlazed Short Description	=chance=% chance to dismember on hit.
+72	Strings.example.xml	ModHardened Techscanning NameForStatus	ElectromagneticShielding
+73	Strings.example.xml	ModHardened Display Adjective	{{mercurial|electromagnetic}} shielding
+74	Strings.example.xml	ModHighCapacity Techscanning NameForStatus	HighCapacityStorage
+75	Strings.example.xml	ModImprovedBlock Techscanning NameForStatus	ImprovedBlock
+76	Strings.example.xml	ModImprovedMutationBase Mutation Display Name Snapshot	=mutation.name=
+77	Strings.example.xml	ModInfo ModLogToClipboard WarningsHeader	== Warnings ==
+78	Strings.example.xml	ModInfo ErrorList	=errors.join:\n=
+79	Strings.example.xml	ModInfo ConfirmDependencies PopupTitle	{{W|Dependencies}}
+80	Strings.example.xml	ModInfo ConfirmFailure RetryButton	{{W|[R]}} {{y|Retry}}
+81	Strings.example.xml	ModInfo ConfirmUpdate UpdateAvailableTitle	{{W|Update Available}}
+82	Strings.example.xml	ModInfo ConfirmFailure WorkshopButton	{{W|[W]}} {{y|Workshop}}
+83	Strings.example.xml	ModInfo ConfirmFailure TitleLine	=modname= - {{R|Errors}}
+84	Strings.example.xml	ModInfo ErrorList MoreThan3	(... {{R|=number=}} more)
+85	Strings.example.xml	ModInfo ModLogToClipboard TitleNoVersion	=== =modtitle= Errors ===
+86	Strings.example.xml	ModInfo ModLogToClipboard TitleWithVersion	=== =modtitle= =version= Errors ===
+87	Strings.example.xml	ModInfo ErrorList ClipboardKnownModAuthor	Automatically on your clipboard should you wish to forward it to =author=.
+88	Strings.example.xml	ModInfo ClipboardUnknownModAuthor	Automatically on your clipboard should you wish to forward it to the mod author.
+89	Strings.example.xml	ModLiquidCooled NonPure Colorless Volume	 [?]
+90	Strings.example.xml	ModLiquidCooled Colorless Volume	 [=amount=]
+91	Strings.example.xml	ModLiquidCooled Techscanning NameForStatus	CoolantSystem
+92	Strings.example.xml	ModLiquidCooled NonPure Colorful Volume	 [{{=color=|?}}]
+93	Strings.example.xml	ModLiquidCooled Liquid Fill =snapshotName= Before Loading	=subject.the.name=
+94	Strings.example.xml	ModLiquidCooled Empty Colorful Volume	 [{{=color=|empty}}]
+95	Strings.example.xml	ModLiquidCooled Colorful Volume	 [{{=color=|=amount=}}]
+96	Strings.example.xml	ModLiquidCooled Display Adjective	{{=liquid.color=|liquid-cooled}}
+97	Strings.example.xml	ModLiquidCooled Status Message	=subject.Does:are= =statusPhrase=.
+98	Strings.example.xml	ModLiquidCooled Status Message Input Missing	=subject.Does:emit= a grinding noise.
+99	Strings.example.xml	ModLiquidCooled Host Full	=host.Does:have= no room for more =liquid.name|strip=.
+100	Strings.example.xml	ModLiquidCooled Already Full	=subject.Does:are= already full of =volume.liquid.name=.
+101	Strings.example.xml	ModLiquidCooled No Liquid For Host	You have no =liquid.name|strip= to supply =host.the.name= with.
+102	Strings.example.xml	ModLiquidCooled Liquid Fill Message	You=partial.if: partially:= fill =snapshotName= with =volume.liquid.name=.
+103	Strings.example.xml	ModMagnetic Falls Down	=subject.Does:fall= to the ground.
+104	Strings.example.xml	ModMagnetic Falls Down Picked Up	=subject.Does:fall= to the ground; you pick =subject.them= up.
+105	Strings.example.xml	ModMagnetized Techscanning NameForStatus	MagLev
+106	Strings.example.xml	ModMagnetized Cant Float	=subject.Does:are= not able to float right now.
+107	Strings.example.xml	ModManagerUI ByAuthor	by =author=
+108	Strings.example.xml	ModManagerUI SetBackButtonText Standard	{{W|[Esc]}} {{y|=text=}}
+109	Strings.example.xml	ModManagerUI Update PressButton	{{W|[space]}} {{y|Press Button}}
+110	Strings.example.xml	ModManagerUI SetBackButtonText Gamepad	{{W|[=commandKey:Cancel=]}} {{y|=text=}}
+111	Strings.example.xml	ModManagerUI EnableMod Gamepad	{{W|[=commandKey:Accept=]}} {{y|Enable mod}}
+112	Strings.example.xml	ModManagerUI DisableMod Gamepad	{{W|[=commandKey:Accept=]}} {{y|Disable mod}}
+113	Strings.example.xml	ModManagerUI Update PressButtonGamepad	{{W|[=commandKey:Accept=]}} {{y|Press Button}}
+114	Strings.example.xml	ModManagerUI RecompileMod Gamepad	{{W|[=commandKey:Accept=]}} {{y|Recompile mod}}
+115	Strings.example.xml	ModManagerUI MissingDependency Gamepad	{{W|[=commandKey:Accept=]}} {{y|View dependencies}}
+116	Strings.example.xml	ModMasterwork Description	Masterwork: This weapon scores critical hits =bonus=% of the time instead of 5%.
+117	Strings.example.xml	ModMenuLine ByAuthor	by =author=
+118	Strings.example.xml	ModMenuLine Byte Size	=bytes.bytes=
+119	Strings.example.xml	ModMenuLine Scripting	{{w|# SCRIPTING}}
+120	Strings.example.xml	ModMenuLine HarmonyPatches	{{W|# HARMONY PATCHES}}
+121	Strings.example.xml	ModMenuLine MissingDependency	{{yellow|MISSING DEPENDENCY}}
+122	Strings.example.xml	ModMercurial Techscanning NameForStatus	ReactiveTeleporter
+123	Strings.example.xml	ModMercurial Instance Description Assured	Mercurial: Teleports the user to safety upon taking damage.
+124	Strings.example.xml	ModMercurial Instance Description Chance	Mercurial: Teleports the user to safety upon taking damage (=chance=% chance).
+125	Strings.example.xml	ModMetered Techscanning NameForStatus	ChargeMeter
+126	Strings.example.xml	ModMorphogenetic Techscanning NameForStatus	MorphogeneticResonator
+127	Strings.example.xml	ModMorphogenetic Shock Message	A weird=analgesic.if::, painful= shock reverberates through you.
+128	Strings.example.xml	ModNanon Description Non Zero Tier Single	Nanon: =high=% chance to dismember on penetration
+129	Strings.example.xml	ModNanon Instance Description	Nanon: =chance=% chance to dismember upon penetration
+130	Strings.example.xml	ModNanon Description Non Zero Tier Single	Nanon: =low=-=high=% chance to dismember on penetration
+131	Strings.example.xml	ModNewVersion NewVersionAvailable	=modtitle= has a new version available: =version=.
+132	Strings.example.xml	ModOverloaded Techscanning NameForStatus	PowerRegulator
+133	Strings.example.xml	ModPadded Techscanning NameForStatus	Padding
+134	Strings.example.xml	ModPadded Stun Resist Particle Text	Resisted stun!
+135	Strings.example.xml	ModPadded Daze Resist Particle Text	Resisted daze!
+136	Strings.example.xml	ModPadded Soften Message	=subject.The.name's= padding softened the blow.
+137	Strings.example.xml	ModPainted Story Marred	<marred and unreadable>
+138	Strings.example.xml	ModPhaseHarmonic Techscanning NameForStatus	PhaseRegulator
+139	Strings.example.xml	ModPsionic Remaining Adjective Near Full	lambent
+140	Strings.example.xml	ModPsionic Remaining Adjective Near Empty	tenuous
+141	Strings.example.xml	ModPsionic Remaining Adjective Full	substantial
+142	Strings.example.xml	ModPsionic Remaining Adjective Empty	insubstantial
+143	Strings.example.xml	ModPsionic Display Remaining	(=remainingDesc=)
+144	Strings.example.xml	ModPsionic Disappear Message	=subject.Does:disappear=.
+145	Strings.example.xml	ModQuantumReverb Techscanning NameForStatus	QuantumReverb
+146	Strings.example.xml	ModQuantumReverb Hologram Display Name	hologram of =subject.a.name=
+147	Strings.example.xml	ModQuantumReverb Display Adjective	{{quantumreverb|quantum reverb}}
+148	Strings.example.xml	ModQuantumReverb Hologram Appear Message	=subject.A.name= =subject.verb:appear=.
+149	Strings.example.xml	ModRecycling Description Without Liquid Volume	Recycling: This item collects and purifies the wearer's wastewater.
+150	Strings.example.xml	ModRefractive Description	Refractive: This item has a chance to refract light-based attacks.
+151	Strings.example.xml	ModRelicFreezing Techscanning NameForStatus	HeatPump
+152	Strings.example.xml	ModSereneVisage Techscanning NameForStatus	SereneVisage
+153	Strings.example.xml	ModSereneVisage Display Adjective	{{Y|serene}} visage
+154	Strings.example.xml	ModSerrated Instance Description	Serrated: This weapon has =chance.a.number=% chance to dismember opponents.
+155	Strings.example.xml	ModSharp Techscanning NameForStatus	EdgeEnhancement
+156	Strings.example.xml	ModSixFingered Instance Description	Six-Fingered: =amount.signed= Agility
+157	Strings.example.xml	ModSpiked ShieldSlamDamage ExtraDesc (default)	+bleeding
+158	Strings.example.xml	ModSpiked Techscanning NameForStatus	PenetrationModule
+159	Strings.example.xml	ModSpringLoaded Techscanning NameForStatus	MobilityAssist
+160	Strings.example.xml	ModSturdy Techscanning NameForStatus	StructuralSupport
+161	Strings.example.xml	ModSuspensor Display Adjective	{{watery|suspensors}}
+162	Strings.example.xml	ModTerrifyingVisage Techscanning NameForStatus	TerrifyingVisage
+163	Strings.example.xml	ModTerrifyingVisage Display Adjective	{{K|terrifying}} visage
+164	Strings.example.xml	ModToolkit menu item text	Map Editor
+165	Strings.example.xml	ModToolkit menu item text	Mod Manager
+166	Strings.example.xml	ModToolkit menu item text	Mod Wiki Website
+167	Strings.example.xml	ModToolkit menu item text	Open Save Folder
+168	Strings.example.xml	ModToolkit - cancelText	Back to Main Menu
+169	Strings.example.xml	ModToolkit menu item text	Workshop Uploader
+170	Strings.example.xml	ModToolkit menu item text	Blueprint Browser
+171	Strings.example.xml	ModToolkit menu item text	Histographicnomicon
+172	Strings.example.xml	ModToolkit menu item text	Write Mods.csproj File
+173	Strings.example.xml	ModToolkit menu item text	Waveform Collapse Map Generator
+174	Strings.example.xml	ModTransmuteOnHit Message	=subject.Does:were= transmuted into =object.a.name=.
+175	Strings.example.xml	ModTransmuteOnHit Description Small Chance	Small chance to transmute an enemy into =descriptionTerm= on hit.
+176	Strings.example.xml	ModTransmuteOnHit Description	=chance=% chance to transmute an enemy into =descriptionTerm= on hit.
+177	Strings.example.xml	ModVisor Techscanning NameForStatus	Visor
+178	Strings.example.xml	ModWired Techscanning NameForStatus	Wiring
+179	Strings.example.xml	MoteProperties GetLitDescription Faint	{{K|faint}}
+180	Strings.example.xml	MoteProperties GetLitDescription Bright	{{W|bright}}
+181	Strings.example.xml	MoteProperties GetLitDescription Blazing	{{Y|blazing}}
+182	Strings.example.xml	MoveCostMultiplier RulesPostfix	=amount.signed= =statistics[MoveSpeed].name=
+183	Strings.example.xml	MultiIntPropertyChanger NameForStatus TechScanning	ActiveSystems
+184	Strings.example.xml	Multiweapon_Flurry Nothing To Attack	There is nothing there you can attack.
+185	Strings.example.xml	Multiweapon_Flurry Attack Message	=subject.Does:launch= into a flurry of attacks!
+186	Strings.example.xml	Multiweapon_Flurry Cannot Reach	You cannot reach =object.the.name= to attack =object.them=.
+187	Strings.example.xml	mutation gas generation ability name	Gas Generation
+188	Strings.example.xml	mutation gas generation display name	=gas.Name= Generation
+189	Strings.example.xml	mutation gas generation level text effect	Increased =description=
+190	Strings.example.xml	mutation gas generation level text effect	Decreased =description=
+191	Strings.example.xml	Mutation with Defect Display	=mutationName= ({{r|D}})
+192	Strings.example.xml	Mutation Use Fail BodyPart Too Damaged (null)	Your =bodyPartType|lower= is too damaged to do that!
+193	Strings.example.xml	Mutation Use Fail BodyPart Too Damaged	Your =part.ordinalName= =part.is= too damaged to do that!
+194	Strings.example.xml	mutationbgone - success message	Om nom nom! =mutation.name:withAnnotations= is gone! {{w|*belch*}}
+195	Strings.example.xml	MutationOnEquip RulesPostfix NoLevel	Grants you =mutation.name=.
+196	Strings.example.xml	MutationOnEquip RulesPostfix CanLevel	Grants you =mutation.name= at level =level=.
+197	Strings.example.xml	NameStyle Naming.xml Format	=name|nameStyle#format=
+198	Strings.example.xml	Naming Expand Property Spice	=spice#query|title=
+199	Strings.example.xml	Narcolepsy Doze Message	=subject.Does:fall= asleep!
+200	Strings.example.xml	NaturalWeapon Unequip failure message	You can't remove =object.the.name=.
+201	Strings.example.xml	Nearby objects window header	Nearby objects

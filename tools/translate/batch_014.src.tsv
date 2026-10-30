@@ -1,0 +1,201 @@
+No	file	Context	ID
+2	Strings.example.xml	Saving Throw Vs Phase	phase effects
+3	Strings.example.xml	Saving Throw Vs Pistol	Pistol skills
+4	Strings.example.xml	Saving Throw Vs Stoning	petrification
+5	Strings.example.xml	Saving Throw Vs Stun	being stunned
+6	Strings.example.xml	Saving Throw Vs Blade	bladed weapons
+7	Strings.example.xml	Saving Throw Vs Contact	contact agents
+8	Strings.example.xml	Saving Throw Vs Escape	being captured
+9	Strings.example.xml	Saving Throw Vs Inhaled	inhaled toxins
+10	Strings.example.xml	Saving Throw Vs Stuck	becoming stuck
+11	Strings.example.xml	Saving Throw Vs Verbal	speech effects
+12	Strings.example.xml	Saving Throw Vs (List)	=list.andList=
+13	Strings.example.xml	Saving Throw Vs Injected	injected toxins
+14	Strings.example.xml	Saving Throw Vs Move	forced movement
+15	Strings.example.xml	Saving Throw Vs Lithofex	Lithofex attacks
+16	Strings.example.xml	Saving Throw Vs Restraint	being restrained
+17	Strings.example.xml	Saving Throw Vs Tinkering	Tinkering effects
+18	Strings.example.xml	Saving Throw Vs Fungal	fungal infestation
+19	Strings.example.xml	Saving Throw Vs LatchOn	being latched onto
+20	Strings.example.xml	Saving Throw Vs LongBlades	Long Blades skills
+21	Strings.example.xml	Saving Throw Vs Hologram	holographic effects
+22	Strings.example.xml	Saving Throw Vs RobotStop	adversarial signage
+23	Strings.example.xml	Saving Throw Vs ShortBlades	Short Blades skills
+24	Strings.example.xml	Saving Throw Vs SlogGlands	the bilge sphincter
+25	Strings.example.xml	Saving Throw Vs Decarbonizer	Decarbonizer attacks
+26	Strings.example.xml	Saving Throw Vs Rifle	Bow and Rifle skills
+27	Strings.example.xml	Saving Throw Vs EMP	electromagnetic pulses
+28	Strings.example.xml	Saving Throw Description: no type specified	=bonus.signed= to saves
+29	Strings.example.xml	Saving Throw Vs (_default_)	=vs.saveThrowVersusDefault=
+30	Strings.example.xml	Saving Throw Vs Onset	the initial onset of disease
+31	Strings.example.xml	Saving Throw Vs (liquid)	effects of =liquid.name|strip=
+32	Strings.example.xml	Saving Throw Description: Highlight Number, no type specified	{{rules|=bonus.signed=}} to saves
+33	Strings.example.xml	Saving Throw Description: Immune	Immune to =type.saveBonusTypeDescription=
+34	Strings.example.xml	Saving Throw Description: Highlight Number	=bonus.signed= to saves vs. =type.saveBonusTypeDescription=
+35	Strings.example.xml	Saving Throw Description: Highlight Number	{{rules|=bonus.signed=}} to saves vs. =type.saveBonusTypeDescription=
+36	Strings.example.xml	ScriptCallToArms Power Available	 Available power: =available= amps 
+37	Strings.example.xml	ScriptCallToArms Power Insufficient	[{{W|!!! WARNING: INSUFFICIENT POWER !!!}}]
+38	Strings.example.xml	ScriptCallToArms Warnings3	Otho yells, '{{W|=name=! Come back here!}}'
+39	Strings.example.xml	ScriptCallToArms Power Fail	[{{R|!!! ERROR: POWER SYSTEMS HAVE FAILED !!!}}]
+40	Strings.example.xml	ScriptCallToArms Result Conversation Start	=name=, I've assessed the losses we suffered in the attack.
+41	Strings.example.xml	SensePsychic hostile perception verb	sense
+42	Strings.example.xml	Settlements farm name random article prefix	the 
+43	Strings.example.xml	Settlements Generate Farm Name fallback nameRoot	Urist
+44	Strings.example.xml	Settlements farm name random prefix	=name|'s=
+45	Strings.example.xml	Settlements Generate Farm Name TitleFinal chance	=prefixPlusSuffix|title=
+46	Strings.example.xml	Settlements Generate Farm Name TitleFinal chance	=article|spaceAfter==prefix|title= =suffix|title=
+47	Strings.example.xml	Settlements Generate Farm Name TitleFinal chance	the =suffix|title= of =article|spaceAfter==prefix=
+48	Strings.example.xml	Settlements pig farm name 15%	=spice:commonPhrases.secluded.!random|Article= pig farm
+49	Strings.example.xml	Settlements starapple farm name 15%	=spice:commonPhrases.secluded.!random|Article= starapple farm
+50	Strings.example.xml	Setup game state: FungalCureLiquidDisplay	=liquid.name|strip=
+51	Strings.example.xml	Setup game state: FungalCureWormDisplay	=wormCorpse.name|strip=
+52	Strings.example.xml	ShakeItOff particle text stun avoided	*shook off stun*
+53	Strings.example.xml	ShakeItOff particle text daze avoided	*shook off daze*
+54	Strings.example.xml	ShakeItOff particle text daze success	*shook off daze*
+55	Strings.example.xml	ShakeItOff particle text stun success	*shook off stun*
+56	Strings.example.xml	ShakeItOff Stun	=subject.Does:shake= off the stun.
+57	Strings.example.xml	ShakeItOff TryToShakeItOff Stun Success	=subject.Does:shake= off the stun.
+58	Strings.example.xml	ShakeItOff Daze	=subject.Does:shake= off the dazing.
+59	Strings.example.xml	ShakeItOff TryToShakeItOff Daze Success	=subject.Does:shake= off =subject.its= daze.
+60	Strings.example.xml	Shank Self Warning	Are you sure you want to shank =subject.reflexive=?
+61	Strings.example.xml	ShatterOnHit Message Log	=subject.Does:shatter=.
+62	Strings.example.xml	ShevaStarshipControl Launch Later	Launching in =timer=...
+63	Strings.example.xml	ShevaStarshipControl Less Than 10 Popup	Exodus launch in =timer=...
+64	Strings.example.xml	ShevaStarshipControl Confirm Popup Other	Launch spaceship and end game?
+65	Strings.example.xml	ShevaStarshipControl Confirm Popup PC	Launch spaceship and end game?(type =prompt= to confirm)
+66	Strings.example.xml	Shield Performance Display Name Tag	=glyph:AV==av= =glyph:DV==dv=
+67	Strings.example.xml	ShieldWall Fail - No Shield	You have no shield to raise.
+68	Strings.example.xml	shock damage message (TODO)	from %t electrical discharge!
+69	Strings.example.xml	Shrine choose liquid choice	=liquid.name=
+70	Strings.example.xml	Shrine desecrate message log	=subject.Does:desecrate= =object.the.name=.
+71	Strings.example.xml	Shrine Desecrate needs liquids	You need a dram of =liquids.either.or= to desecrate a shrine.
+72	Strings.example.xml	Shrine prayer message log	=subject.Does:voice= a short prayer beneath =object.the.name=.
+73	Strings.example.xml	Shug Lair Maker - CradleDisplayName	The cradle of Shug'ruith
+74	Strings.example.xml	Skill UI Either Stat Separator	 or 
+75	Strings.example.xml	Skill UI Console Expanded	[-] 
+76	Strings.example.xml	Skill UI Console Collapsed	[+] 
+77	Strings.example.xml	Skill UI PowerEntry or joiner	 or 
+78	Strings.example.xml	Skill UI Console Cursor	{{Y|>}}
+79	Strings.example.xml	Skill Weapon Class Name	long-blade
+80	Strings.example.xml	Skill Weapon Class Name	short-blade
+81	Strings.example.xml	Skill UI Prereq Ok	{{G|=name=}}
+82	Strings.example.xml	Skill UI Prereq Fail	{{R|=name=}}
+83	Strings.example.xml	Skill UI Console More	{{W|<More...>}}
+84	Strings.example.xml	Skill UI PowerEntryRequirement List	=elements.join=
+85	Strings.example.xml	Skill UI Exclusion Ok	Ex: {{g|=name=}}
+86	Strings.example.xml	Skill UI Exclusion Fail	Ex: {{R|=name=}}
+87	Strings.example.xml	Skill UI Console Prereq Ok	Ex: {{G|=name=}}
+88	Strings.example.xml	Skill UI Console Prereq Fail	Ex: {{R|=name=}}
+89	Strings.example.xml	Skill UI Console Exclusion Ok	Ex: {{g|=name=}}
+90	Strings.example.xml	Skill UI Console Exclusion Fail	Ex: {{R|=name=}}
+91	Strings.example.xml	Skill UI Expander	=expand.expanded=
+92	Strings.example.xml	Skill UI Required Skills Label	[REQUIRED SKILLS]
+93	Strings.example.xml	Skill UI Console List Element	 - =elements.join=
+94	Strings.example.xml	Skill UI Has Power Line	{{G|:=power.name=}}
+95	Strings.example.xml	Skill UI Requirements List	{{K|:}}=elements.join=
+96	Strings.example.xml	Skill UI Requirement Met	{{G|[=requisite.name=]}}
+97	Strings.example.xml	Skill UI Requirement Not Met	{{R|[=requisite.name=]}}
+98	Strings.example.xml	Skill UI Skill Cost OK	:: {{C|=skill.cost=}} SP ::
+99	Strings.example.xml	Skill UI Skill Cost Too High	:: {{R|=skill.cost=}} SP ::
+100	Strings.example.xml	Skill UI Power Cost OK	:: {{C|=power.cost=}} SP ::
+101	Strings.example.xml	Skill UI Power Cost Too High	:: {{R|=power.cost=}} SP ::
+102	Strings.example.xml	Skill UI Exclusion Met	Ex: {{g|[=exclusion.name=]}}
+103	Strings.example.xml	Skill UI Exclusion Not Met	Ex: {{R|[=exclusion.name=]}}
+104	Strings.example.xml	Skill UI Already Have Skill Popup	You already have that =thing=.
+105	Strings.example.xml	Skill UI SP Available	Skill Points (SP): {{C|=go.sp=}}
+106	Strings.example.xml	Skill UI Line Right Learned	{{g|Learned}} [=learned=/=total=]
+107	Strings.example.xml	Skill UI Modding Error No Implementation Popup	No implementation for =classname=
+108	Strings.example.xml	Skill UI Line Unlearned Enough	Starting Cost {{g|[=skill.cost= sp]}}
+109	Strings.example.xml	Skill UI Line Unlearned Not Enough	Starting Cost {{r|[=skill.cost= sp]}}
+110	Strings.example.xml	Skill UI Has Power Has SP	{{W|=skill.name=}} [{{C|=skill.cost=}}sp]
+111	Strings.example.xml	Skill UI Has Power Lacks SP	{{W|=skill.name=}} [{{R|=skill.cost=}}sp]
+112	Strings.example.xml	Skill UI Lacks Power Has SP	{{w|=skill.name=}} [{{C|=skill.cost=}}sp]
+113	Strings.example.xml	Skill UI Lacks Power Lacks SP	{{w|=skill.name=}} [{{R|=skill.cost=}}sp]
+114	Strings.example.xml	Skill UI PowerEntry Has SP	{{g|=power.name=}} [{{C|=power.cost=}}sp]
+115	Strings.example.xml	Skill UI PowerEntry Doesnt Have SP	{{g|=power.name=}} [{{R|=power.cost=}}sp]
+116	Strings.example.xml	Skill UI PowerEntry Doesnt Meet Requirements	{{K|=power.name=}} [{{K|=power.cost=}}sp]
+117	Strings.example.xml	Skill UI PowerEntryRequirements Content	{{C|=minimums=}} {{=color=|=stat_title=}}
+118	Strings.example.xml	Skill UI Console Commands	 {{W|=commandKeyConsole:Cancel=}} to exit 
+119	Strings.example.xml	Skill UI Console Title	[ {{W|Buy Skills}} - {{C|=sp=}}sp remaining ]
+120	Strings.example.xml	Skill UI Not Enough SP Popup	You don't have enough skill points to buy that =thing=!
+121	Strings.example.xml	Skill UI Confirm Purchase Popup	Are you sure you want to buy =name= for {{C|=cost=}} sp?
+122	Strings.example.xml	Skill UI PowerEntry Skill Requirement Popup	You may not learn this skill until you have =skillname=.
+123	Strings.example.xml	Skill UI Line Right Partial Enough	Starting Cost {{g|[=skill.cost= sp]}} [=learned=/=total=]
+124	Strings.example.xml	Skill UI Line Right Partial Not Enough	Starting Cost {{r|[=skill.cost= sp]}} [=learned=/=total=]
+125	Strings.example.xml	Skill UI PowerEntry Mutation Exclusion Popup	You may not learn this skill if you have =mutation.name=.
+126	Strings.example.xml	Skill UI PowerEntry Mutation Mutation Requirement Popup	You may not learn this skill until you have =mutation.name=.
+127	Strings.example.xml	Skill UI PowerEntry Skill Exclusion Popup	You may not learn this skill if you already have =skill.name=.
+128	Strings.example.xml	Skill UI PowerEntryRequirements Attribute Too Low Popup	Your =attribute.statCapDisplayName= isn't high enough to buy =powerEntry.name=!
+129	Strings.example.xml	SkillsAndPowersStatusScreen a known power and skill	{{G|[Learned]}}
+130	Strings.example.xml	SkillsAndPowersStatusScreen a skill that has not been learned	{{R|[Unlearned]}}
+131	Strings.example.xml	SkillsAndPowersStatusScreen a power is known but not the base skill	{{W|[Unlearned]}}
+132	Strings.example.xml	SkybearShroud Activate Message	=subject.Does:start= dashing in a plume of flame and smoke!
+133	Strings.example.xml	Slime Glands spit	=subject.Does:spit= a pool of slime!
+134	Strings.example.xml	SlipRingPart ShortDescription	=chance.signed=% chance to slip away from natural melee attacks
+135	Strings.example.xml	SlipRingPart DefenderBeforeHit Success	=subject.Does:slip= away from =object.the.name's= =weapon.name:withTitles=!
+136	Strings.example.xml	Slumberling sleepy	=subject.Does:lapse= back into hibernation.
+137	Strings.example.xml	Smartgun Local Failure Status	DataProviderNotFound
+138	Strings.example.xml	Smash_Floor Success	=subject.Does:smash= through the floor with a block of fulcrete!
+139	Strings.example.xml	Snapjaw Hero Naming.xml Context	nimble
+140	Strings.example.xml	Snapjaw Hero Naming.xml Context	stalwart
+141	Strings.example.xml	Snapjaw Hero Naming.xml Context	Tot-eater
+142	Strings.example.xml	Snapjaw Hero Naming.xml Context	Gutspiller
+143	Strings.example.xml	Snapjaw Hero Naming.xml Context	Firesnarler
+144	Strings.example.xml	Snapjaw Hero Naming.xml Context	Bear-baiter
+145	Strings.example.xml	Snapjaw Hero Naming.xml Context	fleet-footed
+146	Strings.example.xml	Snapjaw Hero Naming.xml Context	Skullsplitter
+147	Strings.example.xml	Snapjaw_Howl Success	=subject.Does:howl=!
+148	Strings.example.xml	SpaceTimeVortex Destabilize Message	=subject.Does:destabilize=!
+149	Strings.example.xml	SpaceTimeVortex Fail Out Of Range	That target is out of range! (5 squares)
+150	Strings.example.xml	SpaceTimeVortex Stabilize Event Message	=subject.Does:collapse= under the pressure of normality.
+151	Strings.example.xml	SpaceTimeVortex Two Collide (Same Name)	Two =subject.pluralize= come into contact and both explode!
+152	Strings.example.xml	SpaceTimeVortex Appears Message	=subject.A.name= =subject.verb:appear= =subject.to.the.direction=!
+153	Strings.example.xml	SpaceTimeVortex Two Collide (Different Names)	=subject.Does:come= into contact with =object.the.name= and both explode!
+154	Strings.example.xml	SpiralBorerCurio HandleEvent FailInside	You cannot do that inside.
+155	Strings.example.xml	SpiralIronPart PressSpiralIron	=subject.Does:hiss=.
+156	Strings.example.xml	SpontaneousCombustion triggered message log	=subject.Does:erupt= into flames!
+157	Strings.example.xml	spotmessage.defaultVerb	see
+158	Strings.example.xml	SprintDurationCollector - Duration stat display name	Duration
+159	Strings.example.xml	Stacker - DisplayName Clause	x=number=
+160	Strings.example.xml	StairsDown HowToDescend	Use =commandKey:CmdMoveD= to descend.
+161	Strings.example.xml	StairsDown FellFromAbove	=subject.A.name= =subject.verb:fall= down from above.
+162	Strings.example.xml	StairsDown LockedNoKey	=subject.Does:are= locked, and you don't have the key.
+163	Strings.example.xml	StairsUp HowToGoUp	Use =commandKey:CmdMoveU= to ascend.
+164	Strings.example.xml	StairsUp LockedNoKey	=object.Does:are= locked, and you don't have the key.
+165	Strings.example.xml	Start Running	=subject.Does:begin= =message=!
+166	Strings.example.xml	Stat Debug Penetrated	Penned with Roll:=roll= Final:=result=
+167	Strings.example.xml	Stat Debug Didn't Penetrate	Didn't pen with Roll:=roll= Final:=result=
+168	Strings.example.xml	StatBoostMedication Default Message	The tube hisses against your skin, and your blood burns!
+169	Strings.example.xml	Statistic - Stat Adjust Description Line	=adjust.signed==percent.if:%= =stat.title=
+170	Strings.example.xml	Statistic - Stat Adjust Description Line - Activated	When activated, =adjust.signed==percent.if:%= =stat.title=
+171	Strings.example.xml	StatLineNode xml template - invalid node name	{{K|%%}}
+172	Strings.example.xml	StatLineNode xml template	=node.displayName=: =node.statNode#stats=
+173	Strings.example.xml	StatNode xml template - invalid node name	{{K|%%}}
+174	Strings.example.xml	StickOnHit AppendEffect	Melee attacks cause enemies to get stuck for =duration= turns
+175	Strings.example.xml	StickyOnHit Message Log	=subject.Does:get= entangled in =object.the.name=!
+176	Strings.example.xml	StiltWell Particle ConfirmUseImportant	down
+177	Strings.example.xml	StiltWell Verb ConfirmUseImportant	throw
+178	Strings.example.xml	StiltWell No Artifacts	You have no artifacts to offer.
+179	Strings.example.xml	StiltWell Reputation Text	 [=repAmount.signed|color:C= reputation]
+180	Strings.example.xml	StiltWell No Not Important Artifacts	You have no artifacts to offer that are not important.
+181	Strings.example.xml	StiltWell Threw Items Message	=subject.Does:throw= =items.andList:noSecondPerson= down =object.the.name=.
+182	Strings.example.xml	Stinger VenomType	paralyzing
+183	Strings.example.xml	Stinger Failure no stinger found	You don't have a stinger.
+184	Strings.example.xml	Stinger Resist Venom	=subject.Does:resist= the effects of =object.the.name's:withTitles= venom!
+185	Strings.example.xml	Stomach DrankWayTooMuch	You drank way too much!
+186	Strings.example.xml	Stomach Vomit Everywhere	=subject.Does:vomit= everywhere!
+187	Strings.example.xml	Stomach sip message no source	=subject.Does:take= a sip of fresh water.
+188	Strings.example.xml	Stomach TooFamishedToTravel	You're too famished to travel long distances.
+189	Strings.example.xml	Stomach pour over message no source	=subject.Does:pour= fresh water over =subject.itself=.
+190	Strings.example.xml	Stomach sip message with source	=subject.Does:take= a sip of fresh water from =object.the.name:itsPossessor=.
+191	Strings.example.xml	Stop Running	=subject.Does:stop= =message=.
+192	Strings.example.xml	Stopsvaalinn Techscanning NameForStatus	ForceEmitter
+193	Strings.example.xml	Stopsvaalinn DirectionPicker Label	Activate Stopsvaalinn
+194	Strings.example.xml	Stopsvaalinn Snapoff Message	The {{R|forcefield}} snaps off.
+195	Strings.example.xml	Stopsvaalinn Suspended Message	=subject.Does:vibrate= slightly.
+196	Strings.example.xml	Stopsvaalinn Success Player	A {{R|forcefield}} pops into being in front of you!
+197	Strings.example.xml	Stopsvaalinn Not Enough Charge	=subject.Does:don't= have enough charge to sustain the field!
+198	Strings.example.xml	Stopsvaalinn Snapoff Message Other	The {{R|forcefield}} in front of =subject.the.name= snaps off.
+199	Strings.example.xml	Stopsvaalinn Success Other	A {{R|forcefield}} pops into being in front of =subject.the.name=.
+200	Strings.example.xml	StrideMason (Step Sowers) Extrude	=subject.Does:extrude= =object.a.name=!
+201	Strings.example.xml	StunningForce Use Message Other Nearby	=subject.Does:feel= a concussive blast around =subject.them=!

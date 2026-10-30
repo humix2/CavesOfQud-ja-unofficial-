@@ -1,0 +1,180 @@
+1	=decor= {{W|=player.name=}}の年代記 =decor=
+2	=object.the.name=から逃げる方法が見つからない。
+3	亡きスルタン朝の死の刻印を取り戻した。
+4	=decor= {{W|=player.name=}}のゲーム概要 =decor=
+5	{{C|=turns=}}ターン生き延びた。
+6	=decor= {{W|=player.name=}}の最期のメッセージ =decor=
+7	由緒ある品を{{C|=artifacts=}}個生み出した。
+8	どの端へ移動する？（=glyph:Up==glyph:Down==glyph:Right==glyph:Left=）
+9	{{y|[{{Y|墓に繋がれた}}]}}
+10	この装備から新しい装備セットを作成
+11	…
+12	クリティカルヒット率 =bonus.signed=%
+13	=subject.T=は崩れて塵になった！
+14	=subject.generalDirectionIfAny=の凍える霧が消えた。
+15	=subject.generalDirectionIfAny=の空気が弾け、凍える霧が立ち込めた！
+16	縁の透かし彫りには、六角陣形を組む戦士たちが描かれている。
+17	縁の透かし彫りには、香炉で香を焚く司祭たちが描かれている。
+18	縁の透かし彫りには、凧の舞う祭りで称えられる王族たちが描かれている。
+19	縁の透かし彫りには、ドーム型の円形劇場で弟子を教える師たちが描かれている。
+20	{{c|'=CRYPTICWORD='}}
+21	一度装備すると外せない。
+22	=object.the.name=を外せない。
+23	代名詞のセット
+24	{{rules|頑健 +1}}
+25	ライセンスポイント: =cost=
+26	{{implanted|埋め込み済み}}
+27	取り外すと壊れる。
+28	{{R|ライセンス階位 -2（最低0）}}
+29	{{rules|取り外すと壊れる}}
+30	対象部位: =slots.commaList=
+31	トゥルーキンの遺伝子型にのみ対応
+32	「=name=」という名前の設計図は見つからなかった。
+33	「=slot=」という名前の部位は見つからなかった。
+34	=object.the.name:notAsPossessed=を外せない。
+35	設計図「=blueprint.name=」はサイバネティクスではない。
+36	{{rules|=blueprint.intpart:CyberneticsBaseItem:Cost=}}
+37	ローカル格子の演算能力が、このアイテムの効果を高める。
+38	=part.ordinalName=に=cybernetic.name=が埋め込まれた！
+39	=credits==glyph.strip:Credits=
+40	残りクレジット: {{C|=credits==glyph.strip:Credits=}}
+42	{{K|アマランサイン}}のプリズム
+43	{{K|アマラ{{y|ン}}サイン}}のプリズム
+44	{{K|アマ{{y|ラ{{Y|ン}}サ}}イン}}のプリズム
+45	{{K|ア{{y|マ{{Y|ラ{{R|ン}}サ}}イ}}ン}}のプリズム
+46	{{y|ア{{Y|マ{{y|ラ{{r|ン{{R|サ}}}}イ}}}}ン}}のプリズム
+47	{{r|ア{{R|マ{{Y|ラ{{y|ン{{r|サ{{R|イ}}}}}}}}}}ン}}のプリズム
+48	(x=number.toString=)
+49	=subject.name=
+50	: {{C|=resultingitem=}} <=bitcost=>
+51	: [{{W|アイテム改造}}] - {{C|=modname=}}
+52	アイテム改造を追加: =moddescription=
+53	=subject.pluralName=の作り方を覚えた。
+54	必要なスキルがない: =skill=！
+55	アイテム改造{{W|=modname=}}を覚えた。
+56	{{rules|作成物:}} =subject.displayNameOnlyDirect=
+57	{{rules|作成物:}} =subject.pluralName= =num.cardinal=個
+58	=subject.T=は=number.a.or.cardinal.names#object=を組み立てた！
+59	必要な材料がない: =ingredientList.orlist=
+60	必要なビット<=bitcost=>が足りない！ 所持ビット:\n\n=bits=
+61	*朦朧*
+62	=subject.T=は朦朧とした。
+63	=subject.itself=を=accidental.if:誤って:=殺してしまった。
+64	=object.an=に=accidental.if:誤って:=殺された。
+65	*首を刎ねられた！*
+66	*切断された！*
+67	=subject.T=は自分の=limb.ordinalName=を切り落とした！
+68	=subject.T=は=object.the.name's==limb.ordinalName=を切り落とした！
+69	=subject.property:HologramOf=の像が現れた。
+70	=subject.property:HologramOf=の像が消えた。
+71	囮を召喚
+72	=subject.a.name=
+73	ホログラム囮を起動
+74	ホログラム囮を停止
+75	=subject.T=は反応しない。
+76	=subject.T=はまだ起動中だ。
+77	=subject.basename|strip|title=を起動
+78	=subject.basename|strip|title=を停止
+79	射程外だ（=range.things:square=）
+80	=subject.T=にはホログラムを維持するチャージが足りない。
+81	巣穴
+82	耕作地
+83	貴金属
+84	ぶらぶらとうろつくこと
+85	家で眠ること
+86	子を成す行い
+88	ぴかぴかの歯,ごわごわの毛,落ちくぼんだ目
+92	1年以上稼働している。
+93	、
+94	{{K|材料:}}
+95	\n             {{K|/}}
+96	{{K|効果:}}       {{K|/}}
+97	=secret.text|initLowerIfArticle=の場所
+98	{{w|現在のランク}}:\n
+99	\n\n{{w|次のランク}}:\n
+100	=faction.the.name=の使節
+101	{{R|X}} =tinkereditem=
+102	{{K|| ビットコスト |}}\n=coststring=
+105	=deployVerb|initUpper=
+106	=deployNoun|initUpper=
+107	=subject.T=は錆びついている…
+108	=subject.T=は壊れている…
+111	=deployVerb|initUpper= =deployNoun|initUpper=
+113	そこで=object.the.name:single=を=verb=しても意味がない。
+114	=object.name=
+115	{{R|敵対}}
+116	{{G|友好}}
+117	{{W|スペース}}キーを押す
+118	物語を思い出す（{{W|s}}）
+119	[=buttons.orList=]
+120	=effects.commaList=
+121	=effect.description=
+122	重量: =weight=ポンド
+123	性別: =gender.name=
+124	実に醜い標本だ。
+125	=object.name:withTitles=
+126	装備: =equipItems.commaList=
+127	身体的特徴: =features.commaList=
+128	、=title.toString=
+129	=epithets.commaList=
+130	、=title.toString=
+131	=withClauses.andList=を持つ
+132	、=titles.andList:noSerial=
+133	光の粒が消えた。
+134	近接攻撃で小爆発を起こす
+135	=chance=%の確率で近接攻撃が小爆発を起こす
+136	掘削
+137	マスまで掘り進む
+138	未知の次元
+139	=spice:extradimensional.cultForms.!random=
+140	=spice:extradimensional.$mutation.!random=
+141	=spice:extradimensional.cultForms.!random|title=
+142	{{O|=dimensionName=}}と呼ばれる次元が存在する。
+143	=spice:extradimensional.dimensionNames.!random|title=
+144	=spice:extradimensional.dimensionNames.!random|title=
+145	=dir.direction.expanded=へ
+146	=subject.them=の近くに
+147	=subject.them=の下に
+148	=subject.them=の上に
+149	=subject.its==dir.direction.expanded=に
+150	下から
+151	上から
+152	近くから
+153	どこからか
+154	=dir.direction.expanded=から
+155	=subject.them=の近くから
+156	=subject.them=の下から
+157	=subject.them=の上から
+158	=subject.their==dir.direction.expanded=から
+159	=dir.from.the.direction=
+160	=dir.from.the.direction=
+161	=dir.to.the.direction=
+162	上
+163	下
+174	上へ
+175	東へ
+176	西へ
+177	下へ
+178	北へ
+179	南へ
+180	北西へ
+181	北東へ
+182	南西へ
+183	南東へ
+184	=subject.T=は=object.the.name=から=object.its.item#weapon=を奪い取った！
+185	=itemsMessage=
+186	=items.andList=
+187	=item.the.name:single=
+188	=where==items.andList=
+189	=item= =done.x.multiple=
+190	=itemsMessage= =bitMessage=
+191	部品は崩れて塵になった。
+192	=object.pluralize:direct=を作る
+193	=itemsMessage= =learnedMessage=
+194	=items.andList=を分解した。
+195	=subject.to.its.direction#object=の
+196	=itemsMessage=\n\n=learnedMessage=
+197	手足が動かせなくなった
+198	作業中のアイテムが消えた
+199	エウレカ！ =fragments.andList=ことができるようになった。
+200	ティンカリング用のビット<=bits.bits=>を手に入れた。

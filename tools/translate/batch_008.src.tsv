@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	GameObject.GetDisplayName prepend article-like (definite)	=article|spaceAfter==name=
+2	Strings.example.xml	GasTumbler NameForStatus TechScanning	GasDensifier
+3	Strings.example.xml	GasTumbler RulesPostfix Denser	Gases you release are =density=% denser.
+4	Strings.example.xml	GasTumbler RulesPostfix Disperse Faster	Gases you release disperse =dispersal=% faster.
+5	Strings.example.xml	GasTumbler RulesPostfix Less Dense	Gases you release are =density.abs=% less dense.
+6	Strings.example.xml	GasTumbler RulesPostfix Disperse Slower	Gases you release disperse =dispersal.abs=% slower.
+7	Strings.example.xml	GenerateFriendOrFoe	=spice:friendOrFoe.$spiceKey.hateReasons.!random=
+8	Strings.example.xml	GenerateFriendOrFoe	=spice:friendOrFoe.$spiceKey.likeReasons.!random=
+9	Strings.example.xml	GenerateFriendOrFoe HEB	=spice:friendOrFoe.$spiceKey.hateReasons.!random=
+10	Strings.example.xml	GenerateFriendOrFoe HEB	=spice:friendOrFoe.$spiceKey.likeReasons.!random=
+11	Strings.example.xml	Generic out of range error popup message	That is out of range! (=range.things:square=)
+12	Strings.example.xml	GenericCheckbox UI element box	=checked.checkbox.basic=
+13	Strings.example.xml	GenocideCurio Activation Message	You activate =object.the.name= and toss it into the air.
+14	Strings.example.xml	Genotype Chargen Info	=glyph:ChargenBullet= =extraInfo=
+15	Strings.example.xml	GeomagneticDisc DoThrow PassThrough	=subject.Does:pass= through =object.the.name=!
+16	Strings.example.xml	GeomagneticDisc BeforeThrown Collides With Other Disc	=subject.The.name= and =object.the.name= collide and fall to the ground.
+17	Strings.example.xml	GeomagneticDisc DoThrow Target Flinches	=subject.Does:flinch= out of the way of =attacker.the.name's.item#object=!
+18	Strings.example.xml	GetCompanionStatusEvent - Join multiple status	=status.commaList=
+19	Strings.example.xml	GetCooldownEvent Willpower Adjustment Reason	=isHigh.if:high:low= =willpower.Name=
+20	Strings.example.xml	GirshLairMaker - Member Of Social Role Display Name	member of the =cultName=
+21	Strings.example.xml	GivesRep Description Suffix Loved List	Loved by =list.andList=.
+22	Strings.example.xml	GivesRep Description Suffix Loved List (fragment)	{{C|=faction.factionName=}}
+23	Strings.example.xml	GivesRep Death Accomplishment	You slew =object.a.name:withTitles=.
+24	Strings.example.xml	GivesRep Description Suffix Loved List (fragment) (shows current rep debug option)	{{C|=faction.factionName=}}{{K|(=rep=)}}
+25	Strings.example.xml	GivesRep Water-sib Description Postfix	You are water-bonded with =object.objective=.
+26	Strings.example.xml	GivesRep Description Suffix	Loved by {{C|=faction.factionName=}}=repDebugOption= for =reason=
+27	Strings.example.xml	GivesRep Description Suffix	Hated by {{C|=faction.factionName=}}=repDebugOption= for =reason=
+28	Strings.example.xml	GivesRep Description Suffix	Admired by {{C|=faction.factionName=}}=repDebugOption= for =reason=
+29	Strings.example.xml	GivesRep Description Suffix	Disliked by {{C|=faction.factionName=}}=repDebugOption= for =reason=
+30	Strings.example.xml	GlimmerAlteration Decreases	Reduces psychic glimmer by =amount=.
+31	Strings.example.xml	GlimmerAlteration Increases	Increases psychic glimmer by =amount=.
+32	Strings.example.xml	Goatfolk Hero Naming.xml Context	Clan Yr
+33	Strings.example.xml	Goatfolk Hero Naming.xml Context	Clan Sol
+34	Strings.example.xml	Goatfolk Hero Naming.xml Context	Clan Ibex
+35	Strings.example.xml	Goatfolk Hero Naming.xml Context	Clan Mnim
+36	Strings.example.xml	Goatfolk Hero Naming.xml Context	Heartbiter
+37	Strings.example.xml	Goatfolk Hero Naming.xml Context	Clovenhorn
+38	Strings.example.xml	Goatfolk Hero Naming.xml Context	Clan Hotur
+39	Strings.example.xml	Goatfolk Hero Naming.xml Context	Twicetalker
+40	Strings.example.xml	Goatfolk Hero Naming.xml Context	Souldrinker
+41	Strings.example.xml	Goatfolk Hero Naming.xml Context	Whitefinger
+42	Strings.example.xml	Goatfolk Hero Naming.xml Context	Clan Whitetongue
+43	Strings.example.xml	Golem Quest Hamsa	hamsa
+44	Strings.example.xml	Golem Quest Atzmus	atzmus
+45	Strings.example.xml	Golem Quest Armament	armament
+46	Strings.example.xml	Golem Quest Catalyst	catalyst
+47	Strings.example.xml	Golem Quest Mount Build Key	Backspace
+48	Strings.example.xml	Golem Quest Incantation	incantation
+49	Strings.example.xml	Golem Incantation Unit Resist	+75 to all resists
+50	Strings.example.xml	Golem Quest Selection Empty	<make a selection>
+51	Strings.example.xml	Golem Incantation Unit Body Parts	3 random body parts
+52	Strings.example.xml	Golem Quest Power Source	ascension power source
+53	Strings.example.xml	Golem Quest Shaping Duration Soon	It will be finished soon.
+54	Strings.example.xml	Golem Quest Selection Title	Choose =selection|article=
+55	Strings.example.xml	Golem Quest Shaping Prefix	The creature is being shaped.
+56	Strings.example.xml	Golem Incantation Unit Sultan	Share effects of worn sultan mask
+57	Strings.example.xml	Golem Quest Mound Hostiles	You can't do that with hostile creatures nearby.
+58	Strings.example.xml	Golem Quest Catalyst Liquid	=volume|rules= =volume.pluralize:dram= of =liquid.name=
+59	Strings.example.xml	Golem Quest Power Liquid	=volume|rules= =volume.pluralize:dram= of =liquid.name=
+60	Strings.example.xml	Golem Quest Selection No Match	You have nothing that meets the requirement of the =selection=.
+61	Strings.example.xml	Golem Incantation Unit Motivating Aura	+5 quickness, +20% HP, and +3 to all attributes for nearby followers
+62	Strings.example.xml	Golem Quest Shaping Duration Days	It will be finished in =duration.cardinal= =duration.pluralize:day=.
+63	Strings.example.xml	Grabber Default StuckPreposition	by
+64	Strings.example.xml	Grabber Default StuckAdjective	grabbed
+65	Strings.example.xml	GrabberArm Holds You	=subject.Does:grab= =object.the.name= and holds you in place.
+66	Strings.example.xml	Graffiti Text	=markovShort:18|obfuscate=
+67	Strings.example.xml	GrapplingGun MissilePenetrateEvent MessageFragmentOrExtraSentence TODO	, but =subject.verb:manage= to latch on anyway
+68	Strings.example.xml	GraveMoss Message	=subject.Does:start= to fizz hungrily.
+69	Strings.example.xml	GravityGrenade Detonate Message Log	=subject.Does:implode=!
+70	Strings.example.xml	GreaseBoots Behavior Description	You may walk freely over webs.
+71	Strings.example.xml	GripChange TryChooseGrip PopupOption	=entry.name=
+72	Strings.example.xml	Hangable DisplayName Tag	{{y|[hanging]}}
+73	Strings.example.xml	Hangable DisplayName Tag	{{y|[on ground]}}
+74	Strings.example.xml	Harvestable DefaultVerb	harvest
+75	Strings.example.xml	Healing Effect Apply Message	=subject.Does:begin= healing.
+76	Strings.example.xml	HealMedication Default Message	The tube hisses against your skin, and a warm feeling washes over your body.
+77	Strings.example.xml	HeatAbsorption heal message (player only)	You are healed for =amount= by the heat.
+78	Strings.example.xml	HEGrenade Detonate Message Log	=subject.Does:explode=!
+79	Strings.example.xml	HeightenedHearing hostile perception verb	hear
+80	Strings.example.xml	HeightenedSmell hostile perception verb	smell
+81	Strings.example.xml	HexCrystal Twin Prefix Fragment	anti-
+82	Strings.example.xml	HiddenRender RevealedSomewhere	=subject.A.name= =subject.verb:are= revealed =subject.to.the.direction=!
+83	Strings.example.xml	HighScoreScreen FetchLoaderboard ErrorWithStacktrace	{{R|Error: \n=stacktrace=}}
+84	Strings.example.xml	HighScoresRow - Top Line	=score.name= :: Level =score.level= :: =score.gameMode=
+85	Strings.example.xml	HighScoresScreen MenuOption Global(Daily)	Daily (global)
+86	Strings.example.xml	HighScoresScreen FetchLeaderboard ErrorOccurred	{{R|An error has occurred.}}
+87	Strings.example.xml	HighScoresScreen FetchLeaderboard GameRunningOffline	{{R|The game is currently running offline.}}
+88	Strings.example.xml	HighScoresScreen FetchLeaderboard ErrorRetry	An error has occurred, would you like to try again?
+89	Strings.example.xml	HighScoresScreen FetchLoaderboard ErrorTryAgain	An error has occurred, would you like to try again?
+90	Strings.example.xml	HighScoresScreen HandleDelete AreYouSure	Are you sure you want to delete this?\n\n=highscore=
+91	Strings.example.xml	HistoricEntity SharedMutation snippet	automatons
+92	Strings.example.xml	HistoricEntity Marry cognomen	=spouseName|'s= =spouse=
+93	Strings.example.xml	HistoricEntity Marry cognomen	=spouse= to =spouseName=
+94	Strings.example.xml	HistoricEntity Marry cognomen	=spouse= of =spouseName=
+95	Strings.example.xml	HistoricEntity SharedMutation snippet	those afflicted with glotrot
+96	Strings.example.xml	HistoricEntity ChallengeSultan oldTradition	venerating =professionPlural=
+97	Strings.example.xml	HistoricEntity SharedMutation snippet	those afflicted with ironshank
+98	Strings.example.xml	HistoricEntity ChallengeSultan duelReason	over the rights of =oldTradition=
+99	Strings.example.xml	HistoricEntity ChallengeSultan oldTradition	venerating =faction.formattedName=
+100	Strings.example.xml	HistoricEntity BecomesKnownFor item refname for spice	=item.refname:withDefiniteArticle=
+101	Strings.example.xml	HistoricEntity ChallengeSultan duelReason	over the rights of =faction.formattedName=
+102	Strings.example.xml	HistoricEntity Marry spouse	=spice:commonPhrases.spouse.!random|title=
+103	Strings.example.xml	HistoricEntity ChallengeSultan professionPlural	=spice:professions.entity@profession.plural=
+104	Strings.example.xml	HistoricEntity BecomesKnownFor historic item name	=spice:villages.SignatureHistoricObject.!random=
+105	Strings.example.xml	HistoricEntity ChallengeSultan duelReason	over the sanctioned persecution of =professionPlural=
+106	Strings.example.xml	HistoricEntity ChallengeSultan oldTradition	=spice:elements.entity@elements[random].practices.!random=
+107	Strings.example.xml	HistoricEntity Marry spouse 70%	=spice:commonPhrases.spouseByGender.entity@gender.!random|title=
+108	Strings.example.xml	HistoricEntity BecomesKnownFor profaneThing	those who =spice:commonPhrases.profane.!random= the =historicItemName=
+109	Strings.example.xml	HistoricEvent InitializeRegion orgPrincipleStash	sultans
+110	Strings.example.xml	HistoricEvent FakedDeath gospel search for e'ntropic'	ntropic
+111	Strings.example.xml	HistoricEvent NewGovernment sacredThing	anarchy
+112	Strings.example.xml	HistoricEvent NewGovernment sacredThing	the king
+113	Strings.example.xml	HistoricEvent InitializeVillage governor	the mayor
+114	Strings.example.xml	HistoricEvent NewGovernment sacredThing	the queen
+115	Strings.example.xml	HistoricEvent NewGovernment sacredThing	democracy
+116	Strings.example.xml	HistoricEvent NewGovernment profaneThing	hierarchy
+117	Strings.example.xml	HistoricEvent NewGovernment sacredThing	the people
+118	Strings.example.xml	HistoricEvent NewGovernment governor	the people
+119	Strings.example.xml	HistoricEvent ChallengeSultan gospel prefix	In %=year=%,
+120	Strings.example.xml	HistoricEvent AddQuestsForRegion Quest Name	Visit =region=
+121	Strings.example.xml	HistoricEvent AddQuestsForRelic Step 1 Name	Locate =region=
+122	Strings.example.xml	HistoricEvent MeetFaction prefix	deep in =region=
+123	Strings.example.xml	HistoricEvent BecomesKnownFor Gospel founder name	=founderName|'s=
+124	Strings.example.xml	HistoricEvent ChallengeSultan gospel prefix	In late %=year=%,
+125	Strings.example.xml	HistoricEvent LiberateCity =friendTo= (color)	friend in =color=
+126	Strings.example.xml	HistoricEvent ChallengeSultan gospel prefix	In early %=year=%,
+127	Strings.example.xml	HistoricEvent ForgeItem prefix add region	=prefix= in =region=
+128	Strings.example.xml	HistoricEvent AddQuestsForRelic Step 2 Name	Recover =relic|strip=
+129	Strings.example.xml	HistoricEvent AddQuestsForRelic Quest Name	Recover =relic|strip=
+130	Strings.example.xml	HistoricEvent InspiringExperience prefix	Somewhere in =region=
+131	Strings.example.xml	HistoricEvent NewGovernment founderName	King =founder.name= I
+132	Strings.example.xml	HistoricEvent Abdicate var expansion	=spice.entity:name|'s=
+133	Strings.example.xml	HistoricEvent NewGovernment founderName	Queen =founder.name= I
+134	Strings.example.xml	HistoricEvent Marry tombInscription faction friend =group=	=faction.formattedName=
+135	Strings.example.xml	HistoricEvent Despises profaneThing	=faction.formattedName=
+136	Strings.example.xml	HistoricEvent InitializeSultan JoinNumeral	=basename= =suffix.roman=
+137	Strings.example.xml	HistoricEvent NewGovernment sacredThing	the abolition of hierarchy
+138	Strings.example.xml	HistoricEvent Despises pre-fetch a profaneThing	=spice.entity:profaneThing=
+139	Strings.example.xml	HistoricEvent MeetFaction prefix	deep in the wilds of =region=
+140	Strings.example.xml	HistoricEvent InitializeRegion Name Finalize	=newName|titleCaseWithArticle=
+141	Strings.example.xml	HistoricEvent ChallengeSultan gospel duelType	assassinated the sultan of Qud
+142	Strings.example.xml	HistoricEvent LiberateCity =friendTo= (hated faction)	foe to =faction.formattedName=
+143	Strings.example.xml	HistoricEvent CapturedByBandits prefix	Near the location of =location=
+144	Strings.example.xml	HistoricEvent MeetFaction prefix	while wandering around =region=
+145	Strings.example.xml	HistoricEvent CapturedByBandits prefix	On an expedition around =region=
+146	Strings.example.xml	HistoricEvent LiberateCity =friendTo= (liked faction)	friend to =faction.formattedName=
+147	Strings.example.xml	HistoricEvent ChallengeSultan gospel oldTradition	venerating =faction.formattedName=
+148	Strings.example.xml	HistoricEvent ImportedFoodOrDrink ingredientName sanitize	=ingredientName.replace: injector=
+149	Strings.example.xml	HistoricEvent FakedDeath cognomen suffix	=cognomen= of =spice.entity:region=
+150	Strings.example.xml	HistoricEvent ImportedFoodOrDrink sacredThing	the dish known as =specialDishName=
+151	Strings.example.xml	HistoricEvent AddQuestsForRelic Step 2 Text	Recover =relic|strip= at =location=.
+152	Strings.example.xml	HistoricEvent BornAsHeir cognomen	=var|randomMeaningfulWord|title=born
+153	Strings.example.xml	HistoricEvent Marry =hall=	=spice:placeNouns.!random|pluralize=
+154	Strings.example.xml	HistoricEvent UnderWeirdSky cognomen	the =color|title= =elementNoun|title=
+155	Strings.example.xml	HistoricEvent ChallengeSultan gospel duelType	challenged the sultan of Qud to a duel
+156	Strings.example.xml	HistoricEvent Marry tombInscription profession friend =group=	=spice:professions.$profession.plural=
+157	Strings.example.xml	HistoricEvent ChallengeSultan gospel prefix	While leading a small army in =region=,
+158	Strings.example.xml	HistoricEvent BecomesKnownFor Gospel fromThenOn phrase	=spice:commonPhrases.fromThenOn.!random=
+159	Strings.example.xml	HistoricEvent AddQuestsForRegion Step Name	Travel to the historical site of =region=
+160	Strings.example.xml	HistoricEvent Despises Creature Name	=subject.refname:Despise:long:withTitles=
+161	Strings.example.xml	HistoricEvent Despises profaneThing	=subject.refname:Despise:long:withTitles=
+162	Strings.example.xml	HistoricEvent AddQuestsForRelic Step 1 Text	Travel to the historical site of =region=.
+163	Strings.example.xml	HistoricEvent InitializeRegion newName 35%	=generatedName|title= =functionType|title=
+164	Strings.example.xml	HistoricEvent ChallengeSultan gospel duelReason	over the rights of =faction.formattedName=
+165	Strings.example.xml	HistoricEvent CapturedByBandits prefix	While traveling near =location= in =region=
+166	Strings.example.xml	HistoricEvent BattleItem itemAdjective	=spice:elements.$element.adjectives.!random=
+167	Strings.example.xml	HistoricEvent ChallengeSultan gospel duelType	challenged the legitimacy of the sultan of Qud
+168	Strings.example.xml	HistoricEvent ImportedFoodOrDrink specialDishName	=spice:villages.food.specialDishNames.!random=
+169	Strings.example.xml	HistoricEvent NewGovernment sacredThing	=spice:commonPhrases.profane.!random= the king
+170	Strings.example.xml	HistoricEvent VillageProverb proverb	=spice:$element.!random|scanForAn|capitalize=.
+171	Strings.example.xml	HistoricEvent BornAsHeir Miracle	=spice:elements.$element.mythicalEvent.!random=
+172	Strings.example.xml	HistoricEvent MeetFactions professionAction	=spice:professions.$profession.actions.!random=
+173	Strings.example.xml	HistoricEvent NewGovernment sacredThing	=spice:commonPhrases.profane.!random= the queen
+174	Strings.example.xml	HistoricEvent InitializeRegion newName 40%	the =functionType|title= of =generatedName|title=
+175	Strings.example.xml	HistoricEvent Marry =hall=	=spice:professions.$profession.guildhall|pluralize=
+176	Strings.example.xml	HistoricEvent LiberateCity =actingOn= (color)	Acting against the prohibition on the color =color=,
+177	Strings.example.xml	HistoricEvent Despises sultanName w/ cognomen	=spice.entity:name=, =spice.entity:cognomen[random]=
+178	Strings.example.xml	HistoricEvent NewGovernment governor	the =colonist.displayNameOnlyDirect|strip= colonists
+179	Strings.example.xml	HistoricEvent ForgeItem prefix	At a remote =spice:professions.$profession.guildhall=
+180	Strings.example.xml	HistoricEvent LiberateCity =friendTo= (liked profession)	friend to =spice:professions.entity@profession.plural=
+181	Strings.example.xml	HistoricEvent InitializeRegion orgPrincipleStash	=spice:elements.$organizingPrincipleType.nouns.!random=
+182	Strings.example.xml	HistoricEvent ChallengeSultan gospel oldTradition	venerating =spice:professions.entity@profession.plural=
+183	Strings.example.xml	HistoricEvent UnderWeirdSky cognomen	=elementNoun|randomMeaningfulWord|title=-in-=color|title=
+184	Strings.example.xml	HistoricEvent LiberateCity =actingOn= (liked faction)	Acting against the persecution of =faction.formattedName=,
+185	Strings.example.xml	HistoricEvent ImportedFoodOrDrink generateFactionName	=root|title= =spice:commonPhrases.cult.!random|capitalize=
+186	Strings.example.xml	HistoricEvent BornAsHeir cognomen	the =spice:commonPhrases.eminent.!random|title= =var|title=
+187	Strings.example.xml	HistoricEvent ImportedFoodOrDrink descriptor	=spice.entity:sacredThing|beforeComma|randomMeaningfulWord=
+188	Strings.example.xml	HistoricEvent ChallengeSultan gospel duelReason	over an ordinance prohibiting the practice of =oldTradition=
+189	Strings.example.xml	HistoricEvent NewGovernment	those who =spice:commonPhrases.profane.!random= the democracy
+190	Strings.example.xml	HistoricEvent LiberateCity =actingOn= (hated faction)	Acting against the enfranchisement of =faction.formattedName=,
+191	Strings.example.xml	HistoricEvent ChallengeSultan duelType	was assailed by =spice:commonPhrases.pretender.!random|article=
+192	Strings.example.xml	HistoricEvent FoundGuild activity	=spice:history.gospels.CivilizationActivity.entity@era.!random=
+193	Strings.example.xml	HistoricEvent BecomesKnownFor sacredThing	=item.refname:BecomesKnownForSacred:withIndefiniteArticle|strip=
+194	Strings.example.xml	HistoricEvent InitializeRegion	=spice:history.regions.government.entity@government.name.!random=
+195	Strings.example.xml	HistoricEvent ImportedFoodOrDrink generateFactionName	=spice:commonPhrases.cult.!random|capitalize= of the =root|title=
+196	Strings.example.xml	HistoricEvent RampageRegion cognomen	the =regionRoot|title= =spice:commonPhrases.scourge.!random|title=
+197	Strings.example.xml	HistoricEvent BecomesKnownFor profaneThing	the =spice:commonPhrases.misuse.!random= of =skillOrPower.snippet=
+198	Strings.example.xml	HistoricEvent ForgeItem prefix	While visiting an obscure =spice:professions.$profession.guildhall=
+199	Strings.example.xml	HistoricEvent LiberateCity friendTo	child of =spice:elements.entity@elements[random].materials.!random=
+200	Strings.example.xml	HistoricEvent BecomesKnownFor sacredThing	the =spice:commonPhrases.practice.!random= of =skillOrPower.snippet=

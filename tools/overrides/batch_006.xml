@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Disassembly InterruptBecause" ID="the item you were working on was destroyed">作業中のアイテムが壊れた</string>
+  <string Context="Disassembly" ID="You start disassembling =object.the.name=.">=object.the.name=の分解を始めた。</string>
+  <string Context="Disassembly InterruptBecause" ID="you no longer know how to disassemble things">分解の仕方が分からなくなった</string>
+  <string Context="Disassembly Message, has both, learned no newline" ID="=itemsMessage= =learnedMessage= =bitMessage=">=itemsMessage= =learnedMessage= =bitMessage=</string>
+  <string Context="Disassembly InterruptBecause" ID="=object.does:are= no longer within your reach">=object.T=に手が届かなくなった</string>
+  <string Context="Disassembly Loading Status Bar" ID="Disassembled =done.things:item= of =wanted=...">=wanted=個中=done.things:item=を分解済み…</string>
+  <string Context="Disassembly InterruptBecause" ID="=object.the.name= can no longer be disassembled">=object.the.name=はもう分解できない</string>
+  <string Context="Disassembly InterruptBecause" ID="you can no longer interact with =object.the.name=">=object.the.name=に触れられなくなった</string>
+  <string Context="Disassembly Message, has both, learned has newline" ID="=itemsMessage=&#10;&#10;=learnedMessage=&#10;&#10;=bitMessage=">=itemsMessage=
+
+=learnedMessage=
+
+=bitMessage=</string>
+  <string Context="Disassembly learn to mod ('You may now' fragment)" ID="mod items with the =mods.andList= =mods.pluralize:mod=">=mods.andList=改造をアイテムに施す</string>
+  <string Context="Disguise Blueprint Default Display" ID="creature of some kind">何らかのクリーチャー</string>
+  <string Context="Disintegration Area Stat" ID="7x7 around self">自分の周囲7×7</string>
+  <string Context="Disintegration Activate MessageLog" ID="The air vibrates destructively around =subject.a.name=!">=subject.a.name=の周りの空気が破壊的に振動した！</string>
+  <string Context="Dismember ParticleText" ID="*dismembered!*">*切断された！*</string>
+  <string Context="Dismember Confirm Self" ID="Are you sure you want to dismember =subject.itself=?">本当に=subject.itself=を切断しますか？</string>
+  <string Context="Dismember By Self" ID="=subject.Does:chop= off =subject.their= own =limb.ordinalName=!">=subject.T=は自分の=limb.ordinalName=を叩き切った！</string>
+  <string Context="Dismember By Attacker" ID="=subject.Does:chop= off =object.the.name's= =limb.ordinalName=!">=subject.T=は=object.the.name's==limb.ordinalName=を叩き切った！</string>
+  <string Context="Dismember Fail No Primary Axe" ID="You must have an axe equipped in your primary hand to dismember.">四肢を切断するには利き手に斧を装備している必要がある。</string>
+  <string Context="DiThermoBeam Player Message" ID="=subject.Does:flip= the thermal polarity on =object.the.name=.">=subject.T=は=object.the.name=の熱極性を反転させた。</string>
+  <string Context="Dominate Failure" ID="You can't dominate =object.itself=!">=object.itself=を支配することはできない！</string>
+  <string Context="Dominate Dominate" ID="=subject.Does:take= control of =object.the.name=!">=subject.T=は=object.the.name=を支配した！</string>
+  <string Context="Dominate Fail" ID="=subject.Does:resist= =object.name's= domination!">=subject.T=は=object.name's=支配に抵抗した！</string>
+  <string Context="Dominate Fail Immune" ID="Something prevents you from dominating =object.the.name=.">何かが=object.the.name=の支配を妨げている。</string>
+  <string Context="Dominate Failure" ID="There seems to be no mind in =object.the.name= to dominate.">=object.the.name=には支配できる精神がないようだ。</string>
+  <string Context="Dominate Failure" ID="=object.Does:do= not have a consciousness you can make psychic contact with.">=object.T=には精神感応で接触できる意識がない。</string>
+  <string Context="Dominated Effect Description" ID="dominated (=duration.things:turn= remaining)">支配中（残り=duration.things:turn=）</string>
+  <string Context="Dominating Effect Conversation Message" ID="=subject.Does:are= utterly unresponsive.">=subject.T=はまったく反応しない。</string>
+  <string Context="Dominating Effect Telepathy Conversation Message" ID="=subject.The.name's:withTitles= mind seems to be elsewhere.">=subject.The.name's:withTitles=心はどこか別の場所にあるようだ。</string>
+  <string Context="Domination Target Picker Label" ID="Dominate">支配</string>
+  <string Context="door" ID="You cannot open =object.t=.">=object.t=を開けられない。</string>
+  <string Context="door open reason" ID=" because you cannot figure out how"> 開け方が分からないため</string>
+  <string Context="DoubleContainer BeforeDeath" ID="You broke apart.">あなたはばらばらになった。</string>
+  <string Context="DoubleEdge Description Only Dealt" ID="Deal =dealt.abs=% =dealt.threshold:0:more:less= damage">与えるダメージが=dealt.abs=%=dealt.threshold:0:増える:減る=</string>
+  <string Context="DoubleEdge Description Only Received" ID="Take =received.abs=% =received.threshold:0:more:less= damage">受けるダメージが=received.abs=%=received.threshold:0:増える:減る=</string>
+  <string Context="DrawABead Confuse Fail" ID="You cannot mark a target while you are confused.">混乱している間は目標に印を付けられない。</string>
+  <string Context="Drill Description" ID="=usesCharge.if:When powered, ==pen.signed= penetration vs. walls.">=usesCharge.if:給電時、=壁への貫通 =pen.signed=</string>
+  <string Context="DrinkMagnifier Description" ID="=chance=% chance for liquid-drinking effects to apply twice">=chance=%の確率で液体を飲んだ効果が2回発動する</string>
+  <string Context="DynamicQuest award item formatting one" ID="=rewardName=">=rewardName=</string>
+  <string Context="DynamicQuest entry list" ID="=entries.commaList=">=entries.commaList=</string>
+  <string Context="DynamicQuest village context village recoiler name" ID="=villageName= recoiler">=villageName=のリコイラー</string>
+  <string Context="DynamicQuest you recive an item" ID="You receive =item.a.name=.">=item.a.name=を受け取った。</string>
+  <string Context="DynamicQuest village zero quest reward random" ID="Accept Quest - reward: random">クエストを受ける - 報酬: ランダム</string>
+  <string Context="DynamicQuest award item formatting many" ID="=rewardName= {{W|x=entry.count=}}">=rewardName= {{W|x=entry.count=}}</string>
+  <string Context="DynamicQuest village zero quest reward recoiler" ID="Accept Quest - reward: recoiler and disk">クエストを受ける - 報酬: リコイラーとディスク</string>
+  <string Context="DynamicQuestConversationHelper village zero main quest choice" ID="Who are these Barathrumites?">バラサラム派とは何者だ？</string>
+  <string Context="DynamicQuestConversationHelper village zero main quest dialog" ID="=spice:quests.intro.!random|capitalize=">=spice:quests.intro.!random|capitalize=</string>
+  <string Context="DynamicQuestConversationHelper village zero main quest choice" ID="My thanks, =pronouns.formalAddressTerm=.">感謝する、=pronouns.formalAddressTerm=。</string>
+  <string Context="DynamicQuestConversationHelper village zero main quest choice deny" ID="I must pass on this offer, for now. Live and drink.">今回は遠慮しておく。生きて飲め。</string>
+  <string Context="DynamicQuestConversationHelper village zero main quest choice" ID="I will take the disk to Grit Gate and speak with the Barathrumites.">ディスクをグリット・ゲートに持っていき、バラサラム派と話してみる。</string>
+  <string Context="DynamicQuestSignpostConversation" ID="=spice:quests.intro.!random=">=spice:quests.intro.!random=</string>
+  <string Context="DynamicQuestSignpostConversation choice" ID="Thank you. I have more to ask.">ありがとう。まだ聞きたいことがある。</string>
+  <string Context="Dystechnia Thing Explodes" ID="=subject.Does:explode=!">=subject.T=は爆発した！</string>
+  <string Context="EaterCryptPlaque finalize (empty)" ID="=emptyText|caste.eaterPlaque=">=emptyText|caste.eaterPlaque=</string>
+  <string Context="EaterCryptPlaque engraving" ID="=part1=&#10;&#10;=part2=&#10;&#10;=part3=">=part1=
+
+=part2=
+
+=part3=</string>
+  <string Context="EaterCryptPlaque finalize" ID="=engraving|caste.eaterPlaque=">=engraving|caste.eaterPlaque=</string>
+  <string Context="EaterCryptPlaque EmptyText" ID="&lt;The plaque has no inscription.&gt;">&lt;銘板には何も刻まれていない。&gt;</string>
+  <string Context="EaterCryptPlaque part1" ID="=spice:tombstones.$cryptIntro.!random|title=">=spice:tombstones.$cryptIntro.!random|title=</string>
+  <string Context="EaterCryptPlaque part2" ID="=spice:tombstones.cryptPlaque.$familyTitle.!random|title=">=spice:tombstones.cryptPlaque.$familyTitle.!random|title=</string>
+  <string Context="EaterCryptPlaque familyCognomen" ID="=spice:tombstones.cryptPlaque.$caste.familyCognomen.!random=">=spice:tombstones.cryptPlaque.$caste.familyCognomen.!random=</string>
+  <string Context="EaterCryptPlaque part3" ID="&quot;=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper=&quot;">「=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper=」</string>
+  <string Context="EaterUrn inscription finalize" ID="=engraving|urn=">=engraving|urn=</string>
+  <string Context="EaterUrn engraving" ID="=spice:tombstones.urnIntroByFaction.$faction=&#10;&#10;&#10;=name=&#10;&#10;&#10;&quot;=shortMarkov=&quot;&#10;">=spice:tombstones.urnIntroByFaction.$faction=
+
+
+=name=
+
+
+「=shortMarkov=」
+</string>
+  <string Context="EatMemoriesOnHit TriedToEatButStarves" ID="=subject.Does:try= to eat your memories, but =subject.it.does:starve=.">=subject.T=はあなたの記憶を食べようとしたが、飢えている。</string>
+  <string Context="EelSpawn Successful You" ID="A sewage eel wraps itself around you!">下水ウナギがあなたに巻き付いた！</string>
+  <string Context="EelSpawn Successful Your Part" ID="A sewage eel wraps itself around your =part.ordinalName=!">下水ウナギがあなたの=part.ordinalName=に巻き付いた！</string>
+  <string Context="EelSpawn Spotted Eel" ID="=subject.Does:spot= a sewage eel =object.to.the.direction=!">=subject.T=は=object.to.the.direction=に下水ウナギを見つけた！</string>
+  <string Context="EelSpawn Revealed" ID="=subject.Does:spot= a sewage eel =object.to.the.direction=!">=subject.T=は=object.to.the.direction=に下水ウナギを見つけた！</string>
+  <string Context="EelSpawn Can't Reach You" ID="A sewage eel tries to wrap itself around you, but cannot reach!">下水ウナギがあなたに巻き付こうとしたが、届かなかった！</string>
+  <string Context="EelSpawn Different Phase You" ID="A sewage eel tries to wrap itself around you, but passes through you!">下水ウナギがあなたに巻き付こうとしたが、すり抜けた！</string>
+  <string Context="EjectionSeat Unable" ID="Your seat is unable to eject.">座席が射出できない。</string>
+  <string Context="EjectionSeat Success From Self, Including Player" ID="=subject.Does:eject= with =object.the.name=!">=subject.T=は=object.the.name=ごと射出された！</string>
+  <string Context="EjectionSeat Success Including Player" ID="=subject.Does:eject= from =object.the.name=!">=subject.T=は=object.the.name=から射出された！</string>
+  <string Context="EjectionSeat Success From Self" ID="=subject.Does:eject= with =object.the.name= =subject.to.the.direction=!">=subject.T=は=object.the.name=ごと=subject.to.the.direction=へ射出された！</string>
+  <string Context="EjectionSeat Success" ID="=subject.Does:eject= from =object.the.name= =subject.to.the.direction=!">=subject.T=は=object.the.name=から=subject.to.the.direction=へ射出された！</string>
+  <string Context="EjectionSlot Lockin Message" ID="=subject.Does:lock= in place.">=subject.T=は固定された。</string>
+  <string Context="Elec Gen AbilityDisplay Discharge" ID="Discharge [=charge= charge]">放電 [チャージ=charge=]</string>
+  <string Context="Elec Gen DrinkCharge None" ID="=subject.Does:touch= =object.a.name=.">=subject.T=は=object.a.name=に触れた。</string>
+  <string Context="Elec Gen DrinkCharge Unknown Amount" ID="=subject.Does:touch= =object.the.name=.">=subject.T=は=object.the.name=に触れた。</string>
+  <string Context="Elec Gen Discharge Target Confirm Self" ID="Are you sure you want to target yourself?">本当に自分を対象にしますか？</string>
+  <string Context="Elec Gen Discharge Message" ID="=subject.Does:discharge= an electrical arc!">=subject.T=は電弧を放った！</string>
+  <string Context="Elec Gen DrinkCharge None Player" ID="You can't seem to drink any of the juice from =object.the.name=.">=object.the.name=からは電力を吸い取れないようだ。</string>
+  <string Context="Elec Gen Discharge Message" ID="=subject.Does:discharge= =amount.things:unit= of electrical charge!">=subject.T=は=amount.things:unit=の電荷を放電した！</string>
+  <string Context="Elec Gen Damage Recharge Unknown" ID="=subject.Does:seem= to have absorbed some of the electrical charge.">=subject.T=は電荷の一部を吸収したようだ。</string>
+  <string Context="Elec Gen Discharge Fail No Target" ID="There is nothing there that your electrical discharge can ground into.">そこには放電を逃がせるものが何もない。</string>
+  <string Context="ElectricalDischargeLoader MissileWeaponStatusEvent NotUnderstood" ID="[?]">[?]</string>
+  <string Context="ElectricalDischargeLoader MissileWeaponStatusEvent NoEnergyCell" ID="[{{K|empty}}]">[{{K|空}}]</string>
+  <string Context="ElectricalDischargeLoader MissileWeaponStatusEvent CellChargeStatus" ID="[=chargeStatus=]">[=chargeStatus=]</string>
+  <string Context="ElectricalDischargeLoader GetStatusMessage Unpowered" ID="=subject.Doesly:merely:click=.">=subject.T=はカチッと鳴っただけだった。</string>
+  <string Context="ElectricalDischargeLoader GetStatusMessage" ID="=subject.Does:are= =statusphrase=.">=subject.T=は=statusphrase=。</string>
+  <string Context="ElectricalDischargeLoader DamageDisplayName" ID="=glyph.strip:Damage|color:W==damageroll=">=glyph.strip:Damage|color:W==damageroll=</string>
+  <string Context="ElectricalDischargeLoader SupplyWithCell CannotTake" ID="=subject.The.name= cannot take =cell.the.name=.">=subject.The.name=に=cell.the.name=は入らない。</string>
+  <string Context="ElectricalDischargeLoader SupplyWithCell Success" ID="=subject.Does:transfer= =cell.a.name= to =host.aForNPCSubject.name=.">=subject.T=は=cell.a.name=を=host.aForNPCSubject.name=に移した。</string>
+  <string Context="ElectromagneticPulse Emit Message" ID="=subject.Does:emit= an electromagnetic pulse.">=subject.T=は電磁パルスを放った。</string>
+  <string Context="ElectromagneticPulsed Effect Tag" ID="[{{W|EMP}}]">[{{W|EMP}}]</string>
+  <string Context="EmbarkBuilder CodeCompressor - Missing Mod Decoding" ID="Error decoding build code - Required Mod '=requiredMod=' not found.">ビルドコードの解読エラー - 必要なMOD「=requiredMod=」が見つからない。</string>
+  <string Context="Emboldened Effect DisplayName" ID="Boosted =stat.name|title=">=stat.name|title=強化</string>
+  <string Context="Emboldened Effect Apply Message" ID="Your =stat.name= =stat.ifplural:increase:increases=!">=stat.name=が上昇した！</string>
+  <string Context="Emboldened Effect Remove Message" ID="Your =stat.name= =stat.ifplural:return:returns= to normal.">=stat.name=が元に戻った。</string>
+  <string Context="EMPGrenade Detonate Message Log" ID="=subject.Does:explode=!">=subject.T=は爆発した！</string>
+  <string Context="EMPGrenade Detonate Message Log" ID="=subject.Does:detonate=!">=subject.T=は起爆した！</string>
+  <string Context="EmptyTheClips Effect Remove Message" ID="=subject.Does:loosen= =subject.their= pistol grip.">=subject.T=は拳銃の握りを緩めた。</string>
+  <string Context="EmptyTheClips Effect Apply Message Multiple Pistols" ID="=subject.Does:clasp= =subject.their= pistols eagerly.">=subject.T=は拳銃を待ちきれないように握りしめた。</string>
+  <string Context="EnergyAmmoLoader MissileWeaponStatusEvent NotUnderstood" ID="[?]">[?]</string>
+  <string Context="EnergyAmmoLoader MissileWeaponStatusEvent NoEnergyCell" ID="[{{K|empty}}]">[{{K|空}}]</string>
+  <string Context="EnergyAmmoLoader MissileWeaponStatusEvent CellChargeStatus" ID="[=chargeStatus=]">[=chargeStatus=]</string>
+  <string Context="EnergyAmmoLoader GetStatusMessage Unpowered" ID="=subject.Doesly:merely:click=.">=subject.T=はカチッと鳴っただけだった。</string>
+  <string Context="EnergyAmmoLoader GetStatusMessage" ID="=subject.Does:are= =statusphrase=.">=subject.T=は=statusphrase=。</string>
+  <string Context="EnergyAmmoLoader SupplyWithCell CannotTake" ID="=subject.The.name= cannot take =cell.the.name=.">=subject.The.name=に=cell.the.name=は入らない。</string>
+  <string Context="EnergyAmmoLoader SupplyWithCell Success" ID="=subject.Does:transfer= =cell.a.name= to =host.aForNPCSubject.name=.">=subject.T=は=cell.a.name=を=host.aForNPCSubject.name=に移した。</string>
+  <string Context="EnergyCellSocket Does Not Fit" ID="That won't fit!">それは合わない！</string>
+  <string Context="EnergyCellSocket DisplayName Tag" ID="{{y|[=cell.long=]}}">{{y|[=cell.long=]}}</string>
+  <string Context="EnergyCellSocket No Cell DisplayName Tag" ID="{{y|[{{K|no cell}}]}}">{{y|[{{K|セルなし}}]}}</string>
+  <string Context="EnergyCellSocket No Fitting Cells" ID="You have no cells that fit.">合うセルを持っていない。</string>
+  <string Context="EnergyCellSocket Remove Cell Option" ID="remove cell: =cell.long.name=">セルを取り外す: =cell.long.name=</string>
+  <string Context="EnergyCellSocket Can't Remove" ID="You can't remove the old cell!">古いセルを取り外せない！</string>
+  <string Context="EnergyCellSocket Remove Failure" ID="You can't remove =cell.the.name=!">=cell.the.name=を取り外せない！</string>
+  <string Context="EnergyCellSocket Cell Selection Popup" ID="Choose a cell for =object.the.name=">=object.the.name=に入れるセルを選択</string>
+  <string Context="EnergyCellSocket Cell Short Description" ID="&#10;{{rules|=cell.name|strip=: =chargeStatus=}}">
+{{rules|=cell.name|strip=: =chargeStatus=}}</string>
+  <string Context="EnergyCellSocket Cell Stuck At Inventory" ID="You can't take the new cell out of your inventory!">新しいセルをインベントリから取り出せない！</string>
+  <string Context="EnergyCellSocket Insert Cell Into Device" ID="=subject.Does:slot= =object.a.name= into =device.the.name:itsSubjectPossessor=.">=subject.T=は=object.a.name=を=device.the.name:itsSubjectPossessor=に差し込んだ。</string>
+  <string Context="Engraver Picker Label" ID="Engrave">彫刻</string>
+  <string Context="Engraver Unpowered" ID="=subject.Doesly:merely:click=.">=subject.T=はカチッと鳴っただけだった。</string>
+  <string Context="Engraver No Body" ID="You cannot engrave =object.the.name=.">=object.the.name=には彫刻できない。</string>
+  <string Context="Engraver No Valid Parts" ID="You cannot engrave =object.the.name=.">=object.the.name=には彫刻できない。</string>
+  <string Context="Engraver No One To Engrave" ID="There is nobody there you can engrave.">そこには彫刻できる相手がいない。</string>
+  <string Context="Engraver Status Not Operational" ID="=subject.Does:are= =engraver.statusPhrase=.">=subject.T=は=engraver.statusPhrase=。</string>
+  <string Context="Engraver Can't Apply" ID="You can't engrave =object.the.name's= =part.ordinalName=.">=object.the.name's==part.ordinalName=には彫刻できない。</string>
+  <string Context="Engraver Can't Engrave Strangers" ID="You can only engrave =subject.itself= and your companions.">彫刻できるのは=subject.itself=と仲間だけだ。</string>
+  <string Context="Engraver Unsuccessful Message" ID="Something went wrong and you fail to complete the engraving.">何かがおかしく、彫刻を完成させられなかった。</string>
+  <string Context="Engraver Success Popup" ID="You engrave =description= on =object.the.name's:withTitles= =part.ordinalName=.">=object.the.name's:withTitles==part.ordinalName=に=description=を彫り込んだ。</string>
+  <string Context="EquipmentLine primary hand glyph" ID="{{G|*}}">{{G|*}}</string>
+  <string Context="EquipmentLoadoutManager no equipment set default name" ID="No Equipment Set">装備セットなし</string>
+  <string Context="EquipmentLoadoutManager new equipment set default name" ID="New Equipment Set">新しい装備セット</string>
+  <string Context="EquipmentLoadoutManager Save Loadout" ID="Save Equipment Set">装備セットを保存</string>
+  <string Context="EquipmentLoadoutManager Equipment Display Name" ID="=subject.shortsingle|strip=">=subject.shortsingle|strip=</string>
+  <string Context="EquipmentLoadoutManager Update a loadout" ID="{{G|Update{{y|: =loadoutname=}}}}">{{G|更新{{y|: =loadoutname=}}}}</string>
+  <string Context="EquipmentLoadoutManager Popup loadout deleted" ID="=loadoutname= equipment set deleted.">装備セット=loadoutname=を削除した。</string>
+  <string Context="EquipmentLoadoutManager Equipment Set Delete Confirmation" ID="Are you sure you want to delete =loadoutname=?">=loadoutname=を本当に削除しますか？</string>
+  <string Context="EquipmentLoadoutSystem create a new loadout edit" ID="Edit">編集</string>
+  <string Context="EquipmentLoadoutSystem create a new loadout equip" ID="Equip">装備</string>
+  <string Context="EquipmentLoadoutSystem choice to switch to using no loadout at all" ID="No Equipment Set">装備セットなし</string>
+  <string Context="EquipmentLoadoutSystem LoadoutPart missing body part" ID="{{Y|NO =partName=}}">{{Y|=partName=なし}}</string>
+  <string Context="EquipmentLoadoutSystem choice to manage loadouts" ID="Manage Equipment Sets">装備セットの管理</string>
+  <string Context="EquipmentLoadoutSystem choice to create a new equipment set" ID="Create new Equipment Set">新しい装備セットを作成</string>
+  <string Context="EquipmentLoadoutSystem create a new loadout create" ID="Create a new loadout set">新しい装備セットを作る</string>
+  <string Context="EquipmentLoadoutSystem header" ID="{{P|Manage Equipment Sets}}">{{P|装備セットの管理}}</string>
+  <string Context="EquipmentLoadoutSystem LoadoutPart missing equipment" ID="{{R|MISSING =equipmentName=}}">{{R|=equipmentName=がない}}</string>
+  <string Context="EquipmentLoadoutSystem pick a loadout to activate" ID="Switch to which equipment set">どの装備セットに切り替える？</string>
+  <string Context="EquipmentLoadoutSystem LoadoutPart unintentionally empty" ID="{{W|=bodypart.cardinal=: Empty}}">{{W|=bodypart.cardinal=: 空き}}</string>
+  <string Context="EquipmentLoadoutSystem equipment choice for body part is explicitly not to have any equipment" ID="{{K|=bodypart.cardinal=: Empty}}">{{K|=bodypart.cardinal=: 空き}}</string>
+  <string Context="EquipmentLoadoutSystem UpdateLoadout Popup enter name for loadout" ID="Enter a name for your equipment set:">装備セットの名前を入力:</string>
+  <string Context="EquipmentLoadoutSystem LoadoutPart intentionally empty" ID="{{G|=bodypart.cardinal=: {{y|Empty}}}}">{{G|=bodypart.cardinal=: {{y|空き}}}}</string>
+  <string Context="EquipmentLoadoutSystem loadout name and description" ID="{{=color=|=name=}} - (=listequipment=)">{{=color=|=name=}} - (=listequipment=)</string>
+  <string Context="EquipmentLoadoutSystem EditLoadout slot selection line" ID="=selected.checkbox.color= =choiceforpart=">=selected.checkbox.color= =choiceforpart=</string>
+  <string Context="EquipmentLoadoutSystem LoadoutPart has incorrect equipment" ID="{{W|=bodypart.cardinal=: =equipmentName=}}">{{W|=bodypart.cardinal=: =equipmentName=}}</string>
+  <string Context="EquipmentLoadoutSystem edit loadout intro" ID="Currently saved =number= parts&#10;=listofparts=">現在保存されている部位: =number=
+=listofparts=</string>
+  <string Context="EquipmentLoadoutSystem LoadoutPart has correct equipment" ID="{{G|=bodypart.cardinal=: {{y|=equipmentName=}}}}">{{G|=bodypart.cardinal=: {{y|=equipmentName=}}}}</string>
+  <string Context="EquipmentLoadoutSystem equipment choice for body part" ID="=bodypart.cardinal=: =equipped.shortsingle|strip=">=bodypart.cardinal=: =equipped.shortsingle|strip=</string>
+  <string Context="EquipmentLoadoutSystem EquipLoadout Message missing body part" ID="{{R|[Equipment Set] Missing Body Part: {{y|=partName=}}}}">{{R|[装備セット] 部位がない: {{y|=partName=}}}}</string>
+  <string Context="EquipmentLoadoutSystem UpdateLoadout Message created new loadout" ID="{{c|==== Created new equipment set: {{C|=loadoutname=}} ====}}">{{c|==== 新しい装備セットを作成: {{C|=loadoutname=}} ====}}</string>
+  <string Context="EquipmentLoadoutSystem UpdateLoadout Message updated loadout - feel free to localize w/o the possessive" ID="{{c|==== Updated your {{C|=loadoutname=}} equipment set ====}}">{{c|==== 装備セット{{C|=loadoutname=}}を更新 ====}}</string>
+  <string Context="EquipmentLoadoutSystem TooConfused" ID="You are too confused to remember what was what among your equipment.">混乱していて、どの装備がどれだったか思い出せない。</string>
+  <string Context="EquipmentLoadoutSystem EquipLoadout Message switch to specific loadout" ID="{{c|==== You switch to your {{C|=loadoutname=}} equipment set. ====}}">{{c|==== 装備セット{{C|=loadoutname=}}に切り替えた ====}}</string>
+  <string Context="EquipmentLoadoutSystem EquipLoadout Message missing equipment for bodypart" ID="{{R|[Equipment Set] Missing Equipment for {{W|=bodypart.cardinal=}}}}">{{R|[装備セット] {{W|=bodypart.cardinal=}}の装備がない}}</string>
+  <string Context="EquipmentLoadoutSystem edit loadout - header" ID="Edit Equipment Set: pick which body parts to equip when this set is chosen.">装備セットの編集: このセットを選んだときに装備する部位を選んでください。</string>
+  <string Context="ErosTeleportation Shout" ID="I'm coming, =partyLeader.basename=!">今行くぞ、=partyLeader.basename=！</string>
+  <string Context="ErosTeleportation Shout MessageLog" ID="=subject.Basename|strip= =subject.verb:yell=, {{W|'=shoutMessage='}}">=subject.Basename|strip=は叫んだ、{{W|「=shoutMessage=」}}</string>
+  <string Context="EvilTwin Name Modifier" ID="Evil">邪悪な</string>
+  <string Context="EvilTwin Evil DisplayName" ID="=modifier|spaceAfter==subject.displayNameOnlyDirect=">=modifier|spaceAfter==subject.displayNameOnlyDirect=</string>
+  <string Context="Examiner Identify Snapshot Name" ID="=item.the.name:single=">=item.the.name:single=</string>
+  <string Context="Examiner FakeConfusionFailure" ID="You think you broke =object.them=...">=object.them=を壊してしまった気がする…</string>
+  <string Context="Examiner CriticalFail" ID="You think you broke =object.them=...">=object.them=を壊してしまった気がする…</string>
+  <string Context="Examiner ResultSuccess" ID="You now understand =object.the.name:long=.">=object.the.name:long=を理解した。</string>
+  <string Context="Examiner Failure" ID="You are puzzled by =object.the.name:long=.">=object.the.name:long=が何なのか分からない。</string>
+  <string Context="Examiner CriticalFail puzzled" ID="You are puzzled by =object.the.name:long=.">=object.the.name:long=が何なのか分からない。</string>
+  <string Context="Examiner ResultPartialSuccess Snapshot Match" ID="You make some progress understanding =snapshot=.">=snapshot=の理解が少し進んだ。</string>
+  <string Context="Examiner Identify Message" ID="You identify =snapshot= as =object.a.name:single=.">=snapshot=は=object.a.name:single=だと分かった。</string>
+  <string Context="Examiner ResultExceptionalSuccess" ID="You discover something about =snapshot= that was hidden!">=snapshot=について隠されていたことを発見した！</string>
+  <string Context="Examiner already broken" ID="Whatever =object.they= =object.is=, =object.it.is= broken...">それが何であれ、壊れている…</string>
+</strings>

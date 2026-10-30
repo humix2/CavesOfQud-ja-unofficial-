@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml		Gyl
+2	Strings.example.xml		lair
+3	Strings.example.xml		the Hydropon
+4	Strings.example.xml		a snapjaw fort
+5	Strings.example.xml		Fencing pigs...
+6	Strings.example.xml		=have.magnitude=
+7	Strings.example.xml		Hamilcrab's shop
+8	Strings.example.xml		Recoming nook at Gyl
+9	Strings.example.xml		You unlock =object.t=.
+10	Strings.example.xml		some flattened remains
+11	Strings.example.xml		a {{w|dromad}} caravan
+12	Strings.example.xml		the Ruin of House Isner
+13	Strings.example.xml		=subject.Does:dissipate=.
+14	Strings.example.xml		=squareSize=x=squareSize=
+15	Strings.example.xml		You discover =regionName=.
+16	Strings.example.xml		You cannot reach =object.t=.
+17	Strings.example.xml		You can't unlock =object.t=.
+18	Strings.example.xml		=subject.T= cannot be closed.
+19	Strings.example.xml		=subject.Does:flip= polarity.
+20	Strings.example.xml		=villagename=, goatfolk haunt
+21	Strings.example.xml		the lair of Oboroqoru, Ape God
+22	Strings.example.xml		=subject.Does:dig= a passage up.
+23	Strings.example.xml		the cradle of {{M|Girsh Agolgot}}
+24	Strings.example.xml		=subject.Does:dig= a passage down.
+25	Strings.example.xml		 {{K|-learned from =factionname=}}
+26	Strings.example.xml		 {{K|-known by =faction.t:Joppa=}}
+27	Strings.example.xml		the cradle of {{M|Girsh Rermadon}}
+28	Strings.example.xml		You cannot budge =object.the.name=.
+29	Strings.example.xml		the cradle of {{M|Girsh Bethsaida}}
+30	Strings.example.xml		You cannot close =object.t==reason=.
+31	Strings.example.xml		the lair of {{M|Oboroqoru, Ape God}}
+32	Strings.example.xml		Add how many =subject.name= to trade.
+33	Strings.example.xml		You are out of phase with =object.t=.
+34	Strings.example.xml		=subject.Does:swim= before your eyes!
+35	Strings.example.xml		=goatfolkvillagename=, goatfolk village
+36	Strings.example.xml		=subject.Does:begin= =effect.name|strip=!
+37	Strings.example.xml		You now have =total= feet of copper wire.
+38	Strings.example.xml		There are no valid targets in that square.
+39	Strings.example.xml		the mouth of {{M|Shug'ruith the Burrower}}
+40	Strings.example.xml		the cradle of {{M|Shug'ruith the Burrower}}
+41	Strings.example.xml		the village lair of {{M|Mamon Souldrinker}}
+42	Strings.example.xml		You can't unlock =object.t= from a distance.
+43	Strings.example.xml		=subject.Does:swim= through =object.a.name=.
+44	Strings.example.xml		=subject.Does:wade= through =object.a.name=.
+45	Strings.example.xml		the chuppah of {{M|Girsh Qas and Girsh Qon}}
+46	Strings.example.xml		=subject.Does:stop= releasing =gasdisplayname=.
+47	Strings.example.xml		Kindrish, the ancestral bracelet of the hindren
+48	Strings.example.xml		=subject.Does:start= releasing =gasdisplayname=.
+49	Strings.example.xml		a secluded merchant from the Consortium of Phyta
+50	Strings.example.xml		=leaderboard|upper= =friendsOnly.if:(friends only)=
+51	Strings.example.xml		You discover a lair. Would you like to investigate?
+52	Strings.example.xml		=subject.Does:revert= to =subject.its= original form.
+53	Strings.example.xml		You discover a village. Would you like to investigate?
+54	Strings.example.xml		You interface with =object.t= and unlock =object.them=.
+55	Strings.example.xml		=subject.T= cannot be closed with =object.t= in the way.
+56	Strings.example.xml		the snapjaw who wields {{R-r-K-y-Y sequence|Stopsvalinn}}
+57	Strings.example.xml		You need at least =amount= charge to generate a discharge.
+58	Strings.example.xml		You come upon a yawning pit. Would you like to investigate?
+59	Strings.example.xml		=subject.Does:begin= =effect.name|strip= from another wound!
+60	Strings.example.xml		Fate intervenes and you deal no damage to =object.the.name=.
+61	Strings.example.xml		You notice some ruins nearby. Would you like to investigate?
+62	Strings.example.xml		the =lairname= of =subject.refname:long:withTitles:LairName=
+63	Strings.example.xml		the lair of =subject.refname:long:withTitles:LairName|strip=
+64	Strings.example.xml		=subject.Does:are= shamed by =subject.possessive= reflection!
+65	Strings.example.xml		You smell roasted boar nearby. Would you like to investigate?
+66	Strings.example.xml		You are too confused to remember what =item.a.name= =item.is=.
+67	Strings.example.xml		You discover some historic ruins. Would you like to investigate?
+68	Strings.example.xml		You discover an abandoned village. Would you like to investigate?
+69	Strings.example.xml		=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.
+70	Strings.example.xml		=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.
+71	Strings.example.xml	=object.startedBy= player	you started
+72	Strings.example.xml	=object.startedBy= itself	started by =object.itself=
+73	Strings.example.xml	=object.startedBy=	started by =object.the.name:includeAdjunctNoun=
+74	Strings.example.xml	Ability Bar no target message	{{K|TARGET: [none]}}
+75	Strings.example.xml	Ability bar, skill cooldown update	 [=turns.things:turn=]
+76	Strings.example.xml	Ability Bar target descriptors	=descriptors.commaList=
+77	Strings.example.xml	Ability Bar target details	{{C|{{B|TARGET:}} =target.name=}}
+78	Strings.example.xml	Ability Bar multi page	ABILITIES\npage =current= of =total=
+79	Strings.example.xml	Ability Bar effects line	{{W|ACTIVE EFFECTS:}} =effects.commaList=
+80	Strings.example.xml	Ability Bar paging keys	=commandKey:Ability Page Up= =commandKey:Ability Page Down=
+81	Strings.example.xml	AbilityBar disabled tag	{{K|[disabled]}}
+82	Strings.example.xml	AbilityBar ToggleState tag on	{{K|[{{g|on}}]}}
+83	Strings.example.xml	AbilityBar ToggleState tag off	{{K|[{{y|off}}]}}
+84	Strings.example.xml	AbilityBar hotkeydescription	<=description|color:w=>
+85	Strings.example.xml	AbilityBar AbilityName	{{=color=|=ability.name=}}
+86	Strings.example.xml	AbilityBar cooldownrounds tag	{{C|[=ability.cooldown=]}}
+87	Strings.example.xml	AbilityManagerLine HotkeyDescription	<{{w|=desc=}}>
+88	Strings.example.xml	AbilityManagerLine Ready NotAttack	=key=) =ability.name=
+89	Strings.example.xml	AbilityManagerLine ToggleState On	{{K|[{{g|Toggled on}}]}}
+90	Strings.example.xml	AbilityManagerLine ToggleState Off	{{K|[{{y|Toggled off}}]}}
+91	Strings.example.xml	AbilityManagerLine Category and Collapse	=collapsed.collapsed= =category=
+92	Strings.example.xml	AbilityManagerLine NotEnabled NotAttack	=key=) =ability.name= [disabled]
+93	Strings.example.xml	AbilityManagerLine Ready IsAttack	=key=) =ability.name= [{{W|attack}}]
+94	Strings.example.xml	AbilityManagerLine NotEnabled IsAttack	=key=) =ability.name= [attack] [disabled]
+95	Strings.example.xml	AbilityManagerLine RealityDistortion NotAttack	=key=) =ability.name= [astrally tethered]
+96	Strings.example.xml	AbilityManagerLine RealityDistortion IsAttack	=key=) =ability.name= [attack] [astrally tethered]
+97	Strings.example.xml	AbilityManagerLine CoolingDown	{{K|=key=}}) =ability.name= [{{C|=ability.cooldown=}} round cooldown]
+98	Strings.example.xml	AbilityManagerScreen SearchText Prompt	Search text:
+99	Strings.example.xml	AbilityManagerScreen choose sort mode	Choose Sort Mode
+100	Strings.example.xml	AbilityManagerScreen Type: ClassDisplayName	{{y|Type:}} =ability.class=
+101	Strings.example.xml	AbilityManagerScreen MenuOption Search w/ Text	Search: =searchtext|color:w=
+102	Strings.example.xml	AbilityManagerScreen sort mode setting	Sort: =modes.textSelector:w#selected=
+103	Strings.example.xml	AbilityManagerScreen Search No Match	No activated abilities found for '=searchtext='.
+104	Strings.example.xml	AbilityManagerScreen HandleRebind AlreadySystemMenu	=bindingKey= is already bound to the system menu.
+105	Strings.example.xml	AbilityManagerScreen Cooldown Remaining	{{C|Cooldown Remaining Rounds:}} =ability.cooldown=
+106	Strings.example.xml	AbilityManagerScreen HandleRebind AlreadyAbilityPicker	=bindingKey= is already bound to the ability picker.
+107	Strings.example.xml	AbilityManagerScreen HandleRebind PressTheKeyToBind	Press the keyboard key to bind to =ability.name|color:w=
+108	Strings.example.xml	AbilityManagerScreen HandleRemoveBindAsync AreYouSure	Are you sure you wish to remove the binding for =ability.name=?
+109	Strings.example.xml	AccelerativeTeleporter Techscan Failure	NoGroundContact
+110	Strings.example.xml	Achievement View - Unlocked date	Unlocked =time.fullDate=
+111	Strings.example.xml	Achievement View - hidden remaining	=num= hidden achievements remaining
+112	Strings.example.xml	activated ability classes	Vehicle
+113	Strings.example.xml	activated ability classes	Onboard Systems
+114	Strings.example.xml	ActivatedAbilities - Gained new ability	You have gained the activated ability {{Y|=abilityName=}}.
+115	Strings.example.xml	ActivatedAbilities - Gained new ability - Hasn't used ability menu much appendix	(press =commandKey:CmdAbilities= to use activated abilities)
+116	Strings.example.xml	ActivatedAbilityEntry cant be used	{{C|=ability.name=}} can't be used at this time.
+117	Strings.example.xml	ActivatedAbilityEntry cant be used - cooldown	You must wait {{C|=ability.cooldown.rounds=}} before using {{C|=ability.name=}}.
+118	Strings.example.xml	ActiveLightSource Condition Use	in use
+119	Strings.example.xml	ActiveLightSource Condition Power	powered
+120	Strings.example.xml	ActiveLightSource Condition Equipped	equipped
+121	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnEquipper or WorksOnImplantee)	user
+122	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnWearer)	wearer
+123	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnHolder)	wielder
+124	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnCarrier)	carrier
+125	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnInventory)	contents
+126	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnCellContents and WorksOnAdjacentCellContents)	vicinity
+127	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnAdjacentCellContents)	nearby vicinity
+128	Strings.example.xml	ActivePart OperationalScope - relationalItem (WorksOnCellContents)	immediate vicinity
+129	Strings.example.xml	ActivePart OperationalScope - overallItem (WorksOnSelf)	=subject.reflexive=
+130	Strings.example.xml	ActivePart OperationalScope	=overallItems.orList=
+131	Strings.example.xml	ActivePart OperationalScope (default)	=subject.its= operating area
+132	Strings.example.xml	ActivePart AddStatusSummary (composer)	=existing= =statusSummary|addParens=
+133	Strings.example.xml	ActivePart OperationalScope - overallItem (relationals)	=subject.its= =relationalItems.orList=
+134	Strings.example.xml	ActivePart OperationalScope - overallItem (WorksOnEnclosed)	someone enclosed within =subject.them=
+135	Strings.example.xml	ActivePartStatus	EMP
+136	Strings.example.xml	ActivePartStatus	Booting
+137	Strings.example.xml	ActivePartStatus (should not be used)	Invalid
+138	Strings.example.xml	ActivePartStatus StatusSummary	{{W|EMP}}
+139	Strings.example.xml	ActivePartStatus	NotHanging
+140	Strings.example.xml	ActivePartStatus	Operational
+141	Strings.example.xml	ActivePartStatus	SwitchedOff
+142	Strings.example.xml	ActivePartStatus	NeedsSubject
+143	Strings.example.xml	ActivePartStatus StatusSummary	{{K|unfueled}}
+144	Strings.example.xml	ActivePartStatus StatusPhrase	{{K|unfueled}}
+145	Strings.example.xml	ActivePartStatus	LimbIncompatible
+146	Strings.example.xml	ActivePartStatus StatusSummary	{{b|warming up}}
+147	Strings.example.xml	ActivePartStatus	RealityStabilized
+148	Strings.example.xml	ActivePartStatus StatusSummary	{{K|switched off}}
+149	Strings.example.xml	ActivePartStatus StatusPhrase	{{K|switched off}}
+150	Strings.example.xml	ActivePartStatus	ProcessInputInvalid
+151	Strings.example.xml	ActivePartStatus StatusSummary	{{r|nonfunctional}}
+152	Strings.example.xml	ActivePartStatus StatusPhrase	{{r|nonfunctional}}
+153	Strings.example.xml	ActivePartStatus	PrimarySystemOffline
+154	Strings.example.xml	ActivePartStatus	LocallyDefinedFailure
+155	Strings.example.xml	ActivePartStatus StatusPhrase	{{b|still warming up}}
+156	Strings.example.xml	ActivePartStatus StatusSummary	{{g|fuel contaminated}}
+157	Strings.example.xml	ActivePartStatus StatusPhrase	{{g|disabled by fuel contamination}}
+158	Strings.example.xml	ActivePartStatus StatusPhrase	{{W|disabled by electromagnetic pulse}}
+159	Strings.example.xml	Add body part to current equipment set	Add body part to current equipment set
+160	Strings.example.xml	AddsMutationOnEquip Part =mutationName	=mutation.Name=
+161	Strings.example.xml	AddsMutationOnEquip Short Description	Grants you =mutationName=.
+162	Strings.example.xml	AddsMutationOnEquip Short Description (with rank)	Grants you =mutationName= at rank =tier=.
+163	Strings.example.xml	AddsRep Description Faction =affected= All	every faction
+164	Strings.example.xml	AddsRep Description Postfix Line	=reputationDetails= =statusSummary|addParens=
+165	Strings.example.xml	AddsRep Description for Faction (signed)	=reputation.signed= reputation with =affected=
+166	Strings.example.xml	AddsRep Description for Faction (signed, color)	=reputation.signed.color= reputation with =affected=
+167	Strings.example.xml	AddsRep Faction =affected= Old	every faction that existed during the time of the sultanate
+168	Strings.example.xml	AddsRep Description Postfix Line (when activated)	When activated, =reputationDetails= =statusSummary|addParens=
+169	Strings.example.xml	Adjusting Aura Description	=details.andList= to all your followers
+170	Strings.example.xml	Adjusting Aura Description Self	=details.andList= to you and all your followers
+171	Strings.example.xml	Adjusting Aura Description With Radius	=details.andList= to all your followers within a radius of =radius=
+172	Strings.example.xml	Adjusting Aura Description Self, With Radius	=details.andList= to you and all your followers within a radius of =radius=
+173	Strings.example.xml	AfferentWeapon Effect Description	This weapon uses its victim's =stat.name= modifier for penetration bonus.
+174	Strings.example.xml	AggregatedAndList replacer - aggregate key	=subject.shortname:withTitles=
+175	Strings.example.xml	AggregatedAndList replacer - =aggregate= list item	=count.a.or.cardinal.names:withTitles#item=
+176	Strings.example.xml	Agolgot Lair Maker - CradleDisplayName	The cradle of Agolgot
+177	Strings.example.xml	AIBarathrumShuttle	=subject.Does:start= interfacing with =object.the.name=.
+178	Strings.example.xml	AilingQuickness Description	=statistics[Speed].adjust#speedBonus= per negative status effect
+179	Strings.example.xml	AIUrnDuster Dusting Message Log	=subject.Does:dust= =object.a.name=.
+180	Strings.example.xml	AIWiring - Ignore Conversation Message	=subject.Does:ignore= =object.the.name=.
+181	Strings.example.xml	AjiConch Blow Message	=subject.Does:blow= into the conch of the Aji =subject.to.the.direction:noHere=.
+182	Strings.example.xml	AmbientRealityStabilized Effect StateDescription	{{Y|subject to astral friction}}
+183	Strings.example.xml	AmmoArrow DisplayName PenetrationAndDamageTag	(=penetration=/=damage=)
+184	Strings.example.xml	AmputateLimb Fail No Limbs	=subject.Does:have= no limbs.
+185	Strings.example.xml	AmputateLimb Fail No Permission	=subject.Does:won't= let you do that.
+186	Strings.example.xml	AmputateLimb Popup Limb Description	=limb.ordinalName==limb.equipped.name|wrap: (:)=
+187	Strings.example.xml	AmputateLimb Fail No Limbs Amputatable	=subject.Does:have= no limbs that can be amputated.
+188	Strings.example.xml	AmputateLimb Fail No Target	There is no one there for you to amputate their limb.
+189	Strings.example.xml	AmputateLimb Fail Hostiles Nearby	You can't perform field amputations with hostiles nearby!
+190	Strings.example.xml	AmputateLimb Fail Cannot Move	You cannot amputate =object.the.name's:withTitles= limbs.
+191	Strings.example.xml	AmputateLimb Fail Cannot Bring Self	You cannot bring yourself to amputate your =limb.ordinalName=.
+192	Strings.example.xml	AmputateLimb Fail Cannot Reach Target	You cannot reach =object.the.name= to amputate =object.its= limb.
+193	Strings.example.xml	AnchorRoomTile Particle Text	Tomb-tethered!
+194	Strings.example.xml	AnimateObject TargetPicker Label	Animate
+195	Strings.example.xml	AnimateObject Unresponsive Fail	=subject.Does:are= unresponsive.
+196	Strings.example.xml	AnimateObject Success Popup	You imbue =object.the.name= with life.
+197	Strings.example.xml	AnimateObject Accomplishment	You imbued =object.a.name= with life. Why?
+198	Strings.example.xml	ArkCore Prompt	OPEN ARK
+199	Strings.example.xml	Arms On Equip Description	Grants =count= =arm.name|pluralize=
+200	Strings.example.xml	Arms On Equip Description With Hands	Grants =count= =arm.name|pluralize= with =hand.pluralize=

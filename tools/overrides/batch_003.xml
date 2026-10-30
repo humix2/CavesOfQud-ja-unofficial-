@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Campfire CookFromRecipe Menu Action Menu" ID="Remove from favorite recipes">お気に入りレシピから外す</string>
+  <string Context="Campfire NostrumsTreatPoison" ID="Select an ingredient to use.">使う食材を選んでください。</string>
+  <string Context="Campfire NostrumsTreatIllness" ID="Select an ingredient to use.">使う食材を選んでください。</string>
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Select an ingredient to use.">使う食材を選んでください。</string>
+  <string Context="Campfire CookFromIngredients remaining, selected &lt; max" ID="&#10;{{y|[up to =n= remaining]}}">
+{{y|[残り最大=n=]}}</string>
+  <string Context="Campfire PreserveItems default ServingName" ID="=sample.displayNameOnlyDirect=">=sample.displayNameOnlyDirect=</string>
+  <string Context="Campfire Cook Error" ID="=subject.Does:are= turned off.">=subject.T=は電源が切れている。</string>
+  <string Context="Campfire CookFromIngredients ingredient name" ID="=subject.cookingIngredientName=">=subject.cookingIngredientName=</string>
+  <string Context="Campfire PreserveExotic Final Message" ID="You preserved:&#10;&#10;=preserveItem=.">保存したもの:
+
+=preserveItem=。</string>
+  <string Context="Campfire PresetMeal CookingActions" ID="Eat =cookingRecipe.name.recolor:Y=">=cookingRecipe.name.recolor:Y=を食べる</string>
+  <string Context="Campfire RollIngredients random ingredient" ID="=spice:cooking.ingredient.!random=">=spice:cooking.ingredient.!random=</string>
+  <string Context="Campfire Preserve final message" ID="You preserved:&#10;&#10;=items.join:.&#10;=.">保存したもの:
+
+=items.join:.
+=。</string>
+  <string Context="Campfire RollIngredients ingredient name" ID="=ingredient.a.cookingIngredientName=">=ingredient.a.cookingIngredientName=</string>
+  <string Context="Campfire DescribeMeal" ID="=spice:cooking.cookTemplate.!random=">=spice:cooking.cookTemplate.!random=</string>
+  <string Context="Campfire CookFromRecipe Rename Success" ID="You rename the recipe to '=newname='.">レシピ名を「=newname=」に変更した。</string>
+  <string Context="Campfire Cook Error" ID="=subject.Does:need= to be hung up first.">=subject.T=はまず吊るす必要がある。</string>
+  <string Context="Campfire Cook Error" ID="=subject.Does:do= not seem to be working.">=subject.T=は動いていないようだ。</string>
+  <string Context="Campfire CookFromRecipe Rename Unrename" ID="You rename the recipe to '=originalname='.">レシピ名を「=originalname=」に戻した。</string>
+  <string Context="Campfire NostrumsTreatIllness" ID="Neither you nor =object.the.name= are ill.">あなたも=object.the.name=も病気ではない。</string>
+  <string Context="Campfire NostrumsStopBleeding" ID="You staunch the wounds of =object.the.name=.">=object.the.name=の傷の出血を止めた。</string>
+  <string Context="Campfire Extinguish" ID="=subject.Does:extinguish= =object.the.name=.">=subject.T=は=object.the.name=を消した。</string>
+  <string Context="Campfire NostrumsStopBleeding" ID="=object.name's= wounds are too deep to treat.">=object.name's=傷は深すぎて治療できない。</string>
+  <string Context="Campfire CookFromIngredients Inspired Recipe" ID="You create a new recipe for {{|=recipe.name=}}!">{{|=recipe.name=}}の新しいレシピを編み出した！</string>
+  <string Context="Campfire CookFromIngredients Inspired Recipe AskFavorite" ID="You create a new recipe for {{|=recipe.name=}}!">{{|=recipe.name=}}の新しいレシピを編み出した！</string>
+  <string Context="Campfire NostrumsStopBleeding" ID="Neither you nor =object.the.name= are bleeding.">あなたも=object.the.name=も出血していない。</string>
+  <string Context="Campfire NostrumsTreatPoison" ID="Neither you nor =object.the.name= are poisoned.">あなたも=object.the.name=も毒に冒されていない。</string>
+  <string Context="Campfire CookFromIngredients ingredient selector menu" ID="=selected.checkbox.color=  =name= {{K|x=count=}}">=selected.checkbox.color=  =name= {{K|x=count=}}</string>
+  <string Context="Campfire Cook CookingActions Menu Title" ID="{{W|The fire breathes its warmth on your bones.}}">{{W|炎のぬくもりが骨身に染みわたる。}}</string>
+  <string Context="Campfire CookFromRecipe Rename" ID="You can't rename a recipe that someone else created.">他人が作ったレシピの名前は変えられない。</string>
+  <string Context="Campfire AskFavorite" ID="Would you like to add this recipe to your favorites?">このレシピをお気に入りに追加しますか？</string>
+  <string Context="Campfire Cook Error" ID="=subject.Does:do= not have enough charge to operate.">=subject.T=は動かすのに十分なチャージがない。</string>
+  <string Context="Campfire Extinguish (no actor)" ID="=subject.Does:are= extinguished by =object.the.name=.">=subject.T=は=object.the.name=によって消された。</string>
+  <string Context="Campfire CookFromRecipe Menu - Show hidden option" ID="Show =countMissing= hidden recipes missing ingredients">材料不足で隠れているレシピ=countMissing=件を表示</string>
+  <string Context="Campfire CookFromRecipe Menu - hidden display" ID="{{K|&lt; =countMissing= hidden for missing ingredients &gt;}}">{{K|&lt; 材料不足で=countMissing=件非表示 &gt;}}</string>
+  <string Context="Campfire RollTasty" ID="You gorge on the succulent meat. It's tastier than usual.">ジューシーな肉をむさぼった。いつもより美味しい。</string>
+  <string Context="Campfire CookFromIngredients Inspired Recipe Accomplishment" ID="You invented a mouthwatering dish called {{|=recipe.name=}}!">{{|=recipe.name=}}という垂涎の料理を考案した！</string>
+  <string Context="Campfire NostrumsTreatDiseaseOnest" ID="=object.Doesly:already:have= boosted immunity from a nostrum.">=object.T=は既に霊薬で免疫が高まっている。</string>
+  <string Context="Campfire CookFromIngredients - select ingredients cook action" ID="{{W|Cook with the {{=color=|=n=}} selected ingredients.}}=remaining=">{{W|選んだ{{=color=|=n=}}種類の食材で料理する。}}=remaining=</string>
+  <string Context="Campfire CookFromRecipe Rename" ID="Enter a new recipe name, or leave blank to return to its original name.">新しいレシピ名を入力してください。空欄にすると元の名前に戻ります。</string>
+  <string Context="Campfire NostrumsTreatIllness" ID="You try to cure =object.name's= illness, but cannot affect =object.them=.">=object.name's=病気を治そうとしたが、効果がなかった。</string>
+  <string Context="Campfire NostrumsTreatIllness" ID="You cure =object.name's= illness with a balm made from =cure.a.name:single=.">=cure.a.name:single=から作った軟膏で=object.name's=病気を治した。</string>
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Neither you nor =object.the.name= are suffering from the onset of a disease.">あなたも=object.the.name=も病気の兆候はない。</string>
+  <string Context="Campfire NostrumsTreatIllness" ID="You have no medicinal ingredients with which to treat =object.name's= illness.">=object.name's=病気を治療できる薬効のある食材を持っていない。</string>
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You boost =object.name's= immunity with a balm made from =cure.a.name:single=.">=cure.a.name:single=から作った軟膏で=object.name's=免疫を高めた。</string>
+  <string Context="Campfire NostrumsStopBleeding" ID="You staunch the wounds of =object.the.name=, though some are too deep to treat.">=object.the.name=の傷の出血を止めたが、深すぎて処置できない傷もある。</string>
+  <string Context="Campfire NostrumsTreatPoison" ID="The poison affecting =list.andList= is too strong to be cured by your nostrums.">=list.andList=を冒す毒は強すぎて、あなたの霊薬では治せない。</string>
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You try to cure =object.name's= disease onset, but cannot affect =object.them=.">=object.name's=病気の兆候を治そうとしたが、効果がなかった。</string>
+  <string Context="CampfireRemains AttemptLight AnnounceSuccess" ID="=subject.Does:light= =object.the.name=.">=subject.T=は=object.the.name=に火をつけた。</string>
+  <string Context="CampfireRemains AttemptLight FailInPool" ID="You cannot light =object.the.name= while =object.itis= in =pool.the.name=.">=object.the.name=は=pool.the.name=の中にあるので火をつけられない。</string>
+  <string Context="Carapace Ability Name" ID="Tighten =carapace.name=">=carapace.name=を締める</string>
+  <string Context="Carapace Tighten Other" ID="=subject.Does:tighten= =subject.possessive= =carapace.name=.">=subject.T=は=carapace.name=を締めた。</string>
+  <string Context="Carapace Loosen Other" ID="=subject.The.name's= =carapace.name= =carapace.verb:loosen=.">=subject.The.name's==carapace.name=が緩んだ。</string>
+  <string Context="Carapace Tighten Fail" ID="=subject.Does:fail= to tighten =subject.possessive= =carapace.name=.">=subject.T=は=carapace.name=を締められなかった。</string>
+  <string Context="Carapace Tighten Player" ID="You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor=}}.">=carapace.name=を締めた。AVが{{G|=tightFactor=}}上昇した。</string>
+  <string Context="CarbideChef Inspired applied" ID="You swell with inspiration to cook a mouthwatering meal.">垂涎の料理を作りたいという閃きが湧き上がった。</string>
+  <string Context="CarryBonus Percent" ID="=bonus.signed=% carry capacity">積載量 =bonus.signed=%</string>
+  <string Context="CarryBonus Flat" ID="=bonus.signed= lbs. carry capacity">積載量 =bonus.signed=ポンド</string>
+  <string Context="CharacterAttributeLine modifiertext" ID="{{=color=|[=value.signed=]}}">{{=color=|[=value.signed=]}}</string>
+  <string Context="CharacterMutationLine mutation no level" ID="{{y|=mutation.name:withAnnotations=}}">{{y|=mutation.name:withAnnotations=}}</string>
+  <string Context="CharacterMutationLine mutation with level" ID="{{y|=mutation.name:withAnnotations= ({{=levelcolor=|=mutation.level=}})}}">{{y|=mutation.name:withAnnotations= ({{=levelcolor=|=mutation.level=}})}}</string>
+  <string Context="CharacterStatusScreen mutationTermCapital" ID="=term|title=">=term|title=</string>
+  <string Context="CharacterStatusScreen mutationTermText (header, from mutationsTerm)" ID="=term|upper=">=term|upper=</string>
+  <string Context="CharacterStatusScreen Attributes Long" ID="MAIN ATTRIBUTES">主要能力値</string>
+  <string Context="CharacterStatusScreen MutationDetails" ID="=mutation.details=">=mutation.details=</string>
+  <string Context="CharacterStatusScreen mutation points short" ID="MP: {{=color=|=mp=}}">MP: {{=color=|=mp=}}</string>
+  <string Context="CharacterStatusScreen MutationRankText" ID="{{G|RANK =level=/10}}">{{G|ランク =level=/10}}</string>
+  <string Context="CharacterStatusScreen MutationType Mental Defect" ID="{{r|[Mental Defect]}}">{{r|[精神欠陥]}}</string>
+  <string Context="CharacterStatusScreen mutationsTerm" ID="=term|pluralize|title=">=term|pluralize|title=</string>
+  <string Context="CharacterStatusScreen MutationType Physical Defect" ID="{{R|[Physical Defect]}}">{{R|[肉体欠陥]}}</string>
+  <string Context="CharacterStatusScreen MutationDetailsShort" ID="=mutation.details:short=">=mutation.details:short=</string>
+  <string Context="CharacterStatusScreen Buy Mutation description" ID="Buy =subject.MutationTerm=">=subject.MutationTerm=を購入</string>
+  <string Context="CharacterStatusScreen attribute points" ID="Attribute Points: {{=color=|=ap=}}">能力値ポイント: {{=color=|=ap=}}</string>
+  <string Context="CharacterStatusScreen Statistic HelpText BaseValue" ID="Your base =statName= is =statValue=.">基本の=statName=は=statValue=。</string>
+  <string Context="CharacterStatusScreen MutationType Mental" ID="{{c|[Mental =subject.MutationTerm=]}}">{{c|[精神=subject.MutationTerm=]}}</string>
+  <string Context="CharacterStatusScreen MutationType Physical" ID="{{c|[Physical =subject.MutationTerm=]}}">{{c|[肉体=subject.MutationTerm=]}}</string>
+  <string Context="CharacterStatusScreen classtext line" ID="=subject.genotype.name= =subject.subtype.name=">=subject.genotype.name= =subject.subtype.name=</string>
+  <string Context="CharacterStatusScreen mutation points long" ID="=subject.mutationTerm|initUpper= Points: {{=color=|=mp=}}">=subject.mutationTerm|initUpper=ポイント: {{=color=|=mp=}}</string>
+  <string Context="CharacterStatusScreen stats line level hp xp weight" ID="Level: =level= » HP: =hp=/=hpfull= » XP: =xp=/=xpnextlevel= » Weight: =weight=#">レベル: =level= » HP: =hp=/=hpfull= » XP: =xp=/=xpnextlevel= » 重量: =weight=#</string>
+  <string Context="Chargen EmbarkBuilder MenuOption Next" ID="Next">次へ</string>
+  <string Context="Chargen Subtype SingularTitle Default" ID="subtype">サブタイプ</string>
+  <string Context="Chargen Gamemode Quickstart Title" ID="Quickstart">クイックスタート</string>
+  <string Context="Chargen CustomizeCharacter Option Gender nonspecific" ID="nonspecific">指定なし</string>
+  <string Context="Chargen CustomizeCharacter PrefixMenuOption" ID="World Seed: ">ワールドシード:</string>
+  <string Context="Chargen Attribute Selection Modifier Text" ID="[=modifier=]">[=modifier=]</string>
+  <string Context="Chargen Subtype Title" ID=":=subtypetitle=:">:=subtypetitle=:</string>
+  <string Context="Chargen Attribute Selection Title" ID="[=apToRaise=pts]">[=apToRaise=pt]</string>
+  <string Context="Chargen Popup Input Seed Title" ID="Enter world seed:">ワールドシードを入力:</string>
+  <string Context="Chargen Gamemode MenuOption Quickstart" ID="[Debug] Quickstart">[デバッグ] クイックスタート</string>
+  <string Context="Chargen Worldgen Title" ID="{{W|Creating World}}">{{W|ワールドを生成中}}</string>
+  <string Context="Chargen Mutations Prefix Numberbox" ID="=selected.numberbox=">=selected.numberbox=</string>
+  <string Context="Chargen Attributes SummaryBlockData Statline" ID="=stat.title=: =value=">=stat.title=: =value=</string>
+  <string Context="Chargen Attributes Points Remaining" ID="Points Remaining: =ap=">残りポイント: =ap=</string>
+  <string Context="Chargen Gamemode DataError Unselected" ID="No game mode selected.">ゲームモードが選択されていない。</string>
+  <string Context="Chargen Mutations Points Remaining" ID="Points Remaining: =mp=">残りポイント: =mp=</string>
+  <string Context="Chargen Cybernetics DataError Invalid" ID="Invalid choice selected">無効な選択です</string>
+  <string Context="Chargen EmbarkBuilder BigHeader" ID="{{W|character creation}}">{{W|キャラクター作成}}</string>
+  <string Context="Chargen BuildLibrary Build Popup manage build" ID="Manage Build: =buildname=">ビルドの管理: =buildname=</string>
+  <string Context="Chargen Cybernetics PrefixMenuOption checkbox" ID="=selected.checkbox.basic=">=selected.checkbox.basic=</string>
+  <string Context="Chargen Mutations Prefix Checkbox (max 1)" ID="=selected.checkbox.basic=">=selected.checkbox.basic=</string>
+  <string Context="Chargen Attributes Stat Bonus Line" ID="=bonus.signed= from =source=">=source=から=bonus.signed=</string>
+  <string Context="Chargen Subtype Generic Info" ID="=glyph:ChargenBullet= =info=">=glyph:ChargenBullet= =info=</string>
+  <string Context="Chargen Mutations SummaryBlockData Row" ID="=mutation= =count.x.multiple=">=mutation= =count.x.multiple=</string>
+  <string Context="Chargen EmbarkBuilder Warnings Popup Message" ID="=warnings=&#10;&#10;Continue anyway?">=warnings=
+
+このまま続けますか？</string>
+  <string Context="Chargen Mutations Prefix Finalizer" ID="=box==nodecost.numberbox.color=">=box==nodecost.numberbox.color=</string>
+  <string Context="Chargen Cybernetics Description" ID="=blueprint.displayName= (=slot=)">=blueprint.displayName=（=slot=）</string>
+  <string Context="Chargen Gamemode Quickstart Description" ID="Start a new game with one button.">ボタン一つで新しいゲームを始める。</string>
+  <string Context="Chargen Genotype Stat Bonus Source Description" ID="{{important|=genotype=}} genotype">{{important|=genotype=}}の遺伝子型</string>
+  <string Context="Chargen Subtype Breadcrumb" ID="=subtypeSingularTitle|capitalize=">=subtypeSingularTitle|capitalize=</string>
+  <string Context="Chargen Attributes DataWarning Unspent" ID="You have unspent attribute points.">未使用の能力値ポイントがある。</string>
+  <string Context="Chargen Subtype Skill Info Item" ID="=glyph:ChargenBullet= =skill.name=">=glyph:ChargenBullet= =skill.name=</string>
+  <string Context="Chargen Cybernetics Long Description Default" ID="{{C|-2 License Tier&#10;+1 Toughness}}">{{C|ライセンス階位 -2
+頑健 +1}}</string>
+  <string Context="Chargen Subtype Builder Info Item" ID="=glyph:ChargenBullet= =builderInfo=">=glyph:ChargenBullet= =builderInfo=</string>
+  <string Context="Chargen Subtype Attached Power Info Item" ID="  =glyph:ChargenBullet= =power.name=">  =glyph:ChargenBullet= =power.name=</string>
+  <string Context="Chargen Subtype Stat Bonus Source Description" ID="{{important|=subtype=}} =singularname=">{{important|=subtype=}}の=singularname=</string>
+  <string Context="Chargen Subtype Save Bonus Info Item" ID="=glyph:ChargenBullet= =saveDescription=">=glyph:ChargenBullet= =saveDescription=</string>
+  <string Context="Chargen Attributes DataError Overspent" ID="You have spent too many attribute points!">能力値ポイントを使いすぎている！</string>
+  <string Context="Chargen Subtype Attached Power Info Item" ID="=glyph:ChargenBullet= =power.disambiguated=">=glyph:ChargenBullet= =power.disambiguated=</string>
+  <string Context="Chargen Subtype Stat Minimum Info" ID="=glyph:ChargenBullet= minimum =min= =stat.statDisplayName=">=glyph:ChargenBullet= =stat.statDisplayName=の最小値 =min=</string>
+  <string Context="Chargen Subtype Stat Maximum Info" ID="=glyph:ChargenBullet= maximum =max= =stat.statDisplayName=">=glyph:ChargenBullet= =stat.statDisplayName=の最大値 =max=</string>
+  <string Context="Chargen Subtype Stat Bonus Info" ID="=glyph:ChargenBullet= =bonus.signed= =stat.statDisplayName=">=glyph:ChargenBullet= =stat.statDisplayName= =bonus.signed=</string>
+  <string Context="Chargen BuildLibrary Popup code exists" ID="That code is already in your library. It's named =buildname=.">そのコードは既にライブラリにある。名前は=buildname=。</string>
+  <string Context="Chargen Mutations Format variant available" ID="=displayName= [=commandKey:CmdChargenMutationVariant|color:W=]">=displayName= [=commandKey:CmdChargenMutationVariant|color:W=]</string>
+  <string Context="ChavvahSystem - Reveal Popup" ID="You discover =note.text|initLowerIfArticle=!">=note.text|initLowerIfArticle=を発見した！</string>
+  <string Context="ChavvahSystem - Reveal Popup - attuned" ID="You touch the chiming rock. White noise carries on a distant wind.">鳴り響く岩に触れた。遠くの風に乗ってホワイトノイズが運ばれてくる。</string>
+  <string Context="checkbox basic (checked)" ID="[■]">[■]</string>
+  <string Context="checkbox basic (unchecked)" ID="[ ]">[ ]</string>
+  <string Context="checkbox with color (unchecked)" ID="{{y|[ ]}}">{{y|[ ]}}</string>
+  <string Context="checkbox with color (checked)" ID="{{y|[{{G|■}}]}}">{{y|[{{G|■}}]}}</string>
+  <string Context="ChevronWall Twin Prefix Fragment" ID="anti-">反</string>
+  <string Context="Choose equipment" ID="Choose equipment">装備を選択</string>
+  <string Context="Clairvoyance VisionRadius stat, whole map" ID="whole map">マップ全体</string>
+  <string Context="Clairvoyance activated message log" ID="=subject.Does:peer= into another space.">=subject.T=は別の空間を覗き込んだ。</string>
+  <string Context="Cleave Skill =cleaveTarget= MA" ID="mental armor">精神アーマー</string>
+  <string Context="Cleave PerformCleave" ID="=subject.Does:cleave= through =object.the.name's:withTitles= =cleaveTarget=.">=subject.T=は=object.the.name's:withTitles==cleaveTarget=を切り裂いた。</string>
+  <string Context="CleaveOnHit RulesPostfix Always" ID="Cleaves armor">アーマーを切り裂く</string>
+  <string Context="CleaveOnHit RulesPostfix AlwaysCritical" ID="Cleaves armor on critical hit">クリティカル時にアーマーを切り裂く</string>
+  <string Context="CleaveOnHit RulesPostfix Chance" ID="=chance=% chance to cleave armor">=chance=%の確率でアーマーを切り裂く</string>
+  <string Context="CleaveOnHit RulesPostfix AlwaysMentalCritical" ID="Cleaves mental armor on critical hit">クリティカル時に精神アーマーを切り裂く</string>
+  <string Context="CleaveOnHit RulesPostfix ChanceCritical" ID="=chance=% chance to cleave armor on critical hit">クリティカル時に=chance=%の確率でアーマーを切り裂く</string>
+  <string Context="CleaveOnHit RulesPostfix ChanceMentalCritical" ID="=chance=% chance to cleave mental armor on critical hit">クリティカル時に=chance=%の確率で精神アーマーを切り裂く</string>
+  <string Context="CloneOnHit AttackerHit Destabilizes" ID="=subject.Does:destabilize=.">=subject.T=は不安定化した。</string>
+  <string Context="Cloning Accomplishment" ID="On the =day= of =month=, you multiplied.">=month=の=day=、あなたは増殖した。</string>
+  <string Context="Cloning - Renaming a proper name" ID="clone of =subject.refname:withIndefiniteArticle=">=subject.refname:withIndefiniteArticle=のクローン</string>
+  <string Context="Cloning detach message log" ID="=subject.A.name= =subject.verb:detach= from =object.the.name=!">=subject.A.name=が=object.the.name=から離れた！</string>
+  <string Context="CodaSystem - Prompt to leave village" ID="Leaving the village will end the game.&#10;&#10;Type =prompt= to confirm.">村を出るとゲームが終了する。
+
+確認のため=prompt=と入力してください。</string>
+  <string Context="Combat Attacker Miss Message (terse)" ID="=subject.Does:miss= you!">=subject.T=の攻撃は外れた！</string>
+  <string Context="Combat Player Miss Message (no weapon)" ID="{{r|You miss!}} [=hitResult= vs. =dv=]">{{r|攻撃は外れた！}} [=hitResult= vs. =dv=]</string>
+  <string Context="Combat Attacker Miss Message (no weapon)" ID="=subject.Does:miss= you! [=hitResult= vs. =dv=]">=subject.T=の攻撃は外れた！ [=hitResult= vs. =dv=]</string>
+  <string Context="Combat Attacker Miss Message (with weapon)" ID="=subject.Does:miss= you with =subject.its.item#weapon=! [=hitResult= vs. =dv=]">=subject.T=の=subject.its.item#weapon=による攻撃は外れた！ [=hitResult= vs. =dv=]</string>
+  <string Context="Combat Player Miss Message (with weapon)" ID="{{r|=subject.Does:miss= with =subject.its.item#weapon=!}} [=hitResult= vs. =dv=]">{{r|=subject.T=の=subject.its.item#weapon=による攻撃は外れた！}} [=hitResult= vs. =dv=]</string>
+  <string Context="CommonUIStrings MenuOption Bind" ID="Bind">割り当て</string>
+  <string Context="CommonUIStrings MenuOption Unbind" ID="Unbind">割り当て解除</string>
+  <string Context="CommonUIStrings MenuOption UnbindKey" ID="Unbind Key">キーの割り当てを解除</string>
+  <string Context="CompanionCapacity RulesPostfix Beguiled Fewer" ID="You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.">魅了できる従者が=amount.cardinal=人減る。</string>
+  <string Context="CompanionCapacity RulesPostfix Proselytized Fewer" ID="You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.">改宗させられる従者が=amount.cardinal=人減る。</string>
+  <string Context="CompanionCapacity RulesPostfix Beguiled Additional" ID="You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.">魅了できる従者が=amount.cardinal=人増える。</string>
+  <string Context="CompanionCapacity RulesPostfix Proselytized Additional" ID="You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.">改宗させられる従者が=amount.cardinal=人増える。</string>
+  <string Context="ComputePower Rules Line - Increases" ID="Compute power on the local lattice increases this item's effectiveness.">ローカル格子の演算能力が、このアイテムの効果を高める。</string>
+  <string Context="ComputePower Rules Line - Decreases" ID="Compute power on the local lattice decreases this item's effectiveness.">ローカル格子の演算能力が、このアイテムの効果を下げる。</string>
+  <string Context="Conatus - Sprint Duration Bonus Source" ID="=displayName= skill">=displayName=スキル</string>
+  <string Context="Confused Effect Apply" ID="=subject.Does:become= confused!">=subject.T=は混乱した！</string>
+  <string Context="Confused Effect Conversation" ID="=subject.Does:don't= seem to understand you.">=subject.T=はあなたの言うことを理解していないようだ。</string>
+  <string Context="Confused Effect Conversation Telepathy" ID="=subject.The.name's:withTitles= mind is in disarray.">=subject.The.name's:withTitles=心は混乱している。</string>
+  <string Context="Confusion Resist MessageLog" ID="=subject.Does:resist= being confused.">=subject.T=は混乱に抵抗した。</string>
+  <string Context="Confusion Unaffected MessageLog" ID="Your attack does not affect =object.the.name=.">あなたの攻撃は=object.the.name=に効かない。</string>
+  <string Context="Console UI WorldCreationProgress Step Complete" ID="{{G|Complete!}}">{{G|完了！}}</string>
+  <string Context="Console Trade UI Free Drams" ID=" {{W|$=freeDrams=}} "> {{W|$=freeDrams=}}</string>
+  <string Context="Console Trade UI Total" ID=" {{C|=total:0.???=}} drams"> {{C|=total:0.???=}}ドラム</string>
+  <string Context="ContainedStaticGlitching Effect DisplayName" ID="{{entropic|glitching}}">{{entropic|グリッチ中}}</string>
+  <string Context="Container Fail Cannot Trade" ID="You cannot trade with =object.the.name=.">=object.the.name=とは取引できない。</string>
+  <string Context="Container Opening Picker Title" ID="=isIn.if:Opening:Examining= =object.a.name|strip=">=object.a.name|strip=を=isIn.if:開いている:調べている=</string>
+  <string Context="Container Has Nothing, Confirm Store" ID="There's nothing =preposition= that. Would you like to store an item?">=preposition=には何もない。アイテムを収納しますか？</string>
+  <string Context="Converation GiveReshephSecret XP popup" ID="You gain {{C|=xp=}} XP.">{{C|=xp=}} XPを獲得した。</string>
+  <string Context="Conversation Choice - End tag" ID="{{K|[End]}}">{{K|[終了]}}</string>
+  <string Context="Conversation GlotrotFilter" ID="=GlotrotWord=.">=GlotrotWord=。</string>
+  <string Context="Conversation BuildGolem Tag" ID="{{W|[Build Golem]}}">{{W|[ゴーレムを作る]}}</string>
+  <string Context="Conversation Globals - begin trade option" ID="{{g|[begin trade]}}">{{g|[取引を始める]}}</string>
+  <string Context="Conversation GiveArtifact Tag" ID="{{g|[give artifact]}}">{{g|[アーティファクトを渡す]}}</string>
+  <string Context="Conversation CrossIntoBrightsheol Tag" ID="{{M|[lesser victory]}}">{{M|[小さな勝利]}}</string>
+  <string Context="Conversation GiveReshephSecret Tag" ID="{{g|[Share secrets from Resheph's life]}}">{{g|[レシェフの生涯の秘密を分かち合う]}}</string>
+  <string Context="Conversation Water Ritual - Failure Popup" ID="You don't have a high enough reputation with =faction.the.name=.">=faction.the.name=からの評判が足りない。</string>
+  <string Context="Conversation AddSlynthCandidate Popup" ID="=sanctuary|capitalize= =plural.if:are:is= now a sanctuary option for the slynth.">=sanctuary|capitalize=がスリンスの避難先の候補になった。</string>
+  <string Context="ConversationDelegate gain XP message log popup" ID="=subject.Does:gain= =xp|rules= XP!">=subject.T=は=xp|rules= XPを獲得した！</string>
+  <string Context="ConversationScript PronounExchange Text Prepend" ID="[=pronounExchange=]&#10;&#10;">[=pronounExchange=]
+
+</string>
+  <string Context="ConversationScript Fail Nothing To Say" ID="=subject.Does:have= nothing to say.">=subject.T=は何も話すことがない。</string>
+  <string Context="ConversationScript Fail Cant Telepathically" ID="You can sense nothing from =subject.the.name=.">=subject.the.name=からは何も感じ取れない。</string>
+  <string Context="ConversationScript Fail Mentally Hostile" ID="You sense only hostility from =subject.the.name=.">=subject.the.name=からは敵意しか感じない。</string>
+  <string Context="ConversationScript Fail Unresponsive" ID="=subject.the.name= =subject.is= utterly unresponsive.">=subject.the.name=はまったく反応しない。</string>
+  <string Context="ConversationScript Fail Cant Mentally Contact" ID="You cannot seem to make contact with =subject.the.name=">=subject.the.name=と心を通わせられないようだ</string>
+  <string Context="ConversationScript Fail Hostile" ID="=subject.The.name= =subject.verb:refuse= to speak to you.">=subject.The.name=はあなたと話すのを拒んだ。</string>
+  <string Context="ConversationScript PronounExchange (yours only)" ID="You give =subject.the.name= your =isNew.if:new :=pronouns.">=subject.the.name=に=isNew.if:新しい:=代名詞を伝えた。</string>
+  <string Context="ConversationScript Fail CantStart" ID="You cannot seem to engage =subject.the.name= in conversation.">=subject.the.name=と会話を始められないようだ。</string>
+  <string Context="ConversationScript Fail You Are Confused" ID="You can't seem to make out what =subject.the.name= =subject.is= saying.">=subject.the.name=が何を言っているのか分からない。</string>
+  <string Context="Converstaion AddSlynthCandidate Tag" ID="{{W|[confirm =sanctuary= as a sanctuary option]}}">{{W|[=sanctuary=を避難先の候補として確定する]}}</string>
+</strings>

@@ -1,0 +1,187 @@
+1	ギル
+2	巣穴
+3	ハイドロポン
+4	スナップジョーの砦
+5	豚を囲い込み中…
+6	=have.magnitude=
+7	ハミルクラブの店
+8	ギルの再誕の小部屋
+9	=object.t=の鍵を開けた。
+10	押し潰された残骸
+11	{{w|ドロマド}}の隊商
+12	イスナー家の廃墟
+13	=subject.T=は消散した。
+14	=squareSize=×=squareSize=
+15	=regionName=を発見した。
+16	=object.t=に手が届かない。
+17	=object.t=の鍵を開けられない。
+18	=subject.T=は閉じられない。
+19	=subject.T=は極性を反転させた。
+20	=villagename=、ゴートフォークの棲み処
+21	類人猿の神オボロコルの巣穴
+22	=subject.T=は上へ通路を掘った。
+23	{{M|ギルシュ・アゴルゴット}}の揺籃
+24	=subject.T=は下へ通路を掘った。
+25	 {{K|-=factionname=から習得}}
+26	 {{K|-=faction.t:Joppa=が知っている}}
+27	{{M|ギルシュ・レルマドン}}の揺籃
+28	=object.the.name=はびくともしない。
+29	{{M|ギルシュ・ベスサイダ}}の揺籃
+30	=object.t=を閉じられない=reason=。
+31	{{M|類人猿の神オボロコル}}の巣穴
+32	取引に加える=subject.name=の数は？
+33	=object.t=とは位相がずれている。
+34	=subject.T=が目の前で泳ぐように揺らぐ！
+35	=goatfolkvillagename=、ゴートフォークの村
+36	=subject.T=は=effect.name|strip=し始めた！
+37	銅線は全部で=total=フィートになった。
+38	そのマスには有効な対象がいない。
+39	{{M|穴掘りのシュグルイス}}の口
+40	{{M|穴掘りのシュグルイス}}の揺籃
+41	{{M|魂を啜るマモン}}の村の巣穴
+42	離れた場所から=object.t=の鍵は開けられない。
+43	=subject.T=は=object.a.name=の中を泳いでいる。
+44	=subject.T=は=object.a.name=の中を歩いて渡っている。
+45	{{M|ギルシュ・カスとギルシュ・コン}}の婚礼の天蓋
+46	=subject.T=は=gasdisplayname=の放出を止めた。
+47	キンドリッシュ、ヒンドレンに伝わる祖先の腕輪
+48	=subject.T=は=gasdisplayname=を放出し始めた。
+49	フィタ連合から来た人目を避ける商人
+50	=leaderboard|upper= =friendsOnly.if:（フレンドのみ）=
+51	巣穴を発見した。調べてみる？
+52	=subject.T=は元の姿に戻った。
+53	村を発見した。調べてみる？
+54	=object.t=に接続し、ロックを解除した。
+55	=object.t=が邪魔で=subject.t=を閉じられない。
+56	{{R-r-K-y-Y sequence|ストップスヴァリン}}を振るうスナップジョー
+57	放電を起こすには最低=amount=のチャージが必要だ。
+58	ぽっかりと口を開けた穴に行き当たった。調べてみる？
+59	=subject.T=は別の傷からも=effect.name|strip=し始めた！
+60	運命が介入し、=object.the.name=にダメージを与えられなかった。
+61	近くに遺跡があるのに気づいた。調べてみる？
+62	=subject.refname:long:withTitles:LairName=の=lairname=
+63	=subject.refname:long:withTitles:LairName|strip=の巣穴
+64	=subject.T=は自分の姿を映して恥じ入った！
+65	近くで猪の丸焼きの匂いがする。調べてみる？
+66	混乱していて、=item.a.name=が何だったか思い出せない。
+67	歴史ある遺跡を発見した。調べてみる？
+68	廃村を発見した。調べてみる？
+69	=subject.An=が=subject.to.the.direction==subject.verb#ArriveVerb=。
+70	=subject.T=は=effect.name|strip=であるかのように振る舞い始めた。
+71	自分で起こした
+72	自然発生
+73	=object.the.name:includeAdjunctNoun=が起こした
+74	{{K|対象: [なし]}}
+75	 [=turns.things:turn=]
+76	=descriptors.commaList=
+77	{{C|{{B|対象:}} =target.name=}}
+78	アビリティ\n=current=/=total=ページ
+79	{{W|効果中:}} =effects.commaList=
+80	=commandKey:Ability Page Up= =commandKey:Ability Page Down=
+81	{{K|[無効]}}
+82	{{K|[{{g|on}}]}}
+83	{{K|[{{y|off}}]}}
+84	<=description|color:w=>
+85	{{=color=|=ability.name=}}
+86	{{C|[=ability.cooldown=]}}
+87	<{{w|=desc=}}>
+88	=key=) =ability.name=
+89	{{K|[{{g|オン}}]}}
+90	{{K|[{{y|オフ}}]}}
+91	=collapsed.collapsed= =category=
+92	=key=) =ability.name= [無効]
+93	=key=) =ability.name= [{{W|攻撃}}]
+94	=key=) =ability.name= [攻撃] [無効]
+95	=key=) =ability.name= [アストラル拘束中]
+96	=key=) =ability.name= [攻撃] [アストラル拘束中]
+97	{{K|=key=}}) =ability.name= [クールダウン残り{{C|=ability.cooldown=}}ラウンド]
+98	検索テキスト:
+99	並び順を選択
+100	{{y|種別:}} =ability.class=
+101	検索: =searchtext|color:w=
+102	並び順: =modes.textSelector:w#selected=
+103	「=searchtext=」に一致するアビリティはない。
+104	=bindingKey=は既にシステムメニューに割り当てられている。
+105	{{C|クールダウン残りラウンド:}} =ability.cooldown=
+106	=bindingKey=は既にアビリティ選択に割り当てられている。
+107	=ability.name|color:w=に割り当てるキーを押してください
+108	=ability.name=のキー割り当てを解除しますか？
+110	解除日時 =time.fullDate=
+111	未解除の隠し実績が残り=num=個
+112	乗り物
+113	搭載システム
+114	アクティブアビリティ{{Y|=abilityName=}}を習得した。
+115	（=commandKey:CmdAbilities=でアクティブアビリティを使用）
+116	{{C|=ability.name=}}は今は使えない。
+117	{{C|=ability.name=}}を使うには{{C|=ability.cooldown.rounds=}}待つ必要がある。
+118	使用中
+119	給電中
+120	装備中
+121	使用者
+122	着用者
+123	所持者
+124	携行者
+125	中身
+126	周囲
+127	隣接する周囲
+128	すぐそば
+129	=subject.reflexive=
+130	=overallItems.orList=
+131	=subject.its=作動範囲
+132	=existing= =statusSummary|addParens=
+133	=subject.its==relationalItems.orList=
+134	=subject.them=の中に閉じ込められた者
+138	{{W|EMP}}
+143	{{K|燃料切れ}}
+144	{{K|燃料切れ}}
+146	{{b|起動中}}
+148	{{K|電源オフ}}
+149	{{K|電源オフ}}
+151	{{r|故障}}
+152	{{r|故障}}
+155	{{b|まだ起動中}}
+156	{{g|燃料汚染}}
+157	{{g|燃料汚染で停止}}
+158	{{W|電磁パルスで停止}}
+159	現在の装備セットに部位を追加
+160	=mutation.Name=
+161	=mutationName=を付与する。
+162	ランク=tier=の=mutationName=を付与する。
+163	すべての勢力
+164	=reputationDetails= =statusSummary|addParens=
+165	=affected=の評判 =reputation.signed=
+166	=affected=の評判 =reputation.signed.color=
+167	スルタン朝の時代に存在したすべての勢力
+168	起動時: =reputationDetails= =statusSummary|addParens=
+169	すべての従者に=details.andList=
+170	自分とすべての従者に=details.andList=
+171	半径=radius=以内のすべての従者に=details.andList=
+172	半径=radius=以内の自分とすべての従者に=details.andList=
+173	この武器は貫通ボーナスに犠牲者の=stat.name=修正値を用いる。
+174	=subject.shortname:withTitles=
+175	=count.a.or.cardinal.names:withTitles#item=
+176	アゴルゴットの揺籃
+177	=subject.T=は=object.the.name=との接続を開始した。
+178	悪い状態異常1つにつき=statistics[Speed].adjust#speedBonus=
+179	=subject.T=は=object.a.name=の埃を払った。
+180	=subject.T=は=object.the.name=を無視した。
+181	=subject.T=は=subject.to.the.direction:noHere=へ向けてアジのほら貝を吹いた。
+182	{{Y|アストラル摩擦を受けている}}
+183	(=penetration=/=damage=)
+184	=subject.T=には四肢がない。
+185	=subject.T=はそれを許さない。
+186	=limb.ordinalName==limb.equipped.name|wrap: (:)=
+187	=subject.T=には切断できる四肢がない。
+188	そこには四肢を切断できる相手がいない。
+189	敵が近くにいる状態で野戦切断はできない！
+190	=object.the.name's:withTitles=四肢は切断できない。
+191	自分の=limb.ordinalName=を切断する踏ん切りがつかない。
+192	=object.the.name=に手が届かず、四肢を切断できない。
+193	墓に繋ぎ止められた！
+194	生命付与
+195	=subject.T=は反応しない。
+196	=object.the.name=に生命を吹き込んだ。
+197	=object.a.name=に生命を吹き込んだ。なぜ？
+198	アークを開く
+199	=arm.name|pluralize=を=count=本付与する
+200	=hand.pluralize=付きの=arm.name|pluralize=を=count=本付与する

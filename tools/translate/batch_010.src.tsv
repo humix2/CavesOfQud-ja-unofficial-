@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	KeybindsScreen HandleMenuOption RemoveBind Confirm	Are you sure you want to clear the binding for =description|color:C=?
+2	Strings.example.xml	Kindle On MessageLog	=subject.A.name= appears =subject.to.the.direction=.
+3	Strings.example.xml	KindrishProperties AnnounceAward	You receive =object.a.name=.
+4	Strings.example.xml	Kith and Kin, Imporant NPC died popup	The death of =subject.the.name= means that the investigation can go no further.
+5	Strings.example.xml	KithAndKinGameState MotiveEvidence Esk LookText 1	Eskhind is favoring a leg.
+6	Strings.example.xml	KithAndKinGameState ItemClueReveal 5	Now that's a huge footprint.  
+7	Strings.example.xml	KithAndKinGameState MotiveEvidence Keh ItemClueReveal 0	Hmm. This injector has been used. 
+8	Strings.example.xml	KithAndKinGameState MotiveEvidence Keh ItemClueReveal 1	Why, this arrow is covered with blood!  
+9	Strings.example.xml	KithAndKinGameState ItemClueReveal 10	Someone has left a small hammer on the path.  
+10	Strings.example.xml	KithAndKinGameState ItemClueReveal 3	Hmm, this waterskin is still sealed with wax.  
+11	Strings.example.xml	KithAndKinGameState ItemClueReveal 6	Oh gross, there's a rotten tongue on the ground!  
+12	Strings.example.xml	KithAndKinGameState ItemClueReveal 1	How odd, this watervine is stained red with blood.  
+13	Strings.example.xml	KithAndKinGameState ItemClueReveal 7	How odd, some discarded chaff from a yuckwheat plant.  
+14	Strings.example.xml	KithAndKinGameState ItemClueReveal 0	Is that a patch of hindren fur? There's blood on it...  
+15	Strings.example.xml	KithAndKinGameState ItemClueReveal 8	How odd, someone dropped some scraps of cut leather here.  
+16	Strings.example.xml	KithAndKinGameState MotiveEvidence Kese LookText 1	Kesehind's armor has bloodstains that he failed to remove. 
+17	Strings.example.xml	KithAndKinGameState MotiveEvidence Kendren ItemClueReveal 0	This set of leatherworking tools is shockingly well-made.  
+18	Strings.example.xml	KithAndKinGameState ItemClueReveal 4	How odd, there's a copper nugget just lying on the ground.  
+19	Strings.example.xml	KithAndKinGameState ItemClueReveal 9	This leather bracer has seen some use. Why is it out here?  
+20	Strings.example.xml	KithAndKinGameState ItemClueReveal 2	How odd, the broken haft of a weapon, a sign of recent violence.  
+21	Strings.example.xml	KithAndKinGameState MotiveEvidence Kese ItemClueReveal 0	That's strange. This bracer is heavily worn, but surprisingly clean.  
+22	Strings.example.xml	KlanxGoals PaxKlanqMadness ParticleText	KLANQ!
+23	Strings.example.xml	KlanxGoals PaxKlanqMadness TakeAction Style2 shout	=subject.Does:shout|strip= {{O|KLANQ}}!
+24	Strings.example.xml	KlanxGoals PaxKlanqMadness TakeAction	=subject.Does:toss= =object.a.name= aside.
+25	Strings.example.xml	lair noun	lair
+26	Strings.example.xml	LatchesOn Movement Failure	=subject.Does:stand= =subject.its= ground!
+27	Strings.example.xml	LatchesOn WeaponHit Grab	=subject.Does:latch= onto =object.the.name=!
+28	Strings.example.xml	LeaksFluid TellLeakAmount	=subject.Does#verb= =liquid.drams.of.liquid#volume=.
+29	Strings.example.xml	LeakWhenBroken AnnounceLeakAmount	=subject.Does:leak= =volume.drams.of.liquid:noRules=.
+30	Strings.example.xml	LevelGain	=subject.Does:gain= a level!
+31	Strings.example.xml	LifeDrain Fail Invalid Target or Self	You cannot syphon vim from =object.the.name=.
+32	Strings.example.xml	LightManip Lase Fail too weak	Your capacity is too weak.
+33	Strings.example.xml	LightManip Lase ActivatedAbility Button	Lase (=radius.things:charge=)
+34	Strings.example.xml	LightManip Lase Fail refracted	=subject.Does#verb= the laser beam!
+35	Strings.example.xml	line expander (expanded)	[-]
+36	Strings.example.xml	line expander (collapsed)	[+]
+37	Strings.example.xml	Lionheart particle text	*shook off fear*
+38	Strings.example.xml	Liquid Stained - stain type for cleaning message	stains
+39	Strings.example.xml	Liquid Volume - Base name replace, less than wading depth	puddle
+40	Strings.example.xml	Liquid Volume - Cleaning liquids default	liquid
+41	Strings.example.xml	Liquid Covered - stains name	liquids
+42	Strings.example.xml	Liquid Volume - Description clause (sealed, with preposition, hide liquid, no amount, show seal)	{{c|sealed}}
+43	Strings.example.xml	Liquid Volume - Cleaning liquids	=names.orList=
+44	Strings.example.xml	Liquid Volume - pour menu option	Pour it nearby.
+45	Strings.example.xml	Liquid Volume - Description Tag (empty)	{{y|[{{K|empty}}]}}
+46	Strings.example.xml	Liquid Volume - Description Tag (sealed)	{{y|[{{c|sealed}}]}}
+47	Strings.example.xml	Liquid Volume - Description tag (sealed, hide liquid, hide amount, show seal)	{{y|[{{c|sealed}}]}}
+48	Strings.example.xml	Liquid Volume - empty error	=object.Does:are= empty.
+49	Strings.example.xml	Liquid Volume - sealed error	=object.Does:are= sealed.
+50	Strings.example.xml	Liquid Volume - Description tag (unsealed, hide amount)	{{y|[=volume.liquid.name=]}}
+51	Strings.example.xml	Liquid Volume - Description tag (sealed, visible liquid, hide amount, hide seal)	{{y|[=volume.liquid.name=]}}
+52	Strings.example.xml	Liquid Volume - has no drain error	=object.Does:have= no drain.
+53	Strings.example.xml	Liquid Volume - pour menu option (on yourself)	Pour it on =subject.itself=.
+54	Strings.example.xml	Liquid Volume - container to fill menu title	[Select a container to fill]
+55	Strings.example.xml	Liquid Volume - Auto collecting description tag (liquid matches)	{{y|[{{c|auto-collecting}}]}}
+56	Strings.example.xml	Liquid Volume - drinking message, update on stomach	You are now =updates.andList=.
+57	Strings.example.xml	Liquid Volume - pour menu option	Pour it into another container.
+58	Strings.example.xml	Liquid Volume - no containers to fill	You have no containers to fill.
+59	Strings.example.xml	Liquid Volume - Description Tag (empty, sealed)	{{y|[{{K|empty, {{c|sealed}}}}]}}
+60	Strings.example.xml	Liquid Volume - Description clause (unsealed, with preposition, no amount)	=preposition= =volume.liquid.name=
+61	Strings.example.xml	Liquid Volume - Description clause (sealed, with preposition, show liquid, no amount, hide seal)	=preposition= =volume.liquid.name=
+62	Strings.example.xml	Liquid Volume - seal message	=subject.Does:seal= =object.the.name=.
+63	Strings.example.xml	Liquid Volume - Description tag (unsealed, show amount)	{{y|[=volume.drams.of.liquid#forSort=]}}
+64	Strings.example.xml	Liquid Volume - Description tag (sealed, show amount, hide seal)	{{y|[=volume.drams.of.liquid#forSort=]}}
+65	Strings.example.xml	Liquid Volume - unseal message	=subject.Does:unseal= =object.the.name=.
+66	Strings.example.xml	Liquid Volume - Cleaning message, cleaned item	=object.a.name:asPossessed:secondPerson=
+67	Strings.example.xml	Liquid Volume - Stain with liquid	=volume.liquid.stain.name#primary=-stained
+68	Strings.example.xml	Liquid Volume - Description tag (sealed, visible liquid, hide amount, show seal)	{{y|[=volume.liquid.name=, {{c|sealed}}]}}
+69	Strings.example.xml	Liquid Volume - Collect error	You have nowhere available to collect that.
+70	Strings.example.xml	Liquid Volume - Get compound name	=adjectives.join: |spaceAfter==primaryNoun=
+71	Strings.example.xml	Liquid Volume - Auto collecting description tag (nocolor)	[auto-collecting =volume.liquid.name|strip=]
+72	Strings.example.xml	Liquid Volume - Cooking effects description appendix	Adds =types.orList= effects to cooked meals.
+73	Strings.example.xml	Liquid Volume - pour menu title	Where do you want to pour =object.the.name=?
+74	Strings.example.xml	Liquid Volume - ask empty target container	Do you want to empty =object.the.name= first?
+75	Strings.example.xml	Liquid Volume - pour popup dialog title	How many drams? (max=equals==pourableVolume=)
+76	Strings.example.xml	Liquid Volume - pour but empty error	There's nothing in =object.the.name= to pour.
+77	Strings.example.xml	Liquid Volume - Description clause (unsealed, with preposition, amount)	=preposition= =volume.drams.of.liquid#forSort=
+78	Strings.example.xml	Liquid Volume - Description clause (sealed, with preposition, amount, hide seal)	=preposition= =volume.drams.of.liquid#forSort=
+79	Strings.example.xml	Liquid Volume - Description clause (sealed, with preposition, show liquid, no amount, show seal)	=preposition= =volume.liquid.name=, {{c|sealed}}
+80	Strings.example.xml	Liquid Volume - Auto collecting description tag	{{y|[{{c|auto-collecting =volume.liquid.name=}}]}}
+81	Strings.example.xml	Liquid Volume - Warn drain	Are you sure you want to drain =subject.the.name=?
+82	Strings.example.xml	Liquid Volume - pour error	You can't pour from a container into =object.itself=.
+83	Strings.example.xml	Liquid Volume - can't pour on itself error	You can't pour from a container into =object.itself=.
+84	Strings.example.xml	Liquid Volume - Description tag (sealed, show amount, show seal)	{{y|[=volume.drams.of.liquid#forSort=, {{c|sealed}}]}}
+85	Strings.example.xml	Liquid Volume - drams of liquid template (no rules)	=amount= =amount.pluralize:dram= of =container.liquid.name=
+86	Strings.example.xml	Liquid Volume - Description clause (sealed, with preposition, amount, show seal)	=preposition= =volume.drams.of.liquid#forSort=, {{c|sealed}}
+87	Strings.example.xml	Liquid Volume - drink failure message	You cannot seem to interact with =object.the.name= in any way.
+88	Strings.example.xml	Liquid Volume - statis error	You cannot seem to interact with =object.the.name= in any way.
+89	Strings.example.xml	Liquid Volume - drams of liquid template (for sorting)	=amount:D6= =amount.pluralize:dram= of =container.liquid.name=
+90	Strings.example.xml	Liquid Volume - drams of liquid template	=amount|rules= =amount.pluralize:dram= of =container.liquid.name=
+91	Strings.example.xml	Liquid Volume - clean message no known source	=subject.Does:clean= the =messTerms.andList= from =items.andList=.
+92	Strings.example.xml	Liquid Volume - pour on self message	=amount.things:dram= of =volume.liquid.name= pours out all over you!
+93	Strings.example.xml	Liquid Volume - poured out message	=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out.
+94	Strings.example.xml	Liquid Glitching - Glitch Skills	=subject.The.name's= mind starts to fluctuate in and out of coherence.
+95	Strings.example.xml	LiquidAmmoLoader ImpureLiquid NoColor	[?]
+96	Strings.example.xml	LiquidAmmoLoader NameForStatus TechScanning	LiquidProjector
+97	Strings.example.xml	LiquidAmmoLoader ImpureLiquid Color	[{{=color=|?}}]
+98	Strings.example.xml	LiquidAmmoLoader OutOfLiquid Color	[{{=color=|empty}}]
+99	Strings.example.xml	LiquidAmmoLoader GetStatusMessage Empty	=subject.Does:are= empty.
+100	Strings.example.xml	LiquidAmmoLoader PureLiquid	[=amount|color#amountColor=]
+101	Strings.example.xml	LiquidAmmoLoader GetStatusMessage	=subject.Does:are= =statusphrase=.
+102	Strings.example.xml	LiquidAmmoLoader Reload NoLiquidAvailable	You have no =liquid.name= for =object.the.name=.
+103	Strings.example.xml	LiquidAmmoLoader GetStatusMessage WrongLiquid	=subject.Does:are= not loaded with the correct liquid.
+104	Strings.example.xml	LiquidAmmoLoader Reload AlreadyFull	=subject.Does:are= already full of =volume.liquid.name=.
+105	Strings.example.xml	LiquidAmmoLoader SupplyHostWithLiquid NoRoom	=subject.Does:have= no room for more =liquid.name|strip=.
+106	Strings.example.xml	LiquidAmmoLoader Reload DumpWrongLiquidFirst	You dump the =volume.liquid.name= out of =object.the.name=.
+107	Strings.example.xml	LiquidAmmoLoader SupplyHostWithLiquid NoLiquid	You have no =liquid.name|strip= to supply =object.the.name= with.
+108	Strings.example.xml	LiquidAmmoLoader Reload Success	You =partial.if:partially= fill =object.the.name= with =volume.liquid.name=.
+109	Strings.example.xml	LiquidVolume Collect - =snapshotLiquidName= - before collection	=volume.liquid.name=
+110	Strings.example.xml	LiquidVolume - Cleaning failure	You cannot do that for some reason.
+111	Strings.example.xml	LiquidVolume - autocollect failure	Auto collection only works on unsealed containers with pure liquids.
+112	Strings.example.xml	LocationFinder Discovery Popup	You discover =locName=!
+113	Strings.example.xml	LocationFinder ForgottenRuins =locName=	=location.text|initLower=
+114	Strings.example.xml	LocationFinder Lair =locName=	=location.text|initLower=
+115	Strings.example.xml	LocationFinder Discovery Text	You discovered =locName=.
+116	Strings.example.xml	LocationFinder Travel Popup	You traveled to =locName=!
+117	Strings.example.xml	LocationFinder Travel Popup	You traveled to =locName=.
+118	Strings.example.xml	LocationFinder Settlement =locName=	=location.text|initLowerIfArticle=
+119	Strings.example.xml	LocationFinder Location =locName=	=location.text|titleCaseWithArticle=
+120	Strings.example.xml	LongBlades Weapon Critical Description	Long Blades (increased penetration on critical hit)
+121	Strings.example.xml	Look ShowLooker Look1	Look |
+122	Strings.example.xml	Look Window Recall Story Button	Recall {{W|S}}tory
+123	Strings.example.xml	Look ShowLooker Walk	| =commandKey:CmdWalk= Walk
+124	Strings.example.xml	Look ShowLooker ShowNavWeight(Debug)	| {{hotkey|n}} Show NavWeight
+125	Strings.example.xml	Look ShowLooker Interact	| =commandKey:Accept= Interact
+126	Strings.example.xml	Look ShowLooker LookNum	Look [{{C|=num=}}/{{C|=count=}}] |
+127	Strings.example.xml	Look ShowLooker ConsoleUI MoreScrollUp	<MORE - use {{W|PgUp}} to scroll up>
+128	Strings.example.xml	Look ShowLooker ConsoleUI MoreScrollDown	<MORE - use {{W|PgDown}} to scroll down>
+129	Strings.example.xml	Look ShowLooker Lock	=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|L}}ock
+130	Strings.example.xml	Look ShowLooker Unlock	=commandKey:Cancel= | (=commandKey:CmdLockUnlock=) {{W|U}}nlock
+131	Strings.example.xml	Look ShowLooker ChangeSelection	| =commandKey:V Positive=/=commandKey:V Negative= Change Selection
+132	Strings.example.xml	LookerPointsOfInterest prompt text	=commandKey:CmdLook= points of interest
+133	Strings.example.xml	Lovesick Effect Accomplishment	Your heart sang at the sight of =object.a.name=.
+134	Strings.example.xml	Lovesick message log	=subject.Does:fall= in love with =object.the.name=!
+135	Strings.example.xml	LuminousInfection Sprout message	You sprout a {{C|luminous hoarshroom}}.
+136	Strings.example.xml	MagazineAmmoLoader GetMissileWeaponStatusEvent NoAmmo	[{{K|empty}}]
+137	Strings.example.xml	MagazineAmmoLoader DisplayName Tag NoAmmo	[{{K|empty}}]
+138	Strings.example.xml	MagazineAmmoLoader NameForStatus TechScanning	FiringMechanism
+139	Strings.example.xml	MagazineAmmoLoader DisplayName Tag WithAmmo	[=object.name=]
+140	Strings.example.xml	MagazineAmmoLoader CheckLoadAmmoEvent Jammed	=subject.Does:are= jammed!
+141	Strings.example.xml	MagazineAmmoLoader LoadAmmoEvent Jammed	=subject.Does:are= jammed!
+142	Strings.example.xml	MagazineAmmoLoader GetMissileWeaponStatusEvent AmmoAmount	[=amount|color#amountColor=]
+143	Strings.example.xml	MagazineAmmoLoader CheckLoadAmmoEvent NoMoreAmmo	=subject.Does:have= no more ammo!
+144	Strings.example.xml	MagazineAmmoLoader LoadAmmoEvent NoMoreAmmo	=subject.Does:have= no more ammo!
+145	Strings.example.xml	MagazineAmmoLoader ReloadEvent AlreadyFull	=subject.Does:are= already fully loaded.
+146	Strings.example.xml	MagazineAmmoLoader ReloadEvent NoMoreAmmo	You have no more ammo for =object.the.name=.
+147	Strings.example.xml	MagazineAmmoLoader Load Success	You reload =object.the.name= with =ammo.a.or.stack.name=.
+148	Strings.example.xml	MagazineAmmoLoader SupplyWithAmmo Success (ProperName Ammo)	=subject.Does:transfer= =ammo.name:single= to =host.aForNPCSubject.name=.
+149	Strings.example.xml	MagazineAmmoLoader SupplyWithAmmo AskNumber	Supply =host.the.name= with how many =ammo.pluralName=? (max=equals==amount=)
+150	Strings.example.xml	MainMenu Main	Mods
+151	Strings.example.xml	MainMenu Language Select Popup	Select Language
+152	Strings.example.xml	MainMenu Language	Language (=currentLanguage=)
+153	Strings.example.xml	MakeAndList NoSerialComma Separator	 
+154	Strings.example.xml	MakeAndList Default Separator	, 
+155	Strings.example.xml	MakeAndList Alternate Separator	; 
+156	Strings.example.xml	MakeAndList Final And	and
+157	Strings.example.xml	MakeAndList Default two-word join	 and 
+158	Strings.example.xml	MakeCommaList Default Separator	, 
+159	Strings.example.xml	MakeCommaList Alternate Separator	; 
+160	Strings.example.xml	MakeFussOnTaken MakeFuss Popup	You have =action= =object.the.name=!
+161	Strings.example.xml	MakeOrList NoSerialComma Separator	 
+162	Strings.example.xml	MakeOrList Default Separator	, 
+163	Strings.example.xml	MakeOrList Alternate Separator	; 
+164	Strings.example.xml	MakeOrList Final Or	or
+165	Strings.example.xml	MakeOrList Default two-word join	 or 
+166	Strings.example.xml	MakersMark - Get Crafter Name	=subject.refname:MakersMark:long:withTitles|strip=
+167	Strings.example.xml	MakersMark: Unknown CrafterName	a crafter
+168	Strings.example.xml	Manage Equipment Set Header	{{P|Manage =set=}}
+169	Strings.example.xml	MapReveal Success Message	=subject.itis= a map of your surroundings!
+170	Strings.example.xml	MarkOfDeathSecret	The lost Mark of Death from the late sultanate was =MarkOfDeath=.
+171	Strings.example.xml	MarkovBook Accomplishment text	You read =title=.
+172	Strings.example.xml	MarkovBook Decorate Title - (Unabridged)	=title=: Unabridged
+173	Strings.example.xml	MarkovBook Decorate Title - (Volume #Roman)	=title=, Vol. =volume.roman=
+174	Strings.example.xml	MarkovBook Long Book, Prefix Editor's Note	{{C|Editor's note:}} =note=\n\n
+175	Strings.example.xml	MarkovBook Long Book, Prefix Author's Note	{{C|Author's note:}} =note=\n\n
+176	Strings.example.xml	MarkovBook Decorate Title - (n'th edition)	=title=, =edition.ordinal.digits= Edition
+177	Strings.example.xml	MarkovBook Popup Legible Excerpt	You read one of the few legible excerpts from =title|color:Y=:\n\n"=sentence="
+178	Strings.example.xml	MarkovBook Accomplishment mural text	In the month of =month= of =year=, =name= penned the influential book, =title=.
+179	Strings.example.xml	MassMind Passive Exhaust	{{R|Someone reaches through the aggregate mind and exhausts your power!}}
+180	Strings.example.xml	MatterPhase	gas
+181	Strings.example.xml	MatterPhase	solid
+182	Strings.example.xml	MatterPhase	liquid
+183	Strings.example.xml	MechanicalWings FlightSourceDescription	Mechanical Wings
+184	Strings.example.xml	MechanicalWings TryStartupFail BootupNonObvious	=subject.The.name= =subject.is= unresponsive.
+185	Strings.example.xml	MechanicalWings TryStartupFail Bootup	=subject.The.name= =subject.is= still starting up.
+186	Strings.example.xml	MeleeWeapon Simplified Last Part	 =glyph:Damage==damage=
+187	Strings.example.xml	MeleeWeapon DetailedStats Critical	Weapon Class: =critDesc=
+188	Strings.example.xml	MeleeWeapon OffhandChance Primary	Attack Chance: =chance=%
+189	Strings.example.xml	MeleeWeapon Simplified	=glyph:PV==prefixNumber=
+190	Strings.example.xml	MeleeWeapon Description Detailed	{{rules|=detailedStats=}}
+191	Strings.example.xml	MeleeWeapon DetailedStats With Max	=stat.Name= Bonus Cap: =max=
+192	Strings.example.xml	MeleeWeapon DetailedStats No Limit	=stat.Name= Bonus Cap: no limit
+193	Strings.example.xml	MeleeWeapon OffhandChance Offhand	Offhand Attack Chance: =chance=%
+194	Strings.example.xml	MeleeWeapon Simplified	=glyph:PV==prefixNumber={{K|/=penetration=}}
+195	Strings.example.xml	MeleeWeapon Description With Ego, Detailed	{{rules|=ego.signed= Ego}}\n{{rules|=detailedStats=}}
+196	Strings.example.xml	MeleeWeapon Simplified Adaptive Penetration	=glyph:PV==glyph.strip:Vibro==penBonus.signed|when#nonZero=
+197	Strings.example.xml	MeleeWeapon Description With HitBonus, Detailed	{{rules|=hitBonus.signed= To-Hit}}\n{{rules|=detailedStats=}}
+198	Strings.example.xml	MentalMirror Shatter Message	=subject.The.name's:withTitles= mental mirror shatters!
+199	Strings.example.xml	MentalMirror Reflect Message	=subject.The.name's:withTitles= mental mirror reflects the attack!
+200	Strings.example.xml	MerchantRevealer bookText	=spice:advertisements.merchants.!random=

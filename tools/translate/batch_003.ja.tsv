@@ -1,0 +1,194 @@
+1	お気に入りレシピから外す
+2	使う食材を選んでください。
+3	使う食材を選んでください。
+4	使う食材を選んでください。
+5	\n{{y|[残り最大=n=]}}
+6	=sample.displayNameOnlyDirect=
+7	=subject.T=は電源が切れている。
+8	=subject.cookingIngredientName=
+9	保存したもの:\n\n=preserveItem=。
+10	=cookingRecipe.name.recolor:Y=を食べる
+11	=spice:cooking.ingredient.!random=
+12	保存したもの:\n\n=items.join:.\n=。
+13	=ingredient.a.cookingIngredientName=
+14	=spice:cooking.cookTemplate.!random=
+15	レシピ名を「=newname=」に変更した。
+16	=subject.T=はまず吊るす必要がある。
+17	=subject.T=は動いていないようだ。
+18	レシピ名を「=originalname=」に戻した。
+19	あなたも=object.the.name=も病気ではない。
+20	=object.the.name=の傷の出血を止めた。
+21	=subject.T=は=object.the.name=を消した。
+22	=object.name's=傷は深すぎて治療できない。
+23	{{|=recipe.name=}}の新しいレシピを編み出した！
+24	{{|=recipe.name=}}の新しいレシピを編み出した！
+25	あなたも=object.the.name=も出血していない。
+26	あなたも=object.the.name=も毒に冒されていない。
+27	=selected.checkbox.color=  =name= {{K|x=count=}}
+28	{{W|炎のぬくもりが骨身に染みわたる。}}
+29	他人が作ったレシピの名前は変えられない。
+30	このレシピをお気に入りに追加しますか？
+31	=subject.T=は動かすのに十分なチャージがない。
+32	=subject.T=は=object.the.name=によって消された。
+33	材料不足で隠れているレシピ=countMissing=件を表示
+34	{{K|< 材料不足で=countMissing=件非表示 >}}
+35	ジューシーな肉をむさぼった。いつもより美味しい。
+36	{{|=recipe.name=}}という垂涎の料理を考案した！
+37	=object.T=は既に霊薬で免疫が高まっている。
+38	{{W|選んだ{{=color=|=n=}}種類の食材で料理する。}}=remaining=
+39	新しいレシピ名を入力してください。空欄にすると元の名前に戻ります。
+40	=object.name's=病気を治そうとしたが、効果がなかった。
+41	=cure.a.name:single=から作った軟膏で=object.name's=病気を治した。
+42	あなたも=object.the.name=も病気の兆候はない。
+43	=object.name's=病気を治療できる薬効のある食材を持っていない。
+44	=cure.a.name:single=から作った軟膏で=object.name's=免疫を高めた。
+45	=object.the.name=の傷の出血を止めたが、深すぎて処置できない傷もある。
+46	=list.andList=を冒す毒は強すぎて、あなたの霊薬では治せない。
+47	=object.name's=病気の兆候を治そうとしたが、効果がなかった。
+48	=subject.T=は=object.the.name=に火をつけた。
+49	=object.the.name=は=pool.the.name=の中にあるので火をつけられない。
+51	=carapace.name=を締める
+52	=subject.T=は=carapace.name=を締めた。
+53	=subject.The.name's==carapace.name=が緩んだ。
+54	=subject.T=は=carapace.name=を締められなかった。
+55	=carapace.name=を締めた。AVが{{G|=tightFactor=}}上昇した。
+56	垂涎の料理を作りたいという閃きが湧き上がった。
+57	積載量 =bonus.signed=%
+58	積載量 =bonus.signed=ポンド
+61	{{=color=|[=value.signed=]}}
+62	{{y|=mutation.name:withAnnotations=}}
+63	{{y|=mutation.name:withAnnotations= ({{=levelcolor=|=mutation.level=}})}}
+64	=term|title=
+65	=term|upper=
+66	主要能力値
+67	=mutation.details=
+68	MP: {{=color=|=mp=}}
+69	{{G|ランク =level=/10}}
+70	{{r|[精神欠陥]}}
+71	=term|pluralize|title=
+72	{{R|[肉体欠陥]}}
+73	=mutation.details:short=
+74	=subject.MutationTerm=を購入
+75	能力値ポイント: {{=color=|=ap=}}
+76	基本の=statName=は=statValue=。
+77	{{c|[精神=subject.MutationTerm=]}}
+78	{{c|[肉体=subject.MutationTerm=]}}
+79	=subject.genotype.name= =subject.subtype.name=
+80	=subject.mutationTerm|initUpper=ポイント: {{=color=|=mp=}}
+81	レベル: =level= » HP: =hp=/=hpfull= » XP: =xp=/=xpnextlevel= » 重量: =weight=#
+82	次へ
+83	サブタイプ
+84	クイックスタート
+85	指定なし
+86	ワールドシード:
+87	[=modifier=]
+88	:=subtypetitle=:
+89	[=apToRaise=pt]
+90	ワールドシードを入力:
+91	[デバッグ] クイックスタート
+92	{{W|ワールドを生成中}}
+93	=selected.numberbox=
+94	=stat.title=: =value=
+95	残りポイント: =ap=
+96	ゲームモードが選択されていない。
+97	残りポイント: =mp=
+98	無効な選択です
+99	{{W|キャラクター作成}}
+100	ビルドの管理: =buildname=
+101	=selected.checkbox.basic=
+102	=selected.checkbox.basic=
+103	=source=から=bonus.signed=
+104	=glyph:ChargenBullet= =info=
+105	=mutation= =count.x.multiple=
+106	=warnings=\n\nこのまま続けますか？
+107	=box==nodecost.numberbox.color=
+108	=blueprint.displayName=（=slot=）
+109	ボタン一つで新しいゲームを始める。
+110	{{important|=genotype=}}の遺伝子型
+111	=subtypeSingularTitle|capitalize=
+112	未使用の能力値ポイントがある。
+113	=glyph:ChargenBullet= =skill.name=
+114	{{C|ライセンス階位 -2\n頑健 +1}}
+115	=glyph:ChargenBullet= =builderInfo=
+116	  =glyph:ChargenBullet= =power.name=
+117	{{important|=subtype=}}の=singularname=
+118	=glyph:ChargenBullet= =saveDescription=
+119	能力値ポイントを使いすぎている！
+120	=glyph:ChargenBullet= =power.disambiguated=
+121	=glyph:ChargenBullet= =stat.statDisplayName=の最小値 =min=
+122	=glyph:ChargenBullet= =stat.statDisplayName=の最大値 =max=
+123	=glyph:ChargenBullet= =stat.statDisplayName= =bonus.signed=
+124	そのコードは既にライブラリにある。名前は=buildname=。
+125	=displayName= [=commandKey:CmdChargenMutationVariant|color:W=]
+126	=note.text|initLowerIfArticle=を発見した！
+127	鳴り響く岩に触れた。遠くの風に乗ってホワイトノイズが運ばれてくる。
+128	[■]
+129	[ ]
+130	{{y|[ ]}}
+131	{{y|[{{G|■}}]}}
+134	反
+135	装備を選択
+136	マップ全体
+137	=subject.T=は別の空間を覗き込んだ。
+138	精神アーマー
+139	=subject.T=は=object.the.name's:withTitles==cleaveTarget=を切り裂いた。
+140	アーマーを切り裂く
+141	クリティカル時にアーマーを切り裂く
+142	=chance=%の確率でアーマーを切り裂く
+143	クリティカル時に精神アーマーを切り裂く
+144	クリティカル時に=chance=%の確率でアーマーを切り裂く
+145	クリティカル時に=chance=%の確率で精神アーマーを切り裂く
+146	=subject.T=は不安定化した。
+147	=month=の=day=、あなたは増殖した。
+148	=subject.refname:withIndefiniteArticle=のクローン
+149	=subject.A.name=が=object.the.name=から離れた！
+151	村を出るとゲームが終了する。\n\n確認のため=prompt=と入力してください。
+152	=subject.T=の攻撃は外れた！
+153	{{r|攻撃は外れた！}} [=hitResult= vs. =dv=]
+154	=subject.T=の攻撃は外れた！ [=hitResult= vs. =dv=]
+155	=subject.T=の=subject.its.item#weapon=による攻撃は外れた！ [=hitResult= vs. =dv=]
+156	{{r|=subject.T=の=subject.its.item#weapon=による攻撃は外れた！}} [=hitResult= vs. =dv=]
+157	割り当て
+158	割り当て解除
+159	キーの割り当てを解除
+160	魅了できる従者が=amount.cardinal=人減る。
+161	改宗させられる従者が=amount.cardinal=人減る。
+162	魅了できる従者が=amount.cardinal=人増える。
+163	改宗させられる従者が=amount.cardinal=人増える。
+164	ローカル格子の演算能力が、このアイテムの効果を高める。
+165	ローカル格子の演算能力が、このアイテムの効果を下げる。
+166	=displayName=スキル
+167	=subject.T=は混乱した！
+168	=subject.T=はあなたの言うことを理解していないようだ。
+169	=subject.The.name's:withTitles=心は混乱している。
+170	=subject.T=は混乱に抵抗した。
+171	あなたの攻撃は=object.the.name=に効かない。
+172	{{G|完了！}}
+173	 {{W|$=freeDrams=}}
+174	 {{C|=total:0.???=}}ドラム
+175	{{entropic|グリッチ中}}
+176	=object.the.name=とは取引できない。
+177	=object.a.name|strip=を=isIn.if:開いている:調べている=
+178	=preposition=には何もない。アイテムを収納しますか？
+179	{{C|=xp=}} XPを獲得した。
+180	{{K|[終了]}}
+181	=GlotrotWord=。
+182	{{W|[ゴーレムを作る]}}
+183	{{g|[取引を始める]}}
+184	{{g|[アーティファクトを渡す]}}
+185	{{M|[小さな勝利]}}
+186	{{g|[レシェフの生涯の秘密を分かち合う]}}
+187	=faction.the.name=からの評判が足りない。
+188	=sanctuary|capitalize=がスリンスの避難先の候補になった。
+189	=subject.T=は=xp|rules= XPを獲得した！
+190	[=pronounExchange=]\n\n
+191	=subject.T=は何も話すことがない。
+192	=subject.the.name=からは何も感じ取れない。
+193	=subject.the.name=からは敵意しか感じない。
+194	=subject.the.name=はまったく反応しない。
+195	=subject.the.name=と心を通わせられないようだ
+196	=subject.The.name=はあなたと話すのを拒んだ。
+197	=subject.the.name=に=isNew.if:新しい:=代名詞を伝えた。
+198	=subject.the.name=と会話を始められないようだ。
+199	=subject.the.name=が何を言っているのか分からない。
+200	{{W|[=sanctuary=を避難先の候補として確定する]}}

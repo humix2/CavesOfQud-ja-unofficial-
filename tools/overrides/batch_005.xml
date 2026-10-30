@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Core GameEnd Chronology Header" ID="=decor= Chronology for {{W|=player.name=}} =decor=">=decor= {{W|=player.name=}}の年代記 =decor=</string>
+  <string Context="Core Cannot Flee" ID="You can't find a way to flee from =object.the.name=.">=object.the.name=から逃げる方法が見つからない。</string>
+  <string Context="Core MarkOfDeathReveal" ID="You recover the Mark of Death of the late sultanate.">亡きスルタン朝の死の刻印を取り戻した。</string>
+  <string Context="Core GameEnd Summary Title" ID="=decor= Game summary for {{W|=player.name=}} =decor=">=decor= {{W|=player.name=}}のゲーム概要 =decor=</string>
+  <string Context="Core GameEnd Turns" ID="You survived for {{C|=turns=}} =turns.pluralize:turn=.">{{C|=turns=}}ターン生き延びた。</string>
+  <string Context="Core GameEnd FinalMessages Header" ID="=decor= Final Messages for {{W|=player.name=}} =decor=">=decor= {{W|=player.name=}}の最期のメッセージ =decor=</string>
+  <string Context="Core GameEnd Artifacts" ID="You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.">由緒ある品を{{C|=artifacts=}}個生み出した。</string>
+  <string Context="Core Move To Edge Command DirectionPicker Label" ID="Move to which edge? (=glyph:Up==glyph:Down==glyph:Right==glyph:Left=)">どの端へ移動する？（=glyph:Up==glyph:Down==glyph:Right==glyph:Left=）</string>
+  <string Context="CorpseTethered Effect DisplayName Tag" ID="{{y|[{{Y|tomb-tethered}}]}}">{{y|[{{Y|墓に繋がれた}}]}}</string>
+  <string Context="Create new equipment set" ID="Create a new equipment set starting with this equipment">この装備から新しい装備セットを作成</string>
+  <string Context="CrematoryMachineRoomTerminal Additional Option" ID="...">…</string>
+  <string Context="CriticalThreshold Description" ID="=bonus.signed=% chance to score critical hits">クリティカルヒット率 =bonus.signed=%</string>
+  <string Context="CrumblesOnHit Message Log" ID="=subject.Does:crumble= to dust!">=subject.T=は崩れて塵になった！</string>
+  <string Context="CryoZone Stop Message" ID="The frigid mist =subject.generalDirectionIfAny= dissipates.">=subject.generalDirectionIfAny=の凍える霧が消えた。</string>
+  <string Context="CryoZone Start Message" ID="The air =subject.generalDirectionIfAny= bursts into a field of frigid mist!">=subject.generalDirectionIfAny=の空気が弾け、凍える霧が立ち込めた！</string>
+  <string Context="Crypt of Warriors - wall description warrior" ID="In tracery around the margins, warriors assemble in hex phalanxes.">縁の透かし彫りには、六角陣形を組む戦士たちが描かれている。</string>
+  <string Context="Crypt of Warriors - wall description priest" ID="In tracery around the margins, priests burn incense inside of thuribles.">縁の透かし彫りには、香炉で香を焚く司祭たちが描かれている。</string>
+  <string Context="Crypt of Warriors - wall description royal" ID="In tracery around the margins, royals are extolled at sky-kited festivals.">縁の透かし彫りには、凧の舞う祭りで称えられる王族たちが描かれている。</string>
+  <string Context="Crypt of Warriors - wall description tutor" ID="In tracery around the margins, tutors instruct pupils in domed amphitheatres.">縁の透かし彫りには、ドーム型の円形劇場で弟子を教える師たちが描かれている。</string>
+  <string Context="CrypticParticleText" ID="{{c|'=CRYPTICWORD='}}">{{c|'=CRYPTICWORD='}}</string>
+  <string Context="Cursed RulesPostfix Default" ID="Cannot be removed once equipped.">一度装備すると外せない。</string>
+  <string Context="Cursed Unequip Fail" ID="You can't remove =object.the.name=.">=object.the.name=を外せない。</string>
+  <string Context="Customize pronouns popup 'what'" ID="pronoun set">代名詞のセット</string>
+  <string Context="Cybernetics Chargen no cyber line one" ID="{{rules|+1 Toughness}}">{{rules|頑健 +1}}</string>
+  <string Context="Cybernetics Base Item - Short Description Rules" ID="License points: =cost=">ライセンスポイント: =cost=</string>
+  <string Context="Cybernetics RandomCyberImplant" ID="{{implanted|implanted}}">{{implanted|埋め込み済み}}</string>
+  <string Context="Cybernetics Base Item - Short Description Rules" ID="Destroyed when uninstalled.">取り外すと壊れる。</string>
+  <string Context="Cybernetics Chargen no cyber line two" ID="{{R|-2 License Tier (down to 0)}}">{{R|ライセンス階位 -2（最低0）}}</string>
+  <string Context="Cybernetics Chargen uninstall warning" ID="{{rules|Destroyed when uninstalled}}">{{rules|取り外すと壊れる}}</string>
+  <string Context="Cybernetics Base Item - Short Description Rules" ID="Target body parts: =slots.commaList=">対象部位: =slots.commaList=</string>
+  <string Context="Cybernetics Base Item - Short Description Rules" ID="Only compatible with True Kin genotypes">トゥルーキンの遺伝子型にのみ対応</string>
+  <string Context="Cybernetics Debug Wish 'implant'" ID="No blueprint by the name '=name=' could be found.">「=name=」という名前の設計図は見つからなかった。</string>
+  <string Context="Cybernetics Debug Wish 'implant'" ID="No body part by the name '=slot=' could be found.">「=slot=」という名前の部位は見つからなかった。</string>
+  <string Context="Cybernetics Cursed" ID="You can't remove =object.the.name:notAsPossessed=.">=object.the.name:notAsPossessed=を外せない。</string>
+  <string Context="Cybernetics Debug Wish 'implant'" ID="The blueprint '=blueprint.name=' is not a cybernetic.">設計図「=blueprint.name=」はサイバネティクスではない。</string>
+  <string Context="Cybernetics Chargen LP cost" ID="{{rules|=blueprint.intpart:CyberneticsBaseItem:Cost=}}">{{rules|=blueprint.intpart:CyberneticsBaseItem:Cost=}}</string>
+  <string Context="Cybernetics Compute Power Rules Text" ID="Compute power on the local lattice increases this item's effectiveness.">ローカル格子の演算能力が、このアイテムの効果を高める。</string>
+  <string Context="Cybernetics Debug Wish 'implant'" ID="Your =part.ordinalName= =part.isPlural:are:is= implanted with =cybernetic.name=!">=part.ordinalName=に=cybernetic.name=が埋め込まれた！</string>
+  <string Context="CyberneticsCreditWedge DisplayName Base" ID="=credits==glyph.strip:Credits=">=credits==glyph.strip:Credits=</string>
+  <string Context="CyberneticsCreditWedge RulesPostfix" ID="Credits remaining: {{C|=credits==glyph.strip:Credits=}}">残りクレジット: {{C|=credits==glyph.strip:Credits=}}</string>
+  <string Context="CyclopeanPrism AmaranthinePrism DisplayName Ego 0-15 (BaseState, frame=KKKK)" ID="{{K|amaranthine}} prism">{{K|アマランサイン}}のプリズム</string>
+  <string Context="CyclopeanPrism AmaranthinePrism DisplayName Ego 16-19 (State1, frame=yKKy)" ID="{{K|amara{{y|n}}thine}} prism">{{K|アマラ{{y|ン}}サイン}}のプリズム</string>
+  <string Context="CyclopeanPrism AmaranthinePrism DisplayName Ego 17-23 (State2, frame=yKyY)" ID="{{K|amar{{y|a{{Y|n}}t}}hine}} prism">{{K|アマ{{y|ラ{{Y|ン}}サ}}イン}}のプリズム</string>
+  <string Context="CyclopeanPrism AmaranthinePrism DisplayName Ego 24-27 (State3, frame=ryYK)" ID="{{K|am{{y|ar{{Y|a{{R|n}}t}}hi}}ne}} prism">{{K|ア{{y|マ{{Y|ラ{{R|ン}}サ}}イ}}ン}}のプリズム</string>
+  <string Context="CyclopeanPrism AmaranthinePrism DisplayName Ego 28-31 (State4, frame=yYrR)" ID="{{y|am{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}ne}} prism">{{y|ア{{Y|マ{{y|ラ{{r|ン{{R|サ}}}}イ}}}}ン}}のプリズム</string>
+  <string Context="CyclopeanPrism AmaranthinePrism DisplayName Ego 32+ (State5, frame=yRYr)" ID="{{r|a{{R|m{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}n}}e}} prism">{{r|ア{{R|マ{{Y|ラ{{y|ン{{r|サ{{R|イ}}}}}}}}}}ン}}のプリズム</string>
+  <string Context="damage penetrations" ID="(x=number.toString=)">(x=number.toString=)</string>
+  <string Context="DataDisk InventoryActionsEvent Tinker =ingredientList= item name" ID="=subject.name=">=subject.name=</string>
+  <string Context="DataDisk GetDisplayNameEvent Item" ID=": {{C|=resultingitem=}} &lt;=bitcost=&gt;">: {{C|=resultingitem=}} &lt;=bitcost=&gt;</string>
+  <string Context="DataDisk GetDisplayNameEvent Mod" ID=": [{{W|Item mod}}] - {{C|=modname=}}">: [{{W|アイテム改造}}] - {{C|=modname=}}</string>
+  <string Context="DataDisk GetShortDescriptionEvent Mod" ID="Adds item modification: =moddescription=">アイテム改造を追加: =moddescription=</string>
+  <string Context="DataDisk InventoryActionEvent YouLearnItem" ID="You learn to build =subject.pluralName=.">=subject.pluralName=の作り方を覚えた。</string>
+  <string Context="DataDisk InventoryActionEvent MissingSkill" ID="You don't have the required skill: =skill=!">必要なスキルがない: =skill=！</string>
+  <string Context="DataDisk InventoryActionEvent YouLearnMod" ID="You learn the item modification {{W|=modname=}}.">アイテム改造{{W|=modname=}}を覚えた。</string>
+  <string Context="DataDisk GetShortDescriptionEvent Batch" ID="{{rules|Creates:}} =subject.displayNameOnlyDirect=">{{rules|作成物:}} =subject.displayNameOnlyDirect=</string>
+  <string Context="DataDisk GetShortDescriptionEvent Batch" ID="{{rules|Creates:}} =num.cardinal= =subject.pluralName=">{{rules|作成物:}} =subject.pluralName= =num.cardinal=個</string>
+  <string Context="DataDisk You tinker up..." ID="=subject.Does:tinker= up =number.a.or.cardinal.names#object=!">=subject.T=は=number.a.or.cardinal.names#object=を組み立てた！</string>
+  <string Context="DataDisk InventoryActionsEvent MissingIngredientList" ID="You don't have the required ingredient: =ingredientList.orlist=">必要な材料がない: =ingredientList.orlist=</string>
+  <string Context="DataDisk InventoryActionEvent MissingRequiredBits" ID="You don't have the required &lt;=bitcost=&gt; bits! You have:&#10;&#10;=bits=">必要なビット&lt;=bitcost=&gt;が足りない！ 所持ビット:
+
+=bits=</string>
+  <string Context="Dazed Effect Apply Particle Text" ID="*dazed*">*朦朧*</string>
+  <string Context="Dazed Effect Apply" ID="=subject.Does:are= dazed.">=subject.T=は朦朧とした。</string>
+  <string Context="DeathReason Self Kill" ID="You =accidental.if:accidentally :=killed =subject.itself=.">=subject.itself=を=accidental.if:誤って:=殺してしまった。</string>
+  <string Context="DeathReason Killed By" ID="You were =accidental.if:accidentally :=killed by =object.an=.">=object.an=に=accidental.if:誤って:=殺された。</string>
+  <string Context="Decapitate - Decapitated ParticleText" ID="*decapitated!*">*首を刎ねられた！*</string>
+  <string Context="Decapitate - Dismembered ParticleText" ID="*dismembered!*">*切断された！*</string>
+  <string Context="Decapitate By Self" ID="=subject.Does:lop= off =subject.their= own =limb.ordinalName=!">=subject.T=は自分の=limb.ordinalName=を切り落とした！</string>
+  <string Context="Decapitate By Attacker" ID="=subject.Does:lop= off =object.the.name's= =limb.ordinalName=!">=subject.T=は=object.the.name's==limb.ordinalName=を切り落とした！</string>
+  <string Context="DecoyHologram Emitter Appear Message" ID="An image of =subject.property:HologramOf= appears.">=subject.property:HologramOf=の像が現れた。</string>
+  <string Context="DecoyHologram Emitter Disappear Message" ID="An image of =subject.property:HologramOf= disappears.">=subject.property:HologramOf=の像が消えた。</string>
+  <string Context="DecoyHologramEmitter Target Picker Label" ID="Summon Decoy">囮を召喚</string>
+  <string Context="DecoyHologramEmitter Hologram HologramOf" ID="=subject.a.name=">=subject.a.name=</string>
+  <string Context="DecoyHologramEmitter ActivatedAbilityName Activate" ID="Activate Holographic Decoy">ホログラム囮を起動</string>
+  <string Context="DecoyHologramEmitter ActivatedAbilityName Deactivate" ID="Deactivate Holographic Decoy">ホログラム囮を停止</string>
+  <string Context="DecoyHologramEmitter Unresponsive" ID="=subject.Does:are= unresponsive.">=subject.T=は反応しない。</string>
+  <string Context="DecoyHologramEmitter Starting Up" ID="=subject.Does:are= still starting up.">=subject.T=はまだ起動中だ。</string>
+  <string Context="DecoyHologramEmitter ActivatedAbilityName Activate With BaseName" ID="Activate =subject.basename|strip|title=">=subject.basename|strip|title=を起動</string>
+  <string Context="DecoyHologramEmitter ActivatedAbilityName Deactivate With BaseName" ID="Deactivate =subject.basename|strip|title=">=subject.basename|strip|title=を停止</string>
+  <string Context="DecoyHologramEmitter Out Of Range" ID="That is out of range (=range.things:square=)">射程外だ（=range.things:square=）</string>
+  <string Context="DecoyHologramEmitter Not Enough Charge" ID="=subject.Does:do= not have enough charge to sustain the hologram.">=subject.T=にはホログラムを維持するチャージが足りない。</string>
+  <string Context="Default LairName" ID="lair">巣穴</string>
+  <string Context="default fragment ArableLand" ID="arable land">耕作地</string>
+  <string Context="default fragment ValuedOre" ID="precious metals">貴金属</string>
+  <string Context="default fragment Activity" ID="roaming around idly">ぶらぶらとうろつくこと</string>
+  <string Context="default fragment VillageActivity" ID="sleeping in our homes">家で眠ること</string>
+  <string Context="default fragment SacredThing" ID="the act of procreating">子を成す行い</string>
+  <string Context="default fragment PoeticFeatures" ID="shiny teeth,coarse hair,sunken eyes">ぴかぴかの歯,ごわごわの毛,落ちくぼんだ目</string>
+  <string Context="Delegates Game State Default TinkerAddendum" ID="It's been live for over a year.">1年以上稼働している。</string>
+  <string Context="DelegatesJournal Ingredients Separator" ID=", ">、</string>
+  <string Context="DelegatesJournal Ingredients Prefix" ID="{{K|Ingredients:}} ">{{K|材料:}}</string>
+  <string Context="DelegatesJournal Effects Line 2+ Prefix (15 chars wide)" ID="&#10;             {{K|/}} ">
+             {{K|/}}</string>
+  <string Context="DelegatesJournal Effects Prefix (15 chars wide)" ID="{{K|Effects:}}     {{K|/}} ">{{K|効果:}}       {{K|/}}</string>
+  <string Context="DelegatesJournal RevealedText" ID="The location of =secret.text|initLowerIfArticle=">=secret.text|initLowerIfArticle=の場所</string>
+  <string Context="DelegatesMutations this rank =mutation.details= replacer" ID="{{w|This rank}}:&#10;">{{w|現在のランク}}:
+</string>
+  <string Context="DelegatesMutations next rank =mutation.details= replacer" ID="&#10;&#10;{{w|Next rank}}:&#10;">
+
+{{w|次のランク}}:
+</string>
+  <string Context="DelegateSpawner - Social Role (Display Name)" ID="delegate for =faction.the.name=">=faction.the.name=の使節</string>
+  <string Context="DelegatesTinkering Cost  Ingredients Item" ID="{{R|X}} =tinkereditem=">{{R|X}} =tinkereditem=</string>
+  <string Context="DelegatesTinkering Cost BitCost" ID="{{K|| Bit Cost |}}&#10;=coststring=">{{K|| ビットコスト |}}
+=coststring=</string>
+  <string Context="DeployableInfrastructure TargetPicker Label (no Noun)" ID="=deployVerb|initUpper=">=deployVerb|initUpper=</string>
+  <string Context="DeployableInfrastructure TargetPicker Multi (with Noun)" ID="=deployNoun|initUpper=">=deployNoun|initUpper=</string>
+  <string Context="DeployableInfrastructure Rust Fail" ID="=subject.Itis= rusted...">=subject.T=は錆びついている…</string>
+  <string Context="DeployableInfrastructure Broken Fail" ID="=subject.Itis= broken...">=subject.T=は壊れている…</string>
+  <string Context="DeployableInfrastructure TargetPicker Label (with Noun)" ID="=deployVerb|initUpper= =deployNoun|initUpper=">=deployVerb|initUpper= =deployNoun|initUpper=</string>
+  <string Context="DeployableInfrastructure No Useful Way" ID="There is no useful way to =verb= =object.the.name:single= there.">そこで=object.the.name:single=を=verb=しても意味がない。</string>
+  <string Context="Description Physical Feature" ID="=object.name=">=object.name=</string>
+  <string Context="Description Feeling Hostile" ID="{{R|Hostile}}">{{R|敵対}}</string>
+  <string Context="Description Feeling Friend" ID="{{G|Friendly}}">{{G|友好}}</string>
+  <string Context="Description Recall Menu Console UI" ID="press {{W|space}}">{{W|スペース}}キーを押す</string>
+  <string Context="Description Recall Menu Console UI (hardcoded key of S)" ID="recall {{W|s}}tory">物語を思い出す（{{W|s}}）</string>
+  <string Context="Description Recall Menu" ID="[=buttons.orList=]">[=buttons.orList=]</string>
+  <string Context="Description LongDescription Effects List" ID="=effects.commaList=">=effects.commaList=</string>
+  <string Context="Description LongDescription Effect" ID="=effect.description=">=effect.description=</string>
+  <string Context="Description Weight Text" ID="Weight: =weight= lbs.">重量: =weight=ポンド</string>
+  <string Context="Description LongDescription Gender" ID="Gender: =gender.name=">性別: =gender.name=</string>
+  <string Context="Description Default Text" ID="A really ugly specimen.">実に醜い標本だ。</string>
+  <string Context="Description Equipped Item" ID="=object.name:withTitles=">=object.name:withTitles=</string>
+  <string Context="Description LongDescription Equipped Items" ID="Equipped: =equipItems.commaList=">装備: =equipItems.commaList=</string>
+  <string Context="Description LongDescription Physical Features" ID="Physical Features: =features.commaList=">身体的特徴: =features.commaList=</string>
+  <string Context="DescriptionBuilder Single Title Clause With Epithets" ID=", =title.toString=">、=title.toString=</string>
+  <string Context="DescriptionBuilder Epithets Join" ID="=epithets.commaList=">=epithets.commaList=</string>
+  <string Context="DescriptionBuilder Single Title Clause" ID="and =title.toString=">、=title.toString=</string>
+  <string Context="DescriptionBuilder Multiple With Clause" ID="with =withClauses.andList=">=withClauses.andList=を持つ</string>
+  <string Context="DescriptionBuilder Multiple Titles Clause" ID=", =titles.andList:noSerial=">、=titles.andList:noSerial=</string>
+  <string Context="DestroyOnUnequip Default Message" ID="The mote of light is extinguished.">光の粒が消えた。</string>
+  <string Context="DetonateOnHit RulesPostfix Always" ID="Melee attacks cause a small explosion">近接攻撃で小爆発を起こす</string>
+  <string Context="DetonateOnHit RulesPostfix Chance" ID="=chance=% chance melee attacks cause a small explosion">=chance=%の確率で近接攻撃が小爆発を起こす</string>
+  <string Context="Digging Ability Name" ID="Dig">掘削</string>
+  <string Context="Digging Movement Capability Description" ID="Dig To Square">マスまで掘り進む</string>
+  <string Context="Dimension unset" ID="an uncharted dimension">未知の次元</string>
+  <string Context="DimensionManager faction.CultForm pre-select" ID="=spice:extradimensional.cultForms.!random=">=spice:extradimensional.cultForms.!random=</string>
+  <string Context="DimensionManager faction.cultForm" ID="=spice:extradimensional.$mutation.!random=">=spice:extradimensional.$mutation.!random=</string>
+  <string Context="DimensionManager faction.cultForm no mutation" ID="=spice:extradimensional.cultForms.!random|title=">=spice:extradimensional.cultForms.!random|title=</string>
+  <string Context="DimensionManager Journal Observation" ID="There exists a dimension known as {{O|=dimensionName=}}.">{{O|=dimensionName=}}と呼ばれる次元が存在する。</string>
+  <string Context="DimensionManager faction.dimensionName" ID="the =spice:extradimensional.dimensionNames.!random|title=">=spice:extradimensional.dimensionNames.!random|title=</string>
+  <string Context="DimensionManager dimension.name" ID="the =spice:extradimensional.dimensionNames.!random|title=">=spice:extradimensional.dimensionNames.!random|title=</string>
+  <string Context="direction.description (compass)" ID="to the =dir.direction.expanded=">=dir.direction.expanded=へ</string>
+  <string Context="direction.description.actor (.)" ID="near =subject.them=">=subject.them=の近くに</string>
+  <string Context="direction.description.actor (D)" ID="below =subject.them=">=subject.them=の下に</string>
+  <string Context="direction.description.actor (U)" ID="above =subject.them=">=subject.them=の上に</string>
+  <string Context="direction.description.actor (compass)" ID="to =subject.its= =dir.direction.expanded=">=subject.its==dir.direction.expanded=に</string>
+  <string Context="direction.description.incoming (D)" ID="from below">下から</string>
+  <string Context="direction.description.incoming (U)" ID="from above">上から</string>
+  <string Context="direction.description.incoming (.)" ID="from nearby">近くから</string>
+  <string Context="direction.description.incoming (?)" ID="from somewhere">どこからか</string>
+  <string Context="direction.description.incoming (compass)" ID="from the =dir.direction.expanded=">=dir.direction.expanded=から</string>
+  <string Context="direction.description.incoming.actor (.)" ID="from near =subject.them=">=subject.them=の近くから</string>
+  <string Context="direction.description.incoming.actor (D)" ID="from below =subject.them=">=subject.them=の下から</string>
+  <string Context="direction.description.incoming.actor (U)" ID="from above =subject.them=">=subject.them=の上から</string>
+  <string Context="direction.description.incoming.actor (compass)" ID="from =subject.their= =dir.direction.expanded=">=subject.their==dir.direction.expanded=から</string>
+  <string Context="direction.description.incoming.null" ID="=dir.from.the.direction=">=dir.from.the.direction=</string>
+  <string Context="direction.description.incoming.player" ID="=dir.from.the.direction=">=dir.from.the.direction=</string>
+  <string Context="direction.description.player" ID="=dir.to.the.direction=">=dir.to.the.direction=</string>
+  <string Context="direction.expanded (U)" ID="up">上</string>
+  <string Context="direction.expanded (D)" ID="down">下</string>
+  <string Context="direction.toward (U)" ID="upward">上へ</string>
+  <string Context="direction.toward (E)" ID="eastward">東へ</string>
+  <string Context="direction.toward (W)" ID="westward">西へ</string>
+  <string Context="direction.toward (D)" ID="downward">下へ</string>
+  <string Context="direction.toward (N)" ID="northward">北へ</string>
+  <string Context="direction.toward (S)" ID="southward">南へ</string>
+  <string Context="direction.toward (NW)" ID="northwestward">北西へ</string>
+  <string Context="direction.toward (NE)" ID="northeastward">北東へ</string>
+  <string Context="direction.toward (SW)" ID="southwestward">南西へ</string>
+  <string Context="direction.toward (SE)" ID="southeastward">南東へ</string>
+  <string Context="Disarm Message Log" ID="=subject.Does:disarm= =object.the.name= of =object.its.item#weapon=!">=subject.T=は=object.the.name=から=object.its.item#weapon=を奪い取った！</string>
+  <string Context="Disassembly Message, nothing gained" ID="=itemsMessage=">=itemsMessage=</string>
+  <string Context="Disassembly Report ItemsList Items (fragment)" ID="=items.andList=">=items.andList=</string>
+  <string Context="Disassembly Item (fragment)" ID="=item.the.name:single=">=item.the.name:single=</string>
+  <string Context="Disassembly Report ItemsList Items Where (fragment)" ID="=items.andList= =where=">=where==items.andList=</string>
+  <string Context="Disassembly Item Stack (fragment)" ID="=item= =done.x.multiple=">=item= =done.x.multiple=</string>
+  <string Context="Disassembly Message, only bits" ID="=itemsMessage= =bitMessage=">=itemsMessage= =bitMessage=</string>
+  <string Context="Disassembly BitMessage temporary (fragment)" ID="The parts crumble into dust.">部品は崩れて塵になった。</string>
+  <string Context="Disassembly learn to build ('You may now' fragment)" ID="build =object.pluralize:direct=">=object.pluralize:direct=を作る</string>
+  <string Context="Disassembly Message, learned no newline" ID="=itemsMessage= =learnedMessage=">=itemsMessage= =learnedMessage=</string>
+  <string Context="Disassembly Report Items (fragment)" ID="You disassemble =items.andList=.">=items.andList=を分解した。</string>
+  <string Context="Disassembly where(fragment)" ID="=subject.to.its.direction#object=">=subject.to.its.direction#object=の</string>
+  <string Context="Disassembly Message, learned has newline" ID="=itemsMessage=&#10;&#10;=learnedMessage=">=itemsMessage=
+
+=learnedMessage=</string>
+  <string Context="Disassembly InterruptBecause" ID="you can no longer move your extremities">手足が動かせなくなった</string>
+  <string Context="Disassembly InterruptBecause" ID="the item you were working on disappeared">作業中のアイテムが消えた</string>
+  <string Context="Disassembly learned message" ID="Eureka! You may now =fragments.andList=.">エウレカ！ =fragments.andList=ことができるようになった。</string>
+  <string Context="Disassembly BitMessage (fragment)" ID="You receive tinkering bits &lt;=bits.bits=&gt;.">ティンカリング用のビット&lt;=bits.bits=&gt;を手に入れた。</string>
+</strings>

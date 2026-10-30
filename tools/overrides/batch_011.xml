@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="EaterCryptPlaque part3" ID="&quot;=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper=&quot;">「=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper=」</string>
+  <string Context="MerchantRevealer DisplayName" ID="advertisement for =mapnote.text|initLower=">=mapnote.text|initLower=の広告</string>
+  <string Context="Message Log Turn Separator" ID="[--turn start--]">[--ターン開始--]</string>
+  <string Context="Metamorphosis assume form" ID="=subject.Does:assume= the form of =newBody.a.shortname:withTitles=.">=subject.T=は=newBody.a.shortname:withTitles=の姿になった。</string>
+  <string Context="Missile Weapon Area fire" ID="{{W|[=commandKey:CmdFire=]}} fire">{{W|[=commandKey:CmdFire=]}} 射撃</string>
+  <string Context="Missile Weapon Area reload" ID="{{W|[=commandKey:CmdReload=]}} reload">{{W|[=commandKey:CmdReload=]}} リロード</string>
+  <string Context="Missile Weapon Area no weapon equipped" ID="{{K|You have no missile weapons equipped.}}">{{K|射撃武器を装備していない。}}</string>
+  <string Context="ModBeamSplitter Display Adjective" ID="{{R-R-r-r-g-g-G-G-B-B-b-b sequence|beamsplitter}}">{{R-R-r-r-g-g-G-G-B-B-b-b sequence|ビームスプリッター}}</string>
+  <string Context="ModCleated Description" ID="Fitted with cleats: =saveVs.saveBonus#amount=">スパイク付き: =saveVs.saveBonus#amount=</string>
+  <string Context="ModCoProcessor Clause" ID="{{brainbrine|co-processor}}">{{brainbrine|コプロセッサ}}</string>
+  <string Context="ModCounterWeighted DisplayName Adjective Level&gt;1" ID="counterweighted(=level=)">カウンターウェイト付き(=level=)</string>
+  <string Context="ModCounterweighted Description" ID="Counterweighted: Adds =bonus.signed= to hit.">カウンターウェイト付き: 命中に=bonus.signed=。</string>
+  <string Context="ModDependencies DependencyIsOK" ID="OK">OK</string>
+  <string Context="ModDependencies DependencyIsInvalid" ID="Invalid">無効</string>
+  <string Context="ModDependencies DependencyMissing" ID="Missing">見つからない</string>
+  <string Context="ModDependencies DependencyVersionMismatch" ID="Version mismatch">バージョン不一致</string>
+  <string Context="ModDependencies RequiredHeader" ID="{{W|=== Required ===}}">{{W|=== 必須 ===}}</string>
+  <string Context="ModDependencies OptionalHeader" ID="{{W|=== Optional ===}}">{{W|=== 任意 ===}}</string>
+  <string Context="ModDependencies Dependency Status" ID="{{=color=|=id= (=version=): =status=}}">{{=color=|=id= (=version=): =status=}}</string>
+  <string Context="ModDependencies DependenciesMissing" ID="=modtitle= is missing one or more dependencies.">=modtitle=には不足している依存MODがある。</string>
+  <string Context="ModDisguise DisplayName Clause No Blueprint" ID="and disguise">と変装</string>
+  <string Context="ModDisguise Disguise Appearance Description" ID="=blueprint.disguise.name#parentObject=">=blueprint.disguise.name#parentObject=</string>
+  <string Context="ModDisguise Mod DisplayName" ID="a disguise=appearance.if: of :==appearance=">変装=appearance.if:（:==appearance=</string>
+  <string Context="ModDisguise Instance Description Reputation Lines" ID="=level.signed= reputation with =faction.formattedName=">=faction.formattedName=の評判 =level.signed=</string>
+  <string Context="ModDisguise DisplayName Clause" ID="and =blueprint.part:Render:DisplayName:creature= disguise">と=blueprint.part:Render:DisplayName:creature=の変装</string>
+  <string Context="ModDisguise Instance Description Part1" ID="Disguise: This item makes its wearer appear to be =appearance=.">変装: このアイテムは着用者を=appearance=に見せかける。</string>
+  <string Context="ModDisplacer Examine Failure" ID="=subject.Does:bump= into =object.the.name=.">=subject.T=は=object.the.name=にぶつかった。</string>
+  <string Context="ModEngraved Story Marred" ID="&lt;marred and unreadable&gt;">&lt;傷ついて判読できない&gt;</string>
+  <string Context="ModFactionSlayer Short Description" ID="=chance=% chance to behead =faction.formattedName= on hit.">命中時=chance=%の確率で=faction.formattedName=の首を刎ねる。</string>
+  <string Context="ModFateCaller Short Description" ID="=chance=% of the time, the Fates have their way.">=chance=%の確率で運命が思いのままに振る舞う。</string>
+  <string Context="ModFeathered Short Description" ID="Feathered: This item grants the wearer =amount.signed= reputation with birds.">羽飾り: このアイテムは着用者に鳥類からの評判=amount.signed=を与える。</string>
+  <string Context="ModFilters Display Adjective" ID="{{Y|filters}}">{{Y|フィルター付き}}</string>
+  <string Context="ModFlexiweaved Display Adjective" ID="flexiweaved(=modLevel=)">フレキシウィーブ(=modLevel=)</string>
+  <string Context="ModFlexiweaved Description Tier Zero" ID="Flexiweaved: This item's DV penalty is reduced.">フレキシウィーブ: このアイテムのDVペナルティが軽減される。</string>
+  <string Context="ModFlexiweaved Description Tier&gt;0" ID="Flexiweaved: This item's DV penalty is reduced by =modLevel=.">フレキシウィーブ: このアイテムのDVペナルティが=modLevel=軽減される。</string>
+  <string Context="ModGigantic GetDescription" ID="Gigantic: =subject.modGiganticDescription=">巨大: =subject.modGiganticDescription=</string>
+  <string Context="ModGlassArmor Damage MessageTemplate" ID="=target.Does:take= =amount= damage from the glass armor.">=target.T=はガラスの鎧から=amount=のダメージを受けた。</string>
+  <string Context="ModGlassArmor Short Description" ID="Reflects =tier=% damage back at your attackers, rounded up.">攻撃者にダメージの=tier=%（切り上げ）を反射する。</string>
+  <string Context="ModGlassArmor Damage MessageTemplate" ID="=target.Does:take= =amount= damage from =origin.its= glass armor.">=target.T=は=origin.its=ガラスの鎧から=amount=のダメージを受けた。</string>
+  <string Context="ModGlassArmor Reflect" ID="=subject.Does:reflect= =amount= damage back at =object.the.name=.">=subject.T=は=object.the.name=に=amount=ダメージを反射した。</string>
+  <string Context="ModGlazed Short Description" ID="=chance=% chance to dismember on hit.">命中時=chance=%の確率で四肢を切断する。</string>
+  <string Context="ModHardened Display Adjective" ID="{{mercurial|electromagnetic}} shielding">{{mercurial|電磁}}シールド</string>
+  <string Context="ModImprovedMutationBase Mutation Display Name Snapshot" ID="=mutation.name=">=mutation.name=</string>
+  <string Context="ModInfo ModLogToClipboard WarningsHeader" ID="== Warnings ==">== 警告 ==</string>
+  <string Context="ModInfo ErrorList" ID="=errors.join:&#10;=">=errors.join:
+=</string>
+  <string Context="ModInfo ConfirmDependencies PopupTitle" ID="{{W|Dependencies}}">{{W|依存MOD}}</string>
+  <string Context="ModInfo ConfirmFailure RetryButton" ID="{{W|[R]}} {{y|Retry}}">{{W|[R]}} {{y|再試行}}</string>
+  <string Context="ModInfo ConfirmUpdate UpdateAvailableTitle" ID="{{W|Update Available}}">{{W|更新あり}}</string>
+  <string Context="ModInfo ConfirmFailure WorkshopButton" ID="{{W|[W]}} {{y|Workshop}}">{{W|[W]}} {{y|ワークショップ}}</string>
+  <string Context="ModInfo ConfirmFailure TitleLine" ID="=modname= - {{R|Errors}}">=modname= - {{R|エラー}}</string>
+  <string Context="ModInfo ErrorList MoreThan3" ID="(... {{R|=number=}} more)">（…ほか{{R|=number=}}件）</string>
+  <string Context="ModInfo ModLogToClipboard TitleNoVersion" ID="=== =modtitle= Errors ===">=== =modtitle= のエラー ===</string>
+  <string Context="ModInfo ModLogToClipboard TitleWithVersion" ID="=== =modtitle= =version= Errors ===">=== =modtitle= =version= のエラー ===</string>
+  <string Context="ModInfo ErrorList ClipboardKnownModAuthor" ID="Automatically on your clipboard should you wish to forward it to =author=.">=author=に送れるよう、自動でクリップボードにコピーした。</string>
+  <string Context="ModInfo ClipboardUnknownModAuthor" ID="Automatically on your clipboard should you wish to forward it to the mod author.">MOD作者に送れるよう、自動でクリップボードにコピーした。</string>
+  <string Context="ModLiquidCooled NonPure Colorless Volume" ID=" [?]"> [?]</string>
+  <string Context="ModLiquidCooled Colorless Volume" ID=" [=amount=]"> [=amount=]</string>
+  <string Context="ModLiquidCooled NonPure Colorful Volume" ID=" [{{=color=|?}}]"> [{{=color=|?}}]</string>
+  <string Context="ModLiquidCooled Liquid Fill =snapshotName= Before Loading" ID="=subject.the.name=">=subject.the.name=</string>
+  <string Context="ModLiquidCooled Empty Colorful Volume" ID=" [{{=color=|empty}}]"> [{{=color=|空}}]</string>
+  <string Context="ModLiquidCooled Colorful Volume" ID=" [{{=color=|=amount=}}]"> [{{=color=|=amount=}}]</string>
+  <string Context="ModLiquidCooled Display Adjective" ID="{{=liquid.color=|liquid-cooled}}">{{=liquid.color=|液冷式}}</string>
+  <string Context="ModLiquidCooled Status Message" ID="=subject.Does:are= =statusPhrase=.">=subject.T=は=statusPhrase=。</string>
+  <string Context="ModLiquidCooled Status Message Input Missing" ID="=subject.Does:emit= a grinding noise.">=subject.T=はギリギリと異音を立てた。</string>
+  <string Context="ModLiquidCooled Host Full" ID="=host.Does:have= no room for more =liquid.name|strip=.">=host.T=にはこれ以上=liquid.name|strip=を入れる余地がない。</string>
+  <string Context="ModLiquidCooled Already Full" ID="=subject.Does:are= already full of =volume.liquid.name=.">=subject.T=は既に=volume.liquid.name=で満タンだ。</string>
+  <string Context="ModLiquidCooled No Liquid For Host" ID="You have no =liquid.name|strip= to supply =host.the.name= with.">=host.the.name=に補給する=liquid.name|strip=を持っていない。</string>
+  <string Context="ModLiquidCooled Liquid Fill Message" ID="You=partial.if: partially:= fill =snapshotName= with =volume.liquid.name=.">=snapshotName=を=volume.liquid.name=で=partial.if:部分的に:=満たした。</string>
+  <string Context="ModMagnetic Falls Down" ID="=subject.Does:fall= to the ground.">=subject.T=は地面に落ちた。</string>
+  <string Context="ModMagnetic Falls Down Picked Up" ID="=subject.Does:fall= to the ground; you pick =subject.them= up.">=subject.T=は地面に落ちた。あなたはそれを拾い上げた。</string>
+  <string Context="ModMagnetized Cant Float" ID="=subject.Does:are= not able to float right now.">=subject.T=は今は浮かべない。</string>
+  <string Context="ModManagerUI ByAuthor" ID="by =author=">作者: =author=</string>
+  <string Context="ModManagerUI SetBackButtonText Standard" ID="{{W|[Esc]}} {{y|=text=}}">{{W|[Esc]}} {{y|=text=}}</string>
+  <string Context="ModManagerUI Update PressButton" ID="{{W|[space]}} {{y|Press Button}}">{{W|[space]}} {{y|ボタンを押す}}</string>
+  <string Context="ModManagerUI SetBackButtonText Gamepad" ID="{{W|[=commandKey:Cancel=]}} {{y|=text=}}">{{W|[=commandKey:Cancel=]}} {{y|=text=}}</string>
+  <string Context="ModManagerUI EnableMod Gamepad" ID="{{W|[=commandKey:Accept=]}} {{y|Enable mod}}">{{W|[=commandKey:Accept=]}} {{y|MODを有効化}}</string>
+  <string Context="ModManagerUI DisableMod Gamepad" ID="{{W|[=commandKey:Accept=]}} {{y|Disable mod}}">{{W|[=commandKey:Accept=]}} {{y|MODを無効化}}</string>
+  <string Context="ModManagerUI Update PressButtonGamepad" ID="{{W|[=commandKey:Accept=]}} {{y|Press Button}}">{{W|[=commandKey:Accept=]}} {{y|ボタンを押す}}</string>
+  <string Context="ModManagerUI RecompileMod Gamepad" ID="{{W|[=commandKey:Accept=]}} {{y|Recompile mod}}">{{W|[=commandKey:Accept=]}} {{y|MODを再コンパイル}}</string>
+  <string Context="ModManagerUI MissingDependency Gamepad" ID="{{W|[=commandKey:Accept=]}} {{y|View dependencies}}">{{W|[=commandKey:Accept=]}} {{y|依存MODを表示}}</string>
+  <string Context="ModMasterwork Description" ID="Masterwork: This weapon scores critical hits =bonus=% of the time instead of 5%.">傑作: この武器のクリティカル率は5%ではなく=bonus=%になる。</string>
+  <string Context="ModMenuLine ByAuthor" ID="by =author=">作者: =author=</string>
+  <string Context="ModMenuLine Byte Size" ID="=bytes.bytes=">=bytes.bytes=</string>
+  <string Context="ModMenuLine Scripting" ID="{{w|# SCRIPTING}}">{{w|# スクリプト}}</string>
+  <string Context="ModMenuLine HarmonyPatches" ID="{{W|# HARMONY PATCHES}}">{{W|# HARMONYパッチ}}</string>
+  <string Context="ModMenuLine MissingDependency" ID="{{yellow|MISSING DEPENDENCY}}">{{yellow|依存MOD不足}}</string>
+  <string Context="ModMercurial Instance Description Assured" ID="Mercurial: Teleports the user to safety upon taking damage.">水銀式: ダメージを受けると使用者を安全な場所へテレポートさせる。</string>
+  <string Context="ModMercurial Instance Description Chance" ID="Mercurial: Teleports the user to safety upon taking damage (=chance=% chance).">水銀式: ダメージを受けると使用者を安全な場所へテレポートさせる（確率=chance=%）。</string>
+  <string Context="ModMorphogenetic Shock Message" ID="A weird=analgesic.if::, painful= shock reverberates through you.">=analgesic.if::痛みを伴う=奇妙な衝撃があなたの体に響き渡った。</string>
+  <string Context="ModNanon Description Non Zero Tier Single" ID="Nanon: =high=% chance to dismember on penetration">ナノン: 貫通時=high=%の確率で四肢を切断する</string>
+  <string Context="ModNanon Instance Description" ID="Nanon: =chance=% chance to dismember upon penetration">ナノン: 貫通時=chance=%の確率で四肢を切断する</string>
+  <string Context="ModNanon Description Non Zero Tier Single" ID="Nanon: =low=-=high=% chance to dismember on penetration">ナノン: 貫通時=low=～=high=%の確率で四肢を切断する</string>
+  <string Context="ModNewVersion NewVersionAvailable" ID="=modtitle= has a new version available: =version=.">=modtitle=に新しいバージョンがある: =version=。</string>
+  <string Context="ModPadded Stun Resist Particle Text" ID="Resisted stun!">スタンに抵抗！</string>
+  <string Context="ModPadded Daze Resist Particle Text" ID="Resisted daze!">朦朧に抵抗！</string>
+  <string Context="ModPadded Soften Message" ID="=subject.The.name's= padding softened the blow.">=subject.The.name's=パッドが衝撃を和らげた。</string>
+  <string Context="ModPainted Story Marred" ID="&lt;marred and unreadable&gt;">&lt;傷ついて判読できない&gt;</string>
+  <string Context="ModPsionic Remaining Adjective Near Full" ID="lambent">ほのかに輝く</string>
+  <string Context="ModPsionic Remaining Adjective Near Empty" ID="tenuous">かすかな</string>
+  <string Context="ModPsionic Remaining Adjective Full" ID="substantial">確かな</string>
+  <string Context="ModPsionic Remaining Adjective Empty" ID="insubstantial">実体のない</string>
+  <string Context="ModPsionic Display Remaining" ID="(=remainingDesc=)">(=remainingDesc=)</string>
+  <string Context="ModPsionic Disappear Message" ID="=subject.Does:disappear=.">=subject.T=は消えた。</string>
+  <string Context="ModQuantumReverb Hologram Display Name" ID="hologram of =subject.a.name=">=subject.a.name=のホログラム</string>
+  <string Context="ModQuantumReverb Display Adjective" ID="{{quantumreverb|quantum reverb}}">{{quantumreverb|量子残響}}</string>
+  <string Context="ModQuantumReverb Hologram Appear Message" ID="=subject.A.name= =subject.verb:appear=.">=subject.A.name=が現れた。</string>
+  <string Context="ModRecycling Description Without Liquid Volume" ID="Recycling: This item collects and purifies the wearer's wastewater.">リサイクル: このアイテムは着用者の排水を集めて浄化する。</string>
+  <string Context="ModRefractive Description" ID="Refractive: This item has a chance to refract light-based attacks.">屈折: このアイテムは光線系の攻撃を屈折させることがある。</string>
+  <string Context="ModSereneVisage Display Adjective" ID="{{Y|serene}} visage">{{Y|穏やかな}}面相</string>
+  <string Context="ModSerrated Instance Description" ID="Serrated: This weapon has =chance.a.number=% chance to dismember opponents.">鋸刃: この武器は=chance.a.number=%の確率で敵の四肢を切断する。</string>
+  <string Context="ModSixFingered Instance Description" ID="Six-Fingered: =amount.signed= Agility">六本指: 敏捷 =amount.signed=</string>
+  <string Context="ModSpiked ShieldSlamDamage ExtraDesc (default)" ID="+bleeding">+出血</string>
+  <string Context="ModSuspensor Display Adjective" ID="{{watery|suspensors}}">{{watery|サスペンサー}}</string>
+  <string Context="ModTerrifyingVisage Display Adjective" ID="{{K|terrifying}} visage">{{K|恐ろしい}}面相</string>
+  <string Context="ModToolkit menu item text" ID="Map Editor">マップエディタ</string>
+  <string Context="ModToolkit menu item text" ID="Mod Manager">MODマネージャー</string>
+  <string Context="ModToolkit menu item text" ID="Mod Wiki Website">MOD Wikiサイト</string>
+  <string Context="ModToolkit menu item text" ID="Open Save Folder">セーブフォルダを開く</string>
+  <string Context="ModToolkit - cancelText" ID="Back to Main Menu">メインメニューに戻る</string>
+  <string Context="ModToolkit menu item text" ID="Workshop Uploader">ワークショップアップローダー</string>
+  <string Context="ModToolkit menu item text" ID="Blueprint Browser">ブループリントブラウザ</string>
+  <string Context="ModToolkit menu item text" ID="Histographicnomicon">ヒストグラフィクノミコン</string>
+  <string Context="ModToolkit menu item text" ID="Write Mods.csproj File">Mods.csprojファイルを書き出す</string>
+  <string Context="ModToolkit menu item text" ID="Waveform Collapse Map Generator">波動関数崩壊マップジェネレーター</string>
+  <string Context="ModTransmuteOnHit Message" ID="=subject.Does:were= transmuted into =object.a.name=.">=subject.T=は=object.a.name=に変えられた。</string>
+  <string Context="ModTransmuteOnHit Description Small Chance" ID="Small chance to transmute an enemy into =descriptionTerm= on hit.">命中時、低確率で敵を=descriptionTerm=に変える。</string>
+  <string Context="ModTransmuteOnHit Description" ID="=chance=% chance to transmute an enemy into =descriptionTerm= on hit.">命中時、=chance=%の確率で敵を=descriptionTerm=に変える。</string>
+  <string Context="MoteProperties GetLitDescription Faint" ID="{{K|faint}}">{{K|かすかな}}</string>
+  <string Context="MoteProperties GetLitDescription Bright" ID="{{W|bright}}">{{W|明るい}}</string>
+  <string Context="MoteProperties GetLitDescription Blazing" ID="{{Y|blazing}}">{{Y|燃え盛る}}</string>
+  <string Context="MoveCostMultiplier RulesPostfix" ID="=amount.signed= =statistics[MoveSpeed].name=">=statistics[MoveSpeed].name= =amount.signed=</string>
+  <string Context="Multiweapon_Flurry Nothing To Attack" ID="There is nothing there you can attack.">そこには攻撃できるものがない。</string>
+  <string Context="Multiweapon_Flurry Attack Message" ID="=subject.Does:launch= into a flurry of attacks!">=subject.T=は怒涛の連続攻撃を繰り出した！</string>
+  <string Context="Multiweapon_Flurry Cannot Reach" ID="You cannot reach =object.the.name= to attack =object.them=.">=object.the.name=に手が届かず攻撃できない。</string>
+  <string Context="mutation gas generation ability name" ID="Gas Generation">ガス生成</string>
+  <string Context="mutation gas generation display name" ID="=gas.Name= Generation">=gas.Name=生成</string>
+  <string Context="mutation gas generation level text effect" ID="Increased =description=">=description=が増加</string>
+  <string Context="mutation gas generation level text effect" ID="Decreased =description=">=description=が減少</string>
+  <string Context="Mutation with Defect Display" ID="=mutationName= ({{r|D}})">=mutationName= ({{r|欠}})</string>
+  <string Context="Mutation Use Fail BodyPart Too Damaged (null)" ID="Your =bodyPartType|lower= is too damaged to do that!">=bodyPartType|lower=の損傷がひどくてそれはできない！</string>
+  <string Context="Mutation Use Fail BodyPart Too Damaged" ID="Your =part.ordinalName= =part.is= too damaged to do that!">=part.ordinalName=の損傷がひどくてそれはできない！</string>
+  <string Context="mutationbgone - success message" ID="Om nom nom! =mutation.name:withAnnotations= is gone! {{w|*belch*}}">むしゃむしゃ！ =mutation.name:withAnnotations=は消え去った！ {{w|*げっぷ*}}</string>
+  <string Context="MutationOnEquip RulesPostfix NoLevel" ID="Grants you =mutation.name=.">=mutation.name=を付与する。</string>
+  <string Context="MutationOnEquip RulesPostfix CanLevel" ID="Grants you =mutation.name= at level =level=.">レベル=level=の=mutation.name=を付与する。</string>
+  <string Context="NameStyle Naming.xml Format" ID="=name|nameStyle#format=">=name|nameStyle#format=</string>
+  <string Context="Naming Expand Property Spice" ID="=spice#query|title=">=spice#query|title=</string>
+  <string Context="Narcolepsy Doze Message" ID="=subject.Does:fall= asleep!">=subject.T=は眠りに落ちた！</string>
+  <string Context="NaturalWeapon Unequip failure message" ID="You can't remove =object.the.name=.">=object.the.name=は外せない。</string>
+  <string Context="Nearby objects window header" ID="Nearby objects">周囲の物</string>
+</strings>

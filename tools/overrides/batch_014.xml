@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="Saving Throw Vs Phase" ID="phase effects">位相効果</string>
+  <string Context="Saving Throw Vs Pistol" ID="Pistol skills">拳銃スキル</string>
+  <string Context="Saving Throw Vs Stoning" ID="petrification">石化</string>
+  <string Context="Saving Throw Vs Stun" ID="being stunned">スタン</string>
+  <string Context="Saving Throw Vs Blade" ID="bladed weapons">刃物武器</string>
+  <string Context="Saving Throw Vs Contact" ID="contact agents">接触性物質</string>
+  <string Context="Saving Throw Vs Escape" ID="being captured">捕獲</string>
+  <string Context="Saving Throw Vs Inhaled" ID="inhaled toxins">吸入毒</string>
+  <string Context="Saving Throw Vs Stuck" ID="becoming stuck">身動きを封じられること</string>
+  <string Context="Saving Throw Vs Verbal" ID="speech effects">言葉の効果</string>
+  <string Context="Saving Throw Vs (List)" ID="=list.andList=">=list.andList=</string>
+  <string Context="Saving Throw Vs Injected" ID="injected toxins">注入毒</string>
+  <string Context="Saving Throw Vs Move" ID="forced movement">強制移動</string>
+  <string Context="Saving Throw Vs Lithofex" ID="Lithofex attacks">リソフェクスの攻撃</string>
+  <string Context="Saving Throw Vs Restraint" ID="being restrained">拘束</string>
+  <string Context="Saving Throw Vs Tinkering" ID="Tinkering effects">ティンカリングの効果</string>
+  <string Context="Saving Throw Vs Fungal" ID="fungal infestation">菌類の寄生</string>
+  <string Context="Saving Throw Vs LatchOn" ID="being latched onto">食らいつき</string>
+  <string Context="Saving Throw Vs LongBlades" ID="Long Blades skills">長剣スキル</string>
+  <string Context="Saving Throw Vs Hologram" ID="holographic effects">ホログラム効果</string>
+  <string Context="Saving Throw Vs RobotStop" ID="adversarial signage">敵対的な標識</string>
+  <string Context="Saving Throw Vs ShortBlades" ID="Short Blades skills">短剣スキル</string>
+  <string Context="Saving Throw Vs SlogGlands" ID="the bilge sphincter">ビルジ括約筋</string>
+  <string Context="Saving Throw Vs Decarbonizer" ID="Decarbonizer attacks">脱炭素器の攻撃</string>
+  <string Context="Saving Throw Vs Rifle" ID="Bow and Rifle skills">弓とライフルのスキル</string>
+  <string Context="Saving Throw Vs EMP" ID="electromagnetic pulses">電磁パルス</string>
+  <string Context="Saving Throw Description: no type specified" ID="=bonus.signed= to saves">セーヴ =bonus.signed=</string>
+  <string Context="Saving Throw Vs (_default_)" ID="=vs.saveThrowVersusDefault=">=vs.saveThrowVersusDefault=</string>
+  <string Context="Saving Throw Vs Onset" ID="the initial onset of disease">病気の初期発症</string>
+  <string Context="Saving Throw Vs (liquid)" ID="effects of =liquid.name|strip=">=liquid.name|strip=の効果</string>
+  <string Context="Saving Throw Description: Highlight Number, no type specified" ID="{{rules|=bonus.signed=}} to saves">セーヴ {{rules|=bonus.signed=}}</string>
+  <string Context="Saving Throw Description: Immune" ID="Immune to =type.saveBonusTypeDescription=">=type.saveBonusTypeDescription=に免疫</string>
+  <string Context="Saving Throw Description: Highlight Number" ID="=bonus.signed= to saves vs. =type.saveBonusTypeDescription=">=type.saveBonusTypeDescription=へのセーヴ =bonus.signed=</string>
+  <string Context="Saving Throw Description: Highlight Number" ID="{{rules|=bonus.signed=}} to saves vs. =type.saveBonusTypeDescription=">=type.saveBonusTypeDescription=へのセーヴ {{rules|=bonus.signed=}}</string>
+  <string Context="ScriptCallToArms Power Available" ID=" Available power: =available= amps "> 利用可能な電力: =available=アンペア</string>
+  <string Context="ScriptCallToArms Power Insufficient" ID="[{{W|!!! WARNING: INSUFFICIENT POWER !!!}}]">[{{W|!!! 警告: 電力不足 !!!}}]</string>
+  <string Context="ScriptCallToArms Warnings3" ID="Otho yells, '{{W|=name=! Come back here!}}'">オトーが叫んだ、「{{W|=name=！ 戻ってこい！}}」</string>
+  <string Context="ScriptCallToArms Power Fail" ID="[{{R|!!! ERROR: POWER SYSTEMS HAVE FAILED !!!}}]">[{{R|!!! エラー: 電源システムが故障した !!!}}]</string>
+  <string Context="ScriptCallToArms Result Conversation Start" ID="=name=, I've assessed the losses we suffered in the attack.">=name=、攻撃で受けた損害を見積もってみた。</string>
+  <string Context="Setup game state: FungalCureLiquidDisplay" ID="=liquid.name|strip=">=liquid.name|strip=</string>
+  <string Context="Setup game state: FungalCureWormDisplay" ID="=wormCorpse.name|strip=">=wormCorpse.name|strip=</string>
+  <string Context="ShakeItOff particle text stun avoided" ID="*shook off stun*">*スタンを振り払った*</string>
+  <string Context="ShakeItOff particle text daze avoided" ID="*shook off daze*">*朦朧を振り払った*</string>
+  <string Context="ShakeItOff particle text daze success" ID="*shook off daze*">*朦朧を振り払った*</string>
+  <string Context="ShakeItOff particle text stun success" ID="*shook off stun*">*スタンを振り払った*</string>
+  <string Context="ShakeItOff Stun" ID="=subject.Does:shake= off the stun.">=subject.T=はスタンを振り払った。</string>
+  <string Context="ShakeItOff TryToShakeItOff Stun Success" ID="=subject.Does:shake= off the stun.">=subject.T=はスタンを振り払った。</string>
+  <string Context="ShakeItOff Daze" ID="=subject.Does:shake= off the dazing.">=subject.T=は朦朧を振り払った。</string>
+  <string Context="ShakeItOff TryToShakeItOff Daze Success" ID="=subject.Does:shake= off =subject.its= daze.">=subject.T=は朦朧を振り払った。</string>
+  <string Context="Shank Self Warning" ID="Are you sure you want to shank =subject.reflexive=?">本当に=subject.reflexive=を刺しますか？</string>
+  <string Context="ShatterOnHit Message Log" ID="=subject.Does:shatter=.">=subject.T=は粉々に砕けた。</string>
+  <string Context="ShevaStarshipControl Launch Later" ID="Launching in =timer=...">発射まで=timer=…</string>
+  <string Context="ShevaStarshipControl Less Than 10 Popup" ID="Exodus launch in =timer=...">エクソダス発射まで=timer=…</string>
+  <string Context="ShevaStarshipControl Confirm Popup Other" ID="Launch spaceship and end game?">宇宙船を発射してゲームを終了しますか？</string>
+  <string Context="ShevaStarshipControl Confirm Popup PC" ID="Launch spaceship and end game?(type =prompt= to confirm)">宇宙船を発射してゲームを終了しますか？（確認のため=prompt=と入力）</string>
+  <string Context="Shield Performance Display Name Tag" ID="=glyph:AV==av= =glyph:DV==dv=">=glyph:AV==av= =glyph:DV==dv=</string>
+  <string Context="ShieldWall Fail - No Shield" ID="You have no shield to raise.">構える盾がない。</string>
+  <string Context="Shrine choose liquid choice" ID="=liquid.name=">=liquid.name=</string>
+  <string Context="Shrine desecrate message log" ID="=subject.Does:desecrate= =object.the.name=.">=subject.T=は=object.the.name=を冒涜した。</string>
+  <string Context="Shrine Desecrate needs liquids" ID="You need a dram of =liquids.either.or= to desecrate a shrine.">祠を冒涜するには=liquids.either.or=が1ドラム必要だ。</string>
+  <string Context="Shrine prayer message log" ID="=subject.Does:voice= a short prayer beneath =object.the.name=.">=subject.T=は=object.the.name=の下で短く祈りを捧げた。</string>
+  <string Context="Shug Lair Maker - CradleDisplayName" ID="The cradle of Shug'ruith">シュグルイスの揺籃</string>
+  <string Context="Skill UI Either Stat Separator" ID=" or "> または</string>
+  <string Context="Skill UI Console Expanded" ID="[-] ">[-]</string>
+  <string Context="Skill UI Console Collapsed" ID="[+] ">[+]</string>
+  <string Context="Skill UI PowerEntry or joiner" ID=" or "> または</string>
+  <string Context="Skill UI Console Cursor" ID="{{Y|&gt;}}">{{Y|&gt;}}</string>
+  <string Context="Skill Weapon Class Name" ID="long-blade">長剣</string>
+  <string Context="Skill Weapon Class Name" ID="short-blade">短剣</string>
+  <string Context="Skill UI Prereq Ok" ID="{{G|=name=}}">{{G|=name=}}</string>
+  <string Context="Skill UI Prereq Fail" ID="{{R|=name=}}">{{R|=name=}}</string>
+  <string Context="Skill UI Console More" ID="{{W|&lt;More...&gt;}}">{{W|&lt;さらに表示…&gt;}}</string>
+  <string Context="Skill UI PowerEntryRequirement List" ID="=elements.join=">=elements.join=</string>
+  <string Context="Skill UI Exclusion Ok" ID="Ex: {{g|=name=}}">排他: {{g|=name=}}</string>
+  <string Context="Skill UI Exclusion Fail" ID="Ex: {{R|=name=}}">排他: {{R|=name=}}</string>
+  <string Context="Skill UI Console Prereq Ok" ID="Ex: {{G|=name=}}">排他: {{G|=name=}}</string>
+  <string Context="Skill UI Console Prereq Fail" ID="Ex: {{R|=name=}}">排他: {{R|=name=}}</string>
+  <string Context="Skill UI Console Exclusion Ok" ID="Ex: {{g|=name=}}">排他: {{g|=name=}}</string>
+  <string Context="Skill UI Console Exclusion Fail" ID="Ex: {{R|=name=}}">排他: {{R|=name=}}</string>
+  <string Context="Skill UI Expander" ID="=expand.expanded=">=expand.expanded=</string>
+  <string Context="Skill UI Required Skills Label" ID="[REQUIRED SKILLS]">[必要なスキル]</string>
+  <string Context="Skill UI Console List Element" ID=" - =elements.join="> - =elements.join=</string>
+  <string Context="Skill UI Has Power Line" ID="{{G|:=power.name=}}">{{G|:=power.name=}}</string>
+  <string Context="Skill UI Requirements List" ID="{{K|:}}=elements.join=">{{K|:}}=elements.join=</string>
+  <string Context="Skill UI Requirement Met" ID="{{G|[=requisite.name=]}}">{{G|[=requisite.name=]}}</string>
+  <string Context="Skill UI Requirement Not Met" ID="{{R|[=requisite.name=]}}">{{R|[=requisite.name=]}}</string>
+  <string Context="Skill UI Skill Cost OK" ID=":: {{C|=skill.cost=}} SP ::">:: {{C|=skill.cost=}} SP ::</string>
+  <string Context="Skill UI Skill Cost Too High" ID=":: {{R|=skill.cost=}} SP ::">:: {{R|=skill.cost=}} SP ::</string>
+  <string Context="Skill UI Power Cost OK" ID=":: {{C|=power.cost=}} SP ::">:: {{C|=power.cost=}} SP ::</string>
+  <string Context="Skill UI Power Cost Too High" ID=":: {{R|=power.cost=}} SP ::">:: {{R|=power.cost=}} SP ::</string>
+  <string Context="Skill UI Exclusion Met" ID="Ex: {{g|[=exclusion.name=]}}">排他: {{g|[=exclusion.name=]}}</string>
+  <string Context="Skill UI Exclusion Not Met" ID="Ex: {{R|[=exclusion.name=]}}">排他: {{R|[=exclusion.name=]}}</string>
+  <string Context="Skill UI Already Have Skill Popup" ID="You already have that =thing=.">その=thing=は既に持っている。</string>
+  <string Context="Skill UI SP Available" ID="Skill Points (SP): {{C|=go.sp=}}">スキルポイント(SP): {{C|=go.sp=}}</string>
+  <string Context="Skill UI Line Right Learned" ID="{{g|Learned}} [=learned=/=total=]">{{g|習得済み}} [=learned=/=total=]</string>
+  <string Context="Skill UI Modding Error No Implementation Popup" ID="No implementation for =classname=">=classname=の実装がない</string>
+  <string Context="Skill UI Line Unlearned Enough" ID="Starting Cost {{g|[=skill.cost= sp]}}">初期コスト {{g|[=skill.cost= sp]}}</string>
+  <string Context="Skill UI Line Unlearned Not Enough" ID="Starting Cost {{r|[=skill.cost= sp]}}">初期コスト {{r|[=skill.cost= sp]}}</string>
+  <string Context="Skill UI Has Power Has SP" ID="{{W|=skill.name=}} [{{C|=skill.cost=}}sp]">{{W|=skill.name=}} [{{C|=skill.cost=}}sp]</string>
+  <string Context="Skill UI Has Power Lacks SP" ID="{{W|=skill.name=}} [{{R|=skill.cost=}}sp]">{{W|=skill.name=}} [{{R|=skill.cost=}}sp]</string>
+  <string Context="Skill UI Lacks Power Has SP" ID="{{w|=skill.name=}} [{{C|=skill.cost=}}sp]">{{w|=skill.name=}} [{{C|=skill.cost=}}sp]</string>
+  <string Context="Skill UI Lacks Power Lacks SP" ID="{{w|=skill.name=}} [{{R|=skill.cost=}}sp]">{{w|=skill.name=}} [{{R|=skill.cost=}}sp]</string>
+  <string Context="Skill UI PowerEntry Has SP" ID="{{g|=power.name=}} [{{C|=power.cost=}}sp]">{{g|=power.name=}} [{{C|=power.cost=}}sp]</string>
+  <string Context="Skill UI PowerEntry Doesnt Have SP" ID="{{g|=power.name=}} [{{R|=power.cost=}}sp]">{{g|=power.name=}} [{{R|=power.cost=}}sp]</string>
+  <string Context="Skill UI PowerEntry Doesnt Meet Requirements" ID="{{K|=power.name=}} [{{K|=power.cost=}}sp]">{{K|=power.name=}} [{{K|=power.cost=}}sp]</string>
+  <string Context="Skill UI PowerEntryRequirements Content" ID="{{C|=minimums=}} {{=color=|=stat_title=}}">{{=color=|=stat_title=}} {{C|=minimums=}}</string>
+  <string Context="Skill UI Console Commands" ID=" {{W|=commandKeyConsole:Cancel=}} to exit "> {{W|=commandKeyConsole:Cancel=}}で閉じる</string>
+  <string Context="Skill UI Console Title" ID="[ {{W|Buy Skills}} - {{C|=sp=}}sp remaining ]">[ {{W|スキル購入}} - 残り{{C|=sp=}}sp ]</string>
+  <string Context="Skill UI Not Enough SP Popup" ID="You don't have enough skill points to buy that =thing=!">その=thing=を買うにはスキルポイントが足りない！</string>
+  <string Context="Skill UI Confirm Purchase Popup" ID="Are you sure you want to buy =name= for {{C|=cost=}} sp?">本当に=name=を{{C|=cost=}} spで購入しますか？</string>
+  <string Context="Skill UI PowerEntry Skill Requirement Popup" ID="You may not learn this skill until you have =skillname=.">=skillname=を習得するまでこのスキルは覚えられない。</string>
+  <string Context="Skill UI Line Right Partial Enough" ID="Starting Cost {{g|[=skill.cost= sp]}} [=learned=/=total=]">初期コスト {{g|[=skill.cost= sp]}} [=learned=/=total=]</string>
+  <string Context="Skill UI Line Right Partial Not Enough" ID="Starting Cost {{r|[=skill.cost= sp]}} [=learned=/=total=]">初期コスト {{r|[=skill.cost= sp]}} [=learned=/=total=]</string>
+  <string Context="Skill UI PowerEntry Mutation Exclusion Popup" ID="You may not learn this skill if you have =mutation.name=.">=mutation.name=を持っているとこのスキルは覚えられない。</string>
+  <string Context="Skill UI PowerEntry Mutation Mutation Requirement Popup" ID="You may not learn this skill until you have =mutation.name=.">=mutation.name=を得るまでこのスキルは覚えられない。</string>
+  <string Context="Skill UI PowerEntry Skill Exclusion Popup" ID="You may not learn this skill if you already have =skill.name=.">既に=skill.name=を持っているとこのスキルは覚えられない。</string>
+  <string Context="Skill UI PowerEntryRequirements Attribute Too Low Popup" ID="Your =attribute.statCapDisplayName= isn't high enough to buy =powerEntry.name=!">=attribute.statCapDisplayName=が足りず=powerEntry.name=を購入できない！</string>
+  <string Context="SkillsAndPowersStatusScreen a known power and skill" ID="{{G|[Learned]}}">{{G|[習得済み]}}</string>
+  <string Context="SkillsAndPowersStatusScreen a skill that has not been learned" ID="{{R|[Unlearned]}}">{{R|[未習得]}}</string>
+  <string Context="SkillsAndPowersStatusScreen a power is known but not the base skill" ID="{{W|[Unlearned]}}">{{W|[未習得]}}</string>
+  <string Context="SkybearShroud Activate Message" ID="=subject.Does:start= dashing in a plume of flame and smoke!">=subject.T=は炎と煙を噴き上げて突進し始めた！</string>
+  <string Context="Slime Glands spit" ID="=subject.Does:spit= a pool of slime!">=subject.T=は粘液だまりを吐き出した！</string>
+  <string Context="SlipRingPart ShortDescription" ID="=chance.signed=% chance to slip away from natural melee attacks">=chance.signed=%の確率で生身の近接攻撃をすり抜ける</string>
+  <string Context="SlipRingPart DefenderBeforeHit Success" ID="=subject.Does:slip= away from =object.the.name's= =weapon.name:withTitles=!">=subject.T=は=object.the.name's==weapon.name:withTitles=をすり抜けた！</string>
+  <string Context="Slumberling sleepy" ID="=subject.Does:lapse= back into hibernation.">=subject.T=は再び冬眠に落ちた。</string>
+  <string Context="Smash_Floor Success" ID="=subject.Does:smash= through the floor with a block of fulcrete!">=subject.T=はフルクリートの塊で床を打ち破った！</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="nimble">身軽な</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="stalwart">屈強な</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Tot-eater">幼子喰らい</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Gutspiller">はらわた撒き</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Firesnarler">火吹き</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Bear-baiter">熊いじめ</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="fleet-footed">俊足の</string>
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Skullsplitter">頭蓋割り</string>
+  <string Context="Snapjaw_Howl Success" ID="=subject.Does:howl=!">=subject.T=は遠吠えした！</string>
+  <string Context="SpaceTimeVortex Destabilize Message" ID="=subject.Does:destabilize=!">=subject.T=は不安定化した！</string>
+  <string Context="SpaceTimeVortex Fail Out Of Range" ID="That target is out of range! (5 squares)">その対象は射程外だ！（5マス）</string>
+  <string Context="SpaceTimeVortex Stabilize Event Message" ID="=subject.Does:collapse= under the pressure of normality.">=subject.T=は正常性の圧力に押し潰された。</string>
+  <string Context="SpaceTimeVortex Two Collide (Same Name)" ID="Two =subject.pluralize= come into contact and both explode!">2つの=subject.pluralize=が接触し、両方とも爆発した！</string>
+  <string Context="SpaceTimeVortex Appears Message" ID="=subject.A.name= =subject.verb:appear= =subject.to.the.direction=!">=subject.to.the.direction=に=subject.A.name=が現れた！</string>
+  <string Context="SpaceTimeVortex Two Collide (Different Names)" ID="=subject.Does:come= into contact with =object.the.name= and both explode!">=subject.T=は=object.the.name=と接触し、両方とも爆発した！</string>
+  <string Context="SpiralBorerCurio HandleEvent FailInside" ID="You cannot do that inside.">屋内ではできない。</string>
+  <string Context="SpiralIronPart PressSpiralIron" ID="=subject.Does:hiss=.">=subject.T=はシューッと音を立てた。</string>
+  <string Context="SpontaneousCombustion triggered message log" ID="=subject.Does:erupt= into flames!">=subject.T=は炎に包まれた！</string>
+  <string Context="SprintDurationCollector - Duration stat display name" ID="Duration">持続時間</string>
+  <string Context="Stacker - DisplayName Clause" ID="x=number=">x=number=</string>
+  <string Context="StairsDown HowToDescend" ID="Use =commandKey:CmdMoveD= to descend.">=commandKey:CmdMoveD=で下りる。</string>
+  <string Context="StairsDown FellFromAbove" ID="=subject.A.name= =subject.verb:fall= down from above.">=subject.A.name=が上から落ちてきた。</string>
+  <string Context="StairsDown LockedNoKey" ID="=subject.Does:are= locked, and you don't have the key.">=subject.T=は施錠されていて、鍵を持っていない。</string>
+  <string Context="StairsUp HowToGoUp" ID="Use =commandKey:CmdMoveU= to ascend.">=commandKey:CmdMoveU=で上る。</string>
+  <string Context="StairsUp LockedNoKey" ID="=object.Does:are= locked, and you don't have the key.">=object.T=は施錠されていて、鍵を持っていない。</string>
+  <string Context="Stat Debug Penetrated" ID="Penned with Roll:=roll= Final:=result=">貫通 ロール:=roll= 最終:=result=</string>
+  <string Context="Stat Debug Didn't Penetrate" ID="Didn't pen with Roll:=roll= Final:=result=">非貫通 ロール:=roll= 最終:=result=</string>
+  <string Context="StatBoostMedication Default Message" ID="The tube hisses against your skin, and your blood burns!">チューブが肌に当たってシュッと鳴り、血が燃え上がった！</string>
+  <string Context="Statistic - Stat Adjust Description Line" ID="=adjust.signed==percent.if:%= =stat.title=">=stat.title= =adjust.signed==percent.if:%=</string>
+  <string Context="Statistic - Stat Adjust Description Line - Activated" ID="When activated, =adjust.signed==percent.if:%= =stat.title=">起動時、=stat.title= =adjust.signed==percent.if:%=</string>
+  <string Context="StatLineNode xml template - invalid node name" ID="{{K|%%}}">{{K|%%}}</string>
+  <string Context="StatLineNode xml template" ID="=node.displayName=: =node.statNode#stats=">=node.displayName=: =node.statNode#stats=</string>
+  <string Context="StatNode xml template - invalid node name" ID="{{K|%%}}">{{K|%%}}</string>
+  <string Context="StickOnHit AppendEffect" ID="Melee attacks cause enemies to get stuck for =duration= turns">近接攻撃で敵を=duration=ターン動けなくする</string>
+  <string Context="StickyOnHit Message Log" ID="=subject.Does:get= entangled in =object.the.name=!">=subject.T=は=object.the.name=に絡め取られた！</string>
+  <string Context="StiltWell No Artifacts" ID="You have no artifacts to offer.">捧げるアーティファクトを持っていない。</string>
+  <string Context="StiltWell Reputation Text" ID=" [=repAmount.signed|color:C= reputation]"> [評判=repAmount.signed|color:C=]</string>
+  <string Context="StiltWell No Not Important Artifacts" ID="You have no artifacts to offer that are not important.">捧げられる重要でないアーティファクトを持っていない。</string>
+  <string Context="StiltWell Threw Items Message" ID="=subject.Does:throw= =items.andList:noSecondPerson= down =object.the.name=.">=subject.T=は=items.andList:noSecondPerson=を=object.the.name=に投げ入れた。</string>
+  <string Context="Stinger Failure no stinger found" ID="You don't have a stinger.">毒針を持っていない。</string>
+  <string Context="Stinger Resist Venom" ID="=subject.Does:resist= the effects of =object.the.name's:withTitles= venom!">=subject.T=は=object.the.name's:withTitles=毒に抵抗した！</string>
+  <string Context="Stomach DrankWayTooMuch" ID="You drank way too much!">飲みすぎた！</string>
+  <string Context="Stomach Vomit Everywhere" ID="=subject.Does:vomit= everywhere!">=subject.T=はそこらじゅうに吐いた！</string>
+  <string Context="Stomach sip message no source" ID="=subject.Does:take= a sip of fresh water.">=subject.T=は真水をひと口飲んだ。</string>
+  <string Context="Stomach TooFamishedToTravel" ID="You're too famished to travel long distances.">飢えすぎていて長距離の移動ができない。</string>
+  <string Context="Stomach pour over message no source" ID="=subject.Does:pour= fresh water over =subject.itself=.">=subject.T=は真水を=subject.itself=に浴びせた。</string>
+  <string Context="Stomach sip message with source" ID="=subject.Does:take= a sip of fresh water from =object.the.name:itsPossessor=.">=subject.T=は=object.the.name:itsPossessor=から真水をひと口飲んだ。</string>
+  <string Context="Stopsvaalinn DirectionPicker Label" ID="Activate Stopsvaalinn">ストップスヴァリンを起動</string>
+  <string Context="Stopsvaalinn Snapoff Message" ID="The {{R|forcefield}} snaps off.">{{R|力場}}がパチンと消えた。</string>
+  <string Context="Stopsvaalinn Suspended Message" ID="=subject.Does:vibrate= slightly.">=subject.T=はわずかに振動した。</string>
+  <string Context="Stopsvaalinn Success Player" ID="A {{R|forcefield}} pops into being in front of you!">目の前に{{R|力場}}がポンと現れた！</string>
+  <string Context="Stopsvaalinn Not Enough Charge" ID="=subject.Does:don't= have enough charge to sustain the field!">=subject.T=には力場を維持するチャージが足りない！</string>
+  <string Context="Stopsvaalinn Snapoff Message Other" ID="The {{R|forcefield}} in front of =subject.the.name= snaps off.">=subject.the.name=の前の{{R|力場}}がパチンと消えた。</string>
+  <string Context="Stopsvaalinn Success Other" ID="A {{R|forcefield}} pops into being in front of =subject.the.name=.">=subject.the.name=の前に{{R|力場}}がポンと現れた。</string>
+  <string Context="StrideMason (Step Sowers) Extrude" ID="=subject.Does:extrude= =object.a.name=!">=subject.T=は=object.a.name=を押し出した！</string>
+  <string Context="StunningForce Use Message Other Nearby" ID="=subject.Does:feel= a concussive blast around =subject.them=!">=subject.T=は周囲に衝撃波を感じた！</string>
+</strings>

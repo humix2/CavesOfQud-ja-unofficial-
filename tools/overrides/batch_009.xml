@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Encoding="utf-8">
+  <string Context="History Worship sacredThings" ID="=faction.the.name=">=faction.the.name=</string>
+  <string Context="History Worship itemAdjectiveRoots" ID="=faction.the.name=">=faction.the.name=</string>
+  <string Context="History Worships itemAdjectiveRoots" ID="=subject.refname:Worship|strip=">=subject.refname:Worship|strip=</string>
+  <string Context="History Worships Creature Full Name" ID="=subject.refname:Worship:long:withTitles|strip=">=subject.refname:Worship:long:withTitles|strip=</string>
+  <string Context="History Worships sacredThing" ID="=subject.refname:Worship:long:withTitles|strip=">=subject.refname:Worship:long:withTitles|strip=</string>
+  <string Context="Hobble Effect Duration" ID="16-20">16-20</string>
+  <string Context="Hobble Stat Change" ID="-50% move speed">移動速度 -50%</string>
+  <string Context="Hobble Attempt Message" ID="=subject.Does:attempt= to hobble =object.the.name=.">=subject.T=は=object.the.name=の足を引っかけようとした。</string>
+  <string Context="Hobble Self Warning" ID="Are you sure you want to hobble =subject.reflexive=?">本当に=subject.reflexive=の足を引っかけますか？</string>
+  <string Context="Hobbled Effect Particle Text" ID="*hobbled*">*足止め*</string>
+  <string Context="Hobbled Effect Apply Message" ID="=subject.Does:are= hobbled!">=subject.T=は足止めされた！</string>
+  <string Context="HologramProjector Appears" ID="=subject.a.name= =subject.verb:appear= =subject.to.the.direction=.">=subject.to.the.direction=に=subject.a.name=が現れた。</string>
+  <string Context="HologramProjector Disappears" ID="=subject.a.name= =subject.verb:disappear= =subject.to.the.direction=.">=subject.to.the.direction=で=subject.a.name=が消えた。</string>
+  <string Context="Hookah Fail NoWater" ID="=subject.Does:need= water in =subject.them=.">=subject.T=には水を入れる必要がある。</string>
+  <string Context="Hookah Puffs" ID="=subject.Does:take= a puff on =object.the.name=.">=subject.T=は=object.the.name=を一服吸った。</string>
+  <string Context="HookAndDrag FireEvent NoValidTarget" ID="There's nothing there you can hook.">そこには引っかけられるものがない。</string>
+  <string Context="HookAndDrag Target Stands Its Ground" ID="=subject.Does:stand= =subject.its= ground!">=subject.T=は踏みとどまった！</string>
+  <string Context="HookAndDrag FireEvent SuccessMessage" ID="=subject.Does:hook= =object.the.name= with =subject.its.item#weapon=!">=subject.T=は=subject.its.item#weapon=で=object.the.name=を引っかけた！</string>
+  <string Context="HookAndDrag FireEvent NoAxeEquipped" ID="You must have an axe equipped in your primary hand to use Hook and Drag.">フック＆ドラッグを使うには利き手に斧を装備している必要がある。</string>
+  <string Context="Hooked Effect Break Free Particle Text" ID="*broke free*">*振りほどいた*</string>
+  <string Context="Hooked Effect Move Failure Message" ID="You are hooked!">引っかけられている！</string>
+  <string Context="Hooked Effect Break Free Message No Weapon" ID="=subject.Does:break= free from the hook maneuver!">=subject.T=は引っかけから逃れた！</string>
+  <string Context="Hooked Effect Break Free Message" ID="=subject.Does:break= free from =object.the.name=!">=subject.T=は=object.the.name=から逃れた！</string>
+  <string Context="HookOnMissileHit DraggedToward" ID="=subject.Does:are= dragged toward =object.the.name=.">=subject.T=は=object.the.name=のほうへ引きずられた。</string>
+  <string Context="HooksForFeet BlueprintName description variable" ID="=blueprint.name=">=blueprint.name=</string>
+  <string Context="Hydropon Terrain Short Description" ID="It's the hydropon.">ハイドロポンだ。</string>
+  <string Context="IfThenElseQuestWidget Tau and Companion Disappearing" ID="=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=.">=subject.The.name=が=subject.directionIfAny=で消え去った。</string>
+  <string Context="Ill Effect Recuperating Message" ID="=subject.Does:are= no longer ill.">=subject.T=の病気が治った。</string>
+  <string Context="Immobilized Effect Apply Particle Text" ID="*immobilized*">*拘束*</string>
+  <string Context="Immobilized Effect Move Failure Message" ID="You are immobilized!">動けない！</string>
+  <string Context="Immobilized Effect Apply Message" ID="=subject.Does:are= immobilized!">=subject.T=は動けなくなった！</string>
+  <string Context="Immobilized Effect Remove Message" ID="=subject.Does:are= no longer immobilized.">=subject.T=は動けるようになった。</string>
+  <string Context="IModification Wish Modification Unfound" ID="No modification by the name '=modName=' could be found.">「=modName=」という名前の改造は見つからなかった。</string>
+  <string Context="IModification Wish Blueprint Unfound" ID="No blueprint by the name '=objectName=' could be found.">「=objectName=」という名前の設計図は見つからなかった。</string>
+  <string Context="Infiltrate notify player enemy teleported them" ID="You are teleported by =object.the.name=.">=object.the.name=によってテレポートさせられた。</string>
+  <string Context="Infiltrate targeting" ID="=subject.Does:focus= =subject.its= sensor somewhere else.">=subject.T=はセンサーを別の場所に向けた。</string>
+  <string Context="InitializeLocation History Decorate Generated Name" ID="=spice:history.regions.names.!random=">=spice:history.regions.names.!random=</string>
+  <string Context="InteractWithAnObjectDynamicQuestTemplate refuse choice" ID="No, I will not.">いや、断る。</string>
+  <string Context="InteractWithAnObjectDynamicQuestTemplate quest name 50/50" ID="=item.the.name|title=">=item.the.name|title=</string>
+  <string Context="InteractWithAnObjectDynamicQuestTemplate return step name" ID="Return to =originZoneName=">=originZoneName=に戻る</string>
+  <string Context="InteractWithAnObjectDynamicQuestTemplate return step text" ID="Return to =originZoneName= and speak to =giver.displayNameOnlyDirect|strip=.">=originZoneName=に戻り、=giver.displayNameOnlyDirect|strip=と話す。</string>
+  <string Context="Interior Take Damage" ID="=subject.Does:take= =amount= damage!">=subject.T=は=amount=のダメージを受けた！</string>
+  <string Context="Interior Message Hostile" ID="=subject.Does:refuse= =object.the.name= entry.">=subject.T=は=object.the.name=の立ち入りを拒んだ。</string>
+  <string Context="Interior Message Unreachable" ID="=subject.The.name= cannot reach =object.the.name=.">=subject.The.name=は=object.the.name=に届かない。</string>
+  <string Context="Interior Message Invalid" ID="=subject.Does:are= unable to enter =object.the.name=.">=subject.T=は=object.the.name=に入れない。</string>
+  <string Context="Interior Message Out Of Phase" ID="=subject.Does:are= out of phase with =object.the.name=.">=subject.T=は=object.the.name=と位相がずれている。</string>
+  <string Context="Interior Message Too Large" ID="=subject.Does:are= too large to enter =object.the.name=.">=subject.T=は大きすぎて=object.the.name=に入れない。</string>
+  <string Context="Inventory Window - Left side item name" ID="=item.long=">=item.long=</string>
+  <string Context="Inventory Window - Right side item info" ID="[=item.weight= lbs.]">[=item.weight=ポンド]</string>
+  <string Context="Inventory AutoAct" ID="=object.T= can't be picked up.">=object.T=は拾えない。</string>
+  <string Context="Inventory Equip Fail Stuck" ID="You cannot equip items while stuck!">動けない状態では装備できない！</string>
+  <string Context="Inventory Equip Fail" ID="You cannot equip =object.the.name=.">=object.the.name=を装備できない。</string>
+  <string Context="Inventory Remove Fail Stuck" ID="You cannot remove items while stuck!">動けない状態では外せない！</string>
+  <string Context="Inventory take" ID="=subject.Does:take= =object.the.name=.">=subject.T=は=object.the.name=を拾った。</string>
+  <string Context="Inventory drop" ID="=subject.Does:drop= =object.the.name=.">=subject.T=は=object.the.name=を捨てた。</string>
+  <string Context="inventory unequip" ID="=subject.Does:unequip= =subject.its.item#object=.">=subject.T=は=subject.its.item#object=を外した。</string>
+  <string Context="Inventory Equip" ID="=subject.Does:equip= =object.indefiniteForOthers#subject=.">=subject.T=は=object.indefiniteForOthers#subject=を装備した。</string>
+  <string Context="Inventory Cannot Equip On Part" ID="You cannot equip =object.the.name= on your =part.ordinalName=.">=part.ordinalName=には=object.the.name=を装備できない。</string>
+  <string Context="Inventory take from direction" ID="=subject.Does:take= =object.the.name= =subject.from.its.direction#direction=.">=subject.T=は=subject.from.its.direction#direction==object.the.name=を拾った。</string>
+  <string Context="InventoryAbilitySystem =originalname= snapshot" ID="=subject.name:single=">=subject.name:single=</string>
+  <string Context="InventoryAbilitySystem Rename custom ability" ID="Rename custom ability">カスタムアビリティの名前を変更</string>
+  <string Context="InventoryAbilitySystem Remove custom ability" ID="Remove custom ability">カスタムアビリティを削除</string>
+  <string Context="InventoryAbilitySystem Name your custom ability" ID="Name your custom ability">カスタムアビリティに名前を付ける</string>
+  <string Context="InventoryAbilitySystem ability description" ID="Directly access inventory item">インベントリのアイテムを直接使う</string>
+  <string Context="InventoryAbilitySystem Access your item" ID="Access your =subject.name:single=">=subject.name:single=を使う</string>
+  <string Context="InventoryAbilitySystem Edit Ability w/ Ability Name only" ID="Edit custom ability: =abilityname=">カスタムアビリティを編集: =abilityname=</string>
+  <string Context="InventoryAbilitySystem Removed custom inventory ability" ID="Removed custom inventory ability: =abilityname=">カスタムインベントリアビリティを削除した: =abilityname=</string>
+  <string Context="InventoryAbilitySystem Edit Ability w/ Ability Name (Original Object Name)" ID="Edit custom ability: =abilityname= (=originalname=)">カスタムアビリティを編集: =abilityname=（=originalname=）</string>
+  <string Context="InventoryAbilitySystem can't find ability for item" ID="{{R|[Inventory Abilities] - Can't find ability for item!}}">{{R|[インベントリアビリティ] - アイテムのアビリティが見つからない！}}</string>
+  <string Context="InventoryAndEquipmentScreen weighttext summary" ID="{{C|=carried={{K|/=max=}} lbs. }}">{{C|=carried={{K|/=max=}}ポンド }}</string>
+  <string Context="InventoryAndEquipmentStatusScreen A-Z sort mode name" ID="A-Z">A-Z</string>
+  <string Context="InventoryAndEquipmentStatusScreen equipment view setting list" ID="List">リスト</string>
+  <string Context="InventoryAndEquipmentStatusScreen search mode setting fuzzy" ID="Fuzzy">あいまい</string>
+  <string Context="InventoryAndEquipmentStatusScreen search mode setting strict" ID="Strict">厳密</string>
+  <string Context="InventoryAndEquipmentStatusScreen Category sort mode name" ID="Category">カテゴリ</string>
+  <string Context="InventoryAndEquipmentStatusScreen equipment view setting paperdoll" ID="Paperdoll">人体図</string>
+  <string Context="InventoryAndEquipmentStatusScreen choose sort mode" ID="Choose Inventory Sort Mode">インベントリの並び順を選択</string>
+  <string Context="InventoryAndEquipmentStatusScreen show equipment" ID="=commandKey:Toggle= show equipment">=commandKey:Toggle= 装備を表示</string>
+  <string Context="InventoryAndEquipmentStatusScreen show cybernetics" ID="=commandKey:Toggle= show cybernetics">=commandKey:Toggle= サイバネティクスを表示</string>
+  <string Context="InventoryAndEquipmentStatusScreen sort mode setting" ID="Sort Mode: =modes.textSelector:W#selected=">並び順: =modes.textSelector:W#selected=</string>
+  <string Context="InventoryAndEquipmentStatusScreen search mode setting" ID="Search Mode: =modes.textSelector:W#selected=">検索モード: =modes.textSelector:W#selected=</string>
+  <string Context="InventoryAndEquipmentStatusScreen equipment view setting" ID="Equipment View: =modes.textSelector:W#selected=">装備表示: =modes.textSelector:W#selected=</string>
+  <string Context="InventoryLine category title weight" ID="|=weight= lbs.|">|=weight=ポンド|</string>
+  <string Context="InventoryLine category expander" ID="=expand.expanded=">=expand.expanded=</string>
+  <string Context="InventoryLine category title items and weight" ID="|=amount= items|=weight= lbs.|">|=amount=個|=weight=ポンド|</string>
+  <string Context="Invulnerable Effect DisplayName" ID="{{O|invulnerable}}">{{O|無敵}}</string>
+  <string Context="IPlaquePart Inscription" ID="=baseInscription|varyPlaque#wordWrap#cornerColor#edgeColor#darkColor=">=baseInscription|varyPlaque#wordWrap#cornerColor#edgeColor#darkColor=</string>
+  <string Context="IProgrammableRecoiler Fail MerelyClicks" ID="=subject.Doesly:merely:click=.">=subject.T=はカチッと鳴っただけだった。</string>
+  <string Context="IrisdualCallow Effect Remove Message" ID="=subject.The.name's:withTitles= rind recrystallizes and hardens once more.">=subject.The.name's:withTitles=外皮が再び結晶化して硬くなった。</string>
+  <string Context="IronMind particle text" ID="*shook off confusion*">*混乱を振り払った*</string>
+  <string Context="IronshankOnset Effect Worsen Player Message" ID="Your legs ache at the joints.">脚の関節が痛む。</string>
+  <string Context="IrritableGenome acts up" ID="=subject.The.name's= irritable genome acts up. =spentPointsReport.join: =">=subject.The.name's=過敏なゲノムが暴れ出した。=spentPointsReport.join: =</string>
+  <string Context="ITeleporter Fail Broken" ID="=subject.Itis= broken...">=subject.T=は壊れている…</string>
+  <string Context="ITeleporter Fail Booting" ID="=subject.Does:are= still starting up.">=subject.T=はまだ起動中だ。</string>
+  <string Context="ITeleporter Onboard Fail Hostiles" ID="You can't recoil with hostiles nearby!">敵が近くにいる状態ではリコイルできない！</string>
+  <string Context="ITeleporter Fail Booting" ID="=subject.Does:don't= have enough charge to function.">=subject.T=には動作に必要なチャージが足りない。</string>
+  <string Context="ITeleporter Fail Hostiles" ID="You can't use =object.the.name= with hostiles nearby!">敵が近くにいる状態では=object.the.name=を使えない！</string>
+  <string Context="ITeleporter Fail Rusted" ID="=subject.The.name's:withTitles= activation button is rusted in place.">=subject.The.name's:withTitles=起動ボタンは錆びついて動かない。</string>
+  <string Context="Joppa Zealot Yells" ID="The beauty! My stomach is in stirs.">なんと美しい！ 胃がざわめく。</string>
+  <string Context="Joppa Zealot Yell" ID="=subject.Does:yell=, {{W|'=message='}}">=subject.T=は叫んだ、{{W|「=message=」}}</string>
+  <string Context="Joppa Zealot Yells" ID="Who ventures into the Great Salt Desert, and nearer the Six Day Stilt?">大塩砂漠に踏み入り、六日の竹馬に近づく者は誰だ？</string>
+  <string Context="Joppa Zealot Yells" ID="Is it a dybbuk that possesses the robot? It should be sacred and still.">ロボットに取り憑いているのはディブクか？ それは神聖で静かであるべきだ。</string>
+  <string Context="JoppaWorldBuilder Farms" ID="Settling farms...">農場を開墾中…</string>
+  <string Context="JoppaWorldBuilder Orchards" ID="Planting orchards...">果樹園を植えている…</string>
+  <string Context="JoppaWorldBuilder Weep Secret" ID="=subject.a.name:long=">=subject.a.name:long=</string>
+  <string Context="JoppaWorldBulder Encounter Build Clams" ID="Shucking clams...">貝の殻を剥いている…</string>
+  <string Context="JoppaWorldBulder Encounter Build Sultans" ID="Organizing cults...">教団を組織中…</string>
+  <string Context="JoppaWorldBulder Encounter Build Gossip" ID="Spreading gossip...">噂を広めている…</string>
+  <string Context="JoppaWorldBulder Encounter Build Villages" ID="Founding villages...">村を建設中…</string>
+  <string Context="JoppaWorldBulder Encounter Build Quests" ID="Seeding personalities...">人物を配置中…</string>
+  <string Context="JoppaWorldBulder Encounter Build Lairs" ID="Mythologizing creatures...">クリーチャーを神話化中…</string>
+  <string Context="journal category" ID="Dimensions">次元</string>
+  <string Context="Journal Map Note, describe directions" ID="=note.location=">=note.location=</string>
+  <string Context="Journal - Finalize entry text" ID="=text|capitalize=">=text|capitalize=</string>
+  <string Context="Journal Revealed from conversation" ID=" {{K|-learned from =faction.the.name=}}"> {{K|-=faction.the.name=から習得}}</string>
+  <string Context="Journal Map Note, last visitied" ID="Last visited on =time.day= of =time.month=">最終訪問: =time.month=の=time.day=</string>
+  <string Context="JournalAPI Recipe Text Block" ID="=recipe.journalText=">=recipe.journalText=</string>
+  <string Context="JournalAPI Accomplishment Modifier Lovesick" ID="=spice:lovesick.!random=">=spice:lovesick.!random=</string>
+  <string Context="JournalAPI Accomplishment Modifier Aflame" ID="While on fire, =text|initLower=">燃えながら、=text|initLower=</string>
+  <string Context="JournalAPI Accomplishment Modifier Frozen" ID="While frozen solid, =text|initLower=">凍りつきながら、=text|initLower=</string>
+  <string Context="JournalAPI Last-Ditch MuralText from Accomplishment Text" ID="=text|capitalize|secondToThirdPerson=">=text|capitalize|secondToThirdPerson=</string>
+  <string Context="JournalLine category no expander" ID="=category=">=category=</string>
+  <string Context="JournalLine category with expander" ID="=expand.expanded= =category=">=expand.expanded= =category=</string>
+  <string Context="JournalLine Recipe Effects Description" ID="=recipe.ingredients=&#10; &#10; &#10;">=recipe.ingredients=
+ 
+ 
+</string>
+  <string Context="JournalLine StandardNote" ID="{{=tradeablecolor=|$}} =journaltext=">{{=tradeablecolor=|$}} =journaltext=</string>
+  <string Context="JournalLine Recipe Effects Description" ID="=recipe.ingredients=&#10;=recipe.effects= &#10; &#10;">=recipe.ingredients=
+=recipe.effects= 
+ 
+</string>
+  <string Context="JournalLine SultanNote" ID="{{=tradeablecolor=|$}} {{w|[tomb engraving] =journaltext=}}">{{=tradeablecolor=|$}} {{w|[墓の碑文] =journaltext=}}</string>
+  <string Context="JournalLine MapNote" ID="=tracked.checkbox.basic= {{=tradeablecolor=|$}} =journaltext=">=tracked.checkbox.basic= {{=tradeablecolor=|$}} =journaltext=</string>
+  <string Context="JournalMapNote Category" ID="General">一般</string>
+  <string Context="JournalMapNote ShareText" ID="The location of =note.text|lowerArticles=">=note.text|lowerArticles=の場所</string>
+  <string Context="JournalMapNote Reveal FailSafe" ID="tell support@freeholdgames.com unknown location category: =category=">support@freeholdgames.com に報告してください。不明な場所カテゴリ: =category=</string>
+  <string Context="JournalStatusScreen CMD_FORGET Button Forget" ID="Forget">忘れる</string>
+  <string Context="JournalStatusScreen Recipe Rename" ID="Rename recipe">レシピ名を変更</string>
+  <string Context="JournalStatusScreen Recipe Forget" ID="Forget recipe">レシピを忘れる</string>
+  <string Context="JournalStatusScreen CMD_FAVORITE Button Favorite" ID="Toggle Favorite">お気に入り切り替え</string>
+  <string Context="JournalStatusScreen Recipe Favorite" ID="Add to favorites">お気に入りに追加</string>
+  <string Context="JournalStatusScreen SortModeAlphabetical Selected" ID="{{W|Alphabetical}}">{{W|名前順}}</string>
+  <string Context="JournalStatusScreen SortModeAlphabetical NotSelected" ID="{{y|Alphabetical}}">{{y|名前順}}</string>
+  <string Context="JournalStatusScreen Recipe Unfavorite" ID="Remove from favorites">お気に入りから外す</string>
+  <string Context="JournalStatusScreen SortModeRecentlyLearned Selected" ID="{{W|Most recently learned}}">{{W|最近覚えた順}}</string>
+  <string Context="JournalStatusScreen SortModeRecentlyLearned NotSelected" ID="{{y|Most recently learned}}">{{y|最近覚えた順}}</string>
+  <string Context="JournalStatusScreen SortModeFrequentlyCooked Selected" ID="{{W|Most frequently cooked}}">{{W|よく作る順}}</string>
+  <string Context="JournalStatusScreen SortModeFrequentlyCooked NotSelected" ID="{{y|Most frequently cooked}}">{{y|よく作る順}}</string>
+  <string Context="JournalStatusScreen History Of Sultan Category Label" ID="{{W|HISTORY OF =sultan|upper=}}">{{W|=sultan|upper=の歴史}}</string>
+  <string Context="JournalStatusScreen SortModeFavoritesFirst Selected" ID="{{W|Alphabetical, favorites first}}">{{W|名前順（お気に入り優先）}}</string>
+  <string Context="JournalStatusScreen SortModeFavoritesFirst NotSelected" ID="{{y|Alphabetical, favorites first}}">{{y|名前順（お気に入り優先）}}</string>
+  <string Context="JournalSultanStatusLine category expander" ID="=expand.expanded= =category=">=expand.expanded= =category=</string>
+  <string Context="JournalSultanStatusLine tradeable status line" ID="{{=tradeablecolor=|$}} =journalline=">{{=tradeablecolor=|$}} =journalline=</string>
+  <string Context="Jump TargetPicker Label" ID="Jump where?">どこへ跳ぶ？</string>
+  <string Context="Jump MovementCapabilities Description" ID="Jump to Square">マスへジャンプ</string>
+  <string Context="JumpBoost RulesPostFix CanJumpOver" ID="You can jump over creatures">クリーチャーを飛び越えられる</string>
+  <string Context="JumpBoost RulesPostfix MinimumRangeMod" ID="=minrange.signed= minimum jump distance">最小ジャンプ距離 =minrange.signed=</string>
+  <string Context="JumpBoost RulesPostfix RangeIncrease" ID="This item increases jump distance by =range.abs=.">このアイテムはジャンプ距離を=range.abs=伸ばす。</string>
+  <string Context="JumpBoost RulesPostfix RangeDecrease" ID="This item decreases jump distance by =range.abs=.">このアイテムはジャンプ距離を=range.abs=縮める。</string>
+  <string Context="Keybind Screen Box - waiting press - console" ID="{{R|...}}">{{R|...}}</string>
+  <string Context="keybind" ID="{{W|Alt}}">{{W|Alt}}</string>
+  <string Context="keybind" ID="unknown key">不明なキー</string>
+  <string Context="KeybindRow Bind" ID="{{w|=bind=}}">{{w|=bind=}}</string>
+  <string Context="KeybindRow Key Description Text" ID="{{C|=description=}}">{{C|=description=}}</string>
+  <string Context="KeybindRow Category Collapser" ID="{{C|=expand.expanded=}}">{{C|=expand.expanded=}}</string>
+  <string Context="KeybindRow Category Description Text" ID="{{C|=description|upper=}}">{{C|=description|upper=}}</string>
+  <string Context="KeybindsScreen QueryKeyBinds Configuring Controller" ID="{{C|Configuring Controller:}} {{c|=gamepadname=}}">{{C|コントローラーを設定中:}} {{c|=gamepadname=}}</string>
+  <string Context="KeybindsScreen HandleMenuOption RemoveBind Not Allowed" ID="Cannot remove the last binding for =commandText|color:C=.">=commandText|color:C=の最後の割り当ては解除できない。</string>
+  <string Context="KeybindsScreen HandleMenuOption RestoreDefaults Confirm" ID="Are you sure you want to override your bindings with the default?">本当にキー割り当てを初期設定で上書きしますか？</string>
+</strings>

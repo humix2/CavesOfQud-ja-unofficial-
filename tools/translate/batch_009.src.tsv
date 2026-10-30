@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	HistoricEvent ForgeItem gospel appendix	=gospel= =spice.entity:subjectPronoun|capitalize= named it =itemName=.
+2	Strings.example.xml	HistoricEvent BecomesKnownFor profaneThing	those who =spice:commonPhrases.profane.!random= =item.pluralName|strip=
+3	Strings.example.xml	HistoricEvent NewGovernment profaneThing	those who =spice:commonPhrases.profane.!random= =spice.entity:governor=
+4	Strings.example.xml	HistoricEvent InitializeVillage defaultSacredThing	=spice:villages.reasonForFounding.$reasonForFounding.sacredThing.!random=
+5	Strings.example.xml	HistoricEvent InitializeRegion	the godless =governmentType|titleCaseWithArticle= of =generatedName|title=
+6	Strings.example.xml	HistoricEvent InitializeVillage defaultProfaneThing	=spice:villages.reasonForFounding.$reasonForFounding.profaneThing.!random=
+7	Strings.example.xml	HistoricEvent ChallengeSultan duelType	was challenged by =spice:commonPhrases.pretender.!random|article= to a duel
+8	Strings.example.xml	HistoricEvent ChallengeSultan gospel duelReason	over the sanctioned persecution of =spice:professions.entity@profession.plural=
+9	Strings.example.xml	HistoricEvent ForgeItem tombInscription appendix	=tombInscription= =spice.entity:subjectPronoun|capitalize= named it =itemName=.
+10	Strings.example.xml	History Worship sacredThings	=faction.the.name=
+11	Strings.example.xml	History Worship itemAdjectiveRoots	=faction.the.name=
+12	Strings.example.xml	History Worships itemAdjectiveRoots	=subject.refname:Worship|strip=
+13	Strings.example.xml	History Worships Creature Full Name	=subject.refname:Worship:long:withTitles|strip=
+14	Strings.example.xml	History Worships sacredThing	=subject.refname:Worship:long:withTitles|strip=
+15	Strings.example.xml	History Worships profaneThings	=spice:commonPhrases.profanity.!random= toward =sultanName=
+16	Strings.example.xml	History Worship profaneThings	=spice:commonPhrases.profanity.!random= toward =faction.the.name=
+17	Strings.example.xml	Hobble Effect Duration	16-20
+18	Strings.example.xml	Hobble Stat Change	-50% move speed
+19	Strings.example.xml	Hobble Attempt Message	=subject.Does:attempt= to hobble =object.the.name=.
+20	Strings.example.xml	Hobble Self Warning	Are you sure you want to hobble =subject.reflexive=?
+21	Strings.example.xml	Hobbled Effect Particle Text	*hobbled*
+22	Strings.example.xml	Hobbled Effect Apply Message	=subject.Does:are= hobbled!
+23	Strings.example.xml	HologramProjector NameForStatus TechScanning	Holography
+24	Strings.example.xml	HologramProjector Appears	=subject.a.name= =subject.verb:appear= =subject.to.the.direction=.
+25	Strings.example.xml	HologramProjector Disappears	=subject.a.name= =subject.verb:disappear= =subject.to.the.direction=.
+26	Strings.example.xml	Hookah Fail NoWater	=subject.Does:need= water in =subject.them=.
+27	Strings.example.xml	Hookah Puffs	=subject.Does:take= a puff on =object.the.name=.
+28	Strings.example.xml	HookAndDrag FireEvent NoValidTarget	There's nothing there you can hook.
+29	Strings.example.xml	HookAndDrag Target Stands Its Ground	=subject.Does:stand= =subject.its= ground!
+30	Strings.example.xml	HookAndDrag FireEvent SuccessMessage	=subject.Does:hook= =object.the.name= with =subject.its.item#weapon=!
+31	Strings.example.xml	HookAndDrag FireEvent NoAxeEquipped	You must have an axe equipped in your primary hand to use Hook and Drag.
+32	Strings.example.xml	Hooked Effect Break Free Particle Text	*broke free*
+33	Strings.example.xml	Hooked Effect Move Failure Message	You are hooked!
+34	Strings.example.xml	Hooked Effect Break Free Message No Weapon	=subject.Does:break= free from the hook maneuver!
+35	Strings.example.xml	Hooked Effect Break Free Message	=subject.Does:break= free from =object.the.name=!
+36	Strings.example.xml	HookOnMissileHit DraggedToward	=subject.Does:are= dragged toward =object.the.name=.
+37	Strings.example.xml	HooksForFeet BlueprintName description variable	=blueprint.name=
+38	Strings.example.xml	hostile perception verb	detect
+39	Strings.example.xml	hostile perception verb	perceive
+40	Strings.example.xml	Hydropon Terrain Short Description	It's the hydropon.
+41	Strings.example.xml	IfThenElseQuestWidget Tau and Companion Disappearing	=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=.
+42	Strings.example.xml	Ill Effect Recuperating Message	=subject.Does:are= no longer ill.
+43	Strings.example.xml	Immobilized Effect Apply Particle Text	*immobilized*
+44	Strings.example.xml	Immobilized Effect Move Failure Message	You are immobilized!
+45	Strings.example.xml	Immobilized Effect Apply Message	=subject.Does:are= immobilized!
+46	Strings.example.xml	Immobilized Effect Remove Message	=subject.Does:are= no longer immobilized.
+47	Strings.example.xml	IModification Wish Modification Unfound	No modification by the name '=modName=' could be found.
+48	Strings.example.xml	IModification Wish Blueprint Unfound	No blueprint by the name '=objectName=' could be found.
+49	Strings.example.xml	Infiltrate notify player enemy teleported them	You are teleported by =object.the.name=.
+50	Strings.example.xml	Infiltrate targeting	=subject.Does:focus= =subject.its= sensor somewhere else.
+51	Strings.example.xml	InitializeLocation History Decorate Generated Name	=spice:history.regions.names.!random=
+52	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate refuse choice	No, I will not.
+53	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate quest name 50/50	=item.the.name|title=
+54	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate return step name	Return to =originZoneName=
+55	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate accomplishment	You =verb.pastTense= =item.the.name:long=.
+56	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate quest name (50/50)	=subject.basename's|strip= Strange =plan|title=
+57	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate complete option	I've =verb.pastTense= =item.the.basename|strip=.
+58	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate quest name 50/50	=verb|title= =item.the.name|titleCaseWithArticle=
+59	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate accept choice	Yes. I will =verb= =item.the.basename|strip= as you ask.
+60	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate incomplete option	I haven't =verb.pastTense= =item.the.basename|strip= yet.
+61	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate locate step name	=verb|title= =item.the.basename|strip|titleCaseWithArticle=
+62	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate locate step text	Travel to =deliveryTargetName= and =verb= =item.the.basename|strip=.
+63	Strings.example.xml	InteractWithAnObjectDynamicQuestTemplate return step text	Return to =originZoneName= and speak to =giver.displayNameOnlyDirect|strip=.
+64	Strings.example.xml	Interior Take Damage	=subject.Does:take= =amount= damage!
+65	Strings.example.xml	Interior Message Hostile	=subject.Does:refuse= =object.the.name= entry.
+66	Strings.example.xml	Interior Message Unreachable	=subject.The.name= cannot reach =object.the.name=.
+67	Strings.example.xml	Interior Message Invalid	=subject.Does:are= unable to enter =object.the.name=.
+68	Strings.example.xml	Interior Message Out Of Phase	=subject.Does:are= out of phase with =object.the.name=.
+69	Strings.example.xml	Interior Message Too Large	=subject.Does:are= too large to enter =object.the.name=.
+70	Strings.example.xml	Inventory Window - Left side item name	=item.long=
+71	Strings.example.xml	Inventory Window - Right side item info	[=item.weight= lbs.]
+72	Strings.example.xml	Inventory AutoAct	=object.T= can't be picked up.
+73	Strings.example.xml	Inventory Equip Fail Stuck	You cannot equip items while stuck!
+74	Strings.example.xml	Inventory Equip Fail	You cannot equip =object.the.name=.
+75	Strings.example.xml	Inventory Remove Fail Stuck	You cannot remove items while stuck!
+76	Strings.example.xml	Inventory take	=subject.Does:take= =object.the.name=.
+77	Strings.example.xml	Inventory drop	=subject.Does:drop= =object.the.name=.
+78	Strings.example.xml	inventory unequip	=subject.Does:unequip= =subject.its.item#object=.
+79	Strings.example.xml	Inventory Equip	=subject.Does:equip= =object.indefiniteForOthers#subject=.
+80	Strings.example.xml	Inventory Cannot Equip On Part	You cannot equip =object.the.name= on your =part.ordinalName=.
+81	Strings.example.xml	Inventory take from direction	=subject.Does:take= =object.the.name= =subject.from.its.direction#direction=.
+82	Strings.example.xml	InventoryAbilitySystem =originalname= snapshot	=subject.name:single=
+83	Strings.example.xml	InventoryAbilitySystem Rename custom ability	Rename custom ability
+84	Strings.example.xml	InventoryAbilitySystem Remove custom ability	Remove custom ability
+85	Strings.example.xml	InventoryAbilitySystem Name your custom ability	Name your custom ability
+86	Strings.example.xml	InventoryAbilitySystem ability description	Directly access inventory item
+87	Strings.example.xml	InventoryAbilitySystem Access your item	Access your =subject.name:single=
+88	Strings.example.xml	InventoryAbilitySystem Edit Ability w/ Ability Name only	Edit custom ability: =abilityname=
+89	Strings.example.xml	InventoryAbilitySystem Removed custom inventory ability	Removed custom inventory ability: =abilityname=
+90	Strings.example.xml	InventoryAbilitySystem Edit Ability w/ Ability Name (Original Object Name)	Edit custom ability: =abilityname= (=originalname=)
+91	Strings.example.xml	InventoryAbilitySystem can't find ability for item	{{R|[Inventory Abilities] - Can't find ability for item!}}
+92	Strings.example.xml	InventoryAndEquipmentScreen weighttext summary	{{C|=carried={{K|/=max=}} lbs. }}
+93	Strings.example.xml	InventoryAndEquipmentStatusScreen A-Z sort mode name	A-Z
+94	Strings.example.xml	InventoryAndEquipmentStatusScreen equipment view setting list	List
+95	Strings.example.xml	InventoryAndEquipmentStatusScreen search mode setting fuzzy	Fuzzy
+96	Strings.example.xml	InventoryAndEquipmentStatusScreen search mode setting strict	Strict
+97	Strings.example.xml	InventoryAndEquipmentStatusScreen Category sort mode name	Category
+98	Strings.example.xml	InventoryAndEquipmentStatusScreen equipment view setting paperdoll	Paperdoll
+99	Strings.example.xml	InventoryAndEquipmentStatusScreen choose sort mode	Choose Inventory Sort Mode
+100	Strings.example.xml	InventoryAndEquipmentStatusScreen show equipment	=commandKey:Toggle= show equipment
+101	Strings.example.xml	InventoryAndEquipmentStatusScreen show cybernetics	=commandKey:Toggle= show cybernetics
+102	Strings.example.xml	InventoryAndEquipmentStatusScreen sort mode setting	Sort Mode: =modes.textSelector:W#selected=
+103	Strings.example.xml	InventoryAndEquipmentStatusScreen search mode setting	Search Mode: =modes.textSelector:W#selected=
+104	Strings.example.xml	InventoryAndEquipmentStatusScreen equipment view setting	Equipment View: =modes.textSelector:W#selected=
+105	Strings.example.xml	InventoryLine category title weight	|=weight= lbs.|
+106	Strings.example.xml	InventoryLine category expander	=expand.expanded=
+107	Strings.example.xml	InventoryLine category title items and weight	|=amount= items|=weight= lbs.|
+108	Strings.example.xml	Invulnerable Effect DisplayName	{{O|invulnerable}}
+109	Strings.example.xml	IPlaquePart Inscription	=baseInscription|varyPlaque#wordWrap#cornerColor#edgeColor#darkColor=
+110	Strings.example.xml	IProgrammableRecoiler Fail MerelyClicks	=subject.Doesly:merely:click=.
+111	Strings.example.xml	IrisdualCallow Effect Remove Message	=subject.The.name's:withTitles= rind recrystallizes and hardens once more.
+112	Strings.example.xml	IronMind particle text	*shook off confusion*
+113	Strings.example.xml	IronshankOnset Effect Worsen Player Message	Your legs ache at the joints.
+114	Strings.example.xml	IrritableGenome acts up	=subject.The.name's= irritable genome acts up. =spentPointsReport.join: =
+115	Strings.example.xml	ITeleporter FailureDescription FAIL_PROTOCOL	ProtocolMismatch
+116	Strings.example.xml	ITeleporter FailureDescription FAIL_PLANE	QuantumPhaseMismatch
+117	Strings.example.xml	ITeleporter Fail Broken	=subject.Itis= broken...
+118	Strings.example.xml	ITeleporter FailureDescription FAIL_WORLD	RelativityCompensationFailure
+119	Strings.example.xml	ITeleporter Fail Booting	=subject.Does:are= still starting up.
+120	Strings.example.xml	ITeleporter Onboard Fail Hostiles	You can't recoil with hostiles nearby!
+121	Strings.example.xml	ITeleporter Fail Booting	=subject.Does:don't= have enough charge to function.
+122	Strings.example.xml	ITeleporter Fail Hostiles	You can't use =object.the.name= with hostiles nearby!
+123	Strings.example.xml	ITeleporter Fail Rusted	=subject.The.name's:withTitles= activation button is rusted in place.
+124	Strings.example.xml	Joppa Zealot Yells	The beauty! My stomach is in stirs.
+125	Strings.example.xml	Joppa Zealot Yell	=subject.Does:yell=, {{W|'=message='}}
+126	Strings.example.xml	Joppa Zealot Yells	Who ventures into the Great Salt Desert, and nearer the Six Day Stilt?
+127	Strings.example.xml	Joppa Zealot Yells	Is it a dybbuk that possesses the robot? It should be sacred and still.
+128	Strings.example.xml	JoppaWorldBuilder ZoneName Article - Village Outskirts Sky	the
+129	Strings.example.xml	JoppaWorldBuilder ZoneName Article - Village Sky	the
+130	Strings.example.xml	JoppaWorldBuilder ZoneName Article - Village underground	the
+131	Strings.example.xml	JoppaWorldBuilder Farms	Settling farms...
+132	Strings.example.xml	JoppaWorldBuilder Orchards	Planting orchards...
+133	Strings.example.xml	JoppaWorldBuilder Weep Secret	=subject.a.name:long=
+134	Strings.example.xml	JoppaWorldBulder Encounter Build Clams	Shucking clams...
+135	Strings.example.xml	JoppaWorldBulder Encounter Build Sultans	Organizing cults...
+136	Strings.example.xml	JoppaWorldBulder Encounter Build Gossip	Spreading gossip...
+137	Strings.example.xml	JoppaWorldBulder Encounter Build Villages	Founding villages...
+138	Strings.example.xml	JoppaWorldBulder Encounter Build Quests	Seeding personalities...
+139	Strings.example.xml	JoppaWorldBulder Encounter Build Lairs	Mythologizing creatures...
+140	Strings.example.xml	journal category	Dimensions
+141	Strings.example.xml	Journal Map Note, describe directions	=note.location=
+142	Strings.example.xml	Journal - Finalize entry text	=text|capitalize=
+143	Strings.example.xml	Journal Revealed from conversation	 {{K|-learned from =faction.the.name=}}
+144	Strings.example.xml	Journal Map Note, last visitied	Last visited on =time.day= of =time.month=
+145	Strings.example.xml	JournalAPI Recipe Text Block	=recipe.journalText=
+146	Strings.example.xml	JournalAPI Accomplishment Modifier Lovesick	=spice:lovesick.!random=
+147	Strings.example.xml	JournalAPI Accomplishment Modifier Aflame	While on fire, =text|initLower=
+148	Strings.example.xml	JournalAPI Accomplishment Modifier Frozen	While frozen solid, =text|initLower=
+149	Strings.example.xml	JournalAPI Last-Ditch MuralText from Accomplishment Text	=text|capitalize|secondToThirdPerson=
+150	Strings.example.xml	JournalLine category no expander	=category=
+151	Strings.example.xml	JournalLine category with expander	=expand.expanded= =category=
+152	Strings.example.xml	JournalLine Recipe Effects Description	=recipe.ingredients=\n \n \n
+153	Strings.example.xml	JournalLine StandardNote	{{=tradeablecolor=|$}} =journaltext=
+154	Strings.example.xml	JournalLine Recipe Effects Description	=recipe.ingredients=\n=recipe.effects= \n \n
+155	Strings.example.xml	JournalLine SultanNote	{{=tradeablecolor=|$}} {{w|[tomb engraving] =journaltext=}}
+156	Strings.example.xml	JournalLine MapNote	=tracked.checkbox.basic= {{=tradeablecolor=|$}} =journaltext=
+157	Strings.example.xml	JournalMapNote Category	General
+158	Strings.example.xml	JournalMapNote ShareText	The location of =note.text|lowerArticles=
+159	Strings.example.xml	JournalMapNote Reveal FailSafe	tell support@freeholdgames.com unknown location category: =category=
+160	Strings.example.xml	JournalStatusScreen CMD_FORGET Button Forget	Forget
+161	Strings.example.xml	JournalStatusScreen Recipe Rename	Rename recipe
+162	Strings.example.xml	JournalStatusScreen Recipe Forget	Forget recipe
+163	Strings.example.xml	JournalStatusScreen CMD_FAVORITE Button Favorite	Toggle Favorite
+164	Strings.example.xml	JournalStatusScreen Recipe Favorite	Add to favorites
+165	Strings.example.xml	JournalStatusScreen SortModeAlphabetical Selected	{{W|Alphabetical}}
+166	Strings.example.xml	JournalStatusScreen SortModeAlphabetical NotSelected	{{y|Alphabetical}}
+167	Strings.example.xml	JournalStatusScreen Recipe Unfavorite	Remove from favorites
+168	Strings.example.xml	JournalStatusScreen SortModeRecentlyLearned Selected	{{W|Most recently learned}}
+169	Strings.example.xml	JournalStatusScreen SortModeRecentlyLearned NotSelected	{{y|Most recently learned}}
+170	Strings.example.xml	JournalStatusScreen SortModeFrequentlyCooked Selected	{{W|Most frequently cooked}}
+171	Strings.example.xml	JournalStatusScreen SortModeFrequentlyCooked NotSelected	{{y|Most frequently cooked}}
+172	Strings.example.xml	JournalStatusScreen History Of Sultan Category Label	{{W|HISTORY OF =sultan|upper=}}
+173	Strings.example.xml	JournalStatusScreen SortModeFavoritesFirst Selected	{{W|Alphabetical, favorites first}}
+174	Strings.example.xml	JournalStatusScreen SortModeFavoritesFirst NotSelected	{{y|Alphabetical, favorites first}}
+175	Strings.example.xml	JournalSultanStatusLine category expander	=expand.expanded= =category=
+176	Strings.example.xml	JournalSultanStatusLine tradeable status line	{{=tradeablecolor=|$}} =journalline=
+177	Strings.example.xml	Jump TargetPicker Label	Jump where?
+178	Strings.example.xml	Jump MovementCapabilities Description	Jump to Square
+179	Strings.example.xml	Jump subject does jump	=subject.Does#verb=.
+180	Strings.example.xml	Jump can't jump while flying	You cannot =verb= while flying.
+181	Strings.example.xml	Jump can't jump without feet	You cannot =verb= without feet.
+182	Strings.example.xml	Jump only into empty spaces	You can only =verb= into empty spaces.
+183	Strings.example.xml	Jump over something	=subject.Does#verb= over =object.the.name=.
+184	Strings.example.xml	Jump cant jump over thing	You can't =verb= over =object.the.name:single=.
+185	Strings.example.xml	Jump Fail below minimum range	You must =verb= at least =range.cardinal.things:square=!
+186	Strings.example.xml	Jump Fail above maximum range	You may not =verb= more than =range.cardinal.things:square=!
+187	Strings.example.xml	JumpBoost RulesPostFix CanJumpOver	You can jump over creatures
+188	Strings.example.xml	JumpBoost RulesPostfix MinimumRangeMod	=minrange.signed= minimum jump distance
+189	Strings.example.xml	JumpBoost RulesPostfix RangeIncrease	This item increases jump distance by =range.abs=.
+190	Strings.example.xml	JumpBoost RulesPostfix RangeDecrease	This item decreases jump distance by =range.abs=.
+191	Strings.example.xml	Keybind Screen Box - waiting press - console	{{R|...}}
+192	Strings.example.xml	keybind	{{W|Alt}}
+193	Strings.example.xml	keybind	unknown key
+194	Strings.example.xml	KeybindRow Bind	{{w|=bind=}}
+195	Strings.example.xml	KeybindRow Key Description Text	{{C|=description=}}
+196	Strings.example.xml	KeybindRow Category Collapser	{{C|=expand.expanded=}}
+197	Strings.example.xml	KeybindRow Category Description Text	{{C|=description|upper=}}
+198	Strings.example.xml	KeybindsScreen QueryKeyBinds Configuring Controller	{{C|Configuring Controller:}} {{c|=gamepadname=}}
+199	Strings.example.xml	KeybindsScreen HandleMenuOption RemoveBind Not Allowed	Cannot remove the last binding for =commandText|color:C=.
+200	Strings.example.xml	KeybindsScreen HandleMenuOption RestoreDefaults Confirm	Are you sure you want to override your bindings with the default?

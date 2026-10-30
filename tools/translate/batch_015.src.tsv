@@ -1,0 +1,201 @@
+No	file	Context	ID
+2	Strings.example.xml	StunningForce Use Message Player Nearby	=subject.Does:invoke= a concussive blast around =subject.them=!
+3	Strings.example.xml	StunningForce Use Message Player Away	=subject.Does:invoke= a concussive blast =dir.to.the.direction=!
+4	Strings.example.xml	StunningForce Use Message Other Away	=subject.Does:feel= a concussive blast =dir.from.the.direction=!
+5	Strings.example.xml	StunOnHit TechScanning NameForStatus	StunMechanism
+6	Strings.example.xml	StyledStatus Format bio override value 'Operational'	Healthy
+7	Strings.example.xml	StyledStatus Format plain	=name=: =value=
+8	Strings.example.xml	StyledStatus Format tech	{{C|[=name=: =value=]}}
+9	Strings.example.xml	StyledStatus Format bio	{{g|[=name=: =value=]}}
+10	Strings.example.xml	StyledStatus Format structure	{{Y|[=name=: =value=]}}
+11	Strings.example.xml	StyledStatus Format ooc	{{rules|=name=: =value=}}
+12	Strings.example.xml	StyledStatus Format angry	=name|angry=: =value|angry=
+13	Strings.example.xml	Submersion Wrong Place	You cannot do that right now
+14	Strings.example.xml	Submersion Too Shallow	=pool.Does:is= too shallow for you to submerge in.
+15	Strings.example.xml	Sultan Unknown	a sultan
+16	Strings.example.xml	Sultan Unnamed	the =period.ordinal= sultan
+17	Strings.example.xml	Sultan Mural Ruined Display	ruined mural of =sultanName|withCognomen#cognomen=
+18	Strings.example.xml	SultanDungeon - Member Of Social Role Display Name	member of the =cultName=
+19	Strings.example.xml	SultanDungeon - Member Of Social Role Display Name	{{W|leader of the =cultName=}}
+20	Strings.example.xml	SultanMural Default Name	<unknown name>
+21	Strings.example.xml	SultanMural Herododicus Completion No Disguise	Herododicus says '{{W|I'm done!}}'
+22	Strings.example.xml	SultanMural DisplayName	mural of =sultanName|withCognomen#cognomen=
+23	Strings.example.xml	SultanRegion RegionName	=newName|title=
+24	Strings.example.xml	SultanRegion TerrainFragment	=spice:history.regions.terrain.$terrain.over.!random=
+25	Strings.example.xml	SultanRegionSurface Visit Accomplishment	You visited the historic site of =regionName=.
+26	Strings.example.xml	SultanShrine Known By Joppa	 {{K|-known by =faction.formattedName=}}
+27	Strings.example.xml	SummoningCurio TargetPicker Label	Fabricate =creature.displayNameOnlyDirect|strip=
+28	Strings.example.xml	SunderGrenade Detonate Message Log	=subject.Does:detonate=!
+29	Strings.example.xml	SunderMind Nosebleed death source	hemorrhage
+30	Strings.example.xml	SunderMind Nosebleed death source	psychic attack
+31	Strings.example.xml	SunderMind Nosebleed death source (for robot)	processor leak
+32	Strings.example.xml	SunderMind damage message	from =source|article=.
+33	Strings.example.xml	SunderMind Nosebleed death reason	You died from =source|article=.
+34	Strings.example.xml	SunderMind head explode witnessed	=subject.The.name's:withTitles= head explodes!
+35	Strings.example.xml	SunderMind Nosebleed start (robot)	=subject.The.name's:withTitles= core begins to leak.
+36	Strings.example.xml	SunderMind DeathReason	Your head was exploded by =object.a.name:withTitles=.
+37	Strings.example.xml	SunderMind Nosebleed start	=subject.The.name's:withTitles= nose begins to bleed.
+38	Strings.example.xml	SunderMind Nosebleed start (brain)	=subject.The.name's:withTitles= brain begins to hemorrhage.
+39	Strings.example.xml	SunderMind ThirdPerson DeathReason	=subject.Its= head was exploded by =object.a.name:withTitles=.
+40	Strings.example.xml	SunderMind PenetrationFailure	Your attack fails to penetrate =object.the.name's:withTitles= mental defenses.
+41	Strings.example.xml	Survival Skill Terrain Name	plains
+42	Strings.example.xml	Survival Skill Terrain Name	salt desert
+43	Strings.example.xml	Survival Skill Terrain Name	rivers and lakes
+44	Strings.example.xml	Survival Skill Terrain Name	hills and mountains
+45	Strings.example.xml	SwapOnHit AnnounceSwapMessage	=subject.Does:swap= positions with =object.the.name=.
+46	Strings.example.xml	Sweep PerformSweep Not Equipped	You do not have a heavy missile weapon equipped.
+47	Strings.example.xml	TargetSelfConfirm	Are you sure you want to target =subject.itself=?
+48	Strings.example.xml	Tattooed Apply Text	=markovTattoo|initLower=
+49	Strings.example.xml	TattooGun Picker Label	Tattoo
+50	Strings.example.xml	TattooGun NameForStatus	IntradermalInjector
+51	Strings.example.xml	TattooGun Not Working	=subject.Does:aren't= working.
+52	Strings.example.xml	TattooGun Not Working	=subject.Does:aren't= working!
+53	Strings.example.xml	TattooGun No Body	You cannot tattoo =object.the.name=.
+54	Strings.example.xml	TattooGun No Valid Parts	You cannot tattoo =object.the.name=.
+55	Strings.example.xml	TattooGun No One To Tattoo	There is nobody there you can tattoo.
+56	Strings.example.xml	TattooGun Hostiles Fail	You can't tattoo with hostiles nearby.
+57	Strings.example.xml	TattooGun Unpowered	=subject.The.name= merely =subject.verb:click=.
+58	Strings.example.xml	TattooGun Out Of Liquid	=subject.Does:are= out of =liquid.name|colorSafe=.
+59	Strings.example.xml	TattooGun Can't Apply	You can't tattoo =object.the.name's= =part.ordinalName=.
+60	Strings.example.xml	TattooGun Can't Tattoo Strangers	You can only tattoo =subject.itself= and your companions.
+61	Strings.example.xml	TattooGun Unsuccessful Message	Something went wrong and you fail to complete the tattoo.
+62	Strings.example.xml	TattooGun Contaminated	The =liquid.name|colorSafe= in =subject.the.name= is contaminated!
+63	Strings.example.xml	TattooGun Success Popup	You tattoo =description= on =object.the.name's:withTitles= =part.ordinalName=.
+64	Strings.example.xml	Teleportation Fail Message	The teleportation fails!
+65	Strings.example.xml	TeleporterPair AttemptTeleport Cooldown	You must wait =turns.things:turn= before using =object.this= again.
+66	Strings.example.xml	TeleportGate DisplayName Base	secant
+67	Strings.example.xml	TeleportGate DisplayName Base	=n=-ring
+68	Strings.example.xml	TeleportOther Success Message	=subject.Does:teleport= =object.the.name= away.
+69	Strings.example.xml	TeleportOther Fail Self Popup	You may not teleport =object.the.name= with Teleport Other!
+70	Strings.example.xml	TeleportTo default arriveVerb	appear
+71	Strings.example.xml	TeleportTo default leaveVerb	disappear
+72	Strings.example.xml	Teleprojector Pick Direction Label	Activate Teleprojector
+73	Strings.example.xml	Teleprojector Activate CopyRelationshipFail	You can't dominate =subject.itself=!
+74	Strings.example.xml	Teleprojector AbilityName	Activate =object.basename|strip|title=
+75	Strings.example.xml	Teleprojector Activate CoolingDown	=subject.Does:are= still cooling down.
+76	Strings.example.xml	Teleprojector RobotDom YouTakeControl	You take control of =object.the.name=!
+77	Strings.example.xml	Teleprojector Activate NoCharge	=subject.Does:don't= have enough charge to function.
+78	Strings.example.xml	Teleprojector RoboDom Resisted	=subject.Does:resist= =object.the.name's= domination!
+79	Strings.example.xml	Teleprojector PowerLoad Bonus Ability Description	Attack roll increased by =bonus= due to high power load.
+80	Strings.example.xml	Teleprojector BootSequenceDonePlayer	=subject.Does:attune= to =object.possessive= physiology.
+81	Strings.example.xml	Teleprojector PowerLoad Penalty Ability Description	Attack roll reduced by =bonus.abs= due to low power load.
+82	Strings.example.xml	Teleprojector Activate UplinkFail	There is nothing there that =object.the.name= can uplink with.
+83	Strings.example.xml	Teleprojector Activate NoBrain	There seems to be no digital mind in =object.the.name= to dominate.
+84	Strings.example.xml	Teleprojector Activate CannotApplyRoboDomination	=subject.Does:do= not have a digital mind you can make electronic contact with.
+85	Strings.example.xml	TemperatureAdjuster - Status Failure (world map)	Inactive
+86	Strings.example.xml	TemperatureController LocallyDefinedFailureDescription	Inactive
+87	Strings.example.xml	TemperatureController Configure AnnounceNewSetting	You set a target temperature of =target=.
+88	Strings.example.xml	TemperatureController EquippedTargetReachedMessage DefaultTemplate	=object.Does:have= reached the target temperature.
+89	Strings.example.xml	TemplarPhylactery NameForStatus	ContinuityEngine
+90	Strings.example.xml	TemplarPhylactery Spawn Appears	=subject.Does:appear=.
+91	Strings.example.xml	TemplarPhylactery CreateObject DisplayName	phylactery of =wraith.refname=
+92	Strings.example.xml	TemplarPhylactery Spawn Activates	=subject.Does:activate= =object.the.name=.
+93	Strings.example.xml	TemporalFugue multiply message	=subject.Does:multiply=.
+94	Strings.example.xml	TemporalFugue blur message	=subject.Does:blur= through spacetime.
+95	Strings.example.xml	TemporalFugue Fail Not Replicatable	It is impossible to duplicate =object.the.name=.
+96	Strings.example.xml	TemporalFugue Copy Prefixed DisplayName	=prefix|spaceAfter==subject.displayNameOnlyDirect=
+97	Strings.example.xml	TemporalFugue Player Copy Description	one of =player.possessiveAdjective= =context= clones
+98	Strings.example.xml	Temporary - Death Reason	Faded from existence.
+99	Strings.example.xml	Terrain Notes Phrase	Notes:
+100	Strings.example.xml	TerrainTravel Strange Ruins Message	You notice some strange ruins nearby. Do you want to investigate?
+101	Strings.example.xml	Text Replacer listDirectionsTo separate giver (last, and previous had no direction)	 or 
+102	Strings.example.xml	Text Replacer listDirectionsTo separate givers (last, and previous had direction)	, or 
+103	Strings.example.xml	Text Replacer listDirectionsTo append direction	, =sameDirection.if:also ::==direction=
+104	Strings.example.xml	TextBuilder.Compound - default space	 
+105	Strings.example.xml	ThermalAmp NameForStatus	ThermalAmp
+106	Strings.example.xml	ThermalAmp Rulespostfix HeatDamage	{{=color=|=value.signed=% heat damage dealt}} =part.statusSummary|addParens=
+107	Strings.example.xml	ThermalAmp Rulespostfix ColdDamage	{{=color=|=value.signed=% cold damage dealt}} =part.statusSummary|addParens=
+108	Strings.example.xml	ThickFur Extra Physical Feature	thick fur
+109	Strings.example.xml	Thinker Recharge not recharge	=object.The.name= can't be recharged that way.
+110	Strings.example.xml	ThinWorld ZoneFactory DisplayName	Garden at the Gate to Brightsheol
+111	Strings.example.xml	Thurible SmokeThurible Announce	=subject.Does:incense= =object.the.name=.
+112	Strings.example.xml	TimeDilation Start Message	Time begins to distort around =subject.the.name=.
+113	Strings.example.xml	TimeDilationGrenade Detonate Message Log	=subject.Does:discorporate=!
+114	Strings.example.xml	Tinker Recharge	You have =partial.if:partially =recharged =object.the.name:single=.
+115	Strings.example.xml	Tinker Recharge	You don't have any =bits.bitString= bits, which are required for recharging.
+116	Strings.example.xml	TinkerData InvalidBlueprint	<invalid blueprint>
+117	Strings.example.xml	TinkerData MakesABatchOf	Makes a batch of =nummade.cardinal=.
+118	Strings.example.xml	Tinkering ConsoleUI Bit Locker	Bit Locker
+119	Strings.example.xml	Tinkering ConsoleUI Mod and Cost	=modname= <=cost=>
+120	Strings.example.xml	Tinkering ConsoleUI Header	[ {{W|Tinkering}} ]
+121	Strings.example.xml	Tinkering ConsoleUI Bitcost	=bit= =description=
+122	Strings.example.xml	Tinkering ChooseSchematic	Choose a schematic.
+123	Strings.example.xml	Tinkering ConsoleUI HostilesNearby	{{R|hostiles nearby}}
+124	Strings.example.xml	Tinkering Snapshot =oldname=	=item.the.name|strip=
+125	Strings.example.xml	Tinkering ConsoleUI Build/Mod picker ModSelected	{{w|Build}}  {{Y|>}} {{W|Mod}}
+126	Strings.example.xml	Tinkering ConsoleUI Build/Mod picker BuildSelected	{{Y|>}} {{W|Build}}    {{w|Mod}}
+127	Strings.example.xml	Tinkering ConsoleUI NoModdableItems	You don't have any moddable items.
+128	Strings.example.xml	Tinkering ConsoleUI DontHaveSkill	You don't have the Tinkering skill.
+129	Strings.example.xml	Tinkering ConsoleUI NoItemSchematics	You don't have any item schematics.
+130	Strings.example.xml	Tinkering FakeIngredient	You can't craft with that =object=.
+131	Strings.example.xml	Tinkering Can'tUnequip	You can't unequip =object.the.name=.
+132	Strings.example.xml	Tinkering YouTinkerUp	You tinker up =num.a.or.x.things#object=!
+133	Strings.example.xml	Tinkering YouModXToBeY	You mod =oldname= to be =modtype|color:C=.
+134	Strings.example.xml	Tinkering ConsoleUI NoModSchematics	You don't have any modification schematics.
+135	Strings.example.xml	Tinkering Don'tHaveRequiredSkill	You don't have the required skill: =skill=!
+136	Strings.example.xml	Tinkering TookOnNewQualities	=subject.Does:seem= to have taken on new qualities.
+137	Strings.example.xml	Tinkering Learn FlashOfInsight	You have a flash of insight and scribe =object.a.name:long=.
+138	Strings.example.xml	Tinkering MissingIngredient	You don't have the required ingredient: =ingredients.orList=!
+139	Strings.example.xml	TinkeringDetails ModCostRules	{{rules|=description=}}
+140	Strings.example.xml	TinkeringDetailsLine Cost	=tinkerable.cost=
+141	Strings.example.xml	TinkeringLine BuildDisplayNameAndCost	=name= [=coststring=]
+142	Strings.example.xml	TinkeringLine Category and Expander	=expand.expanded= =category= [=count=]
+143	Strings.example.xml	TinkeringStatusScreen SwitchToBuild	{{hotkey||[=commandKey:Toggle|strip=]}} switch to build
+144	Strings.example.xml	TinkeringStatusScreen SwitchToMods	{{hotkey||[=commandKey:Toggle|strip=]}} switch to modifications
+145	Strings.example.xml	Tombstone (part2)	=name=
+146	Strings.example.xml	Tombstone Box	=engraving|tombstone=
+147	Strings.example.xml	Tombstone (part3)	=inscription|colorSafe=
+148	Strings.example.xml	Tombstone Engraving	=part1=\n\n=part2=\n\n=part3=
+149	Strings.example.xml	Tombstone (part1)	=spice:tombstones.intro.!random=
+150	Strings.example.xml	Tombstone (part3) gas death	=spice:tombstones.gasDeath.!random=
+151	Strings.example.xml	Tombstone (part3) ape death	=spice:tombstones.apeDeath.!random=
+152	Strings.example.xml	Tombstone (part3) food death	=spice:tombstones.foodDeath.!random=
+153	Strings.example.xml	Tombstone Error Popup	There was an error saving: =filename=
+154	Strings.example.xml	Tombstone (part3) item death 1	=spice:tombstones.itemDeath1.!random=
+155	Strings.example.xml	Tombstone (part3) item death 2	=spice:tombstones.itemDeath2.!random=
+156	Strings.example.xml	Tombstone (part3) book death 1	=spice:tombstones.bookDeath1.!random=
+157	Strings.example.xml	Tombstone (part3) book death 2	=spice:tombstones.bookDeath2.!random=
+158	Strings.example.xml	Tombstone (part3) light source death	=spice:tombstones.lightDeath.!random=
+159	Strings.example.xml	Tombstone (part3) tonic death 1	=spice:tombstones.tonicDeath1.!random=
+160	Strings.example.xml	Tombstone (part3) tonic death 2	=spice:tombstones.tonicDeath2.!random=
+161	Strings.example.xml	Tombstone (part3) liquid death	=spice:tombstones.liquidDeath.!random=
+162	Strings.example.xml	Tombstone (part3) faction death	=spice:tombstones.factionDeath.!random=
+163	Strings.example.xml	Tombstone (part3) grenade death	=spice:tombstones.grenadeDeath.!random=
+164	Strings.example.xml	Tombstone (part3) natural death	=spice:tombstones.naturalDeath.!random=
+165	Strings.example.xml	Tombstone (part3) generic death	=spice:tombstones.genericDeath.!random=
+166	Strings.example.xml	Tombstone Save Popup	Your tombstone file was saved:\n\n=filename=
+167	Strings.example.xml	Tombstone (part3) murdered by dude	=spice:tombstones.generallyMurdered.!random=
+168	Strings.example.xml	Toolbox NameForStatus	ToolSystems
+169	Strings.example.xml	Torch Display Name - Tag (unlit)	(unburnt)
+170	Strings.example.xml	Torch Display Name - Tag (lit)	({{w|dim}})
+171	Strings.example.xml	Torch Display Name - Tag (unlit)	(half-burnt)
+172	Strings.example.xml	Torch Display Name - Tag (lit)	({{W|bright}})
+173	Strings.example.xml	Torch Display Name - Tag (unlit)	(mostly burnt)
+174	Strings.example.xml	Torch Display Name - Tag (lit)	({{Y|blazing}})
+175	Strings.example.xml	Torch Display Name - Tag (lit)	({{r|smouldering}})
+176	Strings.example.xml	Torch Display Name - Tag (unlit)	(nearly extinguished)
+177	Strings.example.xml	Total weight panel	=current= / =max= lbs.
+178	Strings.example.xml	TradeScreen sort name a-z	A-Z
+179	Strings.example.xml	TradeScreen trader free drams	{{W|$=drams=}}
+180	Strings.example.xml	TradeScreen left side total actively trading drams	{{=price|color:B= drams →}}
+181	Strings.example.xml	TradeScreen right side total actively trading drams	← {{=price|color:B= drams}}
+182	Strings.example.xml	TradeScreen sort mode setting	Sort Mode: =modes.textSelector:w#selected=
+183	Strings.example.xml	TradeScreen left side companion weight totals	{{=color=| =currentweight=/=maxweight= lbs.}}
+184	Strings.example.xml	TradeScreen player free drams and weight	{{W|$=drams=}} | {{=weightcolor=|=weight=/=maxweight= lbs.}}
+185	Strings.example.xml	TradeScreenLine - right side text	=subject.weightEach|color:K={{K|#}}
+186	Strings.example.xml	TradeUI ConsoleUI number selected (gets a color code added to it)	=number=
+187	Strings.example.xml	TradeUI ConsoleUI WeightOnly	=weight=#
+188	Strings.example.xml	TradeUI ConsoleUI 0-9 Pick	[{{W|0-9}} Pick]
+189	Strings.example.xml	TradeUI ConsoleUI CategoryName	[{{y|=category=}}]
+190	Strings.example.xml	TradeUI ConsoleUI SelectedItemInfo LeftPrice	{{=color=|$}}{{C|=price=}}
+191	Strings.example.xml	TradeUI ConsoleUI SelectedItemInfo RightPrice	{{=color=|$}}{{c|=price=}}
+192	Strings.example.xml	TradeUI ConsoleUI SelectedItemInfo RightPrice	{{=color=|$}}{{C|=price=}}
+193	Strings.example.xml	TradeUI Name of target inventory - non-living container etc	[ =subject.shortname|color:W= ]
+194	Strings.example.xml	TradeUI ConsoleUI SelectedItemInfo Weight and Price	{{K|=weight=#}} {{=color=|$}}{{C|=price=}}
+195	Strings.example.xml	TradeUI Name of target inventory - Trader's Inventory	[ =subject.the.name's:withTitles|color:W= inventory ]
+196	Strings.example.xml	TradeWindow left column item	=item.long=
+197	Strings.example.xml	TradeWindow right column weight	[{{K|=weight= lbs.}}]
+198	Strings.example.xml	TradeWindow right column value	[=value:0.00|tradeColor#item=]
+199	Strings.example.xml	Translator Base - Mutate Zone Name, Biome nouns	=base= and =noun=
+200	Strings.example.xml	Triple-Jointed Triggered Combat Text	No cooldown!
+201	Strings.example.xml	Troll Hero Naming.xml Context	bestial

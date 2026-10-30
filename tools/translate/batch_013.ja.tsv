@@ -1,0 +1,175 @@
+3	虚無の面
+4	=year= BR
+5	ケシルの面
+6	大地の面
+7	オリーブの面
+8	 =cognomen=
+9	レヴァントの面
+10	無称の者
+11	シェメシュの面
+12	、=cognomen.commaList=、
+22	依頼主:
+23	=expand.expanded= =name|strip=
+24	 =commandKeyConsole:Cancel=で閉じる
+25	=questGiverName= / =questGiverLocationName=
+26	レベル&C=level=&yまでにこのクエストを達成するとボーナス報酬がある。
+27	{{B|クエスト:}} =quest.name|strip=
+28	=subject.T=は完全に静止している。
+29	=subject.T=はまだ同調中だ。
+30	回復が必要なアビリティはない。
+31	創造のエネルギーが満ちあふれた！ すべてのクールダウンが回復した。
+32	=blueprint.name=
+34	=blueprint.tag:AbilityName:Quill Fling=
+35	=blueprint.tag:DisplayNameSingular:quill=
+36	=subject.T=は=quillsName=を放った！
+37	=subject.T=は=quillsName=を四方八方に放った！
+38	=abilityName= [残り=quillsAmount.things#quillsSingular#quillsName=]
+39	攻撃で=quillsAmount.cardinal.things#quillsSingular#quillsName=が折れた！
+40	=list.andList=
+41	=item.a.name:long=
+42	=name|title|ansify=
+43	=spice:history.relics.names.!random=
+44	スキルポイント=points=
+45	突然変異ポイント=points=
+46	能力値ポイント=points=
+47	経験値=points=
+48	=faction.factionName=の評判=points=
+49	=object.countable.name:onlyDirect:stripped|article=
+50	=mod.name=のアイテム=number.cardinal=個
+51	=mod.name=のアイテム=number.cardinal=個
+52	サイバネティクスライセンスポイント=points=
+53	「=demand=」を要求し「=reward=」を約束するベテル。
+54	=inventory.andList:asPossessed=を=subject.the.name=に捧げますか？
+55	近くの=nearby.andList:definiteArticles=を=subject.the.name=に捧げますか？
+56	汝の捧げ物を受け取ろう！\n\n火花散るベテルは=reward=を授けた！
+57	=object.countable.name:onlyDirect:stripped:plural==number.cardinal=個
+58	=demand=でベテルを鎮め、見返りに=reward=を受け取った。
+59	=inventory.andList:asPossessed=のうち=needed=を=subject.the.name=に捧げますか？
+60	トパーズ
+61	=mutation.name=を得た！
+62	=zoneID.recoiler.name=
+63	=locationNameCache=のリコイラー
+64	=subject.T=は顔をしかめた。
+65	この地域では正常性格子を通して時空を変えることができない。
+66	レベッカ
+67	=engraving|tombstoneRebekah=
+68	=subject.T=は存在し続けている。
+69	どのロボットを叱責する？
+70	=subject.T=は興味をなくしてふらふらと去っていった。
+71	=subject.T=は興味をなくしてふらふらと去っていった。
+72	=subject.T=は=object.the.name=を叱責して服従させた。
+73	=subject.T=は=object.the.name=を任から解いた。
+74	=recipe.name=
+75	=glyph:FavHeart= =recipe.name=
+76	=questName=、第=number=回の挑戦
+78	=subject.T=はこの領域の時空から非物質化した。
+79	=text|recomingPlaque=
+80	「死装束を解き、行け。」
+81	コードを引き換え中…
+82	ペットをインストール中…
+83	ペットをダウンロード中…
+84	設定を再読み込み中…
+85	ペットのダウンロードが完了した！
+86	ペットのダウンロードエラー: =exception=
+87	アクティブアビリティのクールダウンが=min.range#max=%増加する。
+88	アクティブアビリティのクールダウンが=min.range#max=%短縮される。
+89	行動コストが=min.range#max=%増加する。
+90	行動コストが=min.range#max=%減少する。
+91	=scopedescription=が=min.range#max=%増加する。
+92	=scopedescription=が=min.range#max=%減少する。
+93	行動コストが=min.range#max=%増減する。
+94	給電時、行動コストが=min.range#max=%増加する。
+95	=scopedescription=が=min.range#max=%増減する。
+96	給電時、行動コストが=min.range#max=%減少する。
+97	給電時、=scopedescription=が=min.range#max=%増加する。
+98	給電時、=scopedescription=が=min.range#max=%減少する。
+99	給電時、行動コストが=min.range#max=%増減する。
+100	給電時、=scopedescription=が=min.range#max=%増減する。
+101	=subject.T=は=object.the.name=に=amount=ダメージを反射した。
+103	=subject.T=は反射シールドを起動した。
+104	=subject.T=の反射シールドが停止した。
+108	チューブが肌に当たってシュッと鳴り、熱いうずきが全身に染みわたった。
+109	=region=の場所を発見した。
+110	=region=の場所を発見した。
+111	*反撃*
+112	=subject.T=は=subject.poss#object=で反撃した。
+113	=spice:personNouns.!random|possessive=
+114	=spice:history.relics.names.!random|title=
+115	 =subject.It.is= =spice:instancesOf.stamped_VAR.!random=.
+116	現在の装備セットから部位を外す
+117	=object.the.name:single=を修理した。
+118	=object.them=を壊してしまった気がする…
+119	ティンカリング用のビット<=bittype.bits=>を手に入れた
+120	=subject.T=はうっかり=object.the.name=を壊してしまった！
+121	=object.the.name:single=の直し方が分からない。
+122	=object.the.name:single=の修理が少し進んだ。
+123	=object.the.name=に手が届かず修理できない。
+124	=object.the.name=と位相がずれていて修理できない。
+125	まもなく
+126	=kb:0= KB
+127	=num= バイト
+128	=mb:0.00= MB
+129	、=cognomen=
+130	=cooldown.things:round=
+131	=days.cardinal=日
+132	=subject.refname=の=subject.fragment:Skin:skin=
+133	=subject.this= =subject.pluralize.word:creature=
+134	=subject.refname=の=subject.fragment:Skin:skin=
+135	=subject.refname=の=subject.semantic:HardMaterial:bone=
+136	=subject.refname=の=subject.semantic:HardMaterial:bone=
+137	=subject.this= =subject.descriptiveCategory:matchPlurality=
+138	レルマドンの揺籃
+139	天上の者
+140	セルリアンの幽霊
+141	ベテルたちのとぐろ巻く子羊
+142	=subject.T=が目の前でゆらめいた！
+143	不気味にも死を免れ、命が回復した。
+144	HP=health=%で復活する（=amount.multiplicative:zeroEmpty=）
+154	モジュール
+155	低く絶え間ないうなりが外へと響いている。
+156	パワースケート
+157	ジャンプがロケットジャンプに置き換わる。
+158	=subject.T=は{{fiery|炎の噴流}}を噴き出した！
+159	{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|パワースケート}}
+160	スプリントがパワースケート（時間無制限）に置き換わる。
+161	パワースケート中に移動すると炎を噴き出す。
+162	無傷
+163	{{G|良好}}
+164	{{G|良好}}
+165	{{R|負傷}}
+166	{{W|軽傷}}
+167	{{Y|完全}}
+168	{{R|損傷}}
+169	{{Y|完全}}
+170	{{r|重傷}}
+171	{{r|大破}}
+172	{{W|軽度の損傷}}
+173	持続時間無制限。
+174	近接戦闘で命中 -10。
+175	射撃武器の命中精度が下がる。
+176	残り=duration=ラウンド。
+177	拳銃以外の射撃武器の命中精度が下がる。
+178	\nスリング＆ランのスキルにより拳銃の命中ペナルティがなくなる。
+179	通常の=multiplier=倍の速さで移動する。（移動速度 +=speedBonus=）
+180	{{r|クッズ}}の共生体
+181	{{W|ゲームをロード}}
+182	{{K|=size= =gameID=}}
+183	{{C|場所:}} =location=
+184	=gameName= :: =description=
+185	{{C|最終セーブ:}} =saveTime=
+186	{{R|=gameName=を削除}}
+187	=gameName=のセーブデータを本当に削除しますか？
+188	ガス
+189	蜘蛛の巣
+190	滑り
+191	挑発
+192	転倒
+193	斧スキル
+194	武装解除
+195	エネルギー光線
+196	凝視効果
+197	強制睡眠
+198	棍棒スキル
+199	病気の発症
+200	引きずり
+201	掴み

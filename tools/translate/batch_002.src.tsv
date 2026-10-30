@@ -1,0 +1,201 @@
+No	file	Context	ID
+1	Strings.example.xml	Artifact Detection Description	You detect all unidentified artifacts on the local map.
+2	Strings.example.xml	Artifact Detection Description (limited)	You detect unidentified artifacts within a radius of =radius=.
+3	Strings.example.xml	AshPoison Effect StateDescription	{{K|choked by ash}}
+4	Strings.example.xml	AshPoison Effect Recuperating	=subject.Does:are= no longer choking!
+5	Strings.example.xml	Asleep Effect Remove Message Log	=subject.Does:wake= up.
+6	Strings.example.xml	Asleep Effect GetSleepMessage	=subject.Does:snore= loudly.
+7	Strings.example.xml	Asleep Effect Remove SleepMode Message Log	=subject.Does:exit= sleep mode.
+8	Strings.example.xml	Asleep Effect Apply Message Log	=subject.Does:fall= {{C|asleep}}.
+9	Strings.example.xml	Asleep Effect Woken Message Log	=subject.Does:wake= up in a daze.
+10	Strings.example.xml	Asleep Effect Apply SleepMode Message Log	=subject.Does:enter= {{C|sleep mode}}.
+11	Strings.example.xml	Asleep Effect GetSleepMessage Telepathy Common outcome	=MARKOVSENTENCE|trim|subject.dreamspeak=
+12	Strings.example.xml	Asleep Effect GetSleepMessage SleepMode	=subject.Does:are= utterly unresponsive.
+13	Strings.example.xml	Asleep Effect GetSleepMessage Telepathy Rare outcome	=MARKOVPARAGRAPH|trim|subject.dreamspeak=
+14	Strings.example.xml	Asleep Effect WakeSleeper Fail Message Log	You can't figure out how to wake =object.the.name=.
+15	Strings.example.xml	Asleep Effect WakeSleeper SleepMode Message Log	=subject.Does:press= =object.poss:activation panel=.
+16	Strings.example.xml	Asleep Effect WakeSleeper Message Log	=subject.Doesly:gently:shake= =object.the.name= awake.
+17	Strings.example.xml	Asleep Effect Woken SleepMode Message Log	=subject.Does:exit= sleep mode by emergency interrupt.
+18	Strings.example.xml	AttackerElementalDamage Amplification of DamageDealt	=percent.signed=% =elementaltype|lower= damage dealt
+19	Strings.example.xml	Attribute Multiplier Description	=percent.signed=% =stat.statDisplayName=
+20	Strings.example.xml	AutoAct Wait Status Bar Done Resting	Done resting.
+21	Strings.example.xml	AutoAct Wait Loading Status Complete	Done waiting.
+22	Strings.example.xml	AutoAct Interrupt 'because' (clause)	you can go no further
+23	Strings.example.xml	AutoAct climb methods 'stairways'	stairways leading upward
+24	Strings.example.xml	AutoAct climb methods 'stairways'	stairways leading downward
+25	Strings.example.xml	AutoAct interrupt 'because' (clause)	=subject.does:are= in the way
+26	Strings.example.xml	AutoAct climb interrupt popup	There are no =stairways= nearby.
+27	Strings.example.xml	AutoAct Wait Loading Status Bar	Waiting for =num.things:turn=...
+28	Strings.example.xml	AutoAct interrupt 'because' (clause)	you cannot open =object.the.name=
+29	Strings.example.xml	AutoAct Rest Loading Status Bar	Resting until healed... Turn: =num=
+30	Strings.example.xml	AutoAct Interrupt 'because' (clause)	your spacetime context is incoherent
+31	Strings.example.xml	AutoAct interrupt 'because' clause	you cannot seem to make any progress
+32	Strings.example.xml	AutoAct interrupt 'because' (clause)	you cannot keep =object.the.name= open
+33	Strings.example.xml	AutoAct Wait Loading Status Bar	Waiting for =remaining.things:round=...
+34	Strings.example.xml	AutoAct Rest Loading Status Bar	Resting until party healed... Turn: =num=
+35	Strings.example.xml	AutoAct attack interrupt message	You are unable to attack =target.the.name=.
+36	Strings.example.xml	AutoAct Pathfind Error	You cannot find a path to =object.the.name=.
+37	Strings.example.xml	AutoAct Wait Resting until morning...	Resting until morning... (=num.things:turn=)
+38	Strings.example.xml	AutoAct interrupt 'because' clause	you tried to move but stayed in the same place
+39	Strings.example.xml	AutoAct Interrupt Message	You stop =autoActDescription= because =because=.
+40	Strings.example.xml	AutoAct attack interrupt message	You can't find a way to navigate to =target.the.name=.
+41	Strings.example.xml	AutoAct interrupt 'because' (clause)	of =object.the.name= =subject.to.its.direction#object=
+42	Strings.example.xml	AutoAct attack interrupt message	You can't seem to find a way to reach =target.the.name=.
+43	Strings.example.xml	AutoAct interrupt 'because' (clause)	the direction you seem to be trying to go makes no sense
+44	Strings.example.xml	AutoAct Pathfind Error	You cannot find a path toward the =direction.expandedDirection=.
+45	Strings.example.xml	AutoAct Interrupt 'because' (clause)	something is wrong with the spacetime connectivity of your environment
+46	Strings.example.xml	AutogetBlacklist ResumeAutogettingItem Announcement	You will now autoget =object.pluralName= again.
+47	Strings.example.xml	AutogetBlacklist StopAutogettingItem Announcement	You will no longer autoget any type of =object.name=.
+48	Strings.example.xml	Baboon Hero Naming.xml Context	King
+49	Strings.example.xml	Baboon Hero Naming.xml Context	Queen
+50	Strings.example.xml	Baboon Hero Naming.xml Context	Hermit
+51	Strings.example.xml	Baboon Hero Naming.xml Context	Riddler
+52	Strings.example.xml	Baboon Hero Naming.xml Context	Philanderer
+53	Strings.example.xml	Baboon Hero Naming.xml Context	Sophisticate
+54	Strings.example.xml	Baboon Hero Naming.xml Context	=rings.toString=-ringed
+55	Strings.example.xml	Baetyl Leaving - Explode	=subject.The.name= =subject.directionIfAny= =subject.verb:explode=.
+56	Strings.example.xml	Baetyl Leaving - Disappear	=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=.
+57	Strings.example.xml	BandageMedication PerformBandaging FailNobodyThere	There's no one there.
+58	Strings.example.xml	BandageMedication PerformBandaging NotBleeding	=object.Does:are= not bleeding.
+59	Strings.example.xml	BandageMedication PerformBandaging Already	=object.The.name's= wounds have been bandaged.
+60	Strings.example.xml	BandageMedication PerformBandaging hostile entity fail	=object.Does:won't= let you bandage =object.them=.
+61	Strings.example.xml	BandageMedication PerformBandaging MessageAsBandage Standard	=subject.Does:bandage= =object.the.name's= wounds.
+62	Strings.example.xml	BandageMedication PerformBandaging Untreatable	=object.The.name's= wounds are too deep to bandage.
+63	Strings.example.xml	BandageMedication PerformBandaging FailCantReach	You cannot reach =object.the.name= to bandage =object.its= wounds.
+64	Strings.example.xml	BandageMedication PerformBandaging Staunch Standard	=subject.Does:staunch= =object.the.name's= wounds with =item.a.name=.
+65	Strings.example.xml	BandageMedication PerformBandaging AlreadyPlusUntreatable	All of =object.the.name's= wounds that can be staunched have been already.
+66	Strings.example.xml	Banner Display Adjective Raised	{{y|[{{g|raised}}]}}
+67	Strings.example.xml	Banner Display Adjective	{{y|[{{K|furled}}]}}
+68	Strings.example.xml	Banner Raise Message	=subject.Does:raise= =object.the.name=.
+69	Strings.example.xml	Base Liquid - drams of liquid template no color	=amount= =amount.pluralize:dram= of =liquid.name=
+70	Strings.example.xml	Base Liquid - cardinal drams of liquid template no color	=amount.cardinal= =amount.pluralize:dram= of =liquid.name=
+71	Strings.example.xml	Base Liquid - drams of liquid template with color	=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name=
+72	Strings.example.xml	Base Liquid - cardinal drams of liquid template with color	=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name=
+73	Strings.example.xml	BaseMutation DefectMarker	({{r|D}})
+74	Strings.example.xml	BaseScreen GetScreenName	Character
+75	Strings.example.xml	BaseSkill Add Skill Popup (Book)	You learn {{W|=skill.name=}}!
+76	Strings.example.xml	BaseSkill Add Skill Popup (WaterRitual)	=subject.Does:teach|strip= you {{W|=skill.name=}}!
+77	Strings.example.xml	BasicCookingEffect_Hitpoints Details	+10% hit points
+78	Strings.example.xml	BasicCookingEffect_Hitpoints Details Amount Known	=amount.signed= =amount.pluralize:hit point=
+79	Strings.example.xml	BasicCookingEffect_Hitpoints Popup	=message=\n\n{{W|+1 MA for the rest of the day}}
+80	Strings.example.xml	BasicCookingEffect_MA Details	+1 MA
+81	Strings.example.xml	BasicCookingEffect_MS Details	+6% Move Speed
+82	Strings.example.xml	BasicCookingEffect_MS Details - Amount known	=amount.signed= Move Speed
+83	Strings.example.xml	BasicCookingEffect_MS Popup	=message=\n\n{{W|=amount.signed= move speed for the rest of the day}}
+84	Strings.example.xml	BasicCookingEffect_Quickness Details	+3% Quickness
+85	Strings.example.xml	BasicCookingEffect_Quickness Details - Amount known	=amount.signed= Quickness
+86	Strings.example.xml	BasicCookingEffect_Quickness Popup	=message=\n\n{{W|=amount.signed= quickness for the rest of the day}}
+87	Strings.example.xml	BasicCookingEffect_RandomStat Details	=amount.signed= =stat.Name=
+88	Strings.example.xml	BasicCookingEffect_RandomStat Popup	=message=\n\n{{W|=amount.signed= =stat.Name= for the rest of the day}}
+89	Strings.example.xml	BasicCookingEffect_Regeneration Popup	=message=\n\n{{W|+10% to natural healing rate for the rest of the day}}
+90	Strings.example.xml	BasicCookingEffect_ToHit Details	+1 to hit
+91	Strings.example.xml	BasicCookingEffect_ToHit Popup	=message=\n\n{{W|+1 to hit for the rest of the day}}
+92	Strings.example.xml	BasicTriggeredCookingStatEffect Details	=amount.signed= =stat.Name=
+93	Strings.example.xml	BasiliskPoison Effect Recuperating	=subject.Does:feel= less stiff.
+94	Strings.example.xml	BeginBeingUnequippedEvent - Append FailureMessage	=failureMessage= =message=
+95	Strings.example.xml	Beguiled Effect Apply Message Log	=subject.Does:ogle= =object.the.name= lovingly.
+96	Strings.example.xml	Beguiled Effect Remove Message Log	=subject.Does:lose= interest in =object.the.name=.
+97	Strings.example.xml	Beguiled Effect Journal Accomplishment	=beguiled.A.name= ogled you lovingly after you employed your charm.
+98	Strings.example.xml	Beguiling Pick Creature	Who would you like to beguile?
+99	Strings.example.xml	Beguiling Fail Self-Target	You can't beguile =player.itself=!
+100	Strings.example.xml	Beguiling Pick Direction Title	[Select a direction to beguile a creature]
+101	Strings.example.xml	Beguiling failure	Your coquetry infuriates =object.the.name=.
+102	Strings.example.xml	Beguiling failure already beguiled	You have already beguiled =object.the.name=.
+103	Strings.example.xml	Beguiling failure immune	=object.Does:seem= utterly impervious to your charms.
+104	Strings.example.xml	Beguiling failure lost contest	You fail to outshine the current object of =object.the.name's= affection.
+105	Strings.example.xml	Berserker Effect Duration Player Message Log	=duration.things:turn remains:turns remain= until your berserker rage ends.
+106	Strings.example.xml	Bethsaida Lair Maker - CradleDisplayName	The cradle of Bethsaida
+107	Strings.example.xml	Bethsaida Lair Maker - SplitOnDeath Message	=subject.T= =verb:split= in two!
+108	Strings.example.xml	BeyLahSurface Discovery Text	You discovered the hidden village of Bey Lah.
+109	Strings.example.xml	BioAmmoLoader WeaponStatus AvailableRounds	[=avail=]
+110	Strings.example.xml	BioAmmoLoader DisplayName Tag AvailableRounds	[=avail=]
+111	Strings.example.xml	BioAmmoLoader WeaponStatus Empty	[{{K|empty}}]
+112	Strings.example.xml	BioAmmoLoader DisplayName Tag Empty	[{{K|empty}}]
+113	Strings.example.xml	BioAmmoLoader ExhaustedMessage	=subject.Does:are= exhausted!
+114	Strings.example.xml	BioAmmoLoader Reload AlreadyFull	=subject.Does:are= already full.
+115	Strings.example.xml	BioAmmoLoader Reload NoLiquid	You have no =liquid.name|strip= for =object.the.name=.
+116	Strings.example.xml	BioAmmoLoader SupplyHostWithLiquid NoRoom	=subject.Does:have= no room for more =liquid.name|strip=.
+117	Strings.example.xml	BioAmmoLoader Reload DumpWrongLiquid	You dump the =volume.liquid.name= out of =object.the.name=.
+118	Strings.example.xml	BioAmmoLoader SupplyHostWithLiquid NoLiquid	You have no =liquid.name|strip= to supply =object.the.name= with.
+119	Strings.example.xml	BioAmmoLoader Reload Success	You =partial.if:partially= fill =object.the.name= with =volume.liquid.name=.
+120	Strings.example.xml	BitType Missing Data.xml entry DisplayName	[{{=color=|Missing Bit =level=}}]
+121	Strings.example.xml	BlastOnHit Message Log	=subject.Does:explode=!
+122	Strings.example.xml	Blaze_Tonic Effect Remove Player Message Log	The =tonic.description= burns out of your system.
+123	Strings.example.xml	BlinkOnDamage Message Log	=subject.Does:blink= away from the danger.
+124	Strings.example.xml	Body MissingParts summary list item (single)	=part.a.name=
+125	Strings.example.xml	Body MissingParts summary list item (single, unfound by name)	=subject.their= =part.name=
+126	Strings.example.xml	Body MissingParts summary list item (multiple)	=num.cardinal= =part.countable.name#num=
+127	Strings.example.xml	Body MissingParts Description (simple)	=subject.It.is= missing =mainSummary.andList=.
+128	Strings.example.xml	Body Lost Use Of Part	You have lost the use of your =part.ordinalName=.
+129	Strings.example.xml	Body Recover Use Of Part	You have recovered the use of your =part.ordinalName=.
+130	Strings.example.xml	Body Limb Dismember Message	Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!
+131	Strings.example.xml	Body Limb Dismember Accomplishment	Your =limb.ordinalName= =limb.ifPlural:were:was= dismembered.
+132	Strings.example.xml	Body Regenerate Limb	=subject.Does:regenerate= =subject.their= =limb.ordinalName=!
+133	Strings.example.xml	BodyPart Equip Fail Too Large	This item is too large for you to equip.
+134	Strings.example.xml	BodyPart Equip Fail Too Small	This item is too small for you to equip.
+135	Strings.example.xml	BodyPart Equip Need Slot	You need another free =bodyPartType.type= slot to equip that!
+136	Strings.example.xml	BodyPart Equip Need Another Slot	You need =hasAny.if:another:a= free =slotType= slot to equip that!
+137	Strings.example.xml	BodyPart Drop Held Item	=subject.The.name's= =object.name= =object.verb:fall= to the ground.
+138	Strings.example.xml	BodyPart Equip Need Slots	You need another =shortBy.cardinal= free =slotType= slots to equip that!
+139	Strings.example.xml	BodyPart Cybernetics Install Mural	Gaze upon the sublime body of =name=! See the glistening =cybernetic.basename=!
+140	Strings.example.xml	BookScreen - Prev Page Button	Prev Page
+141	Strings.example.xml	BoostStatistic Effect DisplayName	boosted =stat.name=
+142	Strings.example.xml	BoostStatistic Effect Apply Player Message Log Increase	Your =stat.title= increases.
+143	Strings.example.xml	BoostStatistic Effect Apply Player Message Log Decrease	Your =stat.title= decreases.
+144	Strings.example.xml	BoostStatistic Effect Remove Player Message Log	Your =stat.title= returns to normal.
+145	Strings.example.xml	BootSequence Default VerbOnBootInitialized	beep
+146	Strings.example.xml	BootSequence Default VerbOnBootDone	click
+147	Strings.example.xml	BootSequence Default VerbOnBootAborted	bloop
+148	Strings.example.xml	BootSequence Boot Message	=subject.Does#verb=.
+149	Strings.example.xml	BootSequence Display Adjective	[{{K|=timeLeft= sec}}]
+150	Strings.example.xml	BrainBrineCurse Effect Gain Skill Player Popup	You learn the skill =skill.name|color:C=!
+151	Strings.example.xml	BrainBrineCurse Effect Gain Defect Player Popup	You gained the defect =mutation.name|color:R=!
+152	Strings.example.xml	BrainBrineCurse Effect Gain Mutation Player Popup	You gained the mutation =mutation.name|color:G=!
+153	Strings.example.xml	BreakableInMelee Break Message	=subject.Does:break=.
+154	Strings.example.xml	Broken Effect DisplayName Tag	[{{r|broken}}]
+155	Strings.example.xml	Broken Effect Particle Text	*=subject.name:withTitles|strip= broken*
+156	Strings.example.xml	Broken Effect Equip Fail Player Message	You can't equip =object.the.name=, =object.itis= broken!
+157	Strings.example.xml	BubbleLevel Sound Message	=subject.Does:plop=.
+158	Strings.example.xml	BubbleLevel No Sound Message	=subject.Does:make= no sound.
+159	Strings.example.xml	Budding Effect StateDescription	{{r|about to bud}}
+160	Strings.example.xml	Budding Effect Remove No Back Message Log	=subject.Poss:grotesque protuberance= subsides.
+161	Strings.example.xml	Budding Effect Remove Has Back Message Log	The grotesque protuberance on =subject.poss#back= subsides.
+162	Strings.example.xml	Burgeoning summon message log	=subject.Does:impel= plants to burgeon from the ground!
+163	Strings.example.xml	Burning Effect Companion Status	on fire
+164	Strings.example.xml	Burning Effect StateDescription	{{R|on fire}}
+165	Strings.example.xml	Burning Effect Player AutoAct Interrupt 'because' (clause)	you caught fire
+166	Strings.example.xml	Burning Effect Follower Visible AutoAct Interrupt 'because' (clause)	you see =object.the.name:baseOnly= catch fire
+167	Strings.example.xml	Burning Effect Follower Audible AutoAct Interrupt 'because' (clause)	you hear =object.the.name:baseOnly= catch fire =object.to.the.direction=
+168	Strings.example.xml	BurnOffGas Message Log	=subject.Does:burn= off =object.a.name=.
+169	Strings.example.xml	Burrowed Effect Apply	=subject.Does:burrow= into the ground.
+170	Strings.example.xml	Burrowed Effect Emerge	=subject.Does:emerge= from the ground.
+171	Strings.example.xml	Burrowed Effect Remove Damaged	=subject.Does:are= forced to the surface.
+172	Strings.example.xml	Butcherable default butcher verb	butcher
+173	Strings.example.xml	BuyRandomMutation - Not enough points	You don't have =cost= mutation points!
+174	Strings.example.xml	BuyRandomMutation - Not a mutatant	Your type of creature may not buy =subject.mutationTerm|pluralize=.
+175	Strings.example.xml	BuyRandomMutation IrritableGenome picked for you	=subject.The.name's= irritable genome acts up. =spentPointsReport.join: =
+176	Strings.example.xml	Calendar Day 15	Ides
+177	Strings.example.xml	Calendar Year noera	=year=
+178	Strings.example.xml	Calendar Year	=year= AR
+179	Strings.example.xml	Calendar Day	=time.day=
+180	Strings.example.xml	Calendar MarginaliaTime	On the =time.day= of =time.month=
+181	Strings.example.xml	Camp Fail Blocked	Something is in the way!
+182	Strings.example.xml	Camp Success	=subject.Does:make= camp.
+183	Strings.example.xml	Camp Fail Hostiles	You can't cook with hostiles nearby.
+184	Strings.example.xml	Camp Fail In Pool	You cannot start a campfire in =pool.the.name=.
+185	Strings.example.xml	Camp Fail Already Here	There =campfire.is= already =campfire.a.name= here.
+186	Strings.example.xml	Camp Fail NoPlace	There is nothing there you can build a campfire on.
+187	Strings.example.xml	Camp Fail Other Zone	You can only build a campfire in the same zone you are in.
+188	Strings.example.xml	Campfire CookFromRecipe Menu Action Menu	Forget
+189	Strings.example.xml	Campfire GetPointsOfInterest	nearest
+190	Strings.example.xml	Campfire PreserveItems default ServingType	serving
+191	Strings.example.xml	Campfire PreserveExotic item name	=item.name=
+192	Strings.example.xml	Campfire RollIngredients Failure	a pinch of salt
+193	Strings.example.xml	Campfire NostrumsTreatPoison	Treat whom next?
+194	Strings.example.xml	Campfire NostrumsTreatIllness	Treat whom next?
+195	Strings.example.xml	Campfire NostrumsTreatDiseaseOnset	Treat whom next?
+196	Strings.example.xml	Campfire NostrumsTreatPoison	Treat whom first?
+197	Strings.example.xml	Campfire NostrumsTreatIllness	Treat whom first?
+198	Strings.example.xml	Campfire NostrumsTreatDiseaseOnset	Treat whom first?
+199	Strings.example.xml	Campfire CookFromIngredients remaining, selected = max	\n{{y|[0 remaining]}}
+200	Strings.example.xml	Campfire CookFromRecipe Menu Action Menu	Add to favorite recipes

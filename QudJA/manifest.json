@@ -1,0 +1,8 @@
+{
+  "Id": "QudJA",
+  "Title": "日本語 (Japanese) - 公式ローカライズ基盤版",
+  "Description": "lang-experimental の公式ローカライズ基盤を使った日本語パック。Harmony 不使用。オプションの Language で「日本語」を選ぶと有効になる。訳文の多くは QudJP (MIT License) から変換。",
+  "Author": "FUMI",
+  "Version": "0.1.0",
+  "Tags": ["Localization", "Japanese"]
+}

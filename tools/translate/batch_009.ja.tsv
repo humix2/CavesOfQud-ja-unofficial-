@@ -1,0 +1,164 @@
+10	=faction.the.name=
+11	=faction.the.name=
+12	=subject.refname:Worship|strip=
+13	=subject.refname:Worship:long:withTitles|strip=
+14	=subject.refname:Worship:long:withTitles|strip=
+17	16-20
+18	移動速度 -50%
+19	=subject.T=は=object.the.name=の足を引っかけようとした。
+20	本当に=subject.reflexive=の足を引っかけますか？
+21	*足止め*
+22	=subject.T=は足止めされた！
+24	=subject.to.the.direction=に=subject.a.name=が現れた。
+25	=subject.to.the.direction=で=subject.a.name=が消えた。
+26	=subject.T=には水を入れる必要がある。
+27	=subject.T=は=object.the.name=を一服吸った。
+28	そこには引っかけられるものがない。
+29	=subject.T=は踏みとどまった！
+30	=subject.T=は=subject.its.item#weapon=で=object.the.name=を引っかけた！
+31	フック＆ドラッグを使うには利き手に斧を装備している必要がある。
+32	*振りほどいた*
+33	引っかけられている！
+34	=subject.T=は引っかけから逃れた！
+35	=subject.T=は=object.the.name=から逃れた！
+36	=subject.T=は=object.the.name=のほうへ引きずられた。
+37	=blueprint.name=
+40	ハイドロポンだ。
+41	=subject.The.name=が=subject.directionIfAny=で消え去った。
+42	=subject.T=の病気が治った。
+43	*拘束*
+44	動けない！
+45	=subject.T=は動けなくなった！
+46	=subject.T=は動けるようになった。
+47	「=modName=」という名前の改造は見つからなかった。
+48	「=objectName=」という名前の設計図は見つからなかった。
+49	=object.the.name=によってテレポートさせられた。
+50	=subject.T=はセンサーを別の場所に向けた。
+51	=spice:history.regions.names.!random=
+52	いや、断る。
+53	=item.the.name|title=
+54	=originZoneName=に戻る
+63	=originZoneName=に戻り、=giver.displayNameOnlyDirect|strip=と話す。
+64	=subject.T=は=amount=のダメージを受けた！
+65	=subject.T=は=object.the.name=の立ち入りを拒んだ。
+66	=subject.The.name=は=object.the.name=に届かない。
+67	=subject.T=は=object.the.name=に入れない。
+68	=subject.T=は=object.the.name=と位相がずれている。
+69	=subject.T=は大きすぎて=object.the.name=に入れない。
+70	=item.long=
+71	[=item.weight=ポンド]
+72	=object.T=は拾えない。
+73	動けない状態では装備できない！
+74	=object.the.name=を装備できない。
+75	動けない状態では外せない！
+76	=subject.T=は=object.the.name=を拾った。
+77	=subject.T=は=object.the.name=を捨てた。
+78	=subject.T=は=subject.its.item#object=を外した。
+79	=subject.T=は=object.indefiniteForOthers#subject=を装備した。
+80	=part.ordinalName=には=object.the.name=を装備できない。
+81	=subject.T=は=subject.from.its.direction#direction==object.the.name=を拾った。
+82	=subject.name:single=
+83	カスタムアビリティの名前を変更
+84	カスタムアビリティを削除
+85	カスタムアビリティに名前を付ける
+86	インベントリのアイテムを直接使う
+87	=subject.name:single=を使う
+88	カスタムアビリティを編集: =abilityname=
+89	カスタムインベントリアビリティを削除した: =abilityname=
+90	カスタムアビリティを編集: =abilityname=（=originalname=）
+91	{{R|[インベントリアビリティ] - アイテムのアビリティが見つからない！}}
+92	{{C|=carried={{K|/=max=}}ポンド }}
+93	A-Z
+94	リスト
+95	あいまい
+96	厳密
+97	カテゴリ
+98	人体図
+99	インベントリの並び順を選択
+100	=commandKey:Toggle= 装備を表示
+101	=commandKey:Toggle= サイバネティクスを表示
+102	並び順: =modes.textSelector:W#selected=
+103	検索モード: =modes.textSelector:W#selected=
+104	装備表示: =modes.textSelector:W#selected=
+105	|=weight=ポンド|
+106	=expand.expanded=
+107	|=amount=個|=weight=ポンド|
+108	{{O|無敵}}
+109	=baseInscription|varyPlaque#wordWrap#cornerColor#edgeColor#darkColor=
+110	=subject.T=はカチッと鳴っただけだった。
+111	=subject.The.name's:withTitles=外皮が再び結晶化して硬くなった。
+112	*混乱を振り払った*
+113	脚の関節が痛む。
+114	=subject.The.name's=過敏なゲノムが暴れ出した。=spentPointsReport.join: =
+117	=subject.T=は壊れている…
+119	=subject.T=はまだ起動中だ。
+120	敵が近くにいる状態ではリコイルできない！
+121	=subject.T=には動作に必要なチャージが足りない。
+122	敵が近くにいる状態では=object.the.name=を使えない！
+123	=subject.The.name's:withTitles=起動ボタンは錆びついて動かない。
+124	なんと美しい！ 胃がざわめく。
+125	=subject.T=は叫んだ、{{W|「=message=」}}
+126	大塩砂漠に踏み入り、六日の竹馬に近づく者は誰だ？
+127	ロボットに取り憑いているのはディブクか？ それは神聖で静かであるべきだ。
+131	農場を開墾中…
+132	果樹園を植えている…
+133	=subject.a.name:long=
+134	貝の殻を剥いている…
+135	教団を組織中…
+136	噂を広めている…
+137	村を建設中…
+138	人物を配置中…
+139	クリーチャーを神話化中…
+140	次元
+141	=note.location=
+142	=text|capitalize=
+143	 {{K|-=faction.the.name=から習得}}
+144	最終訪問: =time.month=の=time.day=
+145	=recipe.journalText=
+146	=spice:lovesick.!random=
+147	燃えながら、=text|initLower=
+148	凍りつきながら、=text|initLower=
+149	=text|capitalize|secondToThirdPerson=
+150	=category=
+151	=expand.expanded= =category=
+152	=recipe.ingredients=\n \n \n
+153	{{=tradeablecolor=|$}} =journaltext=
+154	=recipe.ingredients=\n=recipe.effects= \n \n
+155	{{=tradeablecolor=|$}} {{w|[墓の碑文] =journaltext=}}
+156	=tracked.checkbox.basic= {{=tradeablecolor=|$}} =journaltext=
+157	一般
+158	=note.text|lowerArticles=の場所
+159	support@freeholdgames.com に報告してください。不明な場所カテゴリ: =category=
+160	忘れる
+161	レシピ名を変更
+162	レシピを忘れる
+163	お気に入り切り替え
+164	お気に入りに追加
+165	{{W|名前順}}
+166	{{y|名前順}}
+167	お気に入りから外す
+168	{{W|最近覚えた順}}
+169	{{y|最近覚えた順}}
+170	{{W|よく作る順}}
+171	{{y|よく作る順}}
+172	{{W|=sultan|upper=の歴史}}
+173	{{W|名前順（お気に入り優先）}}
+174	{{y|名前順（お気に入り優先）}}
+175	=expand.expanded= =category=
+176	{{=tradeablecolor=|$}} =journalline=
+177	どこへ跳ぶ？
+178	マスへジャンプ
+187	クリーチャーを飛び越えられる
+188	最小ジャンプ距離 =minrange.signed=
+189	このアイテムはジャンプ距離を=range.abs=伸ばす。
+190	このアイテムはジャンプ距離を=range.abs=縮める。
+191	{{R|...}}
+192	{{W|Alt}}
+193	不明なキー
+194	{{w|=bind=}}
+195	{{C|=description=}}
+196	{{C|=expand.expanded=}}
+197	{{C|=description|upper=}}
+198	{{C|コントローラーを設定中:}} {{c|=gamepadname=}}
+199	=commandText|color:C=の最後の割り当ては解除できない。
+200	本当にキー割り当てを初期設定で上書きしますか？

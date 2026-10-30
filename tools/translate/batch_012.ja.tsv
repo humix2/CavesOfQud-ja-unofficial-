@@ -1,0 +1,189 @@
+2	{{K|<自動取得>}}
+3	{{K|=item.weight=ポンド}}
+4	ここには着陸できない。
+5	この環境では移動できない。
+6	その停留所は荒れすぎていて、ムーバーが着陸できない。
+7	=subject.This.category=は命中精度が向上している。
+8	装弾数 =amount.signed=
+9	1回あたりの弾薬消費 =amount.signed=
+10	1回あたりの射撃数 =amount.signed=
+11	=subject.This.category=: =bonusList.andList=。
+12	メモ: =note=
+13	今後12時間、喉が渇かない。
+14	喉が渇かない。
+15	[=num=]
+16	[=num|color#shade=]
+17	=month=の=day=、あなたは=villageName=に辿り着いた。
+18	 ->
+19	このオプションはゲームの再起動後に反映される。
+20	=title|upper=
+21	=expand.expanded=
+22	=checked.checkbox.basic= =title=
+23	{{=checkcolor=|=checked.checkbox.basic=}} {{W|=title=}}
+24	オプション: =selectedoptiontitlefield=
+25	このアイテムは名付けられた=originalItem=だ。\n
+26	=subject.name:asIfKnown:noConfusion:includeAdjunctNoun=
+28	=part.operationalScope=付近のガスを払いのける。=part.statusSummary|addParens=
+29	=subject.T=は=subject.to.the.direction:noHere=へ胞子の雲を吐き出した。
+30	=subject.T=が現れた。
+31	=subject.name=の聖遺物箱
+32	=subject.T=は=object.the.name=を起動した。
+33	=subject.T=は=subject.to.the.direction=で消えた。
+34	=subject.T=は位相をずらした。
+35	無理やり位相を戻されたことで。
+36	=subject.T=は位相を戻した。
+37	パウリの排他原理に違反した。
+38	あと=duration.things:round=で位相が戻る。
+39	パウリの排他原理に違反した。
+40	迷彩
+41	日光浴をするには日光が必要だ。
+42	敵が近くにいる状態では日光浴できない。
+43	巣
+44	液体
+45	地形
+46	無脊椎動物
+47	菌類感染
+48	=object.a.name:withTitles=
+49	=passed.andList=のそばを通り過ぎた。
+50	=object.a.name=との衝突で。
+51	電弧は=alternate.the.name=を避けた。
+52	=object.a.name=が道をふさいでいる。
+53	痛っ！ =object.a.name=にぶつかった。
+54	=object.the.name|strip=のメモを入力してください。
+55	電弧は=target.the.name=を通り抜けた！
+56	=subject.T=は=object.a.name=に衝突した。
+57	本当に=object.the.name=を攻撃しますか？
+58	=object.a.name=との衝突で=pens.pens=。
+59	=object.the.name:baseOnly=が傷つくのが見えた
+60	=subject.T=は=dir.to.the.direction=へ吹き飛ばされた。
+61	=subject.a.name=が=object.them=に衝突したことで。
+62	本当に=object.the.name|strip=を攻撃しますか？
+63	[ {{W|=cleaningLiquid=を1ドラム使う場所を選択}} ]
+64	=subject.a.name=が=object.them=に衝突したことで=pens.pens=。
+65	{{electrical|電弧}}が=target.the.name=へ飛んだ！
+66	{{electrical|電弧}}が=target.the.name=へ飛んだ！
+67	{{electrical|電弧}}が=target.the.name=へ跳んだ！
+68	電弧は=alternateReason=のため=alternate.the.name=を避けた。
+69	=object.them|strip=を洗う=cleaningLiquid=を持っていない。
+70	電弧は=becauseObject.a.name=のため=alternate.the.name=を避けた。
+71	電弧は=source.to.its.direction#alternate=の=alternate.the.name=を避けた。
+72	=object.to.the.direction=で=object.the.name:baseOnly=が傷つく音がした
+73	{{G|[あなたの所有物]}}
+74	=expand.expanded= =category|color:K=
+75	A-Z
+76	並び順: =modes.textSelector:w#selected=
+77	{{Y|>}}
+78	{{G|[あなたの所有物]}}
+79	<{{W|8}}で上へスクロール>
+80	<{{W|2}}で下へスクロール>
+81	=commandKey:Take All= {{Y|すべて取る}}
+82	=commandKey:Store Items= {{Y|アイテムを収納}}
+83	=start==keychar=) =expand.expanded= {{K|[{{|=category=}}]}}
+84	=commandKey:Accept=-選択
+85	=commandKeyConsole:Accept=-選択
+86	ロック解除（=commandKey:CmdLockUnlock=）
+87	=locked.if:ロック解除:ロック=（=commandKeyConsole:CmdLockUnlock=）
+88	{{Y|HP: {{=healthColor=|=hitpoints=}} / =baseHitpoints=}}
+89	HP: =hp=
+90	=month=の=day= =time=
+91	T:=temperature==glyph.strip:Degree=
+92	LVL: =level= Exp: =xp= / =xpForNextLevel=
+93	=totalWeight=/=weightLimit=# {{blue|=water=$}}
+94	サンゴの生長
+95	=subject.T=は=object.a.name=を露わにした。
+97	=subject.T=は=object.the.name=を迎撃した！
+98	{{paisley|合奏の十芒星}}
+99	{{=color=|=factionName=}}の=points=芒星
+101	[スペースキーを押す]
+102	不足しているMOD:
+103	{{W|<さらに表示…>}}
+104	<上でさらに表示…>
+105	いくつ選ぶ？
+106	<下でさらに表示…>
+107	[Enterで確定]
+108	[{{W|スペース}}キーを押す]
+110	=preview=（色なし）
+112	[{{W|Enter}}で確定]
+113	{{=shader=|=shadername=}}
+114	=preview= ^k{{y| (=colorname=)}}
+115	{{=shader=|=preview=}} (=shadername=)
+116	[↑↓→←で調整、Enterかスペースで確定]
+118	{{y|[=commandKeyConsole:CmdDelete=] 決定}}
+119	{{y|=commandKeyConsole:Take All= すべて選択}}
+120	{{y|=commandKeyConsole:Take All= すべて解除}}
+121	[{{W|↑↓→←}}で調整、{{W|Enter}}かスペースで確定]
+122	選べるのは=amount.cardinal=個までだ！
+123	これらのエラーをPlayer.logで確認しますか？
+124	{{y|コピー}}
+125	{{y|キャンセル}}
+126	{{W|=commandKey:Accept=を押す}}
+127	[{{W|=commandKey:Accept=}}] 決定
+128	{{W|[=commandKey:Accept=]}} {{y|はい}}
+129	{{W|[=commandKey:Cancel=]}} {{y|キャンセル}}
+130	{{W|[=commandKey:V Negative=]}} {{y|いいえ}}
+131	{{W|[=commandKey:CmdHelp=]}} {{y|色}}
+132	{{W|[=commandKey:Submit=]}} {{y|送信}}
+133	{{W|[=commandKey:Accept=]}} {{y|続ける}}
+134	[{{W|=commandKey:CmdStartTrade=}}] {{y|取引}}
+135	{{W|[=commandKey:CmdOptions=]}} {{y|長押しで決定}}
+136	壁
+138	=subject.T=は地面に落ちた。
+139	=subject.T=はあなたのそばで浮かぶのをやめた。
+140	=subject.T=は今は浮かべないようだ。
+141	=subject.T=は地面に落ちた。あなたはそれをすくい上げた。
+143	明日を知る者スキルにより持続時間が=duration=延びる。
+144	料理に=ingredientTypes.orList=の効果を加える。
+145	[料理=charges|color:C=人前]
+146	[=servings|color:C=人前] =times.x.multiple=
+147	=subject.thisCreature=の喉の渇きが半分の速さになる。
+148	=mutation.name=
+149	ランク=tier=の=mutationName=が使える。
+150	ランク=addedTier=の=mutationName=が使える。
+151	=mutationName=のランク=tier.signed=
+152	=baseEffects==trigger==triggeredActions.andList=
+153	=zoneID.recoiler.name=
+154	=locationNameCache=のリコイラー
+156	飛来する投射物や投擲物を=chance=%の確率で反射する。
+157	敵を転倒させる
+158	近接攻撃で敵を転倒させる
+159	と
+160	=name|pluralize=
+161	=subject.shortname=
+162	=properNames.andList=
+163	=subject.shortsingle=
+164	=subject.the.name:asIfKnown=
+165	=subject.shortsingle:asIfKnown=
+166	=owner.its==regularNames.andList=
+167	=properNames.andList=と=owner.its==regularNames.andList=
+168	=subject.itself=を改宗させることはできない！
+169	舌がなくては改宗させられない。
+170	=object.T=はあなたの説得に納得しなかった。
+171	凍りついていて=object.t=を改宗させられない。
+172	舌がなくては=object.t=を改宗させられない。
+173	=title=
+174	=title=
+175	=title=
+176	=fragments.join:\n\n=
+177	=subject.creatureType=
+178	=cultName=のエスパー
+179	プトーの=spice:seekers.title.!random=
+180	異次元の=subject.creatureType=
+181	異次元の=subject.creatureType=
+182	エスパーの=spice:commonPhrases.hunter.!random=
+183	超次元の=spice:commonPhrases.entropist.!random=
+184	あなたは他の次元のサイキック存在からも見えている。
+185	=object.the.name:single=にサイコメトリーを使う
+186	=subject.generalDirectionIfAny=の空気が熱でゆらめき始めた！
+187	=subject.generalDirectionIfAny=の空気の熱のゆらめきが収まった。
+188	カスとコンの婚礼の天蓋
+189	ディレクトリ: =path=
+190	合計サイズ: =size=MB
+191	{{R|情報ファイルが破損している}}
+192	セーブ場所の読み込みエラー。
+193	レベル=level= =subtype= =gamemode=
+194	=location=、=ingametime= ターン=turn=
+195	{{R|旧バージョン (=version=)}} =savename=
+196	セーブフォルダへのアクセス中にエラーが発生した。
+197	セーブフォルダへのアクセス中に権限エラーが発生した。
+199	=name|trim|slim|title=
+200	=spice.entity:name=の教団

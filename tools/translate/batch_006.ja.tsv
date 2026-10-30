@@ -1,0 +1,179 @@
+1	作業中のアイテムが壊れた
+2	=object.the.name=の分解を始めた。
+3	分解の仕方が分からなくなった
+4	=itemsMessage= =learnedMessage= =bitMessage=
+5	=object.T=に手が届かなくなった
+6	=wanted=個中=done.things:item=を分解済み…
+7	=object.the.name=はもう分解できない
+8	=object.the.name=に触れられなくなった
+9	=itemsMessage=\n\n=learnedMessage=\n\n=bitMessage=
+10	=mods.andList=改造をアイテムに施す
+11	何らかのクリーチャー
+13	自分の周囲7×7
+14	=subject.a.name=の周りの空気が破壊的に振動した！
+15	*切断された！*
+16	本当に=subject.itself=を切断しますか？
+17	=subject.T=は自分の=limb.ordinalName=を叩き切った！
+18	=subject.T=は=object.the.name's==limb.ordinalName=を叩き切った！
+19	四肢を切断するには利き手に斧を装備している必要がある。
+22	=subject.T=は=object.the.name=の熱極性を反転させた。
+23	=object.itself=を支配することはできない！
+24	=subject.T=は=object.the.name=を支配した！
+25	=subject.T=は=object.name's=支配に抵抗した！
+26	何かが=object.the.name=の支配を妨げている。
+27	=object.the.name=には支配できる精神がないようだ。
+28	=object.T=には精神感応で接触できる意識がない。
+29	支配中（残り=duration.things:turn=）
+30	=subject.T=はまったく反応しない。
+31	=subject.The.name's:withTitles=心はどこか別の場所にあるようだ。
+32	支配
+33	=object.t=を開けられない。
+34	 開け方が分からないため
+35	あなたはばらばらになった。
+36	与えるダメージが=dealt.abs=%=dealt.threshold:0:増える:減る=
+37	受けるダメージが=received.abs=%=received.threshold:0:増える:減る=
+38	混乱している間は目標に印を付けられない。
+39	=usesCharge.if:給電時、=壁への貫通 =pen.signed=
+40	=chance=%の確率で液体を飲んだ効果が2回発動する
+41	=rewardName=
+42	=entries.commaList=
+43	=villageName=のリコイラー
+44	=item.a.name=を受け取った。
+45	クエストを受ける - 報酬: ランダム
+46	=rewardName= {{W|x=entry.count=}}
+47	クエストを受ける - 報酬: リコイラーとディスク
+48	バラサラム派とは何者だ？
+49	=spice:quests.intro.!random|capitalize=
+50	感謝する、=pronouns.formalAddressTerm=。
+51	今回は遠慮しておく。生きて飲め。
+52	ディスクをグリット・ゲートに持っていき、バラサラム派と話してみる。
+53	=spice:quests.intro.!random=
+54	ありがとう。まだ聞きたいことがある。
+55	=subject.T=は爆発した！
+56	=emptyText|caste.eaterPlaque=
+57	=part1=\n\n=part2=\n\n=part3=
+58	=engraving|caste.eaterPlaque=
+59	<銘板には何も刻まれていない。>
+60	=spice:tombstones.$cryptIntro.!random|title=
+61	=spice:tombstones.cryptPlaque.$familyTitle.!random|title=
+62	=spice:tombstones.cryptPlaque.$caste.familyCognomen.!random=
+63	「=spice:tombstones.cryptPlaque.$caste.familyWords.!random|initUpper=」
+64	=engraving|urn=
+65	=spice:tombstones.urnIntroByFaction.$faction=\n\n\n=name=\n\n\n「=shortMarkov=」\n
+66	=subject.T=はあなたの記憶を食べようとしたが、飢えている。
+67	下水ウナギがあなたに巻き付いた！
+68	下水ウナギがあなたの=part.ordinalName=に巻き付いた！
+69	=subject.T=は=object.to.the.direction=に下水ウナギを見つけた！
+70	=subject.T=は=object.to.the.direction=に下水ウナギを見つけた！
+71	下水ウナギがあなたに巻き付こうとしたが、届かなかった！
+72	下水ウナギがあなたに巻き付こうとしたが、すり抜けた！
+73	座席が射出できない。
+74	=subject.T=は=object.the.name=ごと射出された！
+75	=subject.T=は=object.the.name=から射出された！
+76	=subject.T=は=object.the.name=ごと=subject.to.the.direction=へ射出された！
+77	=subject.T=は=object.the.name=から=subject.to.the.direction=へ射出された！
+78	=subject.T=は固定された。
+79	放電 [チャージ=charge=]
+80	=subject.T=は=object.a.name=に触れた。
+81	=subject.T=は=object.the.name=に触れた。
+82	本当に自分を対象にしますか？
+83	=subject.T=は電弧を放った！
+84	=object.the.name=からは電力を吸い取れないようだ。
+85	=subject.T=は=amount.things:unit=の電荷を放電した！
+86	=subject.T=は電荷の一部を吸収したようだ。
+87	そこには放電を逃がせるものが何もない。
+88	[?]
+89	[{{K|空}}]
+90	[=chargeStatus=]
+92	=subject.T=はカチッと鳴っただけだった。
+93	=subject.T=は=statusphrase=。
+94	=glyph.strip:Damage|color:W==damageroll=
+95	=subject.The.name=に=cell.the.name=は入らない。
+96	=subject.T=は=cell.a.name=を=host.aForNPCSubject.name=に移した。
+97	=subject.T=は電磁パルスを放った。
+98	[{{W|EMP}}]
+99	ビルドコードの解読エラー - 必要なMOD「=requiredMod=」が見つからない。
+100	=stat.name|title=強化
+101	=stat.name=が上昇した！
+102	=stat.name=が元に戻った。
+103	=subject.T=は爆発した！
+104	=subject.T=は起爆した！
+105	=subject.T=は拳銃の握りを緩めた。
+106	=subject.T=は拳銃を待ちきれないように握りしめた。
+107	[?]
+108	[{{K|空}}]
+109	[=chargeStatus=]
+111	=subject.T=はカチッと鳴っただけだった。
+112	=subject.T=は=statusphrase=。
+113	=subject.The.name=に=cell.the.name=は入らない。
+114	=subject.T=は=cell.a.name=を=host.aForNPCSubject.name=に移した。
+115	それは合わない！
+116	{{y|[=cell.long=]}}
+117	{{y|[{{K|セルなし}}]}}
+118	合うセルを持っていない。
+119	セルを取り外す: =cell.long.name=
+120	古いセルを取り外せない！
+121	=cell.the.name=を取り外せない！
+122	=object.the.name=に入れるセルを選択
+123	\n{{rules|=cell.name|strip=: =chargeStatus=}}
+124	新しいセルをインベントリから取り出せない！
+125	=subject.T=は=object.a.name=を=device.the.name:itsSubjectPossessor=に差し込んだ。
+126	彫刻
+128	=subject.T=はカチッと鳴っただけだった。
+129	=object.the.name=には彫刻できない。
+130	=object.the.name=には彫刻できない。
+131	そこには彫刻できる相手がいない。
+132	=subject.T=は=engraver.statusPhrase=。
+133	=object.the.name's==part.ordinalName=には彫刻できない。
+134	彫刻できるのは=subject.itself=と仲間だけだ。
+135	何かがおかしく、彫刻を完成させられなかった。
+136	=object.the.name's:withTitles==part.ordinalName=に=description=を彫り込んだ。
+137	{{G|*}}
+138	装備セットなし
+139	新しい装備セット
+140	装備セットを保存
+141	=subject.shortsingle|strip=
+142	{{G|更新{{y|: =loadoutname=}}}}
+143	装備セット=loadoutname=を削除した。
+144	=loadoutname=を本当に削除しますか？
+145	編集
+146	装備
+147	装備セットなし
+148	{{Y|=partName=なし}}
+149	装備セットの管理
+150	新しい装備セットを作成
+151	新しい装備セットを作る
+152	{{P|装備セットの管理}}
+153	{{R|=equipmentName=がない}}
+154	どの装備セットに切り替える？
+155	{{W|=bodypart.cardinal=: 空き}}
+156	{{K|=bodypart.cardinal=: 空き}}
+157	装備セットの名前を入力:
+158	{{G|=bodypart.cardinal=: {{y|空き}}}}
+159	{{=color=|=name=}} - (=listequipment=)
+160	=selected.checkbox.color= =choiceforpart=
+161	{{W|=bodypart.cardinal=: =equipmentName=}}
+162	現在保存されている部位: =number=\n=listofparts=
+163	{{G|=bodypart.cardinal=: {{y|=equipmentName=}}}}
+164	=bodypart.cardinal=: =equipped.shortsingle|strip=
+165	{{R|[装備セット] 部位がない: {{y|=partName=}}}}
+166	{{c|==== 新しい装備セットを作成: {{C|=loadoutname=}} ====}}
+167	{{c|==== 装備セット{{C|=loadoutname=}}を更新 ====}}
+168	混乱していて、どの装備がどれだったか思い出せない。
+169	{{c|==== 装備セット{{C|=loadoutname=}}に切り替えた ====}}
+170	{{R|[装備セット] {{W|=bodypart.cardinal=}}の装備がない}}
+171	装備セットの編集: このセットを選んだときに装備する部位を選んでください。
+172	今行くぞ、=partyLeader.basename=！
+173	=subject.Basename|strip=は叫んだ、{{W|「=shoutMessage=」}}
+188	邪悪な
+189	=modifier|spaceAfter==subject.displayNameOnlyDirect=
+191	=item.the.name:single=
+192	=object.them=を壊してしまった気がする…
+193	=object.them=を壊してしまった気がする…
+194	=object.the.name:long=を理解した。
+195	=object.the.name:long=が何なのか分からない。
+196	=object.the.name:long=が何なのか分からない。
+197	=snapshot=の理解が少し進んだ。
+198	=snapshot=は=object.a.name:single=だと分かった。
+199	=snapshot=について隠されていたことを発見した！
+200	それが何であれ、壊れている…
