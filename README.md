@@ -38,6 +38,7 @@ lang-experimental ではランキング（Daily 等）の取得・送信がゲ�
 | データ翻訳（アイテム・クリーチャー・会話・変異・スキル・書物など） | XML | 同じ XML をそのまま流用（ゲーム本体が読み込むので実行時コストなし） |
 | ツールチップで日本語が透明になる問題 | 表示のたびにツールチップを作り直して修復 | 日本語を含むテキストだけ、描画前に透明度を親に合わせる（[SubMeshAlphaFix.cs](QudJPLite/SubMeshAlphaFix.cs)） |
 | UI の固定文字列（メニュー・見出し・ボタン等） | Harmony パッチ約530か所＋正規表現で毎回置換（**重さの主因**） | `UITextSkin` の SetText/Apply 入口だけで完全一致の辞書引き（[UITranslation.cs](QudJPLite/UITranslation.cs)、辞書は [tools/build_lite_dict.py](tools/build_lite_dict.py) が QudJP の辞書と自作訳から生成） |
+| 本の日本語の折り返し | ページ生成時に CJK 用の折り返し | 同じくページ生成時に1回だけ、日本語を含む段落を1行47文字で折り返す（[BookWrap.cs](QudJPLite/BookWrap.cs)）。ゲームは空白でしか折り返さないため、ないと段落が1行になって画面からはみ出す |
 | 戦闘メッセージ・自動生成文（名前や数が埋め込まれる文） | 同上 | なし（英語のまま） |
 
 ## 使い方
