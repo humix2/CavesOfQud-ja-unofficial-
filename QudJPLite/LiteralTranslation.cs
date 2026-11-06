@@ -25,17 +25,70 @@ namespace QudJPLite
             { "by class", "種類別" },
         };
 
+        // ポップアップの共通ボタン（キー表示と組み合わせて毎回作られるもの）。
+        // "Cancel" などの単独の語はボタンの命令名なので触らず、{{ }} 付きの表示用の文字列だけを差し替える
+        public static readonly Dictionary<string, string> ButtonMap = BuildButtonMap();
+
+        private static Dictionary<string, string> BuildButtonMap()
+        {
+            Dictionary<string, string> words = new Dictionary<string, string>
+            {
+                { "Cancel", "キャンセル" }, { "Accept", "決定" }, { "Submit", "送信" }, { "Yes", "はい" }, { "No", "いいえ" },
+                { "Trade", "取引" }, { "Color", "色" }, { "Copy", "コピー" }, { "Hold to Accept", "長押しで決定" },
+            };
+            Dictionary<string, string> map = new Dictionary<string, string>();
+            foreach (KeyValuePair<string, string> w in words)
+            {
+                map["{{y|" + w.Key + "}}"] = "{{y|" + w.Value + "}}";
+                map["}} {{y|" + w.Key + "}}"] = "}} {{y|" + w.Value + "}}";
+                map["]}} {{y|" + w.Key + "}}"] = "]}} {{y|" + w.Value + "}}";
+            }
+            map[" Cancel}}"] = " キャンセル}}";
+            map["}} Cancel"] = "}} キャンセル";
+            map["]}} Cancel"] = "]}} キャンセル";
+            map["{{W|press "] = "{{W|";
+            map["{{W|press ["] = "{{W|[";
+            return map;
+        }
+
         public static IEnumerable<CodeInstruction> Replace(IEnumerable<CodeInstruction> instructions)
+        {
+            return Replace(instructions, Map);
+        }
+
+        public static IEnumerable<CodeInstruction> Replace(IEnumerable<CodeInstruction> instructions, Dictionary<string, string> map)
         {
             foreach (CodeInstruction ins in instructions)
             {
                 string s;
-                if (ins.opcode == OpCodes.Ldstr && ins.operand is string key && Map.TryGetValue(key, out s))
+                if (ins.opcode == OpCodes.Ldstr && ins.operand is string key && map.TryGetValue(key, out s))
                 {
                     ins.operand = s;
                 }
                 yield return ins;
             }
+        }
+    }
+
+    // PopupMessage のボタン一覧を返すプロパティ（CancelButton など）すべて
+    [HarmonyPatch]
+    public static class PopupButtonLiteralPatch
+    {
+        public static IEnumerable<MethodBase> TargetMethods()
+        {
+            foreach (PropertyInfo p in typeof(PopupMessage).GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static))
+            {
+                MethodInfo get = p.GetGetMethod(true);
+                if (get != null && p.PropertyType == typeof(List<QudMenuItem>))
+                {
+                    yield return get;
+                }
+            }
+        }
+
+        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        {
+            return Literals.Replace(instructions, Literals.ButtonMap);
         }
     }
 
