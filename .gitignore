@@ -4,3 +4,7 @@ dist/
 # Python
 __pycache__/
 *.pyc
+
+# ゲーム本体のデータとその生成物（再配布しない。手元にだけ置く）
+reference/
+snapshots/
