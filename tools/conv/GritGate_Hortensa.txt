@@ -1,0 +1,1024 @@
+### Hortensa | node:Start#0 | text#0
+> =player.OffspringTerm=, who are you?
+あら、かわいい子。あなたはどなた？
+
+### Hortensa | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Start#1 | text#0
+> Stay safe, =name=. Please.
+無事でいてね、=name=。お願いよ。
+
+### Hortensa | node:Start#1 / choice:>End#0 | direct
+> Live and drink, Hortensa.
+生きて飲め、ホルテンザ。
+
+### Hortensa | start:Recame#0 | text#0
+> =name=, you are back! I feared we would lose you in the Tomb, but you look better than well. Perhaps I should have had greater faith, or at least less worry.
+>
+> Have you visited Barathrum's workshop, by the by? Klanq and Q Girl await you there.
+=name=、帰ってきたのね！ 墓所であなたを失うんじゃないかと心配していたけれど、元気どころか前よりずっといい顔をしているわ。もっと信じてあげるべきだったわね。せめて、心配しすぎないように。
+
+ところで、バラサラムの工房にはもう行った？ クランクとQガールがあなたを待っているわよ。
+
+### Hortensa | start:Recame#0 / choice:>IHave#0 | direct
+> I have.
+行った。
+
+### Hortensa | start:Recame#0 / choice:>IHavent#0 | direct
+> Not yet.
+まだだ。
+
+### Hortensa | node:IHavent#0 | text#0
+> Hie there now. Being tardy with Klanq carries risk, not so much from its offense as from its idle curiosity.
+すぐにお行きなさい。クランクを待たせるのは危ないの。怒らせるからというより、暇を持て余したあの子の好奇心がね。
+
+### Hortensa | node:IHavent#0 / choice:>End#0 | direct
+> Very well. Live and drink.
+分かった。生きて飲め。
+
+### Hortensa | node:IHave#0 | text#0
+> I am further relieved to know of another perspective looking upon this work. Klanq's presence here is vital, but it discomfits me: I cannot help but consider the introduction of chaos to an already chaotic endeavor to be a... conflagratory strategy.
+この仕事を見守る目がもうひとつ増えたと知って、ますます安心したわ。クランクがここにいることは欠かせないけれど、落ち着かないのも本当なの。ただでさえ混沌とした企てに、さらに混沌を持ち込むなんて……火に油を注ぐやり方に思えてしまって。
+
+### Hortensa | node:IHave#0 / choice:>End#0 | direct
+> I will exercise my best judgement. Live and drink.
+よく考えて動くよ。生きて飲め。
+
+### Hortensa | start:Post Arms#0 | text#0
+> I drink in the sight of you, cub. Thank you for keeping safe.
+あなたの姿が見られて、心が潤うわ、かわいい子。無事でいてくれてありがとう。
+
+### Hortensa | start:Post Arms#0 / choice:>TombQuest#0 | direct
+> I must enter Brightsheol through the Tomb of the Eaters.
+喰らう者の墓所を通って、ブライトシェオルへ入らなければならない。
+
+### Hortensa | start:Post Arms#0 / choice:>Greetings#0 | direct
+> Drink deeply of life, Hortensa. Let's talk.
+命をたっぷり味わえ、ホルテンザ。少し話そう。
+
+### Hortensa | start:Post Arms#0 / choice:>End#0 | direct
+> You too. Live and drink.
+あなたも。生きて飲め。
+
+### Hortensa | node:TombQuest#0 | text#0
+> ...  I do not like this.
+>
+> I know you will go. Please take care where you dig; mopango wanderers say the hot blood of Eater artifice yet runs in the guts of that place.
+……気に入らないわ。
+
+それでも、あなたは行くのよね。掘る場所にはくれぐれも気をつけて。さすらいのモパンゴたちが言うには、あそこの奥には、喰らう者たちの仕掛けの熱い血が、今も流れているそうだから。
+
+### Hortensa | node:TombQuest#0 / choice:>End#0 | direct
+> I thank you.
+ありがとう。
+
+### Hortensa | start:Greetings#0 | text#0
+> Drink deeply of life, =player.offspringTerm=. Are you finding your way?
+命をたっぷり味わいなさい、かわいい子。道は見つかりそう？
+
+### Hortensa | start:Greetings#0 / choice:>Bethesda#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Hortensa | start:Greetings#0 / choice:>Omonporch#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Hortensa | start:Greetings#0 / choice:>Rumbling#0 | direct
+> Did you feel that rumbling, Hortensa?
+今の地響きを感じたか、ホルテンザ？
+
+### Hortensa | start:Greetings#0 / choice:>Klanq#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Hortensa | start:Greetings#0 / choice:>HowLong#0 | direct
+> Your hair is so gray! How long have you lived in Grit Gate?
+ずいぶん白髪だな！ グリット・ゲートにはどれくらい住んでいるんだ？
+
+### Hortensa | start:Greetings#0 / choice:>OtherBarathrumites#0 | direct
+> Could you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Hortensa | start:Greetings#0 / choice:>LiquidTinker#0 | direct
+> Are you a liquid-tinker?
+あなたは液体の職人なのか？
+
+### Hortensa | start:Greetings#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Bethesda#0 | text#0
+> There are pools of convalessence there. You see, when cryogenic mist condenses, it forms a cool, luminous liquid that's restorative if you're able to bathe in it.
+>
+> Oh! And in one of the ruined wards, the Alchemist keeps their shop. Who's the Alchemist, you ask? A sort of enigmatic figure -- amateur liquid-tinker, poet, merchant. Their methods aren't scientific, but they are useful if you're seeking a specific kind of liquid. Just be careful around them, =name=.
+あそこにはコンヴァレッセンスの泉があるのよ。凍える霧が凝り固まると、ひんやりと光る液体になるの。それに浸かれば、体が癒えるのよ。
+
+そうそう！ 崩れた病棟のひとつで、「錬金術師」がお店を開いているわ。錬金術師って誰かって？ 謎めいた人よ。素人の液体職人で、詩人で、商人。やり方は科学的じゃないけれど、特定の液体を探しているなら頼りになるわ。ただ、あの人のそばでは気をつけてね、=name=。
+
+### Hortensa | node:Bethesda#0 / choice:>Omonporch#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Hortensa | node:Bethesda#0 / choice:>Rumbling#0 | direct
+> Did you feel that rumbling, Hortensa?
+今の地響きを感じたか、ホルテンザ？
+
+### Hortensa | node:Bethesda#0 / choice:>Klanq#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Hortensa | node:Bethesda#0 / choice:>HowLong#0 | direct
+> Your hair is so gray! How long have you lived in Grit Gate?
+ずいぶん白髪だな！ グリット・ゲートにはどれくらい住んでいるんだ？
+
+### Hortensa | node:Bethesda#0 / choice:>OtherBarathrumites#0 | direct
+> Could you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Hortensa | node:Bethesda#0 / choice:>LiquidTinker#0 | direct
+> Are you a liquid-tinker?
+あなたは液体の職人なのか？
+
+### Hortensa | node:Bethesda#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Omonporch#0 | text#0
+> Nothing other than a pet theory of mine that the Spindle is a liquid in laminar flow.
+何も知らないわ。スピンドルは層流になって流れている液体なんじゃないか、っていう、私のお気に入りの仮説があるだけ。
+
+### Hortensa | node:Omonporch#0 / choice:>Bethesda#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Hortensa | node:Omonporch#0 / choice:>Rumbling#0 | direct
+> Did you feel that rumbling, Hortensa?
+今の地響きを感じたか、ホルテンザ？
+
+### Hortensa | node:Omonporch#0 / choice:>Klanq#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Hortensa | node:Omonporch#0 / choice:>HowLong#0 | direct
+> Your hair is so gray! How long have you lived in Grit Gate?
+ずいぶん白髪だな！ グリット・ゲートにはどれくらい住んでいるんだ？
+
+### Hortensa | node:Omonporch#0 / choice:>OtherBarathrumites#0 | direct
+> Could you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Hortensa | node:Omonporch#0 / choice:>LiquidTinker#0 | direct
+> Are you a liquid-tinker?
+あなたは液体の職人なのか？
+
+### Hortensa | node:Omonporch#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Rumbling#0 | text#0
+> Yes! I was even provided with a brief premonition of it, as my workbench liquids are sensitive to small vibrations around the enclave.
+ええ！ 実は、ほんの少し前に予兆まであったのよ。私の作業台の液体は、拠点のまわりの小さな揺れにも敏感だから。
+
+### Hortensa | node:Rumbling#0 / choice:>Bethesda#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Hortensa | node:Rumbling#0 / choice:>Omonporch#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Hortensa | node:Rumbling#0 / choice:>Klanq#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Hortensa | node:Rumbling#0 / choice:>HowLong#0 | direct
+> Your hair is so gray! How long have you lived in Grit Gate?
+ずいぶん白髪だな！ グリット・ゲートにはどれくらい住んでいるんだ？
+
+### Hortensa | node:Rumbling#0 / choice:>OtherBarathrumites#0 | direct
+> Could you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Hortensa | node:Rumbling#0 / choice:>LiquidTinker#0 | direct
+> Are you a liquid-tinker?
+あなたは液体の職人なのか？
+
+### Hortensa | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Klanq#0 | text#0
+> Oh, yes. You see, years and years ago, we were studying optics in the course of our research into laser technology. Barathrum was giving a lecture to some guest attendees, and...
+>
+> Oh, I'd rather not talk about it.
+ええ、あるわ。ずっとずっと昔、レーザー技術の研究の一環で光学を学んでいたの。バラサラムが、招いたお客さんたちに講義をしていて、それで……
+
+いえ、その話はやめておきましょう。
+
+### Hortensa | node:Klanq#0 / choice:>Bethesda#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Hortensa | node:Klanq#0 / choice:>Omonporch#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Hortensa | node:Klanq#0 / choice:>Rumbling#0 | direct
+> Did you feel that rumbling, Hortensa?
+今の地響きを感じたか、ホルテンザ？
+
+### Hortensa | node:Klanq#0 / choice:>HowLong#0 | direct
+> Your hair is so gray! How long have you lived in Grit Gate?
+ずいぶん白髪だな！ グリット・ゲートにはどれくらい住んでいるんだ？
+
+### Hortensa | node:Klanq#0 / choice:>OtherBarathrumites#0 | direct
+> Could you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Hortensa | node:Klanq#0 / choice:>LiquidTinker#0 | direct
+> Are you a liquid-tinker?
+あなたは液体の職人なのか？
+
+### Hortensa | node:Klanq#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:HowLong#0 | text#0
+> {{emote|*Hortensa chuckles.*}}
+>
+> Years. Decades on decades. Centuries, perhaps. Most of these wet-earred cubs were merely sketches in their mothers' dreambooks when I arrived to study under Barathrum. We knew so little then, know so little now.
+{{emote|*ホルテンザがくすくす笑う。*}}
+
+何年も。何十年も何十年も。何百年かもしれないわね。私がバラサラムのもとで学ぶためにここへ来たとき、ここにいる青二才の子熊たちのほとんどは、まだ母親の夢帳に描かれた下絵にすぎなかったわ。あのころ私たちはほとんど何も知らなかったし、今もほとんど知らないのよ。
+
+### Hortensa | node:HowLong#0 / choice:>OtherBarathrumites#0 | direct
+> Could you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Hortensa | node:HowLong#0 / choice:>LiquidTinker#0 | direct
+> Are you a liquid-tinker?
+あなたは液体の職人なのか？
+
+### Hortensa | node:HowLong#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:LiquidTinker#0 | text#0
+> {{emote|*Hortensa chuckles.*}}
+>
+> You are sharp, =name=. In a way that's what I am. But liquids are more willful than scrap. I can't solder them together; they would run away, hide in the shale cracks, slowly come apart and disappear. I moreso think of myself as a wisewoman in dialogue with them -- I manage their moods and phases. My notebooks are full of their quirks and caprices. It's a wonder, isn't it, how at just the right temperature and pressure the continuity of matter is smashed apart? How the gaseous butterfly flits out of the dense worm?
+{{emote|*ホルテンザがくすくす笑う。*}}
+
+鋭いわね、=name=。ある意味では、そのとおりよ。でも、液体はがらくたよりずっと気まぐれなの。はんだでくっつけることはできないわ。逃げ出して、頁岩の割れ目に隠れて、少しずつばらばらになって消えてしまう。だから自分のことは、液体と語り合う賢女だと思っているの。あの子たちの機嫌や移り変わりをなだめてあげるのよ。私のノートは、あの子たちのくせや気まぐれでいっぱい。不思議だと思わない？ ちょうどいい温度と圧力になると、物のつながりがばらばらに砕けてしまうの。ずっしりした芋虫から、ふわふわの蝶が飛び出すみたいに。
+
+### Hortensa | node:LiquidTinker#0 / choice:>HowLong#0 | direct
+> How long have you lived in Grit Gate?
+グリット・ゲートにはどれくらい住んでいるんだ？
+
+### Hortensa | node:LiquidTinker#0 / choice:>OtherBarathrumites#0 | direct
+> Could you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Hortensa | node:LiquidTinker#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:OtherBarathrumites#0 | text#0
+> I won't denigrate them, =name=, or presume to speak for what's in their hearts. But I can direct you around the contours of the impressions they've left on me.
+>
+> Who would you like to hear about, =player.offspringTerm=?
+悪く言うつもりはないし、みんなの心の内を代わりに語るつもりもないわ、=name=。でも、みんなが私に残した印象のかたちなら、案内してあげられる。
+
+誰の話を聞きたい、かわいい子？
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:OtherBarathrumites#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Barathrum#0 | text#0
+> Larger than life. Paternal. Concerned. The lenses of his eyes are focused on the far points of the world.
+並はずれて大きな人。父親のようで、いつも気を配っている。あの人の目のレンズは、世界の遠い果てに焦点を合わせているの。
+
+### Hortensa | node:Barathrum#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Barathrum#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Barathrum#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Barathrum#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Barathrum#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Barathrum#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Barathrum#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Barathrum#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Barathrum#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Barathrum#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Barathrum#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Barathrum#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Barathrum#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Otho#0 | text#0
+> Brassy. If you bent him he might snap. The way I treat liquids on my burner, Otho treats the units of the enclave.
+真ちゅうみたいに硬い人。曲げようとしたら、ぽきっと折れてしまうかもしれないわ。私がバーナーの上の液体を扱うように、オソはこの拠点のひとりひとりを扱っているのよ。
+
+### Hortensa | node:Otho#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Otho#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Otho#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Otho#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Otho#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Otho#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Otho#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Otho#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Otho#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Otho#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Otho#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Otho#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Otho#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Jacobo#0 | text#0
+> Sharp as a tack, and living a life of deep meaning. Inventive and orderly. I can't say I understand his music, but I do love how expressive he is with it.
+とても頭が切れて、深い意味のある生き方をしている人。発想が豊かで、きちんとしているの。あの人の音楽が分かるとは言えないけれど、音楽であんなに豊かに気持ちを表すところは大好きよ。
+
+### Hortensa | node:Jacobo#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Jacobo#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Jacobo#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Jacobo#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Jacobo#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Jacobo#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Jacobo#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Jacobo#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Jacobo#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Jacobo#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Jacobo#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Jacobo#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Jacobo#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Sparafucile#0 | text#0
+> Oh, I have such a precious vantage point on my sweet neighbor! When he achieves a moment of perfection in his craft -- a flawlessly spiraled barrel, a mound of powder measured to the grain -- he beams like the high salt sun. What a lovely smile.
+ああ、隣に住むあのかわいい人を、すぐそばで見ていられるのは本当に幸せよ！ 仕事で完璧な瞬間をものにしたとき――寸分の狂いもなく溝を刻んだ銃身や、ひと粒まで量りきった火薬の山――あの人は高く昇った塩の太陽みたいに顔を輝かせるの。なんてすてきな笑顔かしら。
+
+### Hortensa | node:Sparafucile#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Sparafucile#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Sparafucile#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Sparafucile#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Sparafucile#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Sparafucile#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Sparafucile#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Sparafucile#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Sparafucile#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Sparafucile#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Sparafucile#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Sparafucile#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Sparafucile#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Q Girl#0 | text#0
+> She explodes like gas and dust in a quiet corner of the galaxy. Radiant. Revolutionary. She's a good listener and companion for supper, which you mightn't expect.
+銀河の静かな片隅で、ガスと塵が爆ぜるような子。輝いていて、革命的。意外かもしれないけれど、話をよく聞いてくれるし、夕食の相手にもぴったりなのよ。
+
+### Hortensa | node:Q Girl#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Q Girl#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Q Girl#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Q Girl#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Q Girl#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Q Girl#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Q Girl#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Q Girl#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Q Girl#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Q Girl#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Q Girl#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Q Girl#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Q Girl#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Mafeo#0 | text#0
+> After supper I like to retreat to the library, take a storybook off the shelves, flop down on the chairbear, and lose myself in another world. Many of these worlds feature palaces, markets, gardens, ships. Many of those places have bells. When they do, I always think of Mafeo. More than anyone else, Mafeo could be a character in the bright world of a story, where this dusty place is itself confined to a mere storybook.
+夕食のあと、図書室にこもって、棚から物語の本を一冊取って、熊用の椅子にどさっと座り込んで、別の世界に入り込むのが好きなの。そういう世界にはたいてい、宮殿や市場や庭や船が出てくる。そして、そういう場所の多くには鐘があるの。鐘が出てくると、いつもマフェオのことを思い出すわ。誰よりもマフェオこそ、物語の明るい世界の登場人物になれる人よ。そっちの世界では、このほこりっぽい場所のほうが、ただの物語の本の中に閉じ込められているの。
+
+### Hortensa | node:Mafeo#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Mafeo#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Mafeo#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Mafeo#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Mafeo#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Mafeo#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Mafeo#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Mafeo#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Mafeo#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Mafeo#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Mafeo#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Mafeo#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Mafeo#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Iseppa#0 | text#0
+> Our sleepy sage. So sweet. She calms me. I sit in her room and we muse on the nature of things.
+私たちの、眠たがりの賢者。とてもやさしい子よ。あの子といると心が落ち着くの。あの子の部屋に座って、一緒に物事の本質について考えるのよ。
+
+### Hortensa | node:Iseppa#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Iseppa#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Iseppa#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Iseppa#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Iseppa#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Iseppa#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Iseppa#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Iseppa#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Iseppa#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Iseppa#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Iseppa#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Iseppa#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Iseppa#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Neek#0 | text#0
+> I've instructed Neek since they were a lil' cub. What a strange one! Bouncey. Full of smiles. But brilliant in their own way. My favorite book in all the world is Neek's "Spiderwebs on Hoversleds". Who would have ever thought?
+ニークのことは、ちっちゃな子熊のころから教えているの。本当に不思議な子！ 跳ねまわっていて、いつもにこにこしていて。でも、あの子なりにすばらしく賢いのよ。世界でいちばん好きな本は、ニークの書いた『浮きそりの上のクモの巣』。誰が想像したかしら？
+
+### Hortensa | node:Neek#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Neek#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Neek#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Neek#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Neek#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Neek#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Neek#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Neek#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Neek#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Neek#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Neek#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Neek#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Neek#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Dardi#0 | text#0
+> Fiery. Blustery. Like the stews he cooks. If you're going to chat with him, make sure you have your schedule cleared and a ewer of honeyed wine.
+熱くて、騒がしい人。あの人の作るシチューみたいにね。あの人とおしゃべりするなら、予定を全部空けて、はちみつ酒を水差しいっぱい用意しておくことね。
+
+### Hortensa | node:Dardi#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Dardi#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Dardi#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Dardi#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Dardi#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Dardi#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Dardi#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Dardi#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Dardi#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Dardi#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Dardi#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Dardi#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Dardi#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Shem -1#0 | text#0
+> Precious Shem. They've such a wider view of the world than we do. What a momentous obligation we've created for ourselves, and how I wouldn't undo it!
+大切なシェム。あの子は私たちよりずっと広く世界を見ているの。私たちは、なんと重大な務めを自分たちに課してしまったのかしら。でも、決して取り消したいとは思わないわ！
+
+### Hortensa | node:Shem -1#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Shem -1#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Shem -1#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Shem -1#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Shem -1#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Shem -1#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Shem -1#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Shem -1#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Shem -1#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Shem -1#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Shem -1#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Shem -1#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Shem -1#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Aloysius#0 | text#0
+> I've shared my honey with that prickly troglodyte for more years than I can count. I can't help but like him, and while he won't admit it, he feels the same about me.
+あのとげとげした穴ごもりさんとは、数えきれないほど長いあいだ、はちみつを分け合ってきたわ。どうしても嫌いになれないの。あの人も、口では認めないけれど、私のことを同じように思っているのよ。
+
+### Hortensa | node:Aloysius#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Aloysius#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Aloysius#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Aloysius#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Aloysius#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Aloysius#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Aloysius#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Aloysius#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Aloysius#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Aloysius#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Aloysius#0 / choice:>Ereshkigal#0 | direct
+> Ereshkigal.
+エレシュキガル。
+
+### Hortensa | node:Aloysius#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Aloysius#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Hortensa | node:Ereshkigal#0 | text#0
+> She's a sphinx! So enigmatic that one. It's not entirely clear if she was there, waiting, when Q Girl succeeded at retreading the mainframe's guts, or if she sparked into being that very moment. Or was it some synthesis of the two?
+あの子はスフィンクスよ！ 本当に謎めいているの。Qガールがメインフレームの中身を組み直すのに成功したとき、あの子はもうそこにいて待っていたのか、それともその瞬間にぱっと生まれたのか、はっきりしないのよ。それとも、そのふたつが混ざり合ったのかしら？
+
+### Hortensa | node:Ereshkigal#0 / choice:>Barathrum#0 | direct
+> Barathrum.
+バラサラム。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Otho#0 | direct
+> Otho.
+オソ。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Sparafucile#0 | direct
+> Sparafucile.
+スパラフチーレ。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Jacobo#0 | direct
+> Jacobo.
+ハコボ。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Q Girl#0 | direct
+> Q Girl.
+Qガール。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Mafeo#0 | direct
+> Mafeo.
+マフェオ。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Iseppa#0 | direct
+> Iseppa.
+イセッパ。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Neek#0 | direct
+> Neek.
+ニーク。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Dardi#0 | direct
+> Dardi.
+ダルディ。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Shem -1#0 | direct
+> Shem -1.
+シェム -1。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Aloysius#0 | direct
+> Aloysius.
+アロイシウス。
+
+### Hortensa | node:Ereshkigal#0 / choice:>Start#0 | direct
+> I'd like to ask about something else.
+ほかのことを聞きたい。
+
+### Hortensa | node:Ereshkigal#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+

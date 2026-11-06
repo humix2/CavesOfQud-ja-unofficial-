@@ -1,0 +1,791 @@
+### Otho | node:Start#0 | text#0
+> Welcome to Grit Gate. I am Otho, Barathrum's steward. I apologize for the manner of our introduction, but we must take precautions. Qud is a very unforgiving place.
+>
+> You demonstrate tremendous promise to have returned from Golgotha with such inexperience. Take this firearm as your reward. It bears the mark of our finest gunsmith, Sparafucile. Take this bracelet, as well.
+>
+> Return when you are ready to discuss the signal.
+グリット・ゲートへようこそ。私はオソ、バラサラムの執事だ。あのような出迎えになったことはわびよう。だが、用心は欠かせないのでね。クッドは、まことに容赦のない土地だ。
+
+それほど経験も浅いのに、ゴルゴタから戻ってくるとは。君には大いに見込みがある。褒美としてこの銃を受け取りたまえ。我らが誇る銃職人、スパラフチーレの銘入りだ。この腕輪も持っていくといい。
+
+信号について話す準備ができたら、また来たまえ。
+
+### Otho | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Otho | node:Start#0 / choice:>End#1 | text#0
+> Thank you. I will return.
+ありがとう。また来る。
+
+### Otho | node:Start#1 | text#0
+> Welcome to Grit Gate. I am Otho, Barathrum's steward. I apologize for the manner of our introduction, but we must take precautions. Qud is a very unforgiving place.
+>
+> I am pleased to see that you've returned with the waydroid, though you still know little of the dangers you bear. Take this firearm as your reward. It bears the mark of our finest gunsmith, Sparafucile.
+>
+> Return when you are ready to discuss the signal.
+グリット・ゲートへようこそ。私はオソ、バラサラムの執事だ。あのような出迎えになったことはわびよう。だが、用心は欠かせないのでね。クッドは、まことに容赦のない土地だ。
+
+ウェイドロイドを連れて戻ってくれて何よりだ。もっとも、君は自分が抱えている危険について、まだほとんど知らないだろうが。褒美としてこの銃を受け取りたまえ。我らが誇る銃職人、スパラフチーレの銘入りだ。
+
+信号について話す準備ができたら、また来たまえ。
+
+### Otho | node:Start#1 / choice:>End#0 | text#0
+> Thank you. I will return.
+ありがとう。また来る。
+
+### Otho | node:Start#2 | text#0
+> Welcome to Grit Gate. I am Otho, Barathrum's steward. I apologize for the manner of our introduction, but we must take precautions. Qud is a very unforgiving place.
+>
+> You are worthy to study with us. Take these.
+>
+> Return when you are ready to discuss the signal.
+グリット・ゲートへようこそ。私はオソ、バラサラムの執事だ。あのような出迎えになったことはわびよう。だが、用心は欠かせないのでね。クッドは、まことに容赦のない土地だ。
+
+君には、我らと共に学ぶ資格がある。これを受け取りたまえ。
+
+信号について話す準備ができたら、また来たまえ。
+
+### Otho | node:Start#2 / choice:>End#0 | text#0
+> Thank you. I will return.
+ありがとう。また来る。
+
+### Otho | node:Start#3 | text#0
+> It takes more than a willing spirit to be trusted here, wayfarer.
+>
+> Prove your worth and bring us a waydroid, and we will have more to speak of.
+ここで信頼を得るには、心意気だけでは足りないのだよ、旅の人。
+
+ウェイドロイドを連れてきて力を示したまえ。話はそれからだ。
+
+### Otho | node:Start#4 | text#0
+> Are you ready to discuss the signal?
+信号について話す準備はできたかね？
+
+### Otho | node:Start#4 / choice:>Signal#0 | direct
+> Yes.
+ああ。
+
+### Otho | node:Start#4 / choice:>End#0 | direct
+> No.
+まだだ。
+
+### Otho | node:Signal#0 | text#0
+> The signal is a repeat transmission being broadcast from an unknown source.=V0tinkeraddendum= One of our tinkers, &mQ Girl&y, discovered it while rigging a long wave detector. Unfortunately, it's encrypted, and we do not have the means here to decrypt it. You may be of some help in this matter, however.
+>
+> We've long known the location of a fully functioning &Wbaetyl&y within the bowels of the great hall &CBethesda Susa&y. The Mechanimists have consecrated the site around it and built a temple there. Q Girl claims to have developed a means to decrypt the signal, but she needs the computing power of the baetyl. If you can infiltrate the Mechanimist compound, you may be able to engage the baetyl and decode the signal.
+あの信号は、正体の分からない発信元から繰り返し送られてきているものだ。=V0tinkeraddendum= 我らの職人のひとり、&mQガール&yが、長波探知機を組んでいる最中に見つけた。あいにく暗号化されていて、ここには解読する手段がない。だが、この件では君の力を借りられるかもしれない。
+
+大広間&Cベテスダ・スーサ&yの奥深くに、完全に動く&Wベテル&yがあることは、我々も昔から知っている。メカニマス教団はそのまわりを聖地として清め、神殿を建てた。Qガールは信号を解読する方法を編み出したと言っているが、それにはベテルの計算力が要る。君が教団の施設に忍び込めれば、ベテルを動かして信号を解読できるだろう。
+
+### Otho | node:Signal#0 / choice:>Baetyl?#0 | direct
+> What is a baetyl?
+ベテルとは何だ？
+
+### Otho | node:Baetyl?#0 | text#0
+> They are antique stones located in certain places deep within the caverns of Qud. We believe they are some sort of hyper-advanced machines built by the Eaters. Often one claims to possess a sentience of its own. However, most of them have gone haywire in the eons since their creation; it is rare indeed to discover one whose circuitry is wholly uncorroded.
+>
+> The Mechanimists worship this one as an idol, and they will protect it at all costs. You will need to find a way through their host to the baetyl itself.
+>
+> Do you believe you can accomplish this task?
+クッドの洞窟の奥深く、決まった場所に置かれている古い石だ。我々は、喰らう者たちが造った、きわめて高度な機械の一種だと考えている。自分には心がある、と言い張るものも多い。だが、造られてから途方もない年月がたち、ほとんどは狂ってしまった。回路がまったく錆びていないものを見つけるのは、実にまれなことだ。
+
+メカニマス教団はこのベテルを偶像として崇めていて、何としてでも守ろうとするだろう。君は信徒の群れを抜けて、ベテルのもとへたどり着く道を見つけなければならない。
+
+この務め、果たせると思うかね？
+
+### Otho | node:Baetyl?#0 / choice:>Bethesda1#0 | direct
+> Yes, I do.
+ああ、やれる。
+
+### Otho | node:Baetyl?#0 / choice:>End#0 | direct
+> I must think on this task.
+少し考えさせてくれ。
+
+### Otho | node:Bethesda1#0 | text#0
+> Good, =factionaddress:Barathrumites=. Speak to &mQ Girl&y in the workshop. She'll encode her instructions for the baetyl onto a copy of the disk.
+>
+> There's one more thing. The baetyl is located beneath the ancient cryobarrios of the Eaters. Time has worked to erode the mechanisms that contain their cryogenic mist. That freezing vapor billows out of the chambers freely now, cooling the entire cavern. You will want to procure warm clothing to protect =player.reflexive=.
+>
+> The spoils of the Mechanimists are yours to keep. Remember, =factionaddress:Barathrumites=, Barathrum will look kindly upon your service.
+よろしい。工房の&mQガール&yに話したまえ。ベテル向けの手順を、ディスクの写しに書き込んでくれるはずだ。
+
+もうひとつ。ベテルは、喰らう者たちの古い冷凍区画の下にある。長い年月のうちに、冷凍の霧を閉じ込めておく仕掛けが傷んでしまった。今では凍える霧が部屋から好き放題にあふれ出し、洞窟全体を冷やしている。身を守るために、暖かい服を手に入れておくといい。
+
+教団から奪った物は、君が持っていってかまわない。忘れるな、バラサラムは君の働きをきっと高く買うだろう。
+
+### Otho | node:Bethesda1#0 / choice:>End#0 | direct
+> I will return with the data, Steward.
+データを持ち帰る、執事どの。
+
+### Otho | node:Start#5 | text#0
+> Luck be with you in the lair of Bethsaida, =factionaddress:Barathrumites=.
+ベスサイダの巣窟で、幸運のあらんことを。
+
+### Otho | node:Start#5 / choice:>End#0 | direct
+> I will return with the data, Steward.
+データを持ち帰る、執事どの。
+
+### Otho | node:Start#6 | text#0
+> You return. Have you succeeded in decoding the signal?
+戻ったか。信号は解読できたかね？
+
+### Otho | node:Start#6 / choice:>PresentTheDisk#0 | direct
+> Yes.
+ああ。
+
+### Otho | node:PresentTheDisk#0 | text#0
+> Well done, =factionaddress:Barathrumites=. Present the disk.
+よくやった。ディスクを見せたまえ。
+
+### Otho | node:PresentTheDisk#0 / choice:>InterpretSignal#0 | text#0
+> [Give Otho the disk]
+[オソにディスクを渡す]
+
+### Otho | node:InterpretSignal#0 | text#0
+> I must bring the decoded signal to Barathrum immediately. Return in a few hours. By then I'll have discussed our next course of action with Barathrum and will have further instructions for you.
+解読した信号を、すぐにバラサラムのもとへ届けねばならない。数時間後にまた来たまえ。それまでに、次にどう動くかをバラサラムと話し合い、君への指示を用意しておこう。
+
+### Otho | node:InterpretSignal#0 / choice:>End#0 | direct
+> As you say, steward.
+分かった、執事どの。
+
+### Otho | node:Start#7 | text#0
+> =factionaddress:Barathrumites|capitalize=, I have no further instructions for you yet. Return soon.
+君への次の指示は、まだない。またすぐに来たまえ。
+
+### Otho | node:Start#7 / choice:>End#0 | direct
+> As you say, steward.
+分かった、執事どの。
+
+### Otho | node:Start#8 | text#0
+> =name=, I've brought the decoded signal to Barathrum, and he's finished musing on it. We have fresh instructions for you, =factionaddress:Barathrumites=. Are you ready to hear them?
+=name=、解読した信号をバラサラムに届けた。彼の思案も終わったところだ。君に新しい指示がある。聞く準備はいいかね？
+
+### Otho | node:Start#8 / choice:>Overripe#0 | direct
+> Yes.
+ああ。
+
+### Otho | node:Overripe#0 | text#0
+> Barathrum needs you for an undertaking of great importance. You must journey to &COmonporch&y far to the north. There the Spindle stretches from earth to sky. Unfortunately, a troublesome merchant from the Consortium of Phyta has relocated there and declared xerself Earl of Omonporch. We need you to broker a deal so that we may lease control of the Spindle. Failing that, you'll need to dispose of the self-appointed Earl.
+>
+> Be careful on your approach to Omonporch, =factionaddress:Barathrumites=. So far east into the reaches of Qud, the Putus Templar lie in wait.
+バラサラムは、きわめて重要な企てに君の力を必要としている。はるか北の&Cオモンポーチ&yへ向かってくれ。あそこでは、スピンドルが大地から天まで伸びている。困ったことに、フィタ・コンソーシアムの厄介な商人がそこへ移り住み、オモンポーチ伯を名乗っている。スピンドルの管理権を借り受けられるよう、話をつけてきてほしい。それが無理なら、自称伯爵には消えてもらうしかない。
+
+オモンポーチへ近づくときは用心したまえ。クッドの東の奥では、プトゥス聖堂騎士団が待ち構えている。
+
+### Otho | node:Overripe#0 / choice:>Ripe1#0 | direct
+> Who are the Putus Templar?
+プトゥス聖堂騎士団とは？
+
+### Otho | node:Overripe#0 / choice:>Ripe2#0 | direct
+> What is the purpose of this?
+それは何のためだ？
+
+### Otho | node:Overripe#0 / choice:>End#0 | direct
+> I will secure the Spindle for Barathrum.
+バラサラムのために、スピンドルを押さえてこよう。
+
+### Otho | node:Overripe#0 / choice:>End#1 | direct
+> I must think on this task.
+少し考えさせてくれ。
+
+### Otho | node:Ripe1#0 | text#0
+> The Putus Templar, or the Sons and Daughters, as they call themselves, are an order of knights who claim descendancy from the Eaters, the ancient folk who wrought the chrome halls of Qud. Beware them, for while they despise all mutants, they harbor a special malice for Barathrum.
+>
+> Take care that you do not find =player.reflexive= inside one of their slave pens.
+プトゥス聖堂騎士団――自分たちでは「息子たち」「娘たち」と名乗っている――は、クッドのクロームの広間を築いた古の民、喰らう者たちの末裔を自称する騎士団だ。気をつけたまえ。彼らはあらゆる変異者をさげすんでいるが、バラサラムには格別の憎しみを抱いている。
+
+気づいたら連中の奴隷囲いの中にいた、などということにならないようにな。
+
+### Otho | node:Ripe1#0 / choice:>Ripe2#0 | direct
+> What is the purpose of this?
+それは何のためだ？
+
+### Otho | node:Ripe1#0 / choice:>End#0 | direct
+> I will secure the Spindle for Barathrum.
+バラサラムのために、スピンドルを押さえてこよう。
+
+### Otho | node:Ripe1#0 / choice:>End#1 | direct
+> I must think on this task.
+少し考えさせてくれ。
+
+### Otho | node:Ripe2#0 | text#0
+> That will be revealed to you in due time.
+>
+> Do not forget your place, =factionaddress:Barathrumites=.
+しかるべき時が来れば明かされる。
+
+自分の立場をわきまえたまえ。
+
+### Otho | node:Ripe2#0 / choice:>Ripe1#0 | direct
+> Who are the Putus Templar?
+プトゥス聖堂騎士団とは？
+
+### Otho | node:Ripe2#0 / choice:>End#0 | direct
+> I will secure the Spindle for Barathrum.
+バラサラムのために、スピンドルを押さえてこよう。
+
+### Otho | node:Ripe2#0 / choice:>End#1 | direct
+> I must think on this task.
+少し考えさせてくれ。
+
+### Otho | node:Start#9 | text#0
+> It's as I feared, =name=. Grit Gate is being assailed. The Putus Templar must have followed you back from Omonporch.
+>
+> Let us use the precious little time we have before they arrive to prepare our defenses.
+恐れていたとおりだ、=name=。グリット・ゲートが襲われている。プトゥス聖堂騎士団が、オモンポーチから君のあとをつけてきたに違いない。
+
+奴らが来るまでの、わずかな時間を使って守りを固めよう。
+
+### Otho | node:Start#9 / choice:>BeginCallToArms#0 | direct
+> What can I do?
+何をすればいい？
+
+### Otho | node:Start#10 | text#0
+> Go to the mainframe room and scan the shale surrounding Grit Gate for anomalies. Now, =name=!
+メインフレームの部屋へ行き、グリット・ゲートのまわりの頁岩に異常がないか走査してくれ。今すぐだ、=name=！
+
+### Otho | node:Start#10 / choice:>End#0 | direct
+> I'll go now.
+すぐ行く。
+
+### Otho | node:BeginCallToArms#0 | text#0
+> With the chrome key card I gave you, you now have access to our power grid. There are chain laser emplacements and force projectors across the enclave. Use Ereshkigal's reconnaissance to decide which defenses to enable. You can also broadcast an overclock command or activate Rodanis Y by interfacing with Ereshkigal.
+>
+> Be mindful of the amperage draw, though. If you overdraw the grid, you could cause brownouts.
+>
+> Act quickly, =name=! The Templar near us even as we speak.
+渡したクロームのキーカードで、我々の電力網を操作できる。拠点のあちこちに、連鎖レーザーの砲台と力場発生器がある。エレシュキガルの偵察をもとに、どの防衛設備を動かすか決めたまえ。エレシュキガルを通じて、出力を限界まで上げる命令を出したり、ロダニス・Yを起動したりもできる。
+
+ただし、電流の使いすぎには気をつけたまえ。電力網に負荷をかけすぎると、電圧が落ちてしまう。
+
+急げ、=name=！ こうしている間にも、騎士団が迫っている。
+
+### Otho | node:BeginCallToArms#0 / choice:>End#0 | direct
+> I'll do my best to defend Grit Gate.
+全力でグリット・ゲートを守る。
+
+### Otho | node:Start#11 | text#0
+> That rumbling... what was it? An explosion? Hmm...
+今の地響き……何だ？ 爆発か？ ふむ……。
+
+### Otho | node:Start#11 / choice:>BeginGraveTidings#0 | direct
+> What are you thinking, Otho?
+何を考えている、オソ？
+
+### Otho | node:BeginGraveTidings#0 | text#0
+> Grave thoughts, =name=. Listen to me now. Take this key card, go to Ereshkigal's room, and-- oh, that's the mainframe. It's what she prefers to be called.
+>
+> Go to her room, access Ereshkigal, and scan the shale surrounding the enclave for anomalies. I've asked her to ready her sensors.
+>
+> Update me with what you learn. You may use the intercom in the northeast corner of Ereshkigal's room to deliver your update.
+>
+> Go, quickly! I'd soon be disabused of my fears.
+重い考えだよ、=name=。よく聞きたまえ。このキーカードを持って、エレシュキガルの部屋へ行き……ああ、メインフレームのことだ。彼女はそう呼ばれるのを好むのでね。
+
+彼女の部屋へ行ってエレシュキガルに接続し、拠点のまわりの頁岩に異常がないか走査してくれ。感知器を準備しておくよう、彼女には頼んである。
+
+分かったことは知らせてくれ。エレシュキガルの部屋の北東の隅にあるインターホンを使えばいい。
+
+さあ、急いで！ この不安が思い過ごしだと、早く分かればいいのだが。
+
+### Otho | node:BeginGraveTidings#0 / choice:>End#0 | direct
+> I'll go now.
+すぐ行く。
+
+### Otho | node:Start#12 | text#0
+> You can still activate our defenses, =name=. There are chain laser emplacements and force projectors across the enclave. Use Ereshkigal's reconnaissance to decide which defenses to enable. You can also broadcast an overclock command or activate Rodanis Y by interfacing with Ereshkigal.
+>
+> Be mindful of the amperage draw, though. If you overdraw the grid, you could cause brownouts.
+まだ守りの設備を動かせるぞ、=name=。拠点のあちこちに、連鎖レーザーの砲台と力場発生器がある。エレシュキガルの偵察をもとに、どの防衛設備を動かすか決めたまえ。エレシュキガルを通じて、出力を限界まで上げる命令を出したり、ロダニス・Yを起動したりもできる。
+
+ただし、電流の使いすぎには気をつけたまえ。電力網に負荷をかけすぎると、電圧が落ちてしまう。
+
+### Otho | node:Start#12 / choice:>End#0 | direct
+> I'll do my best to defend Grit Gate.
+全力でグリット・ゲートを守る。
+
+### Otho | node:Start#13 | text#0
+> Have you secured the Spindle yet?
+スピンドルは押さえられたかね？
+
+### Otho | node:Start#13 / choice:>CompleteSpindle#0 | direct
+> Yes, the Spindle is ours.
+ああ、スピンドルは我々のものだ。
+
+### Otho | node:Start#13 / choice:>End#0 | direct
+> No, not yet.
+いや、まだだ。
+
+### Otho | node:Start#14 | text#0
+> Leave me alone for a moment, =factionaddress:Barathrumites=. I have duties to attend.
+少しひとりにしてくれたまえ。片づけねばならない務めがある。
+
+### Otho | node:Start#14 / choice:>End#0 | direct
+> I will return later, Otho.
+あとでまた来る、オソ。
+
+### Otho | node:CompleteSpindle#0 | text#0
+> That is sterling news, =factionaddress:Barathrumites=. I'll go inform Barathrum straightaway.
+それはすばらしい知らせだ。すぐにバラサラムに伝えてこよう。
+
+### Otho | node:CompleteSpindle#0 / choice:>End#0 | text#0
+> Live and drink.
+生きて飲め。
+
+### Otho | node:IntroduceBarathrum#0 | text#0
+> Furthermore, I spoke with Barathrum. He praised your handling of the Earl of Omonporch, and he thanks you for the bravery you exhibited in defending Grit Gate.
+>
+> The attack today reminds us: for too long have we put our faith in the isolation of our guild and the preoccupations of the Putus Templar. The looming threat of another attack impels Barathrum to accelerate his plans, and with them, your position in our guild.
+>
+> You are raised to Disciple, =player.formalAddressTerm=. Barathrum wishes to speak with you immediately.
+それから、バラサラムと話をした。彼はオモンポーチ伯への君の対処をたたえ、グリット・ゲートを守るために君が見せた勇気に感謝している。
+
+今日の襲撃で思い知らされた。我々はあまりに長いこと、職人団が人里離れていることと、プトゥス聖堂騎士団がほかのことにかまけていることを当てにしすぎていた。また襲われるかもしれないという脅威を前に、バラサラムは計画を早めることにした。それに合わせて、職人団での君の立場も引き上げる。
+
+君は今日から「弟子」だ。バラサラムが、すぐに君と話したいそうだ。
+
+### Otho | node:IntroduceBarathrum#0 / choice:>Barathrum#0 | text#0
+> He wishes to speak to me? Barathrum himself?
+私と話したい？ バラサラム本人が？
+
+### Otho | node:Start#15 | text#0
+> I spoke with Barathrum. He praised your handling of the Earl of Omonporch, and he thanks you for the bravery you exhibited in defending Grit Gate.
+>
+> The attack today reminds us: for too long have we put our faith in the isolation of our guild and the preoccupations of the Putus Templar. The looming threat of another attack impels Barathrum to accelerate his plans, and with them, your position in our guild.
+>
+> You are raised to Disciple, =player.formalAddressTerm=. Barathrum wishes to speak with you immediately.
+バラサラムと話をした。彼はオモンポーチ伯への君の対処をたたえ、グリット・ゲートを守るために君が見せた勇気に感謝している。
+
+今日の襲撃で思い知らされた。我々はあまりに長いこと、職人団が人里離れていることと、プトゥス聖堂騎士団がほかのことにかまけていることを当てにしすぎていた。また襲われるかもしれないという脅威を前に、バラサラムは計画を早めることにした。それに合わせて、職人団での君の立場も引き上げる。
+
+君は今日から「弟子」だ。バラサラムが、すぐに君と話したいそうだ。
+
+### Otho | node:Start#15 / choice:>BarathrumHaveKey#0 | text#0
+> He wishes to speak to me? Barathrum himself?
+私と話したい？ バラサラム本人が？
+
+### Otho | node:Start#15 / choice:>Barathrum#0 | text#0
+> He wishes to speak to me? Barathrum himself?
+私と話したい？ バラサラム本人が？
+
+### Otho | node:Barathrum#0 | text#0
+> Yes, =factionaddress:Barathrumites=. Take this key and follow the stairs down to his study. He awaits.
+そうだ。この鍵を持って、階段を下りた先の書斎へ行きたまえ。彼が待っている。
+
+### Otho | node:Barathrum#0 / choice:>End#0 | direct
+> Thank you, Otho.
+ありがとう、オソ。
+
+### Otho | node:BarathrumHaveKey#0 | text#0
+> Yes, =factionaddress:Barathrumites=. Follow the stairs down to his study. He awaits.
+そうだ。階段を下りた先の書斎へ行きたまえ。彼が待っている。
+
+### Otho | node:BarathrumHaveKey#0 / choice:>End#0 | direct
+> Thank you, Otho.
+ありがとう、オソ。
+
+### Otho | node:Start#16 | text#0
+> I am busy, wayfarer. Please talk to Mafeo in the trade square if you need something.
+今は忙しいのだよ、旅の人。用があるなら、交易広場のマフェオに話してくれたまえ。
+
+### Otho | node:Start#17 | text#0
+> =factionaddress:Barathrumites|capitalize=! You have my deepest gratitude. Few =player.personTerm|pluralize= could have defended Grit Gate so deftly.
+>
+> Now, give me time to assess our losses and consult with Barathrum. Return soon.
+おお！ 心から感謝する。あれほど見事にグリット・ゲートを守れる者は、そうはいない。
+
+さて、被害を確かめ、バラサラムと相談する時間をくれたまえ。またすぐに来てくれ。
+
+### Otho | node:Start#17 / choice:>End#0 | direct
+> Live and drink, Otho.
+生きて飲め、オソ。
+
+### Otho | node:Start#18 | text#0
+> Given the circumstances, this is a remarkable lack of destruction. Your defense of Grit Gate was first-class, =name=.
+あれだけの事態だったことを思えば、驚くほど被害が少ない。君のグリット・ゲート防衛は一級品だったよ、=name=。
+
+### Otho | node:Start#18 / choice:>IntroduceBarathrum#0 | direct
+> Thank you for the update, Otho.
+知らせてくれてありがとう、オソ。
+
+### Otho | node:Start#19 | text#0
+> Much was lost, but such is what I expected. Once again, thank you for efforts, =name=.
+多くを失ったが、それは覚悟していたことだ。あらためて、君の働きに感謝する、=name=。
+
+### Otho | node:Start#19 / choice:>IntroduceBarathrum#0 | direct
+> Thank you for the update, Otho.
+知らせてくれてありがとう、オソ。
+
+### Otho | node:Start#20 | text#0
+> Such tremendous loss. I wonder if more could have been done to prevent it.
+これほどの損失とは。防ぐために、もっと何かできなかったのだろうか。
+
+### Otho | node:Start#20 / choice:>IntroduceBarathrum#0 | direct
+> Thank you for the update, Otho.
+知らせてくれてありがとう、オソ。
+
+### Otho | node:Start#21 | text#0
+> Yes, =name=?
+何かね、=name=？
+
+### Otho | node:Start#21 / choice:>End#0 | direct
+> Live and drink, steward.
+生きて飲め、執事どの。
+
+### Otho | node:SlynthRequestAccept#0 | text#0
+> I am uncertain that you know the enormity of what you ask me, =name=. Nonetheless, I cannot deny what you have done for our order. These slynth must be tested as you were, but should they show the mettle and drive set by your example, we will accept them as apprentices.
+自分がどれほど大きなことを頼んでいるのか、君は分かっているのかね、=name=。とはいえ、君が我らの団のために尽くしてくれたことは否定できない。そのスリンスたちにも、君と同じように試練を受けてもらう。君が示したほどの根性と意欲を見せてくれるなら、見習いとして迎えよう。
+
+### Otho | node:SlynthRequestAccept#0 / choice:@End#0 | direct
+> You have my thanks, Otho.
+ありがとう、オソ。
+
+### Otho | node:SlynthArrived#0 | text#0
+> I did not expect to admit this, disciple, but the refugees have met my expectations. Like you, they have shown more than a willing spirit in work and curiosity both.
+>
+> The slynth have promise, and you may have been right to bring them to us.
+認めることになるとは思わなかったが、弟子よ、あの難民たちは期待に応えてくれた。君と同じように、働きぶりにも好奇心にも、心意気以上のものを見せている。
+
+スリンスには見込みがある。彼らを連れてきた君は、正しかったのかもしれない。
+
+### Otho | node:SlynthArrived#0 / choice:>Start#0 | direct
+> My thanks, Otho.
+ありがとう、オソ。
+
+### Otho | node:SlynthSettled#0 | text#0
+> Live and drink, disciple.
+>
+> You will be pleased to know that the slynth have proven themselves worthy of apprentice status. They will reside here for as long as they uphold and serve the tenets of our order.
+生きて飲め、弟子よ。
+
+喜んでくれたまえ。スリンスたちは、見習いにふさわしいと証明してみせた。我らの団の教えを守り、それに尽くすかぎり、彼らはここで暮らすことになる。
+
+### Otho | node:SlynthSettled#0 / choice:>Start#0 | direct
+> My thanks again, Otho
+重ねてありがとう、オソ。
+
+### Q Girl | node:Start#0 | text#0
+> Quetzal! Who are you, stranger?
+ケツァール！ あなた、だあれ？
+
+### Q Girl | node:Start#0 / choice:>End#0 | direct
+> I must be going.
+もう行かないと。
+
+### Q Girl | node:Start#1 | text#0
+> It's time to fight, =name=. Are you with me?
+戦いの時間だよ、=name=。一緒に来てくれる？
+
+### Q Girl | node:Start#1 / choice:>End#0 | direct
+> I am.
+もちろんだ。
+
+### Q Girl | node:Start#2 | text#0
+> Quetzal, quetzal, quetzal! Welcome to the workshop, =player.formalAddressTerm=.
+ケツァール、ケツァール、ケツァール！ 工房へようこそ！
+
+### Q Girl | node:Start#2 / choice:ClimberChoice#0 | direct
+> Barathrum asked me to deliver your blueprints to Pax Klanq.
+バラサラムに、君の設計図をパックス・クランクへ届けるよう頼まれた。
+
+### Q Girl | node:Start#2 / choice:RumblingChoice#0 | direct
+> Did you feel that rumbling, Q Girl?
+今の地響き、感じたか、Qガール？
+
+### Q Girl | node:Start#2 / choice:QuetzalChoice#0 | direct
+> What does 'quetzal' mean?
+「ケツァール」ってどういう意味だ？
+
+### Q Girl | node:Start#2 / choice:HairChoice#0 | direct
+> Your hair is a quasar of red ochre and indigo.
+君の髪は、赤土色と藍色のクエーサーだね。
+
+### Q Girl | node:Start#2 / choice:GogglesChoice#0 | direct
+> Do you like my goggles?
+このゴーグル、どうだ？
+
+### Q Girl | node:Start#2 / choice:TinkerChoice#0 | direct
+> There must be a hundred gadgets here. What are you working on?
+ここには道具が百はありそうだ。何を作っているんだ？
+
+### Q Girl | node:Start#2 / choice:DiskChoice#0 | direct
+> Otho informs me that you have a method for decoding the signal. Can you encode your instructions for the baetyl onto this disk?
+オソから、君が信号を解読する方法を持っていると聞いた。ベテル向けの手順を、このディスクに書き込んでもらえるか？
+
+### Q Girl | node:Start#2 / choice:>End#0 | direct
+> Live and drink, tinker.
+生きて飲め、職人さん。
+
+### Q Girl | node:Rumbling#0 | text#0
+> Yikes! Yes! The intensity was too great to be the result of one of my experiments. What was it, I wonder?
+ひゃっ！ 感じた！ あの強さは、私の実験のどれかにしては大きすぎるよ。何だったんだろう？
+
+### Q Girl | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink, tinker.
+生きて飲め、職人さん。
+
+### Q Girl | node:Quetzal#0 | text#0
+> It's a word I say out of excitement. Sort of a semantic extension of the feeling I get when I see a quetzal. Oh, a quetzal is a pretty bird in the trogon family. I tend to incorporate things I like into my idiolect.
+わくわくしたときに言っちゃう言葉なの。ケツァールを見たときの気持ちを、意味ごと広げて使ってる感じかな。あ、ケツァールっていうのはキヌバネドリ科のきれいな鳥だよ。好きなものは、つい自分だけの言葉づかいに取り込んじゃうんだ。
+
+### Q Girl | node:Quetzal#0 / choice:>End#0 | direct
+> Live and drink, tinker.
+生きて飲め、職人さん。
+
+### Q Girl | node:Hair#0 | text#0
+> Quetzal! Thank you, thank you. What a poetic metaphor! You're a regular Shakesprig, aren't you?
+ケツァール！ ありがとう、ありがとう。なんて詩的なたとえ！ まるでシェイクスプリグだね！
+
+### Q Girl | node:Hair#0 / choice:>End#0 | direct
+> Live and drink, tinker.
+生きて飲め、職人さん。
+
+### Q Girl | node:Goggles#0 | text#0
+> Yes, yes, yes. They are so quetzal!
+うん、うん、うん。すっごくケツァール！
+
+### Q Girl | node:Goggles#0 / choice:>End#0 | direct
+> Live and drink, tinker.
+生きて飲め、職人さん。
+
+### Q Girl | node:Tinker#0 | text#0
+> Oh, oh! Quetzal! A wave shortener for the short wave detector, a frustum pully for the ion lathe, a thrice-retrothreaded M-band, a...
+>
+> {{emote|*She continues.*}}
+>
+> ...and a dissertation on the illegitimacy of power. Quetzal!
+あっ、あっ！ ケツァール！ 短波探知機用の波短縮器でしょ、イオン旋盤用の円錐台プーリーでしょ、三回逆ねじを切ったMバンドでしょ、それから……
+
+{{emote|*彼女はまだ続ける。*}}
+
+……あと、権力の不当性についての論文。ケツァール！
+
+### Q Girl | node:Tinker#0 / choice:>End#0 | direct
+> Live and drink, tinker.
+生きて飲め、職人さん。
+
+### Q Girl | node:Disk#0 | text#0
+> I do, brave friend. I'll imprint them now.
+できるよ、勇敢なお友だち。今すぐ書き込むね。
+
+### Q Girl | node:Disk#0 / choice:>End#0 | direct
+> Thank you, Q Girl.
+ありがとう、Qガール。
+
+### Q Girl | node:Climber#0 | text#0
+> Here they are, brave friend. Good luck!
+はい、これだよ、勇敢なお友だち。がんばってね！
+
+### Q Girl | node:Climber#0 / choice:>End#0 | direct
+> Thank you, Q Girl.
+ありがとう、Qガール。
+
+### Gritgate Intercom | node:Start#0 | text#0
+> &B[&CVoice transmitting through panel&B]&y
+>
+> Be gone, wayfarer. This is no place for you.
+&B[&Cパネルから声が聞こえる&B]&y
+
+立ち去れ、旅の者。ここはお前の来る場所ではない。
+
+### Gritgate Intercom | node:Start#0 / choice:>TradeEntrance#0 | direct
+> I come by way of Joppa. The elder Irudad calls me friend.
+ジョッパから来た。イルーダッド長老は私を友と呼んでくれる。
+
+### Gritgate Intercom | node:Start#0 / choice:>GiveDisk#0 | direct
+> Wait! My name is =name=. I've come into possession of a data disk stamped with a peculiar sigil. Does this have meaning to your order of tinkers? Might you examine it?
+待ってくれ！ 私は=name=。奇妙な紋章が刻まれたデータディスクを手に入れた。あなたたち職人団にとって、何か意味のあるものか？ 調べてもらえないだろうか？
+
+### Gritgate Intercom | node:Start#0 / choice:>GiveDisk#1 | direct
+> Wait! My name is =name=. I've come into possession of a data disk stamped with a peculiar sigil. Does this have meaning to your order of tinkers? Might you examine it?
+待ってくれ！ 私は=name=。奇妙な紋章が刻まれたデータディスクを手に入れた。あなたたち職人団にとって、何か意味のあるものか？ 調べてもらえないだろうか？
+
+### Gritgate Intercom | node:Start#0 / choice:>TradeEntrance#1 | direct
+> I am a merchant, cave dweller. I wish only to trade.
+私は商人だ、洞窟の住人よ。取引がしたいだけだ。
+
+### Gritgate Intercom | node:Start#0 / choice:>GiveDisk#2 | direct
+> Wait! My name is =name=. I bring a message from Argyve of Joppa.
+待ってくれ！ 私は=name=。ジョッパのアーギヴからの伝言を持ってきた。
+
+### Gritgate Intercom | node:Start#0 / choice:>GiveDisk#3 | direct
+> Wait! My name is =name=. The people of =villageZeroName= recently came into possession of a data disk, onto which a strange signal was recorded. At their behest I carry the disk with me. They say your tutelage is to be my reward.
+待ってくれ！ 私は=name=。=villageZeroName=の人々が最近、奇妙な信号が記録されたデータディスクを手に入れた。頼まれて、そのディスクを持ってきた。報酬は、あなたたちに教えを受けることだと聞いている。
+
+### Gritgate Intercom | node:GiveDisk#0 | text#0
+> [A slot opens from the center of the door and a metal tray slides out]
+[扉の真ん中に差し入れ口が開き、金属の盆がすべり出てくる]
+
+### Gritgate Intercom | node:GiveDisk#0 / choice:>GaveDiskFromVillage#0 | direct
+> [Place stamped disk in tray]
+[紋章入りのディスクを盆に置く]
+
+### Gritgate Intercom | node:GiveDisk#0 / choice:>GaveDiskSolo#0 | direct
+> [Place scratched disk in tray]
+[傷のついたディスクを盆に置く]
+
+### Gritgate Intercom | node:GiveDisk#0 / choice:>GaveDisk#0 | direct
+> [Place disk in tray]
+[ディスクを盆に置く]
+
+### Gritgate Intercom | node:GiveDisk#0 / choice:>End#0 | direct
+> Uh, I'll come back later with it.
+あー、あとで持ってくる。
+
+### Gritgate Intercom | node:GaveDiskFromVillage#0 | text#0
+> [several minutes pass]
+>
+> So you wish to study with us. Unfortunately, we require more than a willing spirit.
+>
+> Qud is not =villageZeroName=. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.
+>
+> Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.
+>
+> Do you accept this arrangement?
+[数分が過ぎる]
+
+つまり、我らのもとで学びたいというのだな。あいにくだが、心意気だけでは足りない。
+
+クッドは=villageZeroName=とは違う。我らの時間と手間を無駄にさせないと、力を示してもらおう。北にある大洞窟ゴルゴタへ行け。その中に、壊れたウェイドロイドがしまい込まれている場所がある。
+
+一体を持ち出し、直して、ここへ戻ってこい。その仕事ぶりに満足すれば、団に迎え入れよう。そうでなければ、それまでだ。
+
+この条件を受けるか？
+
+### Gritgate Intercom | node:GaveDiskFromVillage#0 / choice:>End#0 | direct
+> Yes.
+受ける。
+
+### Gritgate Intercom | node:GaveDiskFromVillage#0 / choice:>End#1 | direct
+> No, I'm not interested.
+いや、興味はない。
+
+### Gritgate Intercom | node:GaveDiskSolo#0 | text#0
+> [several minutes pass]
+>
+> The disk you bring is encoded with an important signal. To discuss it further, we must admit you to our order. Unfortunately, we require more than a willing spirit.
+>
+> You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.
+>
+> Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted as an apprentice. Otherwise, you will be turned away.
+>
+> Do you accept this arrangement?
+[数分が過ぎる]
+
+お前が持ってきたディスクには、重要な信号が暗号化されて入っている。これについて話を続けるには、お前を団に迎え入れねばならない。あいにくだが、心意気だけでは足りない。
+
+我らの時間と手間を無駄にさせないと、力を示してもらおう。北にある大洞窟ゴルゴタへ行け。その中に、壊れたウェイドロイドがしまい込まれている場所がある。
+
+一体を持ち出し、直して、ここへ戻ってこい。その仕事ぶりに満足すれば、見習いとして迎えよう。そうでなければ、追い返すまでだ。
+
+この条件を受けるか？
+
+### Gritgate Intercom | node:GaveDiskSolo#0 / choice:>End#0 | direct
+> Yes.
+受ける。
+
+### Gritgate Intercom | node:GaveDiskSolo#0 / choice:>End#1 | direct
+> No, I'm not interested.
+いや、興味はない。
+
+### Gritgate Intercom | node:GaveDisk#0 | text#0
+> [several minutes pass]
+>
+> So it seems that you are indeed Argyve's apprentice. He wishes you to study with us. Unfortunately, we require more than a willing spirit.
+>
+> Qud is not Joppa. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.
+>
+> Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.
+>
+> Do you accept this arrangement?
+[数分が過ぎる]
+
+どうやら、お前は本当にアーギヴの弟子のようだな。あの男は、お前を我らのもとで学ばせたいらしい。あいにくだが、心意気だけでは足りない。
+
+クッドはジョッパとは違う。我らの時間と手間を無駄にさせないと、力を示してもらおう。北にある大洞窟ゴルゴタへ行け。その中に、壊れたウェイドロイドがしまい込まれている場所がある。
+
+一体を持ち出し、直して、ここへ戻ってこい。その仕事ぶりに満足すれば、団に迎え入れよう。そうでなければ、それまでだ。
+
+この条件を受けるか？
+
+### Gritgate Intercom | node:GaveDisk#0 / choice:>End#0 | direct
+> Yes.
+受ける。
+
+### Gritgate Intercom | node:GaveDisk#0 / choice:>End#1 | direct
+> No, I'm not interested.
+いや、興味はない。
+
+### Gritgate Intercom | node:Start#1 | text#0
+> Have you completed the task?
+課題は済んだか？
+
+### Gritgate Intercom | node:Start#1 / choice:>RepairedWaydroid#0 | direct
+> Yes.
+済んだ。
+
+### Gritgate Intercom | node:Start#1 / choice:>TradeEntrance#0 | direct
+> Not yet. But I require entrance to the city for the purposes of trade.
+まだだ。だが、取引のために中へ入りたい。
+
+### Gritgate Intercom | node:Start#2 | text#0
+> Welcome, wayfarer.
+ようこそ、旅の者。
+
+### Gritgate Intercom | node:Start#2 / choice:>TradeEntrance#0 | direct
+> I require entrance to the city.
+中へ入りたい。
+
+### Gritgate Intercom | node:TradeEntrance#0 | text#0
+> Enter then, traveler.
+では入れ、旅の者。
+
+### Gritgate Intercom | node:TradeEntrance#0 / choice:>End#0 | text#0
+> Live and drink.
+生きて飲め。
+
+### Gritgate Intercom | node:RepairedWaydroid#0 | text#0
+> [The slot opens from the center of the door. A bright red light shines through.]
+>
+> [Several minutes pass.]
+>
+> You may enter. Simply walk through the force barrier. Make your first two lefts and speak to Steward Otho in his office.
+[扉の真ん中に差し入れ口が開き、明るい赤い光が差し込む。]
+
+[数分が過ぎる。]
+
+入ってよい。力場の壁はそのまま通り抜けられる。最初の角を二つ続けて左に曲がり、執務室にいる執事オソと話せ。
+
+### Gritgate Mainframe Intercom | node:Start#0 | text#0
+> It's as I feared, =name=. Grit Gate is being assailed. The Putus Templar must have followed you back from Omonporch.
+>
+> Let us use the precious little time we have before they arrive to prepare our defenses.
+恐れていたとおりだ、=name=。グリット・ゲートが襲われている。プトゥス聖堂騎士団が、オモンポーチから君のあとをつけてきたに違いない。
+
+奴らが来るまでの、わずかな時間を使って守りを固めよう。
+
+### Gritgate Mainframe Intercom | node:Start#0 / choice:>BeginCallToArms#0 | direct
+> What can I do?
+何をすればいい？
+
+### Gritgate Mainframe Intercom | node:BeginCallToArms#0 | text#0
+> With the chrome key card I gave you, you now have access to our power grid. There are chain laser emplacements and force projectors across the enclave. Use Ereshkigal's reconnaissance to decide which defenses to enable. You can also broadcast an overclock command or activate Rodanis Y by interfacing with Ereshkigal.
+>
+> Be mindful of the amperage draw, though. If you overdraw the grid, you could cause brownouts.
+>
+> Act quickly, =name=! The Templar near us even as we speak.
+渡したクロームのキーカードで、我々の電力網を操作できる。拠点のあちこちに、連鎖レーザーの砲台と力場発生器がある。エレシュキガルの偵察をもとに、どの防衛設備を動かすか決めたまえ。エレシュキガルを通じて、出力を限界まで上げる命令を出したり、ロダニス・Yを起動したりもできる。
+
+ただし、電流の使いすぎには気をつけたまえ。電力網に負荷をかけすぎると、電圧が落ちてしまう。
+
+急げ、=name=！ こうしている間にも、騎士団が迫っている。
+
+### Gritgate Mainframe Intercom | node:BeginCallToArms#0 / choice:>End#0 | direct
+> I'll do my best to defend Grit Gate.
+全力でグリット・ゲートを守る。
+
+### Gritgate Mainframe Intercom | node:Start#1 | text#0
+> {{emote|*loud static*}}
+{{emote|*大きな雑音*}}

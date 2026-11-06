@@ -1,0 +1,411 @@
+### Angohind | node:Start#0 | text#0
+> Kendren! A moment of your time, please. You are =name=, yes? You seek to solve a mystery here in the village, yes?
+ケンドレン！ ちょっといいかな。君、=name=だろう？ この村の謎を解きに来たんだよね？
+
+### Angohind | node:Start#0 / choice:>ShowSonnet#0 | direct
+> Does this poem belong to you?
+この詩、君が書いたものか？
+
+### Angohind | node:Start#0 / choice:>Introductions#0 | direct
+> I am, and yes.
+ああ、どちらもその通りだ。
+
+### Angohind | node:Start#0 / choice:>How did you know?#0 | direct
+> How did you know all that?
+どうしてそこまで知っている？
+
+### Angohind | node:Start#0 / choice:>Introductions#1 | direct
+> Who are you?
+君は誰だ？
+
+### Angohind | node:Start#0 / choice:>End#0 | direct
+> I don't have time for this. Live and drink.
+付き合っている暇はない。生きて飲め。
+
+### Angohind | node:ShowSonnet#0 | text#0
+> Poem? Oh! This is a Shakespriggan sonnet, but I didn't write it--the rhymes are a bit facile, and love poems don't interest me.
+>
+> I've been teaching Eskhind about sonnets, so she must have written this. But that means... oh, poor thing.
+詩？ おや！ シェイクスプリグ風のソネットだね。でも僕が書いたものじゃないよ――韻の踏み方がちょっと安直だし、恋の詩には興味がないんだ。
+
+エスキンドにソネットを教えていたから、きっと彼女が書いたんだろう。でも、だとすると……ああ、かわいそうに。
+
+### Angohind | node:ShowSonnet#0 / choice:>End#0 | direct
+> Thank you. Live and drink.
+ありがとう。生きて飲め。
+
+### Angohind | node:How did you know?#0 | text#0
+> I hoped you would ask! I closely study the works of the great bard, Willow Shakesprig. In particular, I am most fond of the stories of the Great Plant Detective, Hemlock Cones. Through these stories, I have learned to hone my perceptions and deductive skill to a fine point. It is my dearest hope that one day I shall be known not as Angohind, village bookworm... but Angohind, Master Detective.
+>
+> My grandhind has forbidden me from looking into the strange doings in the village, but she said nothing about me teaching you the ins and outs of detective work! What say you?
+よくぞ聞いてくれた！ 僕は偉大な詩人ウィロウ・シェイクスプリグの作品を熱心に研究していてね。中でも大好きなのが、植物界の名探偵ヘムロック・コーンズの物語なんだ。あの物語のおかげで、観察眼と推理力をとことん磨いてきた。いつか「村の本の虫アンゴヒンド」じゃなく……「名探偵アンゴヒンド」と呼ばれるのが、僕の一番の夢さ。
+
+おばあさまには村の怪しい出来事に首を突っ込むなと言われているんだけど、君に探偵のいろはを教えちゃいけないとは言われてない！ どうだい？
+
+### Angohind | node:How did you know?#0 / choice:>Acceptance#0 | direct
+> I am listening.
+聞かせてくれ。
+
+### Angohind | node:How did you know?#0 / choice:>End#0 | direct
+> I should... go. Live and drink.
+そろそろ……行かないと。生きて飲め。
+
+### Angohind | node:Introductions#0 | text#0
+> Yes, yes of course.
+>
+> I am Angohind: grandson of esteemed Elder Eselhind, young scholar of Shakesprig, and best dressed hindren in Bey Lah. I am also, as luck would have it, an aspirant investigator with an ear... for mystery.
+>
+> My grandhind has forbidden me from looking into the strange doings in the village, but she said nothing about me teaching you the ins and outs of detective work! What say you?
+ああ、そうだね、もちろん。
+
+僕はアンゴヒンド。誉れ高き長老エセルヒンドの孫にして、シェイクスプリグを学ぶ若き研究者、そしてベイ・ラーいちばんのおしゃれなヒンドレンだ。そのうえ運のいいことに、探偵の卵でもある。この耳は……謎を聞き逃さないのさ。
+
+おばあさまには村の怪しい出来事に首を突っ込むなと言われているんだけど、君に探偵のいろはを教えちゃいけないとは言われてない！ どうだい？
+
+### Angohind | node:Introductions#0 / choice:>Acceptance#0 | direct
+> I am listening.
+聞かせてくれ。
+
+### Angohind | node:Introductions#0 / choice:>End#0 | direct
+> No thank you. Live and drink.
+遠慮しておく。生きて飲め。
+
+### Angohind | node:Acceptance#0 | text#0
+> Oh, truly? You won't regret this, kendren, I promise! So, let's get to it!
+>
+> Every mystery hinges on the detection and interpretation of evidence. As Hemlock Cones said:
+>
+> Ere any prosecution can commence, Accusers must obtain some evidence. The solving lies in seeing and locating Supporting clues as well as implicating.
+ほんとに？ 後悔はさせないよ、ケンドレン、約束する！ じゃあ、さっそく始めよう！
+
+どんな謎も、鍵は証拠を見つけて、それをどう読み解くかにある。ヘムロック・コーンズいわく――
+
+罪を問うなら　まず証拠
+謎を解くなら　目を凝らせ
+誰かを指す証と
+それを裏打つ手がかりを
+
+### Angohind | node:Acceptance#0 / choice:>Finding evidence#0 | direct
+> How do I find evidence?
+証拠はどうやって探すんだ？
+
+### Angohind | node:Acceptance#0 / choice:>Defining evidence#0 | direct
+> What makes something evidence?
+何があれば証拠になる？
+
+### Angohind | node:Acceptance#0 / choice:>Implicating evidence#0 | direct
+> What is implicating evidence?
+「容疑の証拠」って？
+
+### Angohind | node:Acceptance#0 / choice:>Supporting evidence#0 | direct
+> What is supporting evidence?
+「裏付けの証拠」って？
+
+### Angohind | node:Acceptance#0 / choice:>Multiple culprits?#0 | direct
+> What if evidence indicates multiple culprits?
+証拠が何人もの犯人を指していたら？
+
+### Angohind | node:Finding evidence#0 | text#0
+> Professor Cones taught me everything about finding evidence!
+>
+> Though evidence you found upon the ground may yet be sound, If it will be sufficient is a toss-up. Examine all your suspects and their homes and all around, And find a witness who may dish the gossip.
+>
+> You can find evidence by looking at things on the ground, but you can also look at your suspects to see if there's anything off about them. You can also ask around to see if anyone has seen or heard anything strange, and different witnesses may have different things to report.
+証拠の探し方なら、コーンズ先生から全部教わったよ！
+
+拾った証拠も　嘘ではなかろう
+だが足りるかは　運しだい
+容疑者を　その家を　隅々まで調べ
+噂を語る　証人を探せ
+
+地面に落ちている物を調べれば証拠は見つかる。でも、容疑者本人を見て、どこかおかしなところがないか確かめるのも手だ。それから、何か妙なものを見聞きしなかったか、聞いて回るといい。証人によって話すことが違ったりするからね。
+
+### Angohind | node:Finding evidence#0 / choice:>Supporting evidence#0 | direct
+> What about supporting evidence?
+裏付けの証拠は？
+
+### Angohind | node:Finding evidence#0 / choice:>Defining evidence#0 | direct
+> What makes something evidence?
+何があれば証拠になる？
+
+### Angohind | node:Finding evidence#0 / choice:>Multiple culprits?#0 | direct
+> What if I find implicating evidence for multiple suspects?
+何人もの容疑者に、容疑の証拠が出てきたら？
+
+### Angohind | node:Finding evidence#0 / choice:>End#0 | direct
+> Thank you for your help, Angohind. Live and drink.
+助かったよ、アンゴヒンド。生きて飲め。
+
+### Angohind | node:Defining evidence#0 | text#0
+> Evidence is any sign of something gone amiss. The Great Plant Detective gave some good examples in Act II of the tragedy of Gimlet:
+>
+> So! Sweep the full estate for signs of {{W|trade}}, their shady night-time dealings to expose Now look for signs of {{W|craft}}, see what was made For to conceal a treasure hidden close. But darker still, if {{W|illness}} signs we find A desperate contagion may yet lurk And darkest yet, more {{W|violence}} may reply To those who stumble 'pon their grisly work.
+証拠っていうのは、何かがおかしいというしるしのことさ。植物界の名探偵は、悲劇『ギムレット』の第二幕でいい例を挙げているよ。
+
+さあ、屋敷じゅうを探れ　{{W|取引}}の跡はないか
+夜陰にまぎれた　後ろ暗い商いを暴け
+次は{{W|細工}}の跡を探せ　何が作られたのか
+すぐそばに隠した宝を　覆うためではないか
+だがさらに暗いのは　{{W|病}}の兆しを見たとき
+ひそかに広がる疫病が　まだ潜んでいるやもしれぬ
+そして何より暗いのは　むごい所業に行き当たった者を
+さらなる{{W|暴力}}が　待ち受けているやもしれぬこと
+
+### Angohind | node:Defining evidence#0 / choice:>Finding evidence#0 | direct
+> How do I find evidence?
+証拠はどうやって探すんだ？
+
+### Angohind | node:Defining evidence#0 / choice:>Defining evidence#0 | direct
+> What makes something evidence?
+何があれば証拠になる？
+
+### Angohind | node:Defining evidence#0 / choice:>Implicating evidence#0 | direct
+> What is implicating evidence?
+「容疑の証拠」って？
+
+### Angohind | node:Defining evidence#0 / choice:>Supporting evidence#0 | direct
+> What is supporting evidence?
+「裏付けの証拠」って？
+
+### Angohind | node:Defining evidence#0 / choice:>Multiple culprits?#0 | direct
+> What if evidence indicates multiple culprits?
+証拠が何人もの犯人を指していたら？
+
+### Angohind | node:Implicating evidence#0 | text#0
+> Implicating evidence is what it sounds like: evidence that implicates someone's involvement in a crime. For example, if someone observed strange behavior in a person, or if you found something weird in a person's room, or even if you observe them behaving strangely =player.reflexive=! That's implicating evidence.
+>
+> Most of the time, a piece of implicating evidence isn't proof of a crime in and of itself, but when presented alongside supporting evidence, implicating evidence is the seed of truth from which grows the long frond of justice.
+容疑の証拠は、名前のとおりさ。誰かが事件に関わっていると疑わせる証拠のことだ。たとえば、ある人の妙な振る舞いを誰かが見ていたとか、その人の部屋で変な物が見つかったとか。君自身がその人の妙な行動を目にした、でもいい！ そういうのが容疑の証拠だ。
+
+たいていの場合、容疑の証拠ひとつだけでは罪の証明にはならない。でも裏付けの証拠と一緒に示せば、容疑の証拠は真実の種になる。そこから正義という長い葉が伸びていくんだ。
+
+### Angohind | node:Implicating evidence#0 / choice:>Supporting evidence#0 | direct
+> What about supporting evidence?
+裏付けの証拠は？
+
+### Angohind | node:Implicating evidence#0 / choice:>Finding evidence#0 | direct
+> How do I find evidence?
+証拠はどうやって探すんだ？
+
+### Angohind | node:Implicating evidence#0 / choice:>Multiple culprits?#0 | direct
+> What if I find implicating evidence for multiple suspects?
+何人もの容疑者に、容疑の証拠が出てきたら？
+
+### Angohind | node:Implicating evidence#0 / choice:>End#0 | direct
+> Thank you for your help, Angohind. Live and drink.
+助かったよ、アンゴヒンド。生きて飲め。
+
+### Angohind | node:Supporting evidence#0 | text#0
+> Supporting evidence can be any sign that something is amiss that you can't directly tie to an individual. One common example is a bloodstain, which indicates that violence was committed but doesn't tell you by whom.
+>
+> At its heart, supporting evidence is most powerful when paired with implicating evidence. Once you have both, you'll be in a good position to accuse a suspect of wrongdoing.
+裏付けの証拠は、何かがおかしいと分かるけれど、特定の誰かには直接結びつけられないしるしのことだ。よくある例は血痕だね。暴力があったことは分かるけれど、誰がやったかまでは教えてくれない。
+
+つまるところ、裏付けの証拠は容疑の証拠と組み合わせたときにいちばん力を発揮する。両方そろえば、容疑者を告発する準備は万全さ。
+
+### Angohind | node:Supporting evidence#0 / choice:>Implicating evidence#0 | direct
+> What about implicating evidence?
+容疑の証拠は？
+
+### Angohind | node:Supporting evidence#0 / choice:>Finding evidence#0 | direct
+> How do I find evidence?
+証拠はどうやって探すんだ？
+
+### Angohind | node:Supporting evidence#0 / choice:>Multiple culprits?#0 | direct
+> What if I find implicating evidence for multiple suspects?
+何人もの容疑者に、容疑の証拠が出てきたら？
+
+### Angohind | node:Supporting evidence#0 / choice:>End#0 | direct
+> Thank you for your help, Angohind. Live and drink.
+助かったよ、アンゴヒンド。生きて飲め。
+
+### Angohind | node:Multiple culprits?#0 | text#0
+> As Professor Cones said:
+>
+> We know the reach of law, however long, Is not the finest judge of right and wrong. Choose not what evidence thou wilt present Ere its consequence is evident.
+>
+> In short, you must use your judgment and intuition, kendren.
+コーンズ先生はこう言っている。
+
+法の腕は長くとも
+善悪を量る　最良の秤にあらず
+示す証拠を選ぶのは
+その行く末を　見通してから
+
+つまり、自分の判断と直感を信じるしかないってことさ、ケンドレン。
+
+### Angohind | node:Multiple culprits?#0 / choice:>Evidence exceptions#0 | direct
+> What if I accuse the wrong person?
+間違った相手を告発したら？
+
+### Angohind | node:Multiple culprits?#0 / choice:>Evidence is not created equal#0 | direct
+> You're saying that what evidence I choose to show will affect the outcome of the case?
+どの証拠を見せるかで、事件の結末が変わるってことか？
+
+### Angohind | node:Multiple culprits?#0 / choice:>Gaming the system#0 | direct
+> Then what's to keep me from simply choosing the outcome I want?
+なら、自分の望む結末を選べばいいだけじゃないか？
+
+### Angohind | node:Multiple culprits?#0 / choice:>Questions#0 | direct
+> I have further questions.
+ほかにも聞きたいことがある。
+
+### Angohind | node:Evidence exceptions#0 | text#0
+> That's always a risk, kendren.
+>
+> Neelahind knows everyone in the village very well. If you present supporting evidence that contradicts something the Warden knows to be true about the suspect, well, she probably won't believe you. In fact, she might not let you accuse that person again, so be careful.
+>
+> If you make too many bad accusations, you might lose credibility with her entirely.
+その危険はいつだってあるよ、ケンドレン。
+
+ニーラヒンドは村の誰のこともよく知っている。容疑者について監視官が事実だと知っていることと食い違う裏付けの証拠を出したら……まあ、たぶん信じてもらえないだろうね。それどころか、その人をもう告発させてもらえなくなるかもしれない。気をつけて。
+
+見当違いの告発を重ねすぎると、彼女からまったく信用されなくなるかもしれないよ。
+
+### Angohind | node:Evidence exceptions#0 / choice:>Questions#0 | direct
+> I see. I have further questions.
+なるほど。ほかにも聞きたいことがある。
+
+### Angohind | node:Evidence exceptions#0 / choice:>End#0 | direct
+> Thank you for the help, Angohind. Live and drink.
+助かったよ、アンゴヒンド。生きて飲め。
+
+### Angohind | node:Gaming the system#0 | text#0
+> Well, your conscience, surely.
+>
+> You wouldn't be so unethical as to manipulate the resolution of a crime to your own ends. W-would you?
+そりゃあ、君の良心さ。
+
+まさか自分の都合で事件の決着をねじ曲げるような、不道徳な人じゃないだろう？ ね、ねえ？
+
+### Angohind | node:Gaming the system#0 / choice:>Questions#0 | direct
+> As you say it. I have further questions.
+そういうことにしておこう。ほかにも聞きたいことがある。
+
+### Angohind | node:Gaming the system#0 / choice:>End#0 | direct
+> Well, I should get going. Live and drink.
+さて、そろそろ行かないと。生きて飲め。
+
+### Angohind | node:Evidence is not created equal#0 | text#0
+> Precisely. The evidence you present paints a picture that will forever hang in the halls of Bey Lah's history. Our fate is in your hands.
+>
+> Hemlock Cones once said:
+>
+> As like begets like in daily life so too in mystery. Should I paint pictures full of strife thus violence comes to be. If I in craft or trade should deal then deals shall deal by troth But if I pestilence reveal-
+> no honey be enough.
+そのとおり。君が示す証拠は一枚の絵を描く。その絵はベイ・ラーの歴史の広間に、永遠に飾られることになるんだ。僕らの運命は君の手の中にある。
+
+ヘムロック・コーンズはかつてこう言った。
+
+日々の暮らしと同じく
+謎もまた　似たものが似たものを生む
+争いに満ちた絵を描けば
+そこから暴力が生まれ
+細工や取引の絵を描くなら
+取引は誠をもって結ばれよう
+だが疫病を暴いたならば――
+どんな蜜でも　甘くはできぬ
+
+### Angohind | node:Evidence is not created equal#0 / choice:>Questions#0 | direct
+> I see. I have further questions.
+なるほど。ほかにも聞きたいことがある。
+
+### Angohind | node:Evidence is not created equal#0 / choice:>End#0 | direct
+> Thank you for your help, Angohind. Live and drink.
+助かったよ、アンゴヒンド。生きて飲め。
+
+### Angohind | node:Questions#0 | text#0
+> Please, ask away!
+さあ、何でも聞いてくれ！
+
+### Angohind | node:Questions#0 / choice:>Finding evidence#0 | direct
+> How do I find evidence?
+証拠はどうやって探すんだ？
+
+### Angohind | node:Questions#0 / choice:>Implicating evidence#0 | direct
+> What is implicating evidence?
+「容疑の証拠」って？
+
+### Angohind | node:Questions#0 / choice:>Supporting evidence#0 | direct
+> What is supporting evidence?
+「裏付けの証拠」って？
+
+### Angohind | node:Questions#0 / choice:>Multiple culprits?#0 | direct
+> What if evidence indicates multiple culprits?
+証拠が何人もの犯人を指していたら？
+
+### Angohind | node:Questions#0 / choice:>Evidence exceptions#0 | direct
+> What if I accuse the wrong person?
+間違った相手を告発したら？
+
+### Angohind | node:Questions#0 / choice:>End#0 | direct
+> That is all. Live and drink, faundren.
+これで全部だ。生きて飲め、ファウンドレン。
+
+### Angohind | node:Start#1 | text#0
+> Welcome back, Detective =name=.
+>
+> Everything's in order here, more or less.
+おかえり、=name=探偵。
+
+こっちは、まあだいたい落ち着いているよ。
+
+### Angohind | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Angohind | node:Start#2 | text#0
+> You should be proud, Detective =name=.
+>
+> The hand of justice can be harsh, but it is fair. You have been its agent here.
+胸を張っていいよ、=name=探偵。
+
+正義の手は厳しいこともあるけれど、公正だ。君はここで、その手の役目を果たしたんだ。
+
+### Angohind | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Angohind | node:Start#3 | text#0
+> So much change! I've been investigating the 'Democracy' that Hindriarch Esk has been espousing, and it strikes me as rife with vulnerabilities to malicious actors. Perhaps it can be refined.
+ずいぶん変わったなあ！ ヒンドリアーク・エスクが唱えている「民主制」を調べているんだけど、どうも悪意ある者につけこまれる穴だらけに思えるんだ。もう少し改良できるかもしれない。
+
+### Angohind | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Angohind | node:Start#4 | text#0
+> Stunning! Eskhind as Hindriarch?
+>
+> Those poetry lessons I had been giving her must have inspired in her a sense of civic duty.
+驚いた！ エスキンドがヒンドリアークだって？
+
+僕がしていた詩の授業が、村のために尽くす心を彼女に芽生えさせたに違いない。
+
+### Angohind | node:Start#4 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Angohind | node:Start#5 | text#0
+> Is this really the world we live in?
+>
+> How cruel.
+これが本当に、僕たちの生きる世界なのか？
+
+なんて残酷なんだ。
+
+### Angohind | node:Start#5 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Angohind | node:Start#6 | text#0
+> Something strange is afoot here in Bey Lah, and no mistake.
+>
+> But I am forbidden from investigating. If only there were another detective that I could advise...
+ここベイ・ラーで何か妙なことが起きている。間違いない。
+
+でも僕は調べることを禁じられているんだ。代わりに助言できる探偵が、誰かいてくれたらなあ……。
+
+### Angohind | node:Start#6 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。

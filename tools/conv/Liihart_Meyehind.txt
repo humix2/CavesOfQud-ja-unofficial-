@@ -1,0 +1,335 @@
+### Liihart | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#2 | text#0
+> Hey, =name=. Live and drink.
+よう、=name=。生きて飲め。
+
+### Liihart | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#3 | text#0
+> This sucks.
+>
+> ...but you're not so bad.
+最悪。
+
+……でも、あんたは悪くない。
+
+### Liihart | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#4 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#5 | text#0
+> ... what a waste.
+……くだらない。
+
+### Liihart | node:Start#5 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#6 | text#0
+> Oh! =name=.
+>
+> It makes me happy to see you.
+あ！ =name=。
+
+会えてうれしい。
+
+### Liihart | node:Start#6 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#7 | text#0
+> Um... thank you.
+>
+> Live and drink.
+えっと……ありがと。
+
+生きて飲め。
+
+### Liihart | node:Start#7 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Liihart | node:Start#8 | text#0
+> {{emote|*Liihart stares at you for several quiet seconds.*}}
+>
+> Live and drink.
+{{emote|*リーハートは何秒か黙って、あなたをじっと見つめる。*}}
+
+生きて飲め。
+
+### Liihart | node:Start#8 / choice:>ShowSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたが書いたものか？
+
+### Liihart | node:Start#8 / choice:>StoneQuery#0 | direct
+> May I ask you some questions?
+いくつか聞いてもいいか？
+
+### Liihart | node:Start#8 / choice:>End#0 | direct
+> Live and drink, reticent one.
+生きて飲め、無口な人。
+
+### Liihart | node:StoneQuery#0 / choice:>StonePush#0 | direct
+> I said, may I ask you some questions?
+聞いてもいいか、と言ったんだ。
+
+### Liihart | node:StoneQuery#0 / choice:>StoneSilence#0 | direct
+> You are not partial to talking.
+話すのは好きじゃないようだな。
+
+### Liihart | node:StoneQuery#0 / choice:>End#0 | direct
+> Well then. Live and drink.
+そうか。生きて飲め。
+
+### Liihart | node:StonePush#0 | text#0
+> {{emote|*she glares in silence*}}
+{{emote|*彼女は黙ってにらみつけてくる*}}
+
+### Liihart | node:StonePush#0 / choice:>StonePush#0 | direct
+> Answer me.
+答えてくれ。
+
+### Liihart | node:StonePush#0 / choice:>StoneSilence#0 | direct
+> You are not partial to talking.
+話すのは好きじゃないようだな。
+
+### Liihart | node:StonePush#0 / choice:>End#0 | direct
+> Never mind. Live and drink.
+もういい。生きて飲め。
+
+### Liihart | node:StoneSilence#0 | text#0
+> ... correct.
+……そう。
+
+### Liihart | node:StoneSilence#0 / choice:>GentlePush#0 | direct
+> I'm trying to exonerate your sister. Can you help?
+あなたの姉妹の疑いを晴らしたいんだ。力を貸してくれないか？
+
+### Liihart | node:StoneSilence#0 / choice:>StonePush#0 | direct
+> So you can answer my questions. You just don't want to.
+つまり、答えられるのに答えたくないだけか。
+
+### Liihart | node:StoneSilence#0 / choice:>End#0 | direct
+> Never mind. Live and drink.
+もういい。生きて飲め。
+
+### Liihart | node:GentlePush#0 | text#0
+> Eskhind didn't do it. It was probably Keh.
+>
+> That's all I know. I mind my business.
+>
+> Wish you would too.
+エスキンドはやってない。たぶんケーの仕業。
+
+知ってるのはそれだけ。私は余計なことに首を突っ込まない。
+
+あんたもそうしてくれたらいいのに。
+
+### Liihart | node:GentlePush#0 / choice:>End#0 | direct
+> Fair enough. Live and drink.
+分かった。生きて飲め。
+
+### Liihart | node:ShowSonnet#0 | text#0
+> Oh! Eskhind wrote that.
+>
+> You should give that to Neelahind. It was supposed to go to Neelahind.
+あ！ それ、エスキンドが書いたやつ。
+
+ニーラヒンドに渡しなよ。もともとニーラヒンド宛てだったんだから。
+
+### Liihart | node:ShowSonnet#0 / choice:>NotEsk#0 | direct
+> Not Eskhind?
+エスキンドにではなく？
+
+### Liihart | node:ShowSonnet#0 / choice:>End#0 | direct
+> Thank you. Live and drink.
+ありがとう。生きて飲め。
+
+### Liihart | node:NotEsk#0 | text#0
+> No, no, give it to Neelahind.
+>
+> Esk will thank you later.
+違う違う、ニーラヒンドに渡して。
+
+エスクはあとで感謝するから。
+
+### Liihart | node:NotEsk#0 / choice:>End#0 | direct
+> I see, thank you. Live and drink.
+なるほど、ありがとう。生きて飲め。
+
+### Meyehind | node:Start#0 | text#0
+> Bey Lah is gone. I hope you're happy.
+ベイ・ラーはもうない。これで満足でしょう。
+
+### Meyehind | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Meyehind | node:Start#1 | text#0
+> Our world is ending...
+私たちの世界が終わっていく……。
+
+### Meyehind | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Meyehind | node:Start#2 | text#0
+> Live and drink, =name=.
+生きて飲め、=name=。
+
+### Meyehind | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Meyehind | node:Start#3 | text#0
+> Perhaps it was too much to wish that Bey Lah would change.
+>
+> But Esk is happy again. That makes me feel happy too.
+ベイ・ラーが変わることを願うなんて、望みすぎだったのかもしれない。
+
+でも、エスクはまた笑えるようになった。それが私もうれしいの。
+
+### Meyehind | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Meyehind | node:Start#4 | text#0
+> I can't imagine why you would think we want your company, kendren.
+私たちがあなたと一緒にいたがっていると、どうして思えるのかしらね、ケンドレン。
+
+### Meyehind | node:Start#4 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Meyehind | node:Start#5 | text#0
+> Leave us alone.
+放っておいて。
+
+### Meyehind | node:Start#5 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Meyehind | node:Start#6 | text#0
+> Thank you for what you've done for our sister.
+妹のためにしてくれたこと、感謝しているわ。
+
+### Meyehind | node:Start#6 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Meyehind | node:Start#7 | text#0
+> If you've nothing you need of me, kendren, I'd just as soon hold my peace.
+用がないなら、ケンドレン、私は黙っていたいのだけど。
+
+### Meyehind | node:Start#7 / choice:>ShowSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたが書いたものか？
+
+### Meyehind | node:Start#7 / choice:>Meyequeries#0 | direct
+> May I ask you some questions?
+いくつか聞いてもいいか？
+
+### Meyehind | node:Start#7 / choice:>End#0 | direct
+> Very well. Live and drink.
+分かった。生きて飲め。
+
+### Meyehind | node:Meyequeries#0 | text#0
+> I suppose.
+まあ、いいけれど。
+
+### Meyehind | node:Meyequeries#0 / choice:Family#0 | direct
+> Tell me about your family.
+家族のことを教えてくれ。
+
+### Meyehind | node:Meyequeries#0 / choice:Brother#0 | direct
+> Keh told me that Eskhind has a brother.
+ケーから、エスキンドには兄弟がいると聞いた。
+
+### Meyehind | node:Meyequeries#0 / choice:Culprit#0 | direct
+> Who do you think stole Kindrish?
+キンドリッシュを盗んだのは誰だと思う？
+
+### Meyehind | node:Meyequeries#0 / choice:>End#0 | direct
+> Never mind. Live and drink.
+やっぱりいい。生きて飲め。
+
+### Meyehind | node:Brother#0 | text#0
+> ... did she.
+……あの人が、そう言ったの。
+
+### Meyehind | node:Brother#0 / choice:>Demand#0 | direct
+> Where is he? Tell me what happened to him.
+その兄弟はどこにいる？ 何があったのか教えてくれ。
+
+### Meyehind | node:Brother#0 / choice:>Correct#0 | direct
+> But she doesn't, does she? Only sisters.
+でも、本当はいないんだろう？ いるのは姉妹だけだ。
+
+### Meyehind | node:Culprit#0 | text#0
+> I don't like to speculate on a matter I know so little of, nor one whose outcome so dearly affects my life.
+>
+> If what you want is a strongly-worded accusation based on nothing, Liihart is the sister to talk to.
+よく知りもしないことを、あれこれ推測するのは好きじゃないの。その結末に私の人生がこれほど懸かっているなら、なおさら。
+
+根拠のない激しい告発が聞きたいなら、リーハートに聞くといいわ。
+
+### Meyehind | node:Culprit#0 / choice:>End#0 | direct
+> That's all for now. Live and drink.
+今はこれで十分だ。生きて飲め。
+
+### Meyehind | node:Correct#0 | text#0
+> {{emote|*You see Meyehind's body relax a bit.*}}
+>
+> That's right, kendren.
+>
+> It's naught to do with the case anyway. Only cold tradition and the cold heart that keeps it.
+{{emote|*メイエヒンドの体から、少しこわばりが抜けた。*}}
+
+そうよ、ケンドレン。
+
+どのみち事件とは関係のない話。あるのは冷たいしきたりと、それを守り続ける冷たい心だけ。
+
+### Meyehind | node:Correct#0 / choice:>End#0 | direct
+> That's all for now. Live and drink.
+今はこれで十分だ。生きて飲め。
+
+### Meyehind | node:Demand#0 | text#0
+> {{emote|*Meyehind's glare turns withering for the few seconds it takes before she turns her face and body away from you.*}}
+{{emote|*メイエヒンドは凍りつくような目で数秒にらみつけると、顔も体もあなたからそむけた。*}}
+
+### Meyehind | node:Family#0 | text#0
+> What's to tell? We are outcasts, pushed to the margins by our people for the crime of harmless deviance.
+>
+> It's beyond perverse to call us back just so Grand-Doe can punish us further.
+話すことなんてある？ 私たちはのけ者よ。誰も傷つけない「はみ出し」を罪とされて、同胞から村のはずれへ追いやられたの。
+
+それを、大雌鹿がもっと罰を与えるためだけに呼び戻すなんて。ひねくれているにもほどがあるわ。
+
+### Meyehind | node:Family#0 / choice:>End#0 | direct
+> That's all for now. Live and drink.
+今はこれで十分だ。生きて飲め。
+
+### Meyehind | node:ShowSonnet#0 | text#0
+> Hm! No, Eskhind wrote that, but I thought she burned it.
+>
+> If you return it to anyone, you should return it to her.
+へえ！ 違うわ、それはエスキンドが書いたもの。燃やしたと思っていたけれど。
+
+誰かに返すなら、あの子に返してあげて。
+
+### Meyehind | node:ShowSonnet#0 / choice:>End#0 | direct
+> Thank you. Live and drink.
+ありがとう。生きて飲め。

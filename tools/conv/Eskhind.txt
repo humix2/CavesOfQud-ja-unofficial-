@@ -1,0 +1,879 @@
+### Eskhind | node:EskhindAcceptSlynthStart#0 | text#0
+> I must admit, =name=, that I can think of few notions more challenging to my people than to welcome a flower-people into our town. Some will see them as no better than walking lah.
+>
+> But if the notion came from you, they might consider putting it to a vote, at least. If you'll stand by, I will call a referendum.
+正直に言うよ、=name=。花の民を村に迎え入れるなんて、私の民にとってこれほど難しい話はそうない。歩くラーと変わらないと見る者もいるだろうね。
+
+でも、言い出したのが君なら、少なくとも投票にかけてみようとは思ってくれるかもしれない。待っていてくれるなら、住民投票を呼びかけるよ。
+
+### Eskhind | node:EskhindAcceptSlynthStart#0 / choice:>EskhindAcceptSlynthStart2#0 | direct
+> Please do.
+頼む。
+
+### Eskhind | node:EskhindAcceptSlynthStart2#0 | text#0
+> I'll have Warden Neelahind gather everyone as soon as they can spare the eyes and ears for it.
+>
+> {{emote|*Hindriarch Esk canters away, voice already raised.*}} Hey, Warden!
+見張りの手が空きしだい、監視官ニーラヒンドにみんなを集めてもらおう。
+
+{{emote|*ヒンドリアーク・エスクは、もう声を張り上げながら駆けていく。*}} ねえ、監視官！
+
+### Eskhind | node:EskhindAcceptSlynthStart3#0 | text#0
+> {{emote|The moments pass in hundreds, filled with dust and noise. Voices rise, hooves stamp the packed earth, and a fledgling democratic process takes its first faltering steps.}}
+{{emote|砂ぼこりと喧騒のなかで、幾百のひとときが過ぎていく。声が上がり、蹄が踏み固められた土を打ち鳴らし、生まれたばかりの民主の営みが、おぼつかない最初の一歩を踏み出す。}}
+
+### Eskhind | node:Start#0 | text#0
+> Hold there! Who are you? What do you want?
+止まって！ 誰？ 何の用？
+
+### Eskhind | node:Start#0 / choice:>End#0 | direct
+> I am leaving.
+もう行くところだ。
+
+### Eskhind | node:Start#1 | text#0
+> Hold there! Who are you? What do you want?
+止まって！ 誰？ 何の用？
+
+### Eskhind | node:Start#1 / choice:>Hindriarch Keh sent me.#0 | direct
+> I am =name=. Hindriarch Keh sent me.
+=name=だ。ヒンドリアーク・ケーに頼まれて来た。
+
+### Eskhind | node:Start#1 / choice:>Give back what you stole.#0 | direct
+> I am justice. Give back what you stole.
+正義の使いだ。盗んだ物を返してもらおう。
+
+### Eskhind | node:Start#1 / choice:>End#0 | text#0
+> I am your worst nightmare. Prepare to die.
+お前の最悪の悪夢だ。覚悟しろ。
+
+### Eskhind | node:Start#1 / choice:>End#1 | direct
+> Nothing. Live and drink.
+何でもない。生きて飲め。
+
+### Eskhind | node:Hindriarch Keh sent me.#0 | text#0
+> Keh? I'm shocked that she even deigned to speak my name. I am a pariah now, beneath discussion. Does she demand remuneration for the scant supplies I stole?
+ケーが？ あの人が私の名前を口にするなんて驚きだね。私はもう村のはみ出し者、話題にする値打ちもないはずなのに。持ち出したわずかな食料の弁償でもしろって？
+
+### Eskhind | node:Hindriarch Keh sent me.#0 / choice:>You stole Kindrish.#0 | direct
+> She says that you stole Kindrish, the village's treasure.
+あなたが村の宝、キンドリッシュを盗んだと言っている。
+
+### Eskhind | node:Give back what you stole.#0 | text#0
+> What I stole? I stole supplies to sustain myself and my sisters, nothing more, and little enough that no one would suffer for its absence. You would cut those from my hide?
+盗んだ物？ 私と姉妹が食いつなぐための食料を持ち出しただけ。誰も困らないくらいのわずかな量よ。それすら、この身から削り取って返せって言うの？
+
+### Eskhind | node:Give back what you stole.#0 / choice:>You stole Kindrish.#0 | direct
+> No. You stole the treasure called Kindrish.
+違う。キンドリッシュという宝を盗んだだろう。
+
+### Eskhind | node:You stole Kindrish.#0 | text#0
+> {{emote|*Eskhind bursts into forced, nervous laughter*}}
+>
+> Is that her angle? To claim that I stole Kindrish? Her influence must be waning more than even I knew.
+{{emote|*エスキンドは、引きつった、無理やりな笑い声を上げる*}}
+
+そういう筋書きなわけ？ 私がキンドリッシュを盗んだって？ あの人の威光、私が思っていた以上に落ちているみたいね。
+
+### Eskhind | node:You stole Kindrish.#0 / choice:>What are you saying?#0 | direct
+> What are you saying?
+何が言いたい？
+
+### Eskhind | node:You stole Kindrish.#0 / choice:>You claim innocence?#0 | direct
+> You claim innocence?
+無実だと言うのか？
+
+### Eskhind | node:You stole Kindrish.#0 / choice:>I suspected this.#0 | direct
+> A frame-up. I suspected this.
+濡れ衣か。そんなことだろうと思った。
+
+### Eskhind | node:What are you saying?#0 | text#0
+> What do you imagine I am saying? The aging, ineffectual leader of a village in isolation. A system that strives to forget anyone who sees the outside, no matter how much its inhabitants strive for a better tomorrow.
+>
+> Bey Lah's isolationism provides ideal patsies for any crime the Hindriarch chooses to commit.
+何が言いたいかって？ 閉ざされた村の、年老いて頼りにならない長。外の世界を見た者を、なかったことにしようとする仕組み。村の者がどれだけ明日を良くしようとしても、ね。
+
+閉ざされたベイ・ラーなら、ヒンドリアークがどんな罪を犯しても、罪をかぶせる相手には困らないってこと。
+
+### Eskhind | node:What are you saying?#0 / choice:>You think Keh stole the treasure?#0 | direct
+> You think Keh stole the treasure?
+ケーが宝を盗んだと思っているのか？
+
+### Eskhind | node:What are you saying?#0 / choice:>Why should I believe you?#0 | direct
+> Why should I believe you?
+なぜあなたを信じなきゃならない？
+
+### Eskhind | node:What are you saying?#0 / choice:>What should I do?#0 | direct
+> What do you expect me to do, then?
+では、どうしろと？
+
+### Eskhind | node:You claim innocence?#0 | text#0
+> Yes. I am falsely accused.
+>
+> See, Bey Lah strives to forget anyone who sees the outside. The gerontocracy ensures that its leaders will always be aging and fearful. Pariahs like me can be easily accused of crimes committed by Keh or her cronies.
+ええ。濡れ衣よ。
+
+いい？ ベイ・ラーは外を見た者を忘れようとする。年寄りが村を治めるから、長はいつだって老いていて、臆病。私みたいなはみ出し者なら、ケーやその取り巻きがやった罪だって簡単に着せられるの。
+
+### Eskhind | node:You claim innocence?#0 / choice:>You think Keh stole the treasure?#0 | direct
+> You think Keh stole the treasure?
+ケーが宝を盗んだと思っているのか？
+
+### Eskhind | node:You claim innocence?#0 / choice:>Why should I believe you?#0 | direct
+> Why should I believe you?
+なぜあなたを信じなきゃならない？
+
+### Eskhind | node:You claim innocence?#0 / choice:>Lies.#0 | direct
+> Lies. You are trying to manipulate me.
+嘘だ。言いくるめるつもりだろう。
+
+### Eskhind | node:You claim innocence?#0 / choice:>What should I do?#0 | direct
+> What do you expect me to do, then?
+では、どうしろと？
+
+### Eskhind | node:I suspected this.#0 | text#0
+> Well, good. I would give you a prize for your insight, but times have been lean.
+>
+> As you say, the Hindriarch is obviously framing me. As a pariah, I am an ideal patsy for Keh. Much as I love my people, they are weak of will and do not question the Grand-Doe.
+へえ、いいね。その洞察にご褒美でもあげたいところだけど、あいにく懐が寂しくて。
+
+あなたの言うとおり、ヒンドリアークが私をはめようとしているのは明らか。はみ出し者の私は、ケーにとって格好の身代わりなのよ。私は自分の民を愛しているけど、みんな気が弱くて、大雌鹿に逆らおうとしないから。
+
+### Eskhind | node:I suspected this.#0 / choice:>You think Keh stole the treasure?#0 | direct
+> You really think Keh stole the treasure?
+本当にケーが宝を盗んだと思っているのか？
+
+### Eskhind | node:I suspected this.#0 / choice:>Why should I believe you?#0 | direct
+> Why should I believe you?
+なぜあなたを信じなきゃならない？
+
+### Eskhind | node:I suspected this.#0 / choice:>Lies.#0 | direct
+> Lies. You are trying to manipulate me.
+嘘だ。言いくるめるつもりだろう。
+
+### Eskhind | node:I suspected this.#0 / choice:>What should I do?#0 | direct
+> What can be done, then?
+では、どうすればいい？
+
+### Eskhind | node:I suspected this.#0 / choice:>Eskhind is rude#0 | direct
+> You didn't need to be rude about it.
+そんな失礼な言い方をしなくてもいいだろう。
+
+### Eskhind | node:You think Keh stole the treasure?#0 | text#0
+> Ay, you kendren are just as thick as the elders. I'd hoped otherwise.
+>
+> Yes, I am suggesting that old Grand-Doe is trying to fool you, and the village as well. I'm not certain that she stole it herself, but an investigation might undermine her authority, and she cannot have that.
+はあ、ケンドレンも長老たちと同じくらい鈍いのね。違うと思っていたのに。
+
+そう、年寄りの大雌鹿があなたを、そして村をだまそうとしているって言っているの。自分で盗んだのかは分からない。でも、調べられたら威光に傷がつくかもしれない。あの人にはそれが我慢ならないのよ。
+
+### Eskhind | node:You think Keh stole the treasure?#0 / choice:>What should I do?#0 | direct
+> What should I do, then?
+では、どうすればいい？
+
+### Eskhind | node:You think Keh stole the treasure?#0 / choice:>Eskhind is rude#0 | direct
+> You don't need to be so rude.
+そこまで失礼な言い方をしなくてもいいだろう。
+
+### Eskhind | node:Why should I believe you?#0 | text#0
+> Why should you believe me? Well, why should you believe Keh? Ayvah, think about this!
+>
+> I'm not asking you to give me your unconditional trust, understand? Only to extend to me the same level of trust you give Keh. Is that not reasonable? Is that not just?
+なぜ私を信じなきゃならないか？ じゃあ、なぜケーなら信じられるの？ アイヴァ、少しは考えて！
+
+いい、無条件に信じろなんて言っていない。ケーを信じるのと同じだけ、私のことも信じてほしいだけ。筋の通った話でしょ？ それが公平ってものじゃない？
+
+### Eskhind | node:Why should I believe you?#0 / choice:>What should I do?#0 | direct
+> What are you suggesting I do?
+それで、どうしろと言うんだ？
+
+### Eskhind | node:Lies.#0 | text#0
+> Ayvah. I'd wanted Grand-Doe to be wrong about you kendren, but perhaps you are all violent fools after all.
+>
+> I'm not asking you to trust me, only to extend to me the same level of trust you give Keh. Is that not reasonable?
+アイヴァ……。ケンドレンについては、大雌鹿が間違っていてほしかったのに。やっぱりあなたたちは、みんな乱暴な愚か者なのかもね。
+
+信じろとは言っていない。ケーを信じるのと同じだけ、私のことも信じてほしいだけ。筋の通った話でしょ？
+
+### Eskhind | node:Lies.#0 / choice:>What should I do?#0 | direct
+> What are you suggesting I do?
+それで、どうしろと言うんだ？
+
+### Eskhind | node:Lies.#0 / choice:>Eskhind is rude#0 | direct
+> You don't need to be so rude.
+そこまで失礼な言い方をしなくてもいいだろう。
+
+### Eskhind | node:Lies.#0 / choice:>End#0 | text#0
+> You've wasted enough of my time. Prepare to die.
+時間の無駄だった。覚悟しろ。
+
+### Eskhind | node:Eskhind is rude#0 | text#0
+> Rude? How dare--
+>
+> No, I... I apologize for my rudeness. Please understand that we have lost so much by leaving Bey Lah. My mind is not in a gentle place, and being revisited by the tyranny I left behind is causing newly-closed wounds to open.
+>
+> Forgive my tone, but please understand: I did not steal Kindrish. You are being used.
+失礼？ よくもそんな――
+
+……いいえ、ごめんなさい。失礼だったわ。分かってほしいの、ベイ・ラーを出て、私たちは本当に多くを失った。今の私は穏やかな気持ちでいられないし、捨ててきたはずの圧政がまた追いかけてきて、ふさがりかけた傷が開いてしまうのよ。
+
+きつい口調は許して。でも、これだけは分かって。私はキンドリッシュを盗んでいない。あなたは利用されているの。
+
+### Eskhind | node:Eskhind is rude#0 / choice:>What should I do?#0 | direct
+> What should I do?
+では、どうすればいい？
+
+### Eskhind | node:What should I do?#0 | text#0
+> The proof is in the petals, kendren. You want justice? Find out what really happened.
+>
+> If you find evidence, Warden Neelahind will support you. Speak to her. She is loyal to Grand-Doe, but more loyal to the truth.
+>
+> I will return to the village and we will sort this out. The Hindriarch will have to tolerate my presence until my name is cleared.
+論より証拠よ、ケンドレン。正義がほしいなら、本当は何が起きたのか突き止めて。
+
+証拠が見つかれば、監視官ニーラヒンドが味方してくれる。あの人と話して。大雌鹿に忠実だけど、それ以上に真実に忠実な人だから。
+
+私は村に戻る。決着をつけましょう。私の疑いが晴れるまで、ヒンドリアークには私がいるのを我慢してもらうわ。
+
+### Eskhind | node:What should I do?#0 / choice:>End#0 | direct
+> I'll look into this, but you'd better not go missing.
+調べてみよう。ただし、姿をくらますなよ。
+
+### Eskhind | node:What should I do?#0 / choice:>End#1 | direct
+> I will. Live and drink.
+そうしよう。生きて飲め。
+
+### Eskhind | node:Start#2 | text#0
+> Go tell Keh that I will remain in Bey Lah until this is sorted.
+ケーに伝えて。この件が片づくまで、私はベイ・ラーを離れないって。
+
+### Eskhind | node:Start#2 / choice:>End#0 | direct
+> Very well. Live and drink.
+分かった。生きて飲め。
+
+### Eskhind | node:Start#3 | text#0
+> Moon and Sun, =name=.
+月と太陽を、=name=。
+
+### Eskhind | node:Start#3 / choice:>EskHappyEnd#0 | direct
+> How are things with Neelahind?
+ニーラヒンドとはどうだ？
+
+### Eskhind | node:Start#3 / choice:>Questions#0 | direct
+> I have questions for you.
+聞きたいことがある。
+
+### Eskhind | node:Start#3 / choice:>End#0 | direct
+> Wisdom and Will, Eskhind.
+知恵と意志を、エスキンド。
+
+### Eskhind | node:EskHappyEnd#0 | text#0
+> Things are good. Better than I dreamed. I owe you so much for your intervention, =name=.
+>
+> I still can't quite believe that my feelings are requited. I am at once elated and terrified. But this is good. My future is brighter now.
+>
+> Thank you.
+うまくいってる。夢見ていた以上に。あなたが間に入ってくれたおかげよ、=name=。本当に感謝してる。
+
+想いが通じたなんて、まだ信じられない。うれしくて、同時に怖くもある。でも、これでいいの。私の未来は前より明るくなった。
+
+ありがとう。
+
+### Eskhind | node:EskHappyEnd#0 / choice:>End#0 | direct
+> May it brighten even further. Live and drink.
+もっと明るくなるといいな。生きて飲め。
+
+### Eskhind | node:Start#4 | text#0
+> What is it, kendren?
+何、ケンドレン？
+
+### Eskhind | node:Start#4 / choice:>Questions#0 | direct
+> I have questions for you.
+聞きたいことがある。
+
+### Eskhind | node:Start#4 / choice:>SonnetPrompt#0 | direct
+> Does this crumpled sheet of paper belong to you?
+このくしゃくしゃの紙はあなたのものか？
+
+### Eskhind | node:Start#4 / choice:>End#0 | direct
+> Nothing. Live and drink.
+何でもない。生きて飲め。
+
+### Eskhind | node:Questions#0 | text#0
+> Ask away.
+どうぞ。
+
+### Eskhind | node:Questions#0 / choice:>SonnetPrompt#0 | direct
+> Does this crumpled sheet of paper belong to you?
+このくしゃくしゃの紙はあなたのものか？
+
+### Eskhind | node:Questions#0 / choice:>Why#0 | direct
+> Why did you leave Bey Lah?
+なぜベイ・ラーを出た？
+
+### Eskhind | node:Questions#0 / choice:>Who#0 | direct
+> Who might have stolen Kindrish?
+キンドリッシュを盗んだのは誰だと思う？
+
+### Eskhind | node:Questions#0 / choice:>What#0 | direct
+> What evidence should I be looking for?
+どんな証拠を探せばいい？
+
+### Eskhind | node:Questions#0 / choice:>Neelahind#0 | direct
+> You and the Warden were close, were you not?
+あなたと監視官は親しかったんだろう？
+
+### Eskhind | node:Questions#0 / choice:>Brother#0 | direct
+> The Hindriarch mentioned that you have a brother. Where is he?
+ヒンドリアークが、あなたには兄弟がいると言っていた。どこにいる？
+
+### Eskhind | node:Questions#0 / choice:>End#0 | direct
+> Nothing for now. Live and drink.
+今はこれだけだ。生きて飲め。
+
+### Eskhind | node:Why#0 | text#0
+> Why? Why did I leave a single parasang square piece of land upon which I was expected to live my entire life, forever obeying a woman whose sole qualification of rule is her gender and age? Why did I leave a place where we eat the same damned soup for nine out of ten meals and the height of occupational versatility is leatherworking?
+>
+> The question isn't why I left, it's why I'm the only one who chose to do so, why none of my pleas were convincing to the hindren I love. If we would just open the borders, it would never have come to this.
+なぜかって？ 一里四方の小さな土地で一生を過ごせと言われて、女で年寄りだというだけで長に収まった者に、ずっと従い続けろと言われて。十回の食事のうち九回は同じいまいましいスープで、仕事を選ぶといっても、せいぜい革細工くらいしかない。そんな所を、なぜ出たかって？
+
+問うべきは、なぜ私が出たかじゃない。なぜ出ていこうとしたのが私ひとりだったのか。なぜ私がどれだけ訴えても、愛する仲間の心に届かなかったのか。村の境を開きさえすれば、こんなことにはならなかったのに。
+
+### Eskhind | node:Why#0 / choice:>Who#0 | direct
+> Who might have stolen Kindrish?
+キンドリッシュを盗んだのは誰だと思う？
+
+### Eskhind | node:Why#0 / choice:>What#0 | direct
+> What evidence should I be looking for?
+どんな証拠を探せばいい？
+
+### Eskhind | node:Why#0 / choice:>Neelahind#0 | direct
+> You and the Warden were close, were you not?
+あなたと監視官は親しかったんだろう？
+
+### Eskhind | node:Why#0 / choice:>Brother#0 | direct
+> The Hindriarch mentioned that you have a brother. Where is he?
+ヒンドリアークが、あなたには兄弟がいると言っていた。どこにいる？
+
+### Eskhind | node:Why#0 / choice:>End#0 | direct
+> Nothing for now. Live and drink.
+今はこれだけだ。生きて飲め。
+
+### Eskhind | node:Who#0 | text#0
+> The Hindriarch is the most likely suspect, in my opinion. She might have kept it for herself or sold it. I've been suspicious of her pet bodyguard, Kesehind, for years--I wouldn't put it past him to steal the treasure himself.
+>
+> That said, it might have been an outsider like you. I doubt any of the villagers had the nerve to steal such a valuable object, but I suppose it's faintly possible.
+>
+> But it wasn't Neelahind. You won't find a purer heart in all of Qud than hers.
+私に言わせれば、いちばん怪しいのはヒンドリアーク。自分の手元に置いているか、売り払ったか。あの人のお気に入りの護衛、ケセヒンドも、何年も前から怪しいと思ってる。あいつなら宝を盗むくらいやりかねない。
+
+とはいえ、あなたみたいなよそ者の仕業かもしれない。あんな大事な物を盗む度胸のある村人がいるとは思えないけど、まったくありえない話でもないかな。
+
+でも、ニーラヒンドじゃない。クッドじゅう探したって、あの人ほど清らかな心の持ち主はいないから。
+
+### Eskhind | node:Who#0 / choice:>Why#0 | direct
+> Why did you leave Bey Lah?
+なぜベイ・ラーを出た？
+
+### Eskhind | node:Who#0 / choice:>What#0 | direct
+> What evidence should I be looking for?
+どんな証拠を探せばいい？
+
+### Eskhind | node:Who#0 / choice:>Neelahind#0 | direct
+> You and the Warden were close, were you not?
+あなたと監視官は親しかったんだろう？
+
+### Eskhind | node:Who#0 / choice:>Brother#0 | direct
+> The Hindriarch mentioned that you have a brother. Where is he?
+ヒンドリアークが、あなたには兄弟がいると言っていた。どこにいる？
+
+### Eskhind | node:Who#0 / choice:>End#0 | direct
+> Nothing for now. Live and drink.
+今はこれだけだ。生きて飲め。
+
+### Eskhind | node:What#0 | text#0
+> Objects out of place, certainly. Bey Lah produces little and sees almost no violence, so signs of the outside world should be easy to find.
+>
+> You may wish to talk to the villagers, too. My people are starved for entertainment, gossip travels fast, and we are all notoriously poor liars.
+まずは、あるはずのない場所にある物ね。ベイ・ラーでは作られる物も少ないし、争いごともほとんどない。だから外の世界の痕跡なら見つけやすいはず。
+
+村の人たちと話してみるのもいい。みんな娯楽に飢えているから噂はすぐに広まるし、そろって嘘が下手なことで有名だから。
+
+### Eskhind | node:What#0 / choice:>Why#0 | direct
+> Why did you leave Bey Lah?
+なぜベイ・ラーを出た？
+
+### Eskhind | node:What#0 / choice:>Who#0 | direct
+> Who might have stolen Kindrish?
+キンドリッシュを盗んだのは誰だと思う？
+
+### Eskhind | node:What#0 / choice:>Neelahind#0 | direct
+> You and the Warden were close, were you not?
+あなたと監視官は親しかったんだろう？
+
+### Eskhind | node:What#0 / choice:>Brother#0 | direct
+> The Hindriarch mentioned that you have a brother. Where is he?
+ヒンドリアークが、あなたには兄弟がいると言っていた。どこにいる？
+
+### Eskhind | node:What#0 / choice:>End#0 | direct
+> Nothing for now. Live and drink.
+今はこれだけだ。生きて飲め。
+
+### Eskhind | node:Neelahind#0 | text#0
+> Yes. We were close. More than close.
+>
+> If it tore my heart to ragged halves to leave my people behind, leaving Neelahind shredded it into scraps.
+ええ、親しかった。親しいなんてものじゃなかった。
+
+仲間を置いて村を出たとき、私の心はふたつに引き裂かれた。でも、ニーラヒンドと別れたときは、ずたずたに千切れたのよ。
+
+### Eskhind | node:Neelahind#0 / choice:>Why#0 | direct
+> Why did you leave Bey Lah?
+なぜベイ・ラーを出た？
+
+### Eskhind | node:Neelahind#0 / choice:>Who#0 | direct
+> Who might have stolen Kindrish?
+キンドリッシュを盗んだのは誰だと思う？
+
+### Eskhind | node:Neelahind#0 / choice:>What#0 | direct
+> What evidence should I be looking for?
+どんな証拠を探せばいい？
+
+### Eskhind | node:Neelahind#0 / choice:>Brother#0 | direct
+> The Hindriarch mentioned that you have a brother. Where is he?
+ヒンドリアークが、あなたには兄弟がいると言っていた。どこにいる？
+
+### Eskhind | node:Neelahind#0 / choice:>End#0 | direct
+> Nothing for now. Live and drink.
+今はこれだけだ。生きて飲め。
+
+### Eskhind | node:Brother#0 | text#0
+> I have no brother. My two sisters are all the blood family I can claim.
+兄弟なんていない。血のつながった家族は、ふたりの姉妹だけよ。
+
+### Eskhind | node:Brother#0 / choice:>Keh believes#0 | direct
+> Keh seems to believe otherwise.
+ケーはそうは思っていないようだが。
+
+### Eskhind | node:Brother#0 / choice:>Why#0 | direct
+> Why did you leave Bey Lah?
+なぜベイ・ラーを出た？
+
+### Eskhind | node:Brother#0 / choice:>Who#0 | direct
+> Who might have stolen Kindrish?
+キンドリッシュを盗んだのは誰だと思う？
+
+### Eskhind | node:Brother#0 / choice:>What#0 | direct
+> What evidence should I be looking for?
+どんな証拠を探せばいい？
+
+### Eskhind | node:Brother#0 / choice:>Neelahind#0 | direct
+> You and the Warden were close, were you not?
+あなたと監視官は親しかったんだろう？
+
+### Eskhind | node:Brother#0 / choice:>End#0 | direct
+> Nothing for now. Live and drink.
+今はこれだけだ。生きて飲め。
+
+### Eskhind | node:Keh believes#0 | text#0
+> Keh believes that she gets final say regarding who is a sister or brother. Regardless of what the sibling in question thinks.
+>
+> That's part of why I left.
+誰が姉妹で誰が兄弟かを最後に決めるのは自分だと、ケーは思っているの。当の本人がどう思っていようとね。
+
+それも、私が村を出た理由のひとつ。
+
+### Eskhind | node:Keh believes#0 / choice:>Questions#0 | direct
+> May I ask further questions?
+もう少し聞いてもいいか？
+
+### Eskhind | node:Keh believes#0 / choice:>End#0 | direct
+> Understood. Live and drink.
+分かった。生きて飲め。
+
+### Eskhind | node:SonnetPrompt#0 | text#0
+> Oh. Oh no. Yes, that's. That's mine.
+>
+> I meant to burn it. I probably should have burned it. I wish I had burned it.
+>
+> May I please have it back?
+あ。ああ、どうしよう。そう、それは。それは私の。
+
+燃やすつもりだったの。燃やしておくべきだった。燃やしておけばよかった。
+
+お願い、返してもらえる？
+
+### Eskhind | node:SonnetPrompt#0 / choice:>SonnetBurn#0 | direct
+> So you can burn it?
+燃やすためにか？
+
+### Eskhind | node:SonnetPrompt#0 / choice:>SonnetNo#0 | direct
+> Hmm. No, I think not.
+うーん。いや、やめておこう。
+
+### Eskhind | node:SonnetNo#0 | text#0
+> You have me helpless. That poem is my clumsy expression of a deep truth that frightens me. It is a risk that I lacked the strength to take or leave.
+>
+> My heart quails in your hands, kendren.
+もう、どうすることもできない。その詩は、自分でも怖くなるような心の奥の本当の気持ちを、不器用に書いたものなの。踏み出す勇気も、あきらめる勇気も、私にはなかった。
+
+私の心は今、あなたの手の中で震えているのよ、ケンドレン。
+
+### Eskhind | node:SonnetNo#0 / choice:>SonnetBurn#0 | direct
+> You wish you had burned such a vital truth?
+そんなに大事な気持ちを、燃やしてしまいたかったのか？
+
+### Eskhind | node:SonnetNo#0 / choice:>End#0 | direct
+> It shall quail a bit longer. Live and drink.
+もう少し震えていてもらおう。生きて飲め。
+
+### Eskhind | node:SonnetBurn#0 | text#0
+> No! Yes? I don't know.
+>
+> Yes, I wish I burned it, but I wish I had given it. I wish I had never written it, or I had written it better, or I had simply confessed in person. I wish I had a harder heart.
+>
+> I wish you would give it back, or burn it, or give it to her.
+違う！ そう？ 分からない。
+
+ええ、燃やしてしまえばよかった。でも、渡せばよかったとも思う。書かなければよかった。もっと上手に書けばよかった。いっそ面と向かって打ち明ければよかった。もっと強い心があればよかった。
+
+返してほしい。燃やしてほしい。あの人に渡してほしい。
+
+### Eskhind | node:SonnetBurn#0 / choice:>SonnetIntentions#0 | direct
+> If I do give it back, what will you do with it?
+返したら、どうするつもりだ？
+
+### Eskhind | node:SonnetBurn#0 / choice:>SonnetDelivery#0 | direct
+> I could give it to her.
+私から、その人に渡してもいい。
+
+### Eskhind | node:SonnetBurn#0 / choice:>End#0 | direct
+> This got a bit intense. Live and drink.
+ちょっと重い話になってきたな。生きて飲め。
+
+### Eskhind | node:SonnetIntentions#0 | text#0
+> I was trying not to think too hard about any of this until you found my poem, so... I can't say.
+>
+> But I can't ignore this sign of my cowardice, not after you found it.
+あなたに見つかるまで、このことはなるべく考えないようにしてたの。だから……分からない。
+
+でも、見つけられてしまった以上、自分の臆病さから目をそらすわけにはいかない。
+
+### Eskhind | node:SonnetIntentions#0 / choice:>SonnetGiven#0 | direct
+> Take the poem. Be brave.
+詩を受け取ってくれ。勇気を出せ。
+
+### Eskhind | node:SonnetIntentions#0 / choice:>SonnetDelivery#0 | direct
+> Shall I deliver the poem for you?
+代わりに詩を届けようか？
+
+### Eskhind | node:SonnetIntentions#0 / choice:>End#0 | direct
+> I will think further on this.
+もう少し考えさせてくれ。
+
+### Eskhind | node:SonnetGiven#0 | text#0
+> Kendren... =name=. I will try.
+>
+> I... thank you. Live and drink.
+ケンドレン……いえ、=name=。やってみる。
+
+その……ありがとう。生きて飲め。
+
+### Eskhind | node:SonnetGiven#0 / choice:>End#0 | direct
+> Live and drink, Eskhind.
+生きて飲め、エスキンド。
+
+### Eskhind | node:SonnetDelivery#0 | text#0
+> Deliver it? But how do you even know who--
+>
+> Mm. Never mind. My head is spinning. I think that if... the poem were to find itself in the warden's hands, that would perhaps be a good thing. Maybe.
+届ける？ でも、そもそも誰宛てかなんて、どうして――
+
+ん。いいの、忘れて。頭がくらくらする。もし……その詩が、たまたま監視官の手に渡ったりしたら、それはそれで、いいことなのかもしれない。たぶん。
+
+### Eskhind | node:SonnetDelivery#0 / choice:>End#0 | direct
+> Then perhaps it will. Live and drink.
+では、たまたまそうなるかもしれないな。生きて飲め。
+
+### Eskhind | node:SonnetDelivery#0 / choice:>SonnetGiven#0 | direct
+> No, Eskhind. Take the poem. Be brave.
+いや、エスキンド。詩を受け取ってくれ。勇気を出せ。
+
+### Eskhind | node:Start#5 | text#0
+> I couldn't save them.
+>
+> I tried. I tried to save them.
+みんなを救えなかった。
+
+救おうとしたの。救おうとしたのに。
+
+### Eskhind | node:Start#5 / choice:>Insult#0 | direct
+> I think this poem is yours.
+この詩はあなたのものだと思う。
+
+### Eskhind | node:Start#5 / choice:>End#0 | direct
+> Condolences. Live and drink.
+お気の毒に。生きて飲め。
+
+### Eskhind | node:Start#6 | text#0
+> I'm uneasy. What is this mounting dread? I cannot talk now.
+胸騒ぎがする。この、膨らんでいく恐ろしさは何？ 今は話せない。
+
+### Eskhind | node:Start#6 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Eskhind | start:StayLong#0 | text#0
+> If it isn't the hero kendren, =name=.
+>
+> Welcome back to Bey Lah! Stay as long as you like.
+誰かと思えば、英雄のケンドレン、=name=じゃない。
+
+ベイ・ラーにおかえり！ 好きなだけゆっくりしていって。
+
+### Eskhind | start:StayLong#0 / choice:>KindrishReturn#0 | direct
+> Hindriarch, I have found Kindrish.
+ヒンドリアーク、キンドリッシュを見つけた。
+
+### Eskhind | start:StayLong#0 / choice:>EskHindriarch#0 | direct
+> How is life as Hindriarch?
+ヒンドリアークの暮らしはどうだ？
+
+### Eskhind | start:StayLong#0 / choice:>End#0 | direct
+> You're welcome. Live and drink.
+ありがとう。生きて飲め。
+
+### Eskhind | node:Start#7 | text#0
+> Hah! Real justice? I never thought I'd see the like, not here. Well done!
+>
+> I'll admit, I would have preferred to avoid becoming Hindriarch, but I'm hoping to bring my people to a more Democratic form of governance. Then I can vote myself out.
+はは！ 本物の正義？ そんなもの、まさかこの村で見られるとは思わなかった。お見事！
+
+正直に言うと、ヒンドリアークにはなりたくなかった。でも、この村をもっと「民主的」な治め方に導けたらと思っているの。そうすれば、投票で自分を降ろせるでしょ。
+
+### Eskhind | node:Start#7 / choice:>End#0 | direct
+> Live and drink, Hindriarch.
+生きて飲め、ヒンドリアーク。
+
+### Eskhind | node:Start#8 | text#0
+> Welcome back to Bey Lah, =name=. Stay as long as you like.
+ベイ・ラーにおかえり、=name=。好きなだけゆっくりしていって。
+
+### Eskhind | node:Start#8 / choice:>MessageReceived#0 | direct
+> I believe this poem is yours.
+この詩はあなたのものだと思う。
+
+### Eskhind | node:Start#8 / choice:>EskHindriarch#0 | direct
+> How is life as Hindriarch?
+ヒンドリアークの暮らしはどうだ？
+
+### Eskhind | node:Start#8 / choice:>End#0 | direct
+> Live and drink, Hindriarch.
+生きて飲め、ヒンドリアーク。
+
+### Eskhind | node:Start#9 | text#0
+> You have my gratitude for this exoneration, kendren. This worked out better than I expected thanks to you.
+>
+> I'll admit, I would have preferred to avoid becoming Hindriarch, but I'm hoping to bring my people to a more Democratic form of governance. Then I can vote myself out.
+疑いを晴らしてくれて感謝してる、ケンドレン。あなたのおかげで、思っていたよりずっといい結末になった。
+
+正直に言うと、ヒンドリアークにはなりたくなかった。でも、この村をもっと「民主的」な治め方に導けたらと思っているの。そうすれば、投票で自分を降ろせるでしょ。
+
+### Eskhind | node:Start#9 / choice:>MessageReceived#0 | direct
+> I believe this poem is yours.
+この詩はあなたのものだと思う。
+
+### Eskhind | node:Start#9 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Eskhind | node:MessageReceived#0 | text#0
+> Oh! Well. For you to bring me this after returning me to Bey Lah...
+>
+> {{emote|*she smiles.*}}
+>
+> Message received, =name=. If I expect my people to face their fear of the unknown, I owe it to them to face mine.
+>
+> I will confess my feelings to Neelahind, give her the poem I wrote, and accept whatever reply she has for me. Thank you again.
+あら！ まあ。私をベイ・ラーに帰してくれたあとで、これを持ってくるなんて……。
+
+{{emote|*彼女はほほえむ。*}}
+
+言いたいことは伝わったわ、=name=。仲間に未知への恐れと向き合えと言うのなら、私も自分の恐れと向き合わなくちゃね。
+
+ニーラヒンドに気持ちを打ち明ける。この詩を渡して、どんな返事でも受け止めるわ。本当にありがとう。
+
+### Eskhind | node:MessageReceived#0 / choice:>End#0 | direct
+> You're welcome. Live and drink.
+どういたしまして。生きて飲め。
+
+### Eskhind | node:Start#10 | text#0
+> Kendren! I am glad to see you.
+>
+> Thank you again for bringing Neela around, and please forgive her reservation. She mourns the people she thought she knew, but our future will be brighter together.
+ケンドレン！ 会えてうれしい。
+
+ニーラの気持ちを動かしてくれて、あらためてありがとう。あの人がよそよそしくても許してあげて。分かっていたつもりの仲間を失って、悲しんでいるの。でも、ふたりでなら、きっと明るい未来にできる。
+
+### Eskhind | node:Start#10 / choice:>End#0 | direct
+> Of course. Live and drink.
+もちろんだ。生きて飲め。
+
+### Eskhind | node:Start#11 | text#0
+> Kendren, thank you.
+>
+> Things may seem grim, but I have a new strength with Neela by my side.
+ケンドレン、ありがとう。
+
+状況は厳しく見えるかもしれない。でも、ニーラがそばにいてくれるから、私は前より強くなれた。
+
+### Eskhind | node:Start#11 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Eskhind | node:Start#12 | text#0
+> Oh, it's you. Need to rest by the fire?
+>
+> It's fine, my wrath has clarified. You were never the problem. Live and drink.
+あら、あなた。火のそばで休んでいく？
+
+いいの、怒りの向け先ははっきりしたから。あなたが悪かったわけじゃない。生きて飲め。
+
+### Eskhind | node:Start#12 / choice:>Insult#0 | direct
+> I think this poem is yours.
+この詩はあなたのものだと思う。
+
+### Eskhind | node:Start#12 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Eskhind | node:SlynthRequest#0 | text#0
+> You're just trying to keep dear Esk informed, then? Or could it be that you're wondering if that home may be Bey Lah?
+親愛なるエスクに知らせておこうってだけ？ それとも、その住まいがベイ・ラーにならないかって考えてる？
+
+### Eskhind | node:SlynthRequestAccept#0 | text#0
+> {{emote|*The Hindriarch returns at long last, expression bright.*}}
+>
+> By majority vote, the slynth are welcome to take up permanent residence here in Bey Lah! I didn't think we were ready, but I suppose my people showed me otherwise.
+>
+> They will effectively be apprentices to the village until they choose a vocation. If they choose to come here, that is to say.
+{{emote|*しばらくして、ヒンドリアークが晴れやかな顔で戻ってきた。*}}
+
+多数決で、スリンスがここベイ・ラーに住むことが認められたわ！ 村にはまだ早いと思っていたけど、仲間たちのほうが私よりずっと先を見ていたみたい。
+
+自分の仕事を選ぶまでは、村の見習いとして暮らしてもらうことになる。もちろん、ここに来ることを選んでくれたら、だけどね。
+
+### Eskhind | node:SlynthRequestAccept#0 / choice:@End#0 | direct
+> You have my thanks, Hindriarch.
+恩に着る、ヒンドリアーク。
+
+### Eskhind | node:SlynthArrived#0 | text#0
+> Never greater has been my desire to be voted out of office.
+>
+> Oh, not because of the slynth! Well, yes, because of the slynth, but it's because I'd rather be out there with them – scouting, guarding, even tending to lah would be better than all this dry supervisory work.
+>
+> Room, board, assignments... it never occurred to me that immigration would require such intensive logistics.
+今ほど投票で長を降ろされたいと思ったことはないわ。
+
+あ、スリンスが嫌だからじゃないのよ！ いえ、スリンスのせいではあるけど、それは私も外で彼らと一緒にいたいから。見回りでも、見張りでも、ラーの世話でもいい。こんな味気ない取りまとめ仕事よりはずっとまし。
+
+住む場所に、食事に、仕事の割り振り……。誰かを村に迎えるのに、こんなに手配が要るなんて思ってもみなかった。
+
+### Eskhind | node:SlynthArrived#0 / choice:>Start#0 | direct
+> My thanks, Hindriarch.
+ありがとう、ヒンドリアーク。
+
+### Eskhind | node:SlynthSettled#0 | text#0
+> Live and drink, =name=!
+>
+> At long last I bear a lighter load of work coordinating our new family members. I won't claim that all of my people are fully comfortable with the slynth, but the faundren love them.
+生きて飲め、=name=！
+
+新しい家族の世話役も、ようやく少し肩の荷が下りたわ。村のみんながスリンスにすっかり慣れたとは言わないけど、ファウンドレンたちは大好きみたい。
+
+### Eskhind | node:SlynthSettled#0 / choice:>Start#0 | direct
+> My thanks again, Hindriarch.
+重ねてありがとう、ヒンドリアーク。
+
+### Eskhind | node:Insult#0 | text#0
+> {{emote|*Eskhind looks at the crumpled sheet of paper for several long seconds, then looks at you for several even longer seconds.*}}
+>
+> Why can't you just shoot me like the other kendren? Those wounds heal better, and death would be preferable to what you have done to me.
+>
+> {{emote|*crumpling the paper up once again, Eskhind lights it aflame and tosses it away as it burns.*}}
+>
+> Go sit on a tumbling pod. I've had enough of you.
+{{emote|*エスキンドはくしゃくしゃの紙を長いあいだ見つめ、それからさらに長いあいだ、あなたを見つめる。*}}
+
+どうして、ほかのケンドレンみたいに撃ってくれないの？ そっちの傷のほうがまだ治りがいい。あなたが私にしたことに比べたら、死んだほうがましよ。
+
+{{emote|*エスキンドは紙をもう一度握りつぶすと、火をつけ、燃えるそれを投げ捨てた。*}}
+
+トゲ草の上にでも座ってなさい。あなたにはもううんざり。
+
+### Eskhind | node:Insult#0 / choice:>EmptyApology#0 | direct
+> I'm sorry.
+すまない。
+
+### Eskhind | node:Insult#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Eskhind | node:EmptyApology#0 | text#0
+> {{emote|*The hindren pariah ignores you.*}}
+{{emote|*はみ出し者のヒンドレンは、あなたを無視している。*}}
+
+### Eskhind | node:EmptyApology#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Eskhind | node:Start#13 | text#0
+> Don't you have someone else to bother?
+>
+> Live and drink piss.
+ほかに困らせる相手はいないわけ？
+
+生きて、小便でも飲んでな。
+
+### Eskhind | node:Start#13 / choice:>Insult#0 | direct
+> I think this poem is yours.
+この詩はあなたのものだと思う。
+
+### Eskhind | node:Start#13 / choice:>End#0 | direct
+> Rude.
+失礼な。
+
+### Eskhind | node:KindrishReturn#0 | text#0
+> Oh, so you have! Amazing work, kendren. We owe you more than we can give, but here is what we can give nonetheless.
+>
+> You are more than welcome here in Bey Lah any time.
+まあ、本当に！ すごいわ、ケンドレン。返しきれないほどの恩だけど、せめてこれを受け取って。
+
+ベイ・ラーはいつでもあなたを歓迎するわ。
+
+### Eskhind | node:KindrishReturn#0 / choice:>End#0 | direct
+> Live and drink, Hindriarch.
+生きて飲め、ヒンドリアーク。
+
+### Eskhind | node:EskHindriarch#0 | text#0
+> Extremely frustrating! But I am yet hopeful.
+>
+> My people are resistant to change, but they don't seem opposed to the idea of a Democracy. I need to give them a measure of time before we hold an election, but they'll ultimately agree as long as I am acting Hindriarch.
+>
+> Then, fates willing, they will vote me out. I'll be voting for Isahind, myself. Once I convince her to run.
+もう、じれったいったら！ でも、望みは捨てていないわ。
+
+みんな変わることを嫌がるけど、「民主制」という考えそのものには反対していないみたい。選挙をするまでには少し時間をあげないといけない。でも、私が代理のヒンドリアークでいるかぎり、最後には賛成してくれるはず。
+
+そうしたら、運が良ければ、投票で私を降ろしてもらえる。私自身はイサヒンドに一票入れるつもり。まずは立候補するよう、あの子を説得しないとね。
+
+### Eskhind | node:EskHindriarch#0 / choice:>End#0 | direct
+> May fortune favor you. Live and drink.
+幸運を祈る。生きて飲め。
+
+### Eskhind | node:Start#14 | text#0
+> =name=.
+=name=。
+
+### Eskhind | node:Start#14 / choice:>End#0 | direct
+> Eskhind.
+エスキンド。

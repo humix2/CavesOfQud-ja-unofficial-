@@ -1,0 +1,527 @@
+### Barathrum | start:Early#0 | text#0
+> Should you be here, =player.offspringTerm=?
+ここにいてよいのかね、雛よ？
+
+### Barathrum | start:Early#0 / choice:>End#0 | direct
+> My apologies, Barathrum.
+失礼した、バラサラム。
+
+### Barathrum | start:Recame#0 | text#0
+> Is that you, nestling =name=? Are you returned from gate and Tomb? Come closer, I say.
+そこにいるのは、雛の=name=かね？ 門と墓所から帰ってきたのか？ さあ、もっと近くへ。
+
+### Barathrum | start:Recame#0 / choice:>RecameMe#0 | direct
+> It is, Barathrum. I've returned.
+そうだ、バラサラム。戻ってきた。
+
+### Barathrum | node:RecameMe#0 | text#0
+> You appear... refreshed. My old eyes spy the swim lines of the waking world and to you they cede precedence. A newness obtains.
+お前は……生まれ変わったように見える。この老いた目には、目覚めた世界を泳ぐ流れの筋が見えるが、それらがみな、お前に道を譲っておる。何か新しいものが宿ったな。
+
+### Barathrum | node:RecameMe#0 / choice:>Brightsheol1#0 | direct
+> Outside of time I found myself in a place of light. I chose to return and was made new.
+時の外で、光に満ちた場所にいた。戻ることを選び、生まれ変わったんだ。
+
+### Barathrum | node:RecameMe#0 / choice:>Brightsheol2#0 | direct
+> I found Brightsheol, where it lies beyond the Tomb. I spoke to the Shomer there and arranged for the disablement of the Spindle's magnets.
+墓所の先にあるブライトシェオルを見つけた。そこでショーメルと話し、スピンドルの磁石を止めるよう取り計らった。
+
+### Barathrum | node:RecameMe#0 / choice:>PreKlanq#0 | direct
+> Over there, by your workbench. Is that... Pax Klanq?
+あそこの作業台のそば。あれは……パクス・クランクか？
+
+### Barathrum | node:RecameMe#0 / choice:>PreJunk#0 | direct
+> There is junk about.
+がらくたが散らかっているな。
+
+### Barathrum | node:PreKlanq#0 | text#0
+> {{emote|*Barathrum pauses.*}}
+>
+> It is. For reasons I will explain shortly, for reasons beyond any of our remits, Klanq has returned to Grit Gate.
+{{emote|*バラサラムは少し黙る。*}}
+
+そうだ。わけはすぐに話す。我ら誰の手にも余る事情があって、クランクはグリット・ゲートに戻ってきたのだ。
+
+### Barathrum | node:PreKlanq#0 / choice:>RecameMe#0 | direct
+> I've something else to say.
+ほかにも話がある。
+
+### Barathrum | node:PreJunk#0 | text#0
+> {{emote|*Barathrum pauses.*}}
+>
+> Unusual circumstances have put my study in disarray. Lamentable, this is, but necessary.
+{{emote|*バラサラムは少し黙る。*}}
+
+ただならぬ事情で、書斎がこのありさまだ。嘆かわしいが、やむを得んのだよ。
+
+### Barathrum | node:PreJunk#0 / choice:>RecameMe#0 | direct
+> I've something else to say.
+ほかにも話がある。
+
+### Barathrum | node:Brightsheol1#0 | text#0
+> {{emote|*Barathrum pauses.*}}
+>
+> I am confident there is a richness of wisdom in the poetry of that statement. One day, I will be eager to discover it. For now, what of the Spindle?
+{{emote|*バラサラムは少し黙る。*}}
+
+その詩のような言葉には、きっと豊かな知恵が詰まっておるのだろう。いつか、ぜひ解き明かしたいものだ。だが今は――スピンドルはどうなった？
+
+### Barathrum | node:Brightsheol2#0 | text#0
+> {{emote|*Barathrum breathes a deep and relieved sigh.*}}
+>
+> You are ever a courier of bright tidings, =name=. I am fond of this fact.
+>
+> Categories and types are decohering in these historic times. Nonetheless, the ritual nourishes us. You are raised to Meyvn, =name=. The one who understands.
+{{emote|*バラサラムは、深く安堵のため息をつく。*}}
+
+お前はいつも明るい知らせを運んでくれるな、=name=。そこがお前の好きなところだ。
+
+この歴史の節目にあって、区分も型もほどけつつある。それでも、儀式は我らの糧となる。=name=、お前を「メイヴン」に昇格させる。「理解する者」という意味だ。
+
+### Barathrum | node:Brightsheol2#0 / choice:>TombReward#0 | text#0
+> *continue listening*
+*話の続きを聞く*
+
+### Barathrum | node:TombReward#0 | text#0
+> Take this, too. A chute of morphing gel from my personal collection. You've arrayed yourself in the artifacts of time, and so we have little left to give you. But still, this may be useful.
+これも持っていきなさい。私の手持ちの、変形ジェルの筒だ。お前はもう古の遺物で身を固めているから、我らに渡せるものはほとんど残っておらん。それでも、役に立つかもしれん。
+
+### Barathrum | node:TombReward#0 / choice:>GolemPreface#0 | direct
+> *continue listening*
+*話の続きを聞く*
+
+### Barathrum | node:GolemPreface#0 | text#0
+> Now, matters have... evolved... in your absence. Do you choose now to learn more?
+さて、お前のいない間に、事は……進んだ。今、詳しく聞くかね？
+
+### Barathrum | node:GolemPreface#0 / choice:>Golem#0 | direct
+> I do.
+聞かせてくれ。
+
+### Barathrum | node:GolemPreface#0 / choice:>End#0 | direct
+> First, I need rest.
+まずは休ませてくれ。
+
+### Barathrum | node:Golem#0 | text#0
+> High on the mount above Omonporch, the Putus Templar watch us through their war lenses and prepare an attack. The nephilim, too, stir from their cradles on the Moon Stair and slump with infernal purpose. The short of this is, due to a dearth of prep time and inadequate armament, Pax Klanq no longer believes in the viability of Q Girl's climber design. We must take Klanq at their word, here...
+オモンポーチの上の山の高みから、プトゥス聖堂騎士団が戦の望遠鏡で我らを見張り、攻め入る支度をしておる。ネフィリムもまた、月の階段のゆりかごで身じろぎし、禍々しい目的をもってのそりと動き出した。つまりだ――支度の時間も武装も足りぬゆえ、パクス・クランクはもう、Qガールの登攀機の設計ではうまくいかぬと考えておる。ここはクランクの言葉を信じるしかない……。
+
+### Barathrum | node:Golem#0 / choice:>Golem2#0 | direct
+> *continue listening*
+*話の続きを聞く*
+
+### Barathrum | node:Golem2#0 | text#0
+> This disheartens us, but there is another hope. Klanq has offered up a new design, something unconventional at all angles. And, despite our early misgivings, Q Girl and I now work in assistance to the project...
+気落ちする話だが、別の望みがある。クランクが新しい設計を出してきたのだ。どこから見ても型破りな代物でな。初めは不安もあったが、今ではQガールと私も、その企てを手伝っておる……。
+
+### Barathrum | node:Golem2#0 / choice:>Golem3#0 | direct
+> *continue listening*
+*話の続きを聞く*
+
+### Barathrum | node:Golem3#0 | text#0
+> A new creature struggles to be born, =name=, and you will help birth it. Then, it will carry us, you and I, to the top of the Spindle.
+新しい生き物が、生まれ出ようともがいておるのだ、=name=。お前にはその誕生を手伝ってもらう。そして、その生き物が我らを――お前と私を――スピンドルのてっぺんまで運んでくれる。
+
+### Barathrum | node:Golem4#0 | text#0
+> Pax Klanq will mold the creature from raw bioelectrical materials. You must gather these entrails: the body as a model, the catalyst to charge the sanguine fluid, the atzmus as deistic direction, the armament for protection, and the hamsa for personality. You will bond with the creature, too, and act as its pilot. So you must speak an incantation to inscribe the connection.
+>
+> You'll also need to procure the sanguine fluid itself. And, too, a power source shielded from electromagnetic attacks.
+パクス・クランクが、生の生体電気素材からその生き物をこね上げる。お前には、その「はらわた」を集めてもらいたい。ひな形となる体、血の液に力を込める触媒、神の導きとなるアツムス、身を守る武装、そして人格となるハムサだ。お前はその生き物と結びつき、乗り手として操ることになる。だから、そのつながりを刻む呪文も唱えねばならん。
+
+血の液そのものも手に入れなければならん。それに、電磁攻撃から守られた動力源もだ。
+
+### Barathrum | node:Golem4#0 / choice:>Entrails#0 | direct
+> These entrails, what are they? Where do I find them?
+その「はらわた」とは何だ？ どこで見つかる？
+
+### Barathrum | node:Golem4#0 / choice:>EntrailsAlternate#0 | direct
+> These entrails, what are they? Where do I find them?
+その「はらわた」とは何だ？ どこで見つかる？
+
+### Barathrum | node:Golem4#0 / choice:>Pilot#0 | direct
+> I'm to pilot the creature? And bond with it?
+私がその生き物に乗る？ 結びつく？
+
+### Barathrum | node:Golem4#0 / choice:>Fluid#0 | direct
+> Sanguine fluid?
+血の液？
+
+### Barathrum | node:Golem4#0 / choice:>Power#0 | direct
+> A power source?
+動力源？
+
+### Barathrum | node:Golem4#0 / choice:>AcceptGolem#0 | direct
+> Let us begin, then.
+では、始めよう。
+
+### Barathrum | node:Golem4#0 / choice:>End#0 | direct
+> I need time and space from this.
+少し時間をくれ。頭を整理したい。
+
+### Barathrum | node:Golem4#0 / choice:>Start#0 | direct
+> I wish to ask about something else.
+別のことを聞きたい。
+
+### Barathrum | node:Entrails#0 | text#0
+> They are the components that we will grow, shape, and solder into the ascendant being. We can delve into specifics once you begin, at which point Pax Klanq can also serve as a source of knowledge.
+>
+> As you acquire components, bring them to the mound of scrap and clay over by Klanq.
+天へ昇る生き物を育て、形作り、はんだ付けするための部品だ。細かいことは、お前が始めてから詳しく話そう。そのころにはパクス・クランクにも知恵を借りられる。
+
+部品が手に入ったら、クランクのそばにある、がらくたと粘土の山へ持っていきなさい。
+
+### Barathrum | node:EntrailsAlternate#0 | text#0
+> They are the components that we will grow, shape, and solder into the ascendant being. Ask Pax Klanq for details.
+>
+> As you acquire components, bring them to the mound of scrap and clay over by Klanq.
+天へ昇る生き物を育て、形作り、はんだ付けするための部品だ。詳しいことはパクス・クランクに聞きなさい。
+
+部品が手に入ったら、クランクのそばにある、がらくたと粘土の山へ持っていきなさい。
+
+### Barathrum | node:Pilot#0 | text#0
+> Correct. The creature will be shaped broad enough to contain two, but only you will be bonded to it. Only you will pilot.
+>
+> Don't fear over an inescapable tether, though. The creature will be mobile unpiloted, if slower to act.
+そのとおりだ。その生き物はふたり乗れるほどの大きさに作るが、結びつくのはお前だけ。操れるのもお前だけだ。
+
+だが、逃れられぬ鎖につながれるなどと恐れることはない。乗り手がいなくても、動きは鈍くなるが、ちゃんと動ける。
+
+### Barathrum | node:Fluid#0 | text#0
+> Primordial soup, to be catalyzed and ran through its arteries as the animating substance.
+原始スープだ。触媒で力を与え、命を吹き込むものとして、その血管に流すのだ。
+
+### Barathrum | node:Power#0 | text#0
+> Yes, the question of power is a trickier one. Our standard power sources might suffice, but they would be vulnerable to electromagnetic attacks on the ascent, and we believe it within the competency of the Putus Templar to execute such an attack.
+>
+> This leaves us two options. Klanq and Q Girl have worked out a design for a neutronic battery, free from vulnerabilities on the EM spectrum. But it requires 3 drams of neutron flux. The alternative is remote power, but to carry us across the Spindle's length the source would have to be extraordinary. I would look to Chavvah, the Tree of Life, for a psychic quickening. Reports tell of the resumption of their roaming across the Moon Stair. Seek the trunk at Eyn Roj to begin your investigation, if that's the path you choose.
+うむ、動力のほうは厄介でな。いつもの動力源でも足りるかもしれんが、昇る途中で電磁攻撃を受ければひとたまりもない。そして、プトゥス聖堂騎士団ならそれくらいやってのけるだろう。
+
+となると、道はふたつ。クランクとQガールが、電磁波に弱みのない中性子電池を設計した。ただし、中性子フラックスが3ドラム要る。もうひとつは遠くから力を送る方法だが、スピンドルの端から端まで我らを運ぶには、並外れた源が要る。私なら、生命の樹チャヴァに、心の力を吹き込んでもらうことを考えるね。チャヴァがまた月の階段をさまよい始めたという知らせがある。その道を選ぶなら、エイン・ロジの幹を訪ねるところから始めなさい。
+
+### Barathrum | node:AcceptGolem#0 | text#0
+> Yes, =name=! Begin the gathering, and the molding will follow. The materials you choose will influence the being we create, but any such being will be suitable for ascent.
+>
+> This is our last task before we make our historic climb, =name=. Be safe and well in doing it. If you have more questions, return here. Klanq and I will be available.
+そうだ、=name=！ 集め始めれば、こね上げる作業はあとからついてくる。お前の選ぶ素材によって、生まれる生き物は変わる。だが、どんな生き物になっても、昇るには十分だ。
+
+これが、歴史に残る登攀の前の、最後の務めだ、=name=。くれぐれも無事でな。聞きたいことがあれば、ここへ戻ってきなさい。クランクも私も、いつでも相手をしよう。
+
+### Barathrum | node:AcceptGolem#0 / choice:>End#0 | direct
+> OK.
+分かった。
+
+### Barathrum | node:GolemQuestDone#0 | text#0
+> The creature is born, and you are bonded? What work! You are a sterling shaper of world, =name=, and I've nothing left to give you but my praise.
+生き物が生まれ、お前と結びついたと？ なんという仕事だ！ お前は世界を形作る見事な匠だよ、=name=。もう、ほめ言葉のほかに、お前に渡せるものは何もない。
+
+### Barathrum | node:GolemAcquaint#0 | text#0
+> Now, our operators at Omonporch confirm that a clash with the Templar is inevitable.
+>
+> This is a grim fact, but it does give space for your bond to flower. Go, become familiar with leading and piloting your creature. Return when you are ready, and we will finally go starward.
+さて、オモンポーチにいる仲間から、聖堂騎士団とのぶつかり合いは避けられぬと知らせがあった。
+
+厳しい話だが、そのおかげで、お前とあの生き物の絆を育てる時間ができた。行って、生き物を連れ歩き、乗りこなすことに慣れておきなさい。用意ができたら戻ってくるのだ。そのとき、我らはついに星を目指す。
+
+### Barathrum | node:GolemAcquaint#0 / choice:@End#0 | direct
+> I will, Barathrum. Live and drink.
+そうしよう、バラサラム。生きて飲め。
+
+### Barathrum | node:Ascend#0 | text#0
+> Are you sure, Meyvn =name=? Our fates are not reversible past the next event horizon.
+本当によいのだな、メイヴン=name=？ 次の地平を越えたら、我らの運命はもう引き返せんぞ。
+
+### Barathrum | node:Ascend#0 / choice:@Start#0 | direct
+> Let me consider.
+少し考えさせてくれ。
+
+### Barathrum | node:Ascend#0 / choice:@AscendConfirm#0 | direct
+> We go.
+行こう。
+
+### Barathrum | node:AscendConfirm#0 | text#0
+> We go. I-
+行こう。私は――
+
+### Barathrum | node:AscendConfirm2#0 | text#0
+> O! What is it? I heave... I heave the weight of ass across my crutch, but the bones are pullproof. My bones inosculate to this grotto, or rather- this grotto, this world is what my bones *are*. Can an old bear divest of his spine, leave it to mosses and the sunstrung birds?
+おお！ なんだ、これは？ 杖に尻の重みをかけて、持ち上げようとするのだが……骨がびくともせん。私の骨は、この洞窟に根を張ってしまっておる。いや、むしろ――この洞窟が、この世界こそが、私の骨*そのもの*なのだ。老いた熊が背骨を脱ぎ捨てて、苔や、日差しに吊られた鳥たちにくれてやれるものかね？
+
+### Barathrum | node:AscendConfirm3#0 | text#0
+> I...
+>
+> No matter. The will can break the wheel, too. We go. Pray, the weightloss of the rise might do good for me. Past the shell of the world, I'm to understand one's burdens can no longer pull them down...
+私は……。
+
+いや、かまわん。意志は、車輪を砕くこともできる。行こう。昇るにつれて重さが抜ければ、この体にもよかろう。世界の殻の外では、背負った重荷に引きずり下ろされることはもうないと聞いておる……。
+
+### Barathrum | node:GolemInfo#0 | text#0
+> Klanq is able to answer your questions. You received an operating manual, too, no? Perhaps you could reference it.
+クランクなら答えられる。操作の手引き書も受け取っただろう？ それを読んでみるといい。
+
+### Barathrum | start:Welcome#0 | text#0
+> Come closer, nestling. Let me look upon your countenance.
+近うおいで、雛よ。顔をよく見せておくれ。
+
+### Barathrum | start:Welcome#0 / choice:>Old#0 | direct
+> You are so... old.
+あなたは、ずいぶん……年老いているな。
+
+### Barathrum | start:Welcome#0 / choice:>Quest#0 | direct
+> Otho said you wished to speak with me.
+オソから、あなたが私と話したがっていると聞いた。
+
+### Barathrum | start:Welcome#0 / choice:>Euclid#0 | direct
+> What's with the houseplant over there?
+あそこの鉢植えは何だ？
+
+### Barathrum | start:Welcome#0 / choice:>Signal#0 | direct
+> Please tell me about the signal again.
+信号のことを、もう一度話してくれないか。
+
+### Barathrum | start:Welcome#0 / choice:>Signal#1 | direct
+> Please tell me about the signal again.
+信号のことを、もう一度話してくれないか。
+
+### Barathrum | start:Welcome#0 / choice:>PaxComplete#0 | direct
+> I convinced Pax Klanq to construct the climber.
+パクス・クランクを説得して、登攀機を作ってもらうことになった。
+
+### Barathrum | start:Welcome#0 / choice:>TombIntro#0 | direct
+> Pax Klanq has agreed to build the climber. What now?
+パクス・クランクが登攀機作りを引き受けた。次はどうする？
+
+### Barathrum | start:Welcome#0 / choice:>TombExplain1#0 | direct
+> Could you tell me again about the Tomb of the Eaters?
+喰らう者の墓所のことを、もう一度話してくれないか？
+
+### Barathrum | start:Welcome#0 / choice:>Golem#0 | direct
+> The magnetic field has been disable and the Spindle is free to ascend. What now?
+磁場は止まった。これでスピンドルを昇れる。次はどうする？
+
+### Barathrum | start:Welcome#0 / choice:>Golem4#0 | direct
+> Tell me again of the plan to mold a giant creature to ascend the Spindle.
+スピンドルを昇るための巨大な生き物を作る計画を、もう一度話してくれ。
+
+### Barathrum | start:Welcome#0 / choice:>GolemQuestDone#0 | direct
+> The creature has been made. What now?
+生き物ができあがった。次はどうする？
+
+### Barathrum | start:Welcome#0 / choice:>GolemInfo#0 | direct
+> Tell me again how the giant creature functions.
+あの巨大な生き物の仕組みを、もう一度話してくれ。
+
+### Barathrum | start:Welcome#0 / choice:>Ascend#0 | direct
+> I am ready to ascend the Spindle, Barathrum.
+スピンドルを昇る準備ができた、バラサラム。
+
+### Barathrum | start:Welcome#0 / choice:>End#0 | direct
+> Live and drink, eldest Barathrum.
+生きて飲め、最古老バラサラム。
+
+### Barathrum | node:Questions#0 | text#0
+> What can I offer, nestling?
+何を話してやろうかね、雛よ？
+
+### Barathrum | node:TombComplete#0 | text#0
+> You look... refreshed. Thank you, =name=. Take this polygel we recently recovered from the Palladium Reef.
+お前は……生まれ変わったように見える。ありがとう、=name=。パラジウム礁で最近手に入れた、このポリジェルを持っていきなさい。
+
+### Barathrum | node:TombComplete#0 / choice:>End#0 | direct
+> Live and drink, Barathrum.
+生きて飲め、バラサラム。
+
+### Barathrum | node:PaxComplete#0 | text#0
+> What welcome news, =factionaddress:Barathrumites=! Please, take this as a token of my gratitude.
+なんとうれしい知らせだ！ さあ、感謝のしるしにこれを受け取っておくれ。
+
+### Barathrum | node:PaxComplete#0 / choice:>TombIntro#0 | direct
+> Thank you.
+ありがとう。
+
+### Barathrum | node:TombIntro#0 | text#0
+> The flywheel of our scheme is spinning, but we must keep our paws on the treadle. Are you ready to learn what comes next?
+我らの企ての弾み車は回り出した。だが、踏み板から足を離すわけにはいかん。次に何をするか、聞く用意はいいかね？
+
+### Barathrum | node:TombIntro#0 / choice:>TombBody1#0 | direct
+> Yes.
+ああ。
+
+### Barathrum | node:TombIntro#0 / choice:>End#0 | direct
+> I need time on my own first.
+まず、ひとりで考える時間がほしい。
+
+### Barathrum | node:TombBody1#0 | text#0
+> The climber design relies on the use of electromagnets to interface with the planet's magnetic field and generate torque. Unfortunately, the Spindle generates its own interfering field, perhaps as a mechanism to prevent unwanted ascension.
+>
+> Our aim is to access the Spindle's control unit and disable the field. How we accomplish this, however, is an enigma. From disparate bits across the archives of the digitum, Ereshkigal has stitched together a cryptic but instructional brocade. She's learned the field can be turned off from a place called Brightsheol, located in the Thin World and accessible only through Resheph's tomb inside the Tomb of the Eaters.
+登攀機の設計は、電磁石をこの星の磁場とかみ合わせて、回る力を生み出す仕組みになっておる。ところが、あいにくスピンドルは自分でも邪魔な磁場を出しておる。招かれざる者が昇らぬようにする仕掛けなのだろう。
+
+我らの狙いは、スピンドルの制御装置にたどり着き、その磁場を止めることだ。だが、どうやってそれを成すかは謎でな。エレシュキガルが、デジタムの記録庫のばらばらな断片をつなぎ合わせて、謎めいてはいるが手がかりになる布を織り上げてくれた。それによると、磁場はブライトシェオルという場所から止められるらしい。そこは薄き世界にあって、喰らう者の墓所の中にある、レシェフの墓を通らねば行けぬという。
+
+### Barathrum | node:TombBody2#0 | text#0
+> Strange, this, and imprecise, but as tinkers we know: a crude blueprint is better than no blueprint. You must return to Omonporch and enter the Tomb of the Eaters. Once inside, trace the errant paths cut into the mausoleum by robbers and vandals, and ascend to Resheph's burial chamber.
+>
+> As for gaining entrance to the Tomb, Resheph sealed the gates a thousand years ago, but there's a flaw in the seal. The ancient Mark of Death has been lost to time, but if you were to recover it and incise the mark on your body, the Death Gate would open for you, as it did for countless Eater cadavers in the long-blurred past.
+>
+> Recover the Mark of Death, =name=, enter the Tomb, and cross into Brightsheol. Place your paws once again on the dial and drum.
+奇妙で、あいまいな話だ。だが、職人なら知っておろう。粗い設計図でも、設計図がないよりはましだとな。オモンポーチへ戻って、喰らう者の墓所に入りなさい。中に入ったら、墓荒らしや盗っ人どもが霊廟に掘った、でたらめな道をたどって、レシェフの埋葬室まで昇るのだ。
+
+墓所へ入る方法だが、レシェフは千年前に門を封じた。だが、その封印には穴がある。古の「死の印」は時の中に失われてしまったが、それを見つけ出して自分の体に刻めば、「死の門」はお前のために開くだろう。遠い昔、数えきれぬ喰らう者たちの亡骸のために開いたようにな。
+
+死の印を取り戻すのだ、=name=。墓所に入り、ブライトシェオルへ渡りなさい。もう一度、その手でダイヤルと太鼓を回すのだ。
+
+### Barathrum | node:TombBody2#0 / choice:>TombBody3#0 | direct
+> I will enter the Tomb of the Eaters as you ask.
+言われたとおり、喰らう者の墓所に入ろう。
+
+### Barathrum | node:TombBody2#0 / choice:>End#0 | direct
+> You ask so much. I must consider it.
+大変な頼みだ。考えさせてくれ。
+
+### Barathrum | node:TombBody3#0 | text#0
+> As I'd hoped you would, =name=. Take this disk with the signal encoded, just in case. And take this tattoo gun for when you recover the Mark of Death. You'll want to bring a pickaxe, too, or some other instrument for digging through stone. And beware: the Tomb is a vast and ancient space, and sacred to many. I cannot speak to what you will experience there.
+そう言ってくれると思っておったよ、=name=。念のため、信号を記録したこのディスクを持っていきなさい。それと、死の印を見つけたときのために、このタトゥーガンもだ。つるはしか、岩を掘り抜く道具も持っていくといい。そして気をつけるのだ。墓所は広大で古く、多くの者にとって聖なる場所だ。そこでお前が何を見るかは、私にも分からん。
+
+### Barathrum | node:TombBody3#0 / choice:>End#0 | text#0
+> I heed your warning. Farewell, Barathrum.
+忠告は心に留めておく。さらばだ、バラサラム。
+
+### Barathrum | node:TombExplain1#0 | text#0
+> The climber design relies on the use of electromagnets to interface with the planet's magnetic field and generate torque. Unfortunately, the Spindle generates its own interfering field, perhaps as a mechanism to prevent unwanted ascension.
+>
+> Our aim is to access the Spindle's control unit and disable the field. How we accomplish this, however, is an enigma. From disparate bits across the archives of the digitum, Ereshkigal has stitched together a cryptic but instructional brocade. She's learned the field can be turned off from a place called Brightsheol, located in the Thin World and accessible only through Resheph's tomb inside the Tomb of the Eaters.
+登攀機の設計は、電磁石をこの星の磁場とかみ合わせて、回る力を生み出す仕組みになっておる。ところが、あいにくスピンドルは自分でも邪魔な磁場を出しておる。招かれざる者が昇らぬようにする仕掛けなのだろう。
+
+我らの狙いは、スピンドルの制御装置にたどり着き、その磁場を止めることだ。だが、どうやってそれを成すかは謎でな。エレシュキガルが、デジタムの記録庫のばらばらな断片をつなぎ合わせて、謎めいてはいるが手がかりになる布を織り上げてくれた。それによると、磁場はブライトシェオルという場所から止められるらしい。そこは薄き世界にあって、喰らう者の墓所の中にある、レシェフの墓を通らねば行けぬという。
+
+### Barathrum | node:TombExplain2#0 | text#0
+> Strange, this, and imprecise, but as tinkers we know: a crude blueprint is better than no blueprint. You must return to Omonporch and enter the Tomb of the Eaters. Once inside, trace the errant paths cut into the mausoleum by robbers and vandals, and ascend to Resheph's burial chamber.
+>
+> As for gaining entrance to the Tomb, Resheph sealed the gates a thousand years ago, but there's a flaw in the seal. The ancient Mark of Death has been lost to time, but if you were to recover it and incise the mark on your body, the Death Gate would open for you, as it did for countless Eater cadavers in the long-blurred past.
+>
+> You're to recover the Mark of Death, =name=, enter the Tomb, and cross into Brightsheol.
+奇妙で、あいまいな話だ。だが、職人なら知っておろう。粗い設計図でも、設計図がないよりはましだとな。オモンポーチへ戻って、喰らう者の墓所に入りなさい。中に入ったら、墓荒らしや盗っ人どもが霊廟に掘った、でたらめな道をたどって、レシェフの埋葬室まで昇るのだ。
+
+墓所へ入る方法だが、レシェフは千年前に門を封じた。だが、その封印には穴がある。古の「死の印」は時の中に失われてしまったが、それを見つけ出して自分の体に刻めば、「死の門」はお前のために開くだろう。遠い昔、数えきれぬ喰らう者たちの亡骸のために開いたようにな。
+
+お前の務めは、死の印を取り戻し、墓所に入り、ブライトシェオルへ渡ることだ、=name=。
+
+### Barathrum | node:TombExplain3#0 | text#0
+> Use the tattoo gun I've given you when you recover the Mark of Death. You'll want to bring a pickaxe, too, or some other instrument for digging through stone. And beware: the Tomb is a vast and ancient space, and sacred to many. I cannot speak to what you will experience there.
+死の印を見つけたら、渡したタトゥーガンを使いなさい。つるはしか、岩を掘り抜く道具も持っていくといい。そして気をつけるのだ。墓所は広大で古く、多くの者にとって聖なる場所だ。そこでお前が何を見るかは、私にも分からん。
+
+### Barathrum | node:TombExplain3#0 / choice:QuestionsChoice#0 | direct
+> I have more to ask, Barathrum.
+ほかにも聞きたいことがある、バラサラム。
+
+### Barathrum | node:Old#0 | text#0
+> So I am, nestling. For a millennium now I've watched the river of Time turn the gears of Qud. I even played my part in diverting the river where I could. Oh, but there have been so many players through the years! So many players.
+そうとも、雛よ。千年ものあいだ、私は時の川がクッドの歯車を回すのを見てきた。できるところでは、川の流れを変えるのに一役買いもした。ああ、だが、この長い年月に、なんと多くの役者が舞台に上がったことか！ 本当に、多くの役者がな。
+
+### Barathrum | node:Old#0 / choice:>Before#0 | direct
+> And before Qud? Beyond the 1,000 years?
+クッドに来る前は？ 千年より前は？
+
+### Barathrum | node:Before#0 | text#0
+> Little do I remember now, for I was but a cub, a nestling, when my kin and I crossed the Homs Delta into Qud. We were urged on by the flooding of a glacial river that flowed through our hearth-cave. The world was just unthawing then, and I recall the roar of the freezing water as it rushed through the grotto, and the frigid spray on my face as I watched in awe.
+今ではほとんど覚えておらん。一族と共にホムス・デルタを渡ってクッドへ来たとき、私はほんの子熊、雛にすぎなかったのでな。我らの住む洞窟を流れていた氷河の川があふれて、追い立てられるように旅立ったのだ。そのころ、世界はちょうど解け始めたところだった。凍える水が岩屋を駆け抜けるとどろきと、立ちすくんで見とれていた私の顔にかかった、冷たいしぶきを覚えておるよ。
+
+### Barathrum | node:Euclid#0 | text#0
+> That's my dear friend, Euclid. It's a prattleplant. It stores every phrase it hears in its neuroot network, and it mimics speech by flicking its leaves against one another. What comes out is gibberish as often as not, but even so, it's agreeable company for my nights spent tinkering. It is old, perhaps older than I am, and it hasn't yet run out of things to say.
+あれは私の親友、エウクリッドだ。おしゃべり草でな。聞いた言葉を、根の神経網に残らずため込んで、葉をこすり合わせて言葉をまねるのだ。出てくるのは、たいていでたらめだが、それでも、夜な夜な工作にふける私には、いい話し相手でな。あれも年寄りで、ひょっとすると私より年上かもしれん。それでもまだ、話の種は尽きぬらしい。
+
+### Barathrum | node:Quest#0 | text#0
+> I do. Your service to the guild has been laudable, =factionaddress:Barathrumites=. You braved the vaporous depths of Bethesda Susa and decoded the signal, you secured the Spindlegrounds and handled the self-appointed Earl, and perhaps most materially, you defended our enclave from the Putus Templar.
+>
+> Since you returned from Bethesda, you've no doubt wondered at the signal's contents. Verily, I hid them to shield you from the weight of the truth. Only Otho, Q Girl, and I bear that burden, but circumstances have changed. The river of Time powers the gear train of our schemes and devices, and it rushes forth. From here, I must share the burden. You must know.
+そうだ。お前の団への働きは見事なものだった。霧の立ちこめるベテスダ・スーサの奥底に挑んで信号を解読し、スピンドルの一帯を押さえて自称伯爵の始末をつけ、そして何より、プトゥス聖堂騎士団から我らの拠点を守ってくれた。
+
+ベテスダから戻って以来、信号に何が込められていたのか、気になっていたことだろう。実を言えば、真実の重みからお前を守るために、私が伏せておいたのだ。その重荷を負っておるのは、オソとQガールと私だけだった。だが、事情が変わった。時の川は我らの企てと仕掛けの歯車を回し、激しく流れておる。ここから先は、重荷を分かち合わねばならん。お前も知っておかねばならんのだ。
+
+### Barathrum | node:Quest#0 / choice:>Signal#0 | direct
+> What is it? Where does the signal come from, and what does it say?
+何なんだ？ 信号はどこから来て、何と言っている？
+
+### Barathrum | node:Signal#0 | text#0
+> The signal is a beacon of welcoming, and it originates from the top of the Spindle.
+あの信号は、歓迎ののろしだ。スピンドルのてっぺんから送られておる。
+
+### Barathrum | node:Signal#0 / choice:>Spindle#0 | direct
+> And what is the Spindle, truly?
+では、スピンドルとは本当は何なんだ？
+
+### Barathrum | node:Spindle#0 | text#0
+> The beacon confirmed my hypothesis. The Spindle is an elevator, engineered by the Eaters to convey freight to and from the vault of heaven. You see, nestling, in the earliest aurora of our past, the Eaters of Earth were joined by a great coven of beings that spanned the firmament. But the Eaters succumbed to some terrible temptation, and an injunction was placed on our world.
+>
+> Since then, the stars were silent to us, and our world was left to molder and decay. But something changed. The signal affirms that an entity roosts atop the Spindle, and invites us to join it.
+>
+> Dare I say, is the injunction at an end? It's too early to tell, but alas, there could be hope for our world.
+あののろしで、私の仮説が裏づけられた。スピンドルは昇降機なのだ。喰らう者たちが、天の丸天井との間で荷を運ぶために造ったものだよ。いいかね、雛よ。我らの過去の、いちばん初めの夜明けのころ、地球の喰らう者たちは、大空いっぱいに広がる者たちの大いなる集いに加わっておった。ところが喰らう者たちは何か恐ろしい誘惑に負け、我らの世界には禁令が下された。
+
+それ以来、星々は我らに沈黙し、この世界は朽ちて崩れるに任された。だが、何かが変わったのだ。信号によれば、スピンドルのてっぺんに何者かが宿っていて、我らに来いと招いておる。
+
+あえて言おう――禁令は終わったのだろうか？ まだ何とも言えん。だが、ああ、この世界にも望みがあるのかもしれん。
+
+### Barathrum | node:Spindle#0 / choice:>WhatNow#0 | direct
+> And what now?
+それで、これからどうする？
+
+### Barathrum | node:Spindle#0 / choice:>Questions#0 | direct
+> I have more to ask, Barathrum.
+ほかにも聞きたいことがある、バラサラム。
+
+### Barathrum | node:WhatNow#0 | text#0
+> I intend to ascend the Spindle and answer the call, =factionaddress:Barathrumites=.
+>
+> My protege &mQ Girl&y has designed a climber for the ascent. We intended to construct it piecewise at the enclave and the site itself, but the engineering feat exceeds even our capacity. With time, I am confident we could accomplish it, but the Putus Templar rob us of our patience. We need to act now, and so as loath as I am to admit it, we need Pax Klanq.
+私はスピンドルを昇り、その呼びかけに応えるつもりだ。
+
+私の愛弟子&mQガール&yが、昇るための登攀機を設計してくれた。この拠点と現地とで少しずつ組み上げるつもりだったが、さすがの我らにも手に余る大仕事でな。時間さえあれば必ずやり遂げられるのだが、プトゥス聖堂騎士団がそれを待ってはくれん。今すぐ動かねばならぬ。だから、認めるのはしゃくだが、パクス・クランクの力が要るのだ。
+
+### Barathrum | node:WhatNow#0 / choice:>PaxKlanq#0 | direct
+> Who is Pax Klanq?
+パクス・クランクとは？
+
+### Barathrum | node:PaxKlanq#0 | text#0
+> Pax Klanq is an eccentric mushroom prodigy. All their faults aside, they are a brilliant scientist and engineer, and I have little doubt that they could build the climber faster than we could. Several years have passed since we were last in contact, but they owe us a debt, and we must now collect.
+>
+> Unfortunately, no one knows Pax Klanq's whereabouts. Through contacts I made over the years, I inquired as to their location. The most I was able to garner were these enigmatic instructions:
+>
+> "Seek the heart of the rainbow, eat the god's flesh, and follow the Coral Path."
+パクス・クランクは、風変わりなキノコの天才だ。欠点はいろいろあるが、すぐれた学者で技師でもある。我らより早く登攀機を作れるのは、まず間違いない。最後に連絡を取ってから何年もたつが、あれには我らへの借りがある。今こそ返してもらうときだ。
+
+困ったことに、パクス・クランクの居場所は誰も知らん。長年かけて作った伝手を頼って尋ねてはみたが、得られたのは、この謎めいた言葉だけだった。
+
+「虹の心臓を探せ。神の肉を喰らえ。珊瑚の道をたどれ」
+
+### Barathrum | node:PaxKlanq#0 / choice:>PaxKlanq2#0 | direct
+> *continue listening*
+*話の続きを聞く*
+
+### Barathrum | node:PaxKlanq2#0 | text#0
+> I must ask you to decipher this enigma, find Pax Klanq, and convince them to construct the climber. Remind Pax of the debt they owe us.
+>
+> It strikes me as likely for this 'rainbow' to refer to the Rainbow Wood, where Klanq's kin consort, so I suggest you start there.
+この謎を解いてパクス・クランクを見つけ出し、登攀機を作るよう説き伏せてほしい。我らへの借りを、パクスに思い出させてやりなさい。
+
+この「虹」とは、クランクの一族が集う「虹の森」のことではないかと思う。まずはそこから当たってみるといい。
+
+### Barathrum | node:PaxKlanq2#0 / choice:>Accept#0 | direct
+> I will find Pax Klanq and deliver Q Girl's design.
+パクス・クランクを見つけて、Qガールの設計図を届けよう。
+
+### Barathrum | node:PaxKlanq2#0 / choice:>End#0 | direct
+> I must weigh everything you've told me.
+聞いた話を、よく考えてみたい。
+
+### Barathrum | node:Accept#0 | text#0
+> As I had hoped, =factionaddress:Barathrumites=. First, speak with Q Girl. She'll hand over her design.
+>
+> I await your return.
+そう言ってくれると思っておった。まずはQガールと話しなさい。設計図を渡してくれる。
+
+お前の帰りを待っておるよ。
+
+### Barathrum | node:Accept#0 / choice:>End#0 | direct
+> Live and drink, Barathrum.
+生きて飲め、バラサラム。

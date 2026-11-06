@@ -1,0 +1,470 @@
+### Jacobo | node:Start#0 | text#0
+> Who are you? What? Please, do not disturb me.
+誰です？ 何です？ すみません、邪魔をしないでください。
+
+### Jacobo | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Start#1 | text#0
+> The Templar are assaulting the enclave? Oh dear, dear...
+>
+> May our guns' lasers shine with the light of the Kasaphescence.
+聖堂騎士団が拠点を襲っている？ ああ、なんということだ……。
+
+我らの銃のレーザーが、カサフェセンスの光で輝きますように。
+
+### Jacobo | node:Start#1 / choice:>End#0 | direct
+> I must go.
+もう行かないと。
+
+### Jacobo | start:Recame#0 | text#0
+> Why, =name=, Brightsheol treated you well. There is a new gravity about you; your proverbial boots ring louder in the Annals with each step.
+>
+> I imagine you're off to Teach's study? They're already at work down there.
+おや、=name=、ブライトシェオルではいい目にあったようですね。あなたには新しい重みがある。一歩ごとに、あなたの足音が年代記の中でいっそう高く響いていますよ。
+
+「先生」の書斎へ行くところでしょう？ 下ではもう作業が始まっていますよ。
+
+### Jacobo | start:Recame#0 / choice:>GuestKlanq#0 | direct
+> What do you think of Klanq's presence?
+クランクがここにいることを、どう思う？
+
+### Jacobo | start:Recame#0 / choice:>Greetings#0 | direct
+> Light shine through you, Jacobo. Let's talk.
+光があなたを照らさんことを、ハコボ。少し話そう。
+
+### Jacobo | start:Recame#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:GuestKlanq#0 | text#0
+> I admit a burning curiosity to see the joined imagination of our Q Girl and Pax Klanq, and no doubt yours as well. Watching such a creation burgeon from empty space to fullness of being would be a joyful entry in the chronicles of my life, but...
+>
+> Too many fingers tangle in the honeypot, as my cubhood mentor would tell me.
+我らがQガールとパクス・クランク、それにもちろんあなたの想像力が合わさって何が生まれるのか、見てみたくてたまらないのは認めます。そんな創造物が、何もないところから命あるものへと育っていくのを見届けられたら、私の人生の年代記に喜ばしい一項が加わるでしょう。ですが……。
+
+子熊のころの師匠がよく言っていました。「蜜壺に指が多すぎると、からまるだけだ」と。
+
+### Jacobo | node:GuestKlanq#0 / choice:>End#0 | direct
+> So they do. Live and drink, Jacobo.
+たしかにな。生きて飲め、ハコボ。
+
+### Jacobo | start:Post Arms#0 | text#0
+> Never before had the Templar broken so far through our defenses. We live a new reality now, one harder to weather.
+>
+> Is there anything you need, =name=?
+聖堂騎士団に、あそこまで守りを破られたことはかつてありませんでした。我々は今、新しい現実の中にいます。前より、ずっと耐えがたい現実です。
+
+何か要るものはありますか、=name=？
+
+### Jacobo | start:Post Arms#0 / choice:>TombQuest#0 | direct
+> I must enter Brightsheol through the Tomb of the Eaters.
+喰らう者の墓所を通って、ブライトシェオルへ入らなければならない。
+
+### Jacobo | start:Post Arms#0 / choice:>Greetings#0 | direct
+> Light shine through you, Jacobo. Let's talk.
+光があなたを照らさんことを、ハコボ。少し話そう。
+
+### Jacobo | start:Post Arms#0 / choice:>End#0 | direct
+> No. Live and drink.
+いや。生きて飲め。
+
+### Jacobo | node:TombQuest#0 | text#0
+> My quills prickle with unease to hear you say such things.
+>
+> Be certain to visit the village of Ezra. The Daughter of Exile who lives there is as good a tinker as any I know, and she always has surplus she's willing to sell.
+そんなことを聞くと、不安で針の毛がちくちく逆立ちます。
+
+エズラの村には必ず寄ってください。あそこに住む「亡命の娘」は、私の知るどの職人にも負けない腕前で、いつも余った品を売ってくれますから。
+
+### Jacobo | node:TombQuest#0 / choice:>End#0 | direct
+> I thank you. Live and drink.
+ありがとう。生きて飲め。
+
+### Jacobo | start:Greetings#0 | text#0
+> Light shine through you, friend.
+光があなたを照らさんことを、友よ。
+
+### Jacobo | start:Greetings#0 / choice:JacoboRumblingChoice#0 | direct
+> Did you feel that rumbling, Jacobo?
+今の地響きを感じたか、ハコボ？
+
+### Jacobo | start:Greetings#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | start:Greetings#0 / choice:>Music#0 | direct
+> Is that... music... coming from your loudspeaker?
+> It sounds like a bell echoing in the void backward through time.
+その拡声器から流れているのは……音楽か？
+虚空で、時を逆さにさかのぼって響く鐘のような音だ。
+
+### Jacobo | start:Greetings#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | start:Greetings#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | start:Greetings#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | start:Greetings#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Bethesda#0 | text#0
+> The Temple of the Rock is cut off from the wider world, and I hear the Mechanimist colonists no longer recognize High Priest Eschelstadt. That said, if you are favored by the Mechanimists, if you are welcome in their holy places, then I've no doubt that Phinae Hoshaiah will grant you peaceful entry.
+岩の神殿は外の世界から切り離されていて、入植したメカニマス教団の人々は、もう大司祭エシェルシュタットを認めていないと聞きます。とはいえ、あなたがメカニマス教団に気に入られていて、彼らの聖地で歓迎される身なら、フィナエ・ホシャイアもきっと穏やかに通してくれるでしょう。
+
+### Jacobo | node:Bethesda#0 / choice:>Music#0 | direct
+> Is that... music... coming from your loudspeaker?
+> It sounds like a bell echoing in the void backward through time.
+その拡声器から流れているのは……音楽か？
+虚空で、時を逆さにさかのぼって響く鐘のような音だ。
+
+### Jacobo | node:Bethesda#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Bethesda#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Bethesda#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Bethesda#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Music#0 | text#0
+> Yea! So you like it? Sheba Hag and I composed it on a wavelathe. We made a series of songs about the birth and life of the Kasaphescence. Together we call them "Spun on the Cosmic Loom".
+ええ！ 気に入ってくれましたか？ シェバ・ハグと私で、波旋盤を使って作曲したんです。カサフェセンスの誕生と生涯を歌った連作でね。まとめて『宇宙の機で紡がれて』と呼んでいます。
+
+### Jacobo | node:Music#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Music#0 / choice:>Sheba#0 | direct
+> Sheba Hag?
+シェバ・ハグ？
+
+### Jacobo | node:Music#0 / choice:>Kasaphescence#0 | direct
+> What's the Kasaphescence?
+カサフェセンスとは何だ？
+
+### Jacobo | node:Music#0 / choice:>Mechanimist#0 | direct
+> So you're a Mechanimist?
+では、あなたはメカニマス教団の信者なのか？
+
+### Jacobo | node:Music#0 / choice:>Songs#0 | direct
+> Have you made other songs?
+ほかにも曲を作ったのか？
+
+### Jacobo | node:Music#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Music#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Music#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Music#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Sheba#0 | text#0
+> Oh, Sheba Hagadias. She's the librarian at the cathedral of the Six Day Stilt. My water-sister and cohort in chrome.
+ああ、シェバ・ハガディアスのことです。シックスデイ・スティルトの大聖堂の司書でね。私の水の姉妹で、クロームを愛する同志ですよ。
+
+### Jacobo | node:Sheba#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Sheba#0 / choice:>Kasaphescence#0 | direct
+> What's the Kasaphescence?
+カサフェセンスとは何だ？
+
+### Jacobo | node:Sheba#0 / choice:>Mechanimist#0 | direct
+> So you're a Mechanimist?
+では、あなたはメカニマス教団の信者なのか？
+
+### Jacobo | node:Sheba#0 / choice:>Songs#0 | direct
+> Have you made other songs?
+ほかにも曲を作ったのか？
+
+### Jacobo | node:Sheba#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Sheba#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Sheba#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Sheba#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Kasaphescence#0 | text#0
+> Beauty manifest, whose chromium shoals are Awe itself. In my belief system, She's the being from whom all metal was birthed, out in the ever-void. There are pieces of Her in every chrome belfry and every machine. Even bits of Her in our own blood.
+>
+> For me, Her essence extends beyond mere metal. Anything that's ordered, She infuses: a poem, a mathematical proof, a clean workspace... so definitely not Q Girl's.
+形をとった「美」そのものです。そのクロムの浅瀬は「畏れ」そのもの。私の信じるところでは、果てしない虚空で、あらゆる金属を産み落とした存在です。どのクロームの鐘楼にも、どの機械にも、あの方のかけらがある。我々の血の中にさえ、少しずつ。
+
+私にとって、あの方の本質はただの金属にとどまりません。整っているものなら何にでも、あの方は宿るのです。詩にも、数学の証明にも、片づいた作業場にも……だから、Qガールの作業場には絶対に宿っていませんね。
+
+### Jacobo | node:Kasaphescence#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Kasaphescence#0 / choice:>Mechanimist#0 | direct
+> So you're a Mechanimist?
+では、あなたはメカニマス教団の信者なのか？
+
+### Jacobo | node:Kasaphescence#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Kasaphescence#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Kasaphescence#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Kasaphescence#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Mechanimist#0 | text#0
+> Of a sort, yes. I'm part of a branch who deify the Kasaphescence only. We believe the argent fathers to be earthly beings: important to the faith's early history but not divine.
+ある意味では、そうです。私は、カサフェセンスだけを神とあがめる一派に属しています。銀の父祖は地上の存在だと考えているんです。信仰の初期の歴史では大切な方々ですが、神ではないと。
+
+### Jacobo | node:Mechanimist#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Mechanimist#0 / choice:>Songs#0 | direct
+> Have you made other songs?
+ほかにも曲を作ったのか？
+
+### Jacobo | node:Mechanimist#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Mechanimist#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Mechanimist#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Mechanimist#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Songs#0 | text#0
+> Many. Many. This is my third collaboration with Sheba. Our first two collections were called "Immaculate Chrome" and "Outside In".
+たくさん。たくさんありますよ。シェバとの共作はこれで三作目です。最初のふたつの作品集は『けがれなきクローム』と『外から内へ』という題でした。
+
+### Jacobo | node:Songs#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Songs#0 / choice:>Sheba#0 | direct
+> Sheba Hag?
+シェバ・ハグ？
+
+### Jacobo | node:Songs#0 / choice:>Kasaphescence#0 | direct
+> What's the Kasaphescence?
+カサフェセンスとは何だ？
+
+### Jacobo | node:Songs#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Songs#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Songs#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Songs#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Orb#0 | text#0
+> Oh, it's the silver rondure. It's a mark of devotion to the Kasaphescence.
+ああ、これは「銀の円球」です。カサフェセンスへの帰依のしるしなんですよ。
+
+### Jacobo | node:Orb#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Orb#0 / choice:>Kasaphescence#0 | direct
+> What's the Kasaphescence?
+カサフェセンスとは何だ？
+
+### Jacobo | node:Orb#0 / choice:>Mechanimist#0 | direct
+> So you're a Mechanimist?
+では、あなたはメカニマス教団の信者なのか？
+
+### Jacobo | node:Orb#0 / choice:>Music#0 | direct
+> Is that... music... coming from your loudspeaker?
+> It sounds like an bell echoing in the void backward through time.
+その拡声器から流れているのは……音楽か？
+虚空で、時を逆さにさかのぼって響く鐘のような音だ。
+
+### Jacobo | node:Orb#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Orb#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Orb#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Machine#0 | text#0
+> Don't I know it. I've had to invent eight separate systems of organization to manage them all. At the moment I'm trying out a new one, Harmonices Spiralis. Spiral towers with heights increasing according to the harmonic series of numbers. It's... fine.
+>
+> The problem is I'm always inscribing more disks. New contraptions. Reverse-engineered artifacts. It's a good problem to have, I suppose.
+>
+> Take a look. See if any interest you.
+ええ、まったくです。全部を管理するために、整理の仕方を八通りも考え出す羽目になりました。今は新しいやり方を試しているところで、名づけて「螺旋の調和」。調和数列に従って高さが増えていく、螺旋状の塔に積むんです。まあ……悪くはありません。
+
+困ったことに、ディスクはいつも増える一方でね。新しい仕掛け、分解して調べた遺物。うれしい悲鳴というやつでしょうか。
+
+見てみてください。気になるものがあるかもしれませんよ。
+
+### Jacobo | node:Machine#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Machine#0 / choice:>Music#0 | direct
+> Is that... music... coming from your loudspeaker?
+> It sounds like a bell echoing in the void backward through time.
+その拡声器から流れているのは……音楽か？
+虚空で、時を逆さにさかのぼって響く鐘のような音だ。
+
+### Jacobo | node:Machine#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Machine#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Machine#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:GritGate#0 | text#0
+> We're a vibrant community here. A circle of monks mapping the outer lattices and raising viaducts where we need to.
+>
+> We remain secluded to protect ourselves. Otho and Barathrum insist on it. They are wise, and I defer to them. My collaboration with Sheba Hag does cause them worry, but they tolerate it, bless their hearts.
+ここは活気のある共同体ですよ。外の格子の地図を作り、必要なところに陸橋を架ける、修道士の集まりのようなものです。
+
+身を守るために、人目を避けて暮らしています。オソとバラサラムがそう言ってゆずらないのでね。ふたりは賢明ですから、私も従っています。シェバ・ハグとの共作はふたりを心配させてしまうのですが、それでも大目に見てくれています。ありがたいことです。
+
+### Jacobo | node:GritGate#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:GritGate#0 / choice:>Sheba2#0 | direct
+> Sheba Hag?
+シェバ・ハグ？
+
+### Jacobo | node:GritGate#0 / choice:>Music#0 | direct
+> Is that... music... coming from your loudspeaker?
+> It sounds like a bell echoing in the void backward through time.
+その拡声器から流れているのは……音楽か？
+虚空で、時を逆さにさかのぼって響く鐘のような音だ。
+
+### Jacobo | node:GritGate#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:GritGate#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:GritGate#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Sheba2#0 | text#0
+> Oh, Sheba Hagadias. She's the librarian at the cathedral of the Six Day Stilt. My water-sister and cohort in chrome.
+ああ、シェバ・ハガディアスのことです。シックスデイ・スティルトの大聖堂の司書でね。私の水の姉妹で、クロームを愛する同志ですよ。
+
+### Jacobo | node:Sheba2#0 / choice:>Bethesda#0 | direct
+> Jacobo, do you have advice for entering Bethesda Susa?
+ハコボ、ベテスダ・スーサに入るための助言はあるか？
+
+### Jacobo | node:Sheba2#0 / choice:>Music#0 | direct
+> Is that... music... coming from your loudspeaker?
+> It sounds like a bell echoing in the void backward through time.
+その拡声器から流れているのは……音楽か？
+虚空で、時を逆さにさかのぼって響く鐘のような音だ。
+
+### Jacobo | node:Sheba2#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Sheba2#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Sheba2#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Sheba2#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Jacobo | node:Rumbling#0 | text#0
+> Argggggggh! Yes! Three towers of disks came crashing down!
+うわああああああ！ 感じましたとも！ ディスクの塔が三つも崩れ落ちたんです！
+
+### Jacobo | node:Rumbling#0 / choice:>Music#0 | direct
+> Is that... music... coming from your loudspeaker?
+> It sounds like a bell echoing in the void backward through time.
+その拡声器から流れているのは……音楽か？
+虚空で、時を逆さにさかのぼって響く鐘のような音だ。
+
+### Jacobo | node:Rumbling#0 / choice:>Orb#0 | direct
+> That chrome orb earring you're wearing. What's the meaning of it?
+その、クロームの玉の耳飾り。どういう意味があるんだ？
+
+### Jacobo | node:Rumbling#0 / choice:>Machine#0 | direct
+> You have so many data disks.
+データディスクがずいぶんたくさんあるな。
+
+### Jacobo | node:Rumbling#0 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Jacobo | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+

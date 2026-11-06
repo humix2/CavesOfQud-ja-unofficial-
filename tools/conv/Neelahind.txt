@@ -1,0 +1,1083 @@
+### Neelahind | start:Distant#0 | text#0
+> {{emote|*The warden's gaze is distant.*}} Esk...
+{{emote|*監視官は遠くを見つめている。*}} エスク……。
+
+### Neelahind | start:Distant#0 / choice:>End#0 | direct
+> *leave her be*
+*そっとしておく*
+
+### Neelahind | start:Direct#0 | text#0
+> Follow the road =EskhindRoadDirection= to find the hollow tree where Esk and I used to play.
+=EskhindRoadDirection=へ続く道をたどれば、エスクと私がよく遊んだ、うろのある木があるよ。
+
+### Neelahind | start:Direct#0 / choice:>End#0 | direct
+> Thank you.
+ありがとう。
+
+### Neelahind | start:Ruminating#0 | text#0
+> {{emote|*The warden is lost in rumination.*}} It can't be. It simply can't be.
+{{emote|*監視官は物思いに沈んでいる。*}} そんなはずない。そんなはず、あるわけない。
+
+### Neelahind | start:Ruminating#0 / choice:>Warden Neelahind?#0 | direct
+> Warden Neelahind?
+監視官ニーラヒンド？
+
+### Neelahind | start:Dead#0 | text#0
+> Kendren, do you... have any news of Eskhind, and Kindrish?
+ケンドレン……エスキンドと、キンドリッシュのことで、何か分かった？
+
+### Neelahind | start:Dead#0 / choice:>Eskhind is dead.#0 | direct
+> Eskhind is dead.
+エスキンドは死んだ。
+
+### Neelahind | start:Dead#0 / choice:>End#0 | direct
+> No.
+いや、まだだ。
+
+### Neelahind | node:Warden Neelahind?#0 | text#0
+> Ah! Yes. My apologies, kendren. Live and drink. I am Neelahind, Warden of Bey Lah. How... may I help you?
+あっ！ はい。ごめんなさい、ケンドレン。生きて飲め。私はニーラヒンド、ベイ・ラーの監視官だ。その……何の用だろう？
+
+### Neelahind | node:Warden Neelahind?#0 / choice:>Friends with Eskhind#0 | direct
+> Hindriarch Keh told me that you were once friends with Eskhind.
+ヒンドリアーク・ケーから、あなたは昔エスキンドと親しかったと聞いた。
+
+### Neelahind | node:Warden Neelahind?#0 / choice:>End#0 | direct
+> I will return later.
+また来る。
+
+### Neelahind | node:Friends with Eskhind#0 | text#0
+> We were... yes. We were close.
+>
+> I can scarcely believe that she would be capable of doing such a thing. Stealing our greatest treasure? Eskhind wouldn't possibly... but if Grand-Doe says it, it must be so.
+私たちは……ええ。親しかった。
+
+あの人にそんなことができるなんて、とても信じられない。村でいちばんの宝を盗むなんて。エスキンドがそんなこと、するはず……。でも、大雌鹿がそうおっしゃるなら、そうなんだろう。
+
+### Neelahind | node:Friends with Eskhind#0 / choice:>Where?#0 | direct
+> Do you know where Eskhind and her siblings might have gone?
+エスキンドたちきょうだいが、どこへ行ったか心当たりはないか？
+
+### Neelahind | node:Friends with Eskhind#0 / choice:>Hindriarch is lying?#0 | direct
+> Is it possible that the Hindriarch is lying?
+ヒンドリアークが嘘をついている、ということはないか？
+
+### Neelahind | node:Hindriarch is lying?#0 | text#0
+> Wh—no! No! What? No, that's not possible! Ayvah, what an absurd idea!
+な――違う！ 違う！ 何て？ いや、そんなことありえない！ アイヴァ、なんてばかげた考えだ！
+
+### Neelahind | node:Hindriarch is lying?#0 / choice:>Why not?#0 | direct
+> Why not?
+なぜありえない？
+
+### Neelahind | node:Hindriarch is lying?#0 / choice:>Where?#0 | direct
+> Do you know where Eskhind and her siblings might have gone?
+エスキンドたちきょうだいが、どこへ行ったか心当たりはないか？
+
+### Neelahind | node:Why not?#0 | text#0
+> Grand-Doe speaks only truth! Grand-Doe only ever speaks truth!
+>
+> It's not possible. She didn't lie.
+大雌鹿は真実しか語らない！ 大雌鹿が語るのは、いつだって真実だけだ！
+
+ありえない。あの方は嘘なんてついていない。
+
+### Neelahind | node:Why not?#0 / choice:>Anyone can lie.#0 | direct
+> Anyone can lie.
+誰だって嘘はつける。
+
+### Neelahind | node:Why not?#0 / choice:>End#0 | direct
+> You ruminant people are impossible. I will find Eskhind myself.
+反芻ばかりの鹿どもは話にならないな。エスキンドは自分で探す。
+
+### Neelahind | node:Anyone can lie.#0 | text#0
+> No. It's not true, and I won't hear any more of your poisonous ideas, kendren. Consider the topic closed.
+>
+> Do you actually have a question?
+いいえ。そんなの嘘だ。これ以上、毒みたいな考えを聞くつもりはないよ、ケンドレン。この話はもうおしまい。
+
+それで、ちゃんとした質問はあるの？
+
+### Neelahind | node:Anyone can lie.#0 / choice:>Where?#0 | direct
+> Do you know where Eskhind and her siblings might have gone?
+エスキンドたちきょうだいが、どこへ行ったか心当たりはないか？
+
+### Neelahind | node:Anyone can lie.#0 / choice:>End#0 | direct
+> Forget it. I don't need your help.
+もういい。あなたの助けはいらない。
+
+### Neelahind | node:Where?#0 | text#0
+> Oh. Esk and I, we had a place... there's a path to the =EskhindRoadDirection= that leads to the remains of a lightning-struck tree, made hollow by the fire from above. It was the furthest from the village either of us had ever been, until I attended my first warden's moot.
+>
+> She and I would spend time there, back then. Perhaps she is there now, but I don't dare check.
+ああ。エスクと私には、ふたりの場所があったんだ……。=EskhindRoadDirection=へ続く道の先に、雷に打たれた木の残骸がある。天からの火で幹がうつろになった木だ。私が初めて監視官の集まりに出るまでは、あそこが、私たちがいちばん村から遠くまで行った場所だった。
+
+あのころは、ふたりでよくあそこで過ごした。今もあそこにいるのかもしれない。でも、私には確かめに行く勇気がない。
+
+### Neelahind | node:Where?#0 / choice:>End#0 | direct
+> I'll look there, thank you.
+そこを探してみる。ありがとう。
+
+### Neelahind | node:No. I'm sorry.#0 | text#0
+> No... no, I can't... and the artifact is lost?
+>
+> It was all for nothing... for nothing...
+そんな……いや、そんなの……。それに、宝も失われたって？
+
+全部、何の意味もなかった……何の意味も……。
+
+### Neelahind | node:No. I'm sorry.#0 / choice:>End#0 | direct
+> I will leave you to your grief. Live and drink.
+ひとりにしておこう。生きて飲め。
+
+### Neelahind | node:No. The Hindriarch lied to you.#0 | text#0
+> No, it can't be... how. This place. This accursed village!
+>
+> This whole village be damned!
+そんな、ありえない……どうして。この場所は。この呪われた村は！
+
+こんな村、まるごと呪われてしまえ！
+
+### Neelahind | node:No. The Hindriarch lied to you.#0 / choice:>End#0 | text#0
+> *back away slowly*
+*そっと後ずさる*
+
+### Neelahind | node:No, this was for fun.#0 | text#0
+> You monster! You monster! How dare you!
+この化け物！ 化け物め！ よくも！
+
+### Neelahind | node:No, this was for fun.#0 / choice:>End#0 | text#0
+> You're next.
+次はお前だ。
+
+### Neelahind | node:KindrishReturn#0 | text#0
+> Oh! Kendren, thank you, thank you! You've done so much for us. Here is a reward for your hard work.
+>
+> Um, that said, there's still the matter of finding out who stole our treasure. It'd mean a great deal if you could still help with the resolution of the case.
+ああ！ ケンドレン、ありがとう、ありがとう！ 本当によくやってくれた。これはあなたの働きへのお礼だ。
+
+ええと、ただ……宝を盗んだのが誰なのかは、まだ分かっていない。この件の決着まで手を貸してくれたら、本当に心強いんだけど。
+
+### Neelahind | node:KindrishReturn#0 / choice:>End#0 | direct
+> Understood. Live and drink.
+分かった。生きて飲め。
+
+### Neelahind | node:Start#0 | text#0
+> Wh-what's going on? Esk is here, a-and Grand-Doe seems very upset.
+>
+> Would you please speak to her, kendren?
+な、何がどうなっているの？ エスクがここにいて、そ、それに大雌鹿がひどくお怒りで。
+
+ケンドレン、あの方と話してもらえないかな？
+
+### Neelahind | node:Start#0 / choice:>End#0 | direct
+> I will.
+分かった。
+
+### Neelahind | node:Start#1 | text#0
+> Wait, why... why is Esk here? What's going on? Do you have Kindrish?
+待って、なぜ……なぜエスクがここに？ どうなっているの？ キンドリッシュは取り戻せた？
+
+### Neelahind | node:Start#1 / choice:>KindrishReturn#0 | direct
+> Yes, I do, but Eskhind didn't have it.
+ああ、ここにある。だが、持っていたのはエスキンドではなかった。
+
+### Neelahind | node:Start#1 / choice:>No. Eskhind claims to be wrongfully accused.#0 | direct
+> No. Eskhind claims to be wrongfully accused.
+いや。エスキンドは、濡れ衣だと言っている。
+
+### Neelahind | node:Start#1 / choice:>End#0 | direct
+> Ah, one moment...
+ああ、ちょっと待ってくれ……。
+
+### Neelahind | node:No. Eskhind claims to be wrongfully accused.#0 | text#0
+> Oh.
+>
+> But... what now?
+そう……。
+
+でも……じゃあ、どうすれば？
+
+### Neelahind | node:No. Eskhind claims to be wrongfully accused.#0 / choice:>You're the Warden. You tell me.#0 | direct
+> You're the Warden. You tell me.
+監視官はあなただろう。あなたが決めてくれ。
+
+### Neelahind | node:No. Eskhind claims to be wrongfully accused.#0 / choice:>We will investigate and find the truth.#0 | direct
+> We will investigate and find the truth.
+調べて、真実を突き止めよう。
+
+### Neelahind | node:No. Eskhind claims to be wrongfully accused.#0 / choice:>End#0 | direct
+> You are useless. I'll get to the bottom of this.
+頼りにならないな。真相は自分で突き止める。
+
+### Neelahind | node:You're the Warden. You tell me.#0 | text#0
+> I... I don't know. Grand-doe usually resolves Bey Lah's disputes. I am present to defuse violence, or keep the peace through the threat of it.
+>
+> What do you think?
+私……私には分からない。ベイ・ラーのもめ事は、いつも大雌鹿が収めてきたんだ。私の役目は、争いをしずめること。あるいは、力をちらつかせて村の平和を守ることなんだ。
+
+あなたはどう思う？
+
+### Neelahind | node:You're the Warden. You tell me.#0 / choice:>We will investigate and find the truth.#0 | direct
+> We will investigate and find the truth.
+調べて、真実を突き止めよう。
+
+### Neelahind | node:You're the Warden. You tell me.#0 / choice:>End#0 | direct
+> You are useless. I'll get to the bottom of this.
+頼りにならないな。真相は自分で突き止める。
+
+### Neelahind | node:We will investigate and find the truth.#0 | text#0
+> Oh. Well, yes, that's... that's a good idea. You'll help, right? My axe-arm and conviction are strong, but deduction has never been my greatest strength.
+>
+> I can answer questions about the people in town, if that would be helpful.
+あ。そう、そうだね、それは……いい考えだ。手伝ってくれるんだよね？ 斧を振るう腕と信念には自信があるけど、推理はどうも得意じゃなくて。
+
+村の者たちのことなら答えられるよ。役に立つなら、だけど。
+
+### Neelahind | node:We will investigate and find the truth.#0 / choice:>Questioning Neelahind#0 | direct
+> It would. Could you answer some questions now?
+助かる。今、いくつか聞いてもいいか？
+
+### Neelahind | node:We will investigate and find the truth.#0 / choice:>End#0 | direct
+> I will return when I have questions... or an accusation.
+聞きたいことができたら……あるいは、告発の準備ができたら、また来る。
+
+### Neelahind | start:Fate#0 | text#0
+> Ah, =name=, live and drink!
+>
+> Has your investigation reached a conclusion? Our fate is in your hands.
+ああ、=name=、生きて飲め！
+
+調べはついた？ 私たちの運命は、あなたの手にかかっているんだ。
+
+### Neelahind | start:Fate#0 / choice:>Neelahind is giddy#0 | direct
+> Not yet. How are you and Eskhind?
+まだだ。エスキンドとはどうだ？
+
+### Neelahind | start:Fate#0 / choice:>KindrishReturn#0 | direct
+> Warden, I have found Kindrish.
+監視官、キンドリッシュを見つけた。
+
+### Neelahind | start:Fate#0 / choice:>KithAndKinCircumstance#0 | direct
+> Yes, I am ready to accuse the thief.
+ああ、盗人を告発する準備ができた。
+
+### Neelahind | start:Fate#0 / choice:>Questioning Neelahind#0 | direct
+> Not yet. May I ask you some questions?
+まだだ。いくつか聞いてもいいか？
+
+### Neelahind | start:Fate#0 / choice:>End#0 | direct
+> No, I do not have enough evidence yet.
+いや、まだ証拠が足りない。
+
+### Neelahind | node:Neelahind is giddy#0 | text#0
+> Oh, =name=! I'm so happy!
+>
+> I can scarcely believe she loves me, much less that... that we could be together. But it's true. Wherever we go from now on, we go together.
+ああ、=name=！ 私、とても幸せなんだ！
+
+あの人が私を好きだなんて、まだ信じられない。ましてや……ふたりで一緒にいられるなんて。でも、本当なんだ。これから先どこへ行くとしても、ふたりで一緒に行く。
+
+### Neelahind | node:Neelahind is giddy#0 / choice:>End#0 | direct
+> May your journeys favor you. Live and drink.
+ふたりの旅路に幸あれ。生きて飲め。
+
+### Neelahind | node:Start#2 | text#0
+> Oh dear, a mystery.
+>
+> Perhaps I should have accepted Angohind's lessons after all.
+困ったな、謎解きだなんて。
+
+やっぱり、アンゴヒンドの講義を受けておけばよかったかな。
+
+### Neelahind | node:Start#2 / choice:>SonnetOffer#0 | direct
+> I believe this poem was meant for you.
+この詩は、あなたに宛てたものだと思う。
+
+### Neelahind | node:Start#2 / choice:>Questioning Neelahind#0 | direct
+> May I ask some questions about the suspects?
+容疑者について聞いてもいいか？
+
+### Neelahind | node:Start#2 / choice:>End#0 | direct
+> Patience, Warden. I'll get to the bottom of this.
+少し待ってくれ、監視官。必ず真相を突き止める。
+
+### Neelahind | node:Start#3 | text#0
+> Live and drink, kendren. Have you... come to a conclusion?
+生きて飲め、ケンドレン。その……答えは出た？
+
+### Neelahind | node:Start#3 / choice:>SonnetOffer#0 | direct
+> I believe this poem was meant for you.
+この詩は、あなたに宛てたものだと思う。
+
+### Neelahind | node:Start#3 / choice:>KithAndKinCircumstance#0 | direct
+> Yes, I am ready to accuse the thief.
+ああ、盗人を告発する準備ができた。
+
+### Neelahind | node:Start#3 / choice:>Questioning Neelahind#0 | direct
+> Not yet. May I ask you some questions?
+まだだ。いくつか聞いてもいいか？
+
+### Neelahind | node:Start#3 / choice:>End#0 | direct
+> No, I do not have enough evidence yet.
+いや、まだ証拠が足りない。
+
+### Neelahind | node:KithAndKinCircumstance#0 | text#0
+> I see. What is it?
+分かった。何を見つけたの？
+
+### Neelahind | node:KithAndKinCircumstance#0 / choice:>End#0 | direct
+> I'm still not completely certain. Let me ponder it more.
+まだ確信が持てない。もう少し考えさせてくれ。
+
+### Neelahind | node:KithAndKinMotive#0 | text#0
+> Signs of =circumstance.influence=, seemingly hidden from the village. But that can't be your only evidence, can it? There's no culprit!
+村から隠されていたらしい、=circumstance.influence=の痕跡か。でも、証拠がそれだけってことはないよね？ それじゃ犯人がいない！
+
+### Neelahind | node:KithAndKinMotive#0 / choice:>End#0 | direct
+> I'm still not completely certain. Let me ponder it more.
+まだ確信が持てない。もう少し考えさせてくれ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#0
+> I'm afraid that well is poisoned due to your false accusation: =thief.name= isn't the culprit.
+悪いけど、前に見当違いの告発をしたせいで、その線はもう信用できないんだ。=thief.name=は犯人じゃない。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#1
+> Hmm. But the only fur there was from a hindren's pelt, and kendren warriors fight to the death. With no corpse and no other fur, it seems unlikely that a hindren fought an outsider.
+うーん。でも、そこにあった毛はヒンドレンのものだけだった。それに、ケンドレンの戦士は死ぬまで戦う。死体もなく、ほかの毛もないなら、ヒンドレンがよそ者と戦ったとは考えにくいよ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#2
+> I'm afraid that makes no sense. Why would an outsider invite a trader to our village, when they could simply meet one outside of Bey Lah?
+それは筋が通らないよ。よそ者なら、ベイ・ラーの外で商人に会えばすむ。わざわざ村に商人を招き入れる理由がない。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#3
+> But weren't the rumors of sore throats in the village? That wouldn't have anything to do with kendren.
+でも、村で噂になっていたのは喉の痛みのことだよね？ それなら、ケンドレンとは関係ないはずだ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#4
+> Why wouldn't an outsider bring their own leather? It would better disguise Kindrish. It seems a lot of work to find and raid our leather stores.
+よそ者なら、自分の革を持ってくるんじゃないかな。そのほうがキンドリッシュをうまく隠せる。わざわざ村の革の蓄えを探して荒らすなんて、手間がかかりすぎるよ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#5
+> Bracers are a Bey Lah craft! It would make no sense for a kendren to have one, then throw it away in the village.
+籠手はベイ・ラーの細工物だよ！ ケンドレンがそれを持っていて、しかも村の中に捨てていくなんて、筋が通らない。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#6
+> Kesehind wields Ari, a battleaxe handed down through generations. It cannot break, and if it broke a weapon there would be scorch marks on it. This evidence does not hold up.
+ケセヒンドが振るうのは、代々受け継がれてきた戦斧アリだ。あれは決して折れないし、あれで武器を折ったのなら焦げ跡が残るはず。この証拠は通らないよ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#7
+> There are few voices as low as Kesehind's in our village. Witnesses report a higher-pitched voice, don't they? They would know if Kesehind were speaking.
+村にケセヒンドほど低い声の者はほとんどいない。証人たちが聞いたのは、もっと高い声だったんだよね？ ケセヒンドの声なら、みんなすぐに分かるはずだ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#8
+> Oh, no, that wouldn't be Kesehind. He'd sooner die of fever than choke down a single stem of yuckwheat.
+ああ、いや、それはケセヒンドじゃないよ。あいつはヤックウィートをひと茎飲み込むくらいなら、熱で死ぬほうを選ぶから。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#9
+> Oh, no, that wouldn't be Kesehind. He'd sooner die of fever than choke down a single stem of yuckwheat.
+ああ、いや、それはケセヒンドじゃないよ。あいつはヤックウィートをひと茎飲み込むくらいなら、熱で死ぬほうを選ぶから。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#10
+> That would be nigh unto impossible for Kesehind. He cannot perform fine tasks by torchlight; his night vision is too poor.
+それはケセヒンドにはまず無理だね。夜目がまるで利かないから、たいまつの明かりで細かい作業なんてできないんだ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#11
+> No, that can't be it. Eskhind hates everything about watervine and keeps a wide berth from it. If her blood was spilled, it would have happened nearer to the path.
+いや、それは違う。エスキンドはウォーターヴァインのことが何から何まで大嫌いで、畑には近づきもしない。あの人の血が流れたのなら、もっと道の近くのはずだ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#12
+> No, no. Eskhind makes the most of what few possessions she keeps, and if she traded a treasure for so much water, she'd never have lost track of any.
+いや、違うよ。エスキンドは、わずかな持ち物でも大事に使い切る人だ。宝と引き換えにあれだけの水を手に入れたのなら、一滴だってなくしたりしない。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#13
+> Oh, no, Eskhind is deathly afraid of saltbacks. She would never get close enough to trade with a dromad merchent.
+ああ、いや、エスキンドはソルトバックが死ぬほど怖いんだ。ドロマドの商人と取引できるほど近づくなんて、ありえないよ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#14
+> I doubt it. If Eskhind were sick, the last place she would stumble to evacuate her guts would be a watervine field.
+それはどうかな。エスキンドが具合を悪くしたとしても、吐きに行く場所にウォーターヴァインの畑だけは選ばないよ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#15
+> I'm afraid that Eskhind has no idea how to use proper leatherworking tools, much less pay for a set so fine. This surely isn't hers.
+悪いけど、エスキンドはまともな革細工の道具の使い方なんて知らないし、そんな上等な一式を買えるはずもない。これはあの人の物じゃないよ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#16
+> I know the rumor you mean, but villagers heard the clash of weapons. Keh is too old for a prolonged fight like that, so I do not believe it was her.
+その噂なら知っている。でも、村の者が聞いたのは武器がぶつかり合う音だ。ケーはもう、あんなに長く続く戦いができるお歳じゃない。だから、あの方だとは思えない。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#17
+> Grand-Doe cannot swim, and panics even near the shallow pools of our paddies. I cannot imagine she would make splashing noises without adding screaming noises to them.
+大雌鹿は泳げないし、水田の浅い水たまりのそばでさえ取り乱してしまう方だ。水しぶきの音を立てて、悲鳴を上げずにいられるなんて考えられない。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#18
+> Copper causes Grand-Doe to break out in great welts. She would not have traded for it, and if she saw a trader drop it, surely she would have told them to pick it up. She hates mess.
+大雌鹿は銅に触れると、ひどいみみず腫れができる。取引で銅を受け取るはずがないし、商人が落としたのを見たら、きっと拾わせたはずだ。散らかっているのが大嫌いな方だから。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#19
+> I cannot bring myself to believe that Grand-Doe would allow anyone to stumble upon her own severed tongue. She would surely burn it as soon as she saw it.
+大雌鹿が、切り落とされた自分の舌を誰かに見つけられるままにしておくなんて、とても信じられない。見つけたらすぐに燃やしてしまうはずだ。
+
+### Neelahind | node:KithAndKinExclusion#0 | text#20
+> No, Grand-Doe is absolutely meticulous about work clutter. She wouldn't leave scraps lying about.
+いや、大雌鹿は仕事の散らかりにとても厳しい方だ。切れ端を出しっぱなしにするはずがない。
+
+### Neelahind | node:KithAndKinExclusion#0 / choice:>End#0 | direct
+> Ah.
+あ。
+
+### Neelahind | node:KithAndKinAccusation#0 | text#0
+> Oh. Yes, this does indicate that some kind of =motive.influence= transpired, and =thief.name= was trying to hide it.
+>
+> So what you're saying is....
+ああ。たしかに、何らかの=motive.influence=があって、=thief.name=がそれを隠そうとしていた、ということになるね。
+
+つまり、あなたが言いたいのは……。
+
+### Neelahind | node:KithAndKinAccusation#0 / choice:>KithAndKinFinale#0 | direct
+> That's right. By concealing =all.influence=, it was =thief.name= who stole Kindrish!
+そのとおり。=all.influence=を隠していた=thief.name=こそ、キンドリッシュを盗んだ犯人だ！
+
+### Neelahind | node:KithAndKinAccusation#0 / choice:>End#0 | direct
+> I'm still not completely certain. Let me ponder it more.
+まだ確信が持てない。もう少し考えさせてくれ。
+
+### Neelahind | node:KithAndKinFinale#0 | text#0
+> The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.
+>
+> And I... I will go with her. May my property be payment for the harm she has done to our people, and I will gladly pay it for the privilege of walking by her side.
+>
+> I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.
+証拠は明らかだ。聖なる掟と民の意志に背き、エスキンドはベイ・ラーからキンドリッシュと呼ばれる宝を盗み出した。その者からは名誉を奪い、水を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+そして私は……私は、あの人と共に行く。あの人が民に与えた損害の償いに、私の財を差し出そう。あの人の隣を歩けるのなら、喜んで差し出す。
+
+私がいなくても、ベイ・ラーはきっと栄える。私が監視官になる前も、そうだったように。生きて飲め、同胞たちよ。ヒンドリアーク・ケーの導きが末永く続かんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#1
+> The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.
+>
+> She could never hope to repay the harm caused by her actions, but we will grant her this last mercy: Bey Lah will forget her debt alongside her name.
+>
+> Just is the leadership of Hindriarch Keh. Long may she live!
+証拠は明らかだ。聖なる掟と民の意志に背き、エスキンドはベイ・ラーからキンドリッシュと呼ばれる宝を盗み出した。その者からは名誉を奪い、水を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+その者のしたことは、とうてい償いきれるものではない。だが、最後の情けをかけよう。ベイ・ラーは、その名と共に、その償いの負債も忘れる。
+
+ヒンドリアーク・ケーの治世は正しい。とこしえに長らえられんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#2
+> The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.
+>
+> And I... I will go with her. May my property be payment for the harm she has done to our people, and I will gladly pay it for the privilege of walking by her side.
+>
+> I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.
+証拠は明らかだ。聖なる掟と民の意志に背き、エスキンドはベイ・ラーからキンドリッシュと呼ばれる宝を盗み出した。その者からは名誉を奪い、水を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+そして私は……私は、あの人と共に行く。あの人が民に与えた損害の償いに、私の財を差し出そう。あの人の隣を歩けるのなら、喜んで差し出す。
+
+私がいなくても、ベイ・ラーはきっと栄える。私が監視官になる前も、そうだったように。生きて飲め、同胞たちよ。ヒンドリアーク・ケーの導きが末永く続かんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#3
+> The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.
+>
+> She could never hope to repay the harm caused by her actions, but we will grant her this last mercy: Bey Lah will forget her debt alongside her name.
+>
+> Just is the leadership of Hindriarch Keh. Long may she live!
+証拠は明らかだ。聖なる掟と民の意志に背き、エスキンドはベイ・ラーからキンドリッシュと呼ばれる宝を盗み出した。その者からは名誉を奪い、水を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+その者のしたことは、とうてい償いきれるものではない。だが、最後の情けをかけよう。ベイ・ラーは、その名と共に、その償いの負債も忘れる。
+
+ヒンドリアーク・ケーの治世は正しい。とこしえに長らえられんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#4
+> The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.
+>
+> And I... I will go with her. May my property be payment for the harm she has done to our people, and I will gladly pay it for the privilege of walking by her side.
+>
+> May the fates have mercy upon us all.
+証拠は明らかだ。聖なる掟と民の意志に背き、エスキンドはベイ・ラーからキンドリッシュと呼ばれる宝を盗み出した。その者からは名誉を奪い、水を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+そして私は……私は、あの人と共に行く。あの人が民に与えた損害の償いに、私の財を差し出そう。あの人の隣を歩けるのなら、喜んで差し出す。
+
+運命が、我ら皆に慈悲を垂れんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#5
+> The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.
+>
+> She could never hope to repay the harm caused by her actions, but we will grant her this last mercy: Bey Lah will forget her debt alongside her name.
+>
+> May the fates have mercy upon us all.
+証拠は明らかだ。聖なる掟と民の意志に背き、エスキンドはベイ・ラーからキンドリッシュと呼ばれる宝を盗み出した。その者からは名誉を奪い、水を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+その者のしたことは、とうてい償いきれるものではない。だが、最後の情けをかけよう。ベイ・ラーは、その名と共に、その償いの負債も忘れる。
+
+運命が、我ら皆に慈悲を垂れんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#6
+> The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.
+>
+> Eskhind is free to go, and I'm... I'm going with her. I cannot serve under Hindriarch Keh while my beloved returns to exile.
+>
+> I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。それどころか、盗んだのはヒンドレンではないと私は考える。調査人が来るずっと前から、村の境をすり抜けて入り込んでいたケンドレンの誰かだ。そのうちの誰が盗んでいてもおかしくない。
+
+エスキンドは自由の身だ。そして私は……私も、あの人と行く。愛する人がふたたび追放の身に戻るというのに、ヒンドリアーク・ケーのもとで仕え続けることはできない。
+
+私がいなくても、ベイ・ラーはきっと栄える。私が監視官になる前も、そうだったように。生きて飲め、同胞たちよ。ヒンドリアーク・ケーの導きが末永く続かんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#7
+> The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but rather one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.
+>
+> Eskhind helped us cleave to the path of justice. She is free to go, and her name will not be forgotten, but she must remain in exile.
+>
+> Just is the leadership of Hindriarch Keh. Long may she live!
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。それどころか、盗んだのはヒンドレンではないと私は考える。調査人が来るずっと前から、村の境をすり抜けて入り込んでいたケンドレンの誰かだ。そのうちの誰が盗んでいてもおかしくない。
+
+エスキンドは、私たちが正義の道を踏み外さぬよう力を貸してくれた。あの人は自由の身であり、その名が忘れられることもない。だが、追放の身であることに変わりはない。
+
+ヒンドリアーク・ケーの治世は正しい。とこしえに長らえられんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#8
+> The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.
+>
+> Eskhind is free to go, and I'm... I'm going with her. I cannot serve under Hindriarch Keh while my beloved returns to exile.
+>
+> I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。それどころか、盗んだのはヒンドレンではないと私は考える。調査人が来るずっと前から、村の境をすり抜けて入り込んでいたケンドレンの誰かだ。そのうちの誰が盗んでいてもおかしくない。
+
+エスキンドは自由の身だ。そして私は……私も、あの人と行く。愛する人がふたたび追放の身に戻るというのに、ヒンドリアーク・ケーのもとで仕え続けることはできない。
+
+私がいなくても、ベイ・ラーはきっと栄える。私が監視官になる前も、そうだったように。生きて飲め、同胞たちよ。ヒンドリアーク・ケーの導きが末永く続かんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#9
+> The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but rather one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.
+>
+> Eskhind helped us cleave to the path of justice. She is free to go, and her name will not be forgotten, but she must remain in exile.
+>
+> Just is the leadership of Hindriarch Keh. Long may she live!
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。それどころか、盗んだのはヒンドレンではないと私は考える。調査人が来るずっと前から、村の境をすり抜けて入り込んでいたケンドレンの誰かだ。そのうちの誰が盗んでいてもおかしくない。
+
+エスキンドは、私たちが正義の道を踏み外さぬよう力を貸してくれた。あの人は自由の身であり、その名が忘れられることもない。だが、追放の身であることに変わりはない。
+
+ヒンドリアーク・ケーの治世は正しい。とこしえに長らえられんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#10
+> The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.
+>
+> Eskhind is free to go, and I'm... I'm going with her. I cannot serve under Hindriarch Keh while my beloved returns to exile.
+>
+> Goodbye. May the fates have mercy upon you.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。それどころか、盗んだのはヒンドレンではないと私は考える。調査人が来るずっと前から、村の境をすり抜けて入り込んでいたケンドレンの誰かだ。そのうちの誰が盗んでいてもおかしくない。
+
+エスキンドは自由の身だ。そして私は……私も、あの人と行く。愛する人がふたたび追放の身に戻るというのに、ヒンドリアーク・ケーのもとで仕え続けることはできない。
+
+さようなら。運命が、あなたたちに慈悲を垂れんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#11
+> The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but rather one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.
+>
+> Eskhind helped us cleave to the path of justice. She is free to go, and her name will not be forgotten, but she must remain in exile.
+>
+> May the fates have mercy upon us all.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。それどころか、盗んだのはヒンドレンではないと私は考える。調査人が来るずっと前から、村の境をすり抜けて入り込んでいたケンドレンの誰かだ。そのうちの誰が盗んでいてもおかしくない。
+
+エスキンドは、私たちが正義の道を踏み外さぬよう力を貸してくれた。あの人は自由の身であり、その名が忘れられることもない。だが、追放の身であることに変わりはない。
+
+運命が、我ら皆に慈悲を垂れんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#12
+> The evidence is clear: Eskhind did not steal Kindrish. The crime was committed by none other than Grand-Doe's protector, Kesehind. He will be stripped of the ancestral axe he carries, stripped of his property, and stripped from our oral histories. Never will his name be spoken here again, and he will never return... on pain of death.
+>
+> Moreover... Keh's attempt to pin blame on Eskhind without due process opened my eyes to her abuses of power. She need not leave Bey Lah, but she is Keh-hind once more-- stripped of her title and standing.
+>
+> As for the hindriarchy, Eskhind will act as an interim leader until we figure out what to do next, as a people. May Hindriarch Esk lead us to a brighter future!
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。罪を犯したのは、ほかでもない大雌鹿の護衛、ケセヒンドだ。その者からは代々受け継いだ斧を奪い、財を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+さらに……正しい手続きも踏まずにエスキンドに罪を着せようとしたことで、私はケーの権力の濫用に気づかされた。あの方がベイ・ラーを去る必要はない。だが、再びケー＝ヒンドに戻っていただく。称号も地位も、もうない。
+
+ヒンドリアークの座については、民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。ヒンドリアーク・エスクが、我らを明るい未来へ導かんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#13
+> The evidence is clear: Eskhind did not steal Kindrish. The crime was committed by none other than Grand-Doe's protector, Kesehind. He will be stripped of the ancestral axe he carries, stripped of his property, and stripped from our oral histories. Never will his name be spoken here again, and he will never return... on pain of death.
+>
+> Moreover... Keh's attempt to pin blame on Eskhind without due process opened my eyes to her abuses of power. She need not leave Bey Lah, but she is Keh-hind once more-- stripped of her title and standing.
+>
+> As for the hindriarchy, Eskhind will act as an interim leader until we figure out what to do next, as a people. May Hindriarch Esk lead us to a brighter future!
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。罪を犯したのは、ほかでもない大雌鹿の護衛、ケセヒンドだ。その者からは代々受け継いだ斧を奪い、財を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+さらに……正しい手続きも踏まずにエスキンドに罪を着せようとしたことで、私はケーの権力の濫用に気づかされた。あの方がベイ・ラーを去る必要はない。だが、再びケー＝ヒンドに戻っていただく。称号も地位も、もうない。
+
+ヒンドリアークの座については、民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。ヒンドリアーク・エスクが、我らを明るい未来へ導かんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#14
+> The evidence is clear: Eskhind did not steal Kindrish. The crime was committed by none other than Grand-Doe's protector, Kesehind. He will be stripped of the ancestral axe he carries, stripped of his property, and stripped from our oral histories. Never will his name be spoken here again, and he will never return... on pain of death.
+>
+> Moreover... Keh's attempt to pin blame on Eskhind without due process opened my eyes to her abuses of power. She need not leave Bey Lah, but she is Keh-hind once more-- stripped of her title and standing.
+>
+> As for the hindriarchy, Eskhind will act as an interim leader until we figure out what to do next, as a people. It will be a challenge to accept change, but we will be stronger for it.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。罪を犯したのは、ほかでもない大雌鹿の護衛、ケセヒンドだ。その者からは代々受け継いだ斧を奪い、財を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+さらに……正しい手続きも踏まずにエスキンドに罪を着せようとしたことで、私はケーの権力の濫用に気づかされた。あの方がベイ・ラーを去る必要はない。だが、再びケー＝ヒンドに戻っていただく。称号も地位も、もうない。
+
+ヒンドリアークの座については、民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。変わることを受け入れるのは容易ではない。だが、そのぶん私たちは強くなれる。
+
+### Neelahind | node:KithAndKinFinale#0 | text#15
+> The evidence is clear: Eskhind did not steal Kindrish. The crime was committed by none other than Grand-Doe's protector, Kesehind. He will be stripped of the ancestral axe he carries, stripped of his property, and stripped from our oral histories. Never will his name be spoken here again, and he will never return... on pain of death.
+>
+> Moreover... Keh's attempt to pin blame on Eskhind without due process opened my eyes to her abuses of power. She need not leave Bey Lah, but she is Keh-hind once more-- stripped of her title and standing.
+>
+> As for the hindriarchy, Eskhind will act as an interim leader until we figure out what to do next, as a people. It will be a challenge to accept change, but we will be stronger for it.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。罪を犯したのは、ほかでもない大雌鹿の護衛、ケセヒンドだ。その者からは代々受け継いだ斧を奪い、財を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+さらに……正しい手続きも踏まずにエスキンドに罪を着せようとしたことで、私はケーの権力の濫用に気づかされた。あの方がベイ・ラーを去る必要はない。だが、再びケー＝ヒンドに戻っていただく。称号も地位も、もうない。
+
+ヒンドリアークの座については、民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。変わることを受け入れるのは容易ではない。だが、そのぶん私たちは強くなれる。
+
+### Neelahind | node:KithAndKinFinale#0 | text#16
+> The evidence is clear: Eskhind did not steal Kindrish. The crime was committed by none other than Grand-Doe's protector, Kesehind. He will be stripped of the ancestral axe he carries, stripped of property, and stripped from our oral histories. Never will his name be spoken here again, and he will never return... on pain of death.
+>
+> Eskhind is free to go, and I'm... I'm going with her. This place is not safe.
+>
+> May the fates have mercy on you.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。罪を犯したのは、ほかでもない大雌鹿の護衛、ケセヒンドだ。その者からは代々受け継いだ斧を奪い、財を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+エスキンドは自由の身だ。そして私は……私も、あの人と行く。ここはもう安全ではない。
+
+運命が、あなたたちに慈悲を垂れんことを。
+
+### Neelahind | node:KithAndKinFinale#0 | text#17
+> The evidence is clear: Eskhind did not steal Kindrish. The crime was committed by none other than Grand-Doe's protector, Kesehind. He will be stripped of the ancestral axe he carries, stripped of his property, and stripped from our oral histories. Never will his name be spoken here again, and he will never return... on pain of death.
+>
+> Moreover... Keh's attempt to pin blame on Eskhind without due process opened my eyes to her abuses of power. She need not leave Bey Lah, but she is Keh-hind once more-- stripped of her title and standing. As for the hindriarchy, Eskhind will act as an interim leader until we figure out what to do next, as a people.
+>
+> I fear dark times ahead. We must remain strong in the coming days.
+証拠は明らかだ。エスキンドはキンドリッシュを盗んでいない。罪を犯したのは、ほかでもない大雌鹿の護衛、ケセヒンドだ。その者からは代々受け継いだ斧を奪い、財を奪い、我らの語り継ぐ歴史からもその名を消す。その名がここで口にされることは二度となく、二度と戻ることも許されない……戻れば、死をもって報いる。
+
+さらに……正しい手続きも踏まずにエスキンドに罪を着せようとしたことで、私はケーの権力の濫用に気づかされた。あの方がベイ・ラーを去る必要はない。だが、再びケー＝ヒンドに戻っていただく。称号も地位も、もうない。ヒンドリアークの座については、民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。
+
+この先、暗い時代が来るのではないかと恐れている。これからの日々、私たちは強くあらねばならない。
+
+### Neelahind | node:KithAndKinFinale#0 | text#18
+> The evidence is clear: Bey Lah's own Hindriarch has betrayed her people. She took our ancestral treasure as her own, pinning the crime on an exile she knew could not defend herself. For this treason, she is hereby stripped of title, stripped of property, stripped of home.
+>
+> With the exile of Keh-Hind, the hindriarchy lies vacant, with no elders fit to take it. Eskhind will act as an interim leader until we figure out what to do next, as a people. May Hindriarch Esk lead us to a brighter future!
+証拠は明らかだ。ベイ・ラーのヒンドリアークその人が、民を裏切った。あの方は先祖伝来の宝を我がものとし、身を守るすべもないと知りながら、追放者に罪を着せた。この裏切りにより、ここに称号を、財を、住まいを剥奪する。
+
+ケー＝ヒンドが追放され、ヒンドリアークの座は空いた。それを継ぐにふさわしい長老もいない。民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。ヒンドリアーク・エスクが、我らを明るい未来へ導かんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#19
+> The evidence is clear: Bey Lah's own Hindriarch has betrayed her people. She took our ancestral treasure as her own, pinning the crime on an exile she knew could not defend herself. For this treason, she is hereby stripped of title, stripped of property, stripped of home.
+>
+> With the exile of Keh-Hind, the hindriarchy lies vacant, with no elders fit to take it. Eskhind will act as an interim leader until we figure out what to do next, as a people. May Hindriarch Esk lead us to a brighter future!
+証拠は明らかだ。ベイ・ラーのヒンドリアークその人が、民を裏切った。あの方は先祖伝来の宝を我がものとし、身を守るすべもないと知りながら、追放者に罪を着せた。この裏切りにより、ここに称号を、財を、住まいを剥奪する。
+
+ケー＝ヒンドが追放され、ヒンドリアークの座は空いた。それを継ぐにふさわしい長老もいない。民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。ヒンドリアーク・エスクが、我らを明るい未来へ導かんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#20
+> The evidence is clear: Bey Lah's own Hindriarch has betrayed her people. She took our ancestral treasure as her own, pinning the crime on an exile she knew could not defend herself. For this treason, she is hereby stripped of title, stripped of property, stripped of home.
+>
+> With the exile of Keh-Hind, the hindriarchy lies vacant, with no elders fit to take it. Eskhind will act as an interim leader until we figure out what to do next, as a people. May Hindriarch Esk lead us to a brighter future!
+証拠は明らかだ。ベイ・ラーのヒンドリアークその人が、民を裏切った。あの方は先祖伝来の宝を我がものとし、身を守るすべもないと知りながら、追放者に罪を着せた。この裏切りにより、ここに称号を、財を、住まいを剥奪する。
+
+ケー＝ヒンドが追放され、ヒンドリアークの座は空いた。それを継ぐにふさわしい長老もいない。民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。ヒンドリアーク・エスクが、我らを明るい未来へ導かんことを！
+
+### Neelahind | node:KithAndKinFinale#0 | text#21
+> The evidence is clear: Bey Lah's own Hindriarch has betrayed her people. She took our ancestral treasure as her own, pinning the crime on an exile she knew could not defend herself. For this treason, she is hereby stripped of title, stripped of property, stripped of home.
+>
+> With the exile of Keh-Hind, the hindriarchy lies vacant, with no elders fit to take it. Eskhind will act as an interim leader until we figure out what to do next, as a people. It will be a challenge to accept change, but we will be stronger for it.
+証拠は明らかだ。ベイ・ラーのヒンドリアークその人が、民を裏切った。あの方は先祖伝来の宝を我がものとし、身を守るすべもないと知りながら、追放者に罪を着せた。この裏切りにより、ここに称号を、財を、住まいを剥奪する。
+
+ケー＝ヒンドが追放され、ヒンドリアークの座は空いた。それを継ぐにふさわしい長老もいない。民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。変わることを受け入れるのは容易ではない。だが、そのぶん私たちは強くなれる。
+
+### Neelahind | node:KithAndKinFinale#0 | text#22
+> The evidence is clear: Bey Lah's own Hindriarch has betrayed her people. She took our ancestral treasure as her own, pinning the crime on an exile she knew could not defend herself. For this treason, she is hereby stripped of title, stripped of property, stripped of home.
+>
+> With the exile of Keh-Hind, the hindriarchy lies vacant, with no elders fit to take it. Eskhind will act as an interim leader until we figure out what to do next, as a people. It will be a challenge to accept change, but we will be stronger for it.
+証拠は明らかだ。ベイ・ラーのヒンドリアークその人が、民を裏切った。あの方は先祖伝来の宝を我がものとし、身を守るすべもないと知りながら、追放者に罪を着せた。この裏切りにより、ここに称号を、財を、住まいを剥奪する。
+
+ケー＝ヒンドが追放され、ヒンドリアークの座は空いた。それを継ぐにふさわしい長老もいない。民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。変わることを受け入れるのは容易ではない。だが、そのぶん私たちは強くなれる。
+
+### Neelahind | node:KithAndKinFinale#0 | text#23
+> The evidence is clear: Bey Lah's own Hindriarch has betrayed her people. She took our ancestral treasure as her own, pinning the crime on an exile she knew could not defend herself. For this treason, she is hereby stripped of title, stripped of property, stripped of home.
+>
+> With the exile of Keh-Hind, the hindriarchy lies vacant, with no elders fit to take it. Eskhind will act as an interim leader until we figure out what to do next, as a people.
+>
+> I fear dark times ahead. We must remain strong in the coming days.
+証拠は明らかだ。ベイ・ラーのヒンドリアークその人が、民を裏切った。あの方は先祖伝来の宝を我がものとし、身を守るすべもないと知りながら、追放者に罪を着せた。この裏切りにより、ここに称号を、財を、住まいを剥奪する。
+
+ケー＝ヒンドが追放され、ヒンドリアークの座は空いた。それを継ぐにふさわしい長老もいない。民としてこれからどうするかを決めるまで、エスキンドが仮の長を務める。
+
+この先、暗い時代が来るのではないかと恐れている。これからの日々、私たちは強くあらねばならない。
+
+### Neelahind | node:KithAndKinFinale#0 / choice:>End#0 | direct
+> My job here is done. Live and drink.
+ここでの仕事は終わった。生きて飲め。
+
+### Neelahind | node:SonnetOffer#0 | text#0
+> For me? Are you sure?
+>
+> But... this is a poem. In Esk's handwriting. Are you s-sure this is for me?
+私に？ 本当に？
+
+でも……これ、詩だ。エスクの字で書いてある。ほ、本当に私宛てなの？
+
+### Neelahind | node:SonnetOffer#0 / choice:>SonnetDelivered#0 | direct
+> Yes. Please read it.
+ああ。読んでみてくれ。
+
+### Neelahind | node:SonnetOffer#0 / choice:>End#0 | direct
+> Perhaps I'm mistaken. Live and drink.
+思い違いかもしれない。生きて飲め。
+
+### Neelahind | node:SonnetDelivered#0 | text#0
+> Oh.
+>
+> Ayvah, she-- Eskhind wrote this about... me? How my head swims at these lavish words. If she wrote this and meant it for me, she must... love me.
+>
+> But it can't be. Can it?
+あ……。
+
+アイヴァ、あの人が――エスキンドがこれを、私のことを思って……？ こんなに美しい言葉を並べられて、頭がくらくらする。あの人がこれを書いて、私に宛てたのだとしたら、あの人は……私を好きだってことになる。
+
+でも、そんなはずない。……よね？
+
+### Neelahind | node:SonnetDelivered#0 / choice:>NeelaLovesEsk#0 | direct
+> Can't it?
+本当に、そうか？
+
+### Neelahind | node:SonnetDelivered#0 / choice:>End#0 | direct
+> It is. Live and drink.
+そのとおりだ。生きて飲め。
+
+### Neelahind | node:NeelaLovesEsk#0 | text#0
+> Kendren, you must understand. I spent so many years trying in vain to fall out of love with Eskhind. I thought it the only way to endure our adolescence, watching her poor attempts at courtship with other hindren.
+>
+> I thought it the only way to endure her departure, as well. But she is returned, and she loves me. Ayvah. I am terrified to speak to her of this, but I must.
+>
+> Thank you.
+ケンドレン、分かってほしい。私は何年も、エスキンドを好きでいるのをやめようとして、どうしてもやめられなかった。あの人がほかのヒンドレンに不器用に言い寄るのを見ながら、若いころを耐えるには、そうするしかないと思っていたんだ。
+
+あの人が村を出ていったのを耐えるのにも、そうするしかないと思っていた。でも、あの人は帰ってきた。そして私を好きでいてくれる。アイヴァ。このことをあの人に話すのは怖くてたまらない。でも、話さなくちゃ。
+
+ありがとう。
+
+### Neelahind | node:NeelaLovesEsk#0 / choice:>Investigation#0 | direct
+> Will this affect the investigation?
+調べに差し障りはないか？
+
+### Neelahind | node:NeelaLovesEsk#0 / choice:>End#0 | direct
+> Live and drink, Neelahind.
+生きて飲め、ニーラヒンド。
+
+### Neelahind | node:Investigation#0 | text#0
+> No. You are the one investigating, so my bias need not enter play. If you determine that Eskhind is guilty, I will heed your word and carry out a just sentence.
+>
+> After that, I'm not sure.
+ないよ。調べているのはあなただから、私のひいき目が入る余地はない。あなたがエスキンドを有罪だと判断したなら、その言葉に従って、正しい裁きを下す。
+
+そのあとのことは……分からないけど。
+
+### Neelahind | node:Investigation#0 / choice:>Questioning Neelahind#0 | direct
+> In that case, I have further questions.
+それなら、もう少し聞きたいことがある。
+
+### Neelahind | node:Investigation#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neelahind | node:Questioning Neelahind#0 | text#0
+> Of course, kendren. Ask away.
+もちろんだよ、ケンドレン。何でも聞いて。
+
+### Neelahind | node:Questioning Neelahind#0 / choice:>Neelahind on Keh#0 | direct
+> What can you tell me about Hindriarch Keh?
+ヒンドリアーク・ケーについて教えてくれ。
+
+### Neelahind | node:Questioning Neelahind#0 / choice:>Neelahind on Eskhind#0 | direct
+> What can you tell me about Eskhind?
+エスキンドについて教えてくれ。
+
+### Neelahind | node:Questioning Neelahind#0 / choice:>Neelahind on Kesehind#0 | direct
+> What can you tell me about Kesehind?
+ケセヒンドについて教えてくれ。
+
+### Neelahind | node:Questioning Neelahind#0 / choice:>Neelahind on kendren#0 | direct
+> What do you know about the outsiders? The kendren?
+よそ者――ケンドレンについて、何か知っていることは？
+
+### Neelahind | node:Questioning Neelahind#0 / choice:>End#0 | direct
+> I should return to my investigation. Live and drink.
+調べに戻るとしよう。生きて飲め。
+
+### Neelahind | node:Neelahind on Keh#0 | text#0
+> Keh is very wise and very careful, which makes up for her lack of strength or... tact. She always knows what's right, and she runs a very tight shift.
+>
+> She hates clutter from work like nothing else and cleans up any mess she makes--unless it's a spill, then she makes Kesehind do it. It's because Grand-Doe has a terrible fear of standing pools of water, refusing to touch them. Copper and bronze afflict her with allergy-sores and she can't touch them. She's too old to spar with me, but her bow-arm still aims true.
+>
+> That's all I can think of.
+ケーはとても賢くて、とても用心深い方だ。それで、力の衰えや……その、気配りの足りなさを補っている。何が正しいかをいつも分かっていて、仕事の取りしきりもとても厳しい。
+
+仕事で散らかるのが何より嫌いで、自分で散らかしたものは必ず片づける――こぼした水だけは別で、それはケセヒンドにやらせるんだ。大雌鹿は、たまった水がひどく怖くて、触ろうとしないから。それに、銅や青銅に触れると腫れ物ができてしまうから、触れない。もう私と手合わせするようなお歳じゃないけど、弓の狙いは今も確かだよ。
+
+思いつくのはそれくらいかな。
+
+### Neelahind | node:Neelahind on Keh#0 / choice:>Questioning Neelahind#0 | direct
+> I have another question, if you please.
+よければ、もうひとつ聞きたい。
+
+### Neelahind | node:Neelahind on Keh#0 / choice:>End#0 | direct
+> Thank you, that will do. Live and drink.
+ありがとう、それで十分だ。生きて飲め。
+
+### Neelahind | node:Neelahind on Eskhind#0 | text#0
+> Oh. She's, well, she's a good person with strong convictions, or has always seemed so. I suppose that isn't helpful.
+>
+> Esk has a good eye for detail. She hates watervine so much that she avoids the paddies and won't eat matz without lah broth to make it taste better. Umm, she's afraid of saltbacks. She's good at foraging and terrible at crafting.
+>
+> I've missed her so much.
+ああ。あの人は、その、信念の強い、いい人だよ。少なくとも、ずっとそう見えていた。……あまり役に立たないね。
+
+エスクは細かいところによく気がつく。ウォーターヴァインが大嫌いで、水田には近づかないし、マッツァもラーのだし汁で味をつけないと食べない。ええと、ソルトバックを怖がっている。食べ物を探すのは得意だけど、物を作るのはまるでだめ。
+
+ずっと、会いたかった。
+
+### Neelahind | node:Neelahind on Eskhind#0 / choice:>Questioning Neelahind#0 | direct
+> I have another question, if you please.
+よければ、もうひとつ聞きたい。
+
+### Neelahind | node:Neelahind on Eskhind#0 / choice:>End#0 | direct
+> Thank you, that will do. Live and drink.
+ありがとう、それで十分だ。生きて飲め。
+
+### Neelahind | node:Neelahind on Kesehind#0 | text#0
+> Kesehind is completely loyal to Grand-Doe. We used to be friends, but his disposition has become so sour since he was appointed her protector, and he's quite cold to me now. He can't see well in darkness. He's the holder of Ari, an unbreakable heirloom fire axe, and he's very skilled with it.
+>
+> He's terribly finicky about food. He'll only eat bland food and meat, and... oh! Once, when he had a bad cough as a faundren, a caretaker tried to feed him yuckwheat, and he kicked her so hard it dislocated her jaw. Poor Elder Eselhind.
+ケセヒンドは大雌鹿に心から忠実だ。昔は友だちだったんだけど、あの方の護衛に任じられてから、すっかりとげとげしくなって、今では私にもずいぶん冷たい。暗いところではよく見えない。代々伝わる決して折れない炎の斧、アリの持ち主で、その扱いはとても上手だ。
+
+食べ物の好き嫌いがひどくてね。味の薄いものと肉しか食べないし……あっ！ ファウンドレンのころ、ひどい咳をしていたあいつに、世話役がヤックウィートを食べさせようとしたことがあったんだ。そうしたら、あいつが思いきり蹴飛ばして、世話役のあごが外れてしまった。気の毒なエセルヒンド長老。
+
+### Neelahind | node:Neelahind on Kesehind#0 / choice:>Questioning Neelahind#0 | direct
+> I have another question, if you please.
+よければ、もうひとつ聞きたい。
+
+### Neelahind | node:Neelahind on Kesehind#0 / choice:>End#0 | direct
+> Thank you, that will do. Live and drink.
+ありがとう、それで十分だ。生きて飲め。
+
+### Neelahind | node:Neelahind on kendren#0 | text#0
+> Oh, not very much. The only kendren who were allowed in the village before you are traders, and it's always a very big fuss when one comes by. It's been a while since that happened, though, so any kendren who have visited must have come in secret.
+ああ、あまり知らないんだ。あなたより前に村に入るのを許されたケンドレンは商人だけで、ひとり来るたびに大騒ぎになる。でも、最後に来たのはずいぶん前のことだから、ほかにケンドレンが来ていたとしたら、こっそり入り込んだんだろうね。
+
+### Neelahind | node:Neelahind on kendren#0 / choice:>Questioning Neelahind#0 | direct
+> I have another question, if you please.
+よければ、もうひとつ聞きたい。
+
+### Neelahind | node:Neelahind on kendren#0 / choice:>End#0 | direct
+> Thank you, that will do. Live and drink.
+ありがとう、それで十分だ。生きて飲め。
+
+### Neelahind | node:Start#4 | text#0
+> Live and drink, kendren.
+>
+> Please forgive me; I am grateful that you opened my eyes, but the sight of you is yet a bitter leaf. Let me grieve my people in peace.
+生きて飲め、ケンドレン。
+
+ごめんなさい。目を開かせてくれたことには感謝している。でも、あなたの姿を見ると、まだ苦い葉を噛んだような気持ちになるんだ。仲間を悼む時間を、静かに過ごさせて。
+
+### Neelahind | node:Start#4 / choice:>LateSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたのものか？
+
+### Neelahind | node:Start#4 / choice:>End#0 | direct
+> My condolences.
+お気の毒に。
+
+### Neelahind | node:KindrishReturnAfter#0 | text#0
+> You've found our treasure? Thank you, kendren!
+>
+> Please take this reward, we set it aside for just this purpose. I apologize if it's too little. Thank you so much, again.
+宝を見つけてくれたの？ ありがとう、ケンドレン！
+
+このお礼を受け取って。このために取っておいたものなんだ。少なかったらごめんなさい。本当に、本当にありがとう。
+
+### Neelahind | node:KindrishReturnAfter#0 / choice:>End#0 | direct
+> Live and drink, warden.
+生きて飲め、監視官。
+
+### Neelahind | start:Doomed#0 | text#0
+> There's a fear deep in my breast, kendren. What's to become of Bey Lah?
+胸の奥に、恐れがあるんだ、ケンドレン。ベイ・ラーはこれからどうなってしまうんだろう？
+
+### Neelahind | start:Doomed#0 / choice:>KindrishReturnAfter#0 | direct
+> Warden, I have found Kindrish.
+監視官、キンドリッシュを見つけた。
+
+### Neelahind | start:Doomed#0 / choice:>End#0 | direct
+> Fine. Live and drink.
+そうか。生きて飲め。
+
+### Neelahind | node:Start#5 | text#0
+> Kendren! I mean, =name=! My heart sings to see you.
+>
+> Thank you for clearing Esk's name. Thank you for bringing us together. You are always welcome here.
+ケンドレン！ じゃなくて、=name=！ あなたに会えて、心が歌っているみたいだ。
+
+エスクの疑いを晴らしてくれてありがとう。私たちを結びつけてくれてありがとう。ここはいつでもあなたを歓迎するよ。
+
+### Neelahind | node:Start#5 / choice:>End#0 | direct
+> You're welcome. Live and drink.
+どういたしまして。生きて飲め。
+
+### Neelahind | node:Start#6 | text#0
+> Ah! Kendren! =name=! I'm so happy! Live and drink.
+あっ！ ケンドレン！ =name=！ 私、すごく幸せだよ！ 生きて飲め。
+
+### Neelahind | node:Start#6 / choice:>End#0 | direct
+> Live and drink, warden.
+生きて飲め、監視官。
+
+### Neelahind | node:Start#7 | text#0
+> =name=, it is good to see you. Rest and sup before you move on.
+=name=、会えてうれしいよ。次へ向かう前に、休んで何か食べていって。
+
+### Neelahind | node:Start#7 / choice:>BetterLate#0 | direct
+> I believe this poem was meant for you.
+この詩は、あなたに宛てたものだと思う。
+
+### Neelahind | node:Start#7 / choice:>End#0 | direct
+> Live and drink, warden.
+生きて飲め、監視官。
+
+### Neelahind | node:Start#8 | text#0
+> Kendren, thank you for clearing Esk's name!
+>
+> You're so decisive. I wish I had that strength.
+ケンドレン、エスクの疑いを晴らしてくれてありがとう！
+
+あなたは本当に決断が早いね。私にもそんな強さがあればいいのに。
+
+### Neelahind | node:Start#8 / choice:>BetterLate#0 | direct
+> I believe this poem was meant for you.
+この詩は、あなたに宛てたものだと思う。
+
+### Neelahind | node:Start#8 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neelahind | node:BetterLate#0 | text#0
+> Oh! Is this what... Esk!
+>
+> I could have gone years unknowing that my love for her was returned. But this is her script, and these words describe me.
+>
+> Ayvah, I have to speak to her! Thank you so much, kendren.
+あっ！ これって……エスク！
+
+あの人も同じ気持ちだったなんて、何年も知らずに過ごすところだった。でも、これはあの人の字だし、ここに書かれているのは私のことだ。
+
+アイヴァ、あの人と話さなくちゃ！ 本当にありがとう、ケンドレン。
+
+### Neelahind | node:BetterLate#0 / choice:>End#0 | direct
+> You're welcome. Live and drink.
+どういたしまして。生きて飲め。
+
+### Neelahind | node:Start#9 | text#0
+> Thank you again for opening my eyes, kendren.
+>
+> I have trouble smiling for my grief, my loss. Nonetheless, Eskhind and I have a brighter future because of you, and we are together. The road is hazardous, but we will walk it in time.
+目を開かせてくれて、あらためてありがとう、ケンドレン。
+
+悲しみと失ったもののせいで、うまく笑えないんだ。それでも、あなたのおかげで、エスキンドと私には前より明るい未来がある。私たちは一緒にいる。道は険しいけれど、いつかきっと歩いていける。
+
+### Neelahind | node:Start#9 / choice:>End#0 | direct
+> My condolences. Live and drink.
+お気の毒に。生きて飲め。
+
+### Neelahind | node:Start#10 | text#0
+> Kendren...
+>
+> I have so much anger at what has been done, but you opened my eyes. Thank you.
+ケンドレン……。
+
+起きたことには、怒りしかない。でも、あなたは私の目を開かせてくれた。ありがとう。
+
+### Neelahind | node:Start#10 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neelahind | node:Start#11 | text#0
+> Ah, =name=. The sight of you is yet a bitter leaf, but you are welcome here.
+ああ、=name=。あなたを見ると、まだ苦い葉を噛んだような気持ちになる。でも、ここではあなたを歓迎するよ。
+
+### Neelahind | node:Start#11 / choice:>LateSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたのものか？
+
+### Neelahind | node:Start#11 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neelahind | node:Start#12 | text#0
+> Kendren.
+>
+> Forgive me for seeming ungrateful. I am more affected by Esk's return and departure than I knew. Please give me space.
+ケンドレン。
+
+恩知らずに見えたら、ごめんなさい。エスクが帰ってきて、また去っていったことが、自分で思っていた以上にこたえているんだ。少し、ひとりにしてほしい。
+
+### Neelahind | node:Start#12 / choice:>LateSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたのものか？
+
+### Neelahind | node:Start#12 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neelahind | node:LateSonnet#0 | text#0
+> What is this?
+>
+> Poetry. In the exile's handwriting. Extolling love for... me, or someone very like me.
+>
+> Is... is this a cruel joke? This cannot be real.
+これは何？
+
+詩だ。あの追放者の字で書かれている。たたえているのは……私への想い。それとも、私によく似た誰か。
+
+これは……ひどい冗談なの？ こんなこと、本当のはずがない。
+
+### Neelahind | node:LateSonnet#0 / choice:>WhyNow#0 | direct
+> It is real. Take the poem.
+本当だ。この詩を受け取ってくれ。
+
+### Neelahind | node:LateSonnet#0 / choice:>End#0 | direct
+> I must be mistaken. Live and drink.
+思い違いだったようだ。生きて飲め。
+
+### Neelahind | node:WhyNow#0 | text#0
+> She loved me.
+>
+> She loved me and I ... I exiled her. Oh, my heart.
+>
+> Kendren I, I am grateful that you have opened my eyes to the truth, but how dearly I wish you had intervened earlier. This poem serves only as a harsh reminder that I must give up everything for my duty.
+>
+> Please. Please leave me be. My heart... Esk, my heart...
+あの人は、私を好きだった。
+
+私を好きでいてくれたのに、私は……私は、あの人を追放した。ああ、胸が。
+
+ケンドレン、私は、あなたが真実に目を開かせてくれたことには感謝している。でも、もっと早く間に入ってくれていたらと、どれほど願わずにいられないか。この詩はただ、務めのためにすべてを手放さなければならないことを、つらく思い出させるだけだ。
+
+お願い。お願いだから、ひとりにして。胸が……エスク、私の胸が……。
+
+### Neelahind | node:WhyNow#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neelahind | node:Start#13 | text#0
+> Live and drink, kendren.
+生きて飲め、ケンドレン。
+
+### Neelahind | node:Start#13 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。

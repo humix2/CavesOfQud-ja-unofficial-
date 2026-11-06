@@ -1,0 +1,588 @@
+### ManyEyes | node:Start#0 | text#0
+> NON MOLOCH? NON MOLOCH RETURNEN FROM BRIGHTSHEOL.
+ノン・モロク？ ノン・モロク、ぶらいとしぇおるヨリ還リキタル。
+
+### ManyEyes | node:Start#0 / choice:Moloch#0 | direct
+> Non Moloch?
+ノン・モロク？
+
+### ManyEyes | node:Start#0 / choice:Brightsheol#0 | direct
+> Yes, I've returned from Brightsheol.
+ああ、ブライトシェオルから戻ってきた。
+
+### ManyEyes | node:Start#1 | text#0
+> *READOUT*
+*読ミ出シ*
+
+### ManyEyes | node:Non#0 | text#0
+> NON MOLOCH HER AT HOM. NON MOLOCH IN MAQQOM YD.
+ノン・モロク、此処ニテ家ニ在リ。ノン・モロク、まっこむ・いどニ在リ。
+
+### ManyEyes | node:Non#0 / choice:>Maqqom#0 | direct
+> Maqqom Yd? The Place outside Itself?
+マッコム・イド？ 「己の外なる場所」のことか？
+
+### ManyEyes | node:MaqqomScramble#0 | text#0
+> *READOUT*
+*読ミ出シ*
+
+### ManyEyes | node:Maqqom#0 | text#0
+> MAQQOM YD. SOUTH-CONTRE FREEN FROM SALUM.
+まっこむ・いど。さるむヨリ解キ放タレタル南ノ地。
+
+### ManyEyes | node:Maqqom#0 / choice:>MaqqomTell#0 | direct
+> Many Eyes, can you tell me of Maqqom Yd?
+メニー・アイズ、マッコム・イドについて教えてくれないか？
+
+### ManyEyes | node:MaqqomTell#0 | text#0
+> SOUTH-CONTRE FREEN FROM SALUM. BY TRETE WITH SAAD CALLEN MOLOCH, AND MONEIEN BI ALDERSESSE.
+>
+> BY TRETE GALGALLIM BILDEN PIPE TO DRINKEN THANE SLIPSTREAM, AND FORGE TO BURNEN STEL-CRISTAL, AND CASKE TO HOLDEN GLOUINGE O FISH.
+さるむヨリ解キ放タレタル南ノ地。もろくト呼バルル「さあど」トノ盟約ニヨリ、長老会ノ金ニヨリテ。
+
+盟約ニヨリ、がるがりむハ造リタリ。彼ノ流レヲ飲ム管ヲ、鋼玉ヲ焼ク炉ヲ、魚ノ光ヲ蓄フル樽ヲ。
+
+### ManyEyes | node:MaqqomTell#0 / choice:>Mean#0 | direct
+> And what of the Freehold? What do you do now?
+それで、自由領はどうなった？ 今は何をしている？
+
+### ManyEyes | node:MaqqomTell#0 / choice:>NonMoloch#0 | direct
+> Who is Non Moloch, from before?
+さっき言っていた「ノン・モロク」とは誰だ？
+
+### ManyEyes | node:Mean#0 | text#0
+> BY TRETE GALGALLIM SERVEN, BUT NON NOU.
+盟約ニヨリ、がるがりむハ仕ヘタリ。サレド、今ハ非ズ。
+
+### ManyEyes | node:Mean#0 / choice:>MaqqomTell#0 | direct
+> I want to ask something else.
+ほかのことを聞きたい。
+
+### ManyEyes | node:NonMoloch#0 | text#0
+> YOU. YOU REGNEN NON HER. NON MOLOCH IN MAQQOM YD.
+汝ナリ。汝、此処ヲ統ベズ。ノン・モロク、まっこむ・いどニ在リ。
+
+### Thah | node:Start#0 | text#0
+> Ah, a stranger. Welcome to the hydropon. I am Thah.
+おや、見かけない方ですね。ハイドロポンへようこそ。私はタハといいます。
+
+### Thah | node:Start#0 / choice:Greet#0 | direct
+> Moon and Sun, Thah. I am =name=.
+月と太陽を、タハ。私は=name=だ。
+
+### Thah | node:Start#0 / choice:Slynth#0 | direct
+> What manner of being are you?
+あなたはどういう存在なんだ？
+
+### Thah | node:Start#0 / choice:How#0 | direct
+> Is all well here?
+ここは変わりないか？
+
+### Thah | node:Start#0 / choice:Bye#0 | direct
+> Live and drink, Thah.
+生きて飲め、タハ。
+
+### Thah | node:GreetThah#0 | text#0
+> Well met, =name=. Please forgive the, ah, austerity of our cradle. You may sup with us at our meager camp and rest under the shade of this Palladium shell. Sorry, as well, about the crowding.
+よくいらっしゃいました、=name=。その、私たちのゆりかごが殺風景なのは、許してください。ささやかな野営地ですが、一緒に食事をして、このパラジウムの殻の陰で休んでいってください。それと、狭苦しくてすみません。
+
+### Thah | node:GreetThah#0 / choice:>Resentment#0 | direct
+> You don't seem to like your accommodations.
+ここの住み心地が気に入らないようだな。
+
+### Thah | node:SlynthWhat#0 | text#0
+> We are called slynth, a people grown one by one from a hydroponic cradle containing a cutting of water lily and empowered by sunslag. We are but a handful of generations old, and kept no written history until I was grown, ah, some number of decades ago.
+私たちはスリンスと呼ばれています。スイレンの挿し枝を入れ、太陽滓で力を与えた水耕のゆりかごから、ひとりずつ育った民です。まだ数世代しか経っていなくて、書き残された歴史もありませんでした。私が育った、その、何十年か前まではね。
+
+### Thah | node:HowAreThings#0 | text#0
+> Well enough. We drink the sun's rays, eat what we scavenge, rest under the shell, and it is. Enough.
+>
+> I read and tinker. Some hunt. Others tend the cradle. Each day is like the next. Every so often, someone leaves.
+>
+> We, ah, rarely hear from them thereafter. I hope they are all well.
+まあまあです。日の光を飲み、拾ったものを食べ、殻の下で休む。それで、十分。
+
+私は本を読んだり、からくりをいじったり。狩りをする者もいれば、ゆりかごの世話をする者もいます。毎日が同じことの繰り返し。ときどき、誰かが出ていきます。
+
+その後、その、便りが来ることはめったにありません。みんな元気だといいのですが。
+
+### Thah | node:HowAreThings#0 / choice:>Resentment#0 | direct
+> You don't seem happy with the status quo.
+今のままの暮らしに満足していないようだな。
+
+### Thah | node:Resentment#0 | text#0
+> To be wholly honest, =name=, I grow frustrated.
+>
+> We are a young species, grown one by one in yonder sun-touched cradle. Over years, we have increased, but not, ah, not. Not grown.
+>
+> Look around you. You see it, yes? This hydropon is no settlement.
+正直に言うと、=name=、もどかしいのです。
+
+私たちは若い種族で、あの日の当たるゆりかごで、ひとりずつ育ってきました。年月とともに数は増えましたが、その、でも。育ってはいないのです。
+
+まわりを見てください。分かるでしょう？ このハイドロポンは、村なんかじゃない。
+
+### Thah | node:Resentment#0 / choice:>Helping#0 | direct
+> How can I help?
+何か手伝えることはあるか？
+
+### Thah | node:Helping#0 | text#0
+> This is an existential conundrum, =name=, I'm not sure that it could-- ah, wait, no. I am reconsidering.
+>
+> No, you could help. If you wished. I think.
+>
+> May I explain?
+これは存在そのものにかかわる難題なんです、=name=。手伝ってもらえるような――あ、いえ、待って。考え直します。
+
+いいえ、あなたなら手伝えます。その気があれば。たぶん。
+
+説明してもいいですか？
+
+### Thah | node:Helping#0 / choice:>Helping2#0 | direct
+> Please do.
+頼む。
+
+### Thah | node:Helping#0 / choice:>End#0 | direct
+> I have changed my mind. Live and drink.
+やっぱりやめておく。生きて飲め。
+
+### Thah | node:Helping2#0 | text#0
+> I don't believe my people wish to stay here, but we have had so little, ah, meaningful contact with other sapient creatures. We have no allies. We have nowhere to go but here.
+仲間たちは、ここに留まりたいとは思っていないはずです。でも私たちは、ほかの知性ある生き物と、その、意味のある付き合いをほとんどしてこなかった。味方もいない。ここ以外に行く場所がないのです。
+
+### Thah | node:Helping3#0 | text#0
+> You travel far and wide, do you not? You have the air of a traveling hero! From the epics. As such, you have seen many settlements, likely ingratiated yourself to some.
+あなたは、あちこち旅をしているのでしょう？ 叙事詩に出てくる、旅の英雄みたいな雰囲気がある！ それなら、たくさんの村を見てきて、いくつかの村には気に入られてもいるはずです。
+
+### Thah | node:Helping4#0 | text#0
+> Surely, if you were to intercede on our behalf, some might welcome us? If, ah, let us say three settlements were to offer us shelter, this would grant us both direction and agency. Would you consider being our ambassador? Not unpaid.
+あなたが私たちのために口を利いてくれたら、受け入れてくれる所もあるのでは？ もし、その、たとえば三つの村が住まいを申し出てくれたら、私たちは進む道と、自分で選ぶ力の両方を手に入れられます。私たちの使者になってもらえませんか？ もちろん、ただでとは言いません。
+
+### Thah | node:Helping4#0 / choice:>Accept#0 | direct
+> I will help.
+手伝おう。
+
+### Thah | node:Helping4#0 / choice:>End#0 | direct
+> I decline. Live and drink.
+断る。生きて飲め。
+
+### Thah | node:Accept#0 | text#0
+> Thank you, =name=. I have, ah, I have been crafting a personal project. Of sorts. I promise it to you for this task, and of course the gratitude of a young species.
+>
+> Return to me after settlements agree to grant us refuge, and I will discuss them with my kin.
+ありがとう、=name=。実は、その、自分だけの作品をこしらえているんです。まあ、ちょっとしたものですが。この務めのお礼に、それを差し上げると約束します。もちろん、若い種族の感謝も添えて。
+
+村が受け入れを承知してくれたら、戻ってきてください。仲間と話し合ってみます。
+
+### Thah | node:Accept#0 / choice:>End#0 | direct
+> Live and drink. I will return with news.
+生きて飲め。知らせを持って戻ってくる。
+
+### Thah | node:Start#1 | text#0
+> Come, =name=. It is time.
+さあ、=name=。時が来ました。
+
+### Thah | node:Start#2 | text#0
+> Ah, =name=, Moon and Sun.
+>
+> Any news of our future home?
+ああ、=name=、月と太陽を。
+
+私たちの新しい住まいについて、何か知らせはありますか？
+
+### Thah | node:Start#2 / choice:>LandingPadsCommentary#0 | direct
+> Yes, I have news about the slynths' sanctuary.
+ああ、スリンスの住まいについて知らせがある。
+
+### Thah | node:Start#2 / choice:>End#0 | direct
+> None yet. Live and drink, Thah.
+まだだ。生きて飲め、タハ。
+
+### Thah | node:LandingPadsCommentary#0 | text#0
+> Ah! Let us discuss?
+おお！ 話を聞かせてください。
+
+### Thah | node:LandingPadsCommentary#0 | text#1
+> Joppa! An historic site. I wasn't sure if, ah, it still existed. As a village.
+>
+> The quiet of the saltmarshes may be strange to my people, but some have voiced a wish for more peace than the Reef can spare. Thank you for this choice, =name=.
+ジョッパ！ 歴史ある場所ですね。その、まだ村として残っているのかどうか、知りませんでした。
+
+塩沼の静けさは、仲間たちには見慣れないものかもしれません。でも、礁では得られないような穏やかな暮らしを望む声もあったんです。この候補をありがとう、=name=。
+
+### Thah | node:LandingPadsCommentary#0 | text#2
+> The worshippers of Shekhinah? Fascinating. I, ah, don't know what to think of that.
+>
+> It may be what my kin need, now I consider it. The Canticles make little sense to me but they are, ah, compelling. More compelling than me, certainly. I will discuss this with the others.
+シェキーナの信徒たちですか？ 興味深い。その、どう考えたらいいのか分かりません。
+
+考えてみれば、仲間たちに必要なのはそれなのかもしれない。賛歌は私にはよく分かりませんが、その、人を引きつける力がある。少なくとも、私よりはずっと。ほかの者たちと話し合ってみます。
+
+### Thah | node:LandingPadsCommentary#0 | text#3
+> Did you say Barathrumites? So that's how it's pronounced.
+>
+> Grit Gate is, ah... that's where Q Girl resides, isn't it? She wrote my favorite book, {{W|Disquisition on the Malady of the Mimic}}. I imagine such a home would have a positive effect on my kin. I will speak to them.
+バラサラム派と言いました？ なるほど、そう発音するんですね。
+
+グリット・ゲートといえば、その……Qガールが住んでいる所ですよね？ 私のいちばん好きな本、{{W|『擬態者の病についての考察』}}を書いた人です。そういう住まいなら、仲間たちにもいい影響があるでしょう。みんなに話してみます。
+
+### Thah | node:LandingPadsCommentary#0 | text#4
+> Kyakukya? I didn't realize it had so many syllables.
+>
+> That's where the, ah, faithful to the ape-god gather, correct? And, uh... Crowsong, as well. I will present this possibility to my people and we will discuss it.
+キャクキャ？ そんなに音の多い名前だとは知りませんでした。
+
+その、猿の神を信じる人たちが集まっている所ですよね？ それと、ええと……クロウソングも。この候補を仲間たちに伝えて、話し合ってみます。
+
+### Thah | node:LandingPadsCommentary#0 | text#5
+> Ezra is, ah, the village at the base of the Spindle, is it not?
+>
+> The very cradle of history. Not that my kin have a strong taste for history, but perhaps living amongst fresco and bas-relief will change their, ah, collective outlook?
+エズラというと、その、スピンドルのふもとにある村ですよね？
+
+まさに歴史のゆりかごだ。仲間たちが特に歴史好きというわけではありませんが、壁画や浮き彫りに囲まれて暮らせば、その、みんなの物の見方も変わるかもしれませんね？
+
+### Thah | node:LandingPadsCommentary#0 | text#6
+> Fascinating. I know nothing about these mopango, but any people whose love for learning and discovery defines them are, ah... good, in my opinion. I will discuss this with my kin, and see if they agree.
+興味深い。そのモパンゴという人たちのことは何も知りませんが、学ぶことと発見することを愛するのが何よりの特徴だという人たちなら、その……いい人たちだと思います。仲間と話し合って、賛成してくれるか確かめてみます。
+
+### Thah | node:LandingPadsCommentary#0 | text#7
+> There is a sadness in, ah... choosing pariahs. Some of my kin dreamed of belonging, and the very word is the antithesis of belonging.
+>
+> But then, if wanderers look after one another, there is a belonging in that as well. Even alone, we would not be alone. I will offer this choice to the others and we will discuss it.
+その……はぐれ者を選ぶというのは、どこか悲しいですね。仲間の中には、どこかに属することを夢見ていた者もいます。「はぐれ者」という言葉は、属することの正反対ですから。
+
+でも、さすらう者どうしが互いに気にかけ合うなら、それもまたひとつの居場所なのかもしれません。ひとりでも、ひとりじゃない。ほかの者たちにこの選択肢を伝えて、話し合ってみます。
+
+### Thah | node:LandingPadsCommentary#0 | text#8
+> The nearby settlement? The one, ah, founded by three svardym and a galgal? I've always been mortally afraid to go there, knowing even the barest facts.
+>
+> But you say they will accept us? Perhaps I was wrong.
+近くのあの集落ですか？ その、三匹のスヴァーディムとガルガルが作ったという？ ほんの少しのことを知っているだけでも、あそこへ行くのは死ぬほど怖かったんです。
+
+でも、受け入れてくれると言うんですね？ 私の思い違いだったのかもしれません。
+
+### Thah | node:LandingPadsCommentary#0 | text#9
+> Bey Lah is real? Stain me surprised to hear so... I, ah, believed the hindren exclusively diasporic.
+>
+> There is an undeniable poetry in it, if the slynth should emigrate to a mythical and secretive village. I will discuss this with my kin.
+ベイ・ラーは実在するんですか？ これは驚いた……。その、ヒンドレンはみんな、散り散りに暮らしているものとばかり思っていました。
+
+スリンスが、伝説の隠れ里へ移り住むなんて、どうしたって詩的ですね。仲間と話し合ってみます。
+
+### Thah | node:LandingPadsCommentary#0 | text#10
+> Chavvah? The, ah, the... the tree of life? Allows us joining?
+>
+> That, that is simply, ah, extraordinary. I will apprise my kin of this, and we will, ah... we will ponder what it may mean for us.
+チャヴァ？ あの、その……生命の樹が？ 私たちを迎え入れてくれると？
+
+それは、それは、その、とんでもないことです。仲間たちに知らせて、その……それが私たちにとって何を意味するのか、考えてみます。
+
+### Thah | node:LandingPadsCommentary#0 / choice:>CandidatesReady#0 | text#0
+> I have made my inquiries. It is time for the slynth to choose a new home.
+聞いて回ってきた。スリンスが新しい住まいを選ぶときだ。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Joppa#0 | direct
+> The village of Joppa has agreed to accept the slynth as their own.
+ジョッパの村が、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Mechanimists#0 | direct
+> The Mechanimists of the Six Day Stilt agreed to accept the slynth as their own.
+シックスデイ・スティルトのメカニマス教団が、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Barathrumites#0 | direct
+> The Barathrumites of Grit Gate agreed to accept the slynth as their own.
+グリット・ゲートのバラサラム派が、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Kyakukya#0 | direct
+> The village of Kyakukya has agreed to accept the slynth as their own.
+キャクキャの村が、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Ezra#0 | direct
+> The village of Ezra has agreed to accept the slynth as their own.
+エズラの村が、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Mopango#0 | direct
+> The mopango of the Tomb agreed to accept the slynth as their own.
+墓所のモパンゴが、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Pariahs#0 | direct
+> If the slynth choose to wander Qud, the Pariahs have agreed to look after them.
+スリンスがクッドをさすらう道を選ぶなら、はぐれ者たちが面倒を見てくれるそうだ。
+
+### Thah | node:LandingPadsCommentary#0 / choice:YdFreehold#0 | direct
+> The Yd Freehold agreed to accept the slynth as their own.
+イド・フリーホールドが、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Hindren#0 | direct
+> The village of Bey Lah has agreed to accept the slynth as their own.
+ベイ・ラーの村が、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:Chavvah#0 | direct
+> The chimes of Chavvah have agreed to accept the slynth as their own.
+チャヴァの鐘たちが、スリンスを仲間として受け入れると言ってくれた。
+
+### Thah | node:LandingPadsCommentary#0 / choice:>Start#0 | direct
+> Let's talk about something else.
+ほかの話をしよう。
+
+### Thah | node:CandidatesReady#0 | text#0
+> Wanderer, thank you! I will tell my kin of these places. We will convene and discuss, and we will, ah, choose. Please be patient in the meantime.
+旅の方、ありがとう！ 仲間たちにこれらの場所のことを伝えます。みんなで集まって話し合って、その、選びます。それまで、少し待っていてください。
+
+### Thah | node:CandidatesReady#0 / choice:>End#0 | direct
+> As you say, Thah. I will return.
+分かった、タハ。また来る。
+
+### Thah | node:Start#3 | text#0
+> Moon and Sun, =name=.
+月と太陽を、=name=。
+
+### Thah | node:Start#3 / choice:>SlynthLeave#0 | direct
+> It's curious to see you still here, after helping your kin emigrate.
+仲間の移住を手伝ったあとも、まだここにいるとは意外だな。
+
+### Thah | node:Start#3 / choice:ChoiceGetStar#0 | direct
+> Why have you asked me to return?
+なぜ私に戻ってくるよう頼んだんだ？
+
+### Thah | node:Start#3 / choice:>End#0 | direct
+> Moon and Sun, Thah.
+月と太陽を、タハ。
+
+### Thah | node:GiveStar#0 | text#0
+> I've been crafting a kind of a relic, a piece of art that serves a purpose and that you can carry on your, ah, your person. I finally finished building it while you were away, and the opportunities you offered us inspired the finishing touches. I'd like you to have it.
+遺物のようなものをこしらえていたんです。役にも立って、その、身につけて持ち歩ける芸術品です。あなたが留守のあいだに、ようやく完成しました。あなたが私たちにくれた機会が、最後の仕上げのひらめきになったんです。受け取ってください。
+
+### Thah | node:GiveStar#0 / choice:>End#0 | direct
+> I will cherish it. Live and drink.
+大切にする。生きて飲め。
+
+### Thah | node:SlynthDecision#0 | text#0
+> After some discussion and deliberation, we have come to consensus: Joppa shall be the new home of the slynth. The notion of a lasting, peaceful life with, ah, purpose... this appeals to many of our number, and where better than Abram's very watervine marsh?
+>
+> Our emigration party departs for the saltmarshes in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスの新しい住まいは、ジョッパです。その、目的のある、穏やかで長く続く暮らし……それが多くの者の心を引きつけたのです。それなら、アブラムその人のウォーターヴァインの沼ほどふさわしい場所はないでしょう？
+
+移住の一行は、朝に塩沼へ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#1
+> After some discussion and deliberation, we have come to consensus: most of our number will join the Mechanimist faith, and reside at the Stiltgrounds at the edge of the Mogh'ra'yi.
+>
+> Our emigration party departs for the Six Day Stilt in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。私たちの多くはメカニマス教団に入信し、モグラヤイのほとりにあるスティルトの地に住むことになります。
+
+移住の一行は、朝にシックスデイ・スティルトへ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#2
+> After some discussion and deliberation, we have come to consensus: The new home of the slynth is among the disciples of Barathrum. My kin have agreed to dedicate themselves to the pursuits of learning and service.
+>
+> Our emigration party departs for Grit Gate in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスの新しい住まいは、バラサラムの弟子たちのもとです。仲間たちは、学びと奉仕に身を捧げることに決めました。
+
+移住の一行は、朝にグリット・ゲートへ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#3
+> After some discussion and deliberation, we have come to consensus: Kyakukya shall be the new home of the slynth. There are many ways to grow when one is planted in the very heart of Qud.
+>
+> Our emigration party departs for the river in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスの新しい住まいは、キャクキャです。クッドのまさに中心に植えられれば、育ち方はいくらでもありますから。
+
+移住の一行は、朝に川へ向けて発ちます。
+
+### Thah | node:SlynthDecision#0 | text#4
+> After some discussion and deliberation, we have come to consensus: The new home of the slynth is among the villagers of Ezra, harvesting musa alongside the banana ranchers and singing their songs.
+>
+> Our emigration party departs for Omonporch in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスの新しい住まいは、エズラの村人たちのもとです。バナナ農家と一緒にバショウを収穫して、あの人たちの歌を歌います。
+
+移住の一行は、朝にオモンポーチへ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#5
+> After some discussion and deliberation, we have come to consensus: the slynth shall become mopango, taking root in ancient rock and casting our gaze back toward the history that preceded us.
+>
+> Our emigration party departs for the Tomb of the Eaters in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスはモパンゴになります。太古の岩に根を下ろし、私たちより前にあった歴史を振り返って見つめるのです。
+
+移住の一行は、朝に喰らう者の墓所へ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#6
+> After some discussion and deliberation, we have come to consensus: The new home of the slynth is no home at all, but the floating fellowship of Qud's Pariahs. We were blessed with roots that need not fix themselves to the soil and have opted to use them accordingly.
+>
+> We will split into parties and leave to meet with other wayfarers come morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスの新しい住まいは、住まいなどではありません。クッドのはぐれ者たちの、漂う仲間の輪です。私たちは、土に縛られなくてもいい根を授かりました。だから、その根をそのとおりに使うことにしたのです。
+
+朝になったら、いくつかの組に分かれて、ほかのさすらい人たちに会いに出かけます。
+
+### Thah | node:SlynthDecision#0 | text#7
+> After some discussion and deliberation, we have come to consensus: the slynth shall join the Yd Freehold, remaining in the reef where our cradle lies but mingling among other sapient creatures to learn their ways and teach what we know.
+>
+> Our emigration party departs for the Freehold in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスはイド・フリーホールドに加わります。ゆりかごのある礁に留まりながら、ほかの知性ある生き物たちと交わって、その生き方を学び、私たちの知っていることを教えるのです。
+
+移住の一行は、朝にフリーホールドへ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#8
+> After some discussion and deliberation, we have come to consensus: Bey Lah shall be the new home of the slynth. There is a familiarity to this tucked-away village, newly greeting the world; this is our gentle emergence from obscurity, and one not undertaken alone.
+>
+> Our emigration party departs for the flower fields in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスの新しい住まいは、ベイ・ラーです。人目を避けてきて、今ようやく世界に顔を出したあの村には、どこか親しみを感じるのです。これは、私たちがひっそりと世に出ていく一歩。それも、ひとりきりではない一歩です。
+
+移住の一行は、朝に花畑へ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#9
+> After some discussion and deliberation, we have come to consensus: the slynth shall become a part of Chavvah, the living city. There are no words for the breadth of futures before us, and we would not know them if they were. Perhaps we will learn to chime.
+>
+> Our emigration party departs for the moon stair in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスは、生きた都チャヴァの一部になります。目の前に広がる未来の大きさを言い表す言葉はありませんし、あったとしても私たちには分からないでしょう。もしかしたら、鐘の鳴らし方を覚えるのかもしれません。
+
+移住の一行は、朝に月の階段へ発ちます。
+
+### Thah | node:SlynthDecision#0 | text#10
+> After some discussion and deliberation, we have come to consensus: the slynth shall become citizens of =village.name=. We shall learn the practice of =village.activity=, hold =village.sacred= dear and spurn =village.profane=.
+>
+> Our emigration party departs for =village.name= in the morning.
+話し合いと熟慮を重ねて、みんなの意見がまとまりました。スリンスは=village.name=の住人になります。=village.activity=を学び、=village.sacred=を大切にし、=village.profane=を退けます。
+
+移住の一行は、朝に=village.name=へ発ちます。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#0
+> May the Argent Fathers watch over you.
+銀の父祖が見守ってくださるように。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#1
+> May you find knowledge.
+知恵が見つかるように。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#2
+> May Oboroqoru be merciful.
+オボロコルの慈悲があるように。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#3
+> May the Eaters protect you.
+喰らう者たちの守りがあるように。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#4
+> Mayest thou rest ever in the Light of the Kasaphescence.
+汝、とこしえにカサフェセンスの光のうちに憩わんことを。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#5
+> May the winds favor you.
+風に恵まれるように。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#6
+> Chime joyfully.
+楽しく鳴り響け。
+
+### Thah | node:SlynthDecision#0 / choice:>SlynthResolution#0 | text#7
+> May the Fates favor you.
+運命に恵まれるように。
+
+### Thah | node:SlynthResolution#0 | text#0
+> Ah, one last little thing, =name=. About your reward... it's not quite finished, but now I know just what it needs.
+>
+> Please return to the hydropon after my kin have safely reached their new home and I will give it to you. I will not leave the cradle.
+ああ、最後にひとつだけ、=name=。お礼のことですが……まだ完成していないんです。でも、何が足りないのか、今やっと分かりました。
+
+仲間たちが新しい住まいに無事に着いたら、ハイドロポンに戻ってきてください。そのときにお渡しします。私はゆりかごを離れませんから。
+
+### Thah | node:SlynthResolution#0 / choice:>End#0 | direct
+> I will. Live and drink.
+そうしよう。生きて飲め。
+
+### Thah | node:SlynthLeave#0 | text#0
+> Yes, I've decided to stay. It's not that, ah, it's not that I wouldn't enjoy a life of farming. But the thought of leaving the cradle after decades of watching it... I couldn't.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残ることにしたんです。その、農作業の暮らしが嫌だというわけではないんです。でも、何十年も見守ってきたゆりかごを離れると思うと……できませんでした。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#1
+> Yes, I've stayed. I don't, ah, resent that my kin have found succor in the embrace of faith, but I don't know how to walk that path myself. Someone needs to watch over the hydropon, besides.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残りました。仲間たちが信仰に救いを見いだしたことを、その、恨んではいません。ただ、自分がその道をどう歩けばいいのか分からないんです。それに、誰かがハイドロポンを見守っていなければなりませんから。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#2
+> Yes, I've stayed. I'd love to see the vaunted halls and, ah, bathe in the light of brilliant minds, but when I think about the journey my roots lock up. I feel, ah, unready. Someone must watch over the cradle, besides.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残りました。名高い広間を見て、その、すぐれた頭脳の光を浴びてみたい気持ちはあります。でも、旅のことを考えると、根がすくんでしまうんです。その、まだ心の準備ができていない。それに、誰かがゆりかごを見守っていなければなりませんから。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#3
+> Yes, I've decided to stay. It's not that, ah, it's not that I wouldn't enjoy sharing knowledge with the mayor of our new home. But the thought of leaving the cradle after decades of watching it... I couldn't.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残ることにしたんです。その、新しい住まいの村長と知恵を分かち合うのが嫌だというわけではないんです。でも、何十年も見守ってきたゆりかごを離れると思うと……できませんでした。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#4
+> Yes, I've stayed. As fascinated as I would be to examine the statuary and bas-reliefs, my favorite mode of, ah, interaction with history is through the written word. Someone must watch over the cradle, besides.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残りました。彫像や浮き彫りを調べるのも、きっと夢中になれるでしょう。でも、私がいちばん好きな、その、歴史との付き合い方は、書かれた言葉を通してなんです。それに、誰かがゆりかごを見守っていなければなりませんから。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#5
+> Yes, I've decided to stay. The Tomb sounds, ah, cozy, but I cannot fathom making such a macabre place my home. Someone must look over the cradle, besides.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残ることにしたんです。墓所は、その、居心地がよさそうではありますが、あんな不気味な場所を住まいにするなんて、私には考えられません。それに、誰かがゆりかごを見守っていなければなりませんから。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#6
+> Yes, I've stayed. If I am entirely honest, the idea of a life on the road sounds, ah... unpleasant. To me, personally. I have grown accustomed to a life of collection, curation, and study that I don't care to abandon for adventure. Someone must stay to watch over the cradle, besides.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残りました。正直に言うと、旅暮らしというのは、その……気が進まないんです。あくまで私にとっては、ですが。集めて、整理して、調べる暮らしにすっかり慣れてしまって、冒険のためにそれを捨てる気にはなれません。それに、誰かが残ってゆりかごを見守っていなければなりませんから。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#7
+> Yes, I've decided to stay. I don't disbelieve that the Yd Freehold is as safe as you say, but the fears instilled in me when I first learned to read as a fresh sprout haunt me even now. Perhaps in time I will visit, but in the meantime I can look after the cradle, as someone ought to do.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残ることにしたんです。イド・フリーホールドがあなたの言うとおり安全だというのを、疑っているわけではありません。でも、芽を出したばかりのころ、字を覚えたときに植えつけられた恐怖が、今でも離れないんです。いつか訪ねるかもしれませんが、それまでは、誰かがすべきように、私がゆりかごを見守ります。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#8
+> Yes, I've decided to stay. The flower fields sound beautiful, and no doubt there is much to learn from the hindren. But the thought of leaving the cradle after decades of watching it... I couldn't.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残ることにしたんです。花畑は美しいでしょうし、ヒンドレンから学ぶことも多いはずです。でも、何十年も見守ってきたゆりかごを離れると思うと……できませんでした。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#9
+> Yes, I, ah, I remain.
+>
+> I badly wish to taste of Chavvah's secrets, but the wonder I feel for such an entity is eclipsed only by the terror of such an experience. I cling to an excuse that the hydropon must be watched and wait. Perhaps someday I will shed that excuse's film and step free.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、私は、その、残っています。
+
+チャヴァの秘密を味わってみたくてたまらないんです。でも、あれほどの存在への驚きよりも、そんな体験をすることへの恐ろしさのほうが勝ってしまう。ハイドロポンを見守って待たなければ、という言い訳にしがみついているんです。いつか、その言い訳の膜を脱ぎ捨てて、自由に踏み出せるかもしれません。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 | text#10
+> Yes, I've decided to stay. I'm sure =village.name= is a good home for my kin, but I have no particular loathing for =village.profane= and even less reverence for =village.sacred=. Someone must look over the cradle, besides.
+>
+> The hydropon is even less a village now, but you're welcome to rest here whenever you like.
+ええ、残ることにしたんです。=village.name=はきっと仲間たちのいい住まいになるでしょう。でも、私は=village.profane=をとりたてて嫌ってもいないし、=village.sacred=を崇める気持ちはもっとないんです。それに、誰かがゆりかごを見守っていなければなりませんから。
+
+ハイドロポンは前よりもっと村らしくなくなりましたが、いつでも休みに来てくださいね。
+
+### Thah | node:SlynthLeave#0 / choice:>End#0 | direct
+> Moon and Sun, Thah.
+月と太陽を、タハ。
+

@@ -1,0 +1,283 @@
+### Lulihart | node:Start#0 | text#0
+> Be careful in the flower fields.
+>
+> Even with Bey Lah marked on your map, it's easy to get lost. Lost travelers feed the lah.
+花畑では気をつけて。
+
+地図にベイ・ラーの印があっても、迷うのはあっという間だよ。迷った旅人は、ラーの餌になる。
+
+### Lulihart | node:Start#0 / choice:>End#0 | direct
+> I will be careful, thank you.
+気をつけるよ、ありがとう。
+
+### Lulihart | node:Start#1 | text#0
+> Hold a moment, =player.formalAddressTerm=. Are you looking for work?
+ちょっと待って、そこの人。仕事を探していないかい？
+
+### Lulihart | node:Start#1 / choice:>Job seeker#0 | direct
+> I am.
+探している。
+
+### Lulihart | node:Start#1 / choice:>Refuse#0 | direct
+> I am not.
+いや、探していない。
+
+### Lulihart | node:SlynthRequestAccept#0 | text#0
+> What a strange fate, to pass from new sentience to outcast with no steps in between. Regardless, if it is their will and you vouch for them, that is enough for me. Tell the slynth that should they choose to wander, the wind will blow at their backs.
+心を得たばかりで、いきなり居場所のない身になるなんて、妙な巡り合わせだね。でも、それが彼らの望みで、君が請け合うなら、私はそれで十分。スリンスに伝えて。さすらいの道を選ぶなら、風はいつも背中から吹いてくれる、って。
+
+### Lulihart | node:SlynthRequestAccept#0 / choice:@End#0 | text#0
+> You have my thanks, Lulihart.
+恩に着るよ、ルリハート。
+
+### Lulihart | node:SlynthAbout#0 | text#0
+> Still gathering landing pads for your drifting vessels, then, =name=?
+あの漂う子たちの降り立つ場所を、まだ探して回っているのかい、=name=？
+
+### Lulihart | node:SlynthAbout#0 / choice:@Start#0 | direct
+> Yes, I am.
+ああ、そうだ。
+
+### Lulihart | node:SlynthArrived#0 | text#0
+> New voices, strange and beautiful, carry on the salt breeze.
+>
+> Some will no doubt be silenced by sun, blade, thirst, bullet, or glow, but they will not fall still alone.
+奇妙で美しい、新しい声が、塩の風に乗って届いてくるよ。
+
+日差しに、刃に、渇きに、銃弾に、光に、黙らされる者もきっといる。でも、ひとりきりで息絶えることはもうない。
+
+### Lulihart | node:SlynthArrived#0 / choice:>Start#0 | direct
+> My thanks, Lulihart.
+ありがとう、ルリハート。
+
+### Lulihart | node:SlynthSettled#0 | text#0
+> Live and drink, =name=.
+>
+> Have you seen your slynth out there? My sources tell me that they are, for the most part, traveling well enough with others. They stop by my tent from time to time to visit and smoke with me, as you do.
+>
+> One might assume they were born for this kind of life.
+生きて飲め、=name=。
+
+君のスリンスたちを見かけたかい？ 聞いた話じゃ、たいていは他の旅人たちとうまくやっているそうだよ。ときどき私のテントに寄って、君みたいに一服していくんだ。
+
+まるで、こういう暮らしのために生まれてきたみたいにね。
+
+### Lulihart | node:SlynthSettled#0 / choice:>Start#0 | direct
+> My thanks again, Lulihart.
+重ねてありがとう、ルリハート。
+
+### Lulihart | start:Refuse#0 | text#0
+> I see. In that case, rest and speak a bit with me, won't you? My worries can wait another day.
+>
+> That said, if you change your mind, you'll come find me, won't you?
+そうか。なら、少し休んで話し相手になっておくれよ。心配事は明日に回せばいい。
+
+それでも、気が変わったら声をかけてくれるよね？
+
+### Lulihart | start:Refuse#0 / choice:>End#0 | direct
+> Perhaps. Live and drink.
+考えておく。生きて飲め。
+
+### Lulihart | node:Job seeker#0 | text#0
+> Lovely. Take a seat. Chew the bark with me, and I will tell you what I know.
+>
+> I've heard tell that my ancestral hometown, Bey Lah, is in some kind of trouble. They've opened their borders for the first time I know of and are specifically seeking to hire kendren -- that's their word for outsiders like you. Would you be willing to go see what they need?
+いいね。まあ座って。一緒に樹皮でもかじりながら、知っていることを話そう。
+
+私のご先祖の故郷、ベイ・ラーが、何か困ったことになっているらしい。私の知るかぎり初めて境を開いて、わざわざケンドレンを雇おうとしているんだ。ケンドレンってのは、君みたいなよそ者のことを、あの人たちがそう呼ぶのさ。何が必要なのか、見に行ってくれないかい？
+
+### Lulihart | node:Job seeker#0 / choice:>Who#0 | direct
+> Who are you?
+あなたは？
+
+### Lulihart | node:Job seeker#0 / choice:>How#0 | direct
+> How do you know this?
+どうしてそれを知っている？
+
+### Lulihart | node:Job seeker#0 / choice:>Why#0 | direct
+> Why do you care?
+なぜ気にかける？
+
+### Lulihart | node:Job seeker#0 / choice:>Why Not#0 | direct
+> Why don't you go there yourself?
+自分で行けばいいのでは？
+
+### Lulihart | node:Job seeker#0 / choice:>Very Well#0 | direct
+> Very well, I will go to Bey Lah as you ask.
+分かった。頼まれたとおり、ベイ・ラーへ行こう。
+
+### Lulihart | node:Job seeker#0 / choice:>Refuse#0 | direct
+> Pass. This task is not to my liking.
+やめておく。気が進まない。
+
+### Lulihart | node:Who#0 | text#0
+> My name is Lulihart. The blood of the hindren runs through my veins, but two of my three parents were kendren, so that blood is... dilute, and salt-brined from being born out here.
+>
+> Dilute, salty blood. Heh.
+私はルリハート。ヒンドレンの血は流れているけど、三人いる親のうち二人がケンドレンでね。だから血は……薄いし、こんな外の土地で生まれたせいで塩漬けさ。
+
+薄くて、しょっぱい血。ふふ。
+
+### Lulihart | node:Who#0 / choice:>Very Well#0 | direct
+> Very well, I will go to Bey Lah as you ask.
+分かった。頼まれたとおり、ベイ・ラーへ行こう。
+
+### Lulihart | node:Who#0 / choice:>How#0 | direct
+> How do you know about Bey Lah's trouble?
+ベイ・ラーが困っていると、どうして分かる？
+
+### Lulihart | node:Who#0 / choice:>Why#0 | direct
+> Why do you care about Bey Lah?
+なぜベイ・ラーを気にかける？
+
+### Lulihart | node:Who#0 / choice:>Why Not#0 | direct
+> Why don't you go there yourself?
+自分で行けばいいのでは？
+
+### Lulihart | node:Who#0 / choice:>Refuse#0 | direct
+> Pass. This task is not to my liking.
+やめておく。気が進まない。
+
+### Lulihart | node:How#0 | text#0
+> My water goes to scouts to keep a distant eye on Bey Lah. To make sure that it is still there, still safe.
+>
+> I have never been within a parasang of my people's land, but I know exactly where the once-hidden village stands. I will share this knowledge with you if you agree to consider whatever their request may be.
+水を払って、斥候に遠くからベイ・ラーを見張ってもらっているのさ。村がまだそこにあって、無事でいるかを確かめるためにね。
+
+同胞の土地には一里のうちにも近づいたことがない。でも、かつて隠されていたあの村の場所は、はっきり知っている。向こうの頼みがどんなものでも、聞くだけ聞いてみると約束してくれるなら、教えてあげるよ。
+
+### Lulihart | node:How#0 / choice:>Very Well#0 | direct
+> Very well, I will go to Bey Lah as you ask.
+分かった。頼まれたとおり、ベイ・ラーへ行こう。
+
+### Lulihart | node:How#0 / choice:>Who#0 | direct
+> Wait, who are you?
+待ってくれ、あなたは何者なんだ？
+
+### Lulihart | node:How#0 / choice:>Why#0 | direct
+> Why do you care?
+なぜ気にかける？
+
+### Lulihart | node:How#0 / choice:>Why Not#0 | direct
+> Why don't you go there yourself?
+自分で行けばいいのでは？
+
+### Lulihart | node:How#0 / choice:>Refuse#0 | direct
+> Pass. This task is not to my liking.
+やめておく。気が進まない。
+
+### Lulihart | node:Why#0 | text#0
+> Even blood as thin as mine ties me to the cervidian meadow. The hindren may not say so, but they are my family.
+私みたいに薄い血でも、鹿たちの草原とはつながっているんだ。ヒンドレンは口にしないだろうけど、あの人たちは私の家族だよ。
+
+### Lulihart | node:Why#0 / choice:>Very Well#0 | direct
+> Very well, I will go to Bey Lah as you ask.
+分かった。頼まれたとおり、ベイ・ラーへ行こう。
+
+### Lulihart | node:Why#0 / choice:>Who#0 | direct
+> And who are you?
+それで、あなたは何者なんだ？
+
+### Lulihart | node:Why#0 / choice:>How#0 | direct
+> How do you know Bey Lah's trouble?
+ベイ・ラーが困っていると、どうして分かる？
+
+### Lulihart | node:Why#0 / choice:>Why Not#0 | direct
+> Why don't you go there yourself?
+自分で行けばいいのでは？
+
+### Lulihart | node:Why#0 / choice:>Refuse#0 | direct
+> Pass. This task is not to my liking.
+やめておく。気が進まない。
+
+### Lulihart | node:Why Not#0 | text#0
+> I am not welcome in Bey Lah.
+>
+> My blood is not pure, and I was not born in the meadow. These things make my name as salt in the mouths of true hindren.
+>
+> They are misguided, but they are my misguided family. They stagnate as Qud changes around them. I worry.
+私はベイ・ラーでは歓迎されないんだ。
+
+血は混じっているし、草原で生まれたわけでもない。だから生粋のヒンドレンにとって、私の名前は口にするのも苦い塩みたいなものさ。
+
+あの人たちは間違っている。でも、間違っていても私の家族なんだ。クッドがまわりでどんどん変わっていくのに、あの人たちは立ち止まったまま。それが心配でね。
+
+### Lulihart | node:Why Not#0 / choice:>Very Well#0 | direct
+> Very well, I will go to Bey Lah as you ask.
+分かった。頼まれたとおり、ベイ・ラーへ行こう。
+
+### Lulihart | node:Why Not#0 / choice:>Who#0 | direct
+> Who are you?
+あなたは？
+
+### Lulihart | node:Why Not#0 / choice:>How#0 | direct
+> How do you know this?
+どうしてそれを知っている？
+
+### Lulihart | node:Why Not#0 / choice:>Why#0 | direct
+> Why do you care?
+なぜ気にかける？
+
+### Lulihart | node:Why Not#0 / choice:>Refuse#0 | direct
+> Pass. This task is not to my liking.
+やめておく。気が進まない。
+
+### Lulihart | node:Very Well#0 | text#0
+> Bless you, =player.formalAddressTerm=. I feel better knowing that at least one kendren will reach back to aid my kin. They are on the cusp of a new fate, and I wish to see it while I yet live.
+>
+> Let me advise you of Bey Lah's location, and here is a little chew-boon for your trouble.
+ありがたい。ひとりでもケンドレンが同胞に手を差し伸べてくれると思うと、気が楽になるよ。あの人たちは新しい運命の入口に立っている。私が生きているうちに、それを見届けたいんだ。
+
+ベイ・ラーの場所を教えるよ。それと、手間賃がわりに、かじる物を少し持っていって。
+
+### Lulihart | node:Very Well#0 / choice:>End#0 | direct
+> Thank you, Lulihart. Live and drink.
+ありがとう、ルリハート。生きて飲め。
+
+### Lulihart | node:Start#2 | text#0
+> I hear that Bey Lah's status is once again quo. I hoped for a measure more of change, but thousands of years of tradition do not give so easily.
+>
+> Thank you for helping my foolish people.
+ベイ・ラーは結局、元どおりに落ち着いたそうだね。もう少し変わってくれたらと思っていたけど、何千年ものしきたりは、そう簡単には揺るがないか。
+
+あの愚かな同胞を助けてくれて、ありがとう。
+
+### Lulihart | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Lulihart | node:Start#3 | text#0
+> I've heard that the youngest Hindriarch in history now leads Bey Lah, and their warden aims to join the Quetzal Caucus. You've worked wonders, kendren.
+>
+> I can't wait to see what happens next.
+聞いたよ。史上いちばん若いヒンドリアークがベイ・ラーを率いて、監視官はケツァール会議に加わるつもりなんだって？ 大したことをやってのけたね、ケンドレン。
+
+この先どうなるのか、楽しみでしかたないよ。
+
+### Lulihart | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Lulihart | node:Start#4 | text#0
+> Every flame burns low one day, but the warmth of my people's story still carries me forward.
+>
+> Bey Lah has not survived joining Qud, but the hindren live on, and our legacy will never be wholly lost.
+>
+> I wonder what became of Kindrish.
+どんな炎も、いつかは小さくなる。それでも、同胞の物語のぬくもりが、今も私を前へ進ませてくれるんだ。
+
+ベイ・ラーはクッドの一部になって、生き延びられなかった。でもヒンドレンは生きている。私たちが受け継いできたものが、すっかり消えてしまうことはないよ。
+
+キンドリッシュは、どうなったんだろうね。
+
+### Lulihart | node:Start#4 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Lulihart | node:Start#5 | text#0
+> Come smoke with me, friend. Set a spell.
+一服していきなよ、友よ。ゆっくりしておいき。
+
+### Lulihart | node:Start#5 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。

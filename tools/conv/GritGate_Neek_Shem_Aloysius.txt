@@ -1,0 +1,481 @@
+### Neek | node:Start#0 | text#0
+> {{emote|*Neek stares at you awkwardly.*}}
+{{emote|*ニークは気まずそうにあなたを見つめている。*}}
+
+### Neek | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neek | node:Start#1 | text#0
+> Aaahhhhhhhhh!
+ああああああああああ！
+
+### Neek | node:Start#1 / choice:>End#0 | direct
+> I'll protect you, Neek.
+私が守るよ、ニーク。
+
+### Neek | node:Start#2 / choice:>Joke#0 | direct
+> ...Greetings?
+……やあ？
+
+### Neek | node:Start#2 / choice:>Bethesda#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Neek | node:Start#2 / choice:>Omonporch#0 | direct
+> What do you know about the Earl of Omonporch?
+オモンポーチ伯について何か知っているか？
+
+### Neek | node:Start#2 / choice:>Rumbling#0 | direct
+> What was that rumbling?
+今の地響きは何だったんだ？
+
+### Neek | node:Start#2 / choice:>Klanq#0 | direct
+> What do you know about Pax Klanq?
+パクス・クランクについて何か知っているか？
+
+### Neek | node:Start#2 / choice:>GoingOn#0 | direct
+> What do you think about everything going on?
+今起きていること、どう思う？
+
+### Neek | node:Start#2 / choice:>Do#0 | direct
+> What do you do around here, Neek?
+ここで何をしているんだ、ニーク？
+
+### Neek | node:Start#2 / choice:>Hair#0 | direct
+> Your hair is so... rectangular.
+君の髪、ずいぶん……四角いな。
+
+### Neek | node:Start#2 / choice:>GritGate#0 | direct
+> What can you tell me about Grit Gate?
+グリット・ゲートについて教えてくれないか？
+
+### Neek | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neek | node:Joke#0 | text#0
+> It's sort of like "Neek stares at you awkwardly" no but I'm just kidding, heh. I'm just 'jidding'.
+なんていうか、「ニークは気まずそうにあなたを見つめている」……なーんて、冗談だよ、へへ。ただの「ぎょうだん」。
+
+### Neek | node:Joke#0 / choice:>Jidding#0 | direct
+> What?
+え？
+
+### Neek | node:Joke#0 / choice:>End#0 | direct
+> Live and drink, friend.
+生きて飲め、友よ。
+
+### Neek | node:Bethesda#0 | text#0
+> It's sort of like this. You go to the baetyl. You talk to it and you say, "Look, where is every beaded bracelet in the jungle? Where is every beaded bracelet in the watervine marsh? Where is every beaded bracelet in the River Svy?"
+>
+> Then it tells you and you go get the bracelets.
+なんていうか、こんな感じ。ベテルのところへ行くでしょ。で、話しかけてこう言うの。「ねえ、密林にあるビーズの腕輪は全部どこ？ ウォーターヴァインの沼にあるビーズの腕輪は全部どこ？ スヴィ川にあるビーズの腕輪は全部どこ？」
+
+そしたら教えてくれるから、腕輪を取りに行くの。
+
+### Neek | node:Bethesda#0 / choice:>End#0 | direct
+> Live and drink, friend.
+生きて飲め、友よ。
+
+### Neek | node:Omonporch#0 | text#0
+> Asphodel!! I like xem. I get it. It's sort of like you don't want to be here, you don't want to there, you want to be somewhere else. Your own earldom, maybe.
+アスフォデル！！ あの人、好き。分かるよ。なんていうか、ここにもいたくないし、あそこにもいたくない、どこか別の場所にいたいって感じ。自分だけの伯爵領とかね。
+
+### Neek | node:Omonporch#0 / choice:>Start#0 | direct
+> I see, Neek.
+なるほど、ニーク。
+
+### Neek | node:Omonporch#0 / choice:>End#0 | direct
+> Live and drink, friend.
+生きて飲め、友よ。
+
+### Neek | node:Rumbling#0 | text#0
+> You felt it too! Every. rock. moved. Wooooooow! It's sort of like a community dance we all performed together. Mafeo. Sparafucile. The chromelings. The rocks. Everyone else.
+あなたも感じたんだ！ 岩が。全部。動いた。わあああああ！ なんていうか、みんなで一緒に踊った村の踊りみたいだった。マフェオも。スパラフチーレも。クロームリングたちも。岩も。ほかのみんなも。
+
+### Neek | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink, friend.
+生きて飲め、友よ。
+
+### Neek | node:Klanq#0 | text#0
+> What's Pax Klanq?
+パクス・クランクって、なあに？
+
+### Neek | node:Klanq#0 / choice:>Start#0 | direct
+> Oh.
+そうか。
+
+### Neek | node:Klanq#0 / choice:>End#0 | direct
+> Live and drink, friend.
+生きて飲め、友よ。
+
+### Neek | node:GoingOn#0 | text#0
+> Klanq. Klanq. Klanq. Klanq. Pax Klanq.
+>
+> I would ask to go downstairs but there is not mush room there. Or there is but that's why there's not. It's like,  “Neek doesn't need to hear about it.”
+クランク。クランク。クランク。クランク。パクス・クランク。
+
+下に行かせてって頼みたいけど、あそこにはもう「キノコ」る場所がないんだって。ううん、キノコがいるからこそ、残る場所がないっていうか。なんていうか、「ニークは知らなくていいの」って感じ。
+
+### Neek | node:GoingOn#0 / choice:>Start#0 | direct
+> Oh.
+そうか。
+
+### Neek | node:GoingOn#0 / choice:>End#0 | direct
+> Live and drink, friend.
+生きて飲め、友よ。
+
+### Neek | node:Jidding#0 | text#0
+> {{emote|*Neek stares at you awkwardly.*}}
+{{emote|*ニークは気まずそうにあなたを見つめている。*}}
+
+### Neek | node:Jidding#0 / choice:>End#0 | direct
+> Live and drink, Neek.
+生きて飲め、ニーク。
+
+### Neek | node:Do#0 | text#0
+> It's like what I *don't* do is drink Hortensa's sludge soup samples. I drank them once and she saw me and just sort of smiled tactfully but I could tell on the inside she was like "WOOOOOOOOW" so I don't do it.
+>
+> Neek winks at you! Ha ha ha. She knows I still do it.
+なんていうか、私が*しない*ことは、ホルテンザのどろどろスープの試作を飲むこと。一回飲んだら見つかっちゃって、ホルテンザは気をつかってにっこりしただけだったけど、心の中では「うわあああああ」って思ってるのが分かったの。だから、もうしないの。
+
+ニークはあなたにウインクする！ あはは。ホルテンザも、私がまだやってるの知ってるんだ。
+
+### Neek | node:Do#0 / choice:>End#0 | direct
+> Live and drink, Neek.
+生きて飲め、ニーク。
+
+### Neek | node:Hair#0 | text#0
+> Neek, chanting: "RECTANGLE HAIR! RECTANGLE HAIR! RECTANGLE HAIR!"
+>
+> It's sort of like when prehistoric lizards would grow big sails to regulate their body temperatures and you'd say, "I like it, but it looks so organically generated. What if you filed it into a sharp rectangle?"
+ニーク、唱える。「しかくい髪！ しかくい髪！ しかくい髪！」
+
+なんていうか、大昔のトカゲが体温を調節するために背中に大きな帆を生やしてたときに、こう言うみたいな感じ。「いいね、でもすっごく自然に生えたって感じ。きっちり四角に削ってみたら？」
+
+### Neek | node:Hair#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Neek | node:GritGate#0 | text#0
+> It's a big bear city with a lot of books and scratched brass and strange noises. But if you start chanting in sync with the noises Otho will hush you. It's sort of like this, let me explain.
+>
+> Iseppa is napping so you peek into her room and rearrange her papers. Then you walk down the hall and say "ding ding" so Mafeo shakes his head and dings back. Then you foaminate by Hortensa. You foaminate right on by. You hug her too. Then you scoot over and hug Spara. Then you scoot over to Jacobo and look over his shoulder and nod like this.
+>
+> {{emote|*Neek nods thoughtfully.*}}
+本と、傷だらけの真ちゅうと、へんな音がいっぱいの、大きな熊の街だよ。でも、その音に合わせて歌い出すと、オソに「しーっ」て言われちゃう。こんな感じ。説明するね。
+
+イセッパがお昼寝してるから、部屋をのぞいて書類を並べかえるでしょ。それから廊下を歩いて「りんりん」って言うと、マフェオが首を振って「りんりん」って返してくれる。それから、ホルテンザのそばをぶくぶく通る。ぶくぶく、すーっと通りすぎる。ホルテンザにもぎゅってする。それから、すすっと寄ってスパラにぎゅってする。それから、すすっとハコボのところへ行って、肩ごしにのぞいて、こんなふうにうなずくの。
+
+{{emote|*ニークは考え深げにうなずく。*}}
+
+### Neek | node:GritGate2#0 | text#0
+> You go and run at Q Girl and tap all the gadgets and tap her on the head. Then you sneak by Otho's office. Then you hug Shem -1 and you drag them to the library and read to them. Sometimes Barathrum and Hortensa are in there, and they smile at you. Then you get hungry and you roll toward the kitchen. You slurp honey from the vase and Dardi glares at you. You say, "I'm just 'jidding'." Then you climb the pipes and whisper to Aloysius, "Live and drink, live and drink, live and drink." Then you pat the chromelings on their heads. You say to Ereshkigal, "boom boom boom boom boom I love you." Then you sneak into storage and pat all the chromelings on their heads. You take a nap in the peptic chair. Then you get a bright idea and go back to your room to write it in your notebook.
+Qガールのところへ走っていって、道具を全部つんつんして、Qガールの頭もつんつんする。それから、オソの部屋の前をそーっと通る。それから、シェム -1をぎゅってして、図書室へ引っぱっていって本を読んであげる。ときどきバラサラムとホルテンザもいて、にっこりしてくれる。それからおなかがすいて、台所のほうへころころ転がっていく。つぼからはちみつをすすったら、ダルディににらまれる。で、「ただの『ぎょうだん』だよ」って言う。それからパイプをよじのぼって、アロイシウスに「生きて飲め、生きて飲め、生きて飲め」ってささやく。それからクロームリングたちの頭をなでなでする。エレシュキガルには「どーんどーんどーんどーんどーん、だいすき」って言う。それから倉庫にこっそり入って、クロームリングたちの頭をみんななでなでする。消化椅子でお昼寝する。それから、いいことを思いついて、部屋に戻ってノートに書くの。
+
+### Neek | node:GritGate2#0 / choice:>End#0 | direct
+> Live and drink, Neek.
+生きて飲め、ニーク。
+
+### Shem | node:Start#0 | text#0
+> {{emote|*Shem whispers*}}
+>
+> You're not supposed to be here. But I won't tell.
+{{emote|*シェムがささやく*}}
+
+ここにいちゃいけないんだよ。でも、誰にも言わないね。
+
+### Shem | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Shem | node:Start#1 | text#0
+> Should I hide in the library? I believe it's the clever thing to do.
+図書室に隠れたほうがいいかな？ それが賢いやり方だと思うんだ。
+
+### Shem | node:Start#1 / choice:>End#0 | direct
+> Stay safe, Shem.
+気をつけるんだぞ、シェム。
+
+### Shem | node:Start#2 | text#0
+> Approach. Be easy. You are my herefriend, my nowfriend.~
+> Would you like to read me a story?~
+> I know of so many other ways to be.~
+> Where does it end?~
+> I live, but do I drink?~
+> Would you like to eat vapor?~
+> Quetzal, I say.~
+> {{emote|*Shem nods.*}}~
+> The gaseous butterfly flits out of the dense worm.~
+> I am sharp. I am handy.~
+> {{emote|*Shem yawns.*}} I am yawning.~
+> 'Immaculate Chrome' is my favorite.
+こっちへおいで。楽にしてね。あなたは、ここの友だち、今の友だち。~
+お話を読んでくれる？~
+ほかのあり方を、ぼくはたくさん知ってるよ。~
+どこで終わるの？~
+ぼくは生きてる。でも、飲んでるのかな？~
+湯気を食べてみる？~
+ケツァール、って言ってみる。~
+{{emote|*シェムがうなずく。*}}~
+ふわふわの蝶が、ずっしりした芋虫から飛び出す。~
+ぼくは鋭い。ぼくは器用。~
+{{emote|*シェムがあくびをする。*}} あくびしてるよ。~
+『けがれなきクローム』がいちばん好き。
+
+### Shem | node:Start#2 / choice:ShemSafe#0 | direct
+> I'm glad you are safe, Shem.
+無事でよかった、シェム。
+
+### Shem | node:Start#2 / choice:ShemPax#0 | direct
+> What do you think of Klanq's visit?
+クランクが来たことを、どう思う？
+
+### Shem | node:Start#2 / choice:ShemSpeak#0 | direct
+> You're a chromeling... that speaks? Can you understand me?
+君は……しゃべるクロームリングなのか？ 私の言うことが分かるのか？
+
+### Shem | node:Start#2 / choice:Shem-1#0 | direct
+> Why are you called Shem -1?
+どうして「シェム -1」と呼ばれているんだ？
+
+### Shem | node:Start#2 / choice:ShemFriend#0 | direct
+> I am your friend, Shem.
+私は君の友だちだよ、シェム。
+
+### Shem | node:Start#2 / choice:ShemEnd#0 | direct
+> Live and... remain ever rustless.
+生きて……いつまでも錆びずにいろよ。
+
+### Shem | node:YouAreSafe#0 | text#0
+> I am glad you are safe, =name=.
+あなたも無事でよかった、=name=。
+
+### Shem | node:Klanq#0 | text#0
+> I wonder if the distributed consciousness of a fungal entity is similar to that of a distributed machine mind. I shall ask Father when he is not so busy.
+キノコの、ばらばらに散らばった意識って、機械の散らばった心と似てるのかな。父さんが忙しくないときに聞いてみよう。
+
+### Shem | node:Speak#0 | text#0
+> Is... is this a question trick? I suppose I cannot know what you intend. Can I understand you?
+それって……ひっかけ問題？ あなたが何を言いたいのか、ぼくには分からないかもしれない。ぼくに、あなたが分かるのかな？
+
+### Shem | node:Speak#0 / choice:>Understand#0 | direct
+> I just meant to ask if you're able to communicate. It seems so.
+話が通じるのか聞きたかっただけだ。通じているみたいだな。
+
+### Shem | node:Understand#0 | text#0
+> What kind words. It seems so with you, too.
+やさしい言葉だね。あなたとも、通じてるみたい。
+
+### Shem | node:-1#0 | text#0
+> Would you like to hear? When I was first put together by Father and friends, I was Shem 2, the second iteration of the make-me project.
+>
+> As I came along, scampered through the halls, listened to the stories Neek read me, climbed onto Sparafucile's workbench to have my screws replaced, I realized I was not what I could be. And so I downgraded myself to Shem 1.
+>
+> That has happened three times.
+聞きたい？ 父さんと仲間たちに初めて組み立ててもらったとき、ぼくは「シェム2」だったんだ。「ぼくを作ろう」計画の、二番目の版。
+
+大きくなって、廊下をちょこちょこ走り回って、ニークが読んでくれるお話を聞いて、スパラフチーレの作業台によじのぼってねじを取りかえてもらううちに、ぼくは、ぼくがなれるはずのぼくじゃないって気づいた。だから、自分を「シェム1」に格下げしたの。
+
+それが、三回あったんだ。
+
+### Shem | node:-1#0 / choice:>Worried#0 | direct
+> Are you worried that you're getting further away from your ideal self?
+なりたい自分から遠ざかっていくのが、心配じゃないか？
+
+### Shem | node:Worried#0 | text#0
+> It's unclear to me that I should be.
+心配するべきなのか、ぼくにはよく分からない。
+
+### Shem | node:Friend#0 | text#0
+> I am your friend, =name=.
+ぼくも、あなたの友だちだよ、=name=。
+
+### Aloysius | node:Start#0 | text#0
+> I propose an accord, =factionaddress:Barathrumites=: You remove =player.reflexive= from my sight immediately, and I will refrain from asking that Ereshkigal reduce you to your component atoms.
+取り決めをしようではないか。君がただちに私の視界から消える。そうすれば私は、君を原子にまで分解してくれとエレシュキガルに頼むのを控えてやろう。
+
+### Aloysius | node:Start#0 / choice:>End#0 | direct
+> I'm going, I'm going.
+分かった、分かった、行くよ。
+
+### Aloysius | node:Start#1 | text#0
+> Not like this. After all we've accomplished...
+こんな終わり方があるか。我々が成し遂げてきたすべてのあとで……。
+
+### Aloysius | node:Start#1 / choice:>End#0 | direct
+> Don't lose hope.
+望みを捨てるな。
+
+### Aloysius | start:Recame#0 | text#0
+> Ah. It's you again, returning from ever more unreturnable locales. Alive and come to bother the disagreeable urshiib.
+ああ。また君か。ますます帰ってこられそうにない場所から、また帰ってきたわけだ。生きたまま、無愛想なウルシーブの邪魔をしにな。
+
+### Aloysius | start:Recame#0 / choice:>GuestKlanq#0 | direct
+> What do you think of Klanq's visit?
+クランクが来たことを、どう思う？
+
+### Aloysius | start:Recame#0 / choice:>Greetings#0 | direct
+> Can we talk, Aloysius?
+少し話せないか、アロイシウス？
+
+### Aloysius | start:Recame#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Aloysius | node:GuestKlanq#0 | text#0
+> I did not consider that my life could be further upturned. Truly, I have learned much and I hate it all.
+>
+> Once you lot reach the spindle's apex, perhaps you could be convinced to stay there? Or perhaps I could go in your stead.
+私の暮らしがこれ以上ひっくり返るとは、思いもしなかったよ。まったく、多くを学んだ。そして、そのすべてが嫌いだ。
+
+君たちがスピンドルのてっぺんに着いたら、そのままそこに住んでくれと説得できないものかね？ あるいは、君の代わりに私が行ってもいい。
+
+### Aloysius | node:GuestKlanq#0 / choice:>End#0 | direct
+> We will miss you too, Aloysius. Live and drink.
+私たちも寂しくなるよ、アロイシウス。生きて飲め。
+
+### Aloysius | start:Post Arms#0 | text#0
+> I spent so long preparing for the eventuality that my home might be breached.
+>
+> I was not ready. This sense of violation burns like electrocautery.
+住まいが破られる日に備えて、ずいぶん長いこと準備してきた。
+
+それでも、心の準備はできていなかった。踏みにじられたこの感覚は、電気メスで焼かれたように痛む。
+
+### Aloysius | start:Post Arms#0 / choice:>TombQuest#0 | direct
+> I must enter Brightsheol through the Tomb of the Eaters.
+喰らう者の墓所を通って、ブライトシェオルへ入らなければならない。
+
+### Aloysius | start:Post Arms#0 / choice:>Greetings#0 | direct
+> Can we talk, Aloysius?
+少し話せないか、アロイシウス？
+
+### Aloysius | start:Post Arms#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Aloysius | node:TombQuest#0 | text#0
+> Good. Shut the sarcophagus door behind you.
+結構。入ったら、石棺のふたは閉めていってくれ。
+
+### Aloysius | node:TombQuest#0 / choice:>End#0 | direct
+> Perhaps I will.
+そうするかもな。
+
+### Aloysius | start:Greetings#0 | text#0
+> Of course it was only a matter of time before you came to speak to me.
+>
+> I don't suppose I can convince you to let me tend to my duties in peace? I know nothing of interest to a wayfarer. Each of my days is like the others; I maintain and protect my children, and this is enough. If I desire conversation, there is Ereshkigal.
+まあ、君が私に話しかけてくるのも時間の問題だとは思っていたよ。
+
+静かに仕事をさせてくれと頼んでも、聞いてはくれんのだろうな？ 旅の者が面白がるようなことは何も知らんぞ。私の毎日はどれも同じだ。子どもたちの手入れをして、守る。それで十分なのだ。話し相手が欲しければ、エレシュキガルがいる。
+
+### Aloysius | start:Greetings#0 / choice:Aloysusa#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Aloysius | start:Greetings#0 / choice:Aloyporch#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Aloysius | start:Greetings#0 / choice:Aloyrumbling#0 | direct
+> Did you feel that rumbling, Aloysius?
+今の地響きを感じたか、アロイシウス？
+
+### Aloysius | start:Greetings#0 / choice:Aloyklanq#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Aloysius | start:Greetings#0 / choice:Kids#0 | direct
+> You have children?
+子どもがいるのか？
+
+### Aloysius | start:Greetings#0 / choice:Introvert#0 | direct
+> You don't care for conversation?
+話すのは好きじゃないのか？
+
+### Aloysius | start:Greetings#0 / choice:Eresius#0 | direct
+> Who is Ereshkigal?
+エレシュキガルとは誰だ？
+
+### Aloysius | start:Greetings#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。
+
+### Aloysius | node:Bethesda#0 | text#0
+> Bethesda Susa is a vibrant and thriving ecosystem in which we have no place. That said, I certainly would not complain if someone were to clear out its Mechanimist infestation.
+>
+> Should you travel there, watch your step. The fronds of a lurking beth can rapidly exsanguinate fleshy creatures such as we.
+ベテスダ・スーサは、生き物があふれる豊かな生態系だ。我々の居場所はないがね。とはいえ、誰かがあそこにはびこるメカニマス教団を一掃してくれるなら、文句を言うつもりはない。
+
+行くなら足元に気をつけたまえ。ひそんでいるベスの葉は、我々のような肉の体の生き物から、あっという間に血を抜き取ってしまう。
+
+### Aloysius | node:Bethesda#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。
+
+### Aloysius | node:Omonporch#0 | text#0
+> I know that Omonporch is a miserable, hot place and Asphodel is a self-important churl.
+>
+> I don't even like bananas.
+オモンポーチがみじめで暑い所で、アスフォデルがうぬぼれた無作法者だということは知っている。
+
+バナナも好きではない。
+
+### Aloysius | node:Omonporch#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。
+
+### Aloysius | node:Rumbling#0 | text#0
+> Yes, and I fear the worst. Hie to Ereshkigal. She will know what to do.
+感じたとも。最悪の事態を恐れている。急いでエレシュキガルのところへ行け。彼女ならどうすればいいか分かる。
+
+### Aloysius | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。
+
+### Aloysius | node:Klanq#0 | text#0
+> I have met Pax Klanq. I was puffed on.
+>
+> Candidly, I prefer fungi edible and inert.
+パクス・クランクには会ったことがある。胞子を吹きかけられた。
+
+正直に言えば、キノコは食べられて、動かないものに限る。
+
+### Aloysius | node:Klanq#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。
+
+### Aloysius | node:Children#0 | text#0
+> My chromelings, my machines, my crops. I tend to them and they tend to me.
+私のクロームリングたち、私の機械たち、私の作物たちだ。私が世話をし、彼らも私の面倒を見てくれる。
+
+### Aloysius | node:Children#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。
+
+### Aloysius | node:Quiet#0 | text#0
+> Speaking to other organics is as strenuous to me as any physical exercise.
+>
+> My reclusiveness is not born of antipathy; I simply cannot converse as easily as you do and don't wish to learn how.
+ほかの生き物と話すのは、私にとってはどんな力仕事にも劣らず骨が折れるのだ。
+
+人を避けるのは、嫌っているからではない。ただ、君のように気軽に話せないし、そのやり方を覚えたいとも思わないだけだ。
+
+### Aloysius | node:Quiet#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。
+
+### Aloysius | node:Ereshkigal#0 | text#0
+> Ereshkigal is the mainframe computer of Grit Gate. She keeps watch through the thin world, as she would put it, while we maintain her presence in the thick world.
+>
+> I feel as though she and I understand one another.
+エレシュキガルは、グリット・ゲートのメインフレーム計算機だ。彼女に言わせれば、彼女は「薄き世界」を通して見張りをし、我々は「厚き世界」で彼女の体を保っている。
+
+彼女と私は、分かり合えている気がするよ。
+
+### Aloysius | node:Ereshkigal#0 / choice:>End#0 | direct
+> Live and drink in peace, Aloysius.
+心静かに生きて飲め、アロイシウス。

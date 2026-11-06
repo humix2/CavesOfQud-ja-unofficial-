@@ -3,7 +3,8 @@
 # QudJP が更新されたら、このスクリプトを再実行するだけで翻訳も最新になる。
 param(
     [string]$QudJPPath = "D:\Program Files (x86)\Steam\steamapps\workshop\content\333640\3718988020",
-    [string]$ModsPath  = "$env:USERPROFILE\AppData\LocalLow\Freehold Games\CavesOfQud\Mods"
+    [string]$ModsPath  = "$env:USERPROFILE\AppData\LocalLow\Freehold Games\CavesOfQud\Mods",
+    [string]$GamePath  = "D:\Program Files (x86)\Steam\steamapps\common\Caves of Qud"
 )
 $ErrorActionPreference = 'Stop'
 
@@ -37,6 +38,16 @@ $env:PYTHONIOENCODING = 'utf-8'
 New-Item -ItemType Directory -Force $locDest | Out-Null
 python -I (Join-Path $PSScriptRoot 'tools\build_lite_dict.py') $QudJPPath (Join-Path $locDest 'ui-dictionary.tsv')
 if ($LASTEXITCODE -ne 0) { throw "UI辞書の生成に失敗しました" }
+
+# 会話の自作訳（tools/conv/*.txt）で QudJP の会話の文を差し替える。
+# 英語原文と照合するので、ゲーム更新で原文が変わった所は QudJP の訳のまま残る
+$baseConv = Join-Path $GamePath 'CoQ_Data\StreamingAssets\Base\Conversations.xml'
+python -I (Join-Path $PSScriptRoot 'tools\conv_tool.py') apply $baseConv (Join-Path $locDest 'Conversations.jp.xml') (Join-Path $PSScriptRoot 'tools\conv')
+if ($LASTEXITCODE -ne 0) { throw "会話の自作訳の適用に失敗しました" }
+
+# 訳語の一括置換（tools/terms.tsv）。QudJP の訳と自作訳で呼び名をそろえる
+python -I (Join-Path $PSScriptRoot 'tools\term_replace.py') (Join-Path $PSScriptRoot 'tools\terms.tsv') $locDest
+if ($LASTEXITCODE -ne 0) { throw "訳語の一括置換に失敗しました" }
 
 # ライセンス表記（QudJP は MIT License）
 Copy-Item (Join-Path $QudJPPath 'LICENSE') (Join-Path $dest 'LICENSE-QudJP.txt')

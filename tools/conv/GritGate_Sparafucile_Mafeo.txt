@@ -1,0 +1,423 @@
+### Sparafucile | node:Start#0 | text#0
+> {{emote|*Sparafucile lifts one brow, giving you a wary look.*}}
+{{emote|*スパラフチーレは片眉を上げ、用心深くあなたを見る。*}}
+
+### Sparafucile | node:Start#0 / choice:>End#0 | direct
+> I'll be going.
+もう行くよ。
+
+### Sparafucile | node:Start#1 | text#0
+> {{emote|*Sparafucile gives =pronouns.possessive= carbine a once-over and gives you a resolute nod.*}}
+{{emote|*スパラフチーレは自分のカービンにざっと目を通すと、あなたに力強くうなずく。*}}
+
+### Sparafucile | node:Start#1 / choice:>End#0 | direct
+> *nod back*
+*うなずき返す*
+
+### Sparafucile | node:Start#2 | text#0
+> {{emote|*Sparafucile gives you a resolute nod.*}}
+{{emote|*スパラフチーレはあなたに力強くうなずく。*}}
+
+### Sparafucile | node:Start#2 / choice:>End#0 | direct
+> *nod back*
+*うなずき返す*
+
+### Sparafucile | node:Start#3 | text#0
+> {{emote|*Sparafucile nods.*}}
+{{emote|*スパラフチーレがうなずく。*}}
+
+### Sparafucile | node:Start#3 / choice:GreetSpara#0 | direct
+> Greetings, Sparafucile.
+やあ、スパラフチーレ。
+
+### Sparafucile | node:Start#3 / choice:>End#0 | direct
+> *nod back*
+*うなずき返す*
+
+### Sparafucile | node:SilentGreeting#0 | text#0
+> {{emote|*Sparafucile raises one long-fingered hand in greeting.*}}
+{{emote|*スパラフチーレは、指の長い片手を上げてあいさつする。*}}
+
+### Sparafucile | node:SilentGreeting#0 / choice:BethesdaSpara#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Sparafucile | node:SilentGreeting#0 / choice:RumbleSpara#0 | direct
+> Did you feel that rumbling, Sparafucile?
+今の地響きを感じたか、スパラフチーレ？
+
+### Sparafucile | node:SilentGreeting#0 / choice:KlanqSpara#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Sparafucile | node:SilentGreeting#0 / choice:TombSpara#0 | direct
+> I must enter Brightsheol through the Tomb of the Eaters.
+喰らう者の墓所を通って、ブライトシェオルへ入らなければならない。
+
+### Sparafucile | node:SilentGreeting#0 / choice:GolemSpara#0 | direct
+> What do you think of Klanq's presence?
+クランクがここにいることを、どう思う？
+
+### Sparafucile | node:SilentGreeting#0 / choice:CarbineSpara#0 | direct
+> Your carbine is as fine an instrument as I have ever wielded.
+あなたのカービンは、これまで手にした中で最高の一丁だ。
+
+### Sparafucile | node:SilentGreeting#0 / choice:PistolSpara#0 | direct
+> Your pistol is as fine an instrument as I have ever wielded.
+あなたのピストルは、これまで手にした中で最高の一丁だ。
+
+### Sparafucile | node:SilentGreeting#0 / choice:FewWordsSpara#0 | direct
+> You are a bear of few words.
+あなたは口数の少ない熊だな。
+
+### Sparafucile | node:SilentGreeting#0 / choice:GritGateSpara#0 | direct
+> Are you happy living in this cave, away from the sun and open sky?
+太陽も広い空もないこの洞窟で暮らしていて、幸せか？
+
+### Sparafucile | node:SilentGreeting#0 / choice:FarewellSpara#0 | direct
+> Live and drink, harm-artisan.
+生きて飲め、武器の匠よ。
+
+### Sparafucile | node:Sparagon#0 | text#0
+> {{emote|*Sparafucile frowns. After several moments of paper-shuffling, he presents you with a charcoal drawing depicting a gelatinous creature in the shape of a gumdrop. Sketches below depict the ooze enveloping a bipedal figure, then falling through the floor.*}}
+{{emote|*スパラフチーレは顔をしかめる。しばらく紙をがさごそとめくったあと、しずく形のぶよぶよした生き物を描いた木炭画を差し出す。その下には、そのどろどろが二本足の人影を包み込み、床を突き抜けて落ちていく様子が描かれている。*}}
+
+### Sparafucile | node:Sparagon#0 / choice:>SparaNod#0 | direct
+> An ooze that can melt through the floor...
+床を溶かして落ちていく、どろどろの生き物か……。
+
+### Sparafucile | node:SparaStumped#0 | text#0
+> {{emote|*Sparafucile furrows his brow for a few moments, then shakes his head, sighs, and offers you a shrug. He puts a paw on your shoulder and squeezes.*}}
+{{emote|*スパラフチーレはしばらく眉を寄せていたが、首を振ってため息をつき、肩をすくめる。それから、あなたの肩に手を置いて、ぎゅっとつかむ。*}}
+
+### Sparafucile | node:SparaStumped#0 / choice:>SparaNod#0 | direct
+> Fair enough, friend.
+しかたないな、友よ。
+
+### Sparafucile | node:SparaSusa#0 | text#0
+> {{emote|*Sparafucile instructs you to wait, and spends a minute or so rifling through the papers and scraps scattered across =pronouns.possessive= workbench. At last =pronouns.subjective= produces a graphite sketch of a cylinder, an expertly-rendered specular revealing its surface to be shiny like glass. The detail of the cylinder's contents are indistinct and dark, but somehow menacing.*}}
+>
+> {{emote|*Sparafucile points to the glass and makes a breaking motion, then draws a thumb across =pronouns.possessive= throat.*}}
+{{emote|*スパラフチーレは待つよう身ぶりで伝えると、作業台に散らばった紙や切れ端を一分ほど引っかき回す。やがて、円筒を描いた鉛筆画を取り出す。見事に描き込まれた照り返しから、その表面がガラスのように光っていると分かる。円筒の中身ははっきりせず暗いが、どこか不気味だ。*}}
+
+{{emote|*スパラフチーレはガラスを指さして割る仕草をし、それから親指で自分の喉をかき切る仕草をする。*}}
+
+### Sparafucile | node:SparaSusa#0 / choice:>SparaNod#0 | direct
+> I'll have to be careful of... glass tubes?
+気をつけろということか……ガラスの筒に？
+
+### Sparafucile | node:SparaFam#0 | text#0
+> {{emote|*Sparafucile gives you a warm smile and a firm nod. Pressing both pointers to their respective thumbs, =pronouns.subjective= taps these finger-circles together before =pronouns.possessive= chest and rotates both hands in place until the smallest of =pronouns.possessive= long fingers touch. Finally, =pronouns.subjective= gestures toward the other Barathrumites working at their stations.*}}
+{{emote|*スパラフチーレは温かくほほえみ、しっかりとうなずく。両手の人差し指を親指につけて輪を作り、胸の前でその輪どうしを軽く合わせ、小指どうしが触れるまで両手をくるりと回す。最後に、持ち場で働くほかのバラサラム派の仲間たちを手で示す。*}}
+
+### Sparafucile | node:SparaFam#0 / choice:idkSpara#0 | direct
+> I don't understand. Can you explain aloud?
+分からない。声に出して説明してくれないか？
+
+### Sparafucile | node:SparaFam#0 / choice:FamilySpara#0 | direct
+> You are happy because you are with your family?
+家族と一緒だから幸せ、ということか？
+
+### Sparafucile | node:SparaFam#0 / choice:SubjectChange#0 | direct
+> If I might change the subject...
+話は変わるが……。
+
+### Sparafucile | node:PraiseCarbine#0 | text#0
+> {{emote|*Sparafucile smiles. =pronouns.Subjective= raises a flat hand to =pronouns.possessive= chin and lowers it in your direction.*}}
+{{emote|*スパラフチーレはほほえむ。平らにした手をあごに当て、それをあなたのほうへ下ろす。*}}
+
+### Sparafucile | node:PraiseCarbine#0 / choice:WelcomeSpara#0 | direct
+> You are welcome.
+どういたしまして。
+
+### Sparafucile | node:Sparatopics#0 | text#0
+> {{emote|*With a nod, Sparafucile waits for you to continue, keeping =pronouns.possessive= eyes focused on your lips.*}}
+{{emote|*スパラフチーレはうなずき、あなたの唇にじっと目を向けたまま、続きを待っている。*}}
+
+### Sparafucile | node:Sparatopics#0 / choice:MoufSpara#0 | direct
+> Why are you staring at my mouth?
+どうして私の口をじっと見ている？
+
+### Sparafucile | node:QuietBear#0 | text#0
+> {{emote|*Sparafucile places a closed fist over =pronouns.possessive= mouth, then taps =pronouns.possessive= ear, then muzzle with one long finger.*}}
+{{emote|*スパラフチーレは握りこぶしを口に当て、それから長い指一本で、耳を、そして鼻づらを軽くたたく。*}}
+
+### Sparafucile | node:QuietBear#0 / choice:oicSpara#0 | direct
+> You are... unable to hear or speak.
+あなたは……耳が聞こえず、話すこともできないのか。
+
+### Sparafucile | node:Disabearlity#0 | text#0
+> {{emote|*Smiling a bit, Sparafucile nods.*}}
+{{emote|*スパラフチーレは少しほほえんで、うなずく。*}}
+
+### Sparafucile | node:Disabearlity#0 / choice:AccidentSpara#0 | direct
+> Is your condition a result of your work?
+仕事のせいでそうなったのか？
+
+### Sparafucile | node:Disabearlity#0 / choice:PatronizeSpara#0 | direct
+> Yet you are an expert in your field? How inspiring!
+それでも一流の職人だなんて！ 勇気をもらえるよ！
+
+### Sparafucile | node:Miscongenitality#0 | text#0
+> {{emote|*Sparafucile shakes =pronouns.possessive= head.*}}
+{{emote|*スパラフチーレは首を横に振る。*}}
+
+### Sparafucile | node:Miscongenitality#0 / choice:ConfirmSpara#0 | direct
+> Your condition is lifelong?
+生まれつき、ということか？
+
+### Sparafucile | node:Miscongenitality#0 / choice:ThankSpara#0 | direct
+> Thank you for your clarity and patience, tinkerfriend.
+分かりやすく、根気よく伝えてくれてありがとう、職人の友よ。
+
+### Sparafucile | node:SparaNod#0 | text#0
+> {{emote|*Sparafucile nods.*}}
+{{emote|*スパラフチーレがうなずく。*}}
+
+### Sparafucile | node:GrimNod#0 | text#0
+> {{emote|*Sparafucile nods grimly.*}}
+{{emote|*スパラフチーレは険しい顔でうなずく。*}}
+
+### Sparafucile | node:SparaThank#0 | text#0
+> {{emote|*With a small smile of gratitude, Sparafucile taps his chin with a flat hand and lowers it toward you like a drawbridge.*}}
+{{emote|*スパラフチーレは感謝の小さな笑みを浮かべ、平らにした手であごに触れると、はね橋を下ろすように、それをあなたのほうへ下ろす。*}}
+
+### Sparafucile | node:SparaSigh#0 | text#0
+> {{emote|*Sparafucile averts =pronouns.possessive= gaze and heaves a tired sigh.*}}
+{{emote|*スパラフチーレは目をそらし、疲れたようにため息をつく。*}}
+
+### Sparafucile | node:SparaSigh#0 / choice:CluelessSpara#0 | direct
+> I merely asked...
+聞いただけなんだが……。
+
+### Sparafucile | node:SparaSigh#0 / choice:ApologizeSpara#0 | direct
+> I apologize for my carelessness.
+無神経だった。すまない。
+
+### Sparafucile | node:BearySorry#0 | text#0
+> {{emote|*Sparafucile gives you a wan smile and a thumbs-up.*}}
+{{emote|*スパラフチーレは力なくほほえみ、親指を立てて見せる。*}}
+
+### Sparafucile | node:ShroomPal#0 | text#0
+> {{emote|*=pronouns.Subjective= nods slowly, smirking.*}}
+{{emote|*にやりとしながら、ゆっくりうなずく。*}}
+
+### Sparafucile | node:ShroomPal#0 / choice:>ShroomPal2#0 | direct
+> Is... there any advice you can give me about going to meet him?
+その……会いに行くにあたって、何か助言はあるか？
+
+### Sparafucile | node:ShroomPal#0 / choice:>Sparatopics#0 | direct
+> So anyway...
+それはそうと……。
+
+### Sparafucile | node:ShroomPal2#0 | text#0
+> {{emote|*Sparafucile shrugs, still smirking.*}}
+{{emote|*スパラフチーレは、にやにやしたまま肩をすくめる。*}}
+
+### Sparafucile | node:ShroomPal2#0 / choice:>Sparatopics#0 | direct
+> Let us speak of other things.
+ほかの話をしよう。
+
+### Sparafucile | node:SparaStare#0 | text#0
+> {{emote|*Sparafucile stares at you as if you have grown an additional, substantially uglier head, which you have not.*}}
+{{emote|*スパラフチーレは、まるであなたにもうひとつ、それもずっと醜い頭が生えてきたかのような目で見つめる。もちろん、生えてはいない。*}}
+
+### Sparafucile | node:SparaStare#0 / choice:>End#0 | direct
+> I'll... be going then.
+では……もう行くよ。
+
+### Sparafucile | node:LiveDrinkSign#0 | text#0
+> {{emote|*Sparafucile makes an 'L' shape with both hands, thumbs facing down and fingers pointed toward one another, before flipping both hands so =pronouns.possessive= thumbs face up. =pronouns.Subjective= then raises a closed fist to =pronouns.possessive= mouth, thumb out, and mimes drinking from it.*}}
+>
+> {{emote|*This done, =pronouns.subjective= nods once more and turns back to =pronouns.possessive= work.*}}
+{{emote|*スパラフチーレは両手でL字を作り、親指を下に、指先を向かい合わせにしてから、両手をくるりと返して親指を上に向ける。それから親指を立てた握りこぶしを口元へ運び、そこから飲む仕草をする。*}}
+
+{{emote|*そうし終えると、もう一度うなずいて、自分の仕事に戻る。*}}
+
+### Mafeo | node:Start#0 | text#0
+> I always knew this part of our story would come. Our efforts today determine the genre of the tale we tell. Is this a triumphant epic, or a tale of woe?
+>
+> Fight well, =player.formalAddressTerm=.
+物語のこの場面がいつか来ることは、ずっと分かっていたよ。今日の我らの奮闘しだいで、語られる物語の種類が決まる。勝利の叙事詩になるか、それとも悲劇になるか。
+
+健闘を祈るよ。
+
+### Mafeo | node:Start#0 / choice:>End#0 | direct
+> I will.
+ああ。
+
+### Mafeo | start:Post Arms#0 | text#0
+> Such interesting times we inhabit, =name=!
+>
+> Good to see you well. Is there anything you need?
+なんとも面白い時代に生きているものだね、=name=！
+
+元気そうで何よりだ。何か要るものはあるかい？
+
+### Mafeo | start:Post Arms#0 / choice:>TombQuest#0 | direct
+> I must enter Brightsheol through the Tomb of the Eaters.
+喰らう者の墓所を通って、ブライトシェオルへ入らなければならない。
+
+### Mafeo | start:Post Arms#0 / choice:>GuestKlanq#0 | direct
+> What do you think of the situation?
+今の状況をどう思う？
+
+### Mafeo | start:Post Arms#0 / choice:>End#0 | direct
+> Not at this time. Live and drink.
+今はいい。生きて飲め。
+
+### Mafeo | node:GuestKlanq#0 | text#0
+> What novelty, to shelter the mysterious Klanq! I have heard no stories of this tinker-fungus that could be described as dull, though ‘calamitous' could apply to more than one.
+>
+> My mind tells tales of what might be brewing in the basement, but I am quite relieved to be out here rather than down there.
+あの謎めいたクランクをかくまうとは、なんとも珍しいことだ！ あの職人キノコの話で、退屈なものなんてひとつも聞いたことがない。「破滅的」と言えそうな話なら、ひとつやふたつじゃないけどね。
+
+地下で何がこしらえられているのか、つい想像が膨らんでしまう。でも、下じゃなくてここにいられて、正直ほっとしているよ。
+
+### Mafeo | node:GuestKlanq#0 / choice:>End#0 | direct
+> So they do. Live and drink, Mafeo.
+たしかにな。生きて飲め、マフェオ。
+
+### Mafeo | node:TombQuest#0 | text#0
+> Coming from anyone else, I would ask that further japery be left to me.
+>
+> But from you? I wouldn't startle to see you return wearing a Sultan's burial mask, having destroyed half a dozen invincible cherubim in the doing. Fates be with you.
+ほかの誰かが言ったのなら、冗談は私に任せてくれと言うところだ。
+
+でも、君なら？ 無敵のケルビムを半ダースほど片づけて、スルタンの死に面をかぶって帰ってきても、私は驚かないよ。運命が君と共にあらんことを。
+
+### Mafeo | node:TombQuest#0 / choice:>End#0 | direct
+> I thank you. Live and drink.
+ありがとう。生きて飲め。
+
+### Mafeo | node:Start#1 | text#0
+> Welcome to Grit Gate, =factionaddress:Barathrumites=. Care to enhance the quality of your stay with a wise purchase?
+グリット・ゲートへようこそ。賢いお買い物で、滞在をいっそう快適にしていかないかい？
+
+### Mafeo | node:Start#1 / choice:MafeoGolgotha#0 | direct
+> I have been tasked to travel to Golgotha.
+ゴルゴタへ行くよう命じられた。
+
+### Mafeo | node:Start#1 / choice:MafeoBethesda#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Mafeo | node:Start#1 / choice:MafeoOmonporch#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Mafeo | node:Start#1 / choice:MafeoRumbling#0 | direct
+> Did you feel that rumbling, Mafeo?
+今の地響きを感じたか、マフェオ？
+
+### Mafeo | node:Start#1 / choice:MafeoKlanq#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Mafeo | node:Start#1 / choice:MafeoWhat#0 | direct
+> What wares do you sell?
+何を売っているんだ？
+
+### Mafeo | node:Start#1 / choice:MafeoWhere#0 | direct
+> What is this place?
+ここはどういう所だ？
+
+### Mafeo | node:Start#1 / choice:MafeoWho#0 | direct
+> What kind of creature are you?
+あなたはどういう種族なんだ？
+
+### Mafeo | node:Start#1 / choice:>End#0 | direct
+> Live and drink, =pronouns.formalAddressTerm=.
+生きて飲め、友よ。
+
+### Mafeo | node:Golgotha#0 | text#0
+> My condolences to your sense of smell, =player.formalAddressTerm=.
+>
+> Golgotha is an execrable place in more ways than one, and I would advise you not to visit without a healthy stock of yuckwheat and honey. If you can cook, a meal with yuckwheat may banish a disease before it comes into its own. Bring salves or urberries, too, and mind your feet in the Cloaca.
+君の鼻にはご愁傷さまと言っておこう。
+
+ゴルゴタは、あらゆる意味でひどい所だ。ヤックウィートとはちみつをたっぷり持たずに行くのはやめたほうがいい。料理ができるなら、ヤックウィート入りの食事で、病気が本格的になる前に追い払えることもある。軟膏かアーベリーも持っていくといい。それと、クロアカでは足元に気をつけて。
+
+### Mafeo | node:Golgotha#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。
+
+### Mafeo | node:Bethesda#0 | text#0
+> Bethesda Susa? Lovely, but a bit dangerous for a holiday destination. You'll want to bring bandages and warm clothing. Why not take a look at my stock in case something suits you?
+ベテスダ・スーサ？ きれいな所だけど、休暇を過ごすにはちょっと物騒だね。包帯と暖かい服を持っていくといい。合いそうな物がないか、うちの品を見ていかないかい？
+
+### Mafeo | node:Bethesda#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。
+
+### Mafeo | node:Omonporch#0 | text#0
+> It's a lovely place, and the bananas are delicious.
+>
+> As for the so-called Earl, well. I'm loath to recognize nobility to begin with, and I cannot decide whether Asphodel claiming xyr own title is better or worse than if xe inherited it.
+すてきな所だよ。バナナもおいしいし。
+
+自称伯爵については、そうだね。そもそも私は貴族なんてものを認めたくないんだが、アスフォデルが爵位を自分で名乗ったのと、受け継いだのと、どちらがましなのか決めかねているよ。
+
+### Mafeo | node:Omonporch#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。
+
+### Mafeo | node:Rumbling#0 | text#0
+> Nothing short of explosives or heavy equipment could have made such a sound.
+>
+> Be ready for the worst, =player.formalAddressTerm=.
+爆薬か重機でもなければ、あんな音は出ないよ。
+
+最悪の事態に備えておいてくれ。
+
+### Mafeo | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。
+
+### Mafeo | node:Klanq#0 | text#0
+> The Rainbow Wood is a fair bit too dangerous for a casual promenade, but nothing compares to its beauty. Once, I viewed it from above by means of a gyrocopter, and I will never forget the sights that I saw.
+>
+> Nor will I forget crashing to the ground because the gyrocopter broke, but every adventure has its complications, wouldn't you say?
+虹の森は、気軽にお散歩するにはだいぶ物騒だけど、あの美しさにかなうものはないよ。一度、ジャイロコプターで上から眺めたことがあってね。あの景色は一生忘れない。
+
+ジャイロコプターが壊れて地面に墜落したことも一生忘れないけど、どんな冒険にもひと波乱はつきものだろう？
+
+### Mafeo | node:Klanq#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。
+
+### Mafeo | node:WhatWares#0 | text#0
+> Oh, I sell whatever sundries that meet my standards of quality, with some measure of curation. I try to ensure that my shelves carry a bit of many things, but you can count on finding more than enough ammunition and a few recoilers that can lead you back here in difficult times.
+>
+> If you have anything in need of identification or repair, I can take care of that for you for a few drams as well.
+私の品質の目にかなった雑貨なら、何でも売っているよ。品ぞろえにはちょっとこだわっていてね。いろんな物を少しずつ置くようにしているけど、弾薬はたっぷりあるし、困ったときにここへ戻ってこられるリコイラーもいくつか置いてある。
+
+鑑定や修理が必要な物があれば、何ドラムかで引き受けるよ。
+
+### Mafeo | node:WhatWares#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。
+
+### Mafeo | node:GritGate#0 | text#0
+> Why, this place is Grit Gate! O the vaulted halls, the glint of chrome, the gentle hum of chain turret emplacements!
+>
+> There's nowhere like Grit Gate in the whole of Qud, =player.formalAddressTerm=. I've journeyed in my comparatively short time, but I always return here. The very air buzzes with knowledge, as well as quite a few other things.
+なんと、ここはグリット・ゲートさ！ ああ、丸天井の広間、クロームのきらめき、連鎖砲台のやさしいうなり！
+
+クッドじゅう探したって、グリット・ゲートみたいな所はないよ。私も、比べれば短い生涯のうちにあちこち旅をしたけど、いつもここへ帰ってくる。空気そのものが知識でぶんぶんうなっているんだ。ほかにも、いろんなものでうなっているけどね。
+
+### Mafeo | node:GritGate#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。
+
+### Mafeo | node:AboutTheQuillbear#0 | text#0
+> We are called the Urshiib, =player.formalAddressTerm=.
+>
+> Our kind are smarter than the average bear. Sharper, too, and a bit more handy.
+私たちはウルシーブと呼ばれているよ。
+
+そこらの熊より賢くて、とげも鋭い。それに、ちょっとばかり手先も器用なのさ。
+
+### Mafeo | node:AboutTheQuillbear#0 / choice:>End#0 | direct
+> Live and drink, Mafeo.
+生きて飲め、マフェオ。

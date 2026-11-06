@@ -1,0 +1,379 @@
+### HindrenAfflicted | node:Start#0 | text#0
+> hhhhhhhhhhhhhh.
+ひゅうううううう……。
+
+### HindrenAfflicted | node:Start#0 / choice:>End#0 | direct
+> My condolences. Live and drink.
+お気の毒に。生きて飲め。
+
+### HindrenPariah | node:Start#0 | text#0
+> Live and drink.~
+> Live and drink, wanderer.~
+> Live and drink, kendren.~
+> Take your time. The journey will wait for you.~
+> Please don't ask me where Bey Lah is. I will not tell you.~
+> I dream of returning to Bey Lah sometimes, but I know that's not my fate.~
+> Moon and sun, traveler.~
+> Moon and sun, wisdom and will.
+生きて飲め。~
+生きて飲め、さすらい人。~
+生きて飲め、ケンドレン。~
+急ぐことはない。旅は逃げはしないさ。~
+ベイ・ラーの場所は聞かないでくれ。教えるつもりはない。~
+ときどきベイ・ラーに帰る夢を見る。でも、それが私の定めでないことは分かっている。~
+月と太陽を、旅の人。~
+月と太陽を。知恵と意志を。
+
+### HindrenPariah | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### IQuestKithAndKin | choice:@AskRumor#0 | direct
+> Have you seen or heard anything peculiar?
+何か変わったものを見たり聞いたりしなかったか？
+
+### IQuestKithAndKin | node:AskRumor#0 | text#0
+> Sorry, I didn't see anything.
+ごめん、何も見ていないよ。
+
+### IQuestKithAndKin | node:AskRumor#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenScout | node:Start#0 | text#0
+> I've a bad feeling about all this.~
+> The threat is not over. Mark my words.~
+> We're not safe yet. I can feel it.~
+> This resolution is not to my liking...
+どうも嫌な予感がする。~
+脅威は去っていない。覚えておくといい。~
+まだ安全じゃない。肌で分かる。~
+こんな決着は気に入らない……。
+
+### HindrenScout | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenScout | node:Start#1 | text#0
+> I remain wary, but there is no question that Bey Lah thrives, even with open borders.~
+> Live and drink.~
+> Live and drink, kendren.~
+> Oh, it is you. Stay safe.
+警戒は解かない。だが、境を開いてもベイ・ラーが栄えているのは確かだ。~
+生きて飲め。~
+生きて飲め、ケンドレン。~
+ああ、君か。気をつけてな。
+
+### HindrenScout | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenScout | node:Start#2 | text#0
+> I am uncomfortable with change, but it is a skill to train like any other.~
+> Live and drink.~
+> Live and drink, kendren.~
+> I hope Hindriarch Esk can keep us safe.
+変わることは苦手だ。だが、それも他の技と同じく鍛えられるものだ。~
+生きて飲め。~
+生きて飲め、ケンドレン。~
+ヒンドリアーク・エスクが村を守り抜いてくれるといいが。
+
+### HindrenScout | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenScout | node:Start#3 | text#0
+> Live and drink, kendren.~
+> I will do my best to be civil with you, kendren, but we hindren are bred into wariness.~
+> Cause no trouble here, kendren.~
+> Be kind, kendren. We are watching you.~
+> Why do you remain here? Please, finish your business.~
+> It feels strange to allow you to cross our borders unimpeded, but Grand-Doe wills it.~
+> No good can come of allowing kendren into Bey Lah...
+生きて飲め、ケンドレン。~
+礼は尽くすよう努めるよ、ケンドレン。だが、私たちヒンドレンは用心深く生まれついているんだ。~
+ここで面倒を起こすなよ、ケンドレン。~
+行儀よくしてくれ、ケンドレン。私たちは見ているぞ。~
+なぜまだここにいる？ 用を済ませたら行ってくれ。~
+よそ者を素通りさせるのは妙な気分だ。だが、大雌鹿がそう望まれている。~
+ケンドレンをベイ・ラーに入れて、ろくなことになるはずがない……。
+
+### HindrenScout | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenVillager | node:Start#0 | text#0
+> What now? Nothing like this has ever happened before.~
+> It's difficult to return to normal life after such an upheaval.~
+> Forgive me, kendren, but the sight of you makes my hands quake.~
+> Oh? Is it really over? I'm afraid.
+これからどうなるんだ？ こんなこと、今まで一度もなかった。~
+あんな騒ぎのあとで、元の暮らしに戻るのは難しいよ。~
+すまない、ケンドレン。君を見ると手が震えてしまうんだ。~
+え？ 本当に終わったの？ 怖いよ。
+
+### HindrenVillager | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenVillager | node:Start#1 | text#0
+> How Bey Lah prospers! We should have opened the village years ago.~
+> Live and drink.~
+> Live and drink, kendren.~
+> Oh, it is you. Thank you for helping the village.
+ベイ・ラーのこの栄えようといったら！ 何年も前に村を開いておけばよかった。~
+生きて飲め。~
+生きて飲め、ケンドレン。~
+ああ、君か。村を助けてくれてありがとう。
+
+### HindrenVillager | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenVillager | node:Start#2 | text#0
+> I will admit, Hindriarch Esk leads well.~
+> Can we really trust such a young Hindriarch?~
+> I am both afraid and hopeful for our future. But perhaps this is what we need.~
+> Oh, it is you. Thank you for helping the village.
+認めるよ。ヒンドリアーク・エスクはよく村をまとめている。~
+あんなに若いヒンドリアークに、本当に任せて大丈夫なのかな？~
+この先が怖くもあり、楽しみでもある。でも、きっとこれが村に必要なことなんだ。~
+ああ、君か。村を助けてくれてありがとう。
+
+### HindrenVillager | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### HindrenVillager | node:Start#3 | text#0
+> Ah, l-live and drink.~
+> Live and drink...~
+> Live... live and drink, kendren.~
+> Um.~
+> Please go away.~
+> W-w-w-w-what are ... what are you...~
+> Moon and sun, kendren.~
+> Live and drink. Will you be staying long?~
+> Forgiveness begged, kendren. I have work to do.~
+> Live and drink, kendren. I am very busy.~
+> You're... kendren...~
+> Please don't hurt me.~
+> Ah... uhm. I... you, ah.~
+> {{emote|*the hindren stares at you, wide-eyed*}}
+あ、い、生きて飲め。~
+生きて飲め……。~
+生きて……い、生きて飲め、ケンドレン。~
+えっと。~
+あっちへ行ってくれ。~
+な、な、な、な、何を……何をする気……~
+月と太陽を、ケンドレン。~
+生きて飲め。長くいるつもりかい？~
+悪いね、ケンドレン。仕事があるんだ。~
+生きて飲め、ケンドレン。今とても忙しいんだ。~
+き、君は……ケンドレン……~
+お願いだ、ひどいことはしないで。~
+あ……ええと。その……君、あの。~
+{{emote|*ヒンドレンは目を見開いて、あなたを見つめている*}}
+
+### HindrenVillager | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### FaundrenVillager | node:Start#0 | text#0
+> Kendren! Kendren! Tell us a story of the world outside when Grand-Doe is not listening!~
+> Um. Live and drink, kendren.~
+> Is it true that all kendren kill one another for sport?~
+> Is it true that you kendren eat your dead?~
+> Is it true that there are bears covered in quills to the east?~
+> Is it true that bears live to be a thousand years old?~
+> Is it true that boars can shoot fire?~
+> Is it true that kendren can't fall in love?~
+> Is it true that kendren elders grow eyes upon their hands?~
+> Is it true that kendren pay for goods with crayons rather than water?~
+> Is it true that kendren worship rocks?~
+> Is it true that kendren spend hours looking at slabs of wood?~
+> Is it true that nine out of ten kendren cannot speak or understand language?~
+> Is it true that instead of dying, kendren are frozen in tubes?~
+> Is it true that kendren children are thrown out of the nest right after being born?~
+> Is it true that all kendren say 'quetzal' when they are happy?~
+> Is it true that kendren chefs can fry water?~
+> Is it true that kendren all live far underground?~
+> Is it true that kendren live in great bubbles?~
+> Is it true that kendren sleep in a snarcomfagus?~
+> Is there really a King of the Moon, kendren?~
+> I heard from my friend who heard it from their yma that the Grand-Doe says that hindren who leave Bey Lah grow an extra pair of arms. And the Grand-Doe says it so you know it's true.~
+> Is it true that when kendren eat mah lah soup, they explode?!~
+> Is it true that... um, oh. I forgot.~
+> Is it true that kendren don't have to ask permission to do the water ritual?~
+> Is it true that you don't have a Grand-Doe?~
+> How do kendren stay safe when you don't have a Grand-Doe to protect you?~
+> Um, kendren, does the yempuris phi really exist? Is it really coming to get us?~
+> Do you have glotrot? Do you have ironshank? Do you have funglefection? Have you ever had them? Is it gross? Can I see?~
+> Is it true that kendren sometimes die of cooking too hard?~
+> Kendren! Kendren! Take me with you! I want to see the Sixty Stilts!
+ケンドレン！ ケンドレン！ 大雌鹿さまが聞いてないうちに、外の世界のお話して！~
+えっと。生きて飲め、ケンドレン。~
+ケンドレンって、遊びで殺しあうってほんと？~
+ケンドレンって、死んだ仲間を食べるってほんと？~
+東のほうには、トゲだらけのクマがいるってほんと？~
+クマって千年も生きるってほんと？~
+イノシシって火を吹くってほんと？~
+ケンドレンって、恋ができないってほんと？~
+ケンドレンのお年寄りって、手に目が生えてくるってほんと？~
+ケンドレンって、水じゃなくてクレヨンで買い物するってほんと？~
+ケンドレンって、石をおがんでるってほんと？~
+ケンドレンって、木の板を何時間もじーっと見てるってほんと？~
+ケンドレンって、十人のうち九人は言葉が話せないし分からないってほんと？~
+ケンドレンって、死ぬかわりに筒の中で凍らされるってほんと？~
+ケンドレンの子どもって、生まれたらすぐ巣から放り出されるってほんと？~
+ケンドレンって、うれしいとみんな「ケツァール」って言うってほんと？~
+ケンドレンの料理人って、水を揚げられるってほんと？~
+ケンドレンって、みんな地面のずっと下に住んでるってほんと？~
+ケンドレンって、大きなあわの中に住んでるってほんと？~
+ケンドレンって、スナーコファガスの中で寝るってほんと？~
+月の王さまって、ほんとにいるの、ケンドレン？~
+友だちが、その子のおうちの人から聞いたんだって。ベイ・ラーを出ていったヒンドレンは、腕がもう一組生えてくるって、大雌鹿さまが言ったんだって。大雌鹿さまが言うんだから、ほんとだよ。~
+ケンドレンって、マー・ラーのスープを食べるとばくはつするってほんと？！~
+ほんとなの……えっと、あれ。忘れちゃった。~
+ケンドレンって、水の儀式をするのにおゆるしがいらないってほんと？~
+大雌鹿さまがいないってほんと？~
+守ってくれる大雌鹿さまがいないのに、ケンドレンはどうやって身を守ってるの？~
+ねえケンドレン、イェンプリス・フィーってほんとにいるの？ ほんとに僕たちをさらいに来るの？~
+グロットロット持ってる？ アイアンシャンクは？ ファングルフェクションは？ かかったことある？ 気持ち悪い？ 見せて！~
+ケンドレンって、料理をがんばりすぎて死んじゃうことがあるってほんと？~
+ケンドレン！ ケンドレン！ 連れてって！ 「シックスティ・スティルト」を見てみたいの！
+
+### FaundrenVillager | node:Start#0 / choice:>End#0 | direct
+> I am busy. Live and drink, little one.
+今は忙しいんだ。生きて飲め、おちびさん。
+
+### Kesehind | node:Start#0 | text#0
+> Why are you talking to me?
+なぜ私に話しかける？
+
+### Kesehind | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Kesehind | node:Start#1 | text#0
+> No sudden moves around the Hindriarch, kendren. I am watching you.
+ヒンドリアークのそばで妙な動きはするなよ、ケンドレン。見ているからな。
+
+### Kesehind | node:Start#1 / choice:>Who are you?#0 | direct
+> Who are you?
+あなたは？
+
+### Kesehind | node:Start#1 / choice:>ShowSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたが書いたものか？
+
+### Kesehind | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Kesehind | node:ShowSonnet#0 | text#0
+> Do I look like a poet to you, kendren?
+私が詩人に見えるか、ケンドレン？
+
+### Kesehind | node:ShowSonnet#0 / choice:>End#0 | direct
+> I suppose not. Live and drink.
+見えないな。生きて飲め。
+
+### Kesehind | node:Who are you?#0 | text#0
+> I am Kesehind, protector of Hindriarch Keh, the Grand-Doe of Bey Lah.
+ケセヒンド。ベイ・ラーの大雌鹿、ヒンドリアーク・ケーの護衛だ。
+
+### Kesehind | node:Who are you?#0 / choice:>Questions#0 | direct
+> May I ask you some questions?
+いくつか聞いてもいいか？
+
+### Kesehind | node:Who are you?#0 / choice:>End#0 | direct
+> I see. Live and drink.
+そうか。生きて飲め。
+
+### Kesehind | node:Questions#0 | text#0
+> You may not.
+断る。
+
+### Kesehind | node:Questions#0 / choice:>End#0 | direct
+> Oh.
+……そうか。
+
+### Isahind | node:Start#0 | text#0
+> I'd rather not talk. Sorry.
+今は話したくないの。ごめんね。
+
+### Isahind | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Isahind | node:Start#1 | text#0
+> Strange and rocky times have befallen Bey Lah.
+>
+> But I'm confident that we can get through this, as we always do. Shall we trade?
+ベイ・ラーは今、おかしな、険しい時を迎えているわ。
+
+でも、いつだってそうしてきたように、きっと乗り越えられる。取引していく？
+
+### Isahind | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Isahind | node:Start#2 | text#0
+> My friend! Thank you so much for helping our village!
+>
+> Our prosperity means that I have new goods for you to peruse, if you're interested.
+まあ、あなた！ 村を助けてくれて本当にありがとう！
+
+村が豊かになったおかげで、新しい品も入ったの。よかったら見ていって。
+
+### Isahind | node:Start#2 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Isahind | node:Start#3 | text#0
+> As if a new Hindriarch weren't enough, I hear we might become a Democracy! How thrilling.
+>
+> This is a new chapter in Bey Lah's history, kendren. Would you care to trade?
+新しいヒンドリアークが立っただけでもすごいのに、村が「民主制」になるかもしれないんですって！ わくわくするわね。
+
+ベイ・ラーの歴史の新しい一章よ、ケンドレン。取引していく？
+
+### Isahind | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Isahind | node:Start#4 | text#0
+> Amazing! The youngest hindriarch in Bey Lah's preserved history, if only temporarily so.
+>
+> Care to buy a souvenir to commemorate this historic occasion?
+すごいわ！ 伝えられているベイ・ラーの歴史で、いちばん若いヒンドリアークよ。ひとときのことかもしれないけれど。
+
+この歴史的な日の記念に、お土産はいかが？
+
+### Isahind | node:Start#4 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Isahind | node:Start#5 | text#0
+> Oh! A real live kendren, here in our village! Live and drink, lovely friend!
+>
+> If you'd care to trade, I have a modest amount of local goods I can offer.
+まあ！ 本物のケンドレンが、この村に！ 生きて飲め、すてきなお友だち！
+
+取引する気があるなら、この土地の品を少しだけど出せるわよ。
+
+### Isahind | node:Start#5 / choice:>ShowSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたが書いたものか？
+
+### Isahind | node:Start#5 / choice:>End#0 | direct
+> I have all I need. Live and drink.
+足りているよ。生きて飲め。
+
+### Isahind | node:ShowSonnet#0 | text#0
+> No, that's not mine. But it looks lovely!
+いいえ、私のじゃないわ。でも、すてきな詩ね！
+
+### Isahind | node:ShowSonnet#0 / choice:>End#0 | direct
+> I see. Live and drink.
+そうか。生きて飲め。

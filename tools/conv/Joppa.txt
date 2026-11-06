@@ -1,0 +1,1169 @@
+### Irudad | node:Start#0 | text#0
+> -mm. Mmm? =player.FormalAddressTerm=.~
+> {{emote|*Elder Irudad smiles.*}}~
+> {{emote|*Elder Irudad smiles.*}}
+>
+> Come in- come sit 'neath the cool shade, 'cross a pillow there.~
+> {{emote|*Elder Irudad smiles.*}}
+>
+> Live and drink, =name=. Come, sit with me.
+……んむ。んむ？ 旅の方か。~
+{{emote|*イルーダッド長老がほほえむ。*}}~
+{{emote|*イルーダッド長老がほほえむ。*}}
+
+お入り……涼しい日陰へおいで、そこの座布団にお座り。~
+{{emote|*イルーダッド長老がほほえむ。*}}
+
+生きて飲め、=name=。さあ、わしの隣にお座り。
+
+### Irudad | start:Welcome#0 | text#0
+> -mm. Mmm? =player.FormalAddressTerm=?
+>
+> {{emote|*Elder Irudad smiles.*}}
+>
+> Live and drink. Come in- come sit 'neath the cool shade, 'cross a pillow there. And welcome to Joppa.
+>
+> You may drink of our freshwater, too, and quench your thirst.
+……んむ。んむ？ 旅の方かね？
+
+{{emote|*イルーダッド長老がほほえむ。*}}
+
+生きて飲め。お入り……涼しい日陰へおいで、そこの座布団にお座り。ジョッパへようこそ。
+
+ここの真水も飲んでおいき。渇きを癒やすといい。
+
+### Irudad | start:Welcome#0 / choice:@FinishedRedrock#0 | direct
+> I'm back from Red Rock with the corpse of a pale spiderling. Elder, would you examine it?
+レッドロックから戻った。青白い子グモの死骸を持ってきた。長老、見てもらえないか？
+
+### Irudad | start:Welcome#0 / choice:@Joppa#0 | direct
+> What is this place, Joppa?
+ジョッパとは、どんな所だ？
+
+### Irudad | start:Welcome#0 / choice:@Wares#0 | direct
+> Do you sell wares here?
+ここで品物は売っているか？
+
+### Irudad | start:Welcome#0 / choice:@Work#0 | direct
+> I'm looking for work.
+仕事を探している。
+
+### Irudad | start:Welcome#0 / choice:@WorkAfter#0 | direct
+> I'm looking for work.
+仕事を探している。
+
+### Irudad | start:Welcome#0 / choice:@GyreReminder#0 | direct
+> Can you tell me about the Gyre and the Girsh nephilim again?
+渦動とギルシュのネフィリムのことを、もう一度聞かせてくれないか？
+
+### Irudad | start:Welcome#0 / choice:@Stiltbound#0 | direct
+> What can you tell me about the Six Day Stilt?
+シックスデイ・スティルトについて教えてくれないか？
+
+### Irudad | start:Welcome#0 / choice:@Barathrumites#0 | direct
+> Argyve wants me to meet the Barathrumites.
+アーギヴに、バラサラム派に会ってこいと言われた。
+
+### Irudad | start:Welcome#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Irudad | node:Joppa#0 | text#0
+> -this? The oasis-hamlet. 'Neath the shelf of the world. A million breaths of salt the wind heaves over the Great Salt Desert Moghra'yi. And to the east, the rotting jungles of Qud.
+>
+> Here in the crack between the two, watervine can grow, and we grow it. mmm, =player.formalAddressTerm=.
+……ここかね？ オアシスの小さな村だよ。世界の棚の下にある。西では、大塩砂漠モグラヤイの上を、風が塩まじりの息を百万回も吹きつける。そして東には、腐りかけたクッドの密林が広がっておる。
+
+そのふたつのすき間でなら、ウォーターヴァインが育つ。だから、わしらはそれを育てておるのさ。んむ。
+
+### Irudad | node:Joppa#0 / choice:@Qud#0 | direct
+> Can you tell me about Qud?
+クッドについて教えてくれないか？
+
+### Irudad | node:Qud#0 | text#0
+> -mm, there? Land slopes up and is toothed in chrome steeples, ageless things. Looming over the old-earth tunnels, pillowed in rotting jungle and fungus groves. And broken against the mounts of the north, they are, in the shadow of the Spindle...
+>
+> There are people, friends, communities. And friends-to-noone, too. History is thick as the high salt sun, =player.formalAddressTerm=, and where the past is ground up like matz meal, a mix of life sets in.
+>
+> -mm, adventurous ones set off for their own splinter of artifact. To both Fates, life and death...
+……んむ、あちらかね？ 土地は登り坂になって、クロームの尖塔が牙のように立ち並んでおる。いつからあるとも知れぬものだ。古い地下道の上にそびえ、腐った密林やキノコの林に埋もれて……北の山々にぶつかって砕けておる。スピンドルの影の下でな……。
+
+人もおる。仲間も、村もある。誰の仲間でもない者もな。歴史は、高く昇った塩の太陽のように濃い。過去がマッツァの粉のように挽かれた土地には、いろんな命が根を下ろすものさ。
+
+……んむ、向こう見ずな者たちは、自分だけの遺物のかけらを求めて旅立っていく。生と死、ふたつの運命に向かってな……。
+
+### Irudad | node:Wares#0 | text#0
+> -here? Speak to my daughter through the east door, for herbs. And sitting Tam in the southeast has all manner of trinket, against his chests o' drawers.
+……ここでかね？ 薬草なら、東の戸口の向こうにいるわしの娘に声をかけなさい。南東では、タムが引き出し箪笥にもたれて座っておって、ありとあらゆる小物を売っておるよ。
+
+### Irudad | node:Work#0 | text#0
+> -mm, work? The farmers are plagued by cave vermin. You might speak to Mehmet o' there, by the southern watervine patch.
+>
+> And Argyve, too, =player.formalAddressTerm=. The tinker. Always looking for trinkets to wire between, heh. Go through his hut of sheet metal, to the southwest.
+……んむ、仕事かね？ 農夫たちが、洞窟から出てくる害獣に困っておる。南のウォーターヴァイン畑のそばにいるメフメットに話してみるといい。
+
+それと、アーギヴもな。からくり職人だよ。いつも何かと何かを線でつなぐための小物を探しておる、へへ。南西のブリキ小屋を訪ねてごらん。
+
+### Irudad | node:WorkAfter#0 | text#0
+> -mm, work? Try Argyve, =player.formalAddressTerm=. The tinker. Always looking for trinkets to wire between, heh. Go through his hut of sheet metal, to the southwest.
+……んむ、仕事かね？ アーギヴを訪ねてごらん。からくり職人だよ。いつも何かと何かを線でつなぐための小物を探しておる、へへ。南西のブリキ小屋だ。
+
+### Irudad | node:Stiltbound#0 | text#0
+> -ahh, mm, such spectacle. The statues within, a revelation to the eyes. Chandlers enough to drain your skins dry 'twixt Shallows and Beetle Moon.
+……ああ、んむ、たいした見ものだよ。中の像ときたら、目が開かれる思いがする。商人もたくさんおってな、浅瀬の月から甲虫月までのあいだに、水袋がすっからかんになるほどだ。
+
+### Irudad | node:Barathrumites#0 | text#0
+> -mm, Barathrumites. Strange draft o'those bearfolk. They, mm, hah. They care not overly for outsiders. I hope Argyve sold you not a better welcome than you'll have.
+……んむ、バラサラム派か。熊の民の中でも風変わりな連中でな。あの者たちは、んむ、はは。よそ者をあまり好かん。アーギヴが、実際より手厚い歓迎を約束しておらんといいがね。
+
+### Irudad | node:FinishedRedrock#0 | text#0
+> -this? Oh? Oh...
+>
+> {{emote|*Elder Irudad pauses for several minutes.*}}
+>
+> Warted leg? mm. Foul smell of sour gum? mmm. Moon and sun....
+>
+> A girshling? This is a girshling.
+……これかね？ おや？ おお……。
+
+{{emote|*イルーダッド長老は何分も黙り込む。*}}
+
+いぼだらけの脚？ んむ。すえた樹脂のような悪臭？ んむむ。月と太陽よ……。
+
+ギルシュリング？ これは、ギルシュリングだ。
+
+### Irudad | node:FinishedRedrock#0 / choice:@Girshling#0 | direct
+> What's a girshling?
+ギルシュリングとは？
+
+### Irudad | node:Girshling#0 | text#0
+> Creature of plague, =player.formalAddressTerm=. mmm. This one...
+>
+> {{emote|*Elder Irudad pauses.*}}
+>
+> This one covered in slick and muscled out the bilge hose of sleeping Agolgot, in the cave under the Cloaca...
+>
+> -mm, but here? Girshling this far west? There must be hundreds for one to reach... mm, does the Gyre widen again??
+災いの生き物だよ。んむむ。こいつは……。
+
+{{emote|*イルーダッド長老が言葉を止める。*}}
+
+こいつは、ぬめりにまみれて、眠るアゴルゴットの汚水管から這い出してきたものだ。クロアカの下の洞窟でな……。
+
+……んむ、だが、こんな所に？ こんな西までギルシュリングが？ 一匹がここまで来るには、何百匹もいるはずだ……。んむ、渦動がまた広がっておるのか？
+
+### Irudad | node:Girshling#0 / choice:@Gyre#0 | direct
+> Gyre?
+渦動？
+
+### Irudad | node:Girshling#0 / choice:@GyreWight#0 | direct
+> I talked to a strange figure next to the girshling.
+ギルシュリングのそばにいた、奇妙な者と話をした。
+
+### Irudad | node:Girshling#0 / choice:@GyreWight#1 | direct
+> There was a strange figure shadowing the creature...
+あの生き物のあとをつけている、奇妙な者がいた……。
+
+### Irudad | node:Girshling#0 / choice:@Defanged#0 | direct
+> I noticed the creature has had its fangs removed.
+その生き物は、牙を抜かれていた。
+
+### Irudad | node:Gyre#0 | text#0
+> {{emote|*Elder Irudad pauses.*}}
+>
+> -mm, plagues. Of our great grandsires many-times-over. Salt, darkness, svardym-frog... Girshling.
+{{emote|*イルーダッド長老が言葉を止める。*}}
+
+……んむ、災いのことだよ。わしらのひいひい……ずっと昔のご先祖の時代のな。塩、闇、スヴァーディムの蛙……そして、ギルシュリング。
+
+### Irudad | node:Agolgot2#0 | text#0
+> {{emote|*Elder Irudad pauses.*}}
+>
+> -mm, =player.formalAddressTerm=. Do not like to sour the air with a harsh word! But this tiding bites my liver like acid. mm, must ask Nima for an elixir of yuckwheat...
+{{emote|*イルーダッド長老が言葉を止める。*}}
+
+……んむ。きつい言葉で場の空気を悪くしたくはないんだがね！ だが、この知らせは酸のようにわしの肝を噛む。んむ、ニマにヤックウィートの薬をもらわねば……。
+
+### Irudad | node:Agolgot2#0 / choice:@GyreWight#0 | direct
+> I talked to a strange figure next to the girshling.
+ギルシュリングのそばにいた、奇妙な者と話をした。
+
+### Irudad | node:Agolgot2#0 / choice:@GyreWight#1 | direct
+> There was a strange figure shadowing the creature...
+あの生き物のあとをつけている、奇妙な者がいた……。
+
+### Irudad | node:Agolgot2#0 / choice:@Defanged#0 | direct
+> I noticed the creature has had its fangs removed.
+その生き物は、牙を抜かれていた。
+
+### Irudad | node:Agolgot2#0 / choice:@Apology#0 | direct
+> I am sorry to cause pain, Elder.
+つらい話をしてすまない、長老。
+
+### Irudad | node:GyreWight#0 | text#0
+> -mm, oh? In dyed robes, flashing gestures of hand? And ranting about pipe milk? A gyre wight, must be. They about worship the Girsh nephilim as gods.
+……んむ、ほう？ 染めたローブを着て、手をひらひら動かしておったかね？ 「管の乳」がどうのとわめいておったか？ それなら渦動ワイトに違いない。ギルシュのネフィリムを神のように崇めておる連中だよ。
+
+### Irudad | node:GyreWight#0 / choice:@Nephilim#0 | direct
+> Girsh nephilim?
+ギルシュのネフィリム？
+
+### Irudad | node:Nephilim#0 | text#0
+> {{emote|*Elder Irudad pauses.*}}
+>
+> -mm, nephilim. Seventh plague. Girsh titans born on the Moon Stair, and quickened to life to eat our young. Sultan Resheph drove them back a chiliad ago, away to slumber. mm, do they rouse?
+{{emote|*イルーダッド長老が言葉を止める。*}}
+
+……んむ、ネフィリム。七つ目の災いだ。月の階段で生まれたギルシュの巨人たちで、わしらの子らを喰らうために命を吹き込まれた。千年前にスルタン・レシェフが追い払い、眠りにつかせたのだが……。んむ、目を覚まそうとしておるのか？
+
+### Irudad | node:Defanged#0 | text#0
+> -mm, oh? A gyre wight, must be. They bind the teeth right up to their own gums, to make a show for the Girsh nephilim.
+……んむ、ほう？ それは渦動ワイトの仕業に違いない。あの連中は、ギルシュのネフィリムに見せるために、歯を歯ぐきのところまで縛り上げてしまうのさ。
+
+### Irudad | node:Defanged#0 / choice:@Nephilim#0 | direct
+> Girsh nephilim?
+ギルシュのネフィリム？
+
+### Irudad | node:Apology#0 | text#0
+> -mm? No, =player.formalAddressTerm=! Your finding is rich in value to us. We are poor farmers, and sharpen our vinereapers is all we can do. But others? Perhaps more.
+>
+> Take these prickly-boons as thanks. mm, I will not soon forget this, =name=. Leave me now to muse, kindly...
+……んむ？ いやいや、とんでもない！ そなたの見つけたものは、わしらにとって大きな値打ちがある。わしらは貧しい農夫で、蔓刈り鎌を研ぐくらいしかできん。だが、ほかの者なら？ もっと何かできるかもしれん。
+
+礼として、このトゲトゲのご褒美を受け取っておくれ。んむ、このことはそうそう忘れんよ、=name=。さて、すまんが少し考えごとをさせておくれ……。
+
+### Irudad | node:Apology#0 / choice:@End#0 | text#0
+> Live and drink.
+生きて飲め。
+
+### Irudad | node:GyreReminder#0 | text#0
+> -mm, yes? Plagues, a chiliad old. Seven such: girshlings, darkness. mm, svardym-frog...
+>
+> Ah, nephilim, too, =player.formalAddressTerm=. Girsh titans who eat the young of kith and kin. Sultan Resheph drove them under the earth, but do they stir??
+……んむ、なにかね？ 千年前の災いのことだよ。全部で七つ。ギルシュリング、闇……んむ、スヴァーディムの蛙……。
+
+ああ、それにネフィリムもだ。身内や仲間の子らを喰らうギルシュの巨人たちさ。スルタン・レシェフが地の底へ追いやったが……また動き出しておるのか？
+
+### Irudad | node:SlynthRequestAccept#0 | text#0
+> mm, I am for you, =name=. Any friend of yours is too a friend of Joppa, and if those friends desire shelter I wouldn't dare turn them away. I only hope these lilypad-folk have the patience for a farmer's life. -mm, not as exciting here as it was in the Palladium Reef.
+んむ、わしは賛成だよ、=name=。そなたの友はジョッパの友でもある。その友が身を寄せる場所を求めておるなら、追い返したりはせんよ。ただ、あのハスの葉の民に、農夫暮らしをする辛抱強さがあればいいがね。……んむ、ここはパラジウム礁ほどにぎやかではないからな。
+
+### Irudad | node:SlynthRequestAccept#0 / choice:@End#0 | direct
+> You have my thanks, Elder.
+ありがとう、長老。
+
+### Irudad | node:SlynthArrived#0 | text#0
+> -mm, your luminous friends are settling in quite well.
+>
+> There is yet a pall of ennui among some, but such is the case for any party of brave migrants. Ah, they will find their ground or their path, all in time. Some farmers show some small discomfort but that will pass in time.
+……んむ、そなたの光る友人たちは、ずいぶんうまく馴染んでおるよ。
+
+まだ退屈そうに沈んでおる者もいるが、新しい土地へ移ってきた勇気ある者たちには、よくあることさ。なに、いずれ自分の居場所か、進む道を見つけるだろう。少し落ち着かぬ様子の農夫もおるが、それも時が解決するよ。
+
+### Irudad | node:SlynthArrived#0 / choice:@Start#0 | direct
+> My thanks, Elder.
+ありがとう、長老。
+
+### Irudad | node:SlynthSettled#0 | text#0
+> -mm, ah, =name=. Come see how the slynth have become a part of Joppa!
+>
+> Some cared not for the slow pace of our lives and struck out on their own, and with their thews and wits I have no doubt they will live to find purpose. mm, others are welcome to grow and flourish here in our marshes.
+……んむ、おお、=name=。スリンスたちがすっかりジョッパの一員になったのを見ておくれ！
+
+わしらののんびりした暮らしが性に合わず、自分の足で旅立った者もおる。あの力と知恵があれば、きっと生きて、目指すものを見つけるだろう。んむ、残った者たちは、この沼地で根を張り、大いに育つといい。
+
+### Irudad | node:SlynthSettled#0 / choice:@Start#0 | direct
+> My thanks again, Elder.
+重ねてありがとう、長老。
+
+### Mehmet | start:RedrockNews#0 | text#0
+> Live and drink, =name=. Any news from Red Rock?
+生きて飲め、=name=。レッドロックのほうはどうだった？
+
+### Mehmet | start:RedrockNews#0 / choice:@BackFromRedrock#0 | direct
+> Yes. I found the vermin and bits of gnawed watervine. I carry one's corpse with me.
+害獣と、かじられたウォーターヴァインのかけらを見つけた。一匹の死骸を持ってきた。
+
+### Mehmet | start:RedrockNews#0 / choice:@Aye#0 | direct
+> None yet.
+まだ何も。
+
+### Mehmet | start:Welcome#0 | text#0
+> Live and drink, =name=.~
+> Taste what on the wind today, =name=?~
+> Moon and sun, =name=.~
+> I can taste lime, =name=. And mayhaps gallium?~
+> Aye, the pest-vanquisher! Live and drink, =name=.
+生きて飲め、=name=。~
+今日の風は何の味がする、=name=？~
+月と太陽を、=name=。~
+石灰の味がするな、=name=。それとガリウムも少しか？~
+おう、害獣退治の英雄じゃないか！ 生きて飲め、=name=。
+
+### Mehmet | start:Welcome#0 | text#1
+> A waterhand? Aye. Live and drink, traveller.
+水稼ぎの人か？ そうか。生きて飲め、旅の人。
+
+### Mehmet | start:Welcome#0 / choice:MehmetIntroduce#0 | direct
+> I am called =name=.
+=name=という。
+
+### Mehmet | start:Welcome#0 / choice:@Village#0 | direct
+> Can you tell me about your village, Joppa?
+この村、ジョッパのことを教えてくれないか？
+
+### Mehmet | start:Welcome#0 / choice:@Work#0 | direct
+> I am in search of work.
+仕事を探している。
+
+### Mehmet | start:Welcome#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Mehmet | node:Name#0 | text#0
+> Mehmet, the tongue says. Live and drink, =name=.
+舌に乗せるならメフメットだ。生きて飲め、=name=。
+
+### Mehmet | node:Village#0 | text#0
+> Watervine farm in the lap of the marsh. You've sucked the moisture out a vinewafer, yea? We tend the plant here.
+沼地のふところにある、ウォーターヴァインの畑さ。ヴァインウェハーの汁を吸ったことはあるだろ？ あの草を、ここで育ててるんだ。
+
+### Mehmet | node:VillageMore#0 | text#0
+> Wind off the Great Desert cools a touch and gives up moisture. Just enough. A tongue can taste a hundred kinds of wind, y'know?
+>
+> Anywhile, that's where my wandering mind goes. More's about Joppa I say speak to our Elderfriend. Irudad. Up northwise the path.
+大砂漠から吹いてくる風が、ここで少し冷えて、湿り気を落としていく。ちょうど足りるくらいにな。舌ってのは、百通りの風の味が分かるもんなんだぜ？
+
+まあ、そんなことばかり考えちまうんだよ、俺は。ジョッパのことをもっと知りたきゃ、長老に聞いてくれ。イルーダッドさ。道を北へ行った所だ。
+
+### Mehmet | node:Work#0 | text#0
+> Aye? I have it, then.
+>
+> Somethin' is eating our watervine, 'round Beetle Moon. Q-ruun says he saw a creature, spider-like, slinking in the brine. But no cave spider would dare get so near Warden's stomps.
+>
+> I tasted a bit of red fleck in the pool. Shale, like we find in the soil by Red Rock...
+そうか？ なら、あるぞ。
+
+甲虫月のころから、何かがうちのウォーターヴァインを食ってるんだ。クルーンが言うには、クモみたいなやつが塩水の中をこそこそ動いてたんだと。だが、洞窟のクモが監視官の見回りのそばまで来るはずがない。
+
+水たまりをなめたら、赤い粒の味がした。頁岩だ。レッドロックのあたりの土に混じってるやつさ……。
+
+### Mehmet | node:WorkMore#0 | text#0
+> Hike there, will you? To Red Rock. Just about two parasangs north of Joppa.
+>
+> Kill the vermin and bring one's corpse back, for seein' what it is. Elder will take care to pay you after, waterhand.
+ちょっと行ってきてくれないか？ レッドロックへ。ジョッパから北に二里ってところだ。
+
+害獣を退治して、一匹分の死骸を持ち帰ってくれ。正体を確かめたいんだ。礼はあとで長老がちゃんと払ってくれるよ、水稼ぎの人。
+
+### Mehmet | node:WorkMore#0 / choice:@End#0 | direct
+> I will do as you ask.
+引き受けた。
+
+### Mehmet | node:WorkMore#0 / choice:@Start#0 | direct
+> I'm not interested.
+興味はない。
+
+### Mehmet | node:Aye#0 | text#0
+> Aye.
+そうか。
+
+### Mehmet | node:BackFromRedrock#0 | text#0
+> Oh? Oh. {{emote|*Mehmet pauses.*}}
+>
+> Don't like the look o' that thing. Best bring it to Elder. Hut's northwise up the path.
+お？ おお。{{emote|*メフメットが言葉を止める。*}}
+
+どうも気味の悪い見た目だな。長老に見せたほうがいい。小屋は道を北へ行った所だ。
+
+### Mehmet | node:BackFromRedrock#0 / choice:>End#0 | direct
+> As you say.
+分かった。
+
+### WardenYrame | node:Start#0 | text#0
+> Welcome a-Joppa, friend. Stay peacelike, and we stay friends, hyeh? You make trouble, it’s my work a-split you open like a croc.~
+> Elder’s over my right shoulder, chemist a-left. I ask you pick one or turn around. I en’t here for chat.~
+> Live and drink, yonderling.~
+> {{emote|*Yrame grunts.*}}~
+> {{emote|*Yrame nods.*}}~
+> What follows, then?~
+> Got an eyeful, heh?~
+> Well. They en't ended you yet.
+ジョッパへようこそ、お客人。おとなしくしてりゃ仲良くやれる、な？ 面倒を起こしたら、ワニみてえに腹をかっさばくのがこっちの仕事だ。~
+長老は右肩の向こう、薬屋は左だ。どっちかへ行くか、引き返すかしな。おしゃべりの相手をするためにここにいるんじゃねえ。~
+生きて飲め、よそ者。~
+{{emote|*イラメがうなる。*}}~
+{{emote|*イラメがうなずく。*}}~
+で、次は何だ？~
+じろじろ見ていきやがって、へっ。~
+ほう。まだくたばってなかったか。
+
+### WardenYrame | node:Start#0 / choice:>Rustwells#0 | direct
+> I must search the Rustwells.
+錆の井戸を探らなければならない。
+
+### WardenYrame | node:Start#0 / choice:>Red Rock#0 | direct
+> Mehmet has bade me travel to Red Rock.
+メフメットに、レッドロックへ行ってくれと頼まれた。
+
+### WardenYrame | node:Start#0 / choice:>Grit Gate#0 | direct
+> I depart for Grit Gate soon.
+もうすぐグリット・ゲートへ発つ。
+
+### WardenYrame | node:Start#0 / choice:>Stilt#0 | direct
+> I journey North, to the Six Day Stilt.
+北の、シックスデイ・スティルトへ向かう。
+
+### WardenYrame | node:Start#0 / choice:>Who#0 | direct
+> Who are you?
+あなたは？
+
+### WardenYrame | node:Start#0 / choice:>Warden#0 | direct
+> What is a Warden?
+監視官とは何だ？
+
+### WardenYrame | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### WardenYrame | node:Who#0 | text#0
+> Called Yrame, Warden a-Joppa. I kill trouble. Don't be trouble.
+イラメってもんだ。ジョッパの監視官さ。面倒ごとは片づける。面倒ごとになるなよ。
+
+### WardenYrame | node:Warden#0 | text#0
+> Nigh every settlement a-Qud keeps a Warden. We snuff threats to the peace.
+クッドの村なら、たいてい監視官を置いてる。平和を乱すやつを始末するのが役目だ。
+
+### WardenYrame | node:Rustwells#0 | text#0
+> Out East? Uegh. Wouldn't go, I. Git ta Qudzu. Like as rust the pauldrons right off a-shoulders.
+東のか？ うげ。行かねえな、あそこは。クッズにたかられるぞ。肩当てなんざ、肩からまるごと錆びて落ちちまう。
+
+### WardenYrame | node:Red Rock#0 | text#0
+> Up North? En't far. See them baboons, you put one's light out for me.
+北のか？ 遠かねえ。ヒヒどもを見かけたら、一匹くらいこっちの分も片づけといてくれ。
+
+### WardenYrame | node:Grit Gate#0 | text#0
+> Don't say? Well. Fates favor your feet, hyeh.
+へえ、そうかい。まあ、運命がその足を守ってくれるといいな。
+
+### WardenYrame | node:Stilt#0 | text#0
+> If you don't get dry-roasted by the fire snakes, ought be a time of times. Better hit all the food stalls for samples, hyeh?
+火の蛇にこんがり焼かれなきゃ、そりゃあ楽しい旅になるだろうよ。屋台は全部回って味見しとけよ、な？
+
+### Nima Ruda | node:Start#0 | text#0
+> Ahh, there is a new face. I am Nima Ruda, town apothecary. If your feet point to Qud, you’ll need some of my wares before you go.~
+> Live and drink, wayfarer.~
+> Time and rest are the surest way to dress a wound, but my wares can help if you’re in a hurry.~
+> The Fates watch you, =player.formalAddressTerm=.~
+> Don’t let your nostrums run dry on the road. I have what you need.
+あら、見ない顔ね。私はニマ・ルーダ、この村の薬屋よ。クッドへ向かうつもりなら、出かける前に私の薬をいくつか持っていったほうがいいわ。~
+生きて飲め、旅の人。~
+傷を治すいちばん確かな方法は、時間と休息。でも急ぐなら、私の薬が助けになるわ。~
+運命があなたを見守っているわ。~
+旅の途中で薬を切らさないようにね。必要なものはそろってるわよ。
+
+### Nima Ruda | node:Start#0 / choice:>Wares#0 | direct
+> What wares do you offer?
+どんな品がある？
+
+### Nima Ruda | node:Start#0 / choice:>Story#0 | direct
+> Where are you from?
+あなたはどこの出身だ？
+
+### Nima Ruda | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Nima Ruda | node:Wares#0 | text#0
+> Witchwood for pain, bandages for bleeding, yuckwheat and honey for when your guts act up. Coldcaps when I can find them. Why not take a look?
+痛みにはウィッチウッド、出血には包帯、おなかの調子が悪いときはヤックウィートと蜂蜜。手に入ればコールドキャップもあるわ。見ていかない？
+
+### Nima Ruda | node:Story#0 | text#0
+> I grew up right here in Joppa, daughter of the Elder and all. Spent some years delving, but gave it up after a few near escapes and nearly deadly wounds. I’m better suited to herbalism anyway, and my father worries less.
+生まれも育ちもこのジョッパよ。長老の娘なの。何年か遺跡潜りもしてたけど、危ない目に遭ったり、死にかけるような傷を負ったりして、やめたわ。どのみち薬草いじりのほうが性に合ってるし、父の心配も減ったしね。
+
+### Nima Ruda | node:Story#0 / choice:>Leadership#0 | direct
+> Will you inherit leadership of Joppa from your father?
+いずれは父親のあとを継いで、ジョッパの長になるのか？
+
+### Nima Ruda | node:Leadership#0 | text#0
+> Fates forfend. I would hardly like to lead a village and run a shop at the same time.
+運命よ、どうかそれだけはご勘弁を。村をまとめながら店も切り盛りするなんて、まっぴらよ。
+
+### Nima Ruda | node:Leadership#0 / choice:>End#0 | direct
+> Fair enough. Live and drink.
+もっともだ。生きて飲め。
+
+### Tam | start:Welcome#0 | text#0
+> =player.apparentSpecies=? We are greeted! What do you desire?
+おや、お客さまですね！ ごあいさつ、いたみいります！ 何をお望みで？
+
+### Tam | start:Welcome#0 / choice:@WhoIsTam#0 | direct
+> I am =name=. Who are you?
+=name=だ。あなたは？
+
+### Tam | start:Welcome#0 / choice:@Joppa#0 | direct
+> Do you live here?
+ここに住んでいるのか？
+
+### Tam | start:Welcome#0 / choice:@AboutTheDromad#0 | direct
+> What kind of creature are you?
+あなたはどういう種族なんだ？
+
+### Tam | start:Welcome#0 / choice:@End#0 | direct
+> I desire nothing. Live and drink.
+何もいらない。生きて飲め。
+
+### Tam | node:WhoIsTam#0 | text#0
+> It is a pleasure to know this, =player.apparentSpecies= =player.formalAddressTerm= =name=! I am Tam.
+お見知りおきいただけて光栄です、=name=さま！ わたくし、タムと申します。
+
+### Tam | node:Joppa#0 | text#0
+> Joppa is my home, yes.
+>
+> I walked Moghra'yi in the caravans of my brethren and the saltback, but upon meeting Elder Irudad, knew at once to settle down here. You will understand, =player.formalAddressTerm= =player.apparentSpecies=, if you speak to him.
+はい、ジョッパがわたくしの家です。
+
+かつては同胞とソルトバックの隊商にまじって、モグラヤイを歩いておりました。ですが、イルーダッド長老にお会いして、すぐにここに腰を落ち着けようと決めたのです。あなたさまも、長老とお話しになれば分かりますとも。
+
+### Tam | node:AboutTheDromad#0 | text#0
+> I am dromad, =player.apparentSpecies= =player.formalAddressTerm=. Some say saltstrider. Do you know this?
+わたくしはドロマドでございます。「塩渡り」と呼ぶ方もおります。ご存じでしたか？
+
+### Tam | node:AboutTheDromad#0 / choice:@AboutTheDromad2#0 | direct
+> I do.
+知っている。
+
+### Tam | node:AboutTheDromad#0 / choice:@AboutTheDromad2#1 | direct
+> I do not.
+知らない。
+
+### Tam | node:AboutTheDromad2#0 | text#0
+> My people have walked the salt for thousands of years, meeting every creature that lives and thinks. From Pale Sea to the marsh of Joppa, and under the Hanging Hills, our chests are drawn.
+わたくしどもの民は、何千年ものあいだ塩の大地を歩き、生きて考えるありとあらゆる者と出会ってまいりました。青白き海からジョッパの沼地まで、そして垂れ丘の下まで、わたくしどもは荷箱を引いて回るのです。
+
+### JoppaFarmer | node:Start#0 | text#0
+> Moon and sun.~
+> Hyeh?~
+> How a'yeh.~
+> All well?~
+> Marshes be generous.~
+> Live and drink, waterhand.~
+> Don't want trouble.~
+> Watervine coming in good, see? Fat wafers.~
+> Need watervine?~
+> You harvest it, you keep it.~
+> Good crop this year.~
+> Goin' out? Mind the crocs.
+月と太陽を。~
+へ？~
+元気かい。~
+変わりないか？~
+沼の恵みがありますように。~
+生きて飲め、水稼ぎの人。~
+面倒はごめんだよ。~
+ウォーターヴァインの育ちがいいだろ？ 実がまるまるだ。~
+ウォーターヴァイン、要るかい？~
+自分で刈った分は持ってっていいよ。~
+今年は豊作だ。~
+出かけるのか？ ワニに気をつけな。
+
+### JoppaFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Argyve | start:MumblingWelcome#0 | text#0
+> {{emote|*mumbling*}} ...exceeding mass thresholds, perhaps a ganglionic teleprojector fitted with suspensors...
+{{emote|*ぶつぶつ*}} ……質量の上限を超えるな、なら神経節テレプロジェクターに浮揚装置を組み込んで……。
+
+### Argyve | node:MumblingWelcome2#0 | text#0
+> Oh, I didn't notice you there. That's because I was ignoring you.
+おや、いたのか。気づかなかったよ。無視していたからな。
+
+### Argyve | node:MumblingWelcome3#0 | text#0
+> {{emote|*mumbling*}} ...waste heat from the thermo cask? Or centrifugal extraction to the p-density of sunslag...
+{{emote|*ぶつぶつ*}} ……熱樽の廃熱を使うか？ それとも遠心分離で太陽滓のp密度まで……。
+
+### Argyve | node:Knickknack#0 | text#0
+> {{emote|*mumbling*}} ...unexpected deviation from the Klanq constant.
+>
+> {{emote|*Argyve coughs.*}}
+>
+> Must you bother me? What are you, some sort of waterfreak? Faundren-eyed pilgrim? Arconaut? Make =player.reflexive= useful and fetch me a knickknack from one of the caves, then. I may "reward" you.
+{{emote|*ぶつぶつ*}} ……クランク定数からの、予期せぬずれだ。
+
+{{emote|*アーギヴが咳払いする。*}}
+
+わざわざ邪魔しに来たのか？ 何者だ、水に浮かれた田舎者か？ 目をきらきらさせた巡礼か？ それともアルコノートか？ まあいい、少しは役に立って、どこかの洞窟から小物を拾ってこい。「ご褒美」をやらんでもない。
+
+### Argyve | node:Knickknack#0 / choice:@Cave#0 | direct
+> Where can I find a cave?
+洞窟はどこにある？
+
+### Argyve | node:Knickknack#0 / choice:@End#0 | direct
+> I'm not interested.
+興味はない。
+
+### Argyve | node:Cave#0 | text#0
+> There are caves everywhere, you dolt! Scoop the surface of the marsh, or head on east to the rust wells, or wander into the Desert for all I care...
+洞窟なんぞどこにでもある、このまぬけ！ 沼地の表をさらうなり、東の錆の井戸へ行くなり、砂漠をさまようなり、勝手にしろ……。
+
+### Argyve | node:Cave#0 / choice:@End#0 | direct
+> I will return with your knickknack.
+小物を持って戻ってくる。
+
+### Argyve | node:Cave#0 / choice:@End#1 | direct
+> I'm not interested.
+興味はない。
+
+### Argyve | start:StartHasFetch1#0 | text#0
+> You're standing in my light! What do you want?
+明かりの前に立つな！ 何の用だ？
+
+### Argyve | start:StartHasFetch1#0 / choice:@GiveKnickknack#0 | text#0
+> Here is your knickknack.
+頼まれていた小物だ。
+
+### Argyve | start:StartHasFetch1#0 / choice:@End#0 | direct
+> Nothing. I will return with your knickknack.
+何でもない。小物を持って戻ってくる。
+
+### Argyve | start:GiveKnickknack#0 | text#0
+> Ah, mmm, hmmm. Are you a useful one, after all? Go fetch me another!
+ほう、ふむ、ふーむ。案外使えるやつなのか？ もうひとつ取ってこい！
+
+### Argyve | start:GiveKnickknack#0 / choice:>End#0 | direct
+> If I must.
+しかたないな。
+
+### Argyve | start:StartHasFetch2#0 | text#0
+> Ah, mmm, hmmm. Are you a useful one, after all? Go fetch me another!
+ほう、ふむ、ふーむ。案外使えるやつなのか？ もうひとつ取ってこい！
+
+### Argyve | start:StartHasFetch2#0 / choice:@Impressive#0 | text#0
+> Here is your knickknack.
+頼まれていた小物だ。
+
+### Argyve | start:StartHasFetch2#0 / choice:@End#0 | direct
+> If I must.
+しかたないな。
+
+### Argyve | node:Impressive#0 | text#0
+> {{emote|*Argyve whistles.*}}
+>
+> Impressive, you! Maybe you're fit to poke around my workshop and swap scrap with me. I have been wanting another apprentice. So unfortunate about Skref, what with the disembowelment and all. Take a seat, there.
+{{emote|*アーギヴが口笛を吹く。*}}
+
+やるじゃないか！ お前なら、わしの工房をいじり回して、がらくたを交換し合うくらいの資格はありそうだ。ちょうど新しい弟子が欲しかったところでな。スクレフは気の毒だった、はらわたをぶちまけたりなんだりで。ほら、そこに座れ。
+
+### Argyve | node:Weirdwire#0 | text#0
+> {{emote|*Argyve raises both eyebrows.*}}
+>
+> Now, to screw the nut on the bolt with an explanation! I'm on the cusp, you see. A grand discovery. The Weirdwire Conduit is near assembled, and once it is, we'll be able to chat with anyone... in instant time! from here to the Yd Freehold. But before I can finish, I need wire. As much as you can find... at least two hundred feet. You should be able to scavenge it from the rust wells.
+{{emote|*アーギヴが両方の眉を上げる。*}}
+
+さて、ボルトにナットを締めるように、きっちり説明してやろう！ わしは今、大発見の一歩手前にいるんだ。奇線導管がもうすぐ組み上がる。完成すれば、誰とでも話ができるようになる……一瞬でな！ ここからイド・フリーホールドまでだ。だが仕上げるには電線がいる。見つけられるだけ……少なくとも二百フィートだ。錆の井戸を漁れば集められるはずだ。
+
+### Argyve | node:Weirdwire#0 / choice:>End#0 | direct
+> I'll fetch you your wire.
+電線を集めてこよう。
+
+### Argyve | node:Weirdwire#0 / choice:>End#1 | direct
+> I'm not interested.
+興味はない。
+
+### Argyve | start:TheWire#0 | text#0
+> The wire! Give it to me!
+電線だ！ よこせ！
+
+### Argyve | start:TheWire#0 / choice:>GiveWire#0 | text#0
+> Take the wire.
+電線だ、受け取れ。
+
+### Argyve | start:TheWire#0 / choice:>End#0 | direct
+> I don't have enough yet.
+まだ足りない。
+
+### Argyve | node:GiveWire#0 | text#0
+> {{emote|*Argyve hoots*}}
+>
+> Yes, yes! Beautiful wire! -oh, before I forget, I repaired an old recoiler for you. Use it whenever you wish to hop back to Joppa quickly. Now, give me a few moments to attach the wire...
+{{emote|*アーギヴが歓声を上げる*}}
+
+そうだ、そうだ！ 美しい電線だ！ ……おっと、忘れんうちに。古いリコイラーを直しておいてやった。ジョッパにひとっ飛びで戻りたいときに使え。さて、電線をつなぐから少し待っておれ……。
+
+### Argyve | node:GiveWire#0 / choice:@End#0 | text#0
+> I will return.
+また来る。
+
+### Argyve | start:ConduitWorking#0 | text#0
+> It's working! Genius! Genius! Noise in the static- I hear it! I hear!... what's this? What *is* that? Wait...
+動いた！ 天才だ！ 天才だ！ 雑音の中に音が……聞こえる！ 聞こえるぞ！ ……何だ、これは？ いったい*何*だ？ 待て……。
+
+### Argyve | node:Signal1#0 | text#0
+> It's repeating itself...
+同じものを繰り返している……。
+
+### Argyve | node:Signal2#0 | text#0
+> {{emote|*Argyve mumbles to himself for several minutes.*}}
+{{emote|*アーギヴは何分も、ひとりでぶつぶつつぶやいている。*}}
+
+### Argyve | node:Signal3#0 | text#0
+> Apprentice! Come, here! Something strange is occurring. The Conduit is picking up a signal, some sort of repeating transmission. I cannot decipher it, however. I lack cryptogull eggs and, well, never you mind! I have a great task for you, my apprentice. Do you accept it?
+弟子よ！ ここへ来い！ 妙なことが起きている。導管が信号を拾ったんだ。何かを繰り返し送ってきておる。だが、わしには解読できん。クリプトガルの卵が足りんし、それに……いや、お前は気にせんでいい！ 弟子よ、お前に大仕事を頼みたい。引き受けるか？
+
+### Argyve | node:Signal3#0 / choice:@Canticle1#0 | direct
+> Can I know what it is?
+どんな仕事か教えてくれ。
+
+### Argyve | node:Canticle1#0 | text#0
+> -yes. You must seek out Barathrum the Old, the eldest and wisest tinker alive. He lives with his followers the Barathrumites under the arch of Grit Gate to the northeast, in the jungle-strangled ruins of Qud. He will know what to make of the signal.
+……うむ。老バラサラムを探し出すんだ。生きているからくり職人の中で、いちばん年寄りで、いちばん賢い男だ。北東のクッドの、密林に締めつけられた廃墟、グリット・ゲートのアーチの下で、弟子のバラサラム派と暮らしている。あの男なら、この信号をどう読めばいいか分かるはずだ。
+
+### Argyve | node:Canticle1#0 / choice:@WhoBarathrumites#0 | direct
+> Who are these Barathrumites?
+バラサラム派とは何者だ？
+
+### Argyve | node:Canticle1#0 / choice:@CanticleAccept1#0 | direct
+> I require no further information. I will go.
+それだけ分かれば十分だ。行こう。
+
+### Argyve | node:WhoBarathrumites#0 | text#0
+> Disciples of Barathrum. Mostly urshiib, like their mentor- quilled albino bears who prefer their candle-dim caves to the sun-salted surface of the jungle. A thousand years ago Barathrum and his kin crossed the Homs Delta into the rusting heart of Qud. He has spent centuries peeling the chrome shells off time's artifacts in his workshop. If he cannot decipher the signal, no one can.
+バラサラムの弟子たちだ。師匠と同じで、ほとんどがウルシーブ――針の毛をもつ白い熊でな、日に焼けて塩をふいた密林の地上より、ろうそくの灯る薄暗い洞窟を好む連中だ。千年前、バラサラムは一族を連れてホムス・デルタを渡り、錆びゆくクッドの中心へやって来た。それから何百年も、工房で古の遺物からクロームの殻をはがし続けている。あの男に解読できん信号なら、誰にもできん。
+
+### Argyve | node:WhoBarathrumites#0 / choice:@CanticleAccept1#0 | direct
+> I accept the task, Argyve.
+その仕事、引き受けた、アーギヴ。
+
+### Argyve | node:WhoBarathrumites#0 / choice:@End#0 | direct
+> I must think on this.
+少し考えさせてくれ。
+
+### Argyve | node:WhoBarathrumites#0 / choice:@End#1 | direct
+> Farewell, Argyve.
+じゃあな、アーギヴ。
+
+### Argyve | node:CanticleAccept1#0 | text#0
+> Splendid! Perfect! Let me record the signal to disk, which you'll need to guard with your life, I'm afraid.
+>
+> I'll rig up a droid scrambler for you, too. You see, the Barathrumites have programmed a troupe of waydroids to guard the approach to Grit Gate. With the scrambler, you'll needn't worry about them. Wait there.
+すばらしい！ 完璧だ！ 信号をディスクに記録してやろう。悪いが、命がけで守ってもらうことになるぞ。
+
+ドロイド・スクランブラーもこしらえてやる。バラサラム派は、ウェイドロイドの一団にグリット・ゲートへの道を見張らせておるんだ。スクランブラーがあれば、連中のことは気にせんでいい。そこで待っておれ。
+
+### Argyve | node:CanticleAccept2#0 | text#0
+> {{emote|*Argyve mumbles to himself for several minutes.*}}
+{{emote|*アーギヴは何分も、ひとりでぶつぶつつぶやいている。*}}
+
+### Argyve | node:CanticleAccept3#0 | text#0
+> Here you are. Now, go! Off with you! May you live long enough to do my bidding. Away, away!
+ほれ、持っていけ。さあ行け！ とっとと行け！ わしの用を済ませるまでは生きておれよ。ほら、行った行った！
+
+### Argyve | node:CanticleAccept3#0 / choice:>End#0 | text#0
+> Farewell, Argyve.
+じゃあな、アーギヴ。
+
+### Argyve | start:StartFinishedCanticle#0 | text#0
+> {{emote|*Argyve gives a curt nod and extended cock of an eyebrow.*}}
+>
+> Apprentice.
+>
+> {{emote|*Argyve returns to his tasks.*}}
+{{emote|*アーギヴはそっけなくうなずき、片眉をくいっと上げたままにする。*}}
+
+弟子か。
+
+{{emote|*アーギヴは作業に戻る。*}}
+
+### Argyve | start:StartFinishedCanticle#0 / choice:@Golgotha#0 | direct
+> The Barathrumites say I must plumb a cave called Golgotha before joining them.
+バラサラム派に、仲間になる前にゴルゴタという洞窟を探ってこいと言われた。
+
+### Argyve | start:StartFinishedCanticle#0 / choice:@RankUp#0 | direct
+> Argyve, I am no apprentice. The Barathrumites call me =factionaddress:Barathrumites= now.
+アーギヴ、もう弟子じゃない。バラサラム派では、今は=factionaddress:Barathrumites=と呼ばれている。
+
+### Argyve | start:StartFinishedCanticle#0 / choice:@AskAfter#0 | direct
+> Need anything, Argyve?
+何か要るものはあるか、アーギヴ？
+
+### Argyve | start:StartFinishedCanticle#0 / choice:@End#0 | direct
+> Farewell, Argyve.
+じゃあな、アーギヴ。
+
+### Argyve | start:StartCanticleActive#0 | text#0
+> My apprentice! What?
+弟子か！ 何だ？
+
+### Argyve | start:StartCanticleActive#0 / choice:@WhoBarathrumites#0 | direct
+> Who are the Barathrumites again?
+バラサラム派について、もう一度教えてくれ。
+
+### Argyve | start:StartCanticleActive#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Argyve | node:Golgotha#0 | text#0
+> Do they? Yes, yes, Otho might. Hmm.
+>
+> {{emote|*Argyve pauses for an uncomfortably long time.*}}
+>
+> Well.
+>
+> {{emote|*Another pause, this one even more long and uncomfortable than the last*}}
+>
+> Good luck!
+そう言われたか？ ああ、そうだな、オソなら言いそうだ。ふむ。
+
+{{emote|*アーギヴは気まずくなるほど長く黙り込む。*}}
+
+まあ。
+
+{{emote|*また沈黙。さっきよりさらに長く、さらに気まずい*}}
+
+がんばれよ！
+
+### Argyve | node:RankUp#0 | text#0
+> Did they, now? Well you're not MY =factionaddress:Barathrumites=!
+>
+> Grit Gate is not Joppa, you pridesome solder-nail, and in this house you are apprentice still.
+>
+> Now, what did you want? Be quick!
+ほう、そう呼ばれたか？ だが、わしにとっては=factionaddress:Barathrumites=でも何でもない！
+
+グリット・ゲートはジョッパじゃないんだ、この思い上がったハンダ釘め。この家では、お前はまだ弟子だ。
+
+で、何の用だ？ 手短にな！
+
+### Argyve | node:AskAfter#0 | text#0
+> -what?
+>
+> No, no, I'm far too engrossed to see to your curiosity. I'm sure the Barathrumites have something for you to do.
+……何だ？
+
+いや、いや、わしは手が離せん。お前の好奇心に付き合っている暇はない。バラサラム派なら、何かやることをくれるだろうよ。
+
+### JoppaFarmerConvert | start:SpeakNoMore#0 | text#0
+> There are no more words for us, wanderer.
+もう語り合うことはない、さすらい人よ。
+
+### JoppaFarmerConvert | start:SpeakNoMore#1 | text#0
+> =name=! Live and drink, pilgrim.
+=name=！ 生きて飲め、巡礼者よ。
+
+### JoppaFarmerConvert | start:SpeakNoMore#1 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### JoppaFarmerConvert | start:FinishedPilgrimageQuest#0 | text#0
+> =name=! Live and drink, pilgrim.
+=name=！ 生きて飲め、巡礼者よ。
+
+### JoppaFarmerConvert | start:FinishedPilgrimageQuest#0 / choice:@Stilted#0 | direct
+> I have visited the Six Day Stilt.
+シックスデイ・スティルトに行ってきた。
+
+### JoppaFarmerConvert | start:FinishedPilgrimageQuest#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### JoppaFarmerConvert | node:Stilted#0 | text#0
+> Ah!
+>
+> Tell me, =pronouns.formalAddressTerm=, was it the picture of wonder as I see it in my mind's eye? Were you beauty-struck by its truths?
+ああ！
+
+聞かせてくれ、友よ。心の目に描いていたとおりの、驚きに満ちた光景だったか？ その真理の美しさに打たれたか？
+
+### JoppaFarmerConvert | node:Stilted#0 / choice:@Ohh#0 | direct
+> Truly breathtaking. How the glass glittered in the sun!
+息をのむほどだった。日差しの中でガラスがきらめいていた！
+
+### JoppaFarmerConvert | node:Stilted#0 / choice:@Glorious#0 | direct
+> To behold the Argent Fathers in simulacra... what revelation!
+銀の父祖の像を目にするとは……まさに啓示だった！
+
+### JoppaFarmerConvert | node:Stilted#0 / choice:@ShakyNah#0 | direct
+> I saw only empty spectacle. Who can worship a hole in the ground?
+中身のない見世物にしか見えなかった。地面の穴なんか誰が拝むんだ？
+
+### JoppaFarmerConvert | node:Ohh#0 | text#0
+> So it's true! O Argent Fathers, how far-reaching your works!
+>
+> ... and my trinket? Did you cast it into the Sacred Well?
+やはり本当だったのだ！ おお銀の父祖よ、御業はなんと遠くまで及ぶことか！
+
+……それで、私の小物は？ 聖なる井戸に投げ入れてくれたか？
+
+### JoppaFarmerConvert | node:Ohh#0 / choice:@Well#0 | direct
+> I did.
+入れた。
+
+### JoppaFarmerConvert | node:Ohh#0 / choice:@Lost#0 | direct
+> Sadly, it was lost.
+残念だが、なくしてしまった。
+
+### JoppaFarmerConvert | node:Ohh#0 / choice:@Flipped#0 | direct
+> No, I took it apart or sold it or something.
+いや、分解したか、売ったか、そんなところだ。
+
+### JoppaFarmerConvert | node:Well#0 | text#0
+> Moon and Sun! The Argent Fathers bless us, our paths are chromed and glistering.
+>
+> You have my thanks, =pronouns.formalAddressTerm=. Bel shield you.
+月と太陽よ！ 銀の父祖が我らを祝福してくださった。我らの行く道はクロームのように輝いている。
+
+感謝するよ、友よ。ベルがあなたを守りますように。
+
+### JoppaFarmerConvert | node:Well#0 / choice:@End#0 | direct
+> And you as well.
+あなたにも。
+
+### JoppaFarmerConvert | node:Lost#0 | text#0
+> Oh, I am leaden with this knowledge. Yet am I soothed by your pilgrimage.
+>
+> Moon and Sun, I feel the warmth of the Kasaphescence yet. Praise the Argent Fathers.
+ああ、その知らせに心が鉛のように重い。それでも、あなたが巡礼してくれたことに慰められる。
+
+月と太陽よ、それでもカサフェセンスのぬくもりを感じる。銀の父祖をたたえよ。
+
+### JoppaFarmerConvert | node:Lost#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### JoppaFarmerConvert | node:Flipped#0 | text#0
+> Oh, how your words rasp my soul, =player.formalAddressTerm=. You abrade me.
+>
+> Let us speak no more.
+ああ、その言葉が私の魂をやすりのようにこする。あなたは私をすり減らす。
+
+もう話すのはよそう。
+
+### JoppaFarmerConvert | node:Flipped#0 / choice:@End#0 | direct
+> Very well.
+分かった。
+
+### JoppaFarmerConvert | node:Glorious#0 | text#0
+> So you have seen the truth? Great are the machinations of our Argent Fathers!
+>
+> Our meeting, a tiny Canticle. Fate dances in our shadows by their will and word.
+>
+> Moon and sun, what a day! What a fine day. Praise Shekhinah!
+では、真理を見てきたのだね？ 我らが銀の父祖の御業は偉大なり！
+
+我らの出会いも、ささやかな賛歌のひとつ。父祖の御心と御言葉のままに、運命は我らの影の中で踊っている。
+
+月と太陽よ、なんという日だ！ なんとすばらしい日だ。シェキーナをたたえよ！
+
+### JoppaFarmerConvert | node:Glorious#0 / choice:@End#0 | direct
+> Praise Shekhinah!
+シェキーナをたたえよ！
+
+### JoppaFarmerConvert | node:ShakyNah#0 | text#0
+> Wh-
+>
+> My heart's sheen wanes to hear this of you. You abrade me, =player.formalAddressTerm=, I am scuffed.
+>
+> What of my trinket, then? Did you cast it into the... "hole in the ground?"
+な――
+
+あなたからそんな言葉を聞くとは、心の輝きがくもっていく。あなたは私をすり減らす。私は傷だらけだ。
+
+では、私の小物は？ その……「地面の穴」とやらに投げ入れてくれたのか？
+
+### JoppaFarmerConvert | node:ShakyNah#0 / choice:@InTheHole#0 | direct
+> Yes, I threw it in the hole.
+ああ、穴に投げ入れた。
+
+### JoppaFarmerConvert | node:ShakyNah#0 / choice:@LostIt#0 | direct
+> No, I lost it.
+いや、なくした。
+
+### JoppaFarmerConvert | node:ShakyNah#0 / choice:@LosingIt#0 | direct
+> I gave it to someone. Or sold it, perhaps.
+誰かにやった。いや、売ったんだったか。
+
+### JoppaFarmerConvert | node:InTheHole#0 | text#0
+> Well... the light of the Kasaphescence yet glimmers through your rasping edge.
+>
+> I must, then, thank you.
+そうか……そのざらついた心の縁からも、カサフェセンスの光がまだかすかに漏れているのだな。
+
+ならば、礼を言わねばなるまい。
+
+### JoppaFarmerConvert | node:InTheHole#0 / choice:@End#0 | direct
+> You're welcome.
+どういたしまして。
+
+### JoppaFarmerConvert | node:LostIt#0 | text#0
+> My stomach lurches and quavers at the shock of this knowledge.
+>
+> If there is a lesson in your disregard, I will meditate upon it in my own time.
+>
+> Let us speak no more.
+その知らせの衝撃で、胃がひっくり返って震えている。
+
+あなたのぞんざいさに何か教えがあるのなら、あとでひとり瞑想してみよう。
+
+もう話すのはよそう。
+
+### JoppaFarmerConvert | node:LostIt#0 / choice:@End#0 | direct
+> As you say.
+そうしよう。
+
+### JoppaFarmerConvert | node:LosingIt#0 | text#0
+> Ah, a pit opens under my stomach!
+>
+> Let us speak no more, I beg you. You scuff me. Live and drink.
+ああ、胃の底に穴が開いたようだ！
+
+頼むから、もう話すのはやめよう。あなたは私を傷つける。生きて飲め。
+
+### JoppaFarmerConvert | node:LosingIt#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### JoppaFarmerConvert | start:HasPilgrimageQuest#0 | text#0
+> Wanderer and =pronouns.formalAddressTerm=! Have you journeyed yet to the Stilt, and seen the Sacred Well?
+さすらい人にして我が友よ！ もうスティルトまで旅をして、聖なる井戸を見てきたか？
+
+### JoppaFarmerConvert | start:HasPilgrimageQuest#0 / choice:@End#0 | direct
+> Not yet, friend. Live and drink.
+まだだ、友よ。生きて飲め。
+
+### JoppaFarmerConvert | start:Welcome#0 | text#0
+> Wanderer! Do you venture northwise? Into the Great Desert and nearer the Six Day Stilt?
+さすらい人よ！ 北へ向かうのか？ 大砂漠へ、シックスデイ・スティルトのほうへ？
+
+### JoppaFarmerConvert | start:Welcome#0 / choice:@Stilt#0 | direct
+> What is the Six Day Stilt?
+シックスデイ・スティルトとは何だ？
+
+### JoppaFarmerConvert | start:Welcome#0 / choice:@Why#0 | direct
+> Why do you ask?
+なぜそんなことを聞く？
+
+### JoppaFarmerConvert | start:Welcome#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### JoppaFarmerConvert | node:Stilt#0 | text#0
+> Ah! The great Mechanimist temple of glass, the sacred offering Well, and history in stone relief. Peopled by the Argent Fathers, in statue and light sculpture. And circled by the grand bazaar. I hear there are more people there than numbers in the void, and their chatter makes a sound wholly raw and new to the world.
+>
+> Will you go there, and take my bauble? Will you offer it at the Well, where I cannot?
+ああ！ メカニマス教団の、ガラスでできた大聖堂だよ。供え物をささげる聖なる井戸があり、石の浮き彫りには歴史が刻まれている。像や光の彫刻となった銀の父祖が、そこに住まわれている。まわりはぐるりと大市場だ。虚空の数より大勢の人がいて、そのざわめきは、この世のどこにもない、生まれたての音がするそうだ。
+
+そこへ行って、私の飾り物を持っていってくれないか？ 私が行けない代わりに、井戸に供えてくれないか？
+
+### JoppaFarmerConvert | node:Stilt#0 / choice:@Bauble#0 | direct
+> Your bauble?
+飾り物？
+
+### JoppaFarmerConvert | node:Stilt#0 / choice:@Fathers#0 | direct
+> Argent Fathers?
+銀の父祖？
+
+### JoppaFarmerConvert | node:Stilt#0 / choice:@WhyNot#0 | direct
+> Why can you not go?
+なぜ自分で行けない？
+
+### JoppaFarmerConvert | node:Stilt#0 / choice:@Agree#0 | direct
+> I will make the journey.
+行ってこよう。
+
+### JoppaFarmerConvert | node:Stilt#0 / choice:@End#0 | direct
+> I cannot commit to this. Live and drink.
+約束はできない。生きて飲め。
+
+### JoppaFarmerConvert | node:Bauble#0 | text#0
+> Yes! My neighbor-kin tire of the tale. I was scything the vine when the flat of my blade turned something loose from the soil. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...
+>
+> Will you go, then? And offer my bauble at the Well?
+そうとも！ 近所の者たちはもうこの話に飽き飽きしているがね。蔓を刈っていたら、鎌の腹が土の中から何かを掘り起こしたんだ。クロームを見て胸が高鳴ったことは前にもある。だが、自分の手で小さなかけらを掘り出して、「美」のそろばんに珠をひとつ弾くなんて……。
+
+では、行ってくれるか？ 私の飾り物を井戸に供えてくれるか？
+
+### JoppaFarmerConvert | node:Bauble#0 / choice:@WhyNot#0 | direct
+> Why can you not go?
+なぜ自分で行けない？
+
+### JoppaFarmerConvert | node:Bauble#0 / choice:@Stilt#0 | direct
+> What is the Six Day Stilt again?
+シックスデイ・スティルトとは何だったか？
+
+### JoppaFarmerConvert | node:Bauble#0 / choice:@Agree#0 | direct
+> I will make the journey.
+行ってこよう。
+
+### JoppaFarmerConvert | node:Bauble#0 / choice:@End#0 | direct
+> I cannot commit to this. Live and drink.
+約束はできない。生きて飲め。
+
+### JoppaFarmerConvert | node:Fathers#0 | text#0
+> I am no rector, understand, but They are the molders of chrome. The gods under Shekhinah who wrought metal edifices from the raw Kasaphescence.
+>
+> Will you go?
+私は司祭ではないから、詳しくはないがね。あの方々は、クロームを形づくった者たち。シェキーナのもとにおわす神々で、生のままのカサフェセンスから金属の殿堂を築かれたのだ。
+
+行ってくれるか？
+
+### JoppaFarmerConvert | node:Fathers#0 / choice:@Why#0 | direct
+> Perhaps. Why?
+かもしれない。なぜだ？
+
+### JoppaFarmerConvert | node:Fathers#0 / choice:@End#0 | direct
+> I cannot commit to this. Live and drink.
+約束はできない。生きて飲め。
+
+### JoppaFarmerConvert | node:Why#0 | text#0
+> I would ask you make an offering at the sacred Well of my bauble. Moon and sun, I beg you!
+私の飾り物を、聖なる井戸に供えてほしいのだ。月と太陽にかけて、頼む！
+
+### JoppaFarmerConvert | node:Why#0 / choice:@WhyNot#0 | direct
+> Why can you not go?
+なぜ自分で行けない？
+
+### JoppaFarmerConvert | node:Why#0 / choice:@Stilt#0 | direct
+> What is the Six Day Stilt?
+シックスデイ・スティルトとは何だ？
+
+### JoppaFarmerConvert | node:Why#0 / choice:@Agree#0 | direct
+> I will make the journey.
+行ってこよう。
+
+### JoppaFarmerConvert | node:Why#0 / choice:@End#0 | direct
+> I cannot commit to this. Live and drink.
+約束はできない。生きて飲め。
+
+### JoppaFarmerConvert | node:WhyNot#0 | text#0
+> Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of the Issachari!
+>
+> There is no kindness in the Great Desert, and little more in the canyons. I cannot go and live.
+友よ、私なんぞ、ドーングライダーの光線に焼き殺されて、くすぶる燃えかすになってしまう！ イッサカリのライフルで、鉛玉だらけの死体になってしまう！
+
+大砂漠に情けはなく、峡谷にもほとんどない。私が行けば、生きては帰れないのだ。
+
+### JoppaFarmerConvert | node:WhyNot#0 / choice:@Stilt#0 | direct
+> What is the Six Day Stilt again?
+シックスデイ・スティルトとは何だったか？
+
+### JoppaFarmerConvert | node:WhyNot#0 / choice:@Agree#0 | direct
+> I will make the journey.
+行ってこよう。
+
+### JoppaFarmerConvert | node:WhyNot#0 / choice:@End#0 | direct
+> I cannot commit to this. Live and drink.
+約束はできない。生きて飲め。
+
+### JoppaFarmerConvert | node:Agree#0 | text#0
+> Moon and sun, =pronouns.formalAddressTerm=! You have my deep and many-sided thanks. Here, take the trinket now. And if you're to ever return, let us visit again.
+>
+> Live and drink!
+月と太陽よ、友よ！ 心の底から、あらゆる面で感謝する。さあ、この小物を受け取ってくれ。いつか戻ってきたら、また話をしよう。
+
+生きて飲め！
+
+### JoppaFarmerConvert | node:Agree#0 / choice:GiveTrinket#0 | text#0
+> Live and drink.
+生きて飲め。

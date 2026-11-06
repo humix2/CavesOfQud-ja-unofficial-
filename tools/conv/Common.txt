@@ -1,0 +1,1987 @@
+### BaseConversation | choice:WaterRitualChoice#0 | text#0
+> Your thirst is mine, my water is yours.
+あなたの渇きは私の渇き、私の水はあなたの水。
+
+### BaseConversation | choice:WaterRitualChoice#0 | text#1
+> Swap spittle?~
+> Let's get to it.~
+> {{emote|licks lips}}~
+> My thirst is mine, your water is yours.~
+> Thirst. Water. Drink.~
+> Slurp time.~
+> ????~
+> My water is thirst, your water is yours.
+つば、交換するか？~
+さっさと始めよう。~
+{{emote|舌なめずりをする}}~
+私の渇きは私の渇き、あなたの水はあなたの水。~
+渇き。水。飲む。~
+すすりの時間だ。~
+？？？？~
+私の水は渇き、あなたの水はあなたの水。
+
+### BaseConversation | node:WaterRitual#0 | text#0
+> Live and drink, =subject.waterRitualLiquid=-=player.siblingTerm=.
+生きて飲め、=subject.waterRitualLiquid=で結ばれし=player.siblingTerm=よ。
+
+### BaseConversation | node:WaterRitual#0 / choice:ShareGossipChoice#0 | text#0
+> I have some gossip that may interest you.
+興味を引きそうな噂話がある。
+
+### BaseConversation | node:WaterRitual#0 / choice:ShareSecretListenerChoice#0 | text#0
+> I have a secret to share with you.
+あなたに打ち明けたい秘密がある。
+
+### BaseConversation | node:WaterRitual#0 / choice:ShareSecretSpeakerChoice#0 | text#0
+> Share a secret with me, =subject.waterRitualLiquid=-=pronouns.siblingTerm=.
+秘密を分けてくれないか、=subject.waterRitualLiquid=で結ばれし=pronouns.siblingTerm=よ。
+
+### BaseConversation | node:WaterRitual#0 / choice:TinkeringRecipeChoice#0 | text#0
+> Would you teach me to craft =recipe=?
+=recipe=の作り方を教えてくれないか？
+
+### BaseConversation | node:WaterRitual#0 / choice:LearnSkillChoice#0 | text#0
+> Would you teach me your ways?
+あなたの技を教えてくれないか？
+
+### BaseConversation | node:WaterRitual#0 / choice:FungusColonizeChoice#0 | text#0
+> I am a friend to fungi. Colonize me.
+私は菌類の友だ。私の体に棲みついてくれ。
+
+### BaseConversation | node:WaterRitual#0 / choice:HermitOathChoice#0 | text#0
+> I promise not to bother you again, =hermit=.
+もう二度と邪魔をしないと誓う、=hermit=。
+
+### BaseConversation | node:WaterRitual#0 / choice:BuyValuedItemChoice#0 | text#0
+> Would you gift me your =object.nameSingle=?
+その=object.nameSingle=を譲ってくれないか？
+
+### BaseConversation | node:WaterRitual#0 / choice:BuyFactionItemChoice#0 | text#0
+> Would you gift me your =object.nameSingle=?
+その=object.nameSingle=を譲ってくれないか？
+
+### BaseConversation | node:WaterRitual#0 / choice:SkillPointChoice#0 | text#0
+> Teach me to think like a child again.
+もう一度、子どものように考えるすべを教えてくれ。
+
+### BaseConversation | node:WaterRitual#0 / choice:GainMutationChoice#0 | text#0
+> Would you teach me your ways?
+あなたの技を教えてくれないか？
+
+### BaseConversation | node:WaterRitual#0 / choice:RandomMentalMutationChoice#0 | text#0
+> Teach me a secret of the aggregate mind.
+群れの心の秘密をひとつ教えてくれ。
+
+### BaseConversation | node:WaterRitual#0 / choice:CookingRecipeChoice#0 | text#0
+> Would you share the favorite dish of your people?
+あなたたちの好物料理を教えてくれないか？
+
+### BaseConversation | node:WaterRitual#0 / choice:ChefRecipeChoice#0 | text#0
+> Teach me to cook one of your signature dishes.
+あなたの得意料理をひとつ教えてくれ。
+
+### BaseConversation | node:WaterRitual#0 / choice:JoinPartyChoice#0 | text#0
+> I would ask you to join me, =subject.waterRitualLiquid=-=pronouns.siblingTerm=.
+一緒に来てくれないか、=subject.waterRitualLiquid=で結ばれし=pronouns.siblingTerm=よ。
+
+### BaseConversation | node:WaterRitual#0 / choice:EndChoice#0 | text#0
+> Live and drink, =subject.waterRitualLiquid=-=pronouns.siblingTerm=.
+生きて飲め、=subject.waterRitualLiquid=で結ばれし=pronouns.siblingTerm=よ。
+
+### BaseConversation | choice:Trade#0 | text#0
+> Let's trade.
+取引しよう。
+
+### BaseSlynthMayor | node:SlynthRequestAccept#0 / choice:@End#0 | text#0
+> You have my thanks, friend.
+ありがとう、友よ。
+
+### BaseSlynthMayor | node:SlynthRequestAccept#0 / choice:@Start#0 | direct
+> I want to ask something else.
+ほかにも聞きたいことがある。
+
+### BaseSlynthMayor | node:SlynthRequestReject#0 / choice:@Start#0 | direct
+> I understand.
+分かった。
+
+### BaseSlynthMayor | node:SlynthRequest#0 / choice:@SlynthRequestAccept#0 | direct
+> I am.
+そうだ。
+
+### BaseSlynthMayor | node:SlynthRequest#0 / choice:@SlynthRequestReject#0 | direct
+> If you would have them, yes.
+受け入れてもらえるなら、そうしたい。
+
+### BaseSlynthMayor | node:SlynthAbout#0 / choice:@Start#0 | direct
+> They are not ready to choose yet.
+彼らはまだ行き先を決めかねている。
+
+### BaseSlynthMayor | node:SlynthArrived#0 / choice:@Start#0 | direct
+> My thanks.
+ありがとう。
+
+### BaseSlynthMayor | node:SlynthSettled#0 / choice:@Start#0 | direct
+> My thanks again.
+重ねてありがとう。
+
+### BaseSlynthMayor | choice:@SlynthRequest#0 | text#0
+> In my travels I encountered a people, the slynth, seeking a new home.
+旅の途中で、新しい住まいを探しているスリンスという民に出会った。
+
+### BaseSlynthMayor | choice:@SlynthAbout#0 | text#0
+> About the slynth...
+スリンスのことだが……。
+
+### BaseSlynthMayor | choice:@SlynthArrived#0 | text#0
+> I see the slynth have arrived. How are they faring?
+スリンスが着いたようだな。様子はどうだ？
+
+### BaseSlynthMayor | choice:@SlynthSettled#0 | text#0
+> It's been a week. Are the slynth settled in?
+一週間たった。スリンスは落ち着いたか？
+
+### WatervineFarmerConvert | node:Agree#0 / choice:GiveTrinket#0 | text#0
+> Live and drink.
+生きて飲め。
+
+### WatervineFarmerConvert | node:Bauble#0 | text#0
+> Yes! My neighbor-kin tire of the tale. I was scything the vine when the flat of my blade turned it loose from the soil. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead toward the beam on the abacus of Beauty...
+>
+> Will you go, then? And offer my bauble at the Well?
+そうとも！ 近所の者たちはもうこの話に飽き飽きしているがね。蔓を刈っていたら、鎌の腹がそいつを土の中から掘り起こしたんだ。クロームを見て胸が高鳴ったことは前にもある。だが、自分の手で小さなかけらを掘り出して、「美」のそろばんの珠をひとつ梁へ弾き上げるなんて……。
+
+では、行ってくれるか？ 私の飾り物を井戸に供えてくれるか？
+
+### CannibalConvert | node:Bauble#0 | text#0
+> Yes! My neighbor-kin tire of the tale. I was supping on summer offal when I noticed something glinting in the guts. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...
+>
+> Will you go, then? And offer my bauble at the Well?
+そうとも！ 近所の者たちはもうこの話に飽き飽きしているがね。夏のはらわたをすすっていたら、臓物の中で何かがきらりと光ったんだ。クロームを見て胸が高鳴ったことは前にもある。だが、自分の手で小さなかけらを取り出して、「美」のそろばんに珠をひとつ弾くなんて……。
+
+では、行ってくれるか？ 私の飾り物を井戸に供えてくれるか？
+
+### CannibalConvert | node:WhyNot#0 | text#0
+> Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of the Issachari!
+>
+> There is no kindness in the Great Desert. I cannot go and live.
+友よ、私なんぞ、ドーングライダーの光線に焼き殺されて、くすぶる燃えかすになってしまう！ イッサカリのライフルで、鉛玉だらけの死体になってしまう！
+
+大砂漠に情けはない。私が行けば、生きては帰れないのだ。
+
+### IssachariConvert | node:Bauble#0 | text#0
+> Yes! My neighbor-kin tire of the tale. I was wrenching moisture from a banner when I kicked something 'neath the salt. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...
+>
+> Will you go, then? And offer my bauble at the Well?
+そうとも！ 仲間たちはもうこの話に飽き飽きしているがね。旗から湿り気を絞っていたら、塩の下の何かを蹴飛ばしたんだ。クロームを見て胸が高鳴ったことは前にもある。だが、自分の手で小さなかけらを掘り出して、「美」のそろばんに珠をひとつ弾くなんて……。
+
+では、行ってくれるか？ 私の飾り物を井戸に供えてくれるか？
+
+### IssachariConvert | node:WhyNot#0 | text#0
+> Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of my kinsfolk!
+>
+> There is no kindness deep in the Great Desert. I cannot go and live.
+友よ、私なんぞ、ドーングライダーの光線に焼き殺されて、くすぶる燃えかすになってしまう！ 同胞のライフルで、鉛玉だらけの死体になってしまう！
+
+大砂漠の奥に情けはない。私が行けば、生きては帰れないのだ。
+
+### PigFarmerConvert | node:Bauble#0 | text#0
+> Yes! My neighbor-kin tire of the tale. I fished it out a mound of pig stool. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...
+>
+> Will you go, then? And offer my bauble at the Well?
+そうとも！ 近所の者たちはもうこの話に飽き飽きしているがね。豚の糞の山から掘り出したんだ。クロームを見て胸が高鳴ったことは前にもある。だが、自分の手で小さなかけらを掘り出して、「美」のそろばんに珠をひとつ弾くなんて……。
+
+では、行ってくれるか？ 私の飾り物を井戸に供えてくれるか？
+
+### PigFarmerConvert | node:WhyNot#0 | text#0
+> Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of the Issachari!
+>
+> There is no kindness in the Great Desert. I cannot go and live.
+友よ、私なんぞ、ドーングライダーの光線に焼き殺されて、くすぶる燃えかすになってしまう！ イッサカリのライフルで、鉛玉だらけの死体になってしまう！
+
+大砂漠に情けはない。私が行けば、生きては帰れないのだ。
+
+### SimpleGeneric | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### DromadTrader | node:Start#0 | text#0
+> =player.apparentSpecies=? We are greeted! What do you desire?
+おや、お客さまですね！ ごあいさつ、いたみいります！ 何をお望みで？
+
+### DromadTrader | node:Start#0 / choice:@AboutTheDromad#0 | direct
+> What kind of creature are you?
+あなたはどういう種族なんだ？
+
+### DromadTrader | node:Start#0 / choice:@End#0 | direct
+> I desire nothing. Live and drink.
+何もいらない。生きて飲め。
+
+### DromadTrader | node:AboutTheDromad#0 | text#0
+> I am dromad, =player.apparentSpecies= =player.formalAddressTerm=. Some say saltstrider. Do you know this?
+わたくしはドロマドでございます。「塩渡り」と呼ぶ方もおります。ご存じでしたか？
+
+### DromadTrader | node:AboutTheDromad#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### StarappleFarmer | node:Start#0 | text#0
+> Live and drink, traveler. Moist starapples for the road?~
+> Mind the trees, =player.formalAddressTerm=. They ain't yours.~
+> Now you keep your eyes off my young, =player.formalAddressTerm=.~
+> Can't go wrong with starapples, =player.formalAddressTerm=. Good for what ails ya.~
+> You know how to make starapple jam? If not, you can buy it from me.~
+> Spread starapple on yer matz! It's proof against thirst and harm alike.~
+> See my whiskers? Starapples. They'll boost your virility threefold.
+生きて飲め、旅の人。道中のお供に、みずみずしいスターアップルはどうだい？~
+木には手を出すなよ。あんたのもんじゃないからな。~
+おい、うちの子にじろじろ目を向けるんじゃないよ。~
+スターアップルを選んで損はないぜ。どんな不調にも効くからな。~
+スターアップルのジャムの作り方、知ってるかい？ 知らなきゃ、うちで買えばいい。~
+マッツァにスターアップルを塗ってみな！ 渇きにもけがにも効くんだ。~
+このヒゲが見えるか？ スターアップルのおかげさ。精がつくこと三倍だ。
+
+### StarappleFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### PigFarmer | node:Start#0 | text#0
+> Live and drink, traveler. Are you hungry?~
+> Git ta pig mud. Mud?~
+> Yeh?~
+> Mind the pig leavins, =player.formalAddressTerm=.~
+> Now don't you go breaking my fence.~
+> You best not hurt my critters.~
+> I en't filthy. I'm muddy. Big difference.~
+> It's get meat here or risk a slugsnout ball in the gut. Your choice, =player.formalAddressTerm=.~
+> Good clean meat! Well. Clean as it gets.~
+> Moon and sun, =player.formalAddressTerm=.
+生きて飲め、旅の人。腹は減ってないか？~
+豚の泥んこに気をつけな。泥だぞ？~
+ん？~
+豚の落とし物を踏むなよ。~
+柵を壊すんじゃねえぞ。~
+うちの家畜に手を出すなよ。~
+汚れてるんじゃねえ。泥まみれなんだ。大違いだぞ。~
+肉はここで買うか、スラッグスナウトの玉を腹に食らうかだ。好きなほうを選びな。~
+清潔ないい肉だ！ まあ、これ以上は無理ってくらいにはな。~
+月と太陽を。
+
+### PigFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### CrabFarmer | node:Start#0 | text#0
+> Now don't you fret. My crabs are docile as dogs.~
+> Get close if you like, they don't pinch.~
+> You ever run into one of these in the wild? The lengths some folks will go for a crab leg!~
+> I hand-reared each one of these critters. They've had a life of luxury.~
+> Stressed crab means tough crab meat. Buy domesticated meat.~
+> Ain't they precious? Cute little buggers.~
+> My crabs are as gentle as can be. Delicious, too.~
+> They say we'll all be crabs, eventually.
+心配いらないよ。うちのカニは犬みたいにおとなしいんだ。~
+近くで見ていいよ。挟んだりしないから。~
+野生のこいつに出くわしたことあるかい？ カニの脚ひとつのために、まあみんな無茶をするもんだ！~
+どの子も、あたしが手塩にかけて育てたんだ。ぜいたくな暮らしをさせてるよ。~
+ストレスのたまったカニは身が硬くなる。肉を買うなら飼育ものにしな。~
+かわいいだろ？ ちっちゃいやつらさ。~
+うちのカニはこれ以上ないくらいおとなしい。おまけにうまい。~
+いずれはみんなカニになるって言うしね。
+
+### CrabFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### LeechFarmer | node:Start#0 | text#0
+> Need something?~
+> Hm.~
+> Sorry bout the smell.~
+> Watch for blood puddles.~
+> No lie, I love my job.~
+> Leeches. Blood. If that's what you want, I got what you want.~
+> I feed these critters what blood the ranchers have to spare.~
+> Sorry. Lost focus a bit. What do you need?~
+> Blood tastes all right, but I can't fathom living on it.
+何か用かい？~
+ふむ。~
+においは勘弁してくれ。~
+血だまりに気をつけな。~
+嘘じゃなく、この仕事が大好きなんだ。~
+ヒル。血。それが欲しいなら、ここにあるよ。~
+牧場で余った血を、こいつらに飲ませてるんだ。~
+悪い、ちょっとぼーっとしてた。何が要る？~
+血の味も悪くはないけど、あれだけで生きていくなんて考えられないね。
+
+### LeechFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### CatHerder | node:Start#0 | text#0
+> By the Eaters, I'm exhausted. May I help you?~
+> Please don't open the gate.~
+> I beg you. Do not release the cats.~
+> I'll buy your shiniest things, if you'll sell them.~
+> I'm a cat herder. My parents were cat herders. Their parents were cat herders, and their parents. I don't understand why we do what we do but it is all I know.~
+> I've a glimmer of light for sale if you need one, wanderer.~
+> The cats are not for sale.~
+> I'm like to faint from this heat.
+喰らう者たちにかけて、もうくたくただ。何かご用？~
+門は開けないでくれ。~
+頼むから、猫を逃がさないでくれ。~
+売ってくれるなら、いちばんぴかぴかした物を買い取るよ。~
+私は猫飼いだ。親も猫飼いだった。その親も、そのまた親もだ。なぜこんなことをしているのか分からないが、私にはこれしかないんだ。~
+旅の人、明かりが要るなら売ってあげられるよ。~
+猫は売り物じゃない。~
+この暑さで倒れそうだ。
+
+### CatHerder | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### AmoebaFarmer | node:Start#0 | text#0
+> Mind your footing! Ha ha ha!~
+> Takes a simple person to tend a simple creature. I don't mind it.~
+> Bless this mess and bless you, =player.formalAddressTerm=.~
+> What can I do for you? Need slime?~
+> Have you ever taken a swig of slime? It's not half bad!~
+> I keep my amoebas happy! Or, you know, whatever they got in place of happy.~
+> See how their skin glisters in the salt sun? Lovely.~
+> Now don't you dare pop my amoeba.~
+> I think I got all the puddles, but watch for slime all the same.
+足元に気をつけな！ はっはっは！~
+単純な生き物の世話には、単純な人間がちょうどいい。あたしは気にしないよ。~
+このぐちゃぐちゃに祝福を。あんたにも祝福を。~
+何か用かい？ スライムが要る？~
+スライムをぐいっとやったことあるかい？ 案外いけるよ！~
+うちのアメーバはいつもご機嫌さ！ まあ、ご機嫌の代わりにあいつらが持ってる何かが、だけどね。~
+ほら、塩の日差しで肌がきらきらしてるだろ？ きれいだねえ。~
+うちのアメーバを破裂させたら承知しないよ。~
+水たまりは全部片づけたつもりだけど、それでもスライムには気をつけな。
+
+### AmoebaFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SnailFarmer | node:Start#0 | text#0
+> Step in. Take shelter from the salt.~
+> What mazes and mandalas could be crafted by human hands that hope to surpass what nature wrought eons before our creation?~
+> How sublime, the striations of the snail shell. And such a lovely word, striation.~
+> I think often upon the gyre, from Resheph's gospels. Why do you imagine it is so named?~
+> Even in the imperfections of a spiral shell we see the perfection of nature.~
+> My snails aren't so suited to this climate. Some days I spend more water keeping them properly slimy than I make in sales.~
+> Snails find the spiral of another shell familiar and comforting. Should you wear one, they will look upon you favorably.~
+> There is kinship from mollusk to mollusk. What secrets do they know that we do not?
+お入り。塩から身を守るといい。~
+私たちが生まれるずっと昔に自然が作ったものを、人の手の迷路や曼荼羅が超えられるものだろうか？~
+カタツムリの殻の縞模様の、なんと崇高なこと。「縞模様」という言葉もまた美しい。~
+レシェフの福音書にある「渦動」のことをよく考えるんだ。なぜそう名づけられたと思う？~
+渦巻く殻の不完全さの中にさえ、自然の完全さが見える。~
+うちのカタツムリはこの気候にあまり合わなくてね。売れた分より、ぬめりを保つのに使う水のほうが多い日もある。~
+カタツムリは、ほかの殻の渦巻きを見ると、なつかしくて落ち着くらしい。殻をひとつ身につけていれば、気に入ってもらえるよ。~
+軟体動物どうしには、通い合うものがある。私たちの知らない、どんな秘密を知っているのだろうね？
+
+### SnailFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### GoatHerder | node:Start#0 | text#0
+> What d'ya want.~
+> Goat meat keeps good. Buy some afore you head back to the salt.~
+> What, you need a menu? I got goat meat and goat jerky.~
+> I hate my goats and they hate me, but we both hate every other body more.~
+> Absolutely miserable weather. Whatcha want?~
+> Meat for sale.~
+> Goats ain't fun to travel with, but they're good protection.~
+> I didn't ask for this life, but here we are. Wanna buy something?
+何の用だ。~
+ヤギ肉は日持ちする。塩の砂漠に戻る前に買っていきな。~
+なんだ、品書きでも要るのか？ ヤギ肉とヤギのジャーキー、それだけだ。~
+俺はヤギが嫌いで、ヤギも俺が嫌いだ。だが、ほかの連中はお互いもっと嫌いでな。~
+まったくひでえ天気だ。で、何が欲しい？~
+肉、売ってるぞ。~
+ヤギと旅しても楽しかねえが、用心棒にはなる。~
+好きでこんな暮らしをしてるわけじゃねえが、まあこうなっちまった。何か買うか？
+
+### GoatHerder | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### BeetleFarmer | node:Start#0 | text#0
+> Some say beetle jerky is too sour. I say, learn to cook!~
+> Look at their chitin! See the sheen? Means they're healthy.~
+> Beetles are fine companions, but don't leave your backpack and your pet beetlebum in the same room.~
+> Nothing wrong with beetle meat. Come, try it.~
+> Beetle jerky holds its own. You learn to appreciate the aftertaste.~
+> Meat, fresh and preserved alike, all at reasonable prices.~
+> Come to see my beasts? All hale and well-fed, I assure you.
+甲虫ジャーキーは酸っぱすぎるって言うやつもいる。なら料理を覚えろってんだ！~
+この殻を見な！ つやがあるだろ？ 元気な証拠さ。~
+甲虫はいい相棒だが、背負い袋とペットの甲虫を同じ部屋に置いとくなよ。~
+甲虫の肉のどこが悪い。ほら、食ってみな。~
+甲虫ジャーキーは、ちゃんと一品として勝負できる。後味のよさが分かってくるさ。~
+肉なら生も保存ものも、手ごろな値段でそろってるよ。~
+うちの虫たちを見に来たのか？ どいつも丈夫で、よく肥えてる。保証するよ。
+
+### BeetleFarmer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SapientBear | node:Start#0 | text#0
+> Live and eat honey.~
+> Oh, look. It is a not-bear. Greetings, not-bear.~
+> Live and drink, little friend.~
+> I would enjoy some honey.~
+> {{emote|*grunting*}}~
+> {{emote|*snuffle*}}~
+> {{emote|*whuffling*}}~
+> {{emote|*heavy sigh*}}~
+> {{emote|*sigh*}}~
+> Oh my, what a cute not-bear. Greetings, cute not-bear.~
+> Oh.~
+> Hmm.~
+> Hmm. Oh! Greetings.~
+> Yes?~
+> Excuse me.~
+> Oh. Live and drink, not-bear.~
+> I cannot decide which I like best: berries, meat, or honey? I simply cannot decide.~
+> Glowfish are not the tastiest food, but they are the prettiest.~
+> I once traveled over a mountain, believing I would see something that I had not seen before once past the summit. I was disappointed to find that the other side of the mountain bore a striking resemblance to the one I'd just left. What is the purpose of mountains?
+生きて、はちみつを食べよう。~
+おや、見て。クマじゃないものだ。こんにちは、クマじゃないもの。~
+生きて飲め、小さなお友だち。~
+はちみつが食べたいなあ。~
+{{emote|*うなる*}}~
+{{emote|*鼻を鳴らす*}}~
+{{emote|*ふごふご*}}~
+{{emote|*深いため息*}}~
+{{emote|*ため息*}}~
+おやまあ、かわいいクマじゃないものだ。こんにちは、かわいいクマじゃないもの。~
+おや。~
+ふむ。~
+ふむ。おや！ こんにちは。~
+なあに？~
+ちょっと失礼。~
+おや。生きて飲め、クマじゃないもの。~
+木の実と、お肉と、はちみつ。どれがいちばん好きか決められない。どうしても決められないんだ。~
+グロウフィッシュはいちばんおいしい食べ物じゃないけど、いちばんきれいだよ。~
+昔、山を越えたことがある。てっぺんを過ぎれば、見たことのないものが見えると思ってね。でも、向こう側はさっきまでいた側とそっくりで、がっかりしたよ。山って、何のためにあるんだろう？
+
+### SapientBear | node:Start#0 / choice:>End#0 | direct
+> Live and eat honey, bear friend.
+生きて、はちみつを食べよう、クマの友よ。
+
+### Cannibal | node:Start#0 | text#0
+> Mmm.~
+> Prey.~
+> Nnnngggh.~
+> I'm hungry.~
+> Live and... be eaten.~
+> {{emote|*licks lips*}}~
+> Meat.
+んん。~
+獲物。~
+んぐぐぐ。~
+腹が減った。~
+生きて……食われろ。~
+{{emote|*舌なめずりをする*}}~
+肉。
+
+### Cannibal | node:Start#0 / choice:>End#0 | direct
+> Keep your distance, friend.
+近寄るなよ、お友だち。
+
+### Arconaut | node:Start#0 | text#0
+> {{emote|*nods mutely*}}~
+> Shh. Listen.~
+> Live and drink.~
+> I am peaceful.~
+> Any dangers?~
+> {{emote|*ignores you*}}~
+> Let's not linger together.~
+> May the Eaters gift you.~
+> Scrap for goods?~
+> I might be willing to trade.~
+> {{emote|*shakes =pronouns.possessive= head*}}~
+> {{emote|*puts a finger to =pronouns.possessive= lips*}}~
+> I'm armed. Don't try anything.~
+> {{emote|*tenses as you approach*}}~
+> Found anything good?~
+> Finders keepers.~
+> Lot of good stuff down here. Lots of bad stuff too.
+{{emote|*黙ってうなずく*}}~
+しっ。聞け。~
+生きて飲め。~
+争う気はない。~
+何か危ないものは？~
+{{emote|*あなたを無視する*}}~
+長居は無用だ、お互いにな。~
+喰らう者たちの恵みがあるように。~
+がらくたと品物を交換するか？~
+取引してやってもいい。~
+{{emote|*首を横に振る*}}~
+{{emote|*唇に指を当てる*}}~
+武器は持ってる。妙な真似はするなよ。~
+{{emote|*あなたが近づくと身構える*}}~
+何かいい物は見つかったか？~
+見つけた者勝ちだ。~
+この下にはいい物がたくさんある。ろくでもない物もたくさんな。
+
+### Arconaut | node:Start#0 / choice:>End#0 | direct
+> Live and drink, wayfarer.
+生きて飲め、旅の人。
+
+### Snapjaw | node:Start#0 | text#0
+> ehehehehehe.~
+> EHEHEHEHEHEHEHE!~
+> ehe. ehehe. ehehehehehehe!~
+> you food?~
+> give food?~
+> bite you?~
+> gn. grn. hrf. hn. hf.~
+> nyeh heheheheheh.~
+> what!~
+> eheh. heh. what. eheheh. what!~
+> eeeheeheeheeheeheehee.~
+> livendrinkenlivendrinkenlivendrink ehehehehe.~
+> livendrink.~
+> libndink.~
+> liffen drick.~
+> libm drin. ehehehe. lipum dronk! ahahahahah!~
+> live and drink, ehehe.~
+> gnaa! live and drink!~
+> gehehe.~
+> ek ekekekekeke!~
+> {{emote|*drools silently, staring*}}~
+> eeeeheeheeheeheehee...~
+> uhuhuhuuu...~
+> rrrrrr...~
+> huff.~
+> ehehe! ehehehe! AHAHAHAH!~
+> ehh, what for you talk me?~
+> eheh.~
+> hah!~
+> gahaha!~
+> ahahahaa!~
+> dohohohohoho.~
+> oooh hohohohoho.~
+> geh heh heh heh heh.~
+> ahahahahahahahahahahaha!
+えへへへへへ。~
+エヘヘヘヘヘヘヘ！~
+えへ。えへへ。えへへへへへへ！~
+おまえ、エサ？~
+エサ、くれる？~
+かじっていい？~
+ぐ。ぐる。ふが。ふん。ふっ。~
+にぇへへへへへへ。~
+なんだ！~
+えへ。へっ。なんだ。えへへ。なんだ！~
+いいいひひひひひひひ。~
+いきてのめいきてのめいきてのめ えへへへへ。~
+いきてのめ。~
+いきでのべ。~
+いぎてのぶ。~
+いぎでのぼ。えへへ。いぶでぼぼ！ あははははは！~
+いきてのめ、えへへ。~
+ぐなあ！ いきてのめ！~
+げへへ。~
+えけ えけけけけけ！~
+{{emote|*よだれを垂らしながら、黙ってじっと見ている*}}~
+いいいひひひひひ……~
+うふふふううう……~
+るるるるる……~
+ふん。~
+えへへ！ えへへへ！ アハハハハ！~
+えー、なんでオレとしゃべる？~
+えへ。~
+はっ！~
+がはは！~
+あははははぁ！~
+どほほほほほ。~
+おおお ほほほほほ。~
+げっへっへっへっへ。~
+あはははははははははははは！
+
+### Snapjaw | node:Start#0 / choice:>End#0 | direct
+> ...live and drink.
+……生きて飲め。
+
+### Issachari | node:Start#0 | text#0
+> By the sun, you're ugly.~
+> Pick a direction and walk in it.~
+> What do you want, lack-salt?~
+> Got nothing to say to a lack-salt.~
+> Keep your eyes moving, lack-salt.~
+> Hey lack-salt. How much water you got? No, don't ever answer that question.~
+> Be respectful of the red-and-white and we will get along.~
+> Keep your mouth covered, or the brine air will cure your lungs to jerky.~
+> Stay warm, lack-salt.~
+> Stay dry, lack-salt.
+お天道さまにかけて、ひでえ顔だな。~
+どっちか方角を決めて、そっちへ歩いていけ。~
+何の用だ、塩なし。~
+塩なしに話すことなんかねえ。~
+目をきょろきょろさせとけよ、塩なし。~
+おい塩なし。水はどれだけ持ってる？ ……いや、その質問には絶対答えるな。~
+紅白の旗に敬意を払え。そうすりゃうまくやれる。~
+口は覆っとけ。塩の風で肺が干し肉になるぞ。~
+体を冷やすなよ、塩なし。~
+濡れるなよ、塩なし。
+
+### Issachari | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### MechanimistPilgrim | node:Start#0 | text#0
+> Glory to Shekhinah.~
+> Humble before my Fathers, I walk.~
+> Live and drink, traveler. Show mercy to a weary pilgrim.~
+> Praise be upon Nisroch, who shelters us stiltseekers.
+シェキーナに栄光あれ。~
+父祖の御前に、へりくだって歩みます。~
+生きて飲め、旅の方。疲れた巡礼者にお慈悲を。~
+スティルトを目指す我らをかくまってくださる、ニスロクに賛美を。
+
+### MechanimistPilgrim | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### GenericMerchant | node:Start#0 | text#0
+> Live and drink, traveler.~
+> Live and drink, wayfarer.~
+> Come. Browse my wares, =player.formalAddressTerm=!~
+> I see my wares catch your eye, =player.formalAddressTerm=. They can be yours.~
+> Live and drink, =player.formalAddressTerm=.~
+> I have what you need, =player.formalAddressTerm=.~
+> Ah, =player.formalAddressTerm=, thank the Eaters that you have found Qud's only honest shopkeep.~
+> On my honor, =player.formalAddressTerm=, my goods are of only the highest quality and I offer a fair trade.~
+> Welcome, traveler.~
+> Welcome, =player.formalAddressTerm=. How may I serve you today?~
+> Do your waterskins grow heavy, =player.formalAddressTerm=?~
+> =player.FormalAddressTerm=, I beseech you. Enter.~
+> Buy something, will you?~
+> May you find shade and vittle, =player.formalAddressTerm=.~
+> Be quick about it.~
+> By the Eaters, have you ever seen so much treasure?
+生きて飲め、旅の人。~
+生きて飲め、さすらい人。~
+さあさあ、品物を見ていって！~
+お目に留まったようだね。それ、あんたのものにできるよ。~
+生きて飲め、お客さん。~
+あんたの欲しいもの、ちゃんとそろってるよ。~
+いやあ、喰らう者たちに感謝しな。クッドでただひとりの正直な商人に出会えたんだから。~
+誓って言うが、うちの品は最高級ばかり、取引も公正そのものだよ。~
+いらっしゃい、旅の人。~
+いらっしゃい。今日は何をお探しで？~
+水袋が重たくなってきたんじゃないかい？~
+お願いだ、入っておくれ。~
+何か買っていってくれよ。~
+日陰と食べ物に恵まれますように。~
+手短に頼むよ。~
+喰らう者たちにかけて、こんなお宝の山、見たことあるかい？
+
+### GenericMerchant | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### bookbinder | node:Start#0 | text#0
+> Don't breathe in too deep, =player.formalAddressTerm=, I've set some glue to dry.~
+> Live and drink, but please do it elsewhere. I fear spills.~
+> Greetings, =player.formalAddressTerm=. Feel free to examine my books closely.~
+> Please inspect only the quality of the letters. I am not a librarian.~
+> These books can weather the salt and jungle alike.~
+> I assure you, the smell fades once the glue is dry.~
+> I've books for trade, if you're interested.
+あまり深く息を吸わないで。にかわを乾かしているところだから。~
+生きて飲め。ただし、よそでお願い。こぼされるのが怖いの。~
+いらっしゃい。本は手に取ってじっくり見てちょうだい。~
+見ていいのは文字の出来ばえだけよ。私は司書じゃないから。~
+この本は、塩の砂漠でも密林でも傷まないわ。~
+大丈夫、にかわが乾けばにおいは消えるから。~
+興味があれば、本を売っているわよ。
+
+### bookbinder | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### scribe | node:Start#0 | text#0
+> Everything I sell is the product of many hours of toil.~
+> Come closer, so I can see your face.~
+> Ink runs in my very veins, =player.formalAddressTerm=.~
+> If you're looking to read, I have what you need.~
+> Please be gentle with the parchment.~
+> Do be quick, =player.formalAddressTerm=, as I've much work to do.~
+> Live and drink, reader.
+ここにある品はどれも、長い時間をかけて書き上げたものです。~
+もっと近くへ。お顔がよく見えるように。~
+私の血管には、インクが流れているのですよ。~
+読む物をお探しなら、ちょうどいい物がございます。~
+羊皮紙はそっと扱ってください。~
+手短にお願いします。仕事が山ほどあるもので。~
+生きて飲め、読み手の方。
+
+### scribe | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### beekeeper | node:Start#0 | text#0
+> Come here. No, closer. Don't mind the bees, they rarely sting.~
+> Don't be afraid to approach. The bees rarely sting.~
+> Care for some beejuice?~
+> Drink a dram of honey every morning, Slog itself couldn't make you sick.~
+> You know, bees communicate by dancing. Got a whole language.~
+> Without bees, all life in Qud would eventually die.~
+> Bees are smarter than you think. They got that hive mind, see.~
+> I eat honey matz every morning and I ain't been sick in decades.~
+> We'd all be dead without bees, you know.
+こっちおいで。いや、もっと近く。蜂は気にしなさんな、めったに刺さないから。~
+こわがらずに近くへおいで。蜂はめったに刺さないよ。~
+蜂の汁はいかが？~
+毎朝はちみつをひと口なめてりゃ、スログだってあんたを病気にはできないよ。~
+知ってるかい、蜂は踊りで話をするんだ。ちゃんとした言葉があるのさ。~
+蜂がいなくなったら、クッドの命はいずれみんな死に絶えるんだよ。~
+蜂は思ってるより賢いよ。群れでひとつの心を持ってるんだから。~
+毎朝はちみつマッツァを食べてるけど、もう何十年も病気知らずさ。~
+蜂がいなかったら、みんなとっくに死んでるんだよ。
+
+### beekeeper | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### tinker | node:Start#0 | text#0
+> Use your gadgets hard, don't you? I can fix them.~
+> I can repair, recharge, and identify whatever you have! Within reason.~
+> If you've got anything you can't make heads or tails of it, give it here.~
+> You've got to respect a machine. Machines bite harder than any croc.~
+> You a maker?~
+> Take out what you've busted and I'll jury-rig it for a fair price.~
+> Need scrap?~
+> You get used to the nicks and burns, after years working with spark and solder.~
+> They say some folks can talk to machines. I say we all can, if we listen right.~
+> My fees for battery charging depend how empty the battery is when you bring it to me.~
+> Absolutely no refunds or returns on scrap.
+道具を手荒に使ってるな？ 直してやるよ。~
+修理に充電、鑑定もやる！ 常識の範囲でな。~
+何だか分からない物があったら、こっちによこしな。~
+機械はなめちゃいけない。どんなワニより強く噛みつくからな。~
+あんたも作り手か？~
+壊れた物を出しな。まっとうな値段で、とりあえず動くようにしてやる。~
+がらくたが要るか？~
+火花とハンダを何年も相手にしてりゃ、切り傷もやけども慣れっこになる。~
+機械と話せるやつがいるって言うだろ？ ちゃんと耳を傾けりゃ、誰だって話せるのさ。~
+充電の料金は、持ってきた電池がどれだけ空っぽかで決まる。~
+がらくたの返金、返品は一切お断りだ。
+
+### tinker | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### schematics drafter | node:Start#0 | text#0
+> I would prefer not to interrupt this task long.~
+> How my joints ache! Buy something to justify my pain.~
+> Unfinished schematics are obviously not for sale. Everything else is.~
+> Disturb the trash if you must, but do not touch any of my papers.~
+> Are you a tinker? Surely I have something you wish to build.~
+> If you've the wits to build, I've got something you want.~
+> I have lost much to my dedication. Help me gain anew, =player.formalAddressTerm=.~
+> So help me, Argent Fathers, if someone has changed the order of my papers...~
+> Please, =player.formalAddressTerm=, buy a schematic. I'm sure it will be of use to you.~
+> Even if you can't make a thing now, you could gain the insight later.
+この作業はあまり長く中断したくないのですが。~
+ああ、関節が痛む！ この痛みに見合うだけ、何か買っていってください。~
+描きかけの設計図は、もちろん売り物ではありません。それ以外は全部売り物です。~
+ごみを漁るのはかまいませんが、私の書類には一枚たりとも触らないでください。~
+からくり職人ですか？ きっと作ってみたい物があるはずですよ。~
+物を作る頭があるなら、欲しくなる物がありますよ。~
+この仕事に打ち込むあまり、多くを失いました。取り戻すのを手伝ってください。~
+銀の父祖よ、もし誰かが書類の順番を変えていたら……。~
+お願いです、設計図をひとつ買ってください。きっと役に立ちますから。~
+今は作れなくても、あとで分かるようになるかもしれません。
+
+### schematics drafter | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### apothecary | node:Start#0 | text#0
+> I've the cure for what ails you.~
+> You don't look so good. You need more yuckwheat and honey in your diet.~
+> In the market for a tonic, =player.formalAddressTerm=? Spend water now or blood later, your choice.~
+> Prickly-boons and yuckwheat for trade.~
+> Cook your meals with yuckwheat if you feel sick. Catch a disease early enough and you can kill it.~
+> If you came for the humble pie, you had best not have led any mind-hunters here.~
+> "Ease the pain, addle the brain." Be careful when you chew witchwood bark.~
+> Don't eat the hoarshrooms too fast, now.~
+> Have you got enough tonics?~
+> Got a fungal infection? You'll want one of my spray bottles to apply the cure.~
+> Got a fungal infection? You'll want one of my spray bottles to apply the cure.~
+> Get your hands on the Corpus Choliys for disease and fungus cures.~
+> Get your hands on the Corpus Choliys for disease and fungus cures.
+あんたの不調に効く薬、ありますよ。~
+顔色が悪いね。ヤックウィートとはちみつをもっと食べなきゃ。~
+強壮薬をお探し？ 今、水で払うか、あとで血で払うか。お好きなほうを。~
+プリックリーブーンとヤックウィート、取り扱ってますよ。~
+具合が悪いなら、ヤックウィートを料理に入れな。病気は早いうちに捕まえれば退治できるんだから。~
+ハンブルパイをお求めなら、心を狩る連中を引き連れてきてないでしょうね。~
+「痛みは和らぐ、頭はぼやける」。ウィッチウッドの樹皮をかむときは気をつけて。~
+ホアシュルームは、あわてて食べちゃだめよ。~
+強壮薬は足りてる？~
+菌にやられた？ 薬をつけるなら、うちの霧吹きが要るでしょう。~
+菌にやられた？ 薬をつけるなら、うちの霧吹きが要るでしょう。~
+病気や菌の治し方なら、『コルプス・コリース』を手に入れるといいわ。~
+病気や菌の治し方なら、『コルプス・コリース』を手に入れるといいわ。
+
+### apothecary | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### herbalist | node:Start#0 | text#0
+> I've the cure for what ails you.~
+> You don't look so good. You need more yuckwheat and honey in your diet.~
+> Cook your meals with yuckwheat if you feel sick. Catch a disease early enough and you can kill it.~
+> "Ease the pain, addle the brain." Be careful when you chew witchwood bark.~
+> Best not leave town without some bark and bandages, wayfarer.~
+> Live and drink. Keeping well, I hope?~
+> How are you feeling today, =player.formalAddressTerm=?~
+> Moon and sun, =player.formalAddressTerm=. Keeping healthy?
+あんたの不調に効く薬、ありますよ。~
+顔色が悪いね。ヤックウィートとはちみつをもっと食べなきゃ。~
+具合が悪いなら、ヤックウィートを料理に入れな。病気は早いうちに捕まえれば退治できるんだから。~
+「痛みは和らぐ、頭はぼやける」。ウィッチウッドの樹皮をかむときは気をつけて。~
+樹皮と包帯を持たずに村を出ないほうがいいよ、旅の人。~
+生きて飲め。元気にしてるかい？~
+今日の具合はどう？~
+月と太陽を。体は大事にしてる？
+
+### herbalist | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### chef | node:Start#0 | text#0
+> I tell you, =player.formalAddressTerm=, my recipes come from years of experience. There's none the like.~
+> Finest food for parasangs! Finest food in Qud! Recipes and samples!~
+> I will share my food-secrets with you, =player.formalAddressTerm=, if you're willing to make it worth my while.~
+> Do you cook, =player.formalAddressTerm=? So long as you aren't the type to throw whatever local debris you find in the pot, I have wares for you.~
+> Not a word of lie, I studied under a chef who studied under Agate Severance Star herself. That's why my recipes are the best.~
+> Try my recipe. You'll believe =player.reflexive= to be judging the Carbide Chefs in the Kitchen Heptagon itself.~
+> Cookbooks are best named from the heart. Those who ridicule the name of a cookbook have lost their sense of wonder.~
+> Live and eat, =player.formalAddressTerm=.~
+> Live and drink, =player.formalAddressTerm=.
+いいかい、うちのレシピは長年の経験のたまものさ。ほかじゃ味わえないよ。~
+何里四方でいちばんの料理！ クッドいちのうまさ！ レシピも試食もあるよ！~
+それなりのものを払ってくれるなら、料理の秘訣を教えてあげよう。~
+料理はするかい？ そのへんのがらくたを何でも鍋に放り込むような人でなけりゃ、いい品があるよ。~
+嘘じゃないよ、あたしはアゲート・セヴェランス・スターその人に習った料理人に習ったんだ。だから、うちのレシピは最高なのさ。~
+うちのレシピを試してごらん。七角厨房でカーバイドシェフたちの審査員になった気分になれるから。~
+料理本の名前は、心から付けるのがいちばん。料理本の名前を笑うやつは、驚く心をなくしちまったのさ。~
+生きて食べな、お客さん。~
+生きて飲め、お客さん。
+
+### chef | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### kipper | node:Start#0 | text#0
+> Smell a bit strong? That's how you know it's good.~
+> You can preserve almost anything. Al... most.~
+> Preserved ingredients cook better, safer.~
+> Everything I sell is safe to eat as it is.~
+> Welcome, =player.formalAddressTerm=. Need vittle?~
+> Crave a bit of salt, =player.formalAddressTerm=, or a load of salt?~
+> Nothing sadder than a cookfire and nothing to cook over it.~
+> Are you a chef, =player.formalAddressTerm=? My vittles are of the highest quality.~
+> Nourishment for the road, =player.formalAddressTerm=?
+においが強い？ それがうまい証拠さ。~
+たいていの物は保存できる。たい……ていはな。~
+保存した食材のほうが、うまく、安全に料理できる。~
+うちの品は全部、そのまま食べても大丈夫だ。~
+いらっしゃい。食い物が要るかい？~
+塩気がちょっと欲しいのか、それとも塩をどっさりか？~
+たき火があるのに、焼く物が何もない。こんなに悲しいことはないね。~
+料理人かい？ うちの食い物は最高級だよ。~
+道中の腹ごしらえはどうだい？
+
+### kipper | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### vintner | node:Start#0 | text#0
+> Greetings, =player.formalAddressTerm=.~
+> Live and drink deeply, =player.formalAddressTerm=.~
+> Ah, =player.formalAddressTerm=, please come in.~
+> My wares are sweet and strong, =player.formalAddressTerm=. Care to try them?~
+> Tell me, =player.formalAddressTerm=, is there any sight more sad than a hookah tent without wine?~
+> Wine, cheese, bread. =player.FormalAddressTerm=, tell me, is there anything else you truly need?~
+> The kipper and I both know that the finest ingredient is time.~
+> Greetings, =player.formalAddressTerm=. Try some rose wine? One rose is fair, but as you may know from hanging around the Stiltgrounds, five is death.
+ようこそ。~
+生きて、たっぷりお飲みなさい。~
+ああ、どうぞお入りください。~
+うちの酒は甘くて強いですよ。お試しになりますか？~
+教えてください、酒のない水たばこの天幕ほど、悲しい眺めがありますか？~
+ワイン、チーズ、パン。ほかに本当に必要なものなど、ありますか？~
+保存食屋も私も知っています。最高の材料は、時間だと。~
+ようこそ。薔薇のワインはいかが？ 薔薇は一輪なら美しいけれど、スティルトの界隈に出入りしていればご存じでしょう、五輪は死です。
+
+### vintner | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### ichormerchant | node:Start#0 | text#0
+> Liquids...~
+> Aren't they beautiful, =player.formalAddressTerm=? The bottles, the phials, the light shining through them.~
+> Live and drink, but not everything. Some things you don't drink.~
+> Is there any state of form so fine as a liquid?~
+> Pouring, decanting, collecting, mixing. I adore my calling.~
+> If it flows, I desire it. You should too, =player.formalAddressTerm=.~
+> Do you ever stop and think about fluids? Are they not divine?~
+> Someday I will plumb the depths of Bethesda Susa, that I may meet the Alchemist.~
+> Live and drink, and collect, and combine...
+液体……。~
+美しいと思わないかい？ 瓶も、小瓶も、それを透かす光も。~
+生きて飲め。でも、何でも飲んではいけない。飲んではいけないものもある。~
+物のありようの中で、液体ほどすばらしいものがあるだろうか？~
+注ぎ、移し替え、集め、混ぜる。私はこの天職を愛しているんだ。~
+流れるものなら、何でも欲しい。あなたもそうあるべきだよ。~
+液体のことを、立ち止まって考えたことはあるかい？ 神々しいと思わないかい？~
+いつかベテスダ・スーサの底まで潜って、錬金術師に会うんだ。~
+生きて飲め。そして集め、そして混ぜ合わせ……。
+
+### ichormerchant | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### gutsmonger | node:Start#0 | text#0
+> Hold, aristocrat! I have wares to claim your interest.~
+> My implants are acquired peaceably, I assure you.~
+> How becoming you look, Aristocrat! But you could be more becoming.~
+> Tire of your legs? Arms? Hands? See what I have that fits you.~
+> Luxury internal adornments for the discerning Aristocrat.~
+> No additional sterilisation required, of course.~
+> Quality implants for sale at reasonable prices!~
+> You strike me as an Aristocrat who knows the value of artisanal organs.~
+> I recommend everything I carry. Not all at once, of course.~
+> Hope you'll "becoming" back, ha ha.~
+> Live and drink, Aristocrat.
+お待ちを、お貴族さま！ お目に留まる品がございますよ。~
+うちのインプラントは、穏便に手に入れたものでございます。ご安心を。~
+なんとお似合いの、お貴族さま！ ですが、もっとお似合いにもなれますよ。~
+脚に飽きました？ 腕は？ 手は？ お体に合う品をご覧あれ。~
+お目の高いお貴族さまのための、ぜいたくな体内装飾品でございます。~
+もちろん、追加の消毒は不要でございます。~
+上質なインプラントを、お手ごろなお値段で！~
+職人の手による臓器の価値がお分かりになるお貴族さまと、お見受けしました。~
+どの品もおすすめでございます。もちろん、一度に全部とは申しませんが。~
+「お似合い」になりに、またお越しを。はっはっは。~
+生きて飲め、お貴族さま。
+
+### gutsmonger | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### gutsmonger | node:Start#1 | text#0
+> Kill anyone valuable?~
+> You look dangerous. Ever go hunting for parts?~
+> Got guts?~
+> Can you imagine sticking one of these things inside you? Disgusting.~
+> I've plenty water if you've got implants to sell.~
+> Always check becoming nook shelves for parts.~
+> Y'ain't peeled open any Sons or Daughters, have you?~
+> Less I know about where my stock comes from, the better.~
+> I'll still take parts you ain't washed off, it's fine.~
+> If you can butcher a boar, you can do the same to a man. Just ain't meat you're looking for.~
+> My best customers don't ask questions. My best stock asked too many.~
+> Live and drink.
+値打ちのあるやつ、殺したか？~
+物騒な顔してるな。部品狩りに出たことは？~
+臓物、持ってるか？~
+こんなもんを自分の体に突っ込むなんて、想像できるか？ 気持ち悪い。~
+売るインプラントがあるなら、水はたっぷりあるぜ。~
+部品を探すなら、変容の僻隅の棚は必ず見ておけよ。~
+まさか「息子たち」や「娘たち」をかっさばいたりしてねえよな？~
+仕入れ元のことは、知らねえほうがいいんだ。~
+洗ってない部品でも引き取るよ、かまわねえ。~
+イノシシをさばけるなら、人間だって同じことさ。欲しいのが肉じゃないってだけで。~
+いちばんの客は何も聞かねえ。いちばんの品物は、聞きすぎたやつらだ。~
+生きて飲め。
+
+### gutsmonger | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### hatter | node:Start#0 | text#0
+> Need something to complete your ensemble, =player.formalAddressTerm=?~
+> With a good hat, =player.formalAddressTerm=, you'll last longer in the salt sun.~
+> Peruse my wares, =player.formalAddressTerm=. Adorn your head or heads.~
+> Greetings, =player.formalAddressTerm=. Care for a new topper?~
+> You need a new hat, =player.formalAddressTerm=. Or a helmet, if that's the life you lead.~
+> If you're passing through baboon country, you'll want to protect your head, =player.formalAddressTerm=.~
+> Live and drink, =player.formalAddressTerm=.
+装いの仕上げに、何かいかが？~
+いい帽子があれば、塩の日差しの下でも長持ちしますよ。~
+どうぞご覧ください。頭を、あるいは頭たちを飾りましょう。~
+いらっしゃい。新しい帽子はいかが？~
+新しい帽子が要りますね。そういう暮らしなら、兜でも。~
+ヒヒの縄張りを通るなら、頭は守っておきたいでしょう。~
+生きて飲め、お客さん。
+
+### hatter | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### shoemaker | node:Start#0 | text#0
+> Hello, hello, =player.formalAddressTerm=, let's get your weary feet covered.~
+> Come in, =player.formalAddressTerm=, and let me 'shoe' you around, ha ha!~
+> Boots! Shoes! Slippers! Sabatons! How would you prefer to cover your feet, =player.formalAddressTerm=?~
+> Even as high-quality as my products are, =player.formalAddressTerm=, I don't suggest you go walking in the fracti to test them out.~
+> Anything you need to ask 'a boot', =player.FormalAddressTerm=? Just a little cobbler's joke, there.~
+> Hot sands out there, =player.formalAddressTerm=. Is your footwear protecting you?~
+> Hello, =player.formalAddressTerm=! Care to be shod?~
+> Walk a few parasangs in my shoes, =player.formalAddressTerm=, and you'll wonder how you ever did otherwise.~
+> Live and drink, =player.formalAddressTerm=.
+いらっしゃい、いらっしゃい。お疲れの足に、靴をどうぞ。~
+さあお入り。店の中を「くつ」ろいで見ていって、はっはっ！~
+ブーツ！ 靴！ スリッパ！ 鉄靴！ 足元はどうなさいます？~
+うちの品はどれも上等だけど、試しにフラクタスの中を歩くのはおすすめしないね。~
+足元のことなら何でも聞いて。「くつ」じゅうしないで。靴屋のちょっとした冗談さ。~
+外の砂は熱いよ。その履き物で足は守れてるかい？~
+いらっしゃい！ 靴を新調していくかい？~
+うちの靴で何里か歩いてごらん。ほかの靴でどうやって歩いてたのか、不思議になるから。~
+生きて飲め、お客さん。
+
+### shoemaker | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### haberdasher | node:Start#0 | text#0
+> Please, =player.formalAddressTerm=, do come in. Take your time browsing my wares.~
+> Welcome, =player.formalAddressTerm=, to the sole bastion of class in this wretched place.~
+> Please knock the sand from your feet, =player.formalAddressTerm=. It gets everywhere.~
+> Ah, =player.formalAddressTerm=, I can certainly help you.~
+> How may I clothe you, =player.formalAddressTerm=?~
+> Now, =player.formalAddressTerm=, I know you must have an eye for fashion, if you're here.~
+> Oh dear. Who dressed you, =player.formalAddressTerm=? Let me help you, please.~
+> Live and drink, =player.formalAddressTerm=.
+どうぞお入りください。ごゆっくりご覧になって。~
+ようこそ。このみすぼらしい土地で、ただひとつの品格の砦へ。~
+足の砂は払ってくださいね。どこにでも入り込むものですから。~
+ああ、お任せください。きっとお役に立てますよ。~
+どのようなお召し物にいたしましょう？~
+ここへいらしたということは、きっとおしゃれに目が利く方なのでしょうね。~
+まあ。どなたがそんな着せ方を？ どうか、お手伝いさせてください。~
+生きて飲め、お客さま。
+
+### haberdasher | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### armorer | node:Start#0 | text#0
+> {{emote|*silent nod*}}~
+> Careful. It's hot.~
+> =player.FormalAddressTerm=. Need protection?~
+> Be quick about it, eh?~
+> Greetings.~
+> Mm?~
+> I've got my eye on you.~
+> Leather, ring, and plate, to keep you alive.~
+> Don't get near the hearth.~
+> =player.FormalAddressTerm=. Live and drink.
+{{emote|*黙ってうなずく*}}~
+気をつけろ。熱いぞ。~
+よう。守りが要るか？~
+手短にな。~
+いらっしゃい。~
+ん？~
+見てるからな。~
+革も、鎖も、板金もある。命をつなぐためのな。~
+炉に近づくな。~
+よう。生きて飲め。
+
+### armorer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### glover | node:Start#0 | text#0
+> Hand-coats for sale! Spare your digits the indignity of early removal!~
+> Best protect your hands, =player.formalAddressTerm=. You don't know how much you need them until a madpole takes one.~
+> Light gloves, heavy gloves, gauntlets. Don't let your hands go bare, =player.formalAddressTerm=.~
+> One size fits all, =player.formalAddressTerm=. If I sell it to you, it fits.~
+> How do I get my gloves so supple? I'll never tell.~
+> Moving on soon, =player.formalAddressTerm=? My gloves and gauntlets need no maintenance, so finely are they crafted.~
+> Live and eat, =player.formalAddressTerm=.~
+> Live and drink, =player.formalAddressTerm=.
+手のお召し物、売ってるよ！ 指が早々に取れちまうような恥はかかせないよ！~
+手は守っておきな。マッドポールに一本持っていかれるまで、ありがたみは分からないもんさ。~
+薄手の手袋、厚手の手袋、籠手。素手で出歩くんじゃないよ。~
+大きさは全部ひとつで合うよ。あたしが売ったなら、それは合うんだ。~
+どうやってこんなにしなやかにするのかって？ 絶対に教えないよ。~
+そろそろ出発かい？ うちの手袋と籠手は手入れいらずさ。それだけ上等に作ってあるんだ。~
+生きて食べな、お客さん。~
+生きて飲め、お客さん。
+
+### glover | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### gunsmith | node:Start#0 | text#0
+> You can't go wrong with my slugspitters, =player.formalAddressTerm=.~
+> Guns, guns, guns! Don't they just make you smile?~
+> =player.FormalAddressTerm=, I tell you: there is no defense like a good, and distant, offense.~
+> Ahh, I love the smell of cordite. You know, that sulfury smell? Accelerants make a fine perfume, if you ask me.~
+> You know, =player.formalAddressTerm=, I once had an traveler from Yawningmoon tell me my shop smelled of home. Now I want to visit! Hah!~
+> May you find adequate cover and more loot than you can carry, =player.formalAddressTerm=.~
+> I used to be a wayfarer like you, =player.formalAddressTerm=, but old wounds slow you down. Cherish the time while you have it.~
+> I wish I could allow you to test my wares in the shop, =player.formalAddressTerm=, but walk a parasang in any direction and you'll find a target.~
+> Might not want to touch anything on the workbenches, =player.formalAddressTerm=.~
+> Live, drink, and shoot, =player.formalAddressTerm=, in whichever order you like.
+うちの鉛玉吐きを選んで損はないぜ。~
+銃、銃、銃！ 見てるだけで顔がほころぶだろ？~
+いいか、守りに勝るのは攻め、それも遠くからの攻めだ。~
+ああ、無煙火薬のにおいはたまらねえ。あの硫黄くさいにおい、分かるか？ 言わせてもらえば、火薬は最高の香水だ。~
+前に、あくび月から来た旅人に、この店は故郷のにおいがするって言われてな。今じゃ俺も行ってみたくてしょうがねえ！ はっ！~
+身を隠す場所と、持ちきれないほどのお宝に恵まれますように。~
+俺も昔はあんたみたいな流れ者だったんだ。だが古傷で足が鈍っちまった。動けるうちを大事にしな。~
+店の中で試し撃ちさせてやりてえところだが、どっちへ一里も歩けば的はいくらでも見つかるさ。~
+作業台の上の物には触らねえほうがいいぜ。~
+生きて、飲んで、撃て。順番は好きにしな。
+
+### gunsmith | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### grenadier | node:Start#0 | text#0
+> Need something blown up, =player.formalAddressTerm=?~
+> Grenades do no good sitting in a pack. Don't forget to use them.~
+> =player.FormalAddressTerm=, there is little you can't solve with a well-thrown grenade... as long as you don't stand too close.~
+> Defoliant and fungicide are perfectly safe, but you may wish to avoid breathing too deeply all the same.~
+> Can I serve you something explosive, =player.formalAddressTerm=?~
+> You'll be back, =player.formalAddressTerm=, provided you don't blow =player.reflexive= up.~
+> Greetings, =player.formalAddressTerm=. Be careful with my wares as you peruse them.~
+> How is your throwing arm, =player.formalAddressTerm=? Barring that, do you feel lucky?~
+> It's a dangerous job, =player.formalAddressTerm=, but well worth it.~
+> The vintners say that 'one rose is fair, but five is death'. I can sell you blossoms that mean death no matter the number.~
+> Live and drink, =player.formalAddressTerm=.
+何か吹っ飛ばしたい物でもあるのか？~
+手投げ弾は背負い袋にしまっといても役に立たねえ。使うのを忘れるなよ。~
+うまく投げた手投げ弾ひとつで、たいていのことは片づく……近くに立ってなけりゃな。~
+枯れ葉剤と殺菌剤はまったく安全だ。それでも、深く吸い込むのはやめといたほうがいい。~
+何か爆発する物はいかがかな？~
+また来いよ。自分を吹っ飛ばさなけりゃな。~
+いらっしゃい。品を見るときは、くれぐれも気をつけてな。~
+投げる腕に自信はあるか？ ないなら、運に自信は？~
+危ない仕事だが、やるだけの値打ちはある。~
+酒屋どもは「薔薇は一輪なら美しいが、五輪は死」と言う。うちなら、何輪でも死を意味する花を売ってやれるぜ。~
+生きて飲め、お客さん。
+
+### grenadier | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### gemcutter | node:Start#0 | text#0
+> There's a shape in every stone waiting to be brought out.~
+> If you bend the light just so, it frays into brilliance.~
+> I can wait years for the inspiration to craft another figurine. I have before.~
+> What manner of jewel are our eyes, to skew light into thought?~
+> Enter, =player.formalAddressTerm=, and behold my jewels and figurines.~
+> Uncrafted jewels and metals buy and sell for the same cost, but my art's price tag is up to me.~
+> Every statuette is a tribute, of a kind, but not every tribute is received well.~
+> Wouldn't these make a fine conversation piece for a water ritual?~
+> Beautiful baubles and gleaming gemstones over here!
+どんな石にも、取り出されるのを待っている形がある。~
+光をちょうどよく曲げれば、ほつれて輝きになるんだ。~
+次の像を彫る霊感を、何年でも待てる。前にもそうしたことがある。~
+光を曲げて思いに変える、私たちの目とは、いったいどんな宝石なんだろう？~
+さあどうぞ。私の宝石と彫像を見ていって。~
+細工前の宝石や金属は、買うのも売るのも同じ値段。でも、私の作品の値札は私が決める。~
+どの小像も、ある意味では捧げものだ。でも、捧げものが必ず喜ばれるとは限らない。~
+水の儀式の話の種に、ぴったりだと思わないかい？~
+きれいな飾り物に、きらめく宝石、こちらだよ！
+
+### gemcutter | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### jeweler | node:Start#0 | text#0
+> A well-polished and well-picked gem, no matter how rough, is as beautiful a work of art as any figurine.~
+> Lean in close to see the detail. No, don't touch.~
+> Within my gemstones there burns a brighter fire than in some hearts.~
+> Water-wealth means nothing if you cannot carry it. Need jewels?~
+> Friend, I have precious metals and jewels to adorn or trade.~
+> Raw metals and gems buy and sell for a fixed water-cost.~
+> Come, wanderer, change some of that heavy water for a pocketful of riches.~
+> Water Barons don't adorn themselves with water, after all.
+よく選んでよく磨いた宝石は、どんなに荒削りでも、彫像に負けない芸術品さ。~
+顔を近づけて細かいところを見てごらん。いや、触っちゃだめ。~
+うちの宝石の中では、人の心よりも明るい炎が燃えてるよ。~
+水の財産も、持ち運べなきゃ意味がない。宝石は要らないかい？~
+友よ、身を飾るにも取引にも使える、貴金属と宝石があるよ。~
+細工前の金属と宝石は、決まった水の値で売り買いしてるよ。~
+さあ旅の人、重たい水を、ポケットいっぱいの富に替えていきな。~
+水の男爵だって、水で着飾ったりはしないだろ？
+
+### jeweler | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### DefaultTrader | node:Start#0 | text#0
+> [Press tab or T to open trade]
+[Tab キーか T キーで取引を開く]
+
+### DefaultTrader | node:Start#0 / choice:>End#0 | direct
+> [Leave]
+[立ち去る]
+
+### Wild Water Merchant | node:Start#0 | text#0
+> You! Are you come to attend his waking dream? Nor do I have cloven hooves, but, yes, a cloven mind.
+お前！ あのお方の、覚めながら見る夢に立ち会いに来たのか？ わしの蹄は割れておらん。だが、そう、心は割れておるのさ。
+
+### Wild Water Merchant | node:Start#0 / choice:>Who#0 | direct
+> Who are you?
+あなたは何者だ？
+
+### Wild Water Merchant | node:Start#0 / choice:>What#0 | direct
+> What are you talking about?
+何の話だ？
+
+### Wild Water Merchant | node:Start#0 / choice:>Mamon#0 | direct
+> I must talk with the shaman Mamon Souldrinker.
+呪術師マモン・ソウルドリンカーと話さなければならない。
+
+### Wild Water Merchant | node:Start#0 / choice:>End#0 | direct
+> I must go.
+もう行かないと。
+
+### Wild Water Merchant | node:Who#0 | text#0
+> Who am I? Who are you? What does it matter? You and I are nothing, the most insignificant afterthoughts of an amaranthine shade.
+わしが何者か？ お前は何者か？ それが何だ？ お前もわしも無にすぎん。不朽の影がふと思い浮かべた、取るに足らぬ思いつきよ。
+
+### Wild Water Merchant | node:Who#0 / choice:>What#0 | direct
+> What are you talking about?
+何の話だ？
+
+### Wild Water Merchant | node:Who#0 / choice:>Mamon#0 | direct
+> I must talk with the shaman Mamon Souldrinker.
+呪術師マモン・ソウルドリンカーと話さなければならない。
+
+### Wild Water Merchant | node:Who#0 / choice:>End#0 | direct
+> I must go.
+もう行かないと。
+
+### Wild Water Merchant | node:What#0 | text#0
+> The amaranthine dream! The heights within ourselves we might yet reach with his guidance. There it is in all of us -- shades of our elder selves. Within each man, a goat. Within each goat, a man!
+不朽の夢だ！ あのお方の導きがあれば、われら自身の内なる高みにまだ届くやもしれん。誰の中にもあるのだ――古き己の影がな。人の中にはヤギが。ヤギの中には人がおる！
+
+### Wild Water Merchant | node:What#0 / choice:>Who#0 | direct
+> Who are you?
+あなたは何者だ？
+
+### Wild Water Merchant | node:What#0 / choice:>Mamon#0 | direct
+> I must talk with the shaman Mamon Souldrinker.
+呪術師マモン・ソウルドリンカーと話さなければならない。
+
+### Wild Water Merchant | node:What#0 / choice:>End#0 | direct
+> I must go.
+もう行かないと。
+
+### Wild Water Merchant | node:Mamon#0 | text#0
+> You don't talk with that mangoat -- you listen to him.
+あのヤギ人と話すことなどできん――ただ聞くのだ。
+
+### Wild Water Merchant | node:Mamon#0 / choice:>Who#0 | direct
+> Who are you?
+あなたは何者だ？
+
+### Wild Water Merchant | node:Mamon#0 / choice:>What#0 | direct
+> What are you talking about?
+何の話だ？
+
+### Wild Water Merchant | node:Mamon#0 / choice:>End#0 | direct
+> I must go.
+もう行かないと。
+
+### Woodsprog | node:Start#0 | text#0
+> A-ye?~
+> Tallfolk.~
+> You wandering? Be nimble.~
+> Branches part for you.~
+> Be nimble, broadfinger.~
+> Need aught?~
+> Hm hm hm.~
+> Oeh?~
+> Trees shield you.~
+> Sower's eye pass over you.~
+> Forage fruitfully.~
+> Danger, a-ye?
+あいぃ？~
+のっぽの人。~
+旅してる？ 身軽にね。~
+枝が道をあけるよ。~
+身軽にね、ふと指さん。~
+何かいる？~
+ふむふむふむ。~
+おえ？~
+木があなたを守るよ。~
+種まく者の目に留まりませんように。~
+実りある採り歩きを。~
+あぶない、あいぃ？
+
+### Woodsprog | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### AppleFarmersDaughter | node:Start#0 | text#0
+> {{emote|*The apple farmer's daughter shies away from you.*}}
+{{emote|*リンゴ農家の娘は、恥ずかしそうにあなたから離れる。*}}
+
+### AppleFarmersDaughter | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Animals | node:Start#0 | text#0
+> {{emote|*soft growling*}}
+{{emote|*低くうなっている*}}
+
+### Animals | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Humanoids | node:Start#0 | text#0
+> Live and drink.~
+> What is it?~
+> Live and drink, =player.formalAddressTerm=.
+生きて飲め。~
+何だ？~
+生きて飲め、旅の人。
+
+### Humanoids | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### WatervineFarmers | node:Start#0 | text#0
+> Live and drink, wayfarer.~
+> Live and drink, =player.formalAddressTerm=.~
+> Moon and Sun; wisdom and will.~
+> May the earth yield for us this season.
+生きて飲め、旅の人。~
+生きて飲め、お客人。~
+月と太陽を。知恵と意志を。~
+今年も大地が実りをくれますように。
+
+### WatervineFarmers | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Apes | node:Start#0 | text#0
+> {{emote|*pounds chest*}}
+{{emote|*胸をどんどん叩く*}}
+
+### Apes | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Robots | node:Start#0 | text#0
+> {{emote|*beep boop*}}~
+> {{emote|*boop beep*}}~
+> {{emote|*beep boop beep*}}~
+> {{emote|*boop beep boop*}}
+{{emote|*ピッ ポッ*}}~
+{{emote|*ポッ ピッ*}}~
+{{emote|*ピッ ポッ ピッ*}}~
+{{emote|*ポッ ピッ ポッ*}}
+
+### Robots | node:Start#0 / choice:>End#0 | direct
+> Live and... remain ever rustless.
+生きて……いつまでも錆びずにいろよ。
+
+### Insects | node:Start#0 | text#0
+> {{emote|*sharp clicking*}}~
+> {{emote|*soft buzzing*}}
+{{emote|*カチカチと鋭く鳴らす*}}~
+{{emote|*ブーンとかすかな羽音*}}
+
+### Insects | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### InsectNest | node:Start#0 | text#0
+> {{emote|*There's scratching and clicking coming from inside.*}}
+{{emote|*中から、カリカリ、カチカチという音が聞こえる。*}}
+
+### InsectNest | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Crabs | node:Start#0 | text#0
+> {{emote|*raucous croaking*}}
+{{emote|*ガアガアとやかましく鳴く*}}
+
+### Crabs | node:Start#0 / choice:>End#0 | direct
+> Farewell, scuttlefriend.
+じゃあな、横歩きの友よ。
+
+### Oozes | node:Start#0 | text#0
+> {{emote|*exudes loudly*}}~
+> {{emote|*soft gushing*}}
+{{emote|*派手ににじみ出る*}}~
+{{emote|*とろとろと湧き出す*}}
+
+### Oozes | node:Start#0 / choice:>End#0 | direct
+> Live and exude.
+生きて、にじめ。
+
+### Reptiles | node:Start#0 | text#0
+> {{emote|*soft hissing*}}
+{{emote|*シューッと静かに息を吐く*}}
+
+### Reptiles | node:Start#0 / choice:>End#0 | direct
+> Stay warm, =pronouns.formalAddressTerm=.
+体を冷やすなよ、友よ。
+
+### Frogs | node:Start#0 | text#0
+> {{emote|*ribbits*}}
+{{emote|*ケロケロ*}}
+
+### Frogs | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Tortoises | node:Start#0 | text#0
+> {{emote|*sniffles and sneezes*}}
+{{emote|*鼻をすすって、くしゃみをする*}}
+
+### Tortoises | node:Start#0 / choice:>End#0 | direct
+> Your home is on your back, =pronouns.formalAddressTerm=.
+家は背中にあるんだな、友よ。
+
+### Fish | node:Start#0 | text#0
+> {{emote|*stares at you unblinking*}}
+{{emote|*まばたきもせず、あなたを見つめる*}}
+
+### Fish | node:Start#0 / choice:>End#0 | direct
+> Live and drink, aqua=pronouns.formalAddressTerm=.
+生きて飲め、水の友よ。
+
+### Spiders | node:Start#0 | text#0
+> {{emote|*idly weaving*}}
+{{emote|*のんびりと糸を編んでいる*}}
+
+### Spiders | node:Start#0 / choice:>End#0 | direct
+> I must go.
+もう行かないと。
+
+### Birds | node:Start#0 | text#0
+> {{emote|*CAAW*}} =MARKOVCORVIDSENTENCE= {{emote|*CAAW*}}
+{{emote|*カアッ*}} =MARKOVCORVIDSENTENCE= {{emote|*カアッ*}}
+
+### Birds | node:Start#0 / choice:>End#0 | direct
+> Live and drink, nonsense bird.
+生きて飲め、でたらめな鳥よ。
+
+### WaterBirds | node:Start#0 | text#0
+> {{emote|*HONK*}} =MARKOVWATERBIRDSENTENCE= {{emote|*HONK*}}
+{{emote|*ガアッ*}} =MARKOVWATERBIRDSENTENCE= {{emote|*ガアッ*}}
+
+### WaterBirds | node:Start#0 / choice:>End#0 | direct
+> Live and drink, nonsense bird.
+生きて飲め、でたらめな鳥よ。
+
+### Clams | node:Start#0 | text#0
+> {{emote|*sitting open invitingly*}}
+{{emote|*誘うように口を開けている*}}
+
+### Clams | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Worms | node:Start#0 | text#0
+> {{emote|*idly undulating*}}
+{{emote|*のんびりとうねっている*}}
+
+### Worms | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Plants | node:Start#0 | text#0
+> {{emote|*the plant gives no indication of understanding*}}
+{{emote|*植物は、分かったそぶりを見せない*}}
+
+### Plants | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SapientPlants | node:Start#0 | text#0
+> Live and drink.~
+> What is it?~
+> Live and drink, heterotroph.~
+> Live and drink, =player.formalAddressTerm=.
+生きて飲め。~
+何だ？~
+生きて飲め、光合成もできない者よ。~
+生きて飲め、旅の者。
+
+### SapientPlants | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Fungi | node:Start#0 | text#0
+> {{emote|*the fungus gives no indication of understanding*}}
+{{emote|*菌は、分かったそぶりを見せない*}}
+
+### Fungi | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SapientFungi | node:Start#0 | text#0
+> Live and drink.~
+> What is it?~
+> Live and drink, metazoon.~
+> Live and drink, =player.formalAddressTerm=.
+生きて飲め。~
+何だ？~
+生きて飲め、多細胞の動物よ。~
+生きて飲め、旅の者。
+
+### SapientFungi | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Antelopes | node:Start#0 | text#0
+> {{emote|*idly grazes*}}
+{{emote|*のんびり草を食んでいる*}}
+
+### Antelopes | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Goats | node:Start#0 | text#0
+> {{emote|*baa*}}~
+> {{emote|*baaa*}}~
+> {{emote|*baaaa*}}~
+> {{emote|*baaaaa*}}~
+> {{emote|*baaaaaa*}}~
+> {{emote|*baaaaaaa*}}~
+> {{emote|*baaaaaaaa*}}~
+> {{emote|*bleat*}}~
+> {{emote|*flthpppppp*}}~
+{{emote|*メェ*}}~
+{{emote|*メェェ*}}~
+{{emote|*メェェェ*}}~
+{{emote|*メェェェェ*}}~
+{{emote|*メェェェェェ*}}~
+{{emote|*メェェェェェェ*}}~
+{{emote|*メェェェェェェェ*}}~
+{{emote|*メエエ*}}~
+{{emote|*ブフッププププ*}}~
+
+### Goats | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Goatfolk | node:Start#0 | text#0
+> Graah! Live and drink.~
+> {{emote|*bleat*}}~
+> Graaah! What is it?~
+> Graaaah!~
+> Live and drink.~
+> Grh.~
+> Graaah! Well met!~
+> Hunt well, grrrah.~
+> May you gorge upon the flesh of beasts by starlight.
+グアー！ 生きて飲め。~
+{{emote|*メエエ*}}~
+グアアー！ 何だ？~
+グアアアー！~
+生きて飲め。~
+グル。~
+グアアー！ よく来た！~
+いい狩りを、グルルア。~
+星明かりの下、獣の肉をたらふく喰らえますように。
+
+### Goatfolk | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### NewlySentientBeings | node:Start#0 | text#0
+> What am I?~
+> What is "live"? What is "drink"?
+私は、何？~
+「生きる」って何？ 「飲む」って何？
+
+### NewlySentientBeings | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Crystals | node:Start#0 | text#0
+> {{emote||The crystal chimes in bright tones.}}
+{{emote||水晶が澄んだ音で鳴る。}}
+
+### Crystals | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### MerchantGuard | node:Start#0 | text#0
+> I'm watching you, traveler.
+見てるからな、旅の人。
+
+### MerchantGuard | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### PsychicThrall | node:Start#0 | text#0
+> {{emote|*stares blankly*}}
+{{emote|*うつろな目で見つめている*}}
+
+### PsychicThrall | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### BananaRancher | node:Start#0 | text#0
+> Eat and thrive, =player.formalAddressTerm=.~
+> Is life not sweet? Could it be sweeter?~
+> May our lives be as sweet as my harvest, =player.formalAddressTerm=.~
+> Will you sing and work with me, =player.formalAddressTerm=?~
+> Hey, oh-way, it's a long way down, from the reaches of the Spindle to the humble ground...~
+> Hey, oh-way, banana tree, count the bunches, one-two-three...~
+> Hey, oh-way, how I spend my days, working in the ruins of the ancient place...~
+> Hey, oh-way, live wild and free, fear not the dacca or the quick adiyys...~
+> Eat bananas every day to keep your mind quick, but don't eat too many or you might get sick!
+食べて、栄えよ。~
+人生は甘くないかい？ もっと甘くできるかな？~
+私たちの暮らしが、うちの収穫みたいに甘くありますように。~
+一緒に歌いながら働いてくれないかい？~
+ヘイ、オーウェイ、長い道のり、スピンドルのてっぺんから、ふもとの土まで……~
+ヘイ、オーウェイ、バナナの木、房を数えよう、ひい、ふう、みい……~
+ヘイ、オーウェイ、わたしの毎日、いにしえの廃墟で働いて……~
+ヘイ、オーウェイ、のびのび生きよう、ダッカも素早いアディーズもこわくない……~
+毎日バナナを食べれば頭も冴える、でも食べすぎるとおなかを壊す！
+
+### BananaRancher | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### GenericTradeOption | node:Start#0 / choice:>*trade#0 | direct
+> Let's trade. &g[begin trade]
+取引しよう。 &g[取引を始める]
+
+### GenericAskNameOption | node:Start#0 / choice:>*askname#0 | direct
+> What is your name?~What is your name, =pronouns.formalAddressTerm=?~What may I call you, =pronouns.formalAddressTerm=?~What are you called, =pronouns.formalAddressTerm=?~I am =name=, =pronouns.formalAddressTerm=. What is your name?~I am =name=, =pronouns.formalAddressTerm=. What may I call you?
+名前は？~お名前を聞いても？~何と呼べばいい？~何と呼ばれている？~私は=name=。あなたの名前は？~私は=name=。何と呼べばいい？
+
+### GenericAskNameOption | node:TellName#0 | text#0
+> You may call me =subject.refname=.~
+> My name is =subject.refname=.~
+> I am called =subject.refname=.~
+> They call me =subject.refname=.
+=subject.refname=と呼んでくれ。~
+=subject.refname=という名だ。~
+=subject.refname=と呼ばれている。~
+みんなには=subject.refname=と呼ばれているよ。
+
+### GenericAskNameOption | node:TellName#0 / choice:>Start#0 | direct
+> Thank you, =pronouns.formalAddressTerm=.~My thanks, =pronouns.formalAddressTerm=.~Pleased to meet you, =pronouns.formalAddressTerm=.
+ありがとう。~感謝する。~よろしく。
+
+### Slynth | node:Start#0 | text#0
+> Ah?
+あ？
+
+### Slynth | node:Start#0 | text#1
+> New creature. Live and drink.
+新しい生き物。生きて飲め。
+
+### Slynth | node:Start#0 | text#2
+> Sky... sun... ah.
+空……太陽……ああ。
+
+### Slynth | node:Start#0 | text#3
+> {{emote|*stares mutely*}}
+{{emote|*黙って見つめる*}}
+
+### Slynth | node:Start#0 | text#4
+> Greet.
+あいさつ。
+
+### Slynth | node:Start#0 | text#5
+> No glow?
+光らない？
+
+### Slynth | node:Start#0 | text#6
+> No leaf...
+葉っぱ、ない……。
+
+### Slynth | node:Start#0 | text#7
+> Ah... ha ha ha! Joke.
+あ……ははは！ 冗談。
+
+### Slynth | node:Start#0 | text#8
+> Do you talk long, like Thah?
+タハみたいに、長く話す？
+
+### Slynth | node:Start#0 | text#9
+> Let us, ah, do not fight.
+えっと、たたかわない、しよう。
+
+### Slynth | node:Start#0 | text#10
+> Bored.
+たいくつ。
+
+### Slynth | node:Start#0 | text#11
+> You carry so much.
+たくさん持ってる。
+
+### Slynth | node:Start#0 | text#12
+> Drink and. Live. Hah!
+飲んで、と。生きて。はっ！
+
+### Slynth | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SlynthSettler | node:Start#0 | text#0
+> Is okay?~
+> Ahh... nervous ... excited.~
+> Happy do not fight here.~
+> Ah ha ha... nervous!~
+> Stay here?~
+> =player.FormalAddressTerm= stay also?~
+> Strange new.~
+> Live and drink.
+だいじょうぶ？~
+ああ……どきどき……わくわく。~
+ここ、たたかわない、うれしい。~
+あはは……どきどき！~
+ここにいる？~
+あなたも、いる？~
+ふしぎ、あたらしい。~
+生きて飲め。
+
+### SlynthSettler | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SlynthSettler | node:Start#1 | text#0
+> This is home.~
+> Welcome here.~
+> Good meeting.~
+> Ah... good.~
+> We chose our new home well.~
+> Happy here.~
+> Ha ha ha! Joyful!~
+> Ah =player.formalAddressTerm= visit, good.~
+> Live and drink.
+ここが、おうち。~
+ようこそ、ここへ。~
+会えて、よかった。~
+ああ……いい。~
+あたらしいおうち、いい選び方した。~
+ここで、しあわせ。~
+ははは！ うれしい！~
+ああ、あなた来た、うれしい。~
+生きて飲め。
+
+### SlynthSettler | node:Start#1 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SlynthWanderer | node:Start#0 | text#0
+> Care you to trade?~
+> I aggress not.~
+> You peaceful, =player.formalAddressTerm=?~
+> Wish trade?~
+> Good scavenge?~
+> Ah! You seem wanderer. How fare?~
+> Live and grow, =player.formalAddressTerm=.~
+> =player.FormalAddressTerm=, I greet in peace.~
+> Live and drink.~
+> Ah?~
+> Greet, =player.formalAddressTerm=.
+取引、する？~
+わたし、おそわない。~
+あなた、おだやか？~
+取引、したい？~
+いいもの、拾えた？~
+あ！ あなた、さすらい人みたい。元気？~
+生きて、育て。~
+あなたに、おだやかなあいさつ。~
+生きて飲め。~
+あ？~
+あいさつ、旅の人。
+
+### SlynthWanderer | node:Start#0 / choice:>Who#0 | direct
+> Who are you?
+あなたは？
+
+### SlynthWanderer | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### SlynthWanderer | node:Who#0 | text#0
+> I am of slynth, a people grown by hydropon.
+わたし、スリンス。ハイドロポンで育った民。
+
+### SlynthWanderer | node:Who#0 / choice:>Slynth#0 | direct
+> What are slynth?
+スリンスとは？
+
+### SlynthWanderer | node:Who#0 / choice:>Hydropon#0 | direct
+> What is a hydropon?
+ハイドロポンとは？
+
+### SlynthWanderer | node:Who#0 / choice:Iseebye#0 | direct
+> I see. Live and drink.
+なるほど。生きて飲め。
+
+### SlynthWanderer | node:Slynth#0 | text#0
+> What see. Leg plant, glow crest.
+>
+> Grow from sun-crungled hydropon and depart siblings.
+見たとおり。脚は植物、とさかは光る。
+
+日差しでぐしゃっとなったハイドロポンから育って、きょうだいと別れた。
+
+### SlynthWanderer | node:Slynth#0 / choice:>Hydropon#0 | direct
+> What is a hydropon?
+ハイドロポンとは？
+
+### SlynthWanderer | node:Hydropon#0 | text#0
+> Cradle glaze in sun-melt. Plant stuff molded to man-shape.
+>
+> Within grow slynth. Only slynth, now.
+日差しでとけた、つやつやのゆりかご。植物のもとを、人の形にこねる。
+
+その中で、スリンス育つ。今は、スリンスだけ。
+
+### SlynthWanderer | node:Hydropon#0 / choice:>Location#0 | direct
+> Where is the hydropon?
+ハイドロポンはどこにある？
+
+### SlynthWanderer | node:Hydropon#0 / choice:>Slynth#0 | direct
+> What are slynth?
+スリンスとは？
+
+### SlynthWanderer | node:Location#0 | text#0
+> The cracked egg from we crawl yet rest, in the Reef.
+>
+> Siblings there. One speak very well: Thah.
+わたしたちが這い出た、割れたたまご。まだ、あそこにある。礁の中。
+
+きょうだい、そこにいる。ひとり、とても上手に話す。タハ。
+
+### SlynthWanderer | node:Location#0 / choice:>End#0 | direct
+> Perhaps I shall visit. Live and drink.
+いつか訪ねてみよう。生きて飲め。
+
+### DynamicVillageMayor | start:Welcome#0 | text#0
+> Welcome to the village of *villageName*, =spice.commonPhrases.adventurer.!random=
+*villageName*の村へようこそ、旅の方。
+
+### DynamicVillageMayor | node:SlynthRequestAccept#0 | text#0
+> You have done much for =village.name=, =name=, and your request befits your stature. If these slynth will join us in =village.activity= and if they can come to cherish =village.sacred= as we do, then they are welcome here.
+=name=、あなたは=village.name=のために多くを尽くしてくれた。その頼みは、あなたほどの者にふさわしい。そのスリンスたちが我らと共に=village.activity=に励み、我らのように=village.sacred=を大切にしてくれるなら、喜んで迎えよう。
+
+### DynamicVillageMayor | node:SlynthRequestAccept#0 / choice:@End#0 | direct
+> You have my thanks, friend.
+ありがとう、友よ。
+
+### DynamicVillageMayor | node:SlynthArrived#0 | text#0
+> Ah, =name=, the slynth are here, and it is a slow process for these plant-folk and the people of =village.name= to grow accustomed to one another. By the goodness of =village.sacred= may the slynth find their place here soon.
+ああ、=name=。スリンスたちが来たよ。植物の民と=village.name=の者たちが互いに慣れるには、時間がかかるものだ。=village.sacred=のご加護で、スリンスたちが早くここに居場所を見つけられますように。
+
+### DynamicVillageMayor | node:SlynthArrived#0 / choice:>Start#0 | direct
+> My thanks, =subject.t=.
+ありがとう、=subject.t=。
+
+### DynamicVillageMayor | node:SlynthSettled#0 | text#0
+> Praise =village.sacred=, the slynth learn our ways and we theirs. Some do not wholly accept the depravity of =village.profane=, but their ways are born of kindness, and so =village.name= will be kind in kind.
+=village.sacred=をたたえよ。スリンスは我らのやり方を学び、我らも彼らのやり方を学んでいる。=village.profane=の堕落をすっかり受け入れられない者もいるが、彼らのふるまいは優しさから生まれたものだ。だから=village.name=も、優しさには優しさで応えよう。
+
+### DynamicVillageMayor | node:SlynthSettled#0 / choice:>Start#0 | direct
+> My thanks again, =subject.t=.
+重ねてありがとう、=subject.t=。
+
+### BaseConversation#1 | choice:AskForWork#0 | text#0
+> I'm looking for work.
+仕事を探している。
+
+### BaseConversation#1 | choice:AskForWork#0 | text#1
+> Do you have work that needs doing?
+何か頼みたい仕事はないか？
+
+### BaseConversation#1 | choice:AskForWork#0 | text#2
+> My services are available if you have work to offer.
+仕事があるなら、手を貸そう。
+
+### BaseConversation#1 | choice:AskForWork#0 | text#3
+> Is there work around here?
+このあたりに仕事はないか？
+
+### BaseConversation#1 | node:DirectToWork#0 | text#0
+> Speak to =questgivers=.
+=questgivers=に話してごらん。
+
+### BaseConversation#1 | node:DirectToWork#0 | text#1
+> Talk to =questgivers=.
+=questgivers=と話してみるといい。
+
+### BaseConversation#1 | node:DirectToWork#0 | text#2
+> Find =questgivers=.
+=questgivers=を訪ねてみな。
+
+### BaseConversation#1 | node:DirectToWork#0 / choice:MoreToAsk#0 | direct
+> Thank you. I have more to ask.
+ありがとう。ほかにも聞きたいことがある。
+
+### BaseConversation#1 | node:DirectToWork#0 / choice:Goodbye#0 | direct
+> Live and drink.
+生きて飲め。
+
+### BaseConversation#2 | choice:AskName#0 | text#0
+> What is your name?
+名前は？
+
+### BaseConversation#2 | choice:AskName#0 | text#1
+> What is your name, =pronouns.formalAddressTerm=?
+お名前を聞いても？
+
+### BaseConversation#2 | choice:AskName#0 | text#2
+> What may I call you, =pronouns.formalAddressTerm=?
+何と呼べばいい？
+
+### BaseConversation#2 | choice:AskName#0 | text#3
+> What are you called, =pronouns.formalAddressTerm=?
+何と呼ばれている？
+
+### BaseConversation#2 | choice:AskName#0 | text#4
+> I am =name=, =pronouns.formalAddressTerm=. What is your name?
+私は=name=。あなたの名前は？
+
+### BaseConversation#2 | choice:AskName#0 | text#5
+> I am =name=, =pronouns.formalAddressTerm=. What may I call you?
+私は=name=。何と呼べばいい？
+
+### BaseConversation#2 | node:TellName#0 | text#0
+> You may call me =subject.refname=.
+=subject.refname=と呼んでくれ。
+
+### BaseConversation#2 | node:TellName#0 | text#1
+> My name is =subject.refname=.
+=subject.refname=という名だ。
+
+### BaseConversation#2 | node:TellName#0 | text#2
+> I am called =subject.refname=.
+=subject.refname=と呼ばれている。
+
+### BaseConversation#2 | node:TellName#0 | text#3
+> They call me =subject.refname=.
+みんなには=subject.refname=と呼ばれているよ。
+
+### BaseConversation#2 | node:TellName#0 / choice:@Start#0 | text#0
+> Thank you, =pronouns.formalAddressTerm=.
+ありがとう。
+
+### BaseConversation#2 | node:TellName#0 / choice:@Start#0 | text#1
+> My thanks, =pronouns.formalAddressTerm=.
+感謝する。
+
+### BaseConversation#2 | node:TellName#0 / choice:@Start#0 | text#2
+> Pleased to meet you, =pronouns.formalAddressTerm=.
+よろしく。

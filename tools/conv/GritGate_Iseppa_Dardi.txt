@@ -1,0 +1,623 @@
+### Iseppa | node:Start#0 | text#0
+> Oh. Are you lost, =player.formalAddressTerm=?
+>
+> I don't mind that you're here, but I was not expecting anyone.
+あら。迷子かしら？
+
+いてくれてかまわないのよ。ただ、誰か来るとは思っていなかったから。
+
+### Iseppa | node:Start#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Start#1 | text#0
+> Is this it, I wonder?
+これで終わりなのかしら？
+
+### Iseppa | node:Start#1 / choice:>End#0 | direct
+> Not today.
+今日じゃないさ。
+
+### Iseppa | start:Recame#0 | text#0
+> You're back, I see.
+>
+> Brightsheol must not have been that interesting, I suppose? Or perhaps you missed me.
+>
+> {{emote|*Iseppa winks*}}
+戻ってきたのね。
+
+ブライトシェオルは、それほど面白くなかったのかしら？ それとも、私が恋しくなった？
+
+{{emote|*イセッパがウインクする*}}
+
+### Iseppa | start:Recame#0 / choice:>GuestKlanq#0 | direct
+> What do you think of Klanq's visit?
+クランクが来たことを、どう思う？
+
+### Iseppa | start:Recame#0 / choice:>Greetings#0 | direct
+> Good to see you, Iseppa. Let's chat.
+会えてうれしいよ、イセッパ。少し話そう。
+
+### Iseppa | start:Recame#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:GuestKlanq#0 | text#0
+> I don't know.
+>
+> Klanq's opacity is alluring, frustrating, and dangerous. Like Klanq, my thoughts on Klanq evade easy explanation.
+>
+> What you build together will be amazing. Craft well.
+分からないわ。
+
+クランクの見通せなさは、魅力的で、もどかしくて、危うい。クランクそのものと同じで、クランクについての私の考えも、簡単には言葉にならないの。
+
+あなたたちが一緒に作るものは、きっとすばらしいものになる。いい仕事をしてね。
+
+### Iseppa | node:GuestKlanq#0 / choice:>End#0 | direct
+> Well, I should go. Live and drink.
+さて、そろそろ行くよ。生きて飲め。
+
+### Iseppa | start:Post Arms#0 | text#0
+> These are the final chapters of this story, =name=, and likely of many stories more too.
+>
+> It will be well to see the other side of all this, one way or another.
+これはこの物語の最後の数章よ、=name=。ほかのたくさんの物語にとっても、きっとそう。
+
+どんな形であれ、この先を見届けられたらいいわね。
+
+### Iseppa | start:Post Arms#0 / choice:>TombQuest#0 | direct
+> I must enter Brightsheol through the Tomb of the Eaters.
+喰らう者の墓所を通って、ブライトシェオルへ入らなければならない。
+
+### Iseppa | start:Post Arms#0 / choice:>Greetings#0 | direct
+> Let's talk, Iseppa.
+少し話そう、イセッパ。
+
+### Iseppa | start:Post Arms#0 / choice:>End#0 | direct
+> It will. Live and drink.
+見届けられるさ。生きて飲め。
+
+### Iseppa | node:TombQuest#0 | text#0
+> You're going to the Thin World? I confess to some measure of envy.
+>
+> I have dreamt many times of disappearing into a cool ocean of information, shaking the cruft of my physical form from newly-freed quills. If that came of my waking life, would I then dream as chore-doing Iseppa in her chambers? Perhaps it's best I don't know.
+薄き世界へ行くの？ 正直、少しうらやましいわ。
+
+ひんやりした情報の海に溶けて消える夢を、何度も見たの。自由になった針の毛から、肉の体のしがらみを振り落としてね。もしそれが目覚めているときに起きたら、今度は部屋で雑用をしているイセッパの夢を見るのかしら？ 知らないほうがいいのかもしれないわね。
+
+### Iseppa | node:TombQuest#0 / choice:>End#0 | direct
+> Very well, Iseppa. Live and drink.
+分かったよ、イセッパ。生きて飲め。
+
+### Iseppa | start:Greetings#0 | text#0
+> Ah, it is our new short-fingered friend. Set a spell, if you like setting.
+>
+> {{emote|*Iseppa yawns*}}
+>
+> Or spells. Or Iseppa. If you like Iseppa, this is a very good place to be.
+あら、指の短い新しいお友だちね。ゆっくりしていって。のんびりするのが好きなら。
+
+{{emote|*イセッパがあくびをする*}}
+
+それとも、のんびりした時間が好きなら。それとも、イセッパが好きなら。イセッパが好きなら、ここはとてもいい場所よ。
+
+### Iseppa | start:Greetings#0 / choice:IseppaSusa#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Iseppa | start:Greetings#0 / choice:Isepporch#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Iseppa | start:Greetings#0 / choice:Isepquake#0 | direct
+> Did you feel that rumbling, Iseppa?
+今の地響きを感じたか、イセッパ？
+
+### Iseppa | start:Greetings#0 / choice:Isepshroom#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Iseppa | start:Greetings#0 / choice:Iseproject#0 | direct
+> What are you working on, Iseppa?
+何をしているんだ、イセッパ？
+
+### Iseppa | start:Greetings#0 / choice:Isleepy#0 | direct
+> Are you tired?
+疲れているのか？
+
+### Iseppa | start:Greetings#0 / choice:Bioseppa#0 | direct
+> I wish to know more about you.
+あなたのことをもっと知りたい。
+
+### Iseppa | start:Greetings#0 / choice:>Like#0 | direct
+> I do like you, Iseppa.
+あなたのことは好きだよ、イセッパ。
+
+### Iseppa | start:Greetings#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Like#0 | text#0
+> Thank you, =name=. I like you too.
+ありがとう、=name=。私もあなたが好きよ。
+
+### Iseppa | node:Like#0 / choice:Gosseppa#0 | direct
+> What can you tell me about the other Barathrumites?
+ほかのバラサラム派の仲間のことを教えてくれないか？
+
+### Iseppa | node:Like#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Bethesda#0 | text#0
+> Bethesda Susa is an antipodal place, a gallery of life and death and the stages between. Its depths prolong life and end it early, remove life from the flow of days or return it.
+>
+> It will seek to make you late. Take care you come back on time.
+ベテスダ・スーサは、正反対のものが同居する場所。生と死と、そのあいだのあらゆる段階を並べた画廊なの。あそこの深みは、命を引き延ばしもすれば、早々に終わらせもする。日々の流れから命を引き抜きもすれば、戻しもするのよ。
+
+あそこは、あなたを遅らせようとするわ。ちゃんと時間どおりに帰ってきてね。
+
+### Iseppa | node:Bethesda#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Omonporch#0 | text#0
+> Though I adore the sights and smells of Omonporch, its bug problem becomes distracting.
+>
+> If I'm to travel there, I always bring something they cannot zip away from.
+オモンポーチの景色もにおいも大好きなのだけど、虫の多さには気が散ってしまうわ。
+
+あそこへ行くときは、虫がすばしこく逃げられない何かを、いつも持っていくの。
+
+### Iseppa | node:Omonporch#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Rumbling#0 | text#0
+> Yes. That was not the voice of the caverns.
+>
+> It feels like one of my nightmares come to life at last.
+ええ。あれは洞窟の声じゃなかった。
+
+私の悪夢のひとつが、とうとう本当になったみたい。
+
+### Iseppa | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Klanq#0 | text#0
+> I have not.
+>
+> I would, however, love to meet him. He seems a fun fungus.
+>
+> But I daren't go. I fear the sludges.
+ないわ。
+
+でも、ぜひ会ってみたいの。楽しいキノコみたいだもの。
+
+だけど、行く勇気はないの。スラッジが怖いから。
+
+### Iseppa | node:Klanq#0 / choice:>Sludges#0 | direct
+> You fear sludge?
+ヘドロが怖いのか？
+
+### Iseppa | node:Klanq#0 / choice:>MmHmm#0 | direct
+> I see.
+なるほど。
+
+### Iseppa | node:Sludges#0 | text#0
+> I fear sludges, the kind you may no longer describe with 'some'. Born of the ancient stuff of existence, possessed of malice and wanting nothing more than to eat whatever they can, and they can eat whatever. It is even worse when they drink.
+>
+> Take care with them.
+怖いのはスラッジ。ただのヘドロじゃなくて、一匹二匹と数えるほうの。存在の太古の素材から生まれて、悪意を抱いていて、食べられるものは何でも食べることしか考えていない。しかも、何でも食べられるの。飲むときはもっとひどいわ。
+
+気をつけてね。
+
+### Iseppa | node:Sludges#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Tired#0 | text#0
+> I am always tired, =player.formalAddressTerm=.
+>
+> My sleep comes in fits and starts, and always with ghastly visions. Sometimes my rest must be coaxed along with medicine.
+いつも疲れているの。
+
+眠りは途切れ途切れで、いつも恐ろしい夢を見るのよ。ときどきは、薬の力を借りないと眠れないの。
+
+### Iseppa | node:Tired#0 / choice:>Dreams#0 | direct
+> You have prophetic visions in your sleep?
+眠りの中で予言を見るのか？
+
+### Iseppa | node:Tired#0 / choice:>MmHmm#0 | direct
+> I see. That seems difficult.
+そうか。それはつらそうだ。
+
+### Iseppa | node:Dreams#0 | text#0
+> No. My nightmares are a concoction of my disordered mind, nothing more. The fumes from this cauldron have nothing to do with the future, save how they affect it.
+>
+> {{emote|*Iseppa sighs.*}}
+>
+> I'd rather speak of something else, =player.formalAddressTerm=.
+いいえ。私の悪夢は、乱れた心がこしらえたもの。それだけよ。この大鍋から立ちのぼる湯気は、未来とは関係ないわ。未来に影響を与えることはあってもね。
+
+{{emote|*イセッパがため息をつく。*}}
+
+ほかの話をしましょう。
+
+### Iseppa | node:Dreams#0 / choice:>MmHmm#0 | direct
+> Oh.
+そうか。
+
+### Iseppa | node:MmHmm#0 | text#0
+> Mm-hmm.
+>
+> {{emote|*Iseppa yawns.*}}
+ふふん。
+
+{{emote|*イセッパがあくびをする。*}}
+
+### Iseppa | node:MmHmm#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Gossip#0 | text#0
+> I would never think to steal from you the delight of forming opinions of my enclave on your own.
+>
+> {{emote|*Iseppa yawns.*}}
+>
+> Besides, that sounds like rather a lot of talking.
+この拠点の人たちのことを自分で見て判断する楽しみを、あなたから奪うなんてとてもできないわ。
+
+{{emote|*イセッパがあくびをする。*}}
+
+それに、ずいぶんたくさんしゃべらなきゃいけなさそうだし。
+
+### Iseppa | node:Gossip#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:AboutMe#0 | text#0
+> I am Iseppa, and she is me.
+>
+> I've given thought to being someone else, but never enough to try.
+私はイセッパ。イセッパは私。
+
+ほかの誰かになることを考えたこともあるけれど、試してみるほどではなかったわ。
+
+### Iseppa | node:AboutMe#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Iseppa | node:Project#0 | text#0
+> I am contemplating the distinction between animal and rock. Why are they different? How much like a rock must an animal be when it ceases to be an animal?~
+> I am considering the window of consciousness through which each of us views the universe. What happens to it when we die?~
+> I am taking inventory of my faculties, and looking for any that I might not previously have considered.~
+> I am considering the thought as a discrete object. I wish to determine whether I am able to think a single thought only, and to determine how to distinguish it from another thought in the same vein.~
+> I am considering the determination of goodness and badness in a thing, and how it is determined. The interaction between data and subjective evaluation, and the values that guide us that we cannot put to words.~
+> I am contemplating the Spindle's place in Qud, its position as a conceptual focal point. How much of what we know of the Spindle is the craft of those before us, carried forward?~
+> I am considering narrative inheritances. The stories we were told when our minds were more putty-like, the follies that shaped who we are, that shape the whole of Qud.
+動物と岩の違いについて考えているの。どうして違うのかしら？ 動物が動物でなくなるのは、どれくらい岩に似たときなのかしら？~
+私たちひとりひとりが宇宙をのぞいている、意識という窓について考えているの。死んだら、その窓はどうなるのかしら？~
+自分の持っている力を棚卸ししているの。今まで考えたこともなかった力がないか、探しているのよ。~
+「考え」を、ひとつひとつ切り分けられる物として考えているの。たったひとつの考えだけを考えられるのか、そして同じ筋の別の考えとどう見分けるのか、確かめたいの。~
+物事の良し悪しがどうやって決まるのかを考えているの。事実と主観的な評価がどう絡み合うのか、言葉にできないけれど私たちを導いている価値観のことも。~
+クッドにおけるスピンドルの位置づけについて考えているの。考えの焦点としてのスピンドルね。スピンドルについて私たちが知っていることのうち、どれだけが先人たちのこしらえたものを受け継いだだけなのかしら？~
+受け継がれる物語について考えているの。心がまだ粘土みたいにやわらかかったころに聞かされた話。私たちを形作り、クッド全体を形作っている、愚かさのことよ。
+
+### Iseppa | node:Project#0 / choice:>Project2#0 | direct
+> Oh. It looks like you are sorting screws and fasteners.
+ああ。ねじや留め具を仕分けしているように見えるが。
+
+### Iseppa | node:Project#0 / choice:>Project3#0 | direct
+> Have you come to any conclusions?
+何か結論は出たのか？
+
+### Iseppa | node:Project#0 / choice:>End#0 | direct
+> I shall leave you to it. Live and drink, contemplatrix.
+邪魔しないでおくよ。生きて飲め、思索の人。
+
+### Iseppa | node:Project2#0 | text#0
+> Yes.
+ええ。
+
+### Iseppa | node:Project2#0 / choice:>MmHmm#0 | direct
+> But you're also doing the other thing.
+でも、考えごとのほうもしているんだな。
+
+### Iseppa | node:Project2#0 / choice:>End#0 | direct
+> I'll leave you to it.
+邪魔しないでおくよ。
+
+### Iseppa | node:Project3#0 | text#0
+> Not yet, but that's not the point.
+まだよ。でも、そこが大事なんじゃないの。
+
+### Iseppa | node:Project3#0 / choice:>MmHmm#0 | direct
+> Oh, I see.
+ああ、なるほど。
+
+### Iseppa | node:Project3#0 / choice:>End#0 | direct
+> I'll leave you to it, then.
+では、邪魔しないでおくよ。
+
+### Dardi | node:Start#0 | text#0
+> Who are you? Get out of my work space!
+誰だ？ 私の仕事場から出ていけ！
+
+### Dardi | node:Start#0 / choice:>End#0 | direct
+> Sorry! I'm going!
+すまない！ 出ていく！
+
+### Dardi | node:Start#1 | text#0
+> Innovation's sworn enemies have come knocking, =name=. Let us answer them.
+革新の宿敵どもが戸をたたきに来たぞ、=name=。迎え撃ってやろうじゃないか。
+
+### Dardi | node:Start#1 / choice:>End#0 | direct
+> Take care.
+気をつけてな。
+
+### Dardi | start:Recame#0 | text#0
+> =name=. Come in. Eat.
+=name=。入れ。食え。
+
+### Dardi | start:Recame#0 / choice:>GuestKlanq#0 | direct
+> You seem more irritated than usual.
+いつもより機嫌が悪そうだな。
+
+### Dardi | start:Recame#0 / choice:>Greetings#0 | direct
+> About your workshop...
+あなたの仕事場のことだが……。
+
+### Dardi | start:Recame#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Dardi | node:GuestKlanq#0 | text#0
+> Otho has forbidden me from requesting a sample of Klanq. I am to refrain from being puffed on, to cultivate my own!
+>
+> Are we yet researchers? Is subject consent no longer adequate ethical rigor? Let Klanq puff on Dardi!
+オソに、クランクの試料を頼むのを禁じられたのだ。胞子を吹きかけてもらって、自分で培養するのはやめろとさ！
+
+我々はまだ研究者ではないのか？ 被験者の同意だけでは、もう倫理的に十分ではないというのか？ クランクよ、ダルディに胞子を吹きかけたまえ！
+
+### Dardi | node:GuestKlanq#0 / choice:>End#0 | direct
+> Well, I should go. Live and drink.
+さて、そろそろ行くよ。生きて飲め。
+
+### Dardi | start:Post Arms#0 | text#0
+> Death to all subjugators who dare face us.
+我らに立ち向かう圧制者どもに、死を。
+
+### Dardi | start:Post Arms#0 / choice:>TombQuest#0 | direct
+> I must enter Brightsheol through the Tomb of the Eaters.
+喰らう者の墓所を通って、ブライトシェオルへ入らなければならない。
+
+### Dardi | start:Post Arms#0 / choice:>Greetings#0 | direct
+> About your workshop...
+あなたの仕事場のことだが……。
+
+### Dardi | start:Post Arms#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Dardi | node:TombQuest#0 | text#0
+> Oh? Oh! Do pick up the mopango recipe for bone babka while you're there, won't you? I must know how they make it so dense.
+ほう？ おお！ ついでに、モパンゴの骨バブカのレシピを手に入れてきてくれないか？ どうやってあんなにずっしり作るのか、ぜひ知りたいのだ。
+
+### Dardi | node:TombQuest#0 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Dardi | start:Greetings#0 | text#0
+> {{emote|*Dardi addresses you without looking up from =pronouns.possessive= many workspaces, many of which billow smoke, steam, or some unknown miasma.*}}
+>
+> Welcome to my laboratory, =name=. Rest and sustain =player.reflexive= before returning to your travels.
+{{emote|*ダルディは、いくつもの作業台から顔も上げずに話しかけてくる。その多くからは煙や湯気や、得体の知れない瘴気がもくもくと立ちのぼっている。*}}
+
+私の研究室へようこそ、=name=。旅に戻る前に、休んで腹ごしらえをしていきたまえ。
+
+### Dardi | start:Greetings#0 / choice:BajaBlast#0 | direct
+> Do you know anything about Bethesda Susa?
+ベテスダ・スーサについて何か知っているか？
+
+### Dardi | start:Greetings#0 / choice:BananasFoster#0 | direct
+> What do you know about Omonporch and the self-appointed Earl?
+オモンポーチと、自称伯爵について何か知っているか？
+
+### Dardi | start:Greetings#0 / choice:VanillaShake#0 | direct
+> Did you feel that rumbling, Dardi?
+今の地響きを感じたか、ダルディ？
+
+### Dardi | start:Greetings#0 / choice:MushroomRisotto#0 | direct
+> Have you ever met Pax Klanq?
+パクス・クランクに会ったことはあるか？
+
+### Dardi | start:Greetings#0 / choice:ThePorridge#0 | direct
+> That smell from the oven is... indescribable.
+そのかまどから漂ってくるにおいは……なんとも言いようがないな。
+
+### Dardi | start:Greetings#0 / choice:Platespinning#0 | direct
+> What are you working on?
+何を作っているんだ？
+
+### Dardi | start:Greetings#0 / choice:>Kitchen#0 | direct
+> Laboratory? You work in a kitchen.
+研究室？ ここは台所だろう。
+
+### Dardi | start:Greetings#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。
+
+### Dardi | node:Bethesda#0 | text#0
+> Yes! I have braved its wharf in the past, to gather precious convalessence for my experiments.
+>
+> Are you going? Dress warmly and mind the trolls.
+知っているとも！ 以前、実験に使う貴重なコンヴァレッセンスを集めに、あそこの船着き場まで行ったことがある。
+
+行くのかね？ 暖かい格好をして、トロールに気をつけたまえ。
+
+### Dardi | node:Bethesda#0 / choice:KitchenNightmare#0 | direct
+> Did you call this kitchen your laboratory?
+この台所を研究室と呼んだのか？
+
+### Dardi | node:Bethesda#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。
+
+### Dardi | node:Omonporch#0 | text#0
+> Omonporch is a fine source of bananas, but I have little to say about self-appointed nobility.
+>
+> Claimed authority has a heady aroma, but no broth beneath it. Let us simply appease Asphodel and leave xem to xyr fantasies.
+オモンポーチはバナナのいい産地だが、自称貴族については言うことはあまりない。
+
+名乗っただけの権威というのは、香りは強烈だが、その下にだしがない。アスフォデルには適当に機嫌を取って、勝手に夢を見させておけばいい。
+
+### Dardi | node:Omonporch#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。
+
+### Dardi | node:Rumbling#0 | text#0
+> My air-puffed pastry experiment collapsed thanks to that disturbance.
+>
+> Whoever is responsible will pay dearly.
+あの揺れのせいで、ふくらし菓子の実験がつぶれてしまった。
+
+やったのが誰であれ、たっぷり償わせてやる。
+
+### Dardi | node:Rumbling#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。
+
+### Dardi | node:Klanq#0 | text#0
+> I have visited the rainbow wood but once, and there I sampled an array of strange foods, one of which allowed me an unusual lens through which to view the world. It was nothing like I had ever experienced, and I imagined such wondrous recipes. I wrote them all down as best I could, of course.
+>
+> Sadly, once I returned to my ordinary frame of reference, my scribblings proved impossible to read. So it goes.
+虹の森には一度だけ行ったことがある。そこで珍しい食べ物をあれこれ試したのだが、そのうちのひとつのおかげで、世界がまるで違って見えた。あんな体験は初めてでな、それはもう、すばらしいレシピを思いついたのだ。もちろん、できるかぎり全部書き留めた。
+
+残念ながら、いつもの頭に戻ってみると、その走り書きはまったく読めなかった。そういうものだ。
+
+### Dardi | node:Klanq#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。
+
+### Dardi | node:Porridge#0 | text#0
+> What you smell is Grit Gate's signature dish. The Porridge is a recipe passed down through generations of Barathrumites, and it is the food that inspired me to pursue my craft. Yes, outsiders quail at the intensity of the scent, for its flavor is as bold as its effects!
+>
+> We use cuisine to channel lightning from our bodies! Other recipes may let us breathe fire, or learn the secrets of the Eaters. The Porridge is as precious a part of our legacy as the Barathrum Clock or the foaminator.
+そのにおいこそ、グリット・ゲートの名物料理だ。「ザ・ポリッジ」は、バラサラム派に代々伝わるレシピでな、私がこの道を志すきっかけになった料理でもある。そうとも、よそ者はこの強烈なにおいにひるむ。その味は、効き目と同じくらい大胆だからな！
+
+我々は料理を使って、体から稲妻を放つのだ！ ほかのレシピなら、火を吐いたり、喰らう者たちの秘密を知ったりもできる。ザ・ポリッジは、バラサラムの時計や泡立て機と同じくらい、我らの大切な遺産なのだ。
+
+### Dardi | node:Porridge#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。
+
+### Dardi | node:FoodNetwork#0 | text#0
+> Oh, it changes by the hour, sometimes the minute. Preserve this, observe that, add anything, taste everything.
+>
+> But the starapple of my eye, the Spindle up which I cast my ambitious gaze... is edible vapor. Food that you eat, food that you breathe. Sadly, to date the most I have managed is an herbed saline suspension. Salty air, if you will.
+ああ、一時間ごとに、ときには一分ごとに変わる。これを漬け込み、あれを観察し、何でも足して、何でも味見する。
+
+だが、私の目の中のスターアップル、野心のまなざしで見上げるスピンドルは……食べられる湯気だ。食べる料理、そして吸う料理。残念ながら、今のところできたのは、香草入りの塩水の霧が精いっぱいでな。言ってみれば、しょっぱい空気だ。
+
+### Dardi | node:FoodNetwork#0 / choice:>VaporAndSalt#0 | direct
+> Vapor... and salt?
+湯気……と、塩？
+
+### Dardi | node:FoodNetwork#0 / choice:>LuckyPlate#0 | direct
+> Good luck with your experiments, then.
+では、実験がうまくいくといいな。
+
+### Dardi | node:FoodNetwork#0 / choice:>End#0 | direct
+> Well, I should be going.
+さて、そろそろ行くよ。
+
+### Dardi | node:VaporAndSalt#0 | text#0
+> Yes. The flavor, the breathability, all successful, but the barrier between flavor and food is in the calories, and they have yet eluded me. But it is only a matter of time. I am patient, and I am relentless.
+そうだ。味も、吸いやすさも、すべてうまくいった。だが、味と食べ物を分ける壁は、滋養にある。それがまだ手に入らんのだ。だが、時間の問題だよ。私は辛抱強いし、決してあきらめん。
+
+### Dardi | node:VaporAndSalt#0 / choice:>LuckyPlate#0 | direct
+> Good luck, then.
+では、うまくいくといいな。
+
+### Dardi | node:VaporAndSalt#0 / choice:>End#0 | direct
+> I will leave you to it. Live and drink.
+邪魔はしないでおくよ。生きて飲め。
+
+### Dardi | node:LuckyPlate#0 | text#0
+> I have no need for luck, but I appreciate your well-wishes nonetheless.
+>
+> May your own endeavors drive you as mine drive me. Did you wish to speak of anything else?
+運は要らん。だが、気持ちはありがたく受け取っておこう。
+
+私が自分の挑戦に突き動かされているように、君も君の挑戦に突き動かされんことを。ほかに話したいことはあるかね？
+
+### Dardi | node:LuckyPlate#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。
+
+### Dardi | node:Kitchen#0 | text#0
+> Kitchen? You think this a mere kitchen?
+台所？ ここがただの台所だと思うのか？
+
+### Dardi | node:Kitchen#0 / choice:>Kitchen2#0 | direct
+> It certainly looks like a kitchen.
+どう見ても台所だが。
+
+### Dardi | node:Kitchen#0 / choice:>Kitchen3#0 | direct
+> No, of course it's a laboratory, I wasn't thinking.
+いや、もちろん研究室だ。うっかりしていた。
+
+### Dardi | node:Kitchen#0 / choice:>End#0 | direct
+> Why don't I see myself out?
+私はそろそろ失礼するとしよう。
+
+### Dardi | node:Kitchen2#0 | text#0
+> And I suppose the Stilt is a modest church, its great bazaar a junk sale?
+>
+> Look about you. Every instrument you see is precision-calibrated, every tool handcrafted and built to last. In this room, sustenance and ingenuity come together to evolve cuisine itself, to shape not this culture alone but, over time, every culture. Is that kind of influence the product of a kitchen? Can a simple clay oven in the flower fields do what we do here? Has every kitchen an indelible influence over Qud?
+>
+> {{emote|*He frowns.*}}
+>
+> Should they? Should we not all?
+では、スティルトはつつましい教会で、あの大市場はがらくた市だとでも？
+
+まわりを見たまえ。ここにある器具はどれも精密に調整され、道具はどれも手作りで、長持ちするように作られている。この部屋では、滋養と創意がひとつになって、料理そのものを進化させているのだ。この文化だけでなく、やがてはあらゆる文化を形作るためにな。そんな影響力が、台所から生まれるものかね？ 花畑の素朴な土かまどに、我々がここでしていることができるか？ どの台所も、クッドに消えない影響を与えているとでも？
+
+{{emote|*ダルディは顔をしかめる。*}}
+
+……与えるべきなのか？ 我々みんなが、そうあるべきではないのか？
+
+### Dardi | node:Kitchen2#0 / choice:>Kitchen3#0 | direct
+> Yes?
+そうだ……？
+
+### Dardi | node:Kitchen2#0 / choice:>Kitchen3#1 | direct
+> No?
+違う……？
+
+### Dardi | node:Kitchen2#0 / choice:>Kitchen3#2 | direct
+> I'm lost.
+話についていけない。
+
+### Dardi | node:Kitchen2#0 / choice:>End#0 | direct
+> *mutter 'live and drink' while backing away*
+*「生きて飲め」とつぶやきながら後ずさる*
+
+### Dardi | node:Kitchen3#0 | text#0
+> But perhaps you are right, =player.formalAddressTerm=. Think for a moment.
+>
+> Every ingredient in the soup of collective knowledge is a valuable one, and who am I to elevate myself over more humble pioneers? But! All the more reason for us to regard cuisine (and by extension, culture itself) to be a scientific endeavor, an ongoing trial-and-error, a blending of what we know and what we don't know, calling upon reality itself to be our guide.
+>
+> You are more insightful than I realized, =name=. Thank you for this discussion. Did you need aught else?
+だが、君の言うとおりかもしれん。ちょっと考えてみたまえ。
+
+みんなの知恵を煮込んだスープでは、どの具材も大切だ。もっとつつましい先駆者たちより、私が偉いなどと言えるものか。だが！ だからこそなおさら、料理を――ひいては文化そのものを――科学の営みとみなすべきなのだ。終わりのない試行錯誤、分かっていることと分かっていないことの混ぜ合わせ。そして、現実そのものに導いてもらうのだ。
+
+君は思っていたより鋭いな、=name=。いい話ができた、ありがとう。ほかに何か要るかね？
+
+### Dardi | node:Kitchen3#0 / choice:>End#0 | direct
+> Live and drink, food-tinkerer.
+生きて飲め、料理の職人。

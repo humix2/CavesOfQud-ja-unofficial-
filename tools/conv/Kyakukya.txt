@@ -1,0 +1,499 @@
+### Crowsong | start:Welcome#0 / choice:@Who#0 | direct
+> I am =name=. Who are you?
+私は=name=。あなたは？
+
+### Crowsong | start:Welcome#0 / choice:@Hiding#0 | direct
+> Why are you hiding in the bush?
+どうして茂みに隠れているんだ？
+
+### Crowsong | start:Welcome#0 / choice:@Swords#0 | direct
+> Your twinblades are works of art. Where did you get them?
+その双剣は見事な芸術品だな。どこで手に入れた？
+
+### Crowsong | start:Welcome#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Crowsong | node:Hiding#0 | text#0
+> Hiding, no. Being grass. The feeling of animate being. Radiate inward like a turned out star.
+隠れてる、ちがう。草になってる。生きて動くものの感覚。裏返った星みたいに、内側へ光を放つ。
+
+### Crowsong | node:Hiding#0 / choice:@Kyakukya#0 | direct
+> Why are you here, in Kyakukya?
+なぜここ、キャクキャにいるんだ？
+
+### Crowsong | node:Kyakukya#0 | text#0
+> Death is the color of everything but sometimes it waves in bright ribbons, like here. The whittlers weigh their passing goods, and the walls are corpse eaters.
+死は、あらゆるものの色。でも時々、ここみたいに、明るいリボンになってはためく。木を削る者たちは、うつろう品物を量り、壁は死体を喰らう。
+
+### Yurl | start:Welcome#0 | text#0
+> Friend! Guns? Knives? Hats? Cucumbers?
+いらっしゃい！ 銃？ ナイフ？ 帽子？ キュウリ？
+
+### Yurl | start:Welcome#0 / choice:@Asphodel#0 | direct
+> You're a member of the Consortium of Phyta, right? What do you know about the Earl of Omonporch?
+あなたはフィタ・コンソーシアムの一員だろう？ オモンポーチ伯について何か知っているか？
+
+### Yurl | start:Welcome#0 / choice:@Story#0 | direct
+> What are you? What's your story?
+あなたは何者なんだ？ どういういきさつでここに？
+
+### Yurl | start:Welcome#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Yurl | node:Story#0 | text#0
+> I'm Yurl, chandler and Consortium notary. As for my story, I've been growing out of this pot for a while now. Before that, I was in another pot.
+ユル。雑貨屋で、コンソーシアムの公証人さ。いきさつ？ しばらく前から、この鉢に生えてる。その前は、別の鉢にいた。
+
+### Yurl | node:Story#0 / choice:@Consortium#0 | direct
+> Consortium?
+コンソーシアム？
+
+### Yurl | node:Consortium#0 | text#0
+> Yes, the Consortium of Phyta. We're a merchant fellowship of trees, vines, shrubs, weeds, flowers, herbs, cacti, algae -- most sorts of plants, really.
+>
+> I can't say I trust any of them, but there is no doubting their usefulness. My shelves are full and the gossip flows.
+そう、フィタ・コンソーシアム。木、つる草、低木、雑草、花、薬草、サボテン、藻――まあ、たいていの植物が入ってる商人の組合さ。
+
+どいつも信用してるとは言えないけど、役に立つのは間違いない。おかげで棚はいっぱいだし、噂話もどんどん入ってくる。
+
+### Yurl | node:Consortium#0 / choice:@Fungi#0 | direct
+> What about fungi?
+キノコはどうなんだ？
+
+### Yurl | node:Fungi#0 | text#0
+> {{emote|*Yurl flicks a leaf in displeasure.*}}
+>
+> What about fungi?
+{{emote|*ユルは不機嫌そうに葉を一枚はじく。*}}
+
+キノコが何だって？
+
+### Yurl | node:Fungi#0 / choice:@Fungi2#0 | direct
+> Are there any fungi in the Consortium?
+コンソーシアムにキノコはいるのか？
+
+### Yurl | node:Fungi#0 / choice:@Reset#0 | direct
+> Let's change the subject.
+話を変えよう。
+
+### Yurl | node:Fungi2#0 | text#0
+> {{emote|*Yurl flicks several of their leaves.*}}
+>
+> No.
+>
+> Shop's closed. Live and drink.
+{{emote|*ユルは葉を何枚もはじく。*}}
+
+いない。
+
+店じまいだ。生きて飲め。
+
+### Yurl | node:Fungi2#0 / choice:@But#0 | direct
+> But...
+でも……。
+
+### Yurl | node:But#0 | text#0
+> I am a gentleplant, -friend-. Uncross your roots and figure it out.
+>
+> Live and DRINK.
+こっちは紳士な植物なんだよ、「お友だち」。こんがらがった根っこをほどいて、自分で考えな。
+
+生きて、飲め。
+
+### Yurl | node:Asphodel#0 | text#0
+> Asphodel the socialite? Asphodel the scoundrel? You can hate xym -- and I do -- but you have to admire xym (I don't).
+>
+> The truth of it is that Plysago had the idea first, to lay claim to the Spindle per some precedent of law established in Abram's time. Of course, Plysago isn't around to make their case, are they?
+社交界の花形アスフォデル？ ろくでなしのアスフォデル？ 嫌うのは勝手だ――こっちも嫌いだしね――けど、一目置くしかない（こっちは置かないけど）。
+
+実のところ、最初に思いついたのはプライサゴなんだ。アブラムの時代に決まった法の前例を盾に、スピンドルの権利を主張するってやつをね。もちろん、プライサゴはもういないから、言い分を主張しようもないけど。
+
+### Yurl | node:Asphodel#0 / choice:@Lease#0 | direct
+> How can I convince Asphodel to lease the Spindle to Barathrum?
+どうすれば、アスフォデルにスピンドルをバラサラムへ貸すと言わせられる？
+
+### Yurl | node:Lease#0 | text#0
+> Asphodel trades on reputation and favors. Xe is likely to want to leverage your connections, so be in good social standing with a few factions for xem to even consider it.
+>
+> Now, alternatively, if you're loved by the Consortium, xe will feel the pressure to acquiesce. Xe has enough enemies among phyta.
+>
+> Of course, where all else fails, you can always sharpen your shears, if you get my meaning.
+>
+> {{emote|*Yurl winks with one of their leaves.*}}
+アスフォデルは、評判と貸し借りで商売してる。あんたの人脈を利用したがるだろうから、考えてもらうだけでも、いくつかの勢力と仲良くしておくことだね。
+
+あるいは、あんたがコンソーシアムに好かれてるなら、向こうも折れざるを得なくなる。植物の中にも、あいつの敵は大勢いるからね。
+
+もちろん、何もかもだめなら、剪定ばさみを研いでおけばいい。意味は分かるだろ？
+
+{{emote|*ユルは葉っぱの一枚でウインクする。*}}
+
+### Yurl | node:Lease#0 / choice:>End#0 | direct
+> I see. Live and drink, Yurl.
+なるほど。生きて飲め、ユル。
+
+### Nuntu | start:Welcome#0 | text#0
+> Be ape-still and muse, wanderer, and welcome to my village, Kyakukya. Have some mulled mushroom cider!
+猿のようにじっと座って、物思いにふけりなさい、旅の人。我が村キャクキャへようこそ。温めたキノコのサイダーをどうぞ！
+
+### Nuntu | start:Welcome#0 / choice:@Ape#0 | direct
+> You are... an albino ape.
+あなたは……白いサルなんだな。
+
+### Nuntu | start:Welcome#0 / choice:@Village#0 | direct
+> Why do you call it "your" village?
+なぜ「我が」村と呼ぶんだ？
+
+### Nuntu | start:Welcome#0 / choice:@Kyakukya#0 | direct
+> What can you tell me about Kyakukya?
+キャクキャについて教えてくれないか？
+
+### Nuntu | start:Welcome#0 / choice:@Work#0 | direct
+> Is there work to be found here?
+ここに仕事はあるか？
+
+### Nuntu | start:Welcome#0 / choice:@Joppa#0 | direct
+> Have you heard news of girshlings on Qud's surface? The watervine farmers of Joppa confirm it is true.
+クッドの地上にギルシュリングが出たという話を聞いたか？ ジョッパのウォーターヴァイン農家が本当だと言っている。
+
+### Nuntu | start:Welcome#0 / choice:@End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Nuntu | node:Village#0 | text#0
+> Ah, bad habit. It's a possessive feeling I should work to scrub myself of, perhaps?
+>
+> But I am its mayor, and I have been for some time. You see, years ago I deserted my people. We were of two different minds -- they desired nothing but to bludgeon everything to death, while I asked, "What is the nature of this thing we bludgeon? Or of the act itself?"
+>
+> Recognizing that my answers lay elsewhere, I cast myself into the swell of the wilds, as a sailor from Perth with no windweird casts their ship to the whims of the Pale Sea!
+ああ、悪い癖でね。自分のものだと思うこの気持ちは、洗い落とすべきなのかもしれないね？
+
+だが、私はこの村の村長で、もうずいぶん長くそうしている。実はね、何年も前に、私は仲間を捨てたのだ。考えが合わなくてね。あの者たちは何でも殴り殺すことしか望まなかったが、私は問うた。「我々が殴っているこれは、いったい何なのか？ 殴るという行いそのものは？」とね。
+
+答えはほかにあると悟って、私は荒野のうねりに身を投げた。風読みも持たないパースの船乗りが、青白き海の気まぐれに船を任せるようにね！
+
+### Nuntu | node:Village#0 / choice:@Village2#0 | direct
+> *continue listening*
+*話の続きを聞く*
+
+### Nuntu | node:Kyakukya#0 | text#0
+> We're watered by the river spray -- we pluck the fruit of the wood, and we hunt. The worshippers of Oboroqoru whittle and brood, too. They will pay you no mind unless you ask of them. Here you can be with friends, or muse alone.
+>
+> If it's trade goods that interest you, take a gander at Yurl's wares in the northwest corner. The odd one Crowsong's, too, if you can scry them in the bush.
+>
+> I must warn you, however; cast no villain's shadow on these grounds. Warden Indrix will be watching.
+川のしぶきが我らをうるおしてくれる。森の実を摘み、狩りもする。オボロコルを崇める者たちは、木を削り、物思いにふけっている。こちらから話しかけなければ、気にもとめないよ。ここでは、仲間と過ごすことも、ひとり物思いにふけることもできる。
+
+品物が目当てなら、北西の隅にあるユルの店をのぞいてごらん。茂みの中に見つけられれば、変わり者のクロウソングの品もね。
+
+ただ、ひとつ言っておかねばならない。この地で悪事の影を落とさないように。監視官インドリクスが見ているからね。
+
+### Nuntu | node:Kyakukya#0 / choice:@Yurl#0 | direct
+> Who is Yurl?
+ユルとは？
+
+### Nuntu | node:Kyakukya#0 / choice:@Crowsong#0 | direct
+> Who is Crowsong?
+クロウソングとは？
+
+### Nuntu | node:Kyakukya#0 / choice:@Indrix#0 | direct
+> Who is Indrix?
+インドリクスとは？
+
+### Nuntu | node:Kyakukya#0 / choice:@Service#0 | direct
+> I have some other questions.
+ほかにも聞きたいことがある。
+
+### Nuntu | node:SlynthRequestAccept#0 | text#0
+> Coming from anyone else, =name=, I might refuse outright. Housing recently-sentient refugees is no mean favor, I think you'll agree. My people are slow to trust, as well, so I fear that the slynth may feel unwelcome for some time. But then, grafted branches grow the best starapples, do they not? Yes, your lilypad friends are welcome here if they wish.
+ほかの者の頼みなら、即座に断っていたかもしれないよ、=name=。心を得たばかりの難民を住まわせるのは、並大抵のことではない。分かってくれるだろう？ それに、村の者たちはなかなか人を信用しないから、しばらくはスリンスも居心地が悪いかもしれない。だが、接ぎ木した枝にこそ、いちばんいいスターアップルが実るものだろう？ うむ、あなたのハスの葉のお友だちが望むなら、ここで歓迎しよう。
+
+### Nuntu | node:SlynthRequestAccept#0 / choice:@End#0 | direct
+> You have my thanks, mayor.
+ありがとう、村長。
+
+### Nuntu | node:SlynthArrived#0 | text#0
+> Never has Kyakukya seen such bustle. These slynth are seem to be as good citizens as any, but I am at my limit with the stress of keeping track of everything.
+>
+> Please check in again after some time, when I have my wits about me once again.
+キャクキャがこんなににぎやかになったことはないよ。スリンスたちは誰にも負けない良き村人のようだが、何もかも把握しておくのに、私はもう手いっぱいでね。
+
+少したって、私が落ち着きを取り戻したころに、また様子を見に来ておくれ。
+
+### Nuntu | node:SlynthArrived#0 / choice:>Start#0 | direct
+> My thanks, Mayor.
+ありがとう、村長。
+
+### Nuntu | node:SlynthSettled#0 | text#0
+> Greetings once again, =name=. I am pleased to report that the settling-in of the slynth has gone well, more or less. The villagers are yet wary, but as some slynth have joined in the rituals and worship of Oboroqoru that wariness has waned somewhat.
+>
+> They've settled in across the village over time. Crowsong has taught the basics of hunting to a select few, and I'll be teaching a cooking class once I can wrest aside the time.
+やあ、また会えたね、=name=。うれしい知らせだ。スリンスたちは、まあおおむね、うまく馴染んでくれた。村の者たちはまだ用心しているが、オボロコルの儀式や礼拝に加わるスリンスも出てきて、その用心も少しは和らいだよ。
+
+時がたつにつれ、村のあちこちに落ち着いてきた。クロウソングが何人かに狩りの基本を教えてくれたし、私も時間をひねり出せたら料理教室を開くつもりだ。
+
+### Nuntu | node:SlynthSettled#0 / choice:>Start#0 | direct
+> My thanks again, Mayor.
+重ねてありがとう、村長。
+
+### Erah | node:Start#0 | text#0
+> Be nimble, wayfarer. Take in a draught of cider before leaving.
+身軽にね、旅の人。出る前に、サイダーを一杯どう。
+
+### Erah | node:Start#0 / choice:>Introduce#0 | direct
+> I am =name=. Who are you?
+私は=name=。あなたは？
+
+### Erah | node:Start#0 / choice:>Cider#0 | direct
+> Why is the cider chunky?
+どうしてサイダーに具が入っているんだ？
+
+### Erah | node:Start#0 / choice:>Mask#0 | direct
+> Is that a Naphtaali mask over there?
+あそこにあるのは、ナフタアリの仮面か？
+
+### Erah | node:Start#0 / choice:>End#0 | direct
+> Live and drink, cider-friend.
+生きて飲め、サイダーの友よ。
+
+### Erah | node:Introduce#0 | text#0
+> I am called Erah. Branches part for you, =name=.
+エーラって呼ばれてる。枝が道をあけるよ、=name=。
+
+### Erah | node:Cider#0 | text#0
+> That'd be the mushrooms. Bit heartier, a-ye?
+キノコさ。ちょっと腹にたまるだろ、あいぃ？
+
+### Erah | node:Cider#0 / choice:>Mushrooms#0 | direct
+> Why would you put mushrooms in cider?
+なぜサイダーにキノコを入れるんだ？
+
+### Erah | node:Mushrooms#0 | text#0
+> ...
+>
+> Bit heartier, a-ye?
+……。
+
+ちょっと腹にたまるだろ、あいぃ？
+
+### Erah | node:Mask#0 | text#0
+> Is. Was naphtaali once.
+そう。昔は、ナフタアリだった。
+
+### Erah | node:Mask#0 / choice:>Naphtaali#0 | direct
+> Was? Not any more?
+だった？ 今は違うのか？
+
+### Erah | node:Mask#0 / choice:>Subject#0 | direct
+> Let us speak of something else.
+ほかの話をしよう。
+
+### Erah | node:Subject#0 | text#0
+> Mmm. Have cider?
+ふむ。サイダー、飲む？
+
+### Erah | node:Naphtaali#0 | text#0
+> A-ye, quit. Lost most my minyan to goatfolk. The sower's eye fell upon us and so we fell too.
+あいぃ、やめた。仲間のミニヤンは、ほとんどヤギ人にやられた。種まく者の目にとまって、みんな倒れたのさ。
+
+### Erah | node:Naphtaali#0 / choice:>Minyan#0 | direct
+> What is a minyan?
+ミニヤンとは何だ？
+
+### Erah | node:Naphtaali#0 / choice:>Godhed#0 | direct
+> What became of your Godhed?
+あなたたちのゴッドヘッドはどうなった？
+
+### Erah | node:Naphtaali#0 / choice:>Memories#0 | direct
+> May their memories bless you.
+仲間の思い出が、あなたを祝福してくれますように。
+
+### Erah | node:Naphtaali#0 / choice:>Subject#0 | direct
+> Let us speak of something else.
+ほかの話をしよう。
+
+### Erah | node:Memories#0 | text#0
+> As the very canopy, they will.
+>
+> Thank you.
+森の天蓋みたいに、きっと守ってくれる。
+
+ありがと。
+
+### Erah | node:Memories#0 / choice:>Subject#0 | direct
+> Let us speak of something else.
+ほかの話をしよう。
+
+### Erah | node:Memories#0 / choice:>End#0 | direct
+> Live and drink, ciderer.
+生きて飲め、サイダー屋。
+
+### Erah | node:Minyan#0 | text#0
+> Pilgrims, drawn together by need and awe and inspiration. Tinkers and sodders and guards and scouts, alloyed under the pressure of lifeswork.
+>
+> Family, like.
+巡礼者の集まり。必要と、畏れと、ひらめきで寄り集まった。職人に、土を耕す者に、見張りに、斥候。一生の仕事っていう圧で、ひとつに溶け合わさった。
+
+家族、みたいなもの。
+
+### Erah | node:Godhed#0 | text#0
+> Don't know. Wrecked? Fled?
+>
+> I crawled away, never looked back. That's the all of it.
+知らない。壊れた？ 逃げた？
+
+這って逃げて、二度と振り返らなかった。それで全部。
+
+### Indrix | node:Start#0 | text#0
+> Impudent swine! You would bear that stygian charm in my presence?
+無礼な豚め！ その冥府の呪物を、我が前に持ち込むか！
+
+### Indrix | node:Start#1 | text#0
+> Make haste, traveller.
+さっさと行け、旅の者。
+
+### Indrix | node:Start#1 / choice:>PariahA#0 | direct
+> Why are you called "pariah"?
+なぜ「追放者」と呼ばれている？
+
+### Indrix | node:Start#1 / choice:>Raising1#0 | direct
+> I am in search of work.
+仕事を探している。
+
+### Indrix | node:Start#1 / choice:>End#0 | direct
+> Live and drink, warden.
+生きて飲め、監視官。
+
+### Indrix | node:Start#2 | text#0
+> Is Mamon dead? Have you recovered the talisman?
+マモンは死んだか？ 護符は取り戻したか？
+
+### Indrix | node:Start#2 / choice:>HasPrism#0 | direct
+> Yes. Mamon is dead and I possess the prism.
+ああ。マモンは死んだ。プリズムは私が持っている。
+
+### Indrix | node:Start#2 / choice:>River#0 | direct
+> Where will I find him again?
+マモンはどこにいるんだったか？
+
+### Indrix | node:Start#2 / choice:>End#0 | direct
+> Not yet.
+まだだ。
+
+### Indrix | node:Start#3 | text#0
+> Live and drink, traveler.
+生きて飲め、旅の者。
+
+### Indrix | node:Start#3 / choice:>End#0 | direct
+> Live and drink, warden.
+生きて飲め、監視官。
+
+### Indrix | node:PariahA#0 | text#0
+> Speak nothing of that name to me. You are warned.
+その名を我が前で口にするな。警告したぞ。
+
+### Indrix | node:PariahA#0 / choice:>Pariah2#0 | direct
+> I must insist; why are you called "pariah"?
+どうしても知りたい。なぜ「追放者」と呼ばれている？
+
+### Indrix | node:PariahA#0 / choice:>Raising1#0 | direct
+> I am in search of work.
+仕事を探している。
+
+### Indrix | node:PariahA#0 / choice:>End#0 | direct
+> Live and drink, warden.
+生きて飲め、監視官。
+
+### Indrix | node:PariahB#0 | text#0
+> Speak nothing of that name to me. You are warned.
+その名を我が前で口にするな。警告したぞ。
+
+### Indrix | node:PariahB#0 / choice:>Pariah2#0 | direct
+> I must insist; why are you called "pariah"?
+どうしても知りたい。なぜ「追放者」と呼ばれている？
+
+### Indrix | node:PariahB#0 / choice:>End#0 | direct
+> Live and drink, warden.
+生きて飲め、監視官。
+
+### Indrix | node:Pariah2#0 | text#0
+> I will ravage your nubile heart!
+その若き心臓、引き裂いてくれる！
+
+### Indrix | node:Raising1#0 | text#0
+> Grrrraaaah! There is but one task I know to offer. It is most treacherous, and in all likelihood you will perish. Is your interest waned?
+グルルルアアア！ 頼めることは、ただひとつ。この上なく危険な仕事で、まず間違いなく命を落とす。それでも気は変わらぬか？
+
+### Indrix | node:Raising1#0 / choice:>Raising2#0 | direct
+> No. Continue.
+変わらない。続けてくれ。
+
+### Indrix | node:Raising1#0 / choice:>End#0 | direct
+> Yes. Goodbye.
+変わった。さらばだ。
+
+### Indrix | node:Raising2#0 | text#0
+> There is a river just south of the village that runs an eastwardly course into the jungle. Along its bank lies a goatfolk village. There resides a mighty shaman, Mamon Souldrinker. He is in possession of a talisman of great power, an amaranthine prism that refracts the psyche of its handler in much the same way, as Mayor Nuntu has explained to me, a common prism refracts light. The thing is cursed, traveler. No man or goat may safely wield it for long. You must travel to the village and retrieve the prism from Mamon by any means necessary. Do you understand?
+村のすぐ南に、東の密林へと流れる川がある。その岸辺にヤギ人の村がある。そこに住むのが、強大な呪術師、マモン・ソウルドリンカーだ。奴は強い力を持つ護符を持っている。不朽のプリズムだ。ヌントゥ村長の話では、ふつうのプリズムが光を曲げるように、あれは持つ者の心を曲げるのだという。あれは呪われているのだ、旅の者。人であれヤギであれ、長く使って無事でいられる者はおらぬ。その村へ行き、どんな手を使ってでもマモンからプリズムを取り戻せ。分かったか？
+
+### Indrix | node:Raising2#0 / choice:>Raising3a#0 | direct
+> Why don't you retrieve it yourself?
+なぜ自分で取り戻さない？
+
+### Indrix | node:Raising2#0 / choice:>Raising3b#0 | direct
+> Yes. Is there anything else I should know?
+分かった。ほかに知っておくべきことは？
+
+### Indrix | node:Raising3a#0 | text#0
+> Because, traveler, Mamon is my elder brother. He would discern my presence before I could strike.
+なぜなら、旅の者よ、マモンは我が兄だからだ。我が打ちかかる前に、奴は我の気配を見抜くだろう。
+
+### Indrix | node:Raising3a#0 / choice:>Raising3b#0 | direct
+> Is there anything else I should know?
+ほかに知っておくべきことは？
+
+### Indrix | node:Raising3b#0 | text#0
+> There is. Firstly, Mamon will likely have several goatfolk under his enthrallment, and they will protect him at all costs.
+>
+> Secondly, take care to stay out of Mamon's reach, for his power is most potent when he may lay hands on you.
+>
+> Finally, once you recover the prism, do not under any circumstances wield it. I needn't warn you of the consequences should you return to me bearing that charm.
+>
+> That is all. Are you willing?
+ある。まず、マモンはヤギ人を何人か操っているだろう。そいつらは命を懸けて奴を守る。
+
+次に、マモンの手の届く所に近づくな。奴の力は、お前に触れられるときに最も強まる。
+
+最後に、プリズムを取り戻したら、何があっても使ってはならぬ。あの呪物を身につけて我がもとへ戻ってきたらどうなるか、言うまでもあるまい。
+
+以上だ。やるか？
+
+### Indrix | node:Raising3b#0 / choice:>End#0 | direct
+> I am willing.
+やろう。
+
+### Indrix | node:Raising3b#0 / choice:>End#1 | direct
+> No, I would risk too much.
+いや、危険が大きすぎる。
+
+### Indrix | node:River#0 | text#0
+> Just south of the village, there's a river that runs an eastwardly course into the jungle. Follow it to the goatfolk village. There you will find Mamon.
+村のすぐ南に、東の密林へと流れる川がある。それをたどってヤギ人の村へ行け。そこにマモンがいる。
+
+### Indrix | node:River#0 / choice:>End#0 | direct
+> My thanks, warden.
+ありがとう、監視官。
+
+### Indrix | node:HasPrism#0 | text#0
+> Is it so? Only a ferocious warrior could have slain Mamon. You must be such a warrior. Now hand over the prism and choose your reward.
+まことか？ マモンを倒せるのは、獰猛な戦士だけだ。お前はそういう戦士なのだな。さあ、プリズムを渡し、褒美を選べ。
+
+### Indrix | node:HasPrism#0 / choice:>End#0 | text#0
+> [Give the amaranthine prism to Warden Indrix]
+[不朽のプリズムを監視官インドリクスに渡す]
+
+### Indrix | node:HasPrism#0 / choice:>End#1 | text#0
+> No, warden. It is mine.
+いや、監視官。これは私のものだ。

@@ -1,0 +1,407 @@
+### Keh | node:SlynthRequest#0 | text#0
+> Don't be coy, =name=. Emboldened by your incursions into our village, you wish to fill it with your indigent foundlings on the weight of your reputation alone. Am I correct?
+とぼけるな、=name=。村に出入りを許されて図に乗り、己の評判ひとつを盾に、行き場のない拾い子どもを村に押し込もうというのだろう。違うか？
+
+### Keh | node:SlynthRequest#0 / choice:@SlynthRequestReject#0 | direct
+> I... suppose so, yes.
+……まあ、そういうことになる。
+
+### Keh | node:SlynthRequestReject#0 | text#0
+> Then I overestimated your intellect further than I realized. Get out.
+ならば、そなたの知恵を思っていた以上に買いかぶっていたようだ。出ていけ。
+
+### Keh | node:Start#0 | text#0
+> Live and drink, kendren. I am Hindriarch Keh; welcome to Bey Lah.
+>
+> It's nearly unprecedented for one such as you to pass by our scouts unaccosted, but these are unprecedented circumstances. I have a task for you. Are you interested?
+生きて飲め、ケンドレン。私はヒンドリアーク・ケー。ベイ・ラーへようこそ。
+
+そなたのような者が斥候に咎められずに通されるなど、まずないことだ。だが、今はそのまずないことが起きている。頼みたいことがある。聞く気はあるか？
+
+### Keh | node:Start#0 / choice:>Yes. Go on.#0 | direct
+> Yes. Go on.
+ある。続けてくれ。
+
+### Keh | node:Start#0 / choice:>No.#0 | direct
+> No.
+ない。
+
+### Keh | node:Yes. Go on.#0 | text#0
+> Good.
+>
+> We hindren are a close-knit and staid people, and our safety depends on our solidarity. In order to preserve our safety and culture, we ask that any of our number who leave us never come back. Recently, one such exile took the treasure of our village, a bracelet named Kindrish, with her when she left. None of our number can leave to get it back, or it will be a violation of the values that I have guarded, and the Hindriarchs before me, for countless generations.
+>
+> Will you help us recover our treasure? We have a small cache of valuables we can offer as a reward.
+よろしい。
+
+我らヒンドレンは結束が固く、変化を好まぬ民だ。我らの安全は、その結束の上に成り立っている。安全と暮らしを守るため、村を出た者には二度と戻らぬよう求めてきた。ところが先ごろ、そうして村を出た者のひとりが、村の宝であるキンドリッシュという腕輪を持ち去った。我らの誰かが取り戻しに村を出れば、私が、そして私より前のヒンドリアークたちが、数えきれぬ代にわたって守ってきた掟を破ることになる。
+
+宝を取り戻す手助けをしてくれぬか。礼として、いくらか蓄えた品を出そう。
+
+### Keh | node:Yes. Go on.#0 / choice:>Accept#0 | direct
+> All right. I'll find your treasure.
+分かった。宝を探し出そう。
+
+### Keh | node:Yes. Go on.#0 / choice:>No.#0 | direct
+> No thank you. I don't care for this job.
+やめておく。この仕事は気が進まない。
+
+### Keh | node:Accept#0 | text#0
+> Excellent. I will do my best to reward you to your satisfaction.
+>
+> Though her name is sand in my mouth now, the exile who stole Kindrish is called Eskhind. She left a few weeks ago, and took her sister and brother with her. I don't know where she's gone, but Warden Neelahind might, as they were close friends as children.
+>
+> Find the exile called Eskhind and retrieve Kindrish from her, even... even if the cost is the life of her and her siblings. Kindrish has been handed down over countless generations, and it belongs to my people, not any individual. Go, kendren. Speak to Warden Neelahind, and find out where Eskhind is hidden.
+結構。そなたが満足できるだけの礼はするつもりだ。
+
+今では口にするのも砂を噛むようだが、キンドリッシュを盗んだ者の名はエスキンド。数週間前に、姉妹と兄弟を連れて村を出ていった。行き先は知らぬが、監視官ニーラヒンドなら知っているかもしれぬ。あの二人は幼いころ親しかったからな。
+
+エスキンドを見つけ出し、キンドリッシュを取り戻せ。たとえ……たとえ、あの者ときょうだいの命と引き換えになろうともだ。キンドリッシュは数えきれぬ代を受け継がれてきたもの。誰かひとりのものではなく、我ら民のものだ。行け、ケンドレン。監視官ニーラヒンドに会って、エスキンドの隠れ場所を突き止めよ。
+
+### Keh | node:Accept#0 / choice:>End#0 | direct
+> As you say.
+仰せのとおりに。
+
+### Keh | node:No.#0 | text#0
+> Then I will thank you to leave as quickly as possible. I don't want the faundren to become used to our borders being permeable.
+ならば、なるべく早く立ち去ってもらおう。村の境が出入り自由なものだと、ファウンドレンに思い込まれては困る。
+
+### Keh | node:No.#0 / choice:>End#0 | direct
+> As you say. Live and drink.
+仰せのとおりに。生きて飲め。
+
+### Keh | node:KindrishReturnBefore#0 | text#0
+> You've found our treasure? I'll admit, kendren, I'm very impressed. Take this as thanks.
+>
+> That said, the exile must answer for her crimes. There is further reward for you if you see this case through to the end.
+宝を見つけたのか？ 認めよう、ケンドレン。見事なものだ。礼としてこれを受け取れ。
+
+とはいえ、あの追放者には罪を償わせねばならぬ。この件を最後まで見届けるなら、さらに礼をしよう。
+
+### Keh | node:KindrishReturnBefore#0 / choice:>End#0 | direct
+> Live and drink, Hindriarch.
+生きて飲め、ヒンドリアーク。
+
+### Keh | node:KindrishReturnAfter#0 | text#0
+> You've found our treasure? I'll admit, kendren, I'm very impressed.
+>
+> Take this as thanks, and... well. I suppose you've earned your stay for a while. Just try not to give the faundren any ideas.
+宝を見つけたのか？ 認めよう、ケンドレン。見事なものだ。
+
+礼としてこれを受け取れ。それと……まあ、よい。しばらく村にいることは許そう。ただ、ファウンドレンにおかしな考えを吹き込むなよ。
+
+### Keh | node:KindrishReturnAfter#0 / choice:>End#0 | direct
+> Live and drink, Hindriarch.
+生きて飲め、ヒンドリアーク。
+
+### Keh | node:Start#1 | text#0
+> You're back. Have you found the exile and retrieved our treasure?
+戻ったか。追放者を見つけて、宝は取り戻せたか？
+
+### Keh | node:Start#1 / choice:>KindrishReturnBefore#0 | direct
+> I have found Kindrish, but not Eskhind.
+キンドリッシュは見つけた。だがエスキンドは見つかっていない。
+
+### Keh | node:Start#1 / choice:>Dead#0 | direct
+> Eskhind is dead, but Kindrish was not on her body.
+エスキンドは死んだ。だが、亡骸はキンドリッシュを持っていなかった。
+
+### Keh | node:Start#1 / choice:>I have not.#0 | direct
+> I have not.
+まだだ。
+
+### Keh | node:I have not.#0 | text#0
+> Perhaps you should get back to it rather than hanging around my village. Warden Neelahind may be able to help you.
+ならば、村をうろついていないで仕事に戻ることだ。監視官ニーラヒンドが力になれるかもしれぬ。
+
+### Keh | node:I have not.#0 / choice:>End#0 | direct
+> As you say. Live and drink.
+仰せのとおりに。生きて飲め。
+
+### Keh | node:Dead#0 | text#0
+> Ayvah. She must have sold it. Tell no one about this. Please understand that I cannot reward you, as you did not complete the task I asked of you.
+アイヴァ……。売り払ったに違いない。このことは誰にも言うな。それと、頼んだ務めを果たしていない以上、礼はできぬ。分かってくれ。
+
+### Keh | node:Dead#0 / choice:>End#0 | direct
+> Understandable. Live and drink.
+もっともだ。生きて飲め。
+
+### Keh | node:Dead#0 / choice:>End#1 | text#0
+> Unacceptable. Prepare to die.
+納得できない。覚悟しろ。
+
+### Keh | node:Start#2 | text#0
+> Why is an exile standing in my village? Are you trying to play me for a fool?
+なぜ追放者が私の村に立っている？ 私を愚弄するつもりか？
+
+### Keh | node:Start#2 / choice:>KindrishReturnBefore#0 | direct
+> Hindriarch, I have found Kindrish, but Eskhind did not have it.
+ヒンドリアーク、キンドリッシュは見つけた。だが、エスキンドは持っていなかった。
+
+### Keh | node:Start#2 / choice:>Accused#0 | direct
+> Eskhind claims to be wrongfully accused.
+エスキンドは、濡れ衣だと言っている。
+
+### Keh | node:Accused#0 | text#0
+> The pariah claims to be wrongfully accused, and you believe her?
+>
+> She is obviously lying. Are all kendren so gullible?
+あの村の恥さらしが濡れ衣だと言い、そなたはそれを信じたと？
+
+嘘に決まっている。ケンドレンというのは、皆そうもだまされやすいのか？
+
+### Keh | node:Accused#0 / choice:>Proof#0 | direct
+> There is no proof that she is lying.
+嘘だという証拠はない。
+
+### Keh | node:Proof#0 | text#0
+> Fine! Go to the Warden, then, and have her solve this mystery.
+>
+> But know this: until a thief is found and Kindrish is recovered, I cannot reward you. You get nothing. Live and drink, =player.formalAddressTerm=.
+よかろう！ ならば監視官のもとへ行き、謎を解かせるがいい。
+
+だが覚えておけ。盗人が見つかり、キンドリッシュが戻るまで、礼は一切できぬ。何ひとつだ。生きて飲め、ケンドレン。
+
+### Keh | node:Proof#0 / choice:>End#0 | direct
+> ...live and drink.
+……生きて飲め。
+
+### Keh | node:Start#3 | text#0
+> Why are you speaking to me? You have work to do.
+なぜ私に話しかける。やるべき仕事があるだろう。
+
+### Keh | node:Start#3 / choice:>ShowSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたが書いたものか？
+
+### Keh | node:Start#3 / choice:>Kehstions#0 | direct
+> I have questions for you.
+聞きたいことがある。
+
+### Keh | node:Start#3 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Keh | node:Kehstions#0 | text#0
+> Fine. What are they?
+よかろう。何だ？
+
+### Keh | node:Kehstions#0 / choice:>ShowSonnet#0 | direct
+> Does this poem belong to you?
+この詩はあなたが書いたものか？
+
+### Keh | node:Kehstions#0 / choice:>Eskxile#0 | direct
+> Why was Eskhind exiled?
+エスキンドはなぜ追放された？
+
+### Keh | node:Kehstions#0 / choice:>Kesehind you#0 | direct
+> Who is your bodyguard?
+あなたの護衛は何者だ？
+
+### Keh | node:Kehstions#0 / choice:>Neel before me#0 | direct
+> Is Neelahind a good warden?
+ニーラヒンドは良い監視官か？
+
+### Keh | node:Kehstions#0 / choice:>No brother#0 | direct
+> Why did you tell me Eskhind had a brother?
+なぜエスキンドに兄弟がいるなどと言った？
+
+### Keh | node:Kehstions#0 / choice:>End#0 | direct
+> That's all. Live and drink.
+以上だ。生きて飲め。
+
+### Keh | node:Eskxile#0 | text#0
+> She exiled herself by leaving Bey Lah. Our codes demand that no hindren who leaves us ever return.
+>
+> She knew this, and still she chose to leave.
+あの者は、自らベイ・ラーを出たことで追放者となったのだ。村を出たヒンドレンは二度と戻ってはならぬ。それが我らの掟だ。
+
+あの者はそれを知っていて、それでも出ていくことを選んだ。
+
+### Keh | node:Eskxile#0 / choice:>Kehstions#0 | direct
+> I have further questions.
+ほかにも聞きたいことがある。
+
+### Keh | node:Eskxile#0 / choice:>End#0 | direct
+> I see. Live and drink.
+なるほど。生きて飲め。
+
+### Keh | node:Kesehind you#0 | text#0
+> Kesehind is a good boy. He lost his parents long ago, but has been like a son to me.
+>
+> Now his axe-arm is strong where mine is not, and so he lends it.
+ケセヒンドは良い子だ。ずっと昔に親を亡くしたが、私にとっては息子も同然でな。
+
+今では私の腕はもう斧を振るえぬが、あの子の腕は強い。だから、その腕を貸してくれているのだ。
+
+### Keh | node:Kesehind you#0 / choice:>Kehstions#0 | direct
+> I have further questions.
+ほかにも聞きたいことがある。
+
+### Keh | node:Kesehind you#0 / choice:>End#0 | direct
+> I see. Live and drink.
+なるほど。生きて飲め。
+
+### Keh | node:Neel before me#0 | text#0
+> Warden Neelahind attends to her duties admirably. She is not terribly assertive, but she need not be.
+>
+> I'm surprised she's going along with this outsider-led investigation, but she always had a soft spot for the exile.
+監視官ニーラヒンドは、務めを立派に果たしている。押しの強い性分ではないが、その必要もない。
+
+よそ者が仕切るこの調べ事に付き合っているのは意外だが、あの者は昔から追放者に甘かったからな。
+
+### Keh | node:Neel before me#0 / choice:>Kehstions#0 | direct
+> I have further questions.
+ほかにも聞きたいことがある。
+
+### Keh | node:Neel before me#0 / choice:>End#0 | direct
+> I see. Live and drink.
+なるほど。生きて飲め。
+
+### Keh | node:No brother#0 | text#0
+> If you ask the exile, I'm sure she'll spin some kind of accusation that I believe gender to be an immutable prison, that I impose it on others.
+>
+> She's lying. Our people have a long history of two-gender hindren called {{w|hartind}}, respected and consecrated. There is a proper path to gender variance in our society, of which the male exile could have availed himself years ago.
+>
+> He never did, so I do not recognize him.
+あの追放者に聞けば、きっとこう言い立てるだろう。私が性を変えられぬ牢獄だと考え、それを他の者に押しつけている、とな。
+
+それは嘘だ。我らの民には、{{w|ハーティンド}}と呼ばれる二つの性を持つヒンドレンの長い歴史があり、敬われ、聖なる者とされてきた。我らの社会には、性のありようを変えるための正しい道がある。あの男の追放者も、何年も前にその道を選べたはずなのだ。
+
+だが、そうしなかった。だから私は、あれを認めぬ。
+
+### Keh | node:No brother#0 / choice:>Kehstions#0 | direct
+> I have further questions.
+ほかにも聞きたいことがある。
+
+### Keh | node:No brother#0 / choice:>End#0 | direct
+> I... see. Live and drink.
+……そうか。生きて飲め。
+
+### Keh | node:ShowSonnet#0 | text#0
+> Poem? I detest poetry. Why would one go about learning to write only to use purposefully unclear language, choosing rhyme scheme over clarity?
+>
+> Of course it's not mine. Take it back.
+詩だと？ 詩など大嫌いだ。せっかく文字を覚えておきながら、わざと分かりにくい言葉を使い、明快さより韻を選ぶなど、気が知れぬ。
+
+むろん私のものではない。持って帰れ。
+
+### Keh | node:ShowSonnet#0 / choice:>End#0 | direct
+> I see. Live and drink.
+なるほど。生きて飲め。
+
+### Keh | node:Start#4 | text#0
+> Gone...
+>
+> All gone...
+消えた……。
+
+何もかも、消えてしまった……。
+
+### Keh | node:Start#4 / choice:>End#0 | direct
+> My condolences.
+お気の毒に。
+
+### Keh | node:Start#5 | text#0
+> I have a terrible feeling that I've brought ill fortune to my village.
+>
+> Perhaps it was a mistake to have hired you.
+村に災いを招いてしまったような、ひどく嫌な予感がする。
+
+そなたを雇ったのが間違いだったのかもしれぬ。
+
+### Keh | node:Start#5 / choice:>End#0 | direct
+> If you say so. Live and drink.
+あなたがそう言うなら。生きて飲め。
+
+### Keh | node:Start#6 | text#0
+> They conspired against me. It is the only explanation.
+>
+> You! Leave me alone.
+あの者たちが結託して私を陥れたのだ。そうとしか考えられぬ。
+
+そなた！ 私に構うな。
+
+### Keh | node:Start#6 / choice:>End#0 | direct
+> You will find a way. Live and drink.
+きっと道は見つかる。生きて飲め。
+
+### Keh | node:Start#7 | text#0
+> I should have kept them apart.
+>
+> I should have kept all of you apart.
+あの二人を引き離しておくべきだった。
+
+そなたたち全員を、引き離しておくべきだったのだ。
+
+### Keh | node:Start#7 / choice:>End#0 | direct
+> You will find a way. Live and drink.
+きっと道は見つかる。生きて飲め。
+
+### Keh | node:Start#8 | text#0
+> Ah, you again. I'd been doing so well at forgetting your countenance.
+>
+> Leave me be.
+ああ、またそなたか。せっかく顔を忘れかけていたものを。
+
+放っておいてくれ。
+
+### Keh | node:Start#8 / choice:>End#0 | direct
+> Fine. Live and drink.
+分かった。生きて飲め。
+
+### Keh | node:Start#9 | text#0
+> You have a great deal of nerve to speak to me after what you've done.
+あんなことをしておいて、よくも私に話しかけられたものだな。
+
+### Keh | node:Start#9 / choice:>End#0 | direct
+> Live and drink.
+生きて飲め。
+
+### Keh | start:MocksFate#0 | text#0
+> You again?
+>
+> It is only a matter of time until we are overtaken by hostile kendren. Your presence mocks our fate.
+またそなたか？
+
+敵意あるケンドレンに村がのまれるのも、もはや時間の問題だ。そなたがそこにいるだけで、我らの行く末をあざ笑われている気がする。
+
+### Keh | start:MocksFate#0 / choice:>KindrishReturnAfter#0 | direct
+> Hindriarch, I have found Kindrish.
+ヒンドリアーク、キンドリッシュを見つけた。
+
+### Keh | start:MocksFate#0 / choice:>End#0 | direct
+> You will find a way. Live and drink.
+きっと道は見つかる。生きて飲め。
+
+### Keh | node:Start#10 | text#0
+> Some help you are! Now our village lacks a warden.
+>
+> How are we to protect ourselves?
+大した助けだったことよ！ おかげで村には監視官がいなくなった。
+
+これからどうやって身を守れというのだ？
+
+### Keh | node:Start#10 / choice:>End#0 | direct
+> You will find a way. Live and drink.
+きっと道は見つかる。生きて飲め。
+
+### Keh | node:Start#11 | text#0
+> Ah, welcome back to the village, =name=. You won't be staying long, will you?
+ああ、よく戻った、=name=。長居はせぬのだろうな？
+
+### Keh | node:Start#11 / choice:>End#0 | direct
+> No. Live and drink.
+ああ。生きて飲め。
+
+### Keh | node:Start#12 | text#0
+> While I appreciate your help, kendren, I would prefer that you not stay longer than you must.
+>
+> The faundren might get ideas.
+手を貸してくれたことには感謝している、ケンドレン。だが、必要以上に長居はしないでもらいたい。
+
+ファウンドレンがおかしな考えを起こしかねぬからな。
+
+### Keh | node:Start#12 / choice:>End#0 | direct
+> Fine. Live and drink.
+分かった。生きて飲め。

@@ -1,0 +1,195 @@
+### WardenEsthers | start:Welcome#0 | text#0
+> Live and drink, traveler. Welcome to the Stilt.
+生きて飲め、旅の人。スティルトへようこそ。
+
+### WardenEsthers | start:Welcome#0 / choice:>Praise#0 | direct
+> Praise be to Shekhinah! O, sovereign Fathers... at last, I am here!
+シェキーナに栄光あれ！ おお、至高の父祖たちよ……ついに、ここまで来た！
+
+### WardenEsthers | start:Welcome#0 / choice:>Huh#0 | direct
+> This is the Six Day Stilt, huh. It's... colossal, beautiful. I see why the chrome stewards gather here.
+これがシックスデイ・スティルトか。なんて……巨大で、美しいんだ。クロームの守り手たちが集まるわけだ。
+
+### WardenEsthers | start:Welcome#0 / choice:>Folks#0 | direct
+> So... many... folks....
+人が……こんなに……たくさん……。
+
+### WardenEsthers | start:Welcome#0 / choice:>True#0 | direct
+> Is it true what they say? That it's a petrified kraken?
+噂は本当なのか？ これは石になった大ダコだって。
+
+### WardenEsthers | start:Welcome#0 / choice:>Bazaar#0 | direct
+> What a grand bazaar! What's in each of these tents?
+なんて大きな市場だ！ それぞれの天幕には何があるんだ？
+
+### WardenEsthers | start:Welcome#0 / choice:>End#0 | direct
+> Live and drink, wardens.
+生きて飲め、監視官たち。
+
+### MechanimistLibrarian | node:Start#0 | text#0
+> Live and learn, wanderer. Have you come across any books or scrolls in your travels? Do you care to donate one to the cathedral library? Whenever you return, you may speak to me and read anything you've donated.
+生きて学べ、旅のお方。旅の途中で、本や巻物を見かけませんでしたか？ 大聖堂の図書館に寄贈していただけませんか？ また来てくだされば、いつでも私に声をかけて、寄贈した本を読むことができますよ。
+
+### MechanimistLibrarian | node:Start#0 / choice:>Start#0 | text#0
+> Yes.
+寄贈しよう。
+
+### MechanimistLibrarian | node:Start#0 / choice:>Where#0 | direct
+> Where is the library?
+図書館はどこにある？
+
+### MechanimistLibrarian | node:Start#0 / choice:>What#0 | direct
+> What use is a library in this salt den? Or in the marshes, strangled by wild plants and poisoned by the glow? Wouldn't a stash of vinereapers serve us better?
+こんな塩だらけの穴ぐらで、図書館が何の役に立つ？ 野草に締めつけられ、光る毒に侵された沼地でもそうだ。蔓刈り鎌の蓄えのほうが、よほど役に立つんじゃないか？
+
+### MechanimistLibrarian | node:Start#0 / choice:>End#0 | direct
+> Not today. Live and drink, chronicler.
+今日はやめておく。生きて飲め、記録係。
+
+### MechanimistLibrarian | node:SlynthRequest#0 | text#0
+> You imagine they will thrive here at the Stiltgrounds, among the faithful?
+スリンスたちが、このスティルトの地で、信徒に囲まれて栄えると思うのですか？
+
+### MechanimistLibrarian | node:SlynthRequest#0 / choice:@SlynthRequestAccept#0 | direct
+> I do.
+そう思う。
+
+### MechanimistLibrarian | node:SlynthRequestAccept#0 | text#0
+> This wouldn't be the first time the Stiltgrounds have hosted refugees, =name=, and make no mistake: it is a burden upon the church, Catechists and Protectors in particular. But your words echo loud in our hearts as our hallways. Some in our number will see the slynth as the chosen of chosen, and if I speak to them first, everyone else will take it as Shekhinah's will. Which, arguably, it would be. Tell the slynth that the Mechanimists will have them.
+スティルトの地が難民を受け入れるのは、これが初めてではありません、=name=。それに、はっきり言って、教会にとっては負担です。とりわけ教理師と守護者にとってはね。でも、あなたの言葉は、この回廊と同じくらい大きく、私たちの心に響きます。仲間の中には、スリンスを「選ばれし者の中の選ばれし者」と見る者もいるでしょう。私が先にその人たちに話をすれば、ほかのみんなもシェキーナの御心だと受け取るはずです。実際、そうなのかもしれませんしね。スリンスたちに伝えてください。メカニマス教団は彼らを迎え入れます、と。
+
+### MechanimistLibrarian | node:SlynthRequestAccept#0 / choice:@End#0 | direct
+> You have my thanks, Sheba.
+ありがとう、シェバ。
+
+### MechanimistLibrarian | node:SlynthArrived#0 | text#0
+> Praise be to Shekhinah, =name=, your slynth friends are hard workers and quick learners!
+>
+> I can't help but feel a bit concerned at their ethic, and who in the church might take advantage of it. I hope to foster an interest in reading in them if I can, before they are taught incuriosity. Perhaps a book club?
+シェキーナに栄光あれ、=name=。あなたのスリンスのお友だちは、よく働くし、覚えも早いですね！
+
+ただ、あの働きぶりにつけ込む者が教会にいないか、少し心配でもあります。好奇心を持たないよう教え込まれてしまう前に、できれば本を読む楽しみを育ててあげたいの。読書会なんてどうかしら？
+
+### MechanimistLibrarian | node:SlynthArrived#0 / choice:>Start#0 | direct
+> My thanks, chronicler.
+ありがとう、記録係。
+
+### MechanimistLibrarian | node:SlynthSettled#0 | text#0
+> Live and learn, =name=.
+>
+> The slynth are settling in as folk do. I see some flank the Priests and Catechists with empty eye, but some have proven hungry for knowledge. I have established a weekly Canticle study group, and its numbers grow each meeting.
+>
+> Praise be to Shekhinah for this meeting, =name=.
+生きて学べ、=name=。
+
+スリンスたちは、人がそうするように、少しずつ落ち着いてきました。うつろな目で司祭や教理師に付き従う者もいますが、知識に飢えている者もいます。毎週、賛歌の勉強会を開くことにしたのですが、集まるたびに人数が増えているんですよ。
+
+この出会いを、シェキーナに感謝します、=name=。
+
+### MechanimistLibrarian | node:SlynthSettled#0 / choice:>Start#0 | direct
+> My thanks again, chronicler.
+重ねてありがとう、記録係。
+
+### MechanimistLibrarian | node:Where#0 | text#0
+> Oh, we're in but the first phase of its foundation. The church has amassed a splendid collection of scripts through the years. Glorious Shekhinah, praise be upon Him, gifted us with several caches. The eremites work day and night reproducing them in the scriptorium, and I have taken it upon myself to beseech travelers, for the rarest finds often come from the least likely places.
+まだ建てはじめたばかりなんです。教会は長い年月をかけて、すばらしい写本の数々を集めてきました。栄光あるシェキーナ――御名に賛美あれ――も、いくつもの蔵書を授けてくださいました。隠修士たちが写字室で昼も夜も写しを作っています。私は私で、旅のお方にお願いして回ることにしたんです。いちばん珍しい掘り出し物は、いちばん思いがけない所から出てくるものですから。
+
+### MechanimistLibrarian | node:Where#0 / choice:>Start#0 | text#0
+> I will donate a book.
+本を寄贈しよう。
+
+### MechanimistLibrarian | node:Where#0 / choice:>What#0 | direct
+> What use is a library in this salt den? Or in the marshes, strangled by wild plants and poisoned by the glow? Wouldn't a stash of vinereapers serve us better?
+こんな塩だらけの穴ぐらで、図書館が何の役に立つ？ 野草に締めつけられ、光る毒に侵された沼地でもそうだ。蔓刈り鎌の蓄えのほうが、よほど役に立つんじゃないか？
+
+### MechanimistLibrarian | node:Where#0 / choice:>End#0 | direct
+> Live and drink, chronicler.
+生きて飲め、記録係。
+
+### MechanimistLibrarian | node:What#0 | text#0
+> You share the pessimism of my kin, and several of the priests as well. My heart hears you, but listen to my words, and maybe you will come to feel as I do.
+>
+> To devalue wisdom is to devalue the Kasaphescence. She shines in the void, refracting light, illuminating those around her. So does the written wisdom of our elders.
+>
+> The machinery of chromium is complex in its divinity. Don't we do a disservice to our Fathers when we remain ignorant of it, of our past, of our future? Don't we deserve the joy of knowing? Bless Eschelstadt II, first Child, for he believes as I do.
+あなたは、私の身内や、何人かの司祭たちと同じように悲観的なのですね。お気持ちは分かります。でも、私の話を聞いてください。そうすれば、私と同じように感じてもらえるかもしれません。
+
+知恵を軽んじることは、カサフェセンスを軽んじることです。あの方は虚空で輝き、光を屈折させ、まわりの者を照らします。先人たちが書き残した知恵も、同じなのです。
+
+クロムの仕組みは、その神聖さゆえに複雑です。それを知らず、自分たちの過去も未来も知らずにいることは、父祖たちに対して失礼ではありませんか？ 私たちにも、知る喜びがあっていいはずです。最初の御子、エシェルシュタット二世に祝福を。あの方も、私と同じように信じておられます。
+
+### MechanimistLibrarian | node:What#0 / choice:>Start#0 | text#0
+> I will donate a book.
+本を寄贈しよう。
+
+### MechanimistLibrarian | node:What#0 / choice:>Where#0 | direct
+> Where is the library?
+図書館はどこにある？
+
+### MechanimistLibrarian | node:What#0 / choice:>End#0 | direct
+> Live and drink, chronicler.
+生きて飲め、記録係。
+
+### Tszappur | node:Start#0 | text#0
+> Peace and health in the light of the Star, pilgrim. Brood with me on the life of Resheph, if you are willing.
+星の光のもとに、平安と健やかさを、巡礼の方。よろしければ、私と一緒にレシェフの生涯に思いをはせませんか。
+
+### Tszappur | node:Start#0 / choice:SecretTszappur#0 | text#0
+> I am.
+そうしよう。
+
+### Tszappur | node:Start#0 / choice:ReshephTszappur#0 | direct
+> Who is Resheph?
+レシェフとは誰だ？
+
+### Tszappur | node:Start#0 / choice:InsideTszappur#0 | direct
+> What's inside the tent?
+天幕の中には何がある？
+
+### Tszappur | node:Start#0 / choice:>End#0 | direct
+> Live and drink, priest.
+生きて飲め、司祭どの。
+
+### Tszappur | node:Resheph#0 | text#0
+> A spiritual patron of kith and kin, who did so much for us, and who leads me and others like me to the path of healing. For, above all, he was a healer. He dressed the wounds of the sick and rid the land of the plagues of the Gyre.
+>
+> He was also a sultan, but he was the last sultan. He unbricked the walls of monocracy so we could pick berries in the orchards they hid.
+身内と仲間を守る心の守護者です。私たちのために多くを成し、私や私のような者たちを癒やしの道へ導いてくださる方。何よりもまず、あの方は癒やし手でした。病める者の傷に包帯を巻き、この地から渦動の災いを払ってくださったのです。
+
+あの方はスルタンでもありましたが、最後のスルタンでした。ひとりが治める世の壁のれんがを取り払い、その壁が隠していた果樹園で、私たちが木の実を摘めるようにしてくださったのです。
+
+### Tszappur | node:Resheph#0 / choice:>Start#0 | direct
+> I've more to ask.
+ほかにも聞きたいことがある。
+
+### Tszappur | node:Resheph#0 / choice:>End#0 | direct
+> Live and drink, priest.
+生きて飲め、司祭どの。
+
+### Tszappur | node:Inside#0 | text#0
+> A quiet shrine to the Coiled Lamb, centuries old. Tucked away here, outside the marble parapets and cloaked in the dust of time, it's lost to those who'd sneer at the veneration of Resheph over other fathers.
+>
+> Step inside and voice a prayer, if you are willing.
+何百年も前からある、「とぐろの子羊」を祀った静かな祠です。大理石の胸壁の外にひっそりと隠れ、時のほこりに包まれているので、ほかの父祖よりレシェフを崇めることをあざ笑う人たちには、見つからずにすんでいるのです。
+
+よろしければ、中に入って祈りを捧げていってください。
+
+### Tszappur | node:Inside#0 / choice:>Start#0 | direct
+> I've more to ask.
+ほかにも聞きたいことがある。
+
+### Tszappur | node:Inside#0 / choice:>End#0 | direct
+> Live and drink, priest.
+生きて飲め、司祭どの。
+
+### Euclid | node:Start#0 | text#0
+> {{emote|*thip thip thip thip*}}
+>
+>
+> =MARKOVPARAGRAPH=
+> {{emote|*thip thip thip thip*}}
+{{emote|*ぴしっ ぴしっ ぴしっ ぴしっ*}}
+
+
+=MARKOVPARAGRAPH=
+{{emote|*ぴしっ ぴしっ ぴしっ ぴしっ*}}

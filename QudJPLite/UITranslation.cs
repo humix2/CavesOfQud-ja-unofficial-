@@ -149,9 +149,63 @@ namespace QudJPLite
     public static class UITextSkinApplyPatch
     {
         // 画面部品にあらかじめ書かれている見出しなど、SetText を通らない文字用
-        public static void Prefix(UITextSkin __instance)
+        public static void Prefix(UITextSkin __instance, out bool __state)
         {
             __instance.text = UITranslation.Translate(__instance.text);
+
+            // ゲームの折り返し（TextBlock.ParseSpan）は空白区切りの単語単位で、
+            // 改行直後の段落の最初の単語が1行に収まらないと、その先頭1文字を捨てて空行を1つ足してしまう。
+            // 空白のない日本語の長い段落で起きるので、そういう文のときだけゲームの折り返しを飛ばし、
+            // TextMeshPro 自身の折り返しに任せる。
+            __state = false;
+            if (__instance.useBlockWrap && __instance.blockWrap > 0
+                && JapaneseWrap.HasLongJapaneseRun(__instance.text, __instance.blockWrap - 1))
+            {
+                __instance.useBlockWrap = false;
+                __state = true;
+            }
+        }
+
+        public static void Postfix(UITextSkin __instance, bool __state)
+        {
+            if (__state)
+            {
+                __instance.useBlockWrap = true;
+            }
+        }
+    }
+
+    internal static class JapaneseWrap
+    {
+        // 空白・改行で区切った塊のうち、limit 文字以上で日本語を含むものがあるか
+        public static bool HasLongJapaneseRun(string s, int limit)
+        {
+            if (string.IsNullOrEmpty(s) || s.Length < limit)
+            {
+                return false;
+            }
+            int len = 0;
+            bool ja = false;
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                if (c == ' ' || c == '\n')
+                {
+                    len = 0;
+                    ja = false;
+                    continue;
+                }
+                len++;
+                if (c >= '　')
+                {
+                    ja = true;
+                }
+                if (ja && len >= limit)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
