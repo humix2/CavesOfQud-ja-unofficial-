@@ -39,6 +39,14 @@ New-Item -ItemType Directory -Force $locDest | Out-Null
 python -I (Join-Path $PSScriptRoot 'tools\build_lite_dict.py') $QudJPPath (Join-Path $locDest 'ui-dictionary.tsv')
 if ($LASTEXITCODE -ne 0) { throw "UI辞書の生成に失敗しました" }
 
+# メッセージログ用の正規表現パターン（追加の瞬間に1回だけ訳す）
+python -I (Join-Path $PSScriptRoot 'tools\build_message_patterns.py') $QudJPPath (Join-Path $locDest 'ui-messages.tsv')
+if ($LASTEXITCODE -ne 0) { throw "メッセージのパターンの生成に失敗しました" }
+
+# 数値入りの UI 文の「型」（変異の説明など）
+$tpl = Get-ChildItem (Join-Path $PSScriptRoot 'tools') -Filter 'ui-templates*.tsv' | Sort-Object Name | ForEach-Object { [IO.File]::ReadAllText($_.FullName, [Text.Encoding]::UTF8) }
+[IO.File]::WriteAllText((Join-Path $locDest 'ui-templates.tsv'), ($tpl -join "`n"), (New-Object Text.UTF8Encoding $false))
+
 # 会話の自作訳（tools/conv/*.txt）で QudJP の会話の文を差し替える。
 # 英語原文と照合するので、ゲーム更新で原文が変わった所は QudJP の訳のまま残る
 $baseConv = Join-Path $GamePath 'CoQ_Data\StreamingAssets\Base\Conversations.xml'

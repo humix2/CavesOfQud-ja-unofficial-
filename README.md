@@ -40,7 +40,10 @@ lang-experimental ではランキング（Daily 等）の取得・送信がゲ�
 | UI の固定文字列（メニュー・見出し・ボタン等） | Harmony パッチ約530か所＋正規表現で毎回置換（**重さの主因**） | `UITextSkin` の SetText/Apply 入口だけで完全一致の辞書引き（[UITranslation.cs](QudJPLite/UITranslation.cs)、辞書は [tools/build_lite_dict.py](tools/build_lite_dict.py) が QudJP の辞書と自作訳から生成） |
 | 本の日本語の折り返し | ページ生成時に CJK 用の折り返し | 同じくページ生成時に1回だけ、日本語を含む段落を1行47文字で折り返す（[BookWrap.cs](QudJPLite/BookWrap.cs)）。ゲームは空白でしか折り返さないため、ないと段落が1行になって画面からはみ出す |
 | 長い日本語段落の先頭1文字が消える問題 | — | ゲームの折り返し（`TextBlock.ParseSpan`）は、改行直後の単語が1行に収まらないと先頭1文字を捨てて空行を足すバグがある。72字以上空白のない日本語を含む文だけ、この折り返しを飛ばして TextMeshPro に任せる（[UITranslation.cs](QudJPLite/UITranslation.cs)） |
-| 戦闘メッセージ・自動生成文（名前や数が埋め込まれる文） | 同上 | なし（英語のまま） |
+| 数値入りの UI 文（変異の説明・食事の効果など） | 同上 | 数値・ダイス表記を記号に置き換えた「型」で引く（[tools/ui-templates*.tsv](tools/ui-templates.tsv)）。行ごとの結果を覚えておくので2回目以降は辞書引きだけ |
+| 戦闘メッセージ・ポップアップ（名前や数が埋め込まれる文） | 同上 | メッセージがログに追加される瞬間とポップアップの入口で1回だけ正規表現で訳す（[MessageTranslation.cs](QudJPLite/MessageTranslation.cs)、パターンは自作の [tools/ui-messages.tsv](tools/ui-messages.tsv) ＋ QudJP の messages.ja.json） |
+| アビリティバー・タイトル画面など、UITextSkin を通らない文字 | 同上 | アビリティ名は作成・読み込み時に1回だけ訳す（[AbilityTranslation.cs](QudJPLite/AbilityTranslation.cs)）。コードに埋め込まれた [on] [off] などは読み込み時に文字列定数を差し替え（[LiteralTranslation.cs](QudJPLite/LiteralTranslation.cs)） |
+| QudJP の辞書の誤訳・表記揺れ | — | [tools/ui-overrides.tsv](tools/ui-overrides.tsv) で上書き（例: rank → ランク） |
 | 会話の訳し直し | — | `tools/conv/*.txt` の自作訳で、配置時に QudJP の会話ファイルの文を差し替える（[tools/conv_tool.py](tools/conv_tool.py)）。英語原文と照合し、原文が変わった所は QudJP の訳のまま。QudJP に無い場面は英語原文と同じ位置に要素を足す。訳のルールは [docs/translation-style.md](docs/translation-style.md) |
 | 訳語の統一 | — | 配置時に [tools/terms.tsv](tools/terms.tsv) の訳語を全訳文ファイルで一括置換（例: 六日のスティルト → シックスデイ・スティルト） |
 

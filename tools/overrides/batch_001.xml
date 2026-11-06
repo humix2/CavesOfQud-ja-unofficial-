@@ -13,7 +13,7 @@
   <string ID="a {{w|dromad}} caravan">{{w|ドロマド}}の隊商</string>
   <string ID="the Ruin of House Isner">イスナー家の廃墟</string>
   <string ID="=subject.Does:dissipate=.">=subject.T=は消散した。</string>
-  <string ID="=squareSize=x=squareSize=">=squareSize=×=squareSize=</string>
+  <string ID="=squareSize=x=squareSize=">=squareSize=x=squareSize=マス</string>
   <string ID="You discover =regionName=.">=regionName=を発見した。</string>
   <string ID="You cannot reach =object.t=.">=object.t=に手が届かない。</string>
   <string ID="You can't unlock =object.t=.">=object.t=の鍵を開けられない。</string>

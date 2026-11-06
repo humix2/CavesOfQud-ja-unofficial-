@@ -1,0 +1,420 @@
+# 変異の説明文（キャラクター画面・変異の選択画面）。tools/make_templates.py で mutation-dump.txt から抜き出した型を訳したもの
+# --- 共通 ---
+Cooldown: {{rules|<#0>}} rounds	クールダウン: {{rules|<#0>}}ラウンド
+Cooldown: <#0> rounds	クールダウン: <#0>ラウンド
+Cooldown: <#0>	クールダウン: <#0>
+Range: <#0>	射程: <#0>
+Range: sight	射程: 視界内
+Damage: <#0>	ダメージ: <#0>
+Damage: {{rules|<#0>}}	ダメージ: {{rules|<#0>}}
+Duration: {{rules|<#0>}} rounds	持続時間: {{rules|<#0>}}ラウンド
+Duration: <#0> rounds	持続時間: <#0>ラウンド
+Duration: {{rules|<#0>-<#1>}} rounds	持続時間: {{rules|<#0>～<#1>}}ラウンド
+Duration: {{rules|<#0>}} move actions	持続時間: 移動{{rules|<#0>}}回
+Area: <#0>x3	範囲: <#0>x3マス
+Area: <#0>x7	範囲: <#0>x7マス
+Area: <#0>x7 around self	範囲: 自分の周囲<#0>x7マス
+Area: <#0>x3 + growth into adjacent tiles	範囲: <#0>x3マス（そこから隣のマスへ広がる）
+Area: {{rules|<#0>x5}} centered around yourself	範囲: 自分を中心に{{rules|<#0>x5マス}}
+Area: {{rules|<#0>x1<#1>}} centered around yourself	範囲: 自分を中心に{{rules|<#0>x1<#1>マス}}
+Radius: <#0>	半径: <#0>
+Damage increment: <#0>	ダメージ段階: <#0>
+Damage increment: {{rules|<#0>}}	ダメージ段階: {{rules|<#0>}}
+Releases gas for {{rules|<#0>}} rounds	{{rules|<#0>}}ラウンドのあいだガスを放出する
+Cone length: <#0> tiles	円錐の長さ: <#0>マス
+Cone angle: <#0> degrees	円錐の角度: <#0>度
+Cone angle: {{rules|<#0>}} degrees	円錐の角度: {{rules|<#0>}}度
+Cone length: {{rules|<#0>}}	円錐の長さ: {{rules|<#0>}}
+{{rules|Increased damage}}	{{rules|ダメージ上昇}}
+{{rules|Increased }}	{{rules|上昇}}
+<#0> AV	AV <#0>
++{{rules|<#0>}} AV	AV +{{rules|<#0>}}
++{{rules|<#0> AV}}	{{rules|AV +<#0>}}
+-{{rules|<#0>}} DV	DV -{{rules|<#0>}}
+<#0> Ego	自我 <#0>
+<#0> Strength	筋力 <#0>
++{{C|<#0>}} Strength	筋力 +{{C|<#0>}}
++{{rules|<#0>}} Agility	敏捷 +{{rules|<#0>}}
++{{rules|<#0>}} Toughness	頑健 +{{rules|<#0>}}
++{{rules|<#0>}} Quickness	クイックネス +{{rules|<#0>}}
++{{rules|<#0>}} move speed	移動速度 +{{rules|<#0>}}
+{{rules|<#0>}} move speed while sprinting	スプリント中の移動速度 {{rules|<#0>}}
++{{rules|<#0>}} carry capacity	所持重量上限 +{{rules|<#0>}}
+<#0> Acid Resistance	酸耐性 <#0>
+<#0> Heat Resistance	熱耐性 <#0>
+<#0> Cold Resistance	冷気耐性 <#0>
++{{rules|<#0>}} Heat Resistance	熱耐性 +{{rules|<#0>}}
++{{rules|<#0>}} Cold Resistance	冷気耐性 +{{rules|<#0>}}
+<#0> Electrical Resistance	電気耐性 <#0>
+Cannot wear helmets	兜を装備できない
+Cannot wear body armor	胴防具を装備できない
+Cannot wear body armor.	胴防具を装備できない。
+Cannot wear face accessories	顔の装飾品を装備できない
+You can't wear hats or helmets.	帽子や兜を装備できない。
+You cannot wear shoes.	靴を履けない。
+# --- 評判 ---
+<#0> reputation with {{w|birds}}	{{w|鳥}}からの評判 <#0>
+<#0> reputation with mollusks	軟体動物からの評判 <#0>
+<#0> reputation with {{w|roots}}, {{w|trees}}, {{w|vines}}, and {{w|the Consortium of Phyta}}	{{w|根}}・{{w|木}}・{{w|つる草}}・{{w|フィタ・コンソーシアム}}からの評判 <#0>
+<#0> reputation with {{w|apes}}, {{w|baboons}}, {{w|bears}}, and {{w|grazing hedonists}}	{{w|類人猿}}・{{w|ヒヒ}}・{{w|熊}}・{{w|草食む快楽主義者}}からの評判 <#0>
+<#0> reputation with {{w|arachnids}}	{{w|クモ類}}からの評判 <#0>
+<#0> reputation with 亀	亀からの評判 <#0>
+<#0> reputation with {{w|birds}} and {{w|winged mammals}}	{{w|鳥}}・{{w|翼のある哺乳類}}からの評判 <#0>
+<#0> reputation with {{w|antelopes}} and {{w|goatfolk}}	{{w|アンテロープ}}・{{w|ヤギ人}}からの評判 <#0>
+<#0> reputation with {{w|frogs}}	{{w|カエル}}からの評判 <#0>
+<#0> reputation with {{w|unshelled reptiles}}	{{w|殻のない爬虫類}}からの評判 <#0>
+<#0> reputation with {{w|highly entropic beings}}	{{w|高エントロピー存在}}からの評判 <#0>
+<#0> reputation with {{w|the Consortium of Phyta}}	{{w|フィタ・コンソーシアム}}からの評判 <#0>
+<#0> reputation with {{w|the Seekers of the Sightless Way}}	{{w|盲目の道の求道者}}からの評判 <#0>
+<#0> reputation with every faction	すべての勢力からの評判 <#0>
+# --- モーフタイプ ---
+You only manifest mental mutations, and all of your mutation choices when manifesting a new mutation are mental.	精神変異しか発現しない。新しい変異を発現するときの選択肢もすべて精神変異になる。
+You only manifest physical mutations, and all of your mutation choices when manifesting a new mutation are physical.	身体変異しか発現しない。新しい変異を発現するときの選択肢もすべて身体変異になる。
+Whenever you manifest a new mutation, one of your choices will also cause you to grow a new limb at random.	新しい変異を発現するたび、選択肢のひとつはランダムな手足も一本生やす。
+You gain one extra mutation each time you buy this, but the mutations don't manifest right away.	これを購入するたびに変異をひとつ余分に得るが、その変異はすぐには発現しない。
+Whenever you gain a level, there's a <#0> chance that your genome destabilizes and you get to choose from <#1> random mutations.	レベルが上がるたびに<#0>の確率でゲノムが不安定になり、ランダムな<#1>個の変異から選べる。
+# --- 身体変異 ---
+You molt powerful beams across the spectrum of light and matter.	光と物質のあらゆる波長にわたる強力な光線を脱ぎ放つ。
+Fires {{rules|<#0>}} beam at random enemies every round for {{rules|<#1>}} rounds	{{rules|<#1>}}ラウンドのあいだ、毎ラウンドランダムな敵に光線を{{rules|<#0>}}本放つ
+Fires {{rules|<#0>}} beams at random enemies every round for {{rules|<#1>}} rounds	{{rules|<#1>}}ラウンドのあいだ、毎ラウンドランダムな敵に光線を{{rules|<#0>}}本放つ
+You live in an alternate plane of reality.	あなたは別の位相の現実に住んでいる。
+You regulate your body's release of adrenaline.	体内のアドレナリンの分泌を操る。
+You can increase your body's adrenaline flow for <#0> rounds.	<#0>ラウンドのあいだ、アドレナリンの分泌を増やせる。
+While it's flowing, you gain +{{C|<#0>}} quickness and other physical mutations gain +{{C|<#1>}} rank.	分泌中はクイックネス +{{C|<#0>}}、ほかの身体変異のランク +{{C|<#1>}}。
+You dash along a waveform.	波形に沿って突進する。
+You dash in a direction, dealing damage to creatures you pass through.	一方向に突進し、通り抜けた生き物にダメージを与える。
+You belch forth various urchins.	さまざまなウニを吐き出す。
+You belch urchins in a nearby area.	近くの範囲にウニを吐き出す。
+Number of urchins: <#0> 	ウニの数: <#0>
+Your face bears a sightly beak.	顔に見目よいくちばしがある。
+You occasionally peck at your opponents.	ときどき相手をくちばしでつつく。
+You provoke waking dreams with your gaze.	まなざしで白昼夢を引き起こす。
+You can gaze {{rules|<#0>}} squares after a three-turn warmup and send your target to a waking dream.	3ターンの溜めのあと、{{rules|<#0>}}マス先を見つめ、対象を白昼夢に送り込む。
+You release a burst of きらめく粉塵 around yourself.	自分のまわりにきらめく粉塵を噴き出す。
+You extract carbon from living material.	生きた物質から炭素を抜き取る。
+Shoots a beam with a <#0>-round windup that dismembers the limbs of its targets.	<#0>ラウンドの溜めのあと、対象の手足を切り離す光線を放つ。
+Beam distance: {{rules|<#0>}} spaces	光線の距離: {{rules|<#0>}}マス
+You bear a sphincter-choked bilge hose that you use to slurp up nearby liquids and spew them at enemies, occasionally knocking them down.	括約筋で締まった汚水ホースを持ち、近くの液体をすすり上げて敵に吐きかける。ときどき相手を転倒させる。
+Bilge sphincter acts as a melee weapon.	汚水括約筋は近接武器として使える。
+<#0> move speed when moving through tiles with <#1>+ drams of liquid	液体が<#1>ドラム以上あるマスでは移動速度 <#0>
+You can spew liquid from your tile into a nearby area.	自分のいるマスの液体を、近くの範囲に吐きかけられる。
+Spew range: <#0>	吐きかけの射程: <#0>
+Spew area: <#0>x3	吐きかけの範囲: <#0>x3マス
+Spew chance to knock the targets down: Strength/Agility save vs. character level	吐きかけで転倒させる確率: 筋力／敏捷セーヴ 対 キャラクターレベル
+Spew cooldown: <#0> rounds	吐きかけのクールダウン: <#0>ラウンド
+You release a burst of プラズマ around yourself.	自分のまわりにプラズマを噴き出す。
+{{rules|Increased damage and duration of plasma adhesion}}	{{rules|プラズマ付着のダメージと持続時間が上昇}}
+Your joints stretch much further than usual.	関節がふつうよりずっと大きく曲がる。
+{{rules|<#0>}} chance that Sprint and skills with Agility prerequisites don't go on cooldown after use	スプリントと、敏捷が前提のスキルを使ったあと、{{rules|<#0>}}の確率でクールダウンにならない
+You have two hearts.	心臓がふたつある。
+You can sprint for {{rules|<#0>}} longer.	スプリントを{{rules|<#0>}}長く続けられる。
+You are possessed of hulking strength.	並はずれた怪力を持つ。
+{{C|<#0>}} chance to daze your opponent on a successful melee attack for <#1>-<#2> rounds	近接攻撃が命中すると、{{C|<#0>}}の確率で相手を<#1>～<#2>ラウンドふらつかせる
+You may phase through solid objects for brief periods of time.	短いあいだ、固い物体をすり抜けられる。
+You replenish yourself by absorbing sunlight through your hearty green skin.	丈夫な緑の肌から日光を吸収して、体力を補う。
+You can bask in the sunlight instead of eating a meal to gain a special metabolizing effect for {{rules|<#0> day}}: +{{rules|<#1>}} to natural healing rate and +{{rules|<#2>}} Quickness	食事の代わりに日光浴をすると、{{rules|<#0>日}}のあいだ特別な代謝効果を得る: 自然回復速度 +{{rules|<#1>}}、クイックネス +{{rules|<#2>}}
+You can bask in the sunlight instead of eating a meal to gain a special metabolizing effect for {{rules|<#0> days}}: +{{rules|<#1>}} to natural healing rate and +{{rules|<#2>}} Quickness	食事の代わりに日光浴をすると、{{rules|<#0>日}}のあいだ特別な代謝効果を得る: 自然回復速度 +{{rules|<#1>}}、クイックネス +{{rules|<#2>}}
+While in the sunlight, you accrue starch and lignin that you can use as ingredients in meals you cook (max {{rules|<#0> serving}} of each).	日光の下にいると、料理の材料に使えるデンプンとリグニンがたまる（それぞれ最大{{rules|<#0>食分}}）。
+While in the sunlight, you accrue starch and lignin that you can use as ingredients in meals you cook (max {{rules|<#0> servings}} of each).	日光の下にいると、料理の材料に使えるデンプンとリグニンがたまる（それぞれ最大{{rules|<#0>食分}}）。
++{{rules|<#0>}} DV while occupying the same space as foliage	草木と同じマスにいるあいだ DV +{{rules|<#0>}}
+Your wounds heal very quickly.	傷がとても早く治る。
+Your full natural healing rate applies in combat.	戦闘中も自然回復が全速で働く。
++{{rules|<#0>}} faster natural healing rate	自然回復速度 +{{rules|<#0>}}
+{{rules|<#0>}} chance to regrow a missing limb each round	毎ラウンド{{rules|<#0>}}の確率で、失った手足が生え戻る
+{{rules|<#0>}}% chance to remove a {{rules|minor physical debuff}} at random each round	毎ラウンド{{rules|<#0>}}%の確率で、{{rules|軽い身体の弱体効果}}をランダムにひとつ取り除く
+{{rules|<#0>}}% chance to remove a {{rules|physical debuff}} at random each round	毎ラウンド{{rules|<#0>}}%の確率で、{{rules|身体の弱体効果}}をランダムにひとつ取り除く
+{{rules|You cannot be decapitated.}}	{{rules|首をはねられない。}}
+You emit a ray of frost.	冷気の光線を放つ。
+You emit a ray of frost from your hands.	両手から冷気の光線を放つ。
+You emit a ray of frost from your 手.	手から冷気の光線を放つ。
+Emits a <#0>-square ray of frost in the direction of your choice.	選んだ方向に、<#0>マスの冷気の光線を放つ。
+Melee attacks cool opponents by {{rules|<#0>}} degrees	近接攻撃で相手を{{rules|<#0>}}度冷やす
+You emit jets of frost from your mouth.	口から冷気を噴き出す。
+Emits a <#0>-square ray of frost in the direction of your choice	選んだ方向に、<#0>マスの冷気の光線を放つ
+You have two heads.	頭がふたつある。
+Mental actions have {{rules|<#0>}} lower action costs	精神的な行動の行動コストが{{rules|<#0>}}下がる
+{{rules|<#0>}} chance initially and each round to shake off a negative mental status effect	精神の悪い状態異常を、かかったときと毎ラウンド{{rules|<#0>}}の確率で振り払う
+You can move across walls, and only across walls.	壁の上を移動できる。ただし、壁の上しか移動できない。
+You assume the form of any creature you touch.	触れた生き物の姿に変身する。
+May only assume the form of creatures level <#0> or lower.	レベル<#0>以下の生き物にしか変身できない。
+You have an extra set of legs.	脚がもう一組ある。
+You have an extra set of arms.	腕がもう一組ある。
+{{rules|<#0>}} chance for each extra arm to deliver an additional melee attack whenever you make a melee attack	近接攻撃のたびに、追加の腕それぞれが{{rules|<#0>}}の確率で追加の近接攻撃を行う
+Several horns jut out of your head.	頭から何本もの角が突き出ている。
+<#0> chance on melee attack to gore your opponent	近接攻撃のとき、<#0>の確率で相手を角で突き刺す
+Goring attacks may cause bleeding	角の突き刺しで出血させることがある
+Can launch into a destructive charge after a one round warm-up.	1ラウンドの溜めのあと、破壊的な突進を繰り出せる。
+Charge distance: <#0>	突進距離: <#0>
+{{rules|Increased bleeding save difficulty and intensity}}	{{rules|出血のセーヴ難度と強さが上昇}}
+You are covered in a thick coat of fur, which protects you from the elements.	厚い毛皮に覆われていて、風雨や寒暖から身を守ってくれる。
+You are gifted with tremendous speed.	とてつもない速さに恵まれている。
+You are possessed of exceptionally acute smell.	並はずれて鋭い嗅覚を持つ。
+You detect the presence of creatures within a distance typically up to <#0> squares depending on terrain	地形にもよるが、ふつう<#0>マス以内にいる生き物の存在を感知する
+Chance to identify nearby detected creatures	感知した近くの生き物の正体が分かることがある
+{{rules|Increased chance to identify nearby detected creatures}}	{{rules|感知した近くの生き物の正体が分かる確率が上昇}}
+You are possessed of unnaturally acute hearing.	不自然なほど鋭い聴覚を持つ。
+You detect the presence of creatures within a radius of {{rules|<#0>}}.	半径{{rules|<#0>}}以内にいる生き物の存在を感知する。
+You scare creatures around you.	まわりの生き物を怖がらせる。
+You cause adjacent creatures to flee in terror.	隣接する生き物を恐怖で逃げ出させる。
+Cooldown: <#0> roundsAdditionally, you sometimes scare creatures passively.	クールダウン: <#0>ラウンド。さらに、ときどき何もしなくても生き物を怖がらせる。
+You breathe shame gas.	恥辱ガスを吐く。
+Breathes shame gas in a cone.	円錐状に恥辱ガスを吐く。
+You bear spade-like claws that can burrow through the earth.	土を掘り進めるスコップのような爪を持つ。
+爪 penetration vs. walls: {{rules|<#0>}}	壁に対する爪の貫通力: {{rules|<#0>}}
+爪s destroy walls after <#0> penetrating hits.	爪は<#0>回貫通すると壁を壊す。
+爪s are also a short-blade class natural weapon that deal {{rules|<#0>}} base damage to non-walls.	爪は短刀系の生まれつきの武器でもあり、壁以外には基本ダメージ{{rules|<#0>}}を与える。
+You see in the dark.	暗闇でも目が見える。
+Hundreds of needle-pointed quills cover your body.	針のようにとがった何百本もの棘毛が体を覆っている。
+{{rules|<#0>}} 棘毛	棘毛 {{rules|<#0>}}本
+May expel <#0> of your 棘毛 in a burst around yourself ({{c|}}{{rules|<#1>}} {{r|}}<#2>)	棘毛の<#0>を自分のまわりに一気に放てる（{{c|}}{{rules|<#1>}} {{r|}}<#2>）
+Regenerate 棘毛 at the approximate rate of {{rules|<#0>}} per round	棘毛は1ラウンドにおよそ{{rules|<#0>}}本ずつ生え戻る
++{{rules|<#0>}} AV as long as you retain half your 棘毛 (+{{rules|<#1>}} AV otherwise)	棘毛が半分以上残っていれば AV +{{rules|<#0>}}（そうでなければ AV +{{rules|<#1>}}）
+Creatures attacking you in melee may impale themselves on your 棘毛, breaking roughly <#0> of them and reflecting <#1> damage per quill broken.	近接攻撃してきた生き物は棘毛に刺さることがある。そのとき棘毛のおよそ<#0>が折れ、折れた1本につき<#1>のダメージを跳ね返す。
+Immune to other creatures' 棘毛	ほかの生き物の棘毛が効かない
++{{rules|<#0>-<#1>}} 棘毛	棘毛 +{{rules|<#0>～<#1>}}本
+You release a burst of 常態ガス around yourself.	自分のまわりに常態ガスを噴き出す。
+{{rules|Increased astral tethering and damage versus extradimensional beings}}	{{rules|アストラル繋留の強さと、異次元の存在へのダメージが上昇}}
+You breathe normality gas.	常態ガスを吐く。
+Breathes normality gas in a cone.	円錐状に常態ガスを吐く。
+You release a burst of 殺菌剤 around yourself.	自分のまわりに殺菌剤を噴き出す。
+You release a burst of 毒ガス around yourself.	自分のまわりに毒ガスを噴き出す。
+{{rules|Increased poison save difficulty and damage}}	{{rules|毒のセーヴ難度とダメージが上昇}}
+You breathe poison gas.	毒ガスを吐く。
+Breathes poison gas in a cone.	円錐状に毒ガスを吐く。
+You bear a tail with a stinger that delivers confusing venom to your enemies.	混乱毒を敵に打ち込む毒針のついた尾がある。
+<#0> chance on melee attack to sting your opponent ({{c|}}{{rules|<#1>}} {{r|}}{{rules|<#2>}})	近接攻撃のとき、<#0>の確率で相手を刺す（{{c|}}{{rules|<#1>}} {{r|}}{{rules|<#2>}}）
+Stinger is a long blade and can only penetrate once.	毒針は長刀扱いで、貫通は1回だけ。
+Always sting on charge or lunge.	突進やランジのときは必ず刺す。
+Stinger applies venom on damage (only <#0> chance if Stinger is your primary weapon).	毒針はダメージを与えると毒を注ぐ（毒針が主武器のときは<#0>の確率のみ）。
+May use Sting activated ability to strike with your stinger and automatically hit and penetrate.	発動能力「刺す」で毒針を突き立てると、必ず命中して貫通する。
+Sting cooldown: <#0>	「刺す」のクールダウン: <#0>
+Venom confuses opponents for {{rules|<#0>}} rounds	毒は相手を{{rules|<#0>}}ラウンド混乱させる
+You bear a tail with a stinger that delivers poisonous venom to your enemies.	毒を敵に打ち込む毒針のついた尾がある。
+Venom poisons opponents for {{rules|<#0>-<#1>}} rounds (damage increment {{rules|<#2>}})	毒は相手を{{rules|<#0>～<#1>}}ラウンド毒状態にする（ダメージ段階 {{rules|<#2>}}）
+You bear a tail with a stinger that delivers paralyzing venom to your enemies.	麻痺毒を敵に打ち込む毒針のついた尾がある。
+Venom paralyzes opponents for {{rules|<#0>}} rounds	毒は相手を{{rules|<#0>}}ラウンド麻痺させる
+You breathe stun gas.	気絶ガスを吐く。
+Breathes stun gas in a cone.	円錐状に気絶ガスを吐く。
+You breathe ice.	氷を吐く。
+Breathes ice in a cone.	円錐状に氷を吐く。
+Decreased temperature.	温度が下がる。
+You fill a nearby area with frosty webs.	近くの範囲を凍てつく網で埋める。
+You ooze fluids with the best of them.	誰にも負けない勢いで液体をにじみ出させる。
+You release a burst of 混乱ガス around yourself.	自分のまわりに混乱ガスを噴き出す。
+{{rules|Increased confusion save difficulty}}	{{rules|混乱のセーヴ難度が上昇}}
+You breathe confusion gas.	混乱ガスを吐く。
+Breathes confusion gas in a cone.	円錐状に混乱ガスを吐く。
+You teleport and bring creatures along with you.	まわりの生き物を連れてテレポートする。
+You teleport to a nearby location and bring everyone within radius <#0> along with you.	半径<#0>以内の全員を連れて、近くの場所へテレポートする。
+You breathe fire.	火を吐く。
+Breathes fire in a cone.	円錐状に火を吐く。
+{{rules|Increased temperature}}	{{rules|温度が上昇}}
+You emit a ray of flame.	炎の光線を放つ。
+You emit a ray of flame from your hands.	両手から炎の光線を放つ。
+You emit a ray of flame from your 手.	手から炎の光線を放つ。
+Emits a <#0>-square ray of flame in the direction of your choice.	選んだ方向に、<#0>マスの炎の光線を放つ。
+Melee attacks heat opponents by {{rules|<#0>}} degrees	近接攻撃で相手を{{rules|<#0>}}度熱する
+You regenerate by absorbing heat.	熱を吸収して回復する。
+Immune to heat damage	熱ダメージを受けない
+Whenever you would have taken heat damage, you heal for <#0> of that damage instead	熱ダメージを受けるはずのとき、代わりにそのダメージの<#0>だけ回復する
+You are protected by a durable carapace.	頑丈な甲殻に守られている。
+You may tighten your 甲殻 to receive double the AV bonus at a <#0> DV penalty as long as you remain still.	甲殻を締めると、じっとしているあいだ、DV <#0>と引き換えに AV のボーナスが2倍になる。
+You accrue electrical charge that you can use and discharge to deal damage.	電気をためて、使ったり放電してダメージを与えたりできる。
+Maximum charge: {{C|<#0>}}	最大充電量: {{C|<#0>}}
+Accrue base {{C|<#0>}} charge per turn	1ターンにつき基本{{C|<#0>}}の電気をためる
+Can discharge all held charge for <#0> damage per <#1> charge	ためた電気をすべて放電し、<#1>ごとに<#0>のダメージを与えられる
+Discharge can arc to adjacent targets dealing reduced damage, up to <#0> target per <#1> charge	放電は隣の対象にも弧を描いて飛び、威力の落ちたダメージを与える（<#1>ごとに最大<#0>体）
+EMP causes involuntary discharge (difficulty <#0> Willpower save)	EMP を受けると意図せず放電する（意志力セーヴ 難度<#0>）
+You can drink charge from energy cells and capacitors.	エネルギーセルやコンデンサーから電気を吸い取れる。
+You gain <#0> charge per point of electrical damage taken.	受けた電気ダメージ1点につき<#0>の電気を得る。
+You can provide charge to equipped devices that have integrated power systems.	電源を内蔵した装備中の機器に電気を供給できる。
+You release a burst of 睡眠ガス around yourself.	自分のまわりに睡眠ガスを噴き出す。
+{{rules|Increased sleep save difficulty}}	{{rules|睡眠のセーヴ難度が上昇}}
+You breathe sleep gas.	睡眠ガスを吐く。
+Breathes sleep gas in a cone.	円錐状に睡眠ガスを吐く。
+You turn things to stone with your gaze.	まなざしで物を石に変える。
+You can gaze {{rules|<#0>}} squares after a three-turn warmup and turn targets to stone.	3ターンの溜めのあと、{{rules|<#0>}}マス先を見つめ、対象を石に変える。
+You emit powerful magnetic pulses.	強力な磁気の波を放つ。
+After a one-round warmup, you emit a pulse with radius <#0> that attempts to pull metal objects toward you, including metal gear equipped on creatures.	1ラウンドの溜めのあと、半径<#0>の波を放ち、生き物が身につけた金属の装備も含めて、金属の物を引き寄せようとする。
+You can travel underground by burrowing.	地面を掘って地中を移動できる。
+You produce a viscous slime that you can spit at things.	粘つく粘液を作り出し、物に吐きかけられる。
+Covers an area with slime	範囲を粘液で覆う
+You can walk over slime without slipping.	粘液の上を滑らずに歩ける。
+You capture prey with your sticky tongue.	粘つく舌で獲物を捕らえる。
+You pull the nearest creature toward you.	いちばん近い生き物を引き寄せる。
+You can spin sticky silk webs.	粘つく糸の網を張れる。
+While spinning, you leave webs in your wake as you move.	糸を出しているあいだ、移動した跡に網が残る。
++{{rules|<#0>}} to saves vs. forced movement	強制移動へのセーヴ +{{rules|<#0>}}
+You are immune to getting stuck.	身動きが取れなくなることがない。
+{{rules|Increased web strength}}	{{rules|網の強度が上昇}}
+You are a crystalline being.	結晶の体を持つ存在だ。
+<#0> chance to refract light-based attacks	<#0>の確率で光による攻撃を屈折させる
+Effects that make non-biological clones of you produce twice as many.	生物でない分身を作る効果は、2倍の数を作り出す。
+You fly.	空を飛ぶ。
+You travel on the world map at {{rules|<#0>x}} speed.	ワールドマップを{{rules|<#0>倍}}の速さで移動する。
+{{rules|<#0>}} reduced chance of becoming lost	道に迷う確率が{{rules|<#0>}}下がる
+While outside, you may fly. You cannot be hit in melee by grounded creatures while flying.	屋外では飛行できる。飛行中は、地上の生き物の近接攻撃を受けない。
+{{rules|<#0>}} chance of falling clumsily to the ground	{{rules|<#0>}}の確率で、ぶざまに地面へ落ちる
+You can jump {{rules|<#0>}} square farther.	{{rules|<#0>}}マス遠くまで跳べる。
+You can jump {{rules|<#0>}} squares farther.	{{rules|<#0>}}マス遠くまで跳べる。
+You can charge {{rules|<#0>}} squares farther.	{{rules|<#0>}}マス遠くまで突進できる。
+You puff with the best of them.	誰にも負けない勢いで胞子を吹き出す。
+You breathe corrosive gas.	腐食性ガスを吐く。
+Breathes corrosive gas in a cone.	円錐状に腐食性ガスを吐く。
+You release a burst of 腐食性ガス around yourself.	自分のまわりに腐食性ガスを噴き出す。
+You release a burst of 除葉剤 around yourself.	自分のまわりに除葉剤を噴き出す。
+You bear two spinnerets with which you spin a sticky silk.	粘つく糸を紡ぐ出糸突起をふたつ持つ。
+Horns jut out of your head.	頭から角が突き出ている。
+To-hit bonus: {{rules|<#0>}}	命中ボーナス: {{rules|<#0>}}
+Horns are a short-blade class natural weapon.	角は短刀系の生まれつきの武器だ。
+{{rules|Increased bleeding save difficulty}}	{{rules|出血のセーヴ難度が上昇}}
+You spit a puddle of corrosive acid.	腐食性の酸を吐いて水たまりを作る。
+Covers the area in acidic slime.	範囲を酸性の粘液で覆う。
+In stressful situations, you scintillate.	緊迫した場面で、体がきらめく。
+You can't act while scintillating.	きらめいているあいだは行動できない。
+Confuses nearby hostile creatures per Confusion rank <#0>.	近くの敵対的な生き物を、「混乱」ランク<#0>相当で混乱させる。
+You generate an electromagnetic pulse that disables nearby artifacts and machines.	電磁パルスを発生させ、近くの遺物や機械を停止させる。
+# --- 身体の欠陥 ---
+Your skin, hair, and eyes are absent of pigment.	肌にも髪にも目にも色素がない。
+You regenerate hit points at one-fifth the usual rate in the daylight.	日中は、HP の回復速度がふつうの5分の1になる。
+You are allergic to tonics.	強壮薬にアレルギーがある。
+The chance your mutant physiology reacts adversely to a tonic is increased to <#0>.	変異した体質が強壮薬に悪い反応を起こす確率が<#0>に上がる。
+If you react adversely this way to a salve or ubernostrum tonic, the adverse reaction effect is chosen randomly from among other tonic effects. You will still heal.	軟膏やウーバーノストラム強壮薬でこの悪い反応が起きた場合、その効果はほかの強壮薬の効果からランダムに選ばれる。回復はちゃんとする。
+Your skin must be kept moist with fresh water.	肌を真水で湿らせておかなければならない。
+You pour water on yourself rather than drinking it to quench your thirst.	渇きを癒やすには、水を飲む代わりに体に浴びる。
+You require about two-thirds more water than usual.	ふつうよりおよそ3分の2多く水が要る。
+Your vitality depends on your temperature; at higher temperatures, you are more lively. At lower temperatures, you are more torpid.	体の活力は体温しだい。温度が高いほど活発に、低いほど鈍くなる。
+Your base quickness score is reduced by <#0>.	基本クイックネスが<#0>下がる。
+Your quickness increases as your temperature increases and decreases as your temperature decreases.	体温が上がるとクイックネスが上がり、体温が下がるとクイックネスも下がる。
+You lack a developed sense of pain.	痛みの感覚が発達していない。
+You only know your general state of health and not your precise number of hit points.	自分の健康状態がおおまかにしか分からず、正確な HP は分からない。
+You eat meat exclusively.	肉しか食べない。
+You get no satiation from foods that aren't meat.	肉以外の食べ物では腹が満たされない。
+If you eat raw food that isn't meat, there's a <#0> chance you become ill for <#1> hours.	肉以外の生ものを食べると、<#0>の確率で<#1>時間のあいだ具合が悪くなる。
+You can't cook with plant or fungus ingredients.	植物やキノコの材料で料理できない。
+You don't get ill when you eat raw meat.	生肉を食べても具合が悪くならない。
+You can eat raw meat without being famished.	飢えていなくても生肉を食べられる。
+Your bones are brittle.	骨がもろい。
+You suffer <#0> more damage from bludgeoning attacks, falling, and other sources of concussive damage.	打撃攻撃や落下など、衝撃によるダメージを<#0>多く受ける。
+You spontaneously erupt into flames.	ひとりでに炎に包まれる。
+Small chance each round you're in combat that you spontaneously erupt into flames.	戦闘中、毎ラウンドわずかな確率で、ひとりでに炎に包まれる。
+You are nearsighted.	近視だ。
+You can only see up to a radius of <#0>.	半径<#0>までしか見えない。
+Your genome is irritable and unpredictable.	ゲノムが気まぐれで、予測できない。
+Whenever you spend a mutation point, the next mutation point you gain will be spent randomly.	変異ポイントを使うたび、次に得る変異ポイントはランダムに使われる。
+Whenever you buy a new mutation, you get a random one instead of a choice of three.	新しい変異を購入するとき、3つから選ぶ代わりにランダムなものを得る。
+You have 鉤 for feet.	足が鉤になっている。
+You involuntarily release electromagnetic pulses, deactivating robots and artifacts around yourself.	意図せず電磁パルスを放ち、まわりのロボットや遺物を停止させてしまう。
+Small chance each round you're in combat that you release an electromagnetic pulse with radius <#0>, deactivating robots and artifacts (including those you carry) for <#1>-<#2> rounds.	戦闘中、毎ラウンドわずかな確率で半径<#0>の電磁パルスを放ち、ロボットや遺物（自分の持ち物も含む）を<#1>～<#2>ラウンド停止させる。
+# --- 精神変異 ---
+You read the history of artifacts by touching them, learning what they do and how they were made.	遺物に触れてその歴史を読み取り、何をする物でどう作られたかを知る。
+Unerringly identify artifacts up to complexity tier {{rules|<#0>}}.	複雑さ段階{{rules|<#0>}}までの遺物を、確実に鑑定できる。
+Learn how to construct identified artifacts up to complexity tier {{rules|<#0>}} (must have the appropriate Tinker skill).	鑑定した複雑さ段階{{rules|<#0>}}までの遺物の作り方を覚える（対応するからくりスキルが必要）。
+You may open security doors and use some secure devices by touching them.	触れるだけで、セキュリティ扉を開けたり、一部の保護された装置を使ったりできる。
+You may communicate with others through the psychic aether.	精神のエーテルを通じて、ほかの者と意思を通わせられる。
+Chat with anyone in vision	視界内の誰とでも会話できる
+Takes you much less time to issue orders to companions	仲間に指示を出す時間がずっと短くなる
+You teleport to a nearby location.	近くの場所へテレポートする。
+Teleport to a random location within a designated area.	指定した範囲内のランダムな場所へテレポートする。
+Uncertainty radius: {{rules|<#0>}}	ずれの半径: {{rules|<#0>}}
+You shift spacetime in the local region.	このあたりの時空をずらす。
+You peer into your near future.	近い未来をのぞき見る。
+You may activate this power and then later revert to the point in time when you activated it.	この力を発動しておくと、あとで発動した時点まで時間を巻き戻せる。
+Duration between use and reversion: {{rules|<#0>}} rounds	発動から巻き戻しまでの時間: {{rules|<#0>}}ラウンド
+You teleport an adjacent creature to a random nearby location.	隣接する生き物を、近くのランダムな場所へテレポートさせる。
+You manipulate light to your advantage.	光を自分の都合よく操る。
+You produce ambient light within a radius of {{rules|<#0>}}.	半径{{rules|<#0>}}に周囲を照らす光を生み出す。
+You may focus the light into a laser beam, temporarily reducing the radius of your ambient light by <#0>.	光を集めてレーザー光線にできる。そのあいだ、周囲の光の半径が一時的に<#0>縮む。
+Laser damage increment: {{rules|<#0>}}	レーザーのダメージ段階: {{rules|<#0>}}
+Laser penetration: {{rules|<#0>}}	レーザーの貫通力: {{rules|<#0>}}
+Ambient light recharges at a rate of <#0> unit every <#1> rounds until it reaches its maximum value.	周囲の光は、最大値に達するまで<#1>ラウンドごとに<#0>ずつ回復する。
+{{rules|<#0>}} chance to reflect light-based damage	{{rules|<#0>}}の確率で光によるダメージを反射する
+You chill a nearby area with your mind.	心の力で近くの範囲を冷やす。
+Chills affected area over <#0> rounds, dealing damage and freezing things	範囲を<#0>ラウンドかけて冷やし、ダメージを与えて物を凍らせる
+Round <#0> damage: {{rules|<#1>}} divided by <#2>	<#0>ラウンド目のダメージ: {{rules|<#1>}}を<#2>で割った値
+{{rules|Increased chill temperature intensity}}	{{rules|冷やす温度の強さが上昇}}
+You disintegrate nearby matter.	近くの物質を分解する。
+Damage to non-structural objects: {{rules|<#0>}}	構造物以外へのダメージ: {{rules|<#0>}}
+Damage to structural objects: {{rules|<#0>}}	構造物へのダメージ: {{rules|<#0>}}
+You are exhausted for <#0> rounds after using this power.	この力を使ったあと、<#0>ラウンドのあいだ疲れ果てる。
+You generate a wall of force that protects you from your enemies.	敵から身を守る力場の壁を作り出す。
+Creates <#0> contiguous squares of immobile forcefield.	動かない力場を<#0>マスつなげて作る。
+You may fire missile weapons through the forcefield.	力場ごしに飛び道具を撃てる。
+You generate a forcefield around yourself.	自分のまわりに力場を作り出す。
+Creates a <#0>x3 forcefield centered on yourself	自分を中心に<#0>x3マスの力場を作る
+視界半径: {{rules|<#0>}}	視界半径: {{rules|<#0>}}
+視界持続時間: {{rules|<#0>}} rounds	視界持続時間: {{rules|<#0>}}ラウンド
+再使用: <#0> rounds	再使用: <#0>ラウンド
+You invoke a repelling force in the surrounding area, throwing enemies back.	まわりに反発する力を呼び起こし、敵をはね飛ばす。
+Creatures are pushed away from center of blast.	生き物は爆心から押し出される。
+{{rules|Increased push force}}	{{rules|押し出す力が上昇}}
+You reflect the shameful countenance of nearby creatures.	近くの生き物の恥ずべき顔つきを映し返す。
+You can sense other mental mutants through the psychic aether.	精神のエーテルを通じて、ほかの精神変異者を感じ取れる。
+You detect the presence of psychic enemies within a radius of <#0>.	半径<#0>以内にいる精神能力を持つ敵の存在を感知する。
+There's a chance you identify detected enemies.	感知した敵の正体が分かることがある。
+You garrote an adjacent creature's mind and control its actions while your own body lies dormant.	隣接する生き物の心を締め上げ、自分の体を眠らせたまま、その行動を操る。
+Mental attack versus creature with a mind	心を持つ生き物への精神攻撃
+Success roll: {{rules|mutation rank}} or Ego mod (whichever is higher) + character level + <#0> VS. Defender MA + character level	成功判定: {{rules|変異のランク}}か自我修正値（高いほう）＋キャラクターレベル＋<#0> 対 相手の MA＋キャラクターレベル
+You sunder spacetime, sending things nearby careening through a tear in the cosmic fabric.	時空を引き裂き、近くの物を宇宙の織物の裂け目へと吹き飛ばす。
+Summons a vortex that swallows everything in its path.	通り道のものすべてを飲み込む渦を呼び出す。
+You may enter the vortex to teleport to a random location in Qud.	渦に入ると、クッドのランダムな場所へテレポートできる。
+Bonus duration: {{rules|<#0>}} rounds	追加の持続時間: {{rules|<#0>}}ラウンド
+You distort time around your person in order to slow down your enemies.	身のまわりの時間をゆがめて、敵の動きを遅くする。
+Creatures within <#0> tiles are slowed according to how close they are to you.	<#0>マス以内の生き物は、自分に近いほど遅くなる。
+Distance <#0>: creatures receive a {{rules|<#1>}} Quickness penalty	距離<#0>: 生き物のクイックネスに{{rules|<#1>}}のペナルティ
+You quickly pass back and forth through time creating multiple copies of yourself.	時間をすばやく行き来して、自分の分身をいくつも作り出す。
+Copies: {{rules|<#0>}}	分身の数: {{rules|<#0>}}
+You bond with a nearby organic creature and leech its life force.	近くの有機体の生き物と結びつき、その生命力を吸い取る。
+Mental attack versus an organic creature	有機体の生き物への精神攻撃
+Drains {{rules|<#0>}} hit point per round	1ラウンドにつき HP を{{rules|<#0>}}吸い取る
+Drains {{rules|<#0>}} hit points per round	1ラウンドにつき HP を{{rules|<#0>}}吸い取る
+Target gets a mental save to resist damage each round	対象は毎ラウンド、ダメージに抵抗する精神セーヴを行う
+You confuse nearby enemies.	近くの敵を混乱させる。
+Affected creatures act semi-randomly and receive a {{rules|<#0>}} penalty to their mental abilities.	影響を受けた生き物は半ばでたらめに行動し、精神能力に{{rules|<#0>}}のペナルティを受ける。
+You heat a nearby area with your mind.	心の力で近くの範囲を熱する。
+Toasts affected area over <#0> rounds	範囲を<#0>ラウンドかけて焼き上げる
+{{rules|Increased toast temperature intensity}}	{{rules|焼く温度の強さが上昇}}
+You ignite a small fire with your mind.	心の力で小さな火を起こす。
+You sunder the mind of an enemy, leaving them reeling in pain.	敵の心を引き裂き、痛みにのたうたせる。
+For up to <#0> rounds, you engage in psychic combat with an opponent, dealing damage each round.	最大<#0>ラウンドのあいだ、相手と精神の戦いを繰り広げ、毎ラウンドダメージを与える。
+Taking any action other than passing the turn will break the connection.	ターンを送る以外の行動をすると、つながりが切れる。
+Each round you make a mental attack vs mental armor (MA).	毎ラウンド、精神アーマー（MA）に対して精神攻撃を行う。
+After the tenth round, you deal bonus damage equal to the total amount of damage you've done so far.	10ラウンド目のあと、それまでに与えたダメージの合計に等しい追加ダメージを与える。
+You reflect mental attacks back at your attackers.	精神攻撃を、攻撃してきた相手に跳ね返す。
+When you suffer a mental attack while Mental Mirror is off cooldown, you gain +{{rules|<#0>}} mental armor (MA).	「精神の鏡」がクールダウン中でないときに精神攻撃を受けると、精神アーマー（MA）+{{rules|<#0>}}を得る。
+If the attack then fails to penetrate your MA, it's reflected back at your attacker.	その攻撃が MA を貫けなければ、攻撃してきた相手に跳ね返る。
+You cause plants to spontaneously grow in a nearby area, hindering your enemies.	近くの範囲に植物を一気に生やし、敵の邪魔をする。
+More powerful plants summoned	より強力な植物を呼び出す
+Through sheer force of will, you perform uncanny physical feats.	意志の力だけで、人間離れした身体の技をやってのける。
+Augments one physical attribute by an amount equal to twice your Ego bonus	身体の能力値のひとつを、自我ボーナスの2倍だけ高める
+You invoke a concussive force in a nearby area, throwing enemies back and stunning them.	近くの範囲に衝撃の力を呼び起こし、敵をはね飛ばして気絶させる。
+Creatures are pushed away from center of blast, stunned, and dealt crushing damage in up to <#0> increments.	生き物は爆心から押し出されて気絶し、最大<#0>回に分けて押しつぶすダメージを受ける。
+{{rules|Increased stun save difficulty}}	{{rules|気絶のセーヴ難度が上昇}}
+You cannot be seen.	姿が見えない。
+You tap into the aggregate mind and steal power from other espers.	群れの心につながり、ほかのエスパーから力を奪う。
+Refreshes all mental mutations	すべての精神変異のクールダウンを回復する
+Cooldown is not affected by Willpower.	クールダウンは意志力の影響を受けない。
+Each use attracts slightly more attention from psychic interlopers.	使うたびに、精神の侵入者たちの注意を少しずつ引きつける。
+{{rules|Small chance each round for another esper to steal your powers}}	{{rules|毎ラウンドわずかな確率で、ほかのエスパーに力を奪われる}}
+{{rules|Decreased chance for another esper to steal your powers}}	{{rules|ほかのエスパーに力を奪われる確率が下がる}}
+You beguile a nearby creature into serving you loyally.	近くの生き物をたぶらかし、忠実に仕えさせる。
+Mental attack versus a creature with a mind	心を持つ生き物への精神攻撃
+Beguiled creature: +{{rules|<#0>}} bonus hit points	たぶらかした生き物: 追加 HP +{{rules|<#0>}}
+# --- 精神の欠陥 ---
+You suffer from powerful psionic migraines that render your head extremely sensitive.	強烈なサイオニック偏頭痛に悩まされ、頭がひどく敏感になっている。
+You fall asleep involuntarily from time to time.	ときどき、意図せず眠り込んでしまう。
+Small chance each round you're in combat that you fall asleep for <#0>-<#1> rounds.	戦闘中、毎ラウンドわずかな確率で<#0>～<#1>ラウンド眠り込む。
+You forget things and places.	物事や場所を忘れる。
+Whenever you learn a new secret, there's a small chance you forget a secret.	新しい秘密を知るたびに、わずかな確率で別の秘密を忘れる。
+Whenever you return to a map you previously visited, there's a small chance you forget the layout.	一度訪れたマップに戻るたびに、わずかな確率でその地形を忘れる。
+You are befuddled by technological complexity.	技術の複雑さにまごついてしまう。
+You're much worse at examining artifacts.	遺物を調べるのがひどく苦手だ。
+You can't have artifacts identified for you because you don't understand their explanations.	説明が理解できないので、人に遺物を鑑定してもらえない。
+When you fail severely during artifact examination, the artifact explodes.	遺物を調べるのに大失敗すると、その遺物が爆発する。
+Others find it difficult to tolerate you in social settings.	人付き合いの場では、ほかの者があなたに耐えがたいと感じる。
+You teleport about uncontrollably.	抑えられずにあちこちテレポートしてしまう。
+Small chance each round you're in combat that you randomly teleport to a nearby location.	戦闘中、毎ラウンドわずかな確率で近くのランダムな場所へテレポートする。
+Acting on some inscrutable impulse, a parallel version of yourself travels through space and time to destroy you.	何か計り知れない衝動に駆られて、並行世界のあなた自身が、あなたを滅ぼすために時空を越えてやって来る。
+Each time you embark on a new location, there's a small chance your evil twin has tracked you there and attempts to kill you.	新しい場所に踏み入るたびに、わずかな確率で邪悪な双子があなたを追ってきて、殺そうとする。
+Your willful acts sometimes dent spacetime.	あなたの意志による行いが、ときどき時空をへこませる。
+Whenever you use an activated ability, there's a small chance your focus slips and you dent spacetime in the local region, causing <#0>-<#1> spacetime vortices to appear. This chance increases the longer you go without using an activated ability.	発動能力を使うたびに、わずかな確率で集中が途切れてこのあたりの時空をへこませ、<#0>～<#1>個の時空の渦を出現させてしまう。この確率は、発動能力を使わずにいる時間が長いほど上がる。

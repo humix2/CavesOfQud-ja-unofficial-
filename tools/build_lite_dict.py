@@ -37,6 +37,14 @@ def usable(key, val):
 def main():
     qudjp, out = sys.argv[1], sys.argv[2]
     d = {}
+    # 手で直した訳（QudJP の誤訳の上書きなど）を最優先: tools/ui-overrides.tsv（英語<TAB>訳）
+    fix = os.path.join(HERE, "ui-overrides.tsv")
+    if os.path.exists(fix):
+        for line in open(fix, encoding="utf-8"):
+            line = line.rstrip("\n")
+            if line and not line.startswith("#") and "\t" in line:
+                k, v = line.split("\t", 1)
+                d[k.replace("\\n", "\n")] = v.replace("\\n", "\n")
     # 自作訳を優先（新しい公式の訳文に合わせて作ったもの）
     for f in sorted(glob.glob(os.path.join(HERE, "overrides", "*.xml"))):
         for s in ET.parse(f).getroot().iter("string"):

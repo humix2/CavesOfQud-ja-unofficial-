@@ -1,0 +1,69 @@
+# メッセージログの自作パターン（QudJP のパターンより優先）。1行 = 正規表現<TAB>訳文（{0} {1} … が捕捉グループ）
+# 捕捉した部分は、UI 辞書にあれば自動で訳される
+^(?:The |the )?(.+?) takes (\d+) damage from the fire you started!$	{0}は、あなたが起こした火で{1}ダメージを受けた！
+^(.*) \{\{K\|\[\{\{g\|Toggled on\}\}\]\}\}(.*)$	{0} {{K|[{{g|オン}}]}}{1}
+^(.*) \{\{K\|\[\{\{y\|Toggled off\}\}\]\}\}(.*)$	{0} {{K|[{{y|オフ}}]}}{1}
+^\{\{y\|Type: \}\}(.+)$	{{y|種類: }}{0}
+^You sit (?:down )?on (?:a |an |the |some )?(.+?)\.$	{0}に座った。
+^You make camp\.$	野営した。
+^You have finished the step, (.+?), of the quest (.+?)!$	クエスト「{1}」のステップ「{0}」を完了した！
+^You emit a flaming ray from your hands!$	両手から炎の光線を放った！
+^You emit a freezing ray from your hands!$	両手から冷気の光線を放った！
+^(.+?) :: Level (\d+) (.+?) \[(\w+)\] $	{0} :: レベル{1} {2} [{3}] 
+^\{\{C\|Location:\}\} (.*)$	{{C|場所:}} {0}
+^\{\{C\|Last saved:\}\} (.*)$	{{C|最終セーブ:}} {0}
+^Total size: (\d+)mb (\{.*\}) $	合計サイズ: {0}MB {1} 
+^You take a sip of (.+?) from your (.+?)\.$	{1}から{0}をひと口飲んだ。
+^You pass by (?:a |an |the |some )?(.+?) and (?:a |an |the |some )?(.+?)\.$	{0}と{1}のそばを通り過ぎた。
+^You wade through (?:a |an |the |some )?(.+?) of (.+?)\.$	{0}の中を歩いて進んだ。
+^(?:The |the )?(?:\{\{[\w ]+\|[Ff]laming\}\}|[Ff]laming) (.+?) takes (\d+) damage from (?:your|its|his|her|their) flames!$	燃えている{0}は炎で{1}ダメージを受けた！
+^(?:The |the )?(.+?) takes (\d+) damage from (?:your|its|his|her|their) flames!$	{0}は炎で{1}ダメージを受けた！
+^You emit a flaming ray from your (.+?)!$	{0}から炎の光線を放った！
+^You emit a freezing ray from your (.+?)!$	{0}から冷気の光線を放った！
+^(?:The |the )?(?:\{\{[\w ]+\|[Ff]laming\}\}|[Ff]laming) (.+?) beats at the flames with (?:his|her|its|their) (.+?)!$	燃えている{0}は{1}で炎をはたいた！
+^(?:The |the )?(.+?) beats at the flames with (?:his|her|its|their) (.+?)!$	{0}は{1}で炎をはたいた！
+^You beat at the flames with your (.+?)!$	{0}で炎をはたいた！
+^(.+?) takes (?:the |a |an |some )(.+?) x(\d+)\.$	{0}は{1}を{2}個受け取った。
+^(.+?) takes (?:the |a |an |some )(.+?)\.$	{0}は{1}を受け取った。
+^You take (?:the |a |an |some )?(.+?) from the (north|south|east|west|northeast|northwest|southeast|southwest)\.$	{1}にある{0}を拾った。
+^You take (?:the |a |an |some )?(.+?) x(\d+) from the (north|south|east|west|northeast|northwest|southeast|southwest)\.$	{2}にある{0}を{1}個拾った。
+^You take (?:the |a |an |some )(.+?) x(\d+)\.$	{0}を{1}個受け取った。
+^You take (?:the |a |an |some )(.+?)\.$	{0}を受け取った。
+^You begin sprinting!$	スプリントを始めた！
+^You stop sprinting\.?$	スプリントをやめた。
+^You are no longer sprinting\.?$	スプリントが終わった。
+^(?:The |the )?(?:\{\{[\w ]+\|[Ff]laming\}\}|[Ff]laming) (.+?) dies!$	燃えている{0}は死んだ！
+^You must wait \{\{C\|(\d+) (?:rounds?|turns?)\}\} before using (.+?)\.$	{1}はあと{{C|{0}ラウンド}}使えない。
+^You must wait \{\{C\|(\d+) (?:rounds?|turns?)\}\} to use that ability again\.$	そのアビリティはあと{{C|{0}ラウンド}}使えない。
+^You have rapidly advanced (.+?) by \w+ ranks to rank \{\{C\|(\d+)\}\}!$	{0}を急成長させ、ランク{{C|{1}}}にした！
+^Choose a physical mutation to rapidly advance\.$	急成長させる身体変異を選ぶ。
+^Choose a mental mutation to rapidly advance\.$	急成長させる精神変異を選ぶ。
+^Your genome enters an excited state!$	ゲノムが励起状態に入った！
+^You gain \{\{C\|(\d+)\}\} skill points!$	スキルポイントを{{C|{0}}}獲得した！
+^(?:The |the )?(.+?) equips (?:a |an |the |some )?(.+?)\.$	{0}は{1}を装備した。
+^(?:The |the )?(.+?)'s (.+?) hits (?:the |a |an )?(.+?)!$	{0}の{1}が{2}に当たった！
+^(?:The |the )?(.+?) dies!$	{0}は死んだ！
+^You have gained a level! You are now level (?:\{\{\w+\|)?(\d+)(?:\}\})?!$	レベルが上がった！ レベル{0}になった！
+^You gain (?:\{\{\w+\|)?(\d+)(?:\}\})? hitpoints?$	HPが{0}増えた
+^You gain (?:\{\{\w+\|)?(\d+)(?:\}\})? Skill Points?$	スキルポイントを{0}獲得した
+^You gain (?:\{\{\w+\|)?(\d+)(?:\}\})? Mutation Points?$	変異ポイントを{0}獲得した
+^You gain (?:\{\{\w+\|)?(\d+)(?:\}\})? Attribute Points?$	能力値ポイントを{0}獲得した
+^You gain (?:\{\{\w+\|)?(\d+)(?:\}\})? XP[!.]$	経験値を{0}獲得した！
+^Cooldown reduced by (\d+%?) due to high Willpower\.$	意志力が高いため、クールダウンが{0}短縮されている。
+^Cooldown increased by (\d+%?) due to low Willpower\.$	意志力が低いため、クールダウンが{0}延長されている。
+^Cooldown reduced by (\d+%?) due to (.+?)\.$	{1}により、クールダウンが{0}短縮されている。
+^Cooldown increased by (\d+%?) due to (.+?)\.$	{1}により、クールダウンが{0}延長されている。
+^Cooldown is not affected by Willpower\.$	クールダウンは意志力の影響を受けない。
+^(.+?), surface( \(.\))?$	{0}、地上{1}
+^It will cost \{\{C\|(\d+)\}\} mutation points? to increase (.+?)'s rank by (\d+)\.$	変異ポイントを{{C|{0}}}使って、{1}のランクを{2}上げる。
+^Do you wish to increase this mutation's rank\?$	この変異のランクを上げますか？
+^It will cost \{\{C\|(\d+)\}\} attribute points? to increase (.+?) by (\d+)\.$	能力値ポイントを{{C|{0}}}使って、{1}を{2}上げる。
+^Do you wish to increase this attribute\?$	この能力値を上げますか？
+^You have increased (.+?)'s base rank to \{\{C\|(\d+)\}\}!$	{0}の基本ランクを{{C|{1}}}に上げた！
+^\* This mutation's base rank is (\d+)\.$	* この変異の基本ランクは{0}。
+^\+ This mutation's rank is increased by (\d+) due to being rapidly advanced (\d+) times?\.$	+ 急成長（{1}回）により、この変異のランクは{0}上がっている。
+^- This mutation's rank is capped at (\d+) due to your level\.$	- レベルによる上限のため、この変異のランクは{0}までに抑えられている。
+^\+ This mutation's rank is increased by (\d+) due to your high (.+?)\.$	+ {1}が高いため、この変異のランクは{0}上がっている。
+^- This mutation's rank is decreased by (\d+) due to your low (.+?)\.$	- {1}が低いため、この変異のランクは{0}下がっている。
+^\+ This mutation's rank is increased by (\d+) due to a metabolizing effect\.$	+ 食事の効果により、この変異のランクは{0}上がっている。
+^\+ This mutation's rank is increased by (\d+) due to your equipped item, (.+?)\.$	+ 装備中の{1}により、この変異のランクは{0}上がっている。

@@ -1,0 +1,42 @@
+# 数値入りの UI 文の「型」→ 訳文。1行 = 英文<TAB>訳文
+# 英文の数値・ダイス表記（9, 1d4+1, -2, 25%, 1.5 など）は <#0> <#1> … に置き換えて書く。訳文側では同じ記号を好きな順に使える。
+# 改行は \n、タブは \t。数値を含まない行の完全一致もここに書ける。
+{{w|This rank}}:	{{w|現在のランク}}:
+{{w|Next rank}}:	{{w|次のランク}}:
+
+# 食事の効果
+You start to metabolize the meal, gaining the following effect for the rest of the day:	食事が消化され始め、今日一日、次の効果を得た:
+<#0> to natural healing rate	自然回復速度 <#0>
+You thirst at half rate.	喉の渇きが半分の速さになる。
+
+# キャラクター画面の見出し
+MUTATIONS	変異
+SECONDARY ATTRIBUTES	副次能力値
+RESISTANCES	耐性
+ATTRIBUTES	能力値
+Attribute Points: {{G|<#0>}}	能力値ポイント: {{G|<#0>}}
+Attribute Points: {{K|<#0>}}	能力値ポイント: {{K|<#0>}}
+Mutation Points: {{G|<#0>}}	変異ポイント: {{G|<#0>}}
+Mutation Points: {{K|<#0>}}	変異ポイント: {{K|<#0>}}
+{{G|RANK <#0>/<#1>}}	{{G|ランク <#0>/<#1>}}
+{{c|[Physical Mutation]}}	{{c|[身体変異]}}
+{{c|[Mental Mutation]}}	{{c|[精神変異]}}
+{{R|[Physical Defect]}}	{{R|[身体の欠陥]}}
+{{r|[Mental Defect]}}	{{r|[精神の欠陥]}}
+{{C|[Morphotype]}}	{{C|[モーフタイプ]}}
+
+# アビリティ一覧（数値の色は、ふつう {{rules|}}、強化中 {{G|}}、弱体中 {{R|}}）
+Cooldown: {{G|<#0>}} rounds	クールダウン: {{G|<#0>}}ラウンド
+Cooldown: {{R|<#0>}} rounds	クールダウン: {{R|<#0>}}ラウンド
+Cooldown: {{rules|<#0>}} round	クールダウン: {{rules|<#0>}}ラウンド
+Cooldown: {{G|<#0>}} round	クールダウン: {{G|<#0>}}ラウンド
+Cooldown: {{R|<#0>}} round	クールダウン: {{R|<#0>}}ラウンド
+Cooldown: <#0> round	クールダウン: <#0>ラウンド
+Cooldown: {{rules|<#0>-<#1>}} rounds	クールダウン: {{rules|<#0>～<#1>}}ラウンド
+Cooldown: {{G|<#0>-<#1>}} rounds	クールダウン: {{G|<#0>～<#1>}}ラウンド
+Cooldown: {{R|<#0>-<#1>}} rounds	クールダウン: {{R|<#0>～<#1>}}ラウンド
+Duration: {{G|<#0>}} rounds	持続時間: {{G|<#0>}}ラウンド
+Duration: {{R|<#0>}} rounds	持続時間: {{R|<#0>}}ラウンド
+Duration: {{rules|<#0>}} round	持続時間: {{rules|<#0>}}ラウンド
+{{C|Cooldown Remaining Turns: }}<#0>	{{C|クールダウン残りターン: }}<#0>
+Level: <#0> » HP: <#1>/<#2> » XP: <#3>/<#4> » Weight: <#5>#	レベル: <#0> » HP: <#1>/<#2> » 経験値: <#3>/<#4> » 重量: <#5>#

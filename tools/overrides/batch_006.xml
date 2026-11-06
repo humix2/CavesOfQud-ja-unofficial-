@@ -15,7 +15,7 @@
 =bitMessage=</string>
   <string Context="Disassembly learn to mod ('You may now' fragment)" ID="mod items with the =mods.andList= =mods.pluralize:mod=">=mods.andList=改造をアイテムに施す</string>
   <string Context="Disguise Blueprint Default Display" ID="creature of some kind">何らかのクリーチャー</string>
-  <string Context="Disintegration Area Stat" ID="7x7 around self">自分の周囲7×7</string>
+  <string Context="Disintegration Area Stat" ID="7x7 around self">自分の周囲7x7マス</string>
   <string Context="Disintegration Activate MessageLog" ID="The air vibrates destructively around =subject.a.name=!">=subject.a.name=の周りの空気が破壊的に振動した！</string>
   <string Context="Dismember ParticleText" ID="*dismembered!*">*切断された！*</string>
   <string Context="Dismember Confirm Self" ID="Are you sure you want to dismember =subject.itself=?">本当に=subject.itself=を切断しますか？</string>

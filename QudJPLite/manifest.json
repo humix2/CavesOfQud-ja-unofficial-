@@ -1,8 +1,8 @@
 {
   "Id": "QudJPLite",
   "Title": "QudJP Lite (軽量日本語化)",
-  "Description": "Windows の日本語フォントを登録し、XML データ（アイテム・会話・変異など）と UI の固定文字列を日本語化する軽量版。UI は完全一致の辞書引きのみ（Harmony は UITextSkin の2か所と、本のページ生成時の折り返し2か所だけ）。翻訳データの多くは QudJP (MIT License) から流用し、序盤の会話は自作訳に差し替え。",
+  "Description": "Windows の日本語フォントを登録し、XML データ（アイテム・会話・変異など）と UI の固定文字列を日本語化する軽量版。UI は辞書引きと数値入りの文の型、メッセージ・ポップアップは入口で1回だけ正規表現で訳す。翻訳データの多くは QudJP (MIT License) から流用し、序盤の会話は自作訳に差し替え。",
   "Author": "FUMI",
-  "Version": "0.3.0",
+  "Version": "0.4.0",
   "Tags": ["Localization", "Japanese"]
 }

@@ -1,0 +1,24 @@
+# UI 辞書（完全一致）の訳の上書き。QudJP の誤訳や表記揺れを直す。1行 = 英語<TAB>訳
+rank	ランク
+Physical Mutation	身体変異
+Mental Mutation	精神変異
+Physical Defect	身体の欠陥
+Mental Defect	精神の欠陥
+Mods	Mod
+Message log	メッセージログ
+hands	両手
+hand	手
+You make camp.	野営した。
+
+# アビリティ一覧の説明（ゲームのコードに直接書かれているもの）
+Start a campfire for cooking meals and preserving foods. You can't make camp in combat.	料理や食料の保存のために焚き火を起こす。戦闘中は野営できない。
+Toggles whether you will attempt to decapitate opponents when dismembering them.	四肢を切断するとき、相手の首をはねようとするかどうかを切り替える。
+You make an attack with your axe at an adjacent opponent. If you hit and penetrate at least once, you dismember one of their limbs and they start bleeding (1-2 damage per turn. toughness save; difficulty 35). Additionally, your axe attacks that penetrate have a percentage chance to dismember: 3% for one-handed axes and 6% for two-handed axes.	隣接する相手に斧で攻撃する。命中して1回以上貫通すれば、相手の四肢を1つ切断し、出血させる（毎ターン1～2ダメージ。頑健セーヴ、難易度35）。さらに、貫通した斧の攻撃には一定の確率で四肢を切断する効果がつく（片手斧3%、両手斧6%）。
+You grab an opponent's limb with the heel of your axe and pull them toward you. If successful, you pull your opponent with you as you move and make a free attack with your axe. Your opponent is forced to move with you but can attack you while moving. Your opponent gets a chance to resist the move (strength save; difficulty 20 + your strength modifier) and a chance to break free at the start of their turn (same save).\n\nThis effect lasts for 9 rounds or until you dismember the opponent.	斧のかかとで相手の四肢を引っかけ、引き寄せる。成功すると、移動するたびに相手を引きずり、斧で無償の攻撃を行う。相手は一緒に移動させられるが、移動中もあなたを攻撃できる。相手は引きずりに抵抗する機会（筋力セーヴ、難易度20＋あなたの筋力修正値）と、自分のターンの開始時に振りほどく機会（同じセーヴ）を得る。\n\nこの効果は9ラウンド続くか、相手の四肢を切断するまで続く。
++2/3 to hit while wielding a long blade in your primary hand	利き手に長剣を持っているとき、命中 +2/3
+You admonish a robot into following your commands. Level + Ego-based difficulty check.	ロボットを叱りつけ、命令に従わせる。レベルと自我にもとづく難易度判定を行う。
+You make a melee attack with a short blade in your primary hand (preferred) or offhand. If you hit, the attack gets +2 to penetration rolls for each negative status effect your opponent suffers from.	利き手（優先）かもう一方の手の短剣で近接攻撃する。命中すると、相手にかかっている悪い状態効果1つにつき、貫通ロールに+2を得る。
+You slurp up nearby liquids and spew them with your bilge sphincter, occasionally knocking enemies prone.	周囲の液体をすすり上げ、汚水括約筋から吐き出す。ときどき敵を転倒させる。
+northwest	北西
+southeast	南東
+southwest	南西

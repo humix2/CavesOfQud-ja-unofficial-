@@ -102,9 +102,9 @@
   <string Context="CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:phase= out for 20 turns.">20ターンの間、位相をずらす。</string>
   <string Context="CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Description" ID="=subject.they= can't be phased for 2 hours.">2時間の間、位相をずらされない。</string>
   <string Context="CookingDomainPhotosyntheticSkin_RegenerationUnit Description" ID="=bonus.signed=% to natural healing rate">自然回復速度 =bonus.signed=%</string>
-  <string Context="CookingDomainPhotosyntheticSkin_RegenerationUnit Description - Tier unknown" ID="+20% + (Photosynthetic Skin rank * 10)% to natural healing rate">自然回復速度 +20% +（光合成皮膚のランク×10）%</string>
+  <string Context="CookingDomainPhotosyntheticSkin_RegenerationUnit Description - Tier unknown" ID="+20% + (Photosynthetic Skin rank * 10)% to natural healing rate">自然回復速度 +20% +（光合成皮膚のランクの10倍）%</string>
   <string Context="CookingDomainPhotosyntheticSkin_UnitQuickness Description" ID="=bonus.signed= Quickness">クイックネス =bonus.signed=</string>
-  <string Context="CookingDomainPhotosyntheticSkin_UnitQuickness Description - Unknown tier" ID="+13 + (Photosynthetic Skin rank * 2) Quickness">クイックネス +13 +（光合成皮膚のランク×2）</string>
+  <string Context="CookingDomainPhotosyntheticSkin_UnitQuickness Description - Unknown tier" ID="+13 + (Photosynthetic Skin rank * 2) Quickness">クイックネス +13 +（光合成皮膚のランクの2倍）</string>
   <string Context="CookingDomainPlant_BurgeoningHighTier_ProceduralCookingTriggeredAction Notification" ID="Plants burgeon around =subject.the.name=!">=subject.the.name=の周りに植物が芽吹いた！</string>
   <string Context="CookingDomainPlant_BurgeoningHighTier_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:cause= plants to spontaneously grow in a random nearby area.">近くのランダムな場所に植物を自然発生させる。</string>
   <string Context="CookingDomainPlant_OnDamageByPlant Description" ID="whenever =subject.thisCreature= =subject.verb:take= damage from a plant,">=subject.thisCreature=が植物からダメージを受けるたび、</string>

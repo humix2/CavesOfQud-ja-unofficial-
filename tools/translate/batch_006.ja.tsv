@@ -9,7 +9,7 @@
 9	=itemsMessage=\n\n=learnedMessage=\n\n=bitMessage=
 10	=mods.andList=改造をアイテムに施す
 11	何らかのクリーチャー
-13	自分の周囲7×7
+13	自分の周囲7x7マス
 14	=subject.a.name=の周りの空気が破壊的に振動した！
 15	*切断された！*
 16	本当に=subject.itself=を切断しますか？
