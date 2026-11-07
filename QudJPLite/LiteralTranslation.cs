@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
@@ -22,7 +23,7 @@ namespace QudJPLite
             { "}} turn cooldown, astrally tethered]", "}}ターンのクールダウン、アストラル束縛]" },
             { "sort: ", "並び順: " },
             { "custom", "カスタム" },
-            { "by class", "種類別" },
+            { "by class", "種類別" }, { "a-z", "名前順" }, { "list", "一覧順" },
         };
 
         // ポップアップの共通ボタン（キー表示と組み合わせて毎回作られるもの）。
@@ -110,9 +111,22 @@ namespace QudJPLite
         }
     }
 
-    [HarmonyPatch(typeof(AbilityManagerScreen), nameof(AbilityManagerScreen.sortModeDescription), MethodType.Getter)]
+    // 並び順の表示（アビリティ・取引・本・アイテム選択の各画面）
+    [HarmonyPatch]
     public static class AbilitySortLiteralPatch
     {
+        public static IEnumerable<MethodBase> TargetMethods()
+        {
+            foreach (Type t in new[] { typeof(AbilityManagerScreen), typeof(TradeScreen), typeof(BookScreen), typeof(PickGameObjectScreen) })
+            {
+                MethodInfo get = AccessTools.PropertyGetter(t, "sortModeDescription");
+                if (get != null)
+                {
+                    yield return get;
+                }
+            }
+        }
+
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             return Literals.Replace(instructions);

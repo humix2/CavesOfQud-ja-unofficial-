@@ -4,7 +4,8 @@
 param(
     [string]$QudJPPath = "D:\Program Files (x86)\Steam\steamapps\workshop\content\333640\3718988020",
     [string]$ModsPath  = "$env:USERPROFILE\AppData\LocalLow\Freehold Games\CavesOfQud\Mods",
-    [string]$GamePath  = "D:\Program Files (x86)\Steam\steamapps\common\Caves of Qud"
+    [string]$GamePath  = "D:\Program Files (x86)\Steam\steamapps\common\Caves of Qud",
+    [switch]$SkipCompileCheck
 )
 $ErrorActionPreference = 'Stop'
 
@@ -13,6 +14,24 @@ $dest = Join-Path $ModsPath 'QudJPLite'
 
 if (-not (Test-Path (Join-Path $QudJPPath 'Localization'))) {
     throw "QudJP の翻訳データが見つかりません: $QudJPPath`nワークショップで QudJP をサブスクライブしたままにしてください（ゲーム内では無効で OK）。"
+}
+
+# 配置前のコンパイル確認。エラーがあれば配置しない（壊れた MOD を Mods フォルダに入れないため）
+$managed = Join-Path $GamePath 'CoQ_Data\Managed'
+$checkProj = Join-Path $PSScriptRoot 'tools\compile-check\QudJPLite.Check.csproj'
+if ($SkipCompileCheck) {
+    Write-Warning "コンパイル確認を省略しました (-SkipCompileCheck)"
+} elseif (-not (Get-Command dotnet -ErrorAction SilentlyContinue)) {
+    Write-Warning "dotnet が見つからないため、コンパイル確認を省略しました（.NET SDK を入れると配置前に確認できます）"
+} elseif (-not (Test-Path $managed)) {
+    throw "ゲームの DLL が見つかりません: $managed`n-GamePath でゲームのインストール先を指定してください。"
+} else {
+    $out = & dotnet build $checkProj -v q -nologo "-p:GameManaged=$managed" 2>&1
+    if ($LASTEXITCODE -ne 0) {
+        $out | Select-String 'error' | Select-Object -First 20 | ForEach-Object { Write-Host $_.Line -ForegroundColor Red }
+        throw "コンパイルエラーがあるため配置を中止しました（今の配置はそのまま残っています）。"
+    }
+    Write-Host "コンパイル確認: OK"
 }
 
 # 古い配置を消してから作り直す（このフォルダは本スクリプト専用）

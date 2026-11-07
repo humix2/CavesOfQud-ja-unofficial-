@@ -381,6 +381,10 @@ namespace QudJPLite
                 {
                     result = ja;
                 }
+                else if ((result = TemplateWithoutColor(line)) != null)
+                {
+                    // 行全体に色が付いている文（"&G+12% to natural healing rate" など）
+                }
                 else if (HasLatinWord(line))
                 {
                     // 名前や数値が入る文（メッセージ・ポップアップなど）は正規表現のパターンで
@@ -402,6 +406,46 @@ namespace QudJPLite
             }
             lineCache[line] = result;
             return result ?? line;
+        }
+
+        // 先頭の &X ^X や、全体を囲む {{X|...}} を外して型を引く。当たらなければ null
+        private static string TemplateWithoutColor(string line)
+        {
+            int start = 0;
+            while (start + 1 < line.Length && (line[start] == '&' || line[start] == '^') && line[start + 1] != line[start])
+            {
+                start += 2;
+            }
+            string prefix = line.Substring(0, start);
+            string inner = line.Substring(start);
+            string suffix = "";
+            if (inner.StartsWith("{{") && inner.EndsWith("}}"))
+            {
+                int bar = inner.IndexOf('|');
+                if (bar > 2 && bar < 12 && inner.IndexOf("{{", 2, StringComparison.Ordinal) < 0)
+                {
+                    prefix += inner.Substring(0, bar + 1);
+                    inner = inner.Substring(bar + 1, inner.Length - bar - 3);
+                    suffix = "}}";
+                }
+            }
+            if (inner.Length == line.Length)
+            {
+                return null;
+            }
+            List<string> values;
+            string key = Templatize(inner, out values);
+            string ja;
+            if (!templates.TryGetValue(values.Count > 0 ? key : inner, out ja) && !table.TryGetValue(inner, out ja))
+            {
+                return null;
+            }
+            StringBuilder sb = new StringBuilder(ja);
+            for (int i = 0; i < values.Count; i++)
+            {
+                sb.Replace("<#" + i + ">", values[i]);
+            }
+            return prefix + sb + suffix;
         }
 
         private static readonly System.Text.RegularExpressions.Regex RoundUnit = new System.Text.RegularExpressions.Regex(
@@ -519,12 +563,16 @@ namespace QudJPLite
             // TextMeshPro 自身の折り返しに任せる。
             __state = false;
             if (__instance.useBlockWrap && __instance.blockWrap > 0
-                && JapaneseWrap.HasLongJapaneseRun(__instance.text, __instance.blockWrap - 1))
+                && JapaneseWrap.HasLongJapaneseLine(__instance.text, __instance.blockWrap - 1))
             {
                 __instance.useBlockWrap = false;
                 __state = true;
             }
         }
+
+        // 日本語の文字はゲームのフォントの行の高さより背が高いので、複数行だと行どうしが重なって
+        // 文字の端が欠けて見える。日本語を含む文だけ行間を少し広げる（値が変わるときだけ設定する）
+        private const float JapaneseLineSpacing = 12f;
 
         public static void Postfix(UITextSkin __instance, bool __state)
         {
@@ -532,11 +580,60 @@ namespace QudJPLite
             {
                 __instance.useBlockWrap = true;
             }
+            try
+            {
+                TMPro.TextMeshProUGUI tmp = __instance.GetComponent<TMPro.TextMeshProUGUI>();
+                if (tmp == null)
+                {
+                    return;
+                }
+                float want = JapaneseWrap.HasJapanese(__instance.text ?? "") ? JapaneseLineSpacing : 0f;
+                if (tmp.lineSpacing != want && (tmp.lineSpacing == 0f || tmp.lineSpacing == JapaneseLineSpacing))
+                {
+                    tmp.lineSpacing = want;
+                }
+            }
+            catch (Exception)
+            {
+            }
         }
     }
 
     internal static class JapaneseWrap
     {
+        // 日本語を含み、limit 文字以上ある行があるか。
+        // ゲームの折り返しは文字数で数えるので、幅の広い日本語が入ると、ゲームが改行を入れたうえで
+        // TextMeshPro がさらに幅で折り返し、改行が二重になる。そういう行があれば TextMeshPro の折り返しだけに任せる
+        public static bool HasLongJapaneseLine(string s, int limit)
+        {
+            if (string.IsNullOrEmpty(s) || s.Length < limit)
+            {
+                return false;
+            }
+            int len = 0;
+            bool ja = false;
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                if (c == '\n')
+                {
+                    len = 0;
+                    ja = false;
+                    continue;
+                }
+                len++;
+                if (c >= '　')
+                {
+                    ja = true;
+                }
+                if (ja && len >= limit)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public static bool HasJapanese(string s)
         {
             for (int i = 0; i < s.Length; i++)

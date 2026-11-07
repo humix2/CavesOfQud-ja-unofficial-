@@ -1,0 +1,26 @@
+<!--
+  配置前のコンパイル確認用（deploy.ps1 が使う）。QudJPLite/*.cs をゲームの DLL に対してコンパイルするだけで、出力は使わない。
+  ゲームの場所は GameManaged（CoQ_Data\Managed のパス）で渡す:
+    dotnet build tools/compile-check/QudJPLite.Check.csproj -p:GameManaged="<Caves of Qud>\CoQ_Data\Managed"
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>CS0618;CS1701;CS1702</NoWarn>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)..\..\QudJPLite\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- .NET 標準ライブラリ（System.* / Microsoft.* / mscorlib / netstandard）はゲーム側のものを使わない -->
+    <GameDll Include="$(GameManaged)\*.dll"
+             Exclude="$(GameManaged)\System.dll;$(GameManaged)\System.*.dll;$(GameManaged)\Microsoft.*.dll;$(GameManaged)\mscorlib.dll;$(GameManaged)\netstandard.dll" />
+    <Reference Include="@(GameDll)">
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -4,7 +4,7 @@
 ^(.*) \{\{K\|\[\{\{g\|Toggled on\}\}\]\}\}(.*)$	{0} {{K|[{{g|オン}}]}}{1}
 ^(.*) \{\{K\|\[\{\{y\|Toggled off\}\}\]\}\}(.*)$	{0} {{K|[{{y|オフ}}]}}{1}
 ^\{\{y\|Type: \}\}(.+)$	{{y|種類: }}{0}
-^You sit (?:down )?on (?:a |an |the |some )?(.+?)\.$	{0}に座った。
+^You sit (?:down )?on (?:[Aa] |[Aa]n |[Tt]he |[Ss]ome )?(.+?)\.$	{0}に座った。
 ^You make camp\.$	野営した。
 ^You have finished the step, (.+?), of the quest (.+?)!$	クエスト「{1}」のステップ「{0}」を完了した！
 ^You emit a flaming ray from your hands!$	両手から炎の光線を放った！
@@ -14,8 +14,8 @@
 ^\{\{C\|Last saved:\}\} (.*)$	{{C|最終セーブ:}} {0}
 ^Total size: (\d+)mb (\{.*\}) $	合計サイズ: {0}MB {1} 
 ^You take a sip of (.+?) from your (.+?)\.$	{1}から{0}をひと口飲んだ。
-^You pass by (?:a |an |the |some )?(.+?) and (?:a |an |the |some )?(.+?)\.$	{0}と{1}のそばを通り過ぎた。
-^You wade through (?:a |an |the |some )?(.+?) of (.+?)\.$	{0}の中を歩いて進んだ。
+^You pass by (?:[Aa] |[Aa]n |[Tt]he |[Ss]ome )?(.+?) and (?:[Aa] |[Aa]n |[Tt]he |[Ss]ome )?(.+?)\.$	{0}と{1}のそばを通り過ぎた。
+^You wade through (?:[Aa] |[Aa]n |[Tt]he |[Ss]ome )?(.+?) of (.+?)\.$	{0}の中を歩いて進んだ。
 ^(?:The |the )?(?:\{\{[\w ]+\|[Ff]laming\}\}|[Ff]laming) (.+?) takes (\d+) damage from (?:your|its|his|her|their) flames!$	燃えている{0}は炎で{1}ダメージを受けた！
 ^(?:The |the )?(.+?) takes (\d+) damage from (?:your|its|his|her|their) flames!$	{0}は炎で{1}ダメージを受けた！
 ^You emit a flaming ray from your (.+?)!$	{0}から炎の光線を放った！
@@ -40,7 +40,7 @@
 ^Choose a mental mutation to rapidly advance\.$	急成長させる精神変異を選ぶ。
 ^Your genome enters an excited state!$	ゲノムが励起状態に入った！
 ^You gain \{\{C\|(\d+)\}\} skill points!$	スキルポイントを{{C|{0}}}獲得した！
-^(?:The |the )?(.+?) equips (?:a |an |the |some )?(.+?)\.$	{0}は{1}を装備した。
+^(?:The |the )?(.+?) equips (?:[Aa] |[Aa]n |[Tt]he |[Ss]ome )?(.+?)\.$	{0}は{1}を装備した。
 ^(?:The |the )?(.+?)'s (.+?) hits (?:the |a |an )?(.+?)!$	{0}の{1}が{2}に当たった！
 ^(?:The |the )?(.+?) dies!$	{0}は死んだ！
 ^You have gained a level! You are now level (?:\{\{\w+\|)?(\d+)(?:\}\})?!$	レベルが上がった！ レベル{0}になった！
@@ -67,3 +67,55 @@
 ^- This mutation's rank is decreased by (\d+) due to your low (.+?)\.$	- {1}が低いため、この変異のランクは{0}下がっている。
 ^\+ This mutation's rank is increased by (\d+) due to a metabolizing effect\.$	+ 食事の効果により、この変異のランクは{0}上がっている。
 ^\+ This mutation's rank is increased by (\d+) due to your equipped item, (.+?)\.$	+ 装備中の{1}により、この変異のランクは{0}上がっている。
+^You gather some fixings: (.+)\.$	材料を集めた: {0}。
+^Rummaging over your surroundings, you find these ingredients: (.+)\.$	あたりを探して、材料を見つけた: {0}。
+^You toss them in a pot and stir\.$	それを鍋に入れてかき混ぜた。
+^(.+?), (\d+) strata deep(.*)$	{0}、地下{1}層{2}
+^(.+?), 1 stratum deep(.*)$	{0}、地下1層{1}
+^You critically hit (\{\{\w+\|\(x\d+\)\}\}) for (\d+) damage with (?:your |the |a |an )?(.+?)! \[(\d+)\]$	会心の一撃！ {2}で{0}{1}ダメージを与えた！ [{3}]
+^You hit (\{\{\w+\|\(x\d+\)\}\}) for (\d+) damage with (?:your |the |a |an )?(.+?)! \[(\d+)\]$	{2}で{0}{1}ダメージを与えた！ [{3}]
+^You (?:critically )?hit (\{\{\w+\|\(x\d+\)\}\}) with (?:your |the |a |an )?(.+?)! \[(\d+)\]$	{1}で{0}命中したが、ダメージは与えられなかった。 [{2}]
+^You (?:critically )?hit for (\d+) damage with (?:your |the |a |an )?(.+?)!$	{1}で{0}ダメージを与えた！
+^(?:The |the )?(.+?) critically hits? (\{\{\w+\|\(x\d+\)\}\}) for (\d+) damage with (?:its|his|her|their|the|a|an) (.+?)\. \[(\d+)\]$	{0}の{3}による会心の一撃！ {1}{2}ダメージを受けた。 [{4}]
+^(?:The |the )?(.+?) hits? (\{\{\w+\|\(x\d+\)\}\}) for (\d+) damage with (?:its|his|her|their|the|a|an) (.+?)\. \[(\d+)\]$	{0}の{3}が命中した。{1}{2}ダメージを受けた。 [{4}]
+^(?:The |the )?(.+?) (?:critically )?hits? (\{\{\w+\|\(x\d+\)\}\}) for (\d+) damage barehanded\. \[(\d+)\]$	{0}の素手の攻撃が命中した。{1}{2}ダメージを受けた。 [{3}]
+^(?:The |the )?(.+?) (?:critically )?hits? (\{\{\w+\|\(x\d+\)\}\}) with (?:its|his|her|their|the|a|an) (.+?)\. \[(\d+)\]$	{0}の{2}が命中したが、ダメージはなかった。{1} [{3}]
+^(?:The |the )?(.+?) (?:critically )?hits? (\{\{\w+\|\(x\d+\)\}\}) barehanded\. \[(\d+)\]$	{0}の素手の攻撃が命中したが、ダメージはなかった。{1} [{2}]
+^\{\{r\|You miss with (?:your |the |a |an )?(.+?)!\}\} \[(\d+) vs (\d+)\]$	{{r|{0}の攻撃は外れた！}} [{1} vs {2}]
+^You miss!$	攻撃は外れた！
+^You gain (?:\{\{\w+\|)?(\d+)(?:\}\})? to each attribute\.?$	全能力値が{0}上がった
+^You pass by (?:[Aa] set of |[Ss]ets of |[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}のそばを通り過ぎた。
+^Your health has dropped below \{\{C\|(\d+)%\}\}!$	HPが{{C|{0}%}}を切った！
+^\{\{R\|Your health has dropped below \{\{C\|(\d+)%\}\}!\}\} Do you want to stop travelling\?$	{{R|HPが{{C|{0}%}}を切った！}} 移動をやめますか？
+^The wind intensifies to (.+?), blowing from the (\w+)\.$	風が強まった。{1}から{0}が吹いている。
+^The wind calms to (.+?), blowing from the (\w+)\.$	風が弱まった。{1}から{0}が吹いている。
+^The wind begins blowing at (.+?) from the (\w+)\.$	{1}から{0}が吹き始めた。
+^The wind intensifies to (.+?)\.$	風が強まり、{0}になった。
+^The wind calms to (.+?)\.$	風が弱まり、{0}になった。
+^The wind begins blowing at (.+?)\.$	{0}が吹き始めた。
+^The wind changes direction from the (\w+) to the (\w+)\.$	風向きが{0}から{1}に変わった。
+^The wind changes direction\.$	風向きが変わった。
+^The wind becomes still\.$	風がやんだ。
+^You have completed the quest (.+?)!$	クエスト「{0}」を完了した！
+^(.+?) has restocked (?:his|her|its|their) inventory!$	{0}が品物を補充した！
+^You have received a new quest, (.+?)!$	新しいクエスト「{0}」を受けた！
+^You swim through (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}の中を泳いで進んだ。
+^You now have (\d+) feet of (.+?)\.$	{1}が{0}フィートになった。
+^(.+?), surface, (.+)$	{0}、地上、{1}
+^(.+?), (\d+) strata deep, (.+)$	{0}、地下{1}層、{2}
+^Visit (.*[^\x00-\x7F].*)$	{0}を訪ねる
+^Travel to the historical site of (.+)$	{0}の史跡へ行く
+^Where do you want to pour your (.+?)\?$	{0}をどこに注ぐ？
+^(.*)\[(\d+) drams? of (.+?)\](.*)$	{0}[{2} {1}ドラム]{3}
+^You discover (.+?)!$	{0}を発見した！
+^You note the location of (.+?) in the (?:\{\{\w+\|)?([^{}>]+?)(?:\}\})? > (?:\{\{\w+\|)?([^{}]+?)(?:\}\})? section of your journal\.$	{0}の場所をジャーナルの「{1} > {2}」に記録した。
+^You note the location of (.+?) in the (.+?) section of your journal\.$	{0}の場所をジャーナルの「{1}」に記録した。
+^You have gained the activated ability (.+?)\.$	アビリティ「{0}」が使えるようになった。
+^Until (.+)$	{0}まで
+^Eat (.+)$	{0}を食べる
+^You collect (\d+) drams? of (.+?) from the (.+?) to the (\w+) in your (.+?)\.$	{3}の{2}から{1}を{0}ドラム、{4}に汲んだ。
+^You collect (\d+) drams? of (.+?) from the (.+?) in your (.+?)\.$	{2}から{1}を{0}ドラム、{3}に汲んだ。
+^You note this piece of information in the (?:\{\{\w+\|)?([^{}>]+?)(?:\}\})? > (?:\{\{\w+\|)?([^{}]+?)(?:\}\})? section of your journal\.$	この情報をジャーナルの「{0} > {1}」に記録した。
+^You note this piece of information in the (.+?) section of your journal\.$	この情報をジャーナルの「{0}」に記録した。
+^(.+?) provides some insightful commentary on '(.+?)'\.$	{0}が『{1}』について鋭い解説をしてくれた。
+^You identify your (.+?) as (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}の正体が分かった。{1}だ。

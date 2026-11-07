@@ -40,3 +40,6 @@ Duration: {{R|<#0>}} rounds	持続時間: {{R|<#0>}}ラウンド
 Duration: {{rules|<#0>}} round	持続時間: {{rules|<#0>}}ラウンド
 {{C|Cooldown Remaining Turns: }}<#0>	{{C|クールダウン残りターン: }}<#0>
 Level: <#0> » HP: <#1>/<#2> » XP: <#3>/<#4> » Weight: <#5>#	レベル: <#0> » HP: <#1>/<#2> » 経験値: <#3>/<#4> » 重量: <#5>#
+{{rules|Offhand Attack Chance: <#0>}}	{{rules|利き手でない手での攻撃確率: <#0>}}
+{{G|<#0>}} to natural healing rate	自然回復速度 {{G|<#0>}}
+{{rules|<#0>}} to natural healing rate	自然回復速度 {{rules|<#0>}}

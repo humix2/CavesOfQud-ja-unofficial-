@@ -104,6 +104,7 @@
 | hartind | ハーティンド | 二つの性を持つヒンドレン |
 | Keh-hind | ケー＝ヒンド | 称号を失ったケーの呼び名 |
 | Quetzal Caucus / quetzal | ケツァール会議 / ケツァール | |
+| wire strand / copper wire | ワイヤー | QudJP のアイテム名「ワイヤーのより線」はクエスト文の「ワイヤー」と揃わないので、配置時に tools/terms.tsv で置換 |
 | Six Day Stilt | シックスデイ・スティルト | 「六日の」は日付に読めるため変更（QudJP の訳も配置時に tools/terms.tsv で一括置換）。子どもの言い間違い Sixty Stilts は「シックスティ・スティルト」 |
 | `=player.formalAddressTerm=` / `=pronouns.formalAddressTerm=` / `=player.apparentSpecies=` | （外して「旅の方」「友よ」など） | 英語のまま出るため |
 | waterhand | 水稼ぎの人 | ジョッパの言い方。水で雇われる流れ者 |

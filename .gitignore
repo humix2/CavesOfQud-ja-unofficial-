@@ -8,3 +8,7 @@ __pycache__/
 # ゲーム本体のデータとその生成物（再配布しない。手元にだけ置く）
 reference/
 snapshots/
+
+# コンパイル確認の出力
+tools/compile-check/bin/
+tools/compile-check/obj/

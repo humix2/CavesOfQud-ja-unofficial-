@@ -21,16 +21,38 @@ namespace QudJPLite
         // Format="Auto" の本: 余白を引いた幅（英語版は 80 - 余白、日本語は 51 - 余白）
         public const int AutoColumns = 51;
 
+        // 全角1文字の幅（半角を 1 とした値）。英語版 77 桁 ≒ 全角 47 文字
+        public const double JaWidth = 77.0 / 47.0;
+
+        // 見えている幅（半角 = 1、日本語 = JaWidth）。色指定などの記号は数えない
+        public static double VisualWidth(string s)
+        {
+            double w = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                int skip = MarkupLength(s, i);
+                if (skip > 0)
+                {
+                    i += skip - 1;
+                    continue;
+                }
+                w += IsJapanese(s[i]) ? JaWidth : 1;
+            }
+            return w;
+        }
+
+        // width は全角の文字数。半角の文字は全角より細いので、実際の見た目の幅で数える
         public static string Wrap(string text, int width)
         {
             if (string.IsNullOrEmpty(text) || width < 10 || !ContainsJapanese(text))
             {
                 return text;
             }
+            double limit = width * JaWidth;
             StringBuilder sb = new StringBuilder(text.Length + text.Length / width + 8);
-            int col = 0;          // 今の行に見えている文字数
+            double col = 0;       // 今の行の見た目の幅
             int breakAt = -1;     // 改行を入れてよい位置（sb 上の位置）
-            int breakCol = 0;     // そこまでの文字数
+            double breakCol = 0;  // そこまでの幅
             for (int i = 0; i < text.Length; i++)
             {
                 int skip = MarkupLength(text, i);
@@ -53,7 +75,7 @@ namespace QudJPLite
                     breakAt = -1;
                     continue;
                 }
-                col++;
+                col += IsJapanese(c) ? JaWidth : 1;
 
                 char next = NextVisible(text, i + 1);
                 if (next == '\0' || next == '\n')
@@ -65,15 +87,20 @@ namespace QudJPLite
                     breakAt = sb.Length;
                     breakCol = col;
                 }
-                if (col >= width)
+                if (col >= limit)
                 {
-                    if (breakAt > 0 && breakCol > width / 2)
+                    if (RestIsBlank(text, i + 1))
+                    {
+                        // 行末の空白だけがはみ出す場合は折らない
+                        continue;
+                    }
+                    if (breakAt > 0 && breakCol > limit / 2)
                     {
                         // 直近の改行可能位置で折る（禁則・英単語の途中を避ける）
                         sb.Insert(breakAt, '\n');
                         col -= breakCol;
                     }
-                    else if (col > width + 2)
+                    else if (col > limit + 2 * JaWidth)
                     {
                         // 折れる位置がなければ強制的に折る
                         sb.Append('\n');
@@ -125,6 +152,18 @@ namespace QudJPLite
                 }
             }
             return 0;
+        }
+
+        private static bool RestIsBlank(string s, int i)
+        {
+            for (; i < s.Length && s[i] != '\n'; i++)
+            {
+                if (s[i] != ' ' && s[i] != '\r')
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
         private static char NextVisible(string s, int i)
