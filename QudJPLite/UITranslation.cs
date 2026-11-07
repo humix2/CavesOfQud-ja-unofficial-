@@ -553,26 +553,50 @@ namespace QudJPLite
     public static class UITextSkinApplyPatch
     {
         // 画面部品にあらかじめ書かれている見出しなど、SetText を通らない文字用
-        public static void Prefix(UITextSkin __instance, out bool __state)
+        // Apply の間だけ変えたものを、終わったら戻すための記録
+        public struct State
         {
+            public bool BlockWrapOff;
+            public string Text;
+        }
+
+        public static void Prefix(UITextSkin __instance, out State __state)
+        {
+            __state = default;
             __instance.text = UITranslation.Translate(__instance.text);
 
             // ゲームの折り返し（TextBlock.ParseSpan）は空白区切りの単語単位で、
             // 改行直後の段落の最初の単語が1行に収まらないと、その先頭1文字を捨てて空行を1つ足してしまう。
             // 空白のない日本語の長い段落で起きるので、そういう文のときだけゲームの折り返しを飛ばし、
             // TextMeshPro 自身の折り返しに任せる。
-            __state = false;
             if (__instance.useBlockWrap && __instance.blockWrap > 0
                 && JapaneseWrap.HasLongJapaneseLine(__instance.text, __instance.blockWrap - 1))
             {
                 __instance.useBlockWrap = false;
-                __state = true;
+                __state.BlockWrapOff = true;
+            }
+
+            // TextMeshPro は日本語を1文字ごとに折り返すので、「ベ／イ・ラー」のようにカタカナ語の途中でも切れる。
+            // カタカナ語を <nobr> で囲んで途中で切れないようにする（表示の間だけ。text は Postfix で戻す）。
+            // ゲームの折り返しを使うときは、タグも文字数に数えられてしまうので入れない
+            if (!__instance.useBlockWrap || __instance.blockWrap <= 0)
+            {
+                string wrapped = JapaneseWrap.KeepKatakanaWords(__instance.text);
+                if (!ReferenceEquals(wrapped, __instance.text))
+                {
+                    __state.Text = __instance.text;
+                    __instance.text = wrapped;
+                }
             }
         }
 
-        public static void Postfix(UITextSkin __instance, bool __state)
+        public static void Postfix(UITextSkin __instance, State __state)
         {
-            if (__state)
+            if (__state.Text != null)
+            {
+                __instance.text = __state.Text;
+            }
+            if (__state.BlockWrapOff)
             {
                 __instance.useBlockWrap = true;
             }
@@ -612,6 +636,77 @@ namespace QudJPLite
                 }
             }
             return false;
+        }
+
+        private static bool IsKatakana(char c)
+        {
+            // ァ〜ヺ・ー（・ と ー も語の一部として扱う）
+            return c >= 'ァ' && c <= 'ー';
+        }
+
+        // 2〜16文字のカタカナ語を <nobr>…</nobr> で囲む。囲むものがなければ同じ参照を返す
+        public static string KeepKatakanaWords(string s)
+        {
+            if (string.IsNullOrEmpty(s) || s.IndexOf("<nobr>", StringComparison.Ordinal) >= 0)
+            {
+                return s;
+            }
+            string cached;
+            if (nobrCache.TryGetValue(s, out cached))
+            {
+                return cached ?? s;
+            }
+            string result = AddNoBreak(s);
+            if (nobrCache.Count > 4096)
+            {
+                nobrCache.Clear();
+            }
+            nobrCache[s] = ReferenceEquals(result, s) ? null : result;
+            return result;
+        }
+
+        private static readonly Dictionary<string, string> nobrCache = new Dictionary<string, string>(StringComparer.Ordinal);
+
+        private static string AddNoBreak(string s)
+        {
+            StringBuilder sb = null;
+            int copied = 0;
+            int i = 0;
+            while (i < s.Length)
+            {
+                if (!IsKatakana(s[i]))
+                {
+                    i++;
+                    continue;
+                }
+                int start = i;
+                while (i < s.Length && IsKatakana(s[i]))
+                {
+                    i++;
+                }
+                // 先頭の ・ は語の区切りなので外す
+                while (start < i && s[start] == '・')
+                {
+                    start++;
+                }
+                int len = i - start;
+                if (len < 2 || len > 16)
+                {
+                    continue;
+                }
+                if (sb == null)
+                {
+                    sb = new StringBuilder(s.Length + 32);
+                }
+                sb.Append(s, copied, start - copied).Append("<nobr>").Append(s, start, len).Append("</nobr>");
+                copied = i;
+            }
+            if (sb == null)
+            {
+                return s;
+            }
+            sb.Append(s, copied, s.Length - copied);
+            return sb.ToString();
         }
 
         public static bool HasJapanese(string s)

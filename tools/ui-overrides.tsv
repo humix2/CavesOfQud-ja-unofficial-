@@ -89,3 +89,25 @@ Set primary color	主色を設定
 Set detail color	差し色を設定
 Reset to default	初期設定に戻す
 Save and exit	保存して閉じる
+# ベイ・ラーの村人のうわさ話（「血縁と同族」の手がかり。KithAndKinGameState.cs に英語で直書き）
+I heard the sounds of fighting the other night! I stayed in the next day, so afeared was I.	このあいだの夜、争う物音を聞いたんだ！ あまりに恐ろしくて、次の日は一日じゅう家にこもっていたよ。
+I thought I heard splashing from a fight in the marsh grids, but I couldn't find anyone.	湿地の区画で、争って水がはねるような音を聞いた気がした。だが、誰も見つからなかった。
+I saw a kendren merchant the other day! They were being very sneaky, so I think they were meeting someone in secret! Isn't that interesting?	このあいだ、ケンドレンの商人を見たよ！ すごくこそこそしてたから、きっとだれかとないしょで会ってたんだ！ おもしろいでしょ？
+I heard a hindren talking about buying and selling to a kendren late at night! I thought that all kendren had to report to Grand-Doe?	夜おそくに、ヒンドレンがケンドレンと売り買いの話をしてるのを聞いたよ！ ケンドレンはみんな、大雌鹿さまに知らせなきゃいけないんじゃなかったの？
+I heard that someone in the village might have a sore throat, so I am staying at least ten handspan away from everyone today.	村の誰かが喉を痛めているらしい。だから今日は、誰からも十手幅は離れているようにしているんだ。
+I smelled yuckwheat tea the other day! That smell is so terrible! Is someone sick?	このあいだ、ヤックウィート茶のにおいがしたよ！ あのにおい、ほんとにひどいんだ！ だれか病気なの？
+I went to do some repairs to my boots, but someone's been in our stores of boar leather! We have far less than we should.	ブーツを繕おうとしたら、誰かがイノシシ革の蓄えに手をつけていた！ あるはずの量よりずっと少ない。
+I heard someone doing some kind of toolwork during a night watch shift. I didn't interrupt, but it seemed peculiar.	夜の見張り番のとき、誰かが道具で何か作業している音を聞いた。邪魔はしなかったが、妙な感じだった。
+You know, Grand-Doe spent some late nights working on something she wouldn't talk about. I wonder what that was.	そういえば、大雌鹿は何晩も夜遅くまで、何かの作業をしていた。何なのかは話してくれなかったけど。あれは何だったんだろう。
+By the Eaters, how prosperous we've been. I've never seen the village so flush with fresh water.	喰らう者にかけて、なんと豊かになったことか。村にこれほど真水があふれているのは見たことがない。
+Just before auntie Eskhind left the village, I saw her wearing a new bracer. It looked terrible!	エスキンドおばさんが村を出ていく少し前に、新しい腕当てをつけてるのを見たよ。すっごく不格好だった！
+You know auntie Eskhind's little sister, Liihart? She's always been quiet, but she didn't talk at all for, uh, two whole weeks before they left!	エスキンドおばさんの妹のリーハート、知ってる？ もともと無口だけど、村を出ていく前は、えっと、まるまる二週間ひとことも話さなかったんだよ！
+For weeks and weeks, Kesehind was so quiet, but now he's talking more than ever! He's so loud!	ケセヒンドったら、何週間もずーっと静かだったのに、今は前よりもっとしゃべってるの！ すっごくうるさいんだよ！
+Did you see Kesehind's armor? He always used to wear hand-me-downs from the scouts, but what he's wearing now looks brand new!	ケセヒンドの鎧を見たかい？ いつも斥候のおさがりを着ていたのに、今着ているのはまっさらの新品みたいだ！
+The kendren are becoming more brazen in their hostility. I've had to misdirect and fight them off several times this month alone.	ケンドレンどもの敵意は、ますます露骨になっている。今月だけでも何度か、道をそらしたり戦って追い払ったりしなければならなかった。
+I came across some kendren who claimed to be treasure hunters. They said that they would pay good water for unique artifacts or treasures.	宝探しだと名乗るケンドレンたちに出くわした。珍しい遺物や宝になら、たっぷり水を払うと言っていた。
+I've heard that there is an outbreak of glotrot in the kendren villages outside of Bey Lah. Now I want to leave here even less!	ベイ・ラーの外のケンドレンの村々で、グロットロットがはやっているそうだ。ますますここを出たくなくなったよ！
+Hindriarch Esk	ヒンドリアーク・エスク
+# ジョッパの村の歴史（ジャーナル「村の歴史」。JournalAPI.cs に英語で直書き。QudJP の訳を上書き）
+In the mystic air of Jeweled Dusk, a circle of farmers clasped hands and sheathed a vinereaper in the moistened soil. From then on, the villagers of Joppa were known as the people of the vine.	宝石の黄昏の神秘の気配のなか、農夫たちは手を取り合って輪になり、湿った土に蔓刈り鎌を鞘のように突き立てた。以来、ジョッパの村人は「蔓の民」と呼ばれるようになった。
+Since the first festival of Ut yara Ux, the villagers of Joppa have feasted on warm apple matz.	ウト・ヤラ・ウクスの最初の祭り以来、ジョッパの村人は祭りのたびに温かいアップルマッツァをごちそうにしてきた。

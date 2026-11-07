@@ -118,6 +118,10 @@
 | rust wells / Red Rock / Grit Gate | 錆の井戸 / レッドロック / グリット・ゲート | |
 | parasang | 里 | 距離の単位。「二里」など |
 | matz | マッツァ | 他ファイルと統一 |
+| the Eaters / By the Eaters | 喰らう者 / 喰らう者にかけて | QudJP の「喰らう者の墓所」と統一 |
+| handspan | 手幅 | 長さの単位 |
+| auntie Eskhind（子どもの言い方） | エスキンドおばさん | |
+| 称号 Warden / Mayor / Ciderer / Elder | 監視官〇〇 / 村長〇〇 / 醸造師〇〇 / 〇〇長老 | 名前の前に付く称号。QudJPLite/ConversationTranslation.cs で表示時に訳す |
 | apprentice / Disciple / Meyvn | 見習い / 弟子 / メイヴン | バラサラム派の位階 |
 | `=factionaddress:Barathrumites=` / `=player.offspringTerm=` | （外す／「雛よ」「かわいい子」） | 英語のまま出るため |
 | Putus Templar | プトゥス聖堂騎士団 | |
