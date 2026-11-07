@@ -67,6 +67,7 @@ namespace QudJPLite
                     return;
                 }
                 fontAsset.name = "QudJPLite-" + Path.GetFileNameWithoutExtension(path);
+                RaiseAscent(fontAsset);
                 fontAsset.atlasPopulationMode = AtlasPopulationMode.Dynamic;
                 fontAsset.isMultiAtlasTexturesEnabled = true;
 
@@ -103,6 +104,41 @@ namespace QudJPLite
             catch (Exception ex)
             {
                 Debug.LogError("[QudJPLite] フォント登録エラー: " + ex);
+            }
+        }
+
+        // TextMeshPro は行の高さを各フォントの「上端（ascentLine）」から決める。
+        // 日本語フォントは漢字の上端がこの値より高く、行の上にはみ出して1行目の上が欠ける。
+        // 代表的な漢字の実際の上端を測り、ascentLine をそこまで引き上げる（起動時に1回だけ）
+        // 文字の上に足す余白と、行間に足す余白（フォントの大きさに対する割合）
+        private const float TopPadding = 0.08f;
+        private const float LineGap = 0.10f;
+
+        private static void RaiseAscent(TMP_FontAsset asset)
+        {
+            try
+            {
+                UnityEngine.TextCore.FaceInfo face = asset.faceInfo;
+                float top = face.ascentLine;
+                foreach (char c in "漢字国鬱語")
+                {
+                    if (asset.TryAddCharacters(c.ToString()) && asset.characterLookupTable.TryGetValue(c, out TMP_Character ch) && ch.glyph != null)
+                    {
+                        top = Math.Max(top, ch.glyph.metrics.horizontalBearingY);
+                    }
+                }
+                // 文字の上端が ascentLine ぴったりだと、輪郭のぼかし分が表示欄の上端で切れる。
+                // 上に少し余白を足し、行の高さにも余裕を持たせる（行どうしがくっつかないように）
+                float before = face.ascentLine;
+                float extra = Math.Max(0f, top - before) + face.pointSize * TopPadding;
+                face.ascentLine = before + extra;
+                face.lineHeight += extra + face.pointSize * LineGap;
+                asset.faceInfo = face;
+                Debug.Log("[QudJPLite] 日本語フォントの上端: " + before + " → " + face.ascentLine + " (文字の上端 " + top + ", 行の高さ " + face.lineHeight + ")");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("[QudJPLite] 日本語フォントの上端の調整エラー: " + ex);
             }
         }
 

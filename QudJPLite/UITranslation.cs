@@ -570,31 +570,11 @@ namespace QudJPLite
             }
         }
 
-        // 日本語の文字はゲームのフォントの行の高さより背が高いので、複数行だと行どうしが重なって
-        // 文字の端が欠けて見える。日本語を含む文だけ行間を少し広げる（値が変わるときだけ設定する）
-        private const float JapaneseLineSpacing = 12f;
-
         public static void Postfix(UITextSkin __instance, bool __state)
         {
             if (__state)
             {
                 __instance.useBlockWrap = true;
-            }
-            try
-            {
-                TMPro.TextMeshProUGUI tmp = __instance.GetComponent<TMPro.TextMeshProUGUI>();
-                if (tmp == null)
-                {
-                    return;
-                }
-                float want = JapaneseWrap.HasJapanese(__instance.text ?? "") ? JapaneseLineSpacing : 0f;
-                if (tmp.lineSpacing != want && (tmp.lineSpacing == 0f || tmp.lineSpacing == JapaneseLineSpacing))
-                {
-                    tmp.lineSpacing = want;
-                }
-            }
-            catch (Exception)
-            {
             }
         }
     }

@@ -43,3 +43,4 @@ Level: <#0> » HP: <#1>/<#2> » XP: <#3>/<#4> » Weight: <#5>#	レベル: <#0> �
 {{rules|Offhand Attack Chance: <#0>}}	{{rules|利き手でない手での攻撃確率: <#0>}}
 {{G|<#0>}} to natural healing rate	自然回復速度 {{G|<#0>}}
 {{rules|<#0>}} to natural healing rate	自然回復速度 {{rules|<#0>}}
+Whenever you drink freshwater, there's a <#0> chance you become immune to fear for <#1> hours.	真水を飲むたびに、<#0>の確率で<#1>時間のあいだ恐怖が効かなくなる。
