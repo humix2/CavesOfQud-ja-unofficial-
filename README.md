@@ -37,6 +37,7 @@ QudJP や自作訳を更新したら、`./deploy.ps1` を再実行してゲー�
 | メッセージログ・ポップアップ | 正規表現のパターンで訳す（QudJP のパターン＋自作） |
 | Esc メニュー・たき火などの選択肢、Yes/No ボタン | 選択肢を受け取る入口で訳す |
 | アビリティバー・アビリティ一覧、タイトル画面、ロード画面 | 個別に対応 |
+| 上部ステータスバー（満腹度・渇き・時刻と日付）、ACTIVE EFFECTS・TARGET の行、効果一覧 | つなぐ前の部品ごとに辞書で訳す（[StatusTranslation.cs](QudJPLite/StatusTranslation.cs)） |
 
 ### 仕組み（QudJP との違い）
 
@@ -71,7 +72,6 @@ QudJP や自作訳を更新したら、`./deploy.ps1` を再実行してゲー�
 ### 現在の制約
 
 - **アイテム名・液体名の組み立て部分が英語のまま残る**：ゲームが名前を組み立てるときの形容詞や言い回しが訳されません（例: `small 石`、`水たまり of salty asphalt`）
-- **上部ステータスバーの一部（`Quenched`、日付など）と ACTIVE EFFECTS**：未対応です
 - **パターンにない文は英語のまま**：英語の文の中に日本語の名前が入ることがあります（例: `The ヒヒ beats at …`）。見つけたら [tools/ui-messages.tsv](tools/ui-messages.tsv) に足します
 - **公式のローカライズ基盤**（`lang-experimental` / `StreamingAssets/ExampleLanguage`）は、2026-11 時点ではまだ通常版に入っていません。通常版に入れば、そちらへ移行するのが最も軽く確実です
 
