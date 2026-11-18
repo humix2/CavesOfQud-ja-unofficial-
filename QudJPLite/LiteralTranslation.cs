@@ -162,6 +162,22 @@ namespace QudJPLite
         }
     }
 
+    // アビリティバー左端の「ABILITIES / page 1 of 6」。"Ability Page Up" などはコマンド名なので触らない
+    [HarmonyPatch(typeof(AbilityBar), nameof(AbilityBar.UpdateAbilitiesText))]
+    public static class AbilityBarPageLiteralPatch
+    {
+        private static readonly Dictionary<string, string> Map = new Dictionary<string, string>
+        {
+            { "ABILITIES\npage {0} of {1}", "アビリティ\n{0}/{1}ページ" },
+            { "ABILITIES", "アビリティ" },
+        };
+
+        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        {
+            return Literals.Replace(instructions, Map);
+        }
+    }
+
     [HarmonyPatch(typeof(AbilityManagerLine), nameof(AbilityManagerLine.setData))]
     public static class AbilityManagerLineLiteralPatch
     {

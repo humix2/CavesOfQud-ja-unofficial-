@@ -39,6 +39,17 @@
 ^Choose a physical mutation to rapidly advance\.$	急成長させる身体変異を選ぶ。
 ^Choose a mental mutation to rapidly advance\.$	急成長させる精神変異を選ぶ。
 ^Your genome enters an excited state!$	ゲノムが励起状態に入った！
+^Your genome enters an excited state! Would you like to spend (?:\{\{\w+\|)?(\d+)(?:\}\})? mutation points to buy an? mutation before rapidly mutating\?$	ゲノムが励起状態に入った！ 急成長の前に、変異ポイントを{{rules|{0}}}使って変異を1つ買う？
+^Your genome enters an excited state! Would you like to spend (?:\{\{\w+\|)?(\d+)(?:\}\})? mutation points to buy an? (.+?) before rapidly mutating\?$	ゲノムが励起状態に入った！ 急成長の前に、変異ポイントを{{rules|{0}}}使って{1}を1つ買う？
+^You have no physical mutations to rapidly advance!$	急成長させられる身体変異がない！
+^Your genome destabilizes and you gain a new mutation:$	ゲノムが不安定になり、新しい変異が発現した:
+^Your genome destabilizes and you gain a new defect:$	ゲノムが不安定になり、新しい欠陥が発現した:
+^Your genome destabilizes and you gain one mutation point\.$	ゲノムが不安定になり、変異ポイントを1獲得した。
+^Your genome destabilizes and you gain two mutation points\.$	ゲノムが不安定になり、変異ポイントを2獲得した。
+^Your genome destabilizes and you gain three mutation points\.$	ゲノムが不安定になり、変異ポイントを3獲得した。
+^Your genome destabilizes and you gain four mutation points\.$	ゲノムが不安定になり、変異ポイントを4獲得した。
+^Your genome destabilizes and you gain (\w+) mutation points?\.$	ゲノムが不安定になり、変異ポイントを獲得した（{0}）。
+^You gain (\d+) mutation points?!$	変異ポイントを{0}獲得した！
 ^You gain \{\{C\|(\d+)\}\} skill points!$	スキルポイントを{{C|{0}}}獲得した！
 ^(?:The |the )?(.+?) equips (?:[Aa] |[Aa]n |[Tt]he |[Ss]ome )?(.+?)\.$	{0}は{1}を装備した。
 ^(?:The |the )?(.+?)'s (.+?) hits (?:the |a |an )?(.+?)!$	{0}の{1}が{2}に当たった！
