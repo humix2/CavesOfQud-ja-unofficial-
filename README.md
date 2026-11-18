@@ -37,6 +37,7 @@ QudJP や自作訳を更新したら、`./deploy.ps1` を再実行してゲー�
 | メッセージログ・ポップアップ | 正規表現のパターンで訳す（QudJP のパターン＋自作） |
 | Esc メニュー・たき火などの選択肢、Yes/No ボタン | 選択肢を受け取る入口で訳す |
 | アビリティバー・アビリティ一覧、タイトル画面、ロード画面 | 個別に対応 |
+| アイテム・クリーチャー・液体の名前の組み立て（形容詞・液体・with 句・タグ） | 部品ごとに訳して日本語の語順に並べ直す（`small 石` → 小さな石、`水たまり of salty asphalt` → 塩気のあるアスファルトの水たまり）（[NameTranslation.cs](QudJPLite/NameTranslation.cs)） |
 | 上部ステータスバー（満腹度・渇き・時刻と日付）、ACTIVE EFFECTS・TARGET の行、効果一覧 | つなぐ前の部品ごとに辞書で訳す（[StatusTranslation.cs](QudJPLite/StatusTranslation.cs)） |
 
 ### 仕組み（QudJP との違い）
@@ -65,13 +66,14 @@ QudJP や自作訳を更新したら、`./deploy.ps1` を再実行してゲー�
 | [tools/ui-templates.tsv](tools/ui-templates.tsv)、[tools/ui-templates-mutations.tsv](tools/ui-templates-mutations.tsv) | 数値入りの文の型 | `Cooldown: <#0> rounds<TAB>クールダウン: <#0>ラウンド`（数値は `<#0>` `<#1>` …） |
 | [tools/ui-messages.tsv](tools/ui-messages.tsv) | メッセージ・ポップアップの正規表現。QudJP のパターンより優先 | `^You gain (\d+) XP!$<TAB>経験値を{0}獲得した！`（捕捉した部分は `{0}` `{1}` …。辞書にあれば訳される） |
 | `tools/conv/*.txt` | 会話の自作訳（[tools/conv_tool.py](tools/conv_tool.py) が配置時に差し替える） | `### 会話ID \| 場所` / `> 英語原文` / 訳。訳のルールと用語集は [docs/translation-style.md](docs/translation-style.md) |
+| [tools/name-words.tsv](tools/name-words.tsv) | 名前の組み立てで使う訳。UI 辞書より優先（形容詞を「〜な」「〜された」の形にしたいときなど） | `sharp<TAB>鋭い`（色付きの語も中身の英語で書けば OK。名詞で終わる訳には自動で「の」が付く） |
 | [tools/terms.tsv](tools/terms.tsv) | 全訳文の一括置換（訳語の統一） | `置換前<TAB>置換後`（例: 六日のスティルト → シックスデイ・スティルト） |
 
 変異の説明の英文を一覧にしたいときは、配置先の `Mods/QudJPLite/` に空の `dump-mutations.flag` を置いてゲームを起動します。`mutation-dump.txt` が出力されるので、[tools/make_templates.py](tools/make_templates.py) で未訳の型を一覧にできます。
 
 ### 現在の制約
 
-- **アイテム名・液体名の組み立て部分が英語のまま残る**：ゲームが名前を組み立てるときの形容詞や言い回しが訳されません（例: `small 石`、`水たまり of salty asphalt`）
+- **名前の組み立てで訳にない語は英語のまま**：形容詞などが辞書になければ `frobnicated 箱` のように残ります。見つけたら [tools/name-words.tsv](tools/name-words.tsv) に足します
 - **パターンにない文は英語のまま**：英語の文の中に日本語の名前が入ることがあります（例: `The ヒヒ beats at …`）。見つけたら [tools/ui-messages.tsv](tools/ui-messages.tsv) に足します
 - **公式のローカライズ基盤**（`lang-experimental` / `StreamingAssets/ExampleLanguage`）は、2026-11 時点ではまだ通常版に入っていません。通常版に入れば、そちらへ移行するのが最も軽く確実です
 

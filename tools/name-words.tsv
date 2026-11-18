@@ -1,0 +1,19 @@
+# 名前の組み立て（形容詞・with 句・液体）で使う訳。UI 辞書より優先される（QudJPLite/NameTranslation.cs）
+# 書き方: 英語<TAB>訳。色付きの語（{{c|jacked}} など）は中身の英語で書けば色を付け直す
+# 名詞で終わる訳には自動で「の」が付く（傑作 → 傑作の剣）。名詞にかかる形にしたい語をここに書く
+sharp	鋭い
+reinforced	補強された
+electrified	帯電した
+stable	安定した
+counterweighted	つり合い調整された
+magnetized	磁化された
+water	水
+slender	細身の
+feathered	羽飾り付きの
+wooly	毛皮張りの
+lacquered	漆塗りの
+padded	パッド入りの
+spiced	スパイス入りの
+honeyed	蜜入りの
+slime-spitting	粘液を吐く
+entropic	エントロピックな

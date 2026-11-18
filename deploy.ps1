@@ -66,6 +66,9 @@ if ($LASTEXITCODE -ne 0) { throw "メッセージのパターンの生成に失�
 $tpl = Get-ChildItem (Join-Path $PSScriptRoot 'tools') -Filter 'ui-templates*.tsv' | Sort-Object Name | ForEach-Object { [IO.File]::ReadAllText($_.FullName, [Text.Encoding]::UTF8) }
 [IO.File]::WriteAllText((Join-Path $locDest 'ui-templates.tsv'), ($tpl -join "`n"), (New-Object Text.UTF8Encoding $false))
 
+# 名前の組み立て（形容詞・液体など）で使う訳
+Copy-Item (Join-Path $PSScriptRoot 'tools\name-words.tsv') (Join-Path $locDest 'name-words.tsv')
+
 # 会話の自作訳（tools/conv/*.txt）で QudJP の会話の文を差し替える。
 # 英語原文と照合するので、ゲーム更新で原文が変わった所は QudJP の訳のまま残る
 $baseConv = Join-Path $GamePath 'CoQ_Data\StreamingAssets\Base\Conversations.xml'
