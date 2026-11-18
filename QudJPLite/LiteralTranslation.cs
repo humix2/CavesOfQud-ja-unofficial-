@@ -93,6 +93,66 @@ namespace QudJPLite
         }
     }
 
+    // 会話画面の「Look」ボタン。PopupMessage.LookButton（構造体の static readonly）を読む所を、日本語のボタンを返す呼び出しに差し替える
+    // ShowConversation は同名が2つあるので、名前だけで指定すると Harmony が例外を投げて MOD のパッチ全体が止まる。
+    // LookButton を使っている IRenderable 版だけを対象にし、見つからなければこのパッチだけ飛ばす
+    [HarmonyPatch]
+    public static class ConversationLookButtonPatch
+    {
+        private static readonly FieldInfo LookField = AccessTools.Field(typeof(PopupMessage), nameof(PopupMessage.LookButton));
+
+        private static MethodInfo Target()
+        {
+            foreach (MethodInfo m in typeof(XRL.UI.Popup).GetMethods(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly))
+            {
+                if (m.Name != nameof(XRL.UI.Popup.ShowConversation))
+                {
+                    continue;
+                }
+                ParameterInfo[] ps = m.GetParameters();
+                if (ps.Length > 1 && ps[1].ParameterType == typeof(ConsoleLib.Console.IRenderable))
+                {
+                    return m;
+                }
+            }
+            return null;
+        }
+
+        public static bool Prepare()
+        {
+            return LookField != null && Target() != null;
+        }
+
+        public static MethodBase TargetMethod()
+        {
+            return Target();
+        }
+
+        public static QudMenuItem JapaneseLookButton()
+        {
+            QudMenuItem item = PopupMessage.LookButton;
+            if (item.text == "{{y|Look}}")
+            {
+                item.text = "{{y|見る}}";
+            }
+            return item;
+        }
+
+        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        {
+            MethodInfo replacement = AccessTools.Method(typeof(ConversationLookButtonPatch), nameof(JapaneseLookButton));
+            foreach (CodeInstruction ins in instructions)
+            {
+                if (LookField != null && ins.opcode == OpCodes.Ldsfld && Equals(ins.operand, LookField))
+                {
+                    ins.opcode = OpCodes.Call;
+                    ins.operand = replacement;
+                }
+                yield return ins;
+            }
+        }
+    }
+
     [HarmonyPatch(typeof(AbilityBar), nameof(AbilityBar.Update))]
     public static class AbilityBarLiteralPatch
     {

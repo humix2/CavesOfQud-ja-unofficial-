@@ -35,6 +35,11 @@ namespace QudJPLite
                 try
                 {
                     r = UITranslation.Translate(s);
+                    if (ReferenceEquals(r, s))
+                    {
+                        // 液体まみれの効果（LiquidCovered）の説明は液体の語をつないだもの
+                        r = LiquidWords.Predicate(s) ?? s;
+                    }
                 }
                 catch (Exception ex)
                 {

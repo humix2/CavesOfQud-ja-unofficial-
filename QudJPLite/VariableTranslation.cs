@@ -23,6 +23,24 @@ namespace QudJPLite
         }
     }
 
+    // オソの信号の話に差し込まれる一文（=V0tinkeraddendum=）。ゲームのコードに英語で書かれている
+    [HarmonyPatch(typeof(VariableReplacers), nameof(VariableReplacers.GameStateVillageZeroTinkerAddendum))]
+    public static class VillageZeroTinkerAddendumPatch
+    {
+        public static void Postfix(ref string __result)
+        {
+            switch (__result)
+            {
+                case " It's been live for over a year.":
+                    __result = "もう1年以上も発信が続いている。";
+                    break;
+                case " A tinker must have detected it and then recorded it onto the data disk you brought us. However, we've known about since it went live over a year ago.":
+                    __result = "君が持ってきたデータディスクのものは、どこかの職人が探知して記録したのだろう。もっとも、我々は1年以上前に発信が始まったときから把握していたがね。";
+                    break;
+            }
+        }
+    }
+
     internal static class Directions
     {
         public static string ToJapanese(string dir)

@@ -70,6 +70,8 @@
 ^You gather some fixings: (.+)\.$	材料を集めた: {0}。
 ^Rummaging over your surroundings, you find these ingredients: (.+)\.$	あたりを探して、材料を見つけた: {0}。
 ^You toss them in a pot and stir\.$	それを鍋に入れてかき混ぜた。
+^(.+?), (\d+) strata deep, (.+)$	{0}、地下{1}層、{2}
+^(.+?), 1 stratum deep, (.+)$	{0}、地下1層、{1}
 ^(.+?), (\d+) strata deep(.*)$	{0}、地下{1}層{2}
 ^(.+?), 1 stratum deep(.*)$	{0}、地下1層{1}
 ^You critically hit (\{\{\w+\|\(x\d+\)\}\}) for (\d+) damage with (?:your |the |a |an )?(.+?)! \[(\d+)\]$	会心の一撃！ {2}で{0}{1}ダメージを与えた！ [{3}]
@@ -102,8 +104,7 @@
 ^You swim through (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}の中を泳いで進んだ。
 ^You now have (\d+) feet of (.+?)\.$	{1}が{0}フィートになった。
 ^(.+?), surface, (.+)$	{0}、地上、{1}
-^(.+?), (\d+) strata deep, (.+)$	{0}、地下{1}層、{2}
-^Visit (.*[^\x00-\x7F].*)$	{0}を訪ねる
+^Visit(.*[^\x00-\x7F].*)$	{0}を訪ねる
 ^Travel to the historical site of (.+)$	{0}の史跡へ行く
 ^Where do you want to pour your (.+?)\?$	{0}をどこに注ぐ？
 ^(.*)\[(\d+) drams? of (.+?)\](.*)$	{0}[{2} {1}ドラム]{3}
@@ -119,3 +120,40 @@
 ^You note this piece of information in the (.+?) section of your journal\.$	この情報をジャーナルの「{0}」に記録した。
 ^(.+?) provides some insightful commentary on '(.+?)'\.$	{0}が『{1}』について鋭い解説をしてくれた。
 ^You identify your (.+?) as (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}の正体が分かった。{1}だ。
+^You hear (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) to the (north|south|east|west|northeast|northwest|southeast|southwest) and stop (moving|resting|digging|gathering|attacking|acting|auto-exploring|exploring|waiting|disassembling)[.!]?$	{1}から{0}の物音が聞こえたので{2}をやめた。
+^You hear (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) to the (north|south|east|west|northeast|northwest|southeast|southwest), so you refrain from (moving|resting|digging|gathering|attacking|acting|auto-exploring|exploring|waiting|disassembling)[.!]?$	{1}から{0}の物音が聞こえたので{2}を控えた。
+^You hear (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) above and stop (moving|resting|digging|gathering|attacking|acting|auto-exploring|exploring|waiting|disassembling)[.!]?$	頭上から{0}の物音が聞こえたので{1}をやめた。
+^You hear (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) below and stop (moving|resting|digging|gathering|attacking|acting|auto-exploring|exploring|waiting|disassembling)[.!]?$	足元から{0}の物音が聞こえたので{1}をやめた。
+^You hear (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) and stop (moving|resting|digging|gathering|attacking|acting|auto-exploring|exploring|waiting|disassembling)[.!]?$	{0}の物音が聞こえたので{1}をやめた。
+^(?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) (?:is|are) revealed here!$	すぐそばに隠れていた{0}が見つかった！
+^(?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) (?:is|are) revealed to the (north|south|east|west|northeast|northwest|southeast|southwest)!$	{1}に隠れていた{0}が見つかった！
+^(?:The |the )?(.+?) to the (north|south|east|west|northeast|northwest|southeast|southwest) burrows a channel through the psychic aether and begins to sunder your mind!$	{1}の{0}が精神のエーテルに通り道を穿ち、あなたの精神を引き裂きはじめた！
+^(?:The |the )?(.+?) burrows a channel through the psychic aether and begins to sunder your mind!$	{0}が精神のエーテルに通り道を穿ち、あなたの精神を引き裂きはじめた！
+^A sewage eel wraps itself around you!$	下水ウナギがあなたに巻きついた！
+^A sewage eel wraps itself around your feet!$	下水ウナギが足に巻きついた！
+^A sewage eel tries to wrap itself around your feet, but cannot reach!$	下水ウナギが足に巻きつこうとしたが、届かなかった！
+^A sewage eel tries to wrap itself around your feet, but passes through you!$	下水ウナギが足に巻きつこうとしたが、すり抜けてしまった！
+^A sewage eel wraps itself around your (.+?)!$	下水ウナギが{0}に巻きついた！
+^A sewage eel tries to wrap itself around you, but cannot reach!$	下水ウナギがあなたに巻きつこうとしたが、届かなかった！
+^A sewage eel tries to wrap itself around your (.+?), but cannot reach!$	下水ウナギが{0}に巻きつこうとしたが、届かなかった！
+^A sewage eel tries to wrap itself around you, but passes through you!$	下水ウナギがあなたに巻きつこうとしたが、すり抜けてしまった！
+^A sewage eel tries to wrap itself around your (.+?), but passes through you!$	下水ウナギが{0}に巻きつこうとしたが、すり抜けてしまった！
+^You take no damage from a \{\{fiery\|jet of flames\}\}!$	{{fiery|噴き出す炎}}を浴びたが、ダメージは受けなかった！
+^You take (\d+) damage from a \{\{fiery\|jet of flames\}\}!$	{{fiery|噴き出す炎}}を浴びて{0}ダメージを受けた！
+^You take no damage from (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)!$	{0}によるダメージは受けなかった！
+^You take no damage from (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}によるダメージは受けなかった。
+^You fall (?:down|into|through|in|off) (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)[.!]$	{0}に落ちた。
+^(?:[Aa]n? |[Tt]he )?(.+?) falls? down from above[.!]$	{0}が上から落ちてきた。
+^You wade through (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}の中を歩いて進んだ。
+^You are promoted to the rank of [Aa]pprentice\.$	ランクが「見習い」に上がった。
+^You are promoted to the rank of [Jj]ourneyfriend\.$	ランクが「旅職人」に上がった。
+^You are promoted to the rank of [Dd]isciple\.$	ランクが「高弟」に上がった。
+^You are promoted to the rank of [Mm]eyvn\.$	ランクが「名匠」に上がった。
+^You are promoted to the (.+?) of (.+?)\.$	{0}が「{1}」に上がった。
+^Your reputation with \{\{C\|(?:the |The )?(.+?)\}\} increased by \{\{G\|(\d+)\}\} to \{\{(\w+)\|(-?\d+)\}\}\.$	{{C|{0}}}からの評判が{{G|{1}}}上がり、{{{2}|{3}}}になった。
+^Your reputation with \{\{C\|(?:the |The )?(.+?)\}\} decreased by \{\{R\|(\d+)\}\} to \{\{(\w+)\|(-?\d+)\}\}\.$	{{C|{0}}}からの評判が{{R|{1}}}下がり、{{{2}|{3}}}になった。
+^Your reputation with (?:the |The )?(.+?) increased by (\d+) to (-?\d+)\.$	{0}からの評判が{1}上がり、{2}になった。
+^Your reputation with (?:the |The )?(.+?) decreased by (\d+) to (-?\d+)\.$	{0}からの評判が{1}下がり、{2}になった。
+^You are now \{\{(\w+)\|(\w+)\}\} by \{\{C\|(?:the |The )?(.+?)\}\}\.$	{{C|{2}}}からの扱いが「{{{0}|{1}}}」になった。
+^(?:The )?(.+?) (?:is|are) now \{\{(\w+)\|(\w+)\}\} to you\.$	{0}からの扱いが「{{{1}|{2}}}」になった。
+^(.*[^\x00-\x7F][^,]*), ([A-Z][A-Za-z' -]*)$	{0}、{1}

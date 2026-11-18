@@ -111,3 +111,12 @@ Hindriarch Esk	ヒンドリアーク・エスク
 # ジョッパの村の歴史（ジャーナル「村の歴史」。JournalAPI.cs に英語で直書き。QudJP の訳を上書き）
 In the mystic air of Jeweled Dusk, a circle of farmers clasped hands and sheathed a vinereaper in the moistened soil. From then on, the villagers of Joppa were known as the people of the vine.	宝石の黄昏の神秘の気配のなか、農夫たちは手を取り合って輪になり、湿った土に蔓刈り鎌を鞘のように突き立てた。以来、ジョッパの村人は「蔓の民」と呼ばれるようになった。
 Since the first festival of Ut yara Ux, the villagers of Joppa have feasted on warm apple matz.	ウト・ヤラ・ウクスの最初の祭り以来、ジョッパの村人は祭りのたびに温かいアップルマッツァをごちそうにしてきた。
+lost	迷子
+# 評判の段階（「You are now {{G|favored}} by ...」のメッセージ）
+loved	敬愛
+favored	好意的
+liked	好意的
+indifferent	無関心
+disliked	嫌悪
+despised	敵視
+hated	敵視
