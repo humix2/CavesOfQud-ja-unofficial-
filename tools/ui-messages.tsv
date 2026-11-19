@@ -229,3 +229,4 @@
 ^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|six\}\} drams? of fresh water\.$	真水{{C|6}}ドラムで{0}を充電してもらえる。
 ^You need \{\{C\|(\w+)\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{1}の充電には真水{{C|{0}}}ドラムが必要だ。
 ^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|(\w+)\}\} drams? of fresh water\.$	真水{{C|{1}}}ドラムで{0}を充電してもらえる。
+^Swarmer: This creature receives \+1 to hit in melee and \+1 to penetration rolls for each other hostile swarmer beyond the first who is in another square adjacent to (?:its|his|her|their|hir|xer) target\. \(currently ([+-]?\d+)\)$	群れる者: この生き物の標的に隣接する別のマスにいる、敵対的な群れる者が1体を超えるごとに、近接攻撃の命中と貫通のロールに+1を得る。（現在 {0}）
