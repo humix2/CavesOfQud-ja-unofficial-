@@ -178,3 +178,54 @@
 ^ ?Available power: ([\d.]+) amps ?$	 使用可能な電力: {0} アンペア 
 ^Overclock chromelings \(\+10 QN, current level: \{\{C\|(\d+)\}\}\)\. \[\{\{R\|-22\.5 amps\}\}\]$	クローメリングをオーバークロックする（QN +10、現在のレベル: {{C|{0}}}）。[{{R|-22.5 アンペア}}]
 ^Reduce clock on chromelings \(-10 QN, current level: \{\{C\|(\d+)\}\}\)\. \[\{\{G\|\+22\.5 amps\}\}\]$	クローメリングのクロックを下げる（QN -10、現在のレベル: {{C|{0}}}）。[{{G|+22.5 アンペア}}]
+^(?:[Tt]he )?(.+?) (?:cannot|can't) carry things\.$	{0}は物を持てない。
+^(?:[Tt]he )?(.+?) (?:is|are) engaged in melee combat and (?:is|are) too busy to trade with you\.$	{0}は接近戦の最中で、取引どころではない。
+^(?:[Tt]he )?(.+?) (?:is|are) on fire and (?:is|are) too busy to trade with you\.$	{0}は燃えていて、取引どころではない。
+^(?:[Tt]he )?(.+?) will not trade with you until you pay (?:them|him|her|it) the \{\{C\|(\d+)\}\} drams? of \{\{B\|fresh water\}\} you owe (?:them|him|her|it)\. Do you want to give (?:them|him|her|it) your \{\{C\|(\d+)\}\} drams? now\?$	{0}は、借りている{{B|真水}}{{C|{1}}}ドラムを返すまで取引に応じない。手持ちの{{C|{2}}}ドラムを今渡す？
+^(?:[Tt]he )?(.+?) will not trade with you until you pay (?:them|him|her|it) the \{\{C\|(\d+)\}\} drams? of \{\{B\|fresh water\}\} you owe (?:them|him|her|it)\. Do you want to give it to (?:them|him|her|it) now\?$	{0}は、借りている{{B|真水}}{{C|{1}}}ドラムを返すまで取引に応じない。今渡す？
+^(?:[Tt]he )?(.+?) will not trade with you until you pay (?:them|him|her|it) the \{\{C\|(\d+)\}\} drams? of \{\{B\|fresh water\}\} you owe (?:them|him|her|it)\.$	{0}は、借りている{{B|真水}}{{C|{1}}}ドラムを返すまで取引に応じない。
+^(?:[Tt]he )?(.+?) (?:does|do) not have the skill to repair items\.$	{0}には修理の技能がない。
+^(?:[Tt]he )?(.+?) (?:does|do) not have the skill to recharge items\.$	{0}には充電の技能がない。
+^You can't understand (?:[Tt]he )?(.+?)'s explanation\.$	{0}の説明が理解できない。
+^This item is too complex for (?:[Tt]he )?(.+?) to identify\.$	この品は{0}には複雑すぎて鑑定できない。
+^You do not have the required \{\{C\|(\d+)\}\} drams? to identify this item\.$	この品の鑑定に必要な{{C|{0}}}ドラムを持っていない。
+^You may identify this for (\d+) drams? of fresh water\.$	真水{0}ドラムでこの品を鑑定してもらえる。
+^Th(?:is item is|ese items are) too complex for (?:[Tt]he )?(.+?) to repair\.$	{0}には複雑すぎて修理できない。
+^You need \{\{C\|(\d+)\}\} drams? of fresh water to repair (?:that|those)\.$	修理には真水{{C|{0}}}ドラムが必要だ。
+^You may repair (?:this|those) for \{\{C\|(\d+)\}\} drams? of fresh water\.$	真水{{C|{0}}}ドラムで修理してもらえる。
+^That item isn't broken!$	その品は壊れていない！
+^Those items aren't broken!$	それらの品は壊れていない！
+^You pony up (\d+) drams? of fresh water to even up the trade\.$	差額の真水{0}ドラムを支払った。
+^You'll have to pony up (\d+) drams? of fresh water to even up the trade\. Agreed\?$	差額として真水{0}ドラムを支払う必要がある。よろしい？
+^You don't have (\d+) drams? of fresh water to even up the trade!$	差額の真水{0}ドラムを持っていない！
+^You pony up (\d+) drams? of fresh water, and now owe (?:[Tt]he )?(.+?) (\d+) drams?\.$	真水{0}ドラムを支払い、{1}に{2}ドラムの借りができた。
+^You now owe (?:[Tt]he )?(.+?) (\d+) drams? of fresh water\.$	{0}に真水{1}ドラムの借りができた。
+^(?:[Tt]he )?(.+?) (?:ponies|pony) up (\d+) drams? of fresh water to even up the trade\.$	{0}が差額の真水{1}ドラムを支払った。
+^(?:[Tt]he )?(.+?) will have to pony up (\d+) drams? of fresh water to even up the trade\. Agreed\?$	{0}が差額として真水{1}ドラムを支払うことになる。よろしい？
+^(?:[Tt]he )?(.+?) (?:doesn't|don't) have (\d+) drams? of fresh water to even up the trade! Do you want to complete the trade anyway\?$	{0}は差額の真水{1}ドラムを持っていない！ それでも取引を成立させる？
+^(?:[Tt]he )?(.+?) (?:doesn't|don't) have (\d+) drams? of fresh water to even up the trade!$	{0}は差額の真水{1}ドラムを持っていない！
+^You don't have enough water containers to carry that many drams! You can store (\d+) drams?\.$	それだけの水を運ぶ容器が足りない！ 入るのは{0}ドラムまでだ。
+^You don't have enough water containers to carry that many drams! Do you want to complete the trade for the (\d+) drams? you can store\?$	それだけの水を運ぶ容器が足りない！ 入る分の{0}ドラムで取引を成立させる？
+^(?:[Tt]he )?(.+?) (?:is|are) fully charged!$	{0}は満タンに充電されている！
+^You need \{\{C\|nine\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|9}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|nine\}\} drams? of fresh water\.$	真水{{C|9}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|five\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|5}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|five\}\} drams? of fresh water\.$	真水{{C|5}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|eight\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|8}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|eight\}\} drams? of fresh water\.$	真水{{C|8}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|one\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|1}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|one\}\} drams? of fresh water\.$	真水{{C|1}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|ten\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|10}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|ten\}\} drams? of fresh water\.$	真水{{C|10}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|three\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|3}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|three\}\} drams? of fresh water\.$	真水{{C|3}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|seven\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|7}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|seven\}\} drams? of fresh water\.$	真水{{C|7}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|two\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|2}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|two\}\} drams? of fresh water\.$	真水{{C|2}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|four\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|4}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|four\}\} drams? of fresh water\.$	真水{{C|4}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|six\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{0}の充電には真水{{C|6}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|six\}\} drams? of fresh water\.$	真水{{C|6}}ドラムで{0}を充電してもらえる。
+^You need \{\{C\|(\w+)\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{1}の充電には真水{{C|{0}}}ドラムが必要だ。
+^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|(\w+)\}\} drams? of fresh water\.$	真水{{C|{1}}}ドラムで{0}を充電してもらえる。
