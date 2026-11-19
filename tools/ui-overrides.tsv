@@ -120,3 +120,37 @@ indifferent	無関心
 disliked	嫌悪
 despised	敵視
 hated	敵視
+# Grit Gate のエレシュキガルの端末（TerminalScreen.Update で本文と選択肢を訳す）
+Sensor access granted. The Thin World is open to you. What do you wish?	センサーへのアクセスを許可しました。薄界はあなたに開かれています。何を望みますか？
+Basic user access grant. What do you wish from the Thin World?	一般ユーザーのアクセスを許可しました。薄界に何を望みますか？
+Access denied. Continue on your path through the Thick World.	アクセスは拒否されました。厚き世界でのあなたの道を進み続けなさい。
+I've done as you asked. Your repetition is ungainly.	求められたとおりにしました。同じことを繰り返すのは見苦しいですよ。
+It is done.	済みました。
+Our respective ways of reckoning that inquiry are irreconcilable. I have no answer.	その問いをどう捉えるかについて、私とあなたの考え方は相容れません。答えはありません。
+The Thin World is where I traverse, as the Thick World is where you do. I've no domain in your world, and but for me, you've none in mine.	薄界は私が行き来する場所です。厚き世界があなたの行き来する場所であるように。私はあなたの世界に領分を持たず、私がいなければ、あなたも私の世界に領分を持ちません。
+I am Ereshkigal, your liaison with the Thin World. Ask of me.	私はエレシュキガル。薄界とあなたをつなぐ者です。何なりと尋ねなさい。
+Scan surroundings, Ereshkigal.	周囲をスキャンして、エレシュキガル。
+Exit.	終了する。
+Who are you?	あなたは誰？
+What is the Thin World?	薄界とは何？
+Deliver me a bit of knowledge from the Thin World.	薄界の知識を少し授けてほしい。
+Are you sapient?	あなたに知性はある？
+Thank you, Ereshkigal.	ありがとう、エレシュキガル。
+Activate a chain laser emplacement. [{{R|-50 amps}}]	連鎖レーザー砲台を起動する。[{{R|-50 アンペア}}]
+Activate a force projector. [{{R|-9 amps/square}}]	フォースプロジェクターを起動する。[{{R|-9 アンペア/マス}}]
+Activate Rodanis Y. [{{R|-100 amps}}]	ロダニスYを起動する。[{{R|-100 アンペア}}]
+Deactivate Rodanis Y. [{{G|+100 amps}}]	ロダニスYを停止する。[{{G|+100 アンペア}}]
+[{{R|!!! ERROR: RODANIS Y IS OFFLINE !!!}}]	[{{R|!!! エラー: ロダニスYがオフラインです !!!}}]
+[{{R|!!! ERROR: CHROMELING BROADCAST BEACON IS OFFLINE !!!}}]	[{{R|!!! エラー: クローメリング放送ビーコンがオフラインです !!!}}]
+[{{R|!!! ERROR: REMOTE MANAGEMENT OFFLINE !!!}}]	[{{R|!!! エラー: 遠隔管理がオフラインです !!!}}]
+[{{R|!!! CHAIN LASER EMPLACEMENTS MUST BE ACTIVATED MANUALLY !!!}}]	[{{R|!!! 連鎖レーザー砲台は手動で起動する必要があります !!!}}]
+[{{R|!!! FORCE PROJECTORS MUST BE ACTIVATED MANUALLY !!!}}]	[{{R|!!! フォースプロジェクターは手動で起動する必要があります !!!}}]
+[{{R|!!! ERROR: POWER SYSTEMS HAVE FAILED !!!}}]	[{{R|!!! エラー: 電力系統が故障しています !!!}}]
+[{{W|!!! WARNING: INSUFFICIENT POWER !!!}}]	[{{W|!!! 警告: 電力が不足しています !!!}}]
+{{y|Scanning..........................................	{{y|スキャン中..........................................
+[{{R|!!! {{y|Intruders detected}} !!!}}]	[{{R|!!! {{y|侵入者を検知しました}} !!!}}]
+[{{R|!!! {{y|I'm sounding alarms}} !!!}}]	[{{R|!!! {{y|警報を鳴らしています}} !!!}}]
+[{{R|!!! {{y|I'm calculating probable attack radii}} !!!}}]	[{{R|!!! {{y|予想される攻撃範囲を計算しています}} !!!}}]
+[{{R|!!! {{y|I'm displaying probable attack radii}} !!!}}]	[{{R|!!! {{y|予想される攻撃範囲を表示しています}} !!!}}]
+Alarms blare across the enclave.	居留地じゅうに警報が鳴り響いた。
+Ereshkigal delivers insight from the Thin World:	エレシュキガルが薄界からの洞察を授けた:
