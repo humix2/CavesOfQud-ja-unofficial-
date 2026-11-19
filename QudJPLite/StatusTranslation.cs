@@ -239,3 +239,18 @@ namespace QudJPLite
         }
     }
 }
+
+namespace QudJPLite
+{
+    // 見る画面の本文の最後にある効果の並び（dazed, bleeding, …）。つなぐ前の Effect.GetDescription() の戻り値を訳す。
+    // GetLongDescription は同名が2つ（引数なし / StringBuilder）あるので、引数の型で1つに絞る
+    [HarmonyPatch(typeof(XRL.World.Parts.Description), nameof(XRL.World.Parts.Description.GetLongDescription), new System.Type[] { typeof(System.Text.StringBuilder) })]
+    public static class LookEffectsPatch
+    {
+        public static System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction> Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction> instructions)
+        {
+            return StatusText.TranslateAfter(instructions,
+                StatusText.Find(typeof(XRL.World.Effect), nameof(XRL.World.Effect.GetDescription)));
+        }
+    }
+}
