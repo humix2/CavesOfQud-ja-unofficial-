@@ -50,6 +50,13 @@
 ^Your genome destabilizes and you gain four mutation points\.$	ゲノムが不安定になり、変異ポイントを4獲得した。
 ^Your genome destabilizes and you gain (\w+) mutation points?\.$	ゲノムが不安定になり、変異ポイントを獲得した（{0}）。
 ^You gain (\d+) mutation points?!$	変異ポイントを{0}獲得した！
+^Base demeanor: \{\{r\|aggressive\}\}$	基本態度: {{r|攻撃的}}
+^Base demeanor: \{\{g\|docile\}\}$	基本態度: {{g|温和}}
+^This creature is native to the dimension known as \{\{(\w+)\|(?:[Tt]he )?(.+?)\}\}\.$	この生き物は「{{{0}|{1}}}」と呼ばれる次元の出身だ。
+^This creature is native to the dimension known as (?:[Tt]he )?(.+?)\.$	この生き物は「{0}」と呼ばれる次元の出身だ。
+^Physical features: (.+)$	身体の特徴: {0}
+^Equipped: (.+)$	装備: {0}
+^Gender: (.+)$	性別: {0}
 ^You gain \{\{C\|(\d+)\}\} skill points!$	スキルポイントを{{C|{0}}}獲得した！
 ^(?:The |the )?(.+?) equips (?:[Aa] |[Aa]n |[Tt]he |[Ss]ome )?(.+?)\.$	{0}は{1}を装備した。
 ^(?:The |the )?(.+?)'s (.+?) hits (?:the |a |an )?(.+?)!$	{0}の{1}が{2}に当たった！

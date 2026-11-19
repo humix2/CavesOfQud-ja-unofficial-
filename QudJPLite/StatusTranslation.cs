@@ -215,3 +215,27 @@ namespace QudJPLite
         }
     }
 }
+
+namespace QudJPLite
+{
+    // 見る（Look）のポップアップとアイテムのツールチップ。敵対・難易度・負傷の度合いと、本文の後ろに足される行
+    // （Base demeanor / Physical features / Equipped / 出身の次元）を、組み立てが終わった後に1回だけ訳す
+    [HarmonyPatch(typeof(XRL.UI.Look), nameof(XRL.UI.Look.GenerateTooltipInformation))]
+    public static class LookTooltipPatch
+    {
+        public static void Postfix(ref XRL.UI.Look.TooltipInformation __result)
+        {
+            try
+            {
+                __result.FeelingText = UITranslation.Translate(__result.FeelingText);
+                __result.DifficultyText = UITranslation.Translate(__result.DifficultyText);
+                __result.WoundLevel = UITranslation.Translate(__result.WoundLevel);
+                __result.LongDescription = MessageTranslation.Translate(__result.LongDescription);
+            }
+            catch (System.Exception ex)
+            {
+                UnityEngine.Debug.LogError("[QudJPLite] 見る画面の翻訳エラー: " + ex);
+            }
+        }
+    }
+}

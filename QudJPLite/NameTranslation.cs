@@ -158,7 +158,7 @@ namespace QudJPLite
                     string ja;
                     if (k.StartsWith(", ", StringComparison.Ordinal))
                     {
-                        ja = "、" + (Piece(k.Substring(2)) ?? k.Substring(2));
+                        ja = "、" + Titles(k.Substring(2));
                         (order > 600 ? tail : inner).Append(ja);
                         continue;
                     }
@@ -388,6 +388,26 @@ namespace QudJPLite
             }
             // 液体の付着・染み（"salty {{G|gooey}}"、"{{K|ooze}}-and-{{G|goo}}-stained"）
             return LiquidWords.Adjective(s);
+        }
+
+        // 名前の後ろの称号の並び（"A and B" / "A, B and C"）。まとめて訳せなければ1つずつ訳して「、」でつなぐ
+        private static string Titles(string s)
+        {
+            string whole = Piece(s);
+            if (whole != null)
+            {
+                return whole;
+            }
+            List<string> items = SplitList(s);
+            if (items.Count < 2)
+            {
+                return s;
+            }
+            for (int i = 0; i < items.Count; i++)
+            {
+                items[i] = Piece(items[i]) ?? items[i];
+            }
+            return string.Join("、", items.ToArray());
         }
 
         // "A, B, and C" / "A and B" を分ける
