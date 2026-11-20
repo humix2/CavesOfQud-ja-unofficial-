@@ -176,7 +176,9 @@ namespace QudJPLite
                 // 複数行の文（変異の説明など）は行ごとに、辞書 → 型 の順で訳す
                 if (text.IndexOf('\n') >= 0)
                 {
-                    return TranslateLines(text);
+                    // 改行をまたぐパターン（本の抜粋「…from X:\n\n"…"」など）は文全体で先に試す
+                    string whole = WholeTextPattern(text);
+                    return whole ?? TranslateLines(text);
                 }
                 string line = TranslateLine(text);
                 if (!ReferenceEquals(line, text))
@@ -343,6 +345,33 @@ namespace QudJPLite
                 }
             }
             return changed ? string.Join("\n", lines) : text;
+        }
+
+        // 複数行の文の全体にパターンを当てる。当たらなければ null（結果は覚えておく）
+        private static readonly Dictionary<string, string> wholeCache = new Dictionary<string, string>(StringComparer.Ordinal);
+
+        private static string WholeTextPattern(string text)
+        {
+            // 末尾の改行だけの文は対象外（正規表現の $ が末尾の改行の前に当たり、改行が消えるため）
+            if (text.Length > 2000 || text.IndexOf('\n') >= text.Length - 1 || !HasLatinWord(text))
+            {
+                return null;
+            }
+            lock (wholeCache)
+            {
+                string cached;
+                if (wholeCache.TryGetValue(text, out cached))
+                {
+                    return cached;
+                }
+                string result = MessageTranslation.MatchPatterns(text);
+                if (wholeCache.Count > 1024)
+                {
+                    wholeCache.Clear();
+                }
+                wholeCache[text] = result;
+                return result;
+            }
         }
 
         // 1行を訳す。訳せなければ同じ参照を返す
@@ -569,8 +598,11 @@ namespace QudJPLite
             // 改行直後の段落の最初の単語が1行に収まらないと、その先頭1文字を捨てて空行を1つ足してしまう。
             // 空白のない日本語の長い段落で起きるので、そういう文のときだけゲームの折り返しを飛ばし、
             // TextMeshPro 自身の折り返しに任せる。
+            // ただし TextMeshPro 側で折り返さない設定の欄（リザルト画面など）で止めると、
+            // 長い1行のまま中央寄せされて左右が切れるので、そういう欄ではゲームの折り返しを残す
             if (__instance.useBlockWrap && __instance.blockWrap > 0
-                && JapaneseWrap.HasLongJapaneseLine(__instance.text, __instance.blockWrap - 1))
+                && JapaneseWrap.HasLongJapaneseLine(__instance.text, __instance.blockWrap - 1)
+                && TmpWraps(__instance))
             {
                 __instance.useBlockWrap = false;
                 __state.BlockWrapOff = true;
@@ -588,6 +620,22 @@ namespace QudJPLite
                     __instance.text = wrapped;
                 }
             }
+        }
+
+        private static bool TmpWraps(UITextSkin skin)
+        {
+            TMPro.TextMeshProUGUI tmp = skin.GetComponent<TMPro.TextMeshProUGUI>();
+            if (tmp == null)
+            {
+                return false;
+            }
+            TMPro.TextWrappingModes mode = tmp.textWrappingMode;
+            if (mode != TMPro.TextWrappingModes.Normal && mode != TMPro.TextWrappingModes.PreserveWhitespace)
+            {
+                return false;
+            }
+            // リザルト画面の詳細欄は、ゲームの折り返しを止めると行頭が切れて表示される
+            return skin.GetComponentInParent<Qud.UI.GameSummaryScreen>() == null;
         }
 
         public static void Postfix(UITextSkin __instance, State __state)
@@ -674,6 +722,28 @@ namespace QudJPLite
             int i = 0;
             while (i < s.Length)
             {
+                // {{シェーダー|…}} の中に <nobr> を入れると、文字ごとに色を変えるシェーダーがタグの文字にも
+                // 色を付けてタグが壊れ、「<nobr>」がそのまま表示される。ブロックの中には入れず、
+                // 中身が1つのカタカナ語ならブロックの外側ごと囲む
+                if (s[i] == '{' && i + 1 < s.Length && s[i + 1] == '{')
+                {
+                    int blockEnd = FindMarkupEnd(s, i);
+                    if (blockEnd < 0)
+                    {
+                        break;
+                    }
+                    if (IsSingleKatakanaWordBlock(s, i, blockEnd))
+                    {
+                        if (sb == null)
+                        {
+                            sb = new StringBuilder(s.Length + 32);
+                        }
+                        sb.Append(s, copied, i - copied).Append("<nobr>").Append(s, i, blockEnd - i).Append("</nobr>");
+                        copied = blockEnd;
+                    }
+                    i = blockEnd;
+                    continue;
+                }
                 if (!IsKatakana(s[i]))
                 {
                     i++;
@@ -707,6 +777,58 @@ namespace QudJPLite
             }
             sb.Append(s, copied, s.Length - copied);
             return sb.ToString();
+        }
+
+        // start の "{{" に対応する "}}" の直後の位置。閉じていなければ -1
+        private static int FindMarkupEnd(string s, int start)
+        {
+            int depth = 0;
+            int i = start;
+            while (i + 1 < s.Length)
+            {
+                if (s[i] == '{' && s[i + 1] == '{')
+                {
+                    depth++;
+                    i += 2;
+                }
+                else if (s[i] == '}' && s[i + 1] == '}')
+                {
+                    depth--;
+                    i += 2;
+                    if (depth == 0)
+                    {
+                        return i;
+                    }
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            return -1;
+        }
+
+        // {{X|カタカナ語}} の形（入れ子なし、中身が2〜16文字のカタカナだけ）か
+        private static bool IsSingleKatakanaWordBlock(string s, int start, int end)
+        {
+            int pipe = s.IndexOf('|', start + 2, end - 2 - (start + 2));
+            if (pipe < 0)
+            {
+                return false;
+            }
+            int len = end - 2 - (pipe + 1);
+            if (len < 2 || len > 16 || s[pipe + 1] == '・')
+            {
+                return false;
+            }
+            for (int k = pipe + 1; k < end - 2; k++)
+            {
+                if (!IsKatakana(s[k]))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
         public static bool HasJapanese(string s)

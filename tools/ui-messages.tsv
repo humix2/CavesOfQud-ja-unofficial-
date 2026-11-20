@@ -122,8 +122,56 @@
 ^You swim through (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?)\.$	{0}の中を泳いで進んだ。
 ^You now have (\d+) feet of (.+?)\.$	{1}が{0}フィートになった。
 ^(.+?), surface, (.+)$	{0}、地上、{1}
-^Visit(.*[^\x00-\x7F].*)$	{0}を訪ねる
-^Travel to the historical site of (.+)$	{0}の史跡へ行く
+^Visit (.*[^\x00-\x7F].*)$	{0}を訪ねる
+^Travel to the historical site of (.+?)\.?$	{0}の史跡へ行く
+^Locate (?:[Tt]he |[Aa]n? )?(.+?) at the lair of (.+?)\.$	{1}の住処にある{0}を見つける。
+^Locate (?:[Tt]he |[Aa]n? )?(.+?), located (\S+) parasangs? (\w+) of (?:[Tt]he )?(.+?)\.$	{3}から{2}へ{1}パラサングの所にある{0}を見つける。
+^Locate (.*[^\x00-\x7F].*)$	{0}の場所を突き止める
+^Find (?:[Tt]he |[Aa]n? )?(.*[^\x00-\x7F].*)$	{0}を見つける
+^Return to (.+?) and speak (?:to|with) (.+?)\.$	{0}に戻り、{1}と話す。
+^Return to (.*[^\x00-\x7F].*)$	{0}に戻る
+^Return (?:[Tt]he |[Aa]n? )?(.+?) to (.+?) and speak (?:to|with) (.+?)\.$	{0}を{1}に持ち帰り、{2}と話す。
+^Return (?:[Tt]he |[Aa]n? )?(.+?) to (.*[^\x00-\x7F].*)$	{0}を{1}に持ち帰る
+^(?:[Tt]he |[Aa] )?[Bb]unch of (.+)$	{0}の束
+^quest: (.+)$	クエスト: {0}
+^You cannot equip items while stuck!$	動けない間はアイテムを装備できない！
+^You are lost!$	道に迷った！
+^You can't auto-equip (?:[Yy]our |[Tt]he |[Aa]n? |[Ss]ome )?(.+?)\.$	{0}を自動で装備できなかった。
+^(.+?[.!?]) You can't auto-equip (?:[Yy]our |[Tt]he |[Aa]n? |[Ss]ome )?(.+?)\.$	{0} {1}を自動で装備できなかった。
+^You sense psychic presences foreign to this place and time[.!]$	この場所と時代にそぐわない、いくつものサイキックの気配を感じた。
+^You sense a psychic presence foreign to this place and time[.!]$	この場所と時代にそぐわない、サイキックの気配を感じた。
+^Strength Bonus Cap: (.+)$	筋力ボーナス上限: {0}
+^Weapon Class: (.+)$	武器カテゴリ: {0}
+^Weight: (.+)$	重量: {0}
+^([+-]\d+) reputation with (.+)$	{1}との評判 {0}
+^Painted: This item is painted with a scene from the life of the ancient sultan (.+?):$	彩色: 古代のスルタン{0}の生涯の一場面が描かれている:
+^Engraved: This item is engraved with a scene from the life of the ancient sultan (.+?):$	彫刻: 古代のスルタン{0}の生涯の一場面が刻まれている:
+^Recover (.+?) at the Shrine at (.+?)\.$	{1}の祠で{0}を取り戻す。
+^Recover (.*[^\x00-\x7F].*)$	{0}を取り戻す
+^Helping (.*[^\x00-\x7F].*)$	{0}の手助け
+^outskirts, (.+)$	{0}の郊外
+^<unknown> / (.+)$	<不明> / {0}
+^([^\x00-\x7F][^/]*) / ([A-Za-z].*)$	{0} / {1}
+^Reputation: (.+)$	評判: {0}
+^(.+?) (?:despises|despise) you\. Even docile (?:members|ones) will attack you\.$	{0}はあなたを憎悪しており、おとなしい者でも襲ってくる。
+^(.+?) (?:dislikes|dislike) you, but docile (?:members|ones) won't attack you\.$	{0}はあなたを嫌っているが、おとなしい者は襲ってこない。
+^(.+?) (?:favors|favor) you\. Aggressive (?:members|ones) won't attack you\.$	{0}はあなたに好意的で、攻撃的な者も襲ってこない。
+^(.+?) (?:reveres|revere) you and (?:considers|consider) you one of their own\.$	{0}はあなたを崇め、自分たちの同胞だと見なしている。
+^(.+?) (?:doesn't|don't) care about you, but aggressive (?:members|ones) will attack you\.$	{0}はあなたを特に気に掛けていないが、攻撃的な者は襲ってくる。
+^(.+?) (?:is|are) interested in trading secrets about (.+?)\. They're also interested in hearing gossip that's about them\.$	{0}は{1}に関する秘密の取引に関心があり、自分たちに関するうわさ話にも興味を示す。
+^(.+?) (?:is|are) interested in sharing secrets about (.+?)\. They're also interested in hearing gossip that's about them\.$	{0}は{1}に関する秘密の共有に関心があり、自分たちに関するうわさ話にも興味を示す。
+^(.+?) (?:is|are) interested in learning about (.+?)\. They're also interested in hearing gossip that's about them\.$	{0}は{1}について知ることに関心があり、自分たちに関するうわさ話にも興味を示す。
+^(.+?) (?:is|are) interested in trading secrets about (.+?)\.$	{0}は{1}に関する秘密の取引に関心がある。
+^(.+?) (?:is|are) interested in sharing secrets about (.+?)\.$	{0}は{1}に関する秘密の共有に関心がある。
+^(.+?) (?:is|are) interested in learning about (.+?)\.$	{0}は{1}について知ることに関心がある。
+^(.+?) (?:is|are) interested in hearing gossip that's about them\.$	{0}は自分たちに関するうわさ話に興味を示す。
+^sultans they admire or despise$	彼らが好悪を抱くスルタンたち
+^You put (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) in (?:[Aa]n? |[Tt]he )?(.+?) to the (.+?)\.$	{2}の{1}に{0}を入れた。
+^You put (?:[Aa]n? |[Tt]he |[Ss]ome )?(.+?) in (?:[Aa]n? |[Tt]he )?(.+?)\.$	{1}に{0}を入れた。
+^Your ([^\x00-\x7F].*)$	{0}
+^(.*[^\x00-\x7F].*) Embassy$	{0}の大使館
+^(.*[^\x00-\x7F].*) Homestead$	{0}の農園
+^(.*[^\x00-\x7F].*) tent$	{0}の天幕
 ^Where do you want to pour your (.+?)\?$	{0}をどこに注ぐ？
 ^(.*)\[(\d+) drams? of (.+?)\](.*)$	{0}[{2} {1}ドラム]{3}
 ^You discover (.+?)!$	{0}を発見した！
@@ -230,3 +278,4 @@
 ^You need \{\{C\|(\w+)\}\} drams? of fresh water to charge (?:your |the |an? )?(.+?)\.$	{1}の充電には真水{{C|{0}}}ドラムが必要だ。
 ^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|(\w+)\}\} drams? of fresh water\.$	真水{{C|{1}}}ドラムで{0}を充電してもらえる。
 ^Swarmer: This creature receives \+1 to hit in melee and \+1 to penetration rolls for each other hostile swarmer beyond the first who is in another square adjacent to (?:its|his|her|their|hir|xer) target\. \(currently ([+-]?\d+)\)$	群れる者: この生き物の標的に隣接する別のマスにいる、敵対的な群れる者が1体を超えるごとに、近接攻撃の命中と貫通のロールに+1を得る。（現在 {0}）
+^Swarm Alpha: As long as this creature is adjacent to (?:its|his|her|their|hir|xer) target, (?:it|he|she|they|hir|xe) grants? (\d+) to the swarm bonuses of each other swarmer who is adjacent to (?:its|his|her|their|hir|xer) target\.$	群れの長: この生き物が標的に隣接している間、同じ標的に隣接しているほかの群れる者全員の群れボーナスを{0}増やす。

@@ -1,0 +1,829 @@
+# 料理の材料の訳（QudJPLite/CookingTranslation.cs）。焚き火で料理したときの「〜を鍋に入れてかき混ぜた」の材料に使う
+# 材料はゲームの HistorySpice.json（spice.cooking）から「量 形容詞 名詞」をランダムに組み立てたもの。英語<TAB>訳
+# 形容詞の位置に来た語は、訳が漢字・カタカナで終わるなら「の」を付ける（銅 → 銅の）。ここに無い語は UI 辞書を引く
+# 一部は QudJP (MIT License) の historyspice-common.ja.json の訳を元にした
+abandoned	見捨てられた
+abominable	忌まわしき
+abstract	抽象的な
+accepted	受け入れられた
+acre	エーカー
+acreage	地所
+adopted	引き取られた
+adorned	飾られた
+algebraic	代数的な
+altar	祭壇
+aluminum	アルミニウム
+amaranth	アマランス色
+amber	琥珀色
+analog	アナログの
+anterior	前方
+anteversion	前傾
+aquamarine	アクアマリン色
+arbitrary	恣意的な
+ark	方舟
+artful	巧みな
+astral	星界の
+aurelion	オーレリオン
+axial	軸
+azure	紺碧
+barge	艀
+betrothed	婚約した
+bilateral	両側
+bismuth	ビスマス
+bladder	膀胱
+blessed	祝福された
+blimp	飛行船
+bold	大胆な
+boundless	果てしない
+brass	真鍮
+briny	塩辛い
+bronze	青銅
+buggy	馬車
+burgundy	バーガンディ色
+bygone	往時の
+cab	客車
+cadmium	カドミウム
+canteen	水筒
+carved	彫刻された
+celebrated	名高き
+cerulean	空色
+chariot	戦車
+charmed	幸運に恵まれた
+chartreuse	シャルトルーズ色
+chromium	クロム
+cinder	燃え殻
+citrine	シトリン色
+clan	氏族
+clear	透明な
+cobalt	コバルト
+coiled	巻線状の
+colossal	巨大な
+commanding	威厳ある
+compassionate	慈悲深い
+computerized	コンピュータ化された
+contralateral	対側
+copper	銅
+copper-plated	銅めっきの
+coral	珊瑚色
+cordial	親しみ深い
+cornsilk	コーンシルク色
+coronal	冠状
+cosmic	宇宙の
+courageous	勇気ある
+courteous	礼儀正しい
+craft	舟
+cranial	頭側
+creative	創造的な
+crimson	深紅
+crowned	戴冠した
+crushed	押し潰された
+cup	杯
+curious	奇妙な
+cursed	呪われた
+cyan	シアン
+declared	宣言された
+degenerate	堕落した
+deserted	打ち捨てられた
+desiccated	乾ききった
+despicable	卑劣な
+destined	運命づけられた
+devil	悪霊
+devilish	悪魔じみた
+digital	デジタルの
+disgraceful	恥ずべき
+dismembered	切断された
+distal	遠位
+dominant	支配的な
+dorsal	背側
+dramatic	劇的な
+dust	砂塵
+ebony	漆黒
+electric	電気の
+embossed	浮き彫りにされた
+embraced	抱擁された
+eminent	卓越した
+empyrean	天上の
+end	果て
+engraved	彫り刻まれた
+erstwhile	かつての
+espoused	契りを結んだ
+esteemed	尊敬された
+etched	刻まれた
+eternal	永遠の
+ether	エーテル
+ewer	水差し
+exalted	崇められた
+exquisite	精妙な
+extricated	救い出された
+famed	名高い
+farm	農場
+farmstead	農家
+fateful	宿命的な
+fiendish	鬼畜じみた
+finger	指
+fish	魚
+flattened	平たく潰された
+folk	民
+foreign	異国の
+foretold	予言された
+forgotten	忘れ去られた
+fortuitous	偶然の
+foul	汚らわしい
+freed	自由になった
+freezing	凍てつく
+frigid	極寒の
+frontal	前頭
+frosty	霜に覆われた
+fuchsia	フクシア色
+furrow	畝
+gallant	勇ましい
+generous	寛大な
+gentle	穏やかな
+ghastly	おぞましい
+ghost	幽鬼
+glacial	氷河の
+glass	ガラス
+glazed	艶のある
+gleaming	きらめく
+glittering	きらめく
+glorious	栄光ある
+gold	金
+graceful	優美な
+gracious	優雅な
+great	偉大な
+ground	地面
+hair	髪
+haul	荷車
+haunt	たまり場
+hearth	炉辺
+hearthstone	炉床石
+hedge	生け垣
+high	高い
+hold	砦
+home	家
+homestead	屋敷
+honorable	名誉ある
+honored	誉れ高い
+humble	慎ましい
+icy	氷の
+illusory	幻の
+indigo	藍色
+inferior	下方
+inquisitive	探究心の強い
+intrepid	勇敢な
+ipsilateral	同側
+iron	鉄
+ivory	象牙色
+jeweled	宝石を散りばめた
+joined	結ばれた
+jug	水差し
+kin	血縁
+kind	一族
+kinsfolk	一族の者たち
+lateral	外側
+lead	鉛
+lenient	寛容な
+liberated	解放された
+lionhearted	豪胆な
+loam	ローム土
+loathsome	厭わしい
+logical	論理的な
+low	低い
+lucent	透き通る
+lucky	幸運な
+luminous	光り輝く
+lustrous	光沢のある
+magenta	マゼンタ
+magnesium	マグネシウム
+magnolia	マグノリア色
+mahogany	マホガニー色
+maimed	損傷した
+marigold	マリーゴールド色
+maroon	えび茶色
+marvelous	驚くべき
+masterful	見事な
+mated	つがいの
+medial	内側
+median	正中
+mercury	水銀
+mighty	強力な
+modest	控えめな
+moss green	苔色
+mug	マグ
+nail	爪
+nefarious	極悪な
+nickel	ニッケル
+noble	高貴な
+noseful	鼻いっぱい
+notable	注目すべき
+odious	忌まわしい
+old	古い
+once	かつて
+onyx	オニキス
+orbital	軌道の
+ordained	定められた
+otherworldly	異界の
+painted	彩色された
+palladium	パラジウム
+parietal	頭頂
+people	人々
+periodic	周期的な
+perpetual	永続する
+philosophical	哲学的な
+pistachio	ピスタチオ色
+platinum	白金
+poetic	詩的な
+posterior	後方
+potent	強力な
+primordial	原初の
+prismatic	プリズム状の
+proclaimed	布告された
+prominent	名立たる
+proximal	近位
+puff	一吹き
+punctured	穴を開けられた
+quiet	静かな
+radiant	輝かしい
+random	無作為な
+rare	珍しい
+reach	辺境
+relic	遺物
+renowned	名声ある
+reputable	評判高い
+rescued	救出された
+retrieved	取り戻された
+retroversion	後傾
+rhythmic	律動的な
+roaming	さまよう
+roost	ねぐら
+rostral	吻側
+sacred	聖なる
+sagittal	矢状
+salt	塩
+salt-spangled	塩を散りばめた
+salvaged	回収された
+sand	砂
+scarlet	緋色
+sea	海
+seat	座
+severed	切り落とされた
+shade	陰
+shadow	影
+sheathed	覆われた
+shining	輝く
+ship	船
+shire	郷
+shrewd	抜け目ない
+shrine	祠
+silver	銀
+skin	肌
+slag	鉱滓
+sly	ずる賢い
+sniff	ひと嗅ぎ
+soil	土壌
+space	宇宙
+spatial	空間の
+spectral	霊妙な
+spectre	亡霊
+stained	染みのついた
+stamped	刻印された
+star	星
+steel	鋼
+stein	ジョッキ
+stellary	星の
+strange	奇妙な
+sublime	崇高な
+superior	上方
+swaddled	おくるみに包まれた
+swathed	巻かれた
+tantalum	タンタル
+tasteful	趣味の良い
+telemagenta	テレマゼンタ
+temporal	側頭
+terminal	末端
+terra	大地
+terrible	恐るべき
+time	時
+timeworn	年月を経た
+tin	錫
+titanium	チタン
+tract	土地
+transverse	横断
+traveling	旅する
+tribe	部族
+tungsten	タングステン
+turf	芝土
+turquoise	ターコイズ色
+ultramarine	群青
+uncanny	不気味な
+unfamiliar	見知らぬ
+unilateral	片側
+vacated	明け渡された
+valiant	剛勇な
+venerable	尊い
+ventral	腹側
+vermilion	朱色
+vile	下劣な
+villainous	悪党じみた
+viridian	ビリジアン
+virtuous	徳高い
+visiting	訪れた
+voltaic	電流の
+wagon	荷馬車
+wandering	さすらう
+weighted	重み付けされた
+weird	異様な
+white-hot	白熱した
+wicked	邪悪な
+wintry	冬めいた
+wired	配線された
+wisp	一筋
+worldly	世慣れた
+wraith	亡霊
+wrapped	包まれた
+wretched	惨めな
+zinc	亜鉛
+abraded stone	擦り減った石
+abstract form	抽象形態
+academy	学院
+aegis	イージス
+agate	メノウ
+albino ape hair	アルビノエイプの毛
+algae	藻
+algal water	藻質の水
+algebraic salt	代数的な塩
+altimeter	高度計
+amethyst	アメジスト
+anise	アニス
+aniseed	アニスの実
+ankh	アンク
+antifreeze	不凍液
+apricot	アンズ
+arena	闘技場
+ash	灰
+asphodelyte petals	アスフォデライトの花びら
+astral dander	アストラルのフケ
+astrolabe	アストロラーベ
+astrologist	占星術師
+astronomer	天文学者
+atlas	地図帳
+atomic clock	原子時計
+axe	斧
+bad omen	凶兆
+banana leaf	バナナの葉
+banana peel	バナナの皮
+band	一団
+battery	電池
+becoming	生成
+bedroll	寝袋
+beetle chitin	甲虫のキチン質
+beetlebum chitin	ビートルバムのキチン質
+berries	ベリー
+berry	ベリー
+bit	ビット
+black shale flakes	黒い頁岩の薄片
+blade of grass	草の葉
+blade of noise grass	ノイズグラスの葉
+block of ice	氷塊
+blue coral	青サンゴ
+blueshifted dust of chrome	青方偏移したクロムの塵
+boar hair	猪の毛
+boar tooth	猪の牙
+boat	船
+bolt from a rifle turret	ライフルタレットのボルト
+bone	骨
+bone brine	骨の塩水
+bone dust	骨粉
+bone of a cannibal	人喰いの骨
+bones	骨
+boomstick	ブームスティック
+boot	ブーツ
+braided crysteel paper	編まれたクリスタル鋼紙
+brand	烙印
+bread	パン
+breast	胸
+breastplate	胸当て
+brine	塩水
+brinestalk	ブラインストーク
+brineweed	ブラインウィード
+bulgur	ブルグル
+burnt capacitor	焼けたコンデンサー
+byte	バイト
+candle quartz	蝋燭石英
+cannon	大砲
+cap	帽子
+cardamom	カルダモン
+chain	鎖
+chameleon horn	カメレオンの角
+charm	お守り
+charred bone	焦げた骨
+chevron	山形紋
+chickpea	ヒヨコマメ
+chip from the horn of a goatfolk	山羊人の角の欠片
+chipped-off chunk of the Spindle	スピンドルの欠片
+chow	飯
+chrome	クロム
+cinnamon	シナモン
+circuit	回路
+circuitboard	回路基板
+clay	粘土
+cleats	スパイク靴
+clogs	木靴
+clump of hair	毛の塊
+codex	写本
+coin	硬貨
+college	学寮
+compass	羅針盤
+compressed thoughtstuff	圧縮された思考物質
+cone	円錐
+cook	料理人
+cool static	冷たい静電気
+coolant	冷却液
+coral finger	指状サンゴ
+coral polyp	サンゴポリプ
+corroded circuit board	腐食した回路基板
+cosh	棍棒
+cracked lens	ひびの入ったレンズ
+crescent	三日月
+croc meat	ワニ肉
+cross	十字
+crust of bread	パンの耳
+crystal flowers	結晶の花
+crystal petal	結晶の花びら
+crystalline nectar	結晶の蜜
+crysteel shard	クリスタル鋼の破片
+crysteel shards	クリスタル鋼の破片
+cube	立方体
+cube of gelatin	ゼラチンの立方体
+cumin	クミン
+cylinder	円柱
+dacca root	ダッカ根
+dark matter	暗黒物質
+dawnglider egg	ドーングライダーの卵
+dawnglider feather	ドーングライダーの羽
+diacalyptus leaf	ディアカリプタスの葉
+diamond	ダイヤモンド
+diaphanous wing	透き通った翼
+dig site	発掘現場
+digestive jelly	消化ゼリー
+dihedron	二面体
+dilute static	希薄な静電気
+dim light	薄暗い光
+dim memory	かすかな記憶
+dirk	短剣
+displaced air	変位した空気
+dodecahedron	十二面体
+dog hair	犬の毛
+dogthorn	ドッグソーン
+dogthorn leaf	ドッグソーンの葉
+dragonfly thorax	トンボの胸部
+dram of brine	1ドラムの塩水
+dream dust	夢の塵
+dream wren feather	ドリームレンの羽
+dreamcrunglem	ドリームクランガル質
+dromad dander	ドロマドのフケ
+dromad hair	ドロマドの毛
+dust from the Great Machine	大いなる機械の塵
+Eater dander	喰らう者のフケ
+ecliptic glyph	黄道のグリフ
+edge	刃
+eel hair	ウナギの毛
+eight	八
+electrician	電気技師
+ellipsoid	楕円体
+emerald	エメラルド
+enhancement	強化
+entropy fungus	エントロピー菌
+equimax hair	エクイマックスの毛
+explorer	探検家
+eye	目
+feed	飼料
+fell	伐り斧
+fenugreek	フェヌグリーク
+fingernail	爪
+fish meat	魚肉
+five	五
+flake of shale	頁岩の薄片
+flakes of grave moss	墓苔の薄片
+flower	花
+flower petal	花びら
+flower petals	花びら
+flowers	花
+foamcrete flake	フォームコンクリートの欠片
+folio	二つ折り本
+force coupling	フォースカップリング
+forest motes	森の微塵
+four	四
+fractured microchip	砕けたマイクロチップ
+fractus thorn	フラクタスの棘
+frill	フリル
+fulcrete brick	フルクリートレンガ
+fulcrete flake	フルクリートの欠片
+fungus	菌類
+gambler	賭博師
+gambling den	賭場
+gauntlet	ガントレット
+gaw	飾り物
+gear	歯車
+gemstone	宝石
+geologist	地質学者
+gibbon eye	テナガザルの目
+gibbon hair	テナガザルの毛
+gladiator	剣闘士
+glaive	グレイブ
+glass microtubing	ガラス製微小管
+glassblower	ガラス職人
+glitchtree leaf	グリッチツリーの葉
+glitchtree leaves	グリッチツリーの葉
+glittering spore	煌めく胞子
+glittering spores	煌めく胞子
+gloves	手袋
+glowcrow feather	グロウクロウの羽
+glowfish cheek	グロウフィッシュのほほ肉
+glowpad leaf	グロウパッドの葉
+goat hair	山羊の毛
+gold coral	金サンゴ
+good omen	吉兆
+goop	べたつく粘液
+grave goods	副葬品
+gravel	砂利
+guard	護り
+guise	装い
+gun	銃
+gunpowder	火薬
+hammer	ハンマー
+hatchet	手斧
+heart	心臓
+helm	兜
+helmet	兜
+hermit dander	隠者のフケ
+hermitage	庵
+hew	断ち斧
+hexagon	六角形
+hexagons	六角形
+historian	歴史家
+holographic coupler	ホログラフィックカプラー
+hood	フード
+hosohedron	ホソヘドロン
+hourglass	砂時計
+hunk of cheese	チーズの塊
+hyperboloid	双曲面体
+ice frog spittle	氷カエルの唾
+icicle	つらら
+icosahedron	二十面体
+imaginary number	虚数
+indeterminable qualia	判別不能なクオリア
+inkwell	インク壺
+iron gauntlet	鉄のガントレット
+Issachari nomad hair	イッサカリ遊牧民の毛
+jasper stone	碧玉
+jewel	宝玉
+jeweler	宝石職人
+journal	日誌
+junk dollar	ジャンクダラー
+junk dollar spine	ジャンクダラーの棘
+kelp	昆布
+knot	結び目
+kris	クリス
+laboratory	研究所
+labyrinthite flakes	ラビリンサイトの薄片
+leaf	葉
+leaf from Chavvah, the Tree of Life	生命の樹チャヴァの葉
+leech blood	ヒルの血
+lexicon	辞書
+lichen	地衣類
+lid	蓋
+light attenuator	光減衰器
+light bulb	電球
+limestone	石灰岩
+link	鎖の輪
+logic gate	論理ゲート
+long arm	長銃
+lush acid	瑞々しい酸
+mace	メイス
+madpole cheek	マッドポールの頬肉
+madpole tooth	マッドポールの歯
+magnet	磁石
+mail	鎖帷子
+map	地図
+marble chalk	大理石のチョーク
+mask	仮面
+meat	肉
+metacrystal	メタクリスタル
+meteorite	隕石
+microcontroller	マイクロコントローラー
+miniature clock	小さな時計
+miniature glacier	小さな氷河
+mint	ミント
+mirror	鏡
+mitts	ミトン
+mold	カビ
+moment in time chosen arbitrarily	恣意的に選ばれた時の瞬間
+mopango scale	モパンゴの鱗
+mote of light	光の微塵
+mover magnet	ムーバー磁石
+mudroot	泥根
+muffs	耳あて
+mung bean	緑豆
+mural shaving	壁画の削り片
+musa	ムサ
+mushroom cap	キノコの傘
+mushroom stalk	キノコの柄
+musket muzzle	マスケットの銃口
+nachash root	ナハシュの根
+nachash tendril	ナハシュの巻きひげ
+nanomaterials	ナノマテリアル
+negative number	負の数
+nimbus bark	光輪の樹皮
+nimbus leaf	光輪の葉
+nine	九
+nomad	遊牧民
+observation liquid	観測液
+observatory	天文台
+octohedron	八面体
+ogre ape hair	オーガエイプの毛
+omnibus	選集
+one	一
+opus	作品
+orb	宝珠
+organ	臓器
+oscilloscope	オシロスコープ
+outpost	前哨地
+pair of sandals	一足のサンダル
+palladium strut	パラジウム支柱
+palm frond	ヤシの葉
+paprika	パプリカ
+paraboloid	放物面体
+pebble	小石
+pentacle	五芒星の護符
+pentagram	五芒星
+perch cheek	パーチの頬肉
+perch scale	パーチの鱗
+peridot	ペリドット
+petrified hair	石化した毛
+philosopher	哲学者
+photon	光子
+photonic matter	光子物質
+photons	光子
+piece of marble	大理石片
+pin from a dish horn	ディッシュホーンのピン
+pin from a scrying horn	占視の角笛のピン
+pin from an underhorn	アンダーホーンのピン
+pinch of salt	ひとつまみの塩
+pistol	ピストル
+plant matter	植物質
+plasma	プラズマ
+platonic solid	プラトン立体
+point	穂先
+polygon	多角形
+prayer yurt	祈りのユルト
+prism	プリズム
+prism fragment	プリズム片
+prism perch	プリズムパーチ
+pristine circuit	無傷の回路
+psionic residue	サイオニック残渣
+psychal rhythm	サイカルな律動
+psychal rhythm pebble	サイカルな律動の小石
+pummel	殴打
+pure alloy	純合金
+purple membrane	紫の膜
+pyramid	ピラミッド
+quantum fuzz	量子の綿毛
+quartz dust	水晶の粉塵
+quill	羽根ペン
+quillipede quill	クィリペードの棘
+quincunx	五点形
+red coral	赤サンゴ
+rifle	ライフル
+ring	指輪
+roasted antenna	焼けたアンテナ
+rod	杖
+rose	バラ
+ruby	ルビー
+rust	錆
+saffron	サフラン
+salt kraken larvae	ソルトクラーケンの幼生
+salthopper wing	ソルトホッパーの羽
+sapphire	サファイア
+sarcophagus juice	石棺の液汁
+scholar	学者
+scientist	科学者
+scrap	スクラップ
+scrap crystal	くず結晶
+scrap electronics	電子部品のくず
+scrap metal	スクラップ金属
+scribe	書記
+scriptorium	写字室
+scroll	巻物
+seal	印章
+seed spit	種の唾
+sesame	ゴマ
+sesame seed	ゴマの種
+seven	七
+sextant	六分儀
+shale	頁岩
+shank	刃
+shard from a glass dome	ガラスのドームの破片
+shattered stratum	砕けたストラタ
+shaving of understratum	下層ストラタの削り片
+shavings from a tortoise shell	亀の甲羅の削り片
+shield	盾
+shimscale leaf	シムスケールの葉
+shimscale root	シムスケールの根
+shiv	手製ナイフ
+sickle	鎌
+sidearm	携行武器
+silt	沈泥
+six	六
+skull	頭蓋骨
+skunk hair	スカンクの毛
+sludge	ヘドロ
+slug spit	スラッグの唾
+small stone	小石
+smeared urberry	塗りつけられたウルベリー
+smut	黒穂
+snapjaw fang	スナップジョーの牙
+sneaks	スニーカー
+snowflake	雪片
+soldier	兵士
+soy bean	大豆
+spade	鋤
+sphere	球
+spheroid	回転楕円体
+spice root	スパイス根
+Spindle glitter	スピンドルのきらめき
+sponge	スポンジ
+spongy mass	海綿状の塊
+staff	杖
+star blimp	星の飛行船
+star dust	星の塵
+star in a bottle	瓶詰めの星
+star orchid dust	星蘭の塵
+star palm frond	スターパームの葉
+stargazer	星見
+starshell scute	スターシェルの鱗板
+starship exhaust	星船の排気
+stillvine leaf	スティルバインの葉
+sun ribbon panel	太陽リボンのパネル
+sunflower petal	ヒマワリの花びら
+svardym drool	スヴァーディムのよだれ
+svardym egg shell	スヴァーディムの卵殻
+svardym spittle	スヴァーディムの唾
+swarmshade leaf	スウォームシェードの葉
+swarmshade root	スウォームシェードの根
+sword	剣
+synthetic wing	合成翼
+tavern	酒場
+telescope	望遠鏡
+ten	十
+tetractys	テトラクテュス
+tetrahedron	四面体
+tetraxenonoglass	テトラキセノノガラス
+thorn from a jilted lover	捨てられた恋人の棘
+thoughtforms	思考形態
+thread from an Issachari banner	イッサカリの旗の糸
+three	三
+thurible smoke	香炉の煙
+tinker	修理工
+tiny crab	小さなカニ
+toadstool	毒キノコ
+token	印
+tome	大著
+tortoise shell	亀の甲羅
+torus	トーラス
+toy	おもちゃ
+trash	ごみ
+tree	木
+trefoil	三つ葉形
+triad	三つ組
+Triangulum dust	トリアングルムの塵
+tunnel sponge	トンネルスポンジ
+twelve	十二
+twenty	二十
+two	二
+ultraviolet light	紫外光
+unimax tail hair	ユニメックスの尾毛
+uuyr	ウウィル
+uuyr seed	ウウィルの種
+vacuum tube	真空管
+vanilla	バニラ
+vectorized fossil	ベクトル化した化石
+vectorized pebbles	ベクトル化した小石
+veil	ヴェール
+vessel of the Fates	運命の器
+vest	ベスト
+volume	巻
+ward	護符
+ware	器
+water	水
+wheel	車輪
+white esh feather	ホワイトエッシュの羽
+window maker	窓職人
+winter eremite	冬の隠者
+wire	ワイヤー
+workshop	工房
+yurt	ユルト
+yyrabra	イラブラ
+yyrabra root	イラブラの根
+ziv leaf	ジヴの葉
+ziv root	ジヴの根
