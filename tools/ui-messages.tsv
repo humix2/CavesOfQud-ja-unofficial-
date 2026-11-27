@@ -145,6 +145,30 @@
 ^Weight: (.+)$	重量: {0}
 ^([+-]\d+) reputation with (.+)$	{1}との評判 {0}
 ^Painted: This item is painted with a scene from the life of the ancient sultan (.+?):$	彩色: 古代のスルタン{0}の生涯の一場面が描かれている:
+^You've contracted (.+?) on your back\.$	背中が{0}に感染した。
+^You've contracted (.+?) on your (.+?)\.$	{1}が{0}に感染した。
+^The shrine depicts a significant event from the life of the ancient sultan (.+?):$	この祠は、古代のスルタン{0}の生涯における重大な出来事を描いている:
+^shrine to (.+?), (.+)$	{1}{0}の祠
+^shrine to (.+)$	{0}の祠
+^(\d+) BR$	レシェフ前{0}年
+^(\d+) AR$	レシェフ後{0}年
+^%(-?\d+)%$	{0}年
+^In (.+?), Rebekah died of glotrot, and on her deathbed Resheph forgave her and absolved her of sin\. He allowed her to be buried in the village of Ezra, outside the gate to the Tomb of the Eaters and beneath the shadow of the Spindle\.$	{0}、レベッカはグロットロットで世を去った。レシェフは死の床にある彼女を赦し、その罪を解いた。そして喰らう者の墓所の門の外、スピンドルの影の下にあるエズラの村に彼女を葬ることを許した。
+^In (.+?), Resheph appointed Rebekah administrator of (.+?)\. She tendered alms for the sick in his name\.$	{0}、レシェフはレベッカを{1}の行政官に任じた。彼女はレシェフの名において病める者たちに施しを与えた。
+^Acting against a prohibition on the practice of worshipping the stars, Resheph led an army to the gates of Omonporch\. There he defeated his brothers in battle and liberated its citizens, and they crowned him the sultan of Qud\.$	星々を崇める行いを禁じる掟に背き、レシェフは軍を率いてオモンポーチの門へ攻め上った。そこで兄弟たちを戦で打ち破って市民を解放すると、人々は彼をクッドのスルタンとして戴冠した。
+^In (.+?), Rebekah betrayed Resheph by stealing the Mark of Death from the gate to the Tomb of the Eaters\. In punishment, Resheph excommunicated her from the sultanate\.$	{0}、レベッカは喰らう者の墓所の門から死の刻印を盗み、レシェフを裏切った。その罰として、レシェフは彼女をスルタン国から破門した。
+^In (.+?), Resheph cleansed the marshlands of the plagues of the Gyre and taught Abram to sow watervine along its fertile tracks\.$	{0}、レシェフは沼地からジャイアの疫病を清め、エイブラムにその肥沃な土地へウォーターヴァインを植えることを教えた。
+^In (.+?), Resheph closed the gates to the Tomb of the Eaters, abdicated the throne, and dissolved the sultanate in order to lift the curse of the Gyre\.$	{0}、レシェフはジャイアの呪いを解くため、喰らう者の墓所の門を閉ざし、王位を退き、スルタン国を解散した。
+^In (.+?), Resheph, the Above, Ghost-in-Cerulean, the Coiled Lamb of Baetyls, died of natural causes\. He was 216 years old\.$	{0}、天上の者、セルリアンの幽霊、ベテルたちのとぐろ巻く子羊レシェフは天寿を全うした。享年216歳であった。
+^After conferring with mysterious strangers, Resheph convinced them to help him found a harborage for the purpose of receiving visitors from across the clustered cosmos\. They named it Starfarer's Quay\.$	謎めいた異邦人たちと協議を重ねたのち、レシェフは彼らを説き伏せ、群れなす宇宙の彼方から訪れる者たちを迎えるための港を共に築いた。彼らはそれを星渡りの埠頭と名づけた。
+^While traveling alone through the Rust Wells, Resheph came across a trove of gleaming stars in a bottle\. From that day forth, he always kept some stardust on his person\.$	錆の井戸をひとりで旅していたとき、レシェフは瓶に詰められたきらめく星々の宝を見つけた。その日から、彼は常に星屑を身につけていた。
+^In (.+?), the Gyre widened, and the first triad of plagues afflicted the land\. The water was poisoned with salt, girshlings ravaged the fruit and wheat, and tongues rotted away in the mouths of kith and kin\. Resheph walked below the chrome arches and healed the sick\.$	{0}、ジャイアが広がり、最初の三つの疫病が地を襲った。水は塩に毒され、ギルシュリングが果実と小麦を食い荒らし、同胞たちの口の中で舌が腐り落ちた。レシェフはクロームのアーチの下を歩み、病める者たちを癒やした。
+^In (.+?), the Gyre widened, and the second triad of plagues afflicted the land\. The legs of kith and kin annealed to iron, darkness bloomed from the earth, and the svardym blackened the sky\. Resheph walked below the chrome arches and healed the sick\.$	{0}、ジャイアが広がり、第二の三つの疫病が地を襲った。同胞たちの脚は鉄と化し、大地から闇が花開き、スヴァーディムが空を黒く覆った。レシェフはクロームのアーチの下を歩み、病める者たちを癒やした。
+^One starry evening, a babe was found swaddled with its mouth full of circuits by a group of baetyls in Red Rock\. They took him into their fold and fostered him, and he became known as Resheph, the Coiled Lamb of Baetyls\.$	ある星の夜、レッドロックで、口いっぱいに回路を含んだ産着姿の赤子がベテルの一団に見つけられた。ベテルたちは彼を仲間に迎えて育て、彼はやがてベテルたちのとぐろ巻く子羊、レシェフとして知られるようになった。
+^At Starfarer's Quay, Resheph consulted with mysterious strangers and learned the secret of the Gyre\. By cause of the misdeeds of the elder saads and sultans, star beings had levied a curse on Qud\. Resheph vowed to make right from this wrong and redeem our doomed world\.$	星渡りの埠頭で、レシェフは謎めいた異邦人たちに助言を求め、ジャイアの秘密を知った。古のサードとスルタンたちの悪行ゆえに、星の存在たちがクッドに呪いをかけていたのだ。レシェフはこの過ちを正し、滅びゆく我らの世界を贖うと誓った。
+^While traveling near Bethesda Susa, Resheph lost control of his chariot and drove it off a cliff\. Luckily, a local physician named Rebekah came to his rescue\. Moved by her kindness, Resheph enrolled at a nearby hospice as her apprentice\.$	ベテスダ・スーサの近くを旅していたとき、レシェフは戦車を御しきれず、崖から転落した。幸いにも、レベッカという土地の医師が彼を救った。その優しさに心を打たれたレシェフは、近くの療養院に入って彼女の弟子となった。
+^In (.+?), the Gyre widened, and the final plague afflicted the land\. The Girsh Nephilim rose from their cradles on the Moon Stair and slouched toward Qud to eat its young\. Resheph rose to meet them in battle and cast them back\.$	{0}、ジャイアが広がり、最後の疫病が地を襲った。ギルシュ・ネフィリムが月の階段の揺りかごから起き上がり、クッドの子らを喰らわんとのそりと迫った。レシェフは立ち上がって彼らを迎え撃ち、押し返した。
+^At twilight in the shadow of the Spindle, the people of Omonporch saw an image on the horizon that looked like a ghost bathed in cerulean\. It was Resheph, and after he came and left Omonporch, the people built a monument to him, and thenceforth called him Ghost-in-Cerulean\.$	スピンドルの影に黄昏が落ちるころ、オモンポーチの人々は地平線に、セルリアンの光を浴びた幽霊のような姿を見た。それはレシェフだった。彼がオモンポーチを訪れて去ったのち、人々は記念碑を建て、以後彼をセルリアンの幽霊と呼んだ。
 ^Engraved: This item is engraved with a scene from the life of the ancient sultan (.+?):$	彫刻: 古代のスルタン{0}の生涯の一場面が刻まれている:
 ^Recover (.+?) at the Shrine at (.+?)\.$	{1}の祠で{0}を取り戻す。
 ^Recover (.*[^\x00-\x7F].*)$	{0}を取り戻す
@@ -279,3 +303,4 @@
 ^You may recharge (?:your |the |an? )?(.+?) for \{\{C\|(\w+)\}\} drams? of fresh water\.$	真水{{C|{1}}}ドラムで{0}を充電してもらえる。
 ^Swarmer: This creature receives \+1 to hit in melee and \+1 to penetration rolls for each other hostile swarmer beyond the first who is in another square adjacent to (?:its|his|her|their|hir|xer) target\. \(currently ([+-]?\d+)\)$	群れる者: この生き物の標的に隣接する別のマスにいる、敵対的な群れる者が1体を超えるごとに、近接攻撃の命中と貫通のロールに+1を得る。（現在 {0}）
 ^Swarm Alpha: As long as this creature is adjacent to (?:its|his|her|their|hir|xer) target, (?:it|he|she|they|hir|xe) grants? (\d+) to the swarm bonuses of each other swarmer who is adjacent to (?:its|his|her|their|hir|xer) target\.$	群れの長: この生き物が標的に隣接している間、同じ標的に隣接しているほかの群れる者全員の群れボーナスを{0}増やす。
+^The zealot yells \{\{W\|'(.+)'\}\}$	狂信者が叫んだ。{{W|「{0}」}}

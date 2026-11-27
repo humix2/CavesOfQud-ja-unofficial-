@@ -1,0 +1,11 @@
+# ゲームのコードに英語で直書きされている会話（生成された村の住人など）の訳。
+# 英語<TAB>訳。1行に1文（ゲームが「~」で区切ってランダムに選ぶ単位）。
+# tools/conv/*.txt にある文は自動で拾うので、ここにはそこに無い文だけ書く。
+# =player.formalAddressTerm= などの変数は英語のまま出るので、訳では外す（docs/translation-style.md）
+Moon and Sun. Wisdom and will.	月と太陽を。知恵と意志を。
+Peace, =player.formalAddressTerm=.	平穏を、旅の人。
+Welcome, =player.species=. What do you desire?	ようこそ、旅の方。何がお望みかな？
+Come. Browse my wares, =player.formalAddressTerm=.	さあ、品物を見ていってください。
+Need a gadget repaired or identified, =player.formalAddressTerm=? Or if you're a tinker =player.reflexive=, perhaps you'd like to peruse my schematics?	道具の修理か鑑定がご入り用かな？ あんた自身がからくり職人なら、私の設計図を見ていくといい。
+*does not react*	＊反応しない＊
+I know a lot about the town!	この町のことなら何でも知ってるよ！

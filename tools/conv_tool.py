@@ -17,6 +17,8 @@
   python -I tools/conv_tool.py apply <ゲームのBase/Conversations.xml> <QudJPのConversations.jp.xml> <tools/conv>
       QudJP の会話ファイルの文を自作訳で差し替える（ファイルを上書き）。
       英語原文が変わった訳は使わずに一覧を出す
+  python -I tools/conv_tool.py lines <tools/conv> <tools/conv-code.tsv> <出力.tsv>
+      コードで組み立てられる会話（生成された村の住人など）用に、1文ごとの英→日表を作る
 """
 import glob
 import os
@@ -207,11 +209,52 @@ def apply(base, target, convdir):
     print(f"会話の自作訳: 適用 {done}（うち QudJP に無く追加 {missing}） / 原文変更で不採用 {stale} / 未訳 {empty}")
 
 
+def seg_norm(s):
+    """「~」で区切った1文を、ゲーム側と同じ形（行ごとに前後の空白を除く）にそろえる。"""
+    return "\n".join(l.strip() for l in s.strip().split("\n")).strip()
+
+
+def esc(s):
+    return s.replace("\\", "\\\\").replace("\t", "\\t").replace("\n", "\\n")
+
+
+def lines(convdir, codetsv, out):
+    """コードで組み立てられる会話（生成された村の住人など）用の、1文ごとの英→日表を作る。
+    tools/conv の訳を「~」で区切って1文ずつ対応させ（文の数が合うブロックだけ）、
+    コードに直書きの文の訳（tools/conv-code.tsv）を足す。同じ英文に訳が複数あれば最初のもの"""
+    table = {}
+    skipped = 0
+    for f in sorted(glob.glob(os.path.join(convdir, "*.txt"))):
+        for k, (en, ja) in read_blocks(f).items():
+            if not ja:
+                continue
+            es, js = en.split("~"), ja.split("~")
+            if len(es) != len(js):
+                skipped += 1
+                continue
+            for e, j in zip(es, js):
+                e, j = seg_norm(e), seg_norm(j)
+                if e and j and re.search(r"[A-Za-z]", e):
+                    table.setdefault(e, j)
+    for line in open(codetsv, encoding="utf-8"):
+        line = line.rstrip("\n").rstrip("\r")
+        if not line or line.startswith("#") or "\t" not in line:
+            continue
+        e, j = line.split("\t", 1)
+        table[seg_norm(e)] = seg_norm(j)
+    with open(out, "w", encoding="utf-8", newline="\n") as fo:
+        for e, j in table.items():
+            fo.write(f"{esc(e)}\t{esc(j)}\n")
+    print(f"会話の1文ごとの訳: {len(table)} 件（文の数が合わず飛ばしたブロック {skipped}）")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "extract":
         extract(sys.argv[2], sys.argv[3], set(sys.argv[4:]))
     elif cmd == "apply":
         apply(sys.argv[2], sys.argv[3], sys.argv[4])
+    elif cmd == "lines":
+        lines(sys.argv[2], sys.argv[3], sys.argv[4])
     else:
         sys.exit(__doc__)

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text.RegularExpressions;
 using HarmonyLib;
 using UnityEngine;
@@ -23,6 +24,139 @@ namespace QudJPLite
             {
                 Debug.LogError("[QudJPLite] 選択肢タグの翻訳エラー: " + ex);
             }
+        }
+    }
+
+    // 生成された村の住人（村の薬師など）の会話は、ゲームのコードが英語の文字列から組み立てるので
+    // Conversations.jp.xml の訳が効かない（セーブにも英文が入る）。
+    // 本文を選ぶところ（GetText。ここから「~」区切りの1文がランダムに選ばれる）で、1文ずつ訳す。
+    // 訳は tools/conv の自作訳を1文ごとにばらした表（deploy.ps1 が conv-lines.tsv を作る）
+    [HarmonyPatch(typeof(IConversationElement), nameof(IConversationElement.GetText))]
+    public static class ConversationTextPatch
+    {
+        public static void Postfix(IConversationElement __result)
+        {
+            if (__result == null || string.IsNullOrEmpty(__result.Text))
+            {
+                return;
+            }
+            try
+            {
+                __result.Text = ConversationLines.Translate(__result.Text);
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("[QudJPLite] 会話文の翻訳エラー: " + ex);
+            }
+        }
+    }
+
+    [XRL.HasModSensitiveStaticCache]
+    internal static class ConversationLines
+    {
+        private const string LineFile = "conv-lines.tsv";
+
+        private static Dictionary<string, string> lines = new Dictionary<string, string>(StringComparer.Ordinal);
+
+        [XRL.ModSensitiveCacheInit]
+        public static void Load()
+        {
+            Dictionary<string, string> d =new Dictionary<string, string>(StringComparer.Ordinal);
+            try
+            {
+                string dir = UITranslation.ModDirectory();
+                string path = dir == null ? null : Path.Combine(dir, "Localization", LineFile);
+                if (path != null && File.Exists(path))
+                {
+                    foreach (string line in File.ReadAllLines(path))
+                    {
+                        int tab = line.IndexOf('\t');
+                        if (tab > 0)
+                        {
+                            d[Unescape(line.Substring(0, tab))] = Unescape(line.Substring(tab + 1));
+                        }
+                    }
+                    Debug.Log("[QudJPLite] 会話の1文ごとの訳を読み込みました: " + d.Count + " 件");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("[QudJPLite] 会話の1文ごとの訳の読み込みエラー: " + ex);
+            }
+            lines = d;
+        }
+
+        // 「~」で区切った文を1つずつ表で引く。訳の無い文はそのまま。何も訳せなければ元の文字列を返す
+        public static string Translate(string text)
+        {
+            Dictionary<string, string> d = lines;
+            if (d.Count == 0 || !HasLatin(text))
+            {
+                return text;
+            }
+            string[] segs = text.Split('~');
+            bool changed = false;
+            for (int i = 0; i < segs.Length; i++)
+            {
+                string ja;
+                if (HasLatin(segs[i]) && d.TryGetValue(Normalize(segs[i]), out ja))
+                {
+                    segs[i] = ja;
+                    changed = true;
+                }
+            }
+            return changed ? string.Join("~", segs) : text;
+        }
+
+        private static bool HasLatin(string s)
+        {
+            foreach (char c in s)
+            {
+                if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // 行ごとの前後の空白を除く（XML の字下げや改行の違いを吸収する。表の側も同じ形）
+        private static string Normalize(string s)
+        {
+            s = s.Trim();
+            if (s.IndexOf('\n') < 0)
+            {
+                return s;
+            }
+            string[] ls = s.Replace("\r", "").Split('\n');
+            for (int i = 0; i < ls.Length; i++)
+            {
+                ls[i] = ls[i].Trim();
+            }
+            return string.Join("\n", ls).Trim();
+        }
+
+        private static string Unescape(string s)
+        {
+            if (s.IndexOf('\\') < 0)
+            {
+                return s;
+            }
+            System.Text.StringBuilder sb = new System.Text.StringBuilder(s.Length);
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                if (c == '\\' && i + 1 < s.Length)
+                {
+                    char n = s[++i];
+                    sb.Append(n == 'n' ? '\n' : n == 't' ? '\t' : n);
+                }
+                else
+                {
+                    sb.Append(c);
+                }
+            }
+            return sb.ToString();
         }
     }
 
