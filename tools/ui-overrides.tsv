@@ -154,3 +154,6 @@ Deactivate Rodanis Y. [{{G|+100 amps}}]	ロダニスYを停止する。[{{G|+100
 [{{R|!!! {{y|I'm displaying probable attack radii}} !!!}}]	[{{R|!!! {{y|予想される攻撃範囲を表示しています}} !!!}}]
 Alarms blare across the enclave.	居留地じゅうに警報が鳴り響いた。
 Ereshkigal delivers insight from the Thin World:	エレシュキガルが薄界からの洞察を授けた:
+You cannot do that while wading.	水の中を歩いている間はそれはできない。
+You cannot do that while swimming.	泳いでいる間はそれはできない。
+You cannot do that while traveling on the world map.	ワールドマップを移動している間はそれはできない。
